@@ -1,0 +1,168 @@
+/**
+ * Main menu for wider viewer widths
+ */
+
+.main-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.logo {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.logo * {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.menu-wrapper {
+  width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  border-top: 1px solid #ccc; /* Thin solid grey line at the top */
+  border-bottom: 3px double #000; /* Double solid black line at the bottom */
+  display: flex;
+  align-items: center;
+  height: 3em;
+  margin-bottom: 1em; 
+}
+
+.menu-items {
+  margin: 0 auto;
+}
+
+.menu {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+.menu li {
+ display: inline-block;
+ position: relative;
+}
+
+.menu li a, .menu li .submenu-title {
+ display: block;
+ padding: 10px 15px;
+ text-decoration: none;
+ color: #333;
+
+ &:hover {
+   // background-color: darken($background-color,15%);
+   text-decoration: underline;
+ }
+}
+
+.menu li:hover > ul {
+ display: block;
+}
+
+/**
+* Submenu stuff
+*/
+
+.submenu {
+  display: none;
+  position: absolute;
+  background: $background-color;
+  min-width: 200px;
+  z-index: 900;
+  // top: 100%;
+  // left: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .submenu {
+    width: auto;
+    min-width: auto;
+  }
+}
+
+.submenu li {
+ display: block;
+}
+
+.submenu li a {
+ padding: 8px 15px;
+ border-bottom: 3px solid $brand-color;
+}
+
+.arrow {
+ font-size: .8em;
+ vertical-align: sub;
+}
+
+ @include media-query($on-palm) {
+   .menu-wrapper {
+     max-width: 100vw;
+   }
+   .menu li {
+     display: block;
+   }
+
+   .submenu {
+     position: static;
+   }
+ }
+
+ /**
+  * Menu toggler for narrower viewer widths
+  */
+
+ .menu-toggle {
+   display: none;
+ }
+
+ .menu-toggle::after {
+  content: '\2630'; /* Unicode for the hamburger icon */
+  display: inline-block;
+  margin-right: 5px; /* Add spacing between the icon and the text */
+  margin-left: 5px;
+  font-size: 1.2em;
+}
+
+ .menu.show {
+   display: block;
+ }
+
+ .close-menu {
+  display: none; /* Initially hide the close button */
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.close-menu span {
+  font-size: 24px;
+  color: #333;
+}
+
+@include media-query($on-palm) {
+   .menu {
+     display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+     z-index: 1000; /* Ensure the menu appears above other content */
+     padding: 20px;
+     box-sizing: border-box;
+   }
+
+   .menu-toggle {
+     display: block;
+     cursor: pointer;
+   }
+ }

@@ -1,0 +1,50 @@
+<nav class="main-menu">
+  <a href="/">
+    <div class="logo">
+    <img src="/img/nmtc-logo.svg" alt="">
+    </div>
+  </a>
+  <div class="menu-wrapper">
+    <div class="menu-items">
+      <div class="menu-toggle">Menu</div>
+      <ul class="menu">
+        {% for item in site.data.menu-items %}
+          <li>
+            {% unless item.submenu %}
+              <a href="{{ item.page }}">{{ item.name }}</a>
+            {% endunless %}
+            {% if item.submenu %}
+              <div class="submenu-title">
+                {{ item.name }}<span class="arrow">&#x2935;</span>
+              </div>
+              <ul class="submenu">
+                {% for subitem in item.submenu %}
+                  <li><a href="{{ subitem.page }}">{{ subitem.name }}</a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+      <div class="close-menu"><span>&times;</span></div>
+    </div>
+  </div>
+</nav>
+
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.menu');
+    const closeMenu = document.querySelector('.close-menu');
+
+    menuToggle.addEventListener('click', function () {
+      menu.classList.add('show');
+      closeMenu.style.display = 'block';
+    });
+
+    closeMenu.addEventListener('click', function () {
+      menu.classList.remove('show');
+      closeMenu.style.display = 'none';
+    });
+  });
+</script>

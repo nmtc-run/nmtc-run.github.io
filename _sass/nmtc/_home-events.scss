@@ -1,0 +1,83 @@
+/**
+ * Home page boxes for events
+ */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  width: calc(50% - 10px); /* Two boxes per row at widest viewer width */
+  background-color: darken($background-color, 10%);
+  margin-bottom: 20px; /* Spacing between boxes */
+  box-sizing: border-box;
+}
+
+.box-image {
+  background-size: cover;
+  background-position: center;
+  border-bottom: 4px solid $brand-color;
+  min-height:200px;
+}
+
+.box-content {
+  padding: 1em;
+}
+
+.event-name {
+  font-weight: bold;
+  // padding: .5em 0;
+}
+
+.event-date, .event-dist {
+  font-size: .8em;
+  font-style: italic;
+}
+
+.event-dist {
+  // font-size: .8em;
+}
+
+.event-desc {
+  padding: 1em 0;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 10px; /* Adjust spacing between paragraph and button */
+  padding: 10px 20px;
+  background-color: $brand-color; /* Button background color */
+  color: $background-color; /* Button text color */
+  border: none;
+  // border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  border-bottom: 1px solid #999;
+
+  & a {
+    color: $background-color;
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: darken($brand-color, 15%);
+  }
+}
+
+@include media-query($on-laptop) {
+  .box {
+    width: calc(50% - 10px); /* Two boxes per row at medium viewer width */
+  }
+}
+
+@include media-query($on-palm) {
+  .box {
+    width: calc(100% - 10px); /* One box per row for mobile viewer width */
+  }
+}

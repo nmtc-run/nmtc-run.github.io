@@ -1,0 +1,20 @@
+/**
+ * Base styles for pages (events, series, etc.)
+ */
+
+.event-content h1 {
+  // background-color: darken($background-color,15%);
+  padding: 0.5em;
+  text-align: center;
+  border-top: double 3px black;
+  border-bottom: solid 1px black;
+}
+
+.event-content a {
+  color: $brand-color;
+  text-decoration: underline;
+
+  &:hover{
+    // text-decoration: none;
+  }
+}

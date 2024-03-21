@@ -1,0 +1,34 @@
+- name: Home
+  page: /
+- name: Races
+  submenu:
+  - name: Minnesota Voyageur Ultramarathon
+    page: /voyageur
+  - name: Eugene Curnow Trail Marathon
+    page: /curnow
+  - name: NMTC Spring Race Series
+    page: /spring-series
+  - name: NMTC Fall Race Series
+    page: /fall-series
+- name: Volunteer
+  page: /volunteer
+- name: Donate
+  page: /donate
+- name: More
+  submenu:
+  - name: About NMTC
+    page: /about
+  - name: Race Photos
+    page: /photos
+  - name: Race Results
+    page: /results
+  - name: Registration Policies
+    page: /registration
+  - name: Trail Running Etiquette
+    page: /etiquette
+  - name: Waiver Form
+    page: /waiver
+  - name: Ella Fennessey Award
+    page: /fennessey
+  - name: Contact NMTC
+    page: /contact

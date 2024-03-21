@@ -1,0 +1,83 @@
+/**
+ * Home page hero image, title, subtitle, buttons
+ */
+
+.home-hero {
+  background-color: yellow;
+  // margin-bottom: 1em;
+  border-bottom: 4px solid $brand-color;
+  height: 60vh;
+  min-height: 400px;
+  background-image: url(/img/vintage-team.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; /* Adjust padding as needed */
+ }
+
+.home-hero h1 {
+  color: $background-color;
+  display: flex;
+  flex-direction: column;
+  font-family: $sans-font-family;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.hero-content h1 {
+  background-color: #0000004f;
+  padding: 0.5em;
+  font-size: 3.8em;
+  transform: rotate(-6deg);
+  text-align: center;
+}
+
+.home-hero h2 {
+  background-color: $brand-color;
+  color: $background-color;
+  padding: 0.5em;
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons .button {
+  margin: 0 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a.scroll-arrow {
+  color: $background-color;
+  background-color: #0000004f;
+  padding: 0.5em;
+}
+
+a.scroll-arrow:hover {
+  background-color: #00000099;
+}
+
+@include media-query($on-palm) {
+  .hero-content {
+    font-size: 0.7em;
+  }
+
+  .scroll-arrow {
+    display: none;
+  }
+}

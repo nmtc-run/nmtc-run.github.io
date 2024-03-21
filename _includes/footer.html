@@ -1,0 +1,19 @@
+<footer>
+  <div class="footer-bar wrapper">
+    <div class="footer-logo">
+      <img src="/img/nmtc-logo-light.svg" alt="">
+    </div>
+  </div>
+  <div class="footer-container wrapper">
+    {% for list in site.data.footer-items %}
+      <div class="footer-column">
+        {% for item in list.list %}
+        <div class="footer-item">
+          <a href="{{ item.page }}">{{ item.name }}</a>
+        </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+  <div class="footer-bar wrapper"></div>
+</footer>

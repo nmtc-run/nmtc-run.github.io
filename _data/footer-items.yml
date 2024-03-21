@@ -1,0 +1,28 @@
+- name: list 1
+  list:
+  - name: About
+    page: /about
+  - name: Volunteer
+    page: /volunteer
+  - name: Donate
+    page: /donate
+  - name: Contact
+    page: /contact
+- name: list 2
+  list:
+  - name: Voyageur 50mi
+    page: /voyageur
+  - name: Curnow Marathon
+    page: /curnow
+  - name: Spring Series
+    page: /spring-series
+  - name: Fall Series
+    page: /fall-series
+- name: list 3
+  list:
+  - name: Registration Policies
+    page: /registration
+  - name: Trail Running Etiquette
+    page: /etiquette
+  - name: Waiver Form
+    page: /waiver
