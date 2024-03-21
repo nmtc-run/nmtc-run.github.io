@@ -3,8 +3,6 @@
  */
 
 .home-hero {
-  background-color: yellow;
-  // margin-bottom: 1em;
   border-bottom: 4px solid $brand-color;
   height: 60vh;
   min-height: 400px;
@@ -16,7 +14,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 20px; /* Adjust padding as needed */
+  padding: 1em;
  }
 
 .home-hero h1 {
