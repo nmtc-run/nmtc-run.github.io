@@ -124,13 +124,10 @@
    display: none;
  }
 
- .menu-toggle::after {
-  content: '\2630'; /* Unicode for the hamburger icon */
-  display: inline-block;
-  margin-right: 5px; /* Add spacing between the icon and the text */
-  margin-left: 5px;
-  font-size: 1.2em;
-}
+ .menu-icon {
+   height: 0.85em;
+   transform: translateY(.1em);
+ }
 
  .menu.show {
    display: block;
@@ -143,6 +140,10 @@
   right: 20px;
   cursor: pointer;
   z-index: 1001;
+}
+
+.close-menu-icon {
+  height: 1.5em; 
 }
 
 .close-menu span {
