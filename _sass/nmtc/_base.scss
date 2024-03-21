@@ -13,6 +13,15 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+
+html, body {
+   overscroll-behavior: none; /* Prevent horizontal scroll bouncing */
+ }
+
+html {
+  background-color: darken($background-color,60%);
+}
+
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;
@@ -47,7 +56,7 @@ ul, ol, dl, figure,
  */
 main {
   display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */
-  min-height: calc(100vh - 210px - 175px); 
+  min-height: calc(100vh - 210px - 175px);
 }
 
 

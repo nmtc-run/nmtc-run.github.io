@@ -21,6 +21,7 @@
   max-height: 100%;
   margin: 0 auto;
   padding: 2em;
+  text-align: center;
 }
 
 .menu-wrapper {
@@ -156,6 +157,10 @@
   .logo {
     max-width: 63vw;
     min-width: 200px;
+  }
+
+  .logo * {
+    padding: 0; 
   }
 
   .menu {
