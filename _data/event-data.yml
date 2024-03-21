@@ -4,7 +4,7 @@
   description: >- # ignore newlines
     Six short-distance races on a mix of surfaces: from creekside paths to gravel roads to sandy stretches along Lake Superior. Races are held across the Twin Ports—most on Wednesday evenings and one on a Sunday morning.
   page: /spring-series
-  img: /img/jarrows-beach.jpeg
+  img: /img/series-start.jpeg
 
 - name: Eugene Curnow Trail Marathon
   distance: 26.2 mi
@@ -20,7 +20,7 @@
   description: >- # ignore newlines
     Founded in 1982, this legendary race stands among the longest-running trail ultras in the nation. The out-and-back course invites runners on a journey through several rugged trail systems between Carlton and Duluth.
   page: /voyageur
-  img: /img/jarrows-beach.jpeg
+  img: /img/voyageur-runners.jpeg
 
 - name: NMTC Fall Race Series
   distance: Dist. varies (3 to 7 mi)
@@ -28,4 +28,4 @@
   description: >- # ignore newlines
     Nine short-distance races over rugged woodland singletrack, held across the Twin Ports starting on Wednesday evenings before switching to Sunday afternoons to maintain daylight.
   page: /fall-series
-  img: /img/jarrows-beach.jpeg
+  img: /img/series-wide.png

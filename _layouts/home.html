@@ -12,7 +12,12 @@ layout: default
   <div class="spacer"></div>
   <!-- <h2>Promoting trail running and managing races since 1981.</h2> -->
   <div class="buttons">
-    <a href="#events"><div class="button">Our events<span class="arrow">&#x2935;</span></div></a>
+    <a href="#events">
+      <div class="button">Our events
+        {% assign arrow-color = "#fdfdfd" %}
+        {%- include down-arrow.html -%}
+      </div>
+  </a>
   </div>
   <!-- <a href="#events" class="scroll-arrow"> Our events <span class="arrow">&#x2935;</span></a> -->
 </div>
