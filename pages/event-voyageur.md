@@ -39,18 +39,97 @@ XX:XX AM/PM: Final cutoff.
 
 # Aid stations
 
-| Station Name       | Split \| Total | 1st Runner | Cut-Off  | Crew Access | Drop Bags |
-|--------------------|----------------|------------|----------|-------------|-----------|
-| Start/Jay Cooke    | N/A            | N/A        | N/A      | No          | No        |
-| Peterson's         | 7.1 \| 7.1     | 6:50 AM    | N/A      | No          | Yes       |
-| Hwy 210 (H2O only) | 6.6 \| 13.7    | 7:40 AM    | N/A      | No          | No        |
-| Becks Road         | 3.3 \| 17.0    | 8:10 AM    | 10:45 AM | Yes         | Yes       |
-| Zoo - Turnaround   | 7.1 \| 24.1    | 9:00 AM    | 12:30 PM | Yes         | Yes       |
-| Becks Road         | 7.1 \| 31.2    | 10:10 AM   | 2:40 PM  | Yes         | Yes       |
-| Hwy 210 (H2O only) | 3.3 \| 34.5    | 10:30 AM   | N/A      | No          | No        |
-| Peterson's         | 6.6 \| 41.1    | 11:30 AM   | 5:30 PM  | No          | Yes       |
-| Jay Cooke          | 5.4 \| 46.5    | 12:00 PM   | 7:00 PM  | Yes         | No        |
-| Finish/Carlton HS  | 3.5 \| 50.0    | 12:45 PM   | 8:00 PM  | N/A         | N/A       |
+<div class="table-container">
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">Station Name</th>
+<th title="Field #2">Split | Total</th>
+<th title="Field #3">1st Runner</th>
+<th title="Field #4">Cut-Off</th>
+<th title="Field #5">Crew Access</th>
+<th title="Field #6">Drop Bags</th>
+</tr></thead>
+<tbody><tr>
+<td>Start/Jay Cooke</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Peterson&#39;s</td>
+<td>7.1 | 7.1</td>
+<td>6:50 AM</td>
+<td>N/A</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Hwy 210 (H2O only)</td>
+<td>6.6 | 13.7</td>
+<td>7:40 AM</td>
+<td>N/A</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Becks Road</td>
+<td>3.3 | 17.0</td>
+<td>8:10 AM</td>
+<td>10:45 AM</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Zoo - Turnaround</td>
+<td>7.1 | 24.1</td>
+<td>9:00 AM</td>
+<td>12:30 PM</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Becks Road</td>
+<td>7.1 | 31.2</td>
+<td>10:10 AM</td>
+<td>2:40 PM</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Hwy 210 (H2O only)</td>
+<td>3.3 | 34.5</td>
+<td>10:30 AM</td>
+<td>N/A</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Peterson&#39;s</td>
+<td>6.6 | 41.1</td>
+<td>11:30 AM</td>
+<td>5:30 PM</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Jay Cooke</td>
+<td>5.4 | 46.5</td>
+<td>12:00 PM</td>
+<td>7:00 PM</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Finish/Carlton HS</td>
+<td>3.5 | 50.0</td>
+<td>12:45 PM</td>
+<td>8:00 PM</td>
+<td>N/A</td>
+<td>N/A</td>
+</tr>
+</tbody></table>
+</div>
 
 > **ATTENTION:** Runners’ crews and spectators are not allowed at Hwy 210 (water) or Peterson’s aid stations! Failure to adhere to this will result in runner disqualification! As a runner participant you are responsible for your crew and spectators understanding this limitation.  
 

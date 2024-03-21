@@ -15,7 +15,7 @@ dl, dd, ol, ul, figure {
  */
 
 html, body {
-   overscroll-behavior: none; /* Prevent horizontal scroll bouncing */
+   overscroll-behavior-x: none; /* Prevent horizontal scroll bouncing */
  }
 
 html {
