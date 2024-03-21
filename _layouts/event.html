@@ -18,7 +18,12 @@ layout: default
   <div class="spacer"></div>
   <!-- <h2>{{ event.distance }} — {{ event.date }} </h2> -->
   <div class="buttons">
-    <a href="#register"><div class="button">Register<span class="arrow">&#x2935;</span></div></a>
+    <a href="#register">
+      <div class="button">Register
+        {% assign arrow-color = "#fdfdfd" %}
+        {% include down-arrow.html %}
+      </div>
+    </a>
   </div>
 </div>
 
