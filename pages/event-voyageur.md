@@ -97,7 +97,7 @@ Please review the Minnesota Voyageur Trail Ultramarathon race rules at [nmtc.run
 Registration via Ultrasignup typically opens in March. In addition to the info on this page, runners must review the [race rules](/rules), and the [registration and refund policies](/registration) before registering.
 
 <div class="container" style="display:flex;padding-bottom:1em;">
-  <a href="https://ultrasignup.com/register.aspx?did=114070" style="margin: 0 auto;">
+  <a href="https://ultrasignup.com/register.aspx?did=114070" style="margin: 0 auto;" target="blank">
     <div class="button">Register on Ultrasignup</div>
   </a>
 </div>
