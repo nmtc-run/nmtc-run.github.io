@@ -5,7 +5,7 @@ description: >- # ignore newlines
   Northern Minnesota's grassroots trail running events.
   Promoting trail running and managing races since 1981.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://markgrindy.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://markgrindy.github.io/nmtc.run/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 # theme: minima
