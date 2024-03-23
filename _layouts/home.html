@@ -3,50 +3,29 @@ layout: default
 ---
 
 <div class="hero-carousel">
-  <div class="carousel-slide active" style="background-image: url('https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cnVubmluZ3xlbnwwfHwwfHx8MA%3D%3D');">
+  {% assign dot_counter = 0 %}
+  {% for hero in site.data.home-photos %}
+    {% assign dot_counter = dot_counter | plus: 1 %}
+    <div class="carousel-slide{% if dot_counter == 1 %} active{% endif %}" style="background-image: url('{{ hero.image }}');">
+      <h1 class="carousel-caption">{{ hero.headline }}</h1>
+    </div>
+  {% endfor %}
 
-    <h1 class="carousel-caption">Headline for Image 1</h1>
-  </div>
-  <div class="carousel-slide" style="background-image: url('https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cnVubmluZ3xlbnwwfHwwfHx8MA%3D%3D');">
-    <h1 class="carousel-caption">Headline for Image 2</h1>
-  </div>
-  <div class="carousel-slide" style="background-image: url('https://plus.unsplash.com/premium_photo-1663036916637-ac29ab5b65c5?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cnVubmluZ3xlbnwwfHwwfHx8MA%3D%3D');">
-    <h1 class="carousel-caption">Headline for Image 3</h1>
-  </div>
   <div class="carousel-dots">
-    <span class="dot active"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
+    {% assign range = (1..dot_counter) %}
+    {% for i in range %}
+      <span class="dot{% if i == 1 %} active{% endif %}"></span>
+    {% endfor %}
   </div>
+
   <div class="spacer"></div>
   <div class="buttons">
     <a href="#events">
       <div class="button">Our events
-        {% assign arrow-color = "#fdfdfd" %}
+        {%- assign arrow-color = "#fdfdfd" -%}
         {%- include down-arrow.html -%}
       </div>
-  </a>
-  </div>
-</div>
-
-
-<div class="home-hero">
-  <div class="spacer"></div>
-  <div class="spacer"></div>
-  <div class="spacer"></div>
-  <div class="hero-content">
-    <h1>Northern Minnesota Track Club</h1>
-    <!-- <h1>Promoting trail running and managing races since 1981.</h1> -->
-  </div>
-  <div class="spacer"></div>
-
-  <div class="buttons">
-    <a href="#events">
-      <div class="button">Our events
-        {% assign arrow-color = "#fdfdfd" %}
-        {%- include down-arrow.html -%}
-      </div>
-  </a>
+    </a>
   </div>
 </div>
 

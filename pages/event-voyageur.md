@@ -24,7 +24,7 @@ Runners receive awards as they finish.
 
 Mid-afternoon: Dinner will be provided by Magnolia Cafe at the school, runners free. A small charge for “extra eaters” can be paid at the door. Includes a variety of meat, vegetarian, and vegan / gluten-free sandwiches, pasta salad, and ice cream.
 
-XX:XX AM/PM: Final cutoff.
+8:00 PM: Final cutoff.
 
 # Getting to the start
 
@@ -49,7 +49,7 @@ XX:XX AM/PM: Final cutoff.
 <th title="Field #6">Drop Bags</th>
 </tr></thead>
 <tbody><tr>
-<td>Start/Jay Cooke</td>
+<td>Jay Cooke (return trip only)</td>
 <td>N/A</td>
 <td>N/A</td>
 <td>N/A</td>
@@ -157,7 +157,7 @@ XX:XX AM/PM: Final cutoff.
 
 **Cupless:** NMTC races are cup-free races. We will not provide paper cups at aid stations, and runners will need to carry their own cups (for example, collapsible cups), bottles, or other hydration vessels for use at aid stations.
 
-**Cutoffs:** Voyageur aid stations enforce cutoffs (with the exception of the water-only Hwy 210 aid station, which has no cutoff). Please see the [aid station chart](#aid-stations) for specific cutoff times. Runners must reach the finish in 14 hours, by 8:00 PM.
+**Cutoffs:** Voyageur aid stations enforce cutoffs (with the exception of the water-only Hwy 210 aid station, which is uncrewed). Please see the [aid station chart](#aid-stations) for specific cutoff times. Runners must reach the finish in 14 hours, by 8:00 PM.
 
 **Results:** Results are posted on [Ultrasignup](https://ultrasignup.com/register.aspx?did=114070) and [MTEC](https://www.mtecresults.com/event/show/4974/).
 
@@ -173,7 +173,7 @@ Please review the Minnesota Voyageur Trail Ultramarathon race rules at [nmtc.run
 
 # Register
 
-Registration via Ultrasignup typically opens in March. In addition to the info on this page, runners must review the [race rules](/rules), and the [registration and refund policies](/registration) before registering.
+Registration via Ultrasignup typically opens in March. In addition to the info on this page, runners should review the [race rules](/rules), and the [registration and refund policies](/registration) before registering.
 
 <div class="container" style="display:flex;padding-bottom:1em;">
   <a href="https://ultrasignup.com/register.aspx?did=114070" style="margin: 0 auto;" target="blank">
@@ -183,6 +183,6 @@ Registration via Ultrasignup typically opens in March. In addition to the info o
 
 # Volunteer
 
-We rely on volunteers to create an outstanding experience for runners. If you know someone who might be interested supporting the race, please encourage them to sign up at [nmtc.run/volunteer](/volunteer).
+NMTC is a nonprofit grassroots trail running organization. We rely on volunteers to create an outstanding experience for runners. If you know someone who might be interested supporting the race, please encourage them to sign up at [nmtc.run/volunteer](/volunteer).
 
-As a reminder, volunteers of the Voyageur enjoy discounted race registration fees for the Curnow Trail Marathon (and vice-versa). See the [volunteer page](/volunteer) for more detail.
+As a reminder, volunteers of the Voyageur enjoy discounted race registration fees for the Curnow Trail Marathon (and vice-versa). See the [volunteer page](/volunteer) for more information.

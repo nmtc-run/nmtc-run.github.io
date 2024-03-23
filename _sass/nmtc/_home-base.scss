@@ -9,6 +9,7 @@
 
 .home-content {
   background-color: darken($background-color, 10%);
+  border-top: 4px solid $brand-color;
   padding: 1em;
   margin-bottom: 1em;
 }

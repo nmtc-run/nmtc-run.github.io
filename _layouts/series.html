@@ -1,3 +1,45 @@
 ---
 layout: default
 ---
+
+{% if page.permalink == '/spring-series/' %}
+  {% assign event = site.data.event-data[0] %}
+{% else page.permalink == '/fall-series/' %}
+  {% assign event = site.data.event-data[3] %}
+{% endif %}
+
+<div class="event-hero" style="background-image:url({{ event.img }})">
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="event-hero-content">
+    <h1>{{ event.name }}</h1>
+  </div>
+  <div class="spacer"></div>
+  <!-- <h2>{{ event.distance }} — {{ event.date }} </h2> -->
+  <div class="buttons">
+    <a href="#schedule-and-standings">
+      <div class="button">Race schedule
+        {% assign arrow-color = "#fdfdfd" %}
+        {% include down-arrow.html %}
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="home-content">
+  <div class="key-details">
+    <h1>{{ event.name }}</h1>
+    <ul>
+      <li><strong>Date:</strong> {{ event.date }}</li>
+      <li><strong>Distance:</strong> {{ event.distance }}</li>
+    </ul>
+    <p>{{ page.description }}</p>
+  </div>
+</div>
+
+INSERT GOOGLE MAP HERE — Possible to get code from existing website, or better to create new map? 
+
+<div class="event-content">
+    {{ content }}
+</div>

@@ -33,7 +33,12 @@ layout: default
     <ul>
       <li><strong>Date:</strong> {{ event.date }}</li>
       <li><strong>Distance:</strong> {{ event.distance }}</li>
-      <li><strong>Start/finish:</strong> {{ page.start-finish }}</li>
+      {% if page.start-finish %}
+        <li><strong>Start/finish:</strong> {{ page.start-finish }} </li>
+        {% else %}
+        <li><strong>Start:</strong> {{ page.start }} </li>
+        <li><strong>Finish:</strong> {{ page.finish }} </li>
+      {% endif %}
       <li><strong>Ascent:</strong> {{ page.ascent }}</li>
       <li><strong>Descent:</strong> {{ page.descent }}</li>
     </ul>
@@ -46,11 +51,6 @@ layout: default
     <iframe name="plotaroute_map_2059255" src="https://www.plotaroute.com/embedmap/{{ page.map-id }}?units=miles&hills=show" style="position:absolute;top:0;left:0;bottom:0;right:0;width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
   </div>
 </div>
-
-<!-- <div class="fatmap-embed-placeholder" data-type="adventure" data-id="{{ page.fatmap-id }}" data-screen="elevation-profile"></div>
-<script defer src="https://embeds.fatmap.com/embed.js"></script>
-
-<p>To see aid stations marked, view the <a href="https://fatmap.com/routeid/{{ page.fatmap-id }}" target="blank" style="text-decoration:underline;">larger map</a>.</p> -->
 
 <div class="event-content">
     {{ content }}
