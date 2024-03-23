@@ -4,7 +4,7 @@ layout: default
 
 <div class="hero-carousel">
   <div class="carousel-slide active" style="background-image: url('https://images.unsplash.com/photo-1571008887538-b36bb32f4571?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cnVubmluZ3xlbnwwfHwwfHx8MA%3D%3D');">
-    <div class="spacer"></div>
+
     <h1 class="carousel-caption">Headline for Image 1</h1>
   </div>
   <div class="carousel-slide" style="background-image: url('https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cnVubmluZ3xlbnwwfHwwfHx8MA%3D%3D');">
@@ -17,6 +17,15 @@ layout: default
     <span class="dot active"></span>
     <span class="dot"></span>
     <span class="dot"></span>
+  </div>
+  <div class="spacer"></div>
+  <div class="buttons">
+    <a href="#events">
+      <div class="button">Our events
+        {% assign arrow-color = "#fdfdfd" %}
+        {%- include down-arrow.html -%}
+      </div>
+  </a>
   </div>
 </div>
 
@@ -77,37 +86,57 @@ layout: default
 
 <script type="text/javascript">
   let slideIndex = 0;
-  showSlides(slideIndex);
+let autoScrollTimeout; // Variable to store the timeout for auto-scrolling
+let autoScroll = true; // Variable to track automatic scrolling
 
-  function showSlides(index) {
-    const slides = document.getElementsByClassName("carousel-slide");
-    const dots = document.getElementsByClassName("dot");
-    if (index >= slides.length) {
-      slideIndex = 0;
-    }
-    if (index < 0) {
-      slideIndex = slides.length - 1;
-    }
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].classList.remove("active");
-      dots[i].classList.remove("active");
-    }
-    slides[slideIndex].classList.add("active");
-    dots[slideIndex].classList.add("active");
-  }
+showSlides(slideIndex);
 
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-
+function showSlides(index) {
+  const slides = document.getElementsByClassName("carousel-slide");
   const dots = document.getElementsByClassName("dot");
-  for (let i = 0; i < dots.length; i++) {
-    dots[i].addEventListener("click", function() {
-      currentSlide(i);
-    });
+
+  if (index >= slides.length) {
+    slideIndex = 0;
   }
+  if (index < 0) {
+    slideIndex = slides.length - 1;
+  }
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("active");
+    dots[i].classList.remove("active");
+  }
+  slides[slideIndex].classList.add("active");
+  dots[slideIndex].classList.add("active");
+
+  // If autoScroll is true and it's not a manual navigation
+  if (autoScroll) {
+    // Clear the previous timeout if exists
+    clearTimeout(autoScrollTimeout);
+    // Set a new timeout for auto-scrolling after 5 seconds
+    autoScrollTimeout = setTimeout(() => {
+      plusSlides(1);
+    }, 5000); // Change the time here (5000 milliseconds = 5 seconds)
+  }
+}
+
+function plusSlides(n) {
+  autoScroll = true; // Enable auto scrolling after manual navigation
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  autoScroll = false; // Pause auto scrolling when a dot is clicked
+  clearTimeout(autoScrollTimeout); // Clear the auto-scroll timeout
+  showSlides(slideIndex = n);
+}
+
+const dots = document.getElementsByClassName("dot");
+for (let i = 0; i < dots.length; i++) {
+  dots[i].addEventListener("click", function() {
+    autoScroll = false; // Pause auto scrolling when a dot is clicked
+    clearTimeout(autoScrollTimeout); // Clear the auto-scroll timeout
+    currentSlide(i);
+  });
+}
+
 </script>
