@@ -14,7 +14,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
+  padding: 1em; 
  }
 
 .home-hero h1 {
@@ -56,11 +56,6 @@
   margin: 0 10px;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-}
-
 a.scroll-arrow {
   color: $background-color;
   background-color: #0000004f;
@@ -80,3 +75,6 @@ a.scroll-arrow:hover {
     display: none;
   }
 }
+
+@import
+  "nmtc/hero-event"

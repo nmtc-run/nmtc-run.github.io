@@ -24,6 +24,8 @@
     page: /results
   - name: Registration Policies
     page: /registration
+  - name: Race rules
+    page: /rules
   - name: Trail Running Etiquette
     page: /etiquette
   - name: Waiver Form

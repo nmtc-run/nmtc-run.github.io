@@ -2,7 +2,7 @@
 layout: event
 title: Eugene Curnow Trail Marathon
 permalink: /curnow/
-start-finish: Carlton High School, Carlton, MN
+start-finish: Duluth Superior Zoo, Duluth, MN, to Munger Trailhead, Carlton, MN
 ascent: 2,969 ft
 descent: 2,566 ft
 description: |-

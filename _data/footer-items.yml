@@ -22,6 +22,8 @@
   list:
   - name: Registration Policies
     page: /registration
+  - name: Race Rules
+    page: /rules
   - name: Trail Running Etiquette
     page: /etiquette
   - name: Waiver Form

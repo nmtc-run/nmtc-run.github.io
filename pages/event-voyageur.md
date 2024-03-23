@@ -7,10 +7,8 @@ ascent: 5,000 ft
 descent: 5,000 ft
 description: |-
   Founded in 1982, the Minnesota Voyageur 50 Mile Trail Ultramarathon is one of the oldest trail ultras in the nation. The race follows a rugged, varied, out-and-back course that takes runners on a journey from Carlton, MN, through Jay Cooke State Park, and heads northeast over difficult, rough woodland trails to Duluth, MN—and back. Enjoy scenic overlooks of Lake Superior and cross the iconic Swinging Bridge over the St. Louis River. </br></br>Carlton High School hosts the start, finish, and race-day festivities. Weather for the Minnesota Voyageur can be extreme. There have been several years when it was hot and humid—including 2003 when it was brutally hot with 90 percent humidity. In other years it has been cool, in the mid-50’s, and wet. Plan for everything except snow—at least not so far!
-fatmap-id: 3698216
+map-id: 2059255
 ---
-
-To see aid stations marked, view the [larger map](https://fatmap.com/routeid/3698216){:target="_blank"}. 
 
 # Schedule
 

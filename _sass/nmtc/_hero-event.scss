@@ -1,0 +1,54 @@
+/**
+ * Home page hero image, title, subtitle, buttons
+ */
+
+.event-hero {
+  border-bottom: 4px solid $brand-color;
+  height: 60vh;
+  min-height: 400px;
+  background-image: url(/img/vintage-team.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+ }
+
+.event-hero h1 {
+  color: $background-color;
+  display: flex;
+  flex-direction: column;
+  font-family: $sans-font-family;
+}
+
+.event-hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.event-hero-content h1 {
+  background-color: #0000004f;
+  margin: 0.5em;
+  font-size: 3.8em;
+  transform: rotate(-6deg);
+  text-align: center;
+  max-width: 80vw;
+}
+
+.event-hero h2 {
+  background-color: $brand-color;
+  color: $background-color;
+  padding: 0.5em;
+  text-align: center;
+}
+
+@include media-query($on-palm) {
+  .event-hero-content {
+    font-size: 0.7em;
+  }
+}

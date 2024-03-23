@@ -8,11 +8,11 @@ layout: default
   {% assign event = site.data.event-data[1] %}
 {% endif %}
 
-<div class="home-hero" style="background-image:url({{ event.img }})">
+<div class="event-hero" style="background-image:url({{ event.img }})">
   <div class="spacer"></div>
   <div class="spacer"></div>
   <div class="spacer"></div>
-  <div class="hero-content">
+  <div class="event-hero-content">
     <h1>{{ event.name }}</h1>
   </div>
   <div class="spacer"></div>
@@ -41,8 +41,16 @@ layout: default
   </div>
 </div>
 
-<div class="fatmap-embed-placeholder" data-type="adventure" data-id="{{ page.fatmap-id }}" data-screen="elevation-profile"></div>
+<div style="overflow:hidden;position:relative;margin-bottom:1em;">
+  <div style="position:relative;width:100%;padding-top:56.25%;overflow:visible;"/>
+    <iframe name="plotaroute_map_2059255" src="https://www.plotaroute.com/embedmap/{{ page.map-id }}?units=miles&hills=show" style="position:absolute;top:0;left:0;bottom:0;right:0;width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+  </div>
+</div>
+
+<!-- <div class="fatmap-embed-placeholder" data-type="adventure" data-id="{{ page.fatmap-id }}" data-screen="elevation-profile"></div>
 <script defer src="https://embeds.fatmap.com/embed.js"></script>
+
+<p>To see aid stations marked, view the <a href="https://fatmap.com/routeid/{{ page.fatmap-id }}" target="blank" style="text-decoration:underline;">larger map</a>.</p> -->
 
 <div class="event-content">
     {{ content }}
