@@ -83,8 +83,9 @@
 }
 
 @include media-query($on-palm) {
-  .hero-content {
-    font-size: 0.7em;
+  .hero-content,
+  .carousel-caption {
+    font-size: 2.5em;
   }
 }
 
