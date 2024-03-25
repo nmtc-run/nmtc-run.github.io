@@ -44,7 +44,7 @@
 }
 
 .series-event-wrapper {
-  padding-bottom: 1em; 
+  padding-bottom: 1em;
 }
 
 .series-event {
@@ -176,8 +176,15 @@
  */
 
 @include media-query($on-palm)  {
+  
   .series-event,
   .series-details {
     font-size: 0.8em;
   }
+
+  .series-event {
+    flex-direction: column;
+    align-items: baseline;
+  }
+
 }
