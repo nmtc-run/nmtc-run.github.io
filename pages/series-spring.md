@@ -8,13 +8,7 @@ description: |- # retain newlines
   Entry is absolutely free. We welcome donations <a href="/donate">online</a> and in-person (look for the tip jar at the registration table of each race). All funds support the continued viability of the NMTC Spring & Fall Race Series, the Eugene Curnow Marathon, and the Minnesota Voyageur Trail Ultramarathon.
 ---
 
-# Schedule and standings
-
-<div class="table-container">
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTE-gfvZAcBaIaGfYA_SotAnF27Hq0HibqoKmZdEdZrLNujJDEZHk0U39YY-tyvWCrI8_uCt77JkNRv/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" style="border: 1px solid #ccc;width: calc(100% - 2px);min-height:525px;max-height: 100vh;"></iframe>
-</div>
-
-# Everyone is welcome at NMTC
+# Everyone is welcome 
 
 All ages and abilities are welcome and well represented. The vibe is something akin to a neighborhood barbecue—a community event where old friends meet and new friends are made. Come join a bunch of folks who like to play in the woods!
 

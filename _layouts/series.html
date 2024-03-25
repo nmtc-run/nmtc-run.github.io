@@ -4,8 +4,10 @@ layout: default
 
 {% if page.permalink == '/spring-series/' %}
   {% assign event = site.data.event-data[0] %}
+  {% assign series = site.data.series-spring %}
 {% else page.permalink == '/fall-series/' %}
   {% assign event = site.data.event-data[3] %}
+  {% assign series = site.data.series-fall %}
 {% endif %}
 
 <div class="event-hero" style="background-image:url({{ event.img }})">
@@ -18,7 +20,7 @@ layout: default
   <div class="spacer"></div>
   <!-- <h2>{{ event.distance }} — {{ event.date }} </h2> -->
   <div class="buttons">
-    <a href="#schedule-and-standings">
+    <a href="#schedule-and-race-results">
       <div class="button">Race schedule
         {% assign arrow-color = "#fdfdfd" %}
         {% include down-arrow.html %}
@@ -38,7 +40,157 @@ layout: default
   </div>
 </div>
 
-INSERT GOOGLE MAP HERE — Possible to get code from existing website, or better to create new map? 
+<div class="event-content">
+  <h1 id="schedule-and-race-results">Schedule and race results</h1>
+</div>
+
+<div class="map-container">
+  <iframe id="map-iframe" src="https://www.google.com/maps/d/u/0/embed?mid=1VXhMDtwdH88TTCiVfd9G2g9fnujkJpU&ehbc=2E312F" width="100%" height="480"></iframe>
+</div>
+
+{% assign first_event = site.data.series-spring | first %}
+
+{% for event in series %}
+  {% if event == first_event %}
+    {% assign active-listener = event.name %}
+  {% else %}
+    {% if event.results %}
+      {% assign active-listener = event.name %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<div class="series-event-wrapper">
+  {% for event in series %}
+    {% if event.start-gps %}
+      <div class="series-event click-map {% if event.name == active-listener %}active{% endif %}" onclick="panToLocation({{ event.start-gps }})">
+        <div class="series-arrow-name">
+          <div class="series-arrow"></div>
+          <div class="series-name">{{ event.name }}</div>
+          <div class="series-dist">{{ event.dist }}</div>
+        </div>
+        <div class="series-spacer"></div>
+        <div class="series-date-time">
+          <div class="series-spacer"></div>
+          <div class="series-date">{{ event.date | date: "%a %-d %b" }}</div>
+          <div class="series-dtSpacer"></div>
+          <div class="series-time">{{ event.time }}</div>
+        </div>
+      </div>
+      <div class="series-details">
+        {% if event.sunset %}
+          <div class="series-sunset-pace">
+            <div><strong>Sunset: </strong>{{ event.sunset }}</div>
+            <div><strong>Time-to-dark: </strong>{{ event.time-to-dark }}</div>
+            <div><strong>Min pace: </strong>{{ event.min-pace }}</div>
+          </div>
+        {% endif %}
+        {% if event.start-address and event.start-gps %}
+          <div class="series-location">
+            <div><strong>Start/finish: </strong>
+              {{ event.start-address }}
+              &#91;
+              <a class="driving-directions" href="https://www.google.com/maps/dir/?api=1&destination={{ event.start-gps }}" target="_blank"><img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">Driving directions</a>
+              &#93;
+            </div>
+          </div>
+        {% endif %}
+        {% if event.results-last-year or event.results %}
+          <div class="series-results">
+            <div><strong>Results: </strong>
+              {%- if event.results-last-year -%}
+                <a href="{{ event.results-last-year }}" target="_blank">{{ event.date | date: "%Y" | minus: 1 }}</a>
+                {%- assign seperator = true -%}
+              {%- endif -%}
+              {%- if event.results -%}
+                {%- if seperator -%}
+                <span>&#44;&nbsp;</span>
+                {%- endif -%}
+                <a href="{{ event.results }}" target="_blank">{{ event.date | date: "%Y" }}</a>
+              {%- endif -%}
+            </div>
+          </div>
+        {% endif %}
+        {% if event.description %}
+          <div class="series-description">
+            <div>
+              <strong>Course description: </strong>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+        {% endif %}
+          <div class="series-padding"></div>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div class="event-content">
+  <h1 id="overall-standings">Overall standings</h1>
+</div>
+
+<div class="container" style="display:flex;padding-bottom:1em;">
+  <a href="https://nmtc.run/wp-content/uploads/2023/06/2023-NMTC-Spring-Trail-Series-Standings-Womens-Results.pdf" style="margin: 0 auto;" target="blank">
+    <div class="button">Women</div>
+  </a>
+  <a href="https://nmtc.run/wp-content/uploads/2023/06/2023-NMTC-Spring-Trail-Series-Standings-Mens-Results.pdf" style="margin: 0 auto;" target="blank">
+    <div class="button">Men</div>
+  </a>
+  <a href="https://nmtc.run/wp-content/uploads/2023/05/2023-NMTC-Spring-Trail-Series-Standings-Non-Binary-Results-3.pdf" style="margin: 0 auto;" target="blank">
+    <div class="button">Nonbinary</div>
+  </a>
+</div>
+
+
+<script type="text/javascript">
+  // Define an async function to load the Google Maps JavaScript API
+  async function loadGoogleMaps() {
+      // Import the Maps library using importLibrary function
+      const { Map } = await google.maps.importLibrary("maps");
+  }
+
+  // Call the loadGoogleMaps function to initialize the map
+  loadGoogleMaps().catch(error => {
+      console.error('Error loading Google Maps:', error);
+  });
+
+  // Define the panToLocation function
+  function panToLocation(latitude, longitude) {
+      console.log('Pan to:', latitude, longitude);
+
+      // Get the embedded map iframe
+      const mapIframe = document.getElementById("map-iframe");
+
+      // Extract the current map URL
+      let mapSrc = mapIframe.src;
+
+      // Construct the new map URL
+      const newMapSrc = mapSrc.includes('ll=') ? mapSrc.replace(/ll=[^&]+/, `ll=${latitude},${longitude}`) : `${mapSrc}&ll=${latitude},${longitude}`;
+
+      // Update the map iframe src with the new URL to pan the map
+      mapIframe.src = newMapSrc;
+  }
+
+  // Dropdown functionality to view event details
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get all series-event.click-map elements
+    var seriesEvents = document.querySelectorAll('.series-event.click-map');
+
+    // Add click event listener to each series-event.click-map element
+    seriesEvents.forEach(function(event) {
+      event.addEventListener('click', function() {
+        // Remove "active" class from all series-event.click-map elements
+        seriesEvents.forEach(function(event) {
+          event.classList.remove('active');
+        });
+
+        // Add "active" class to the clicked series-event.click-map element
+        this.classList.add('active');
+      });
+    });
+  });
+
+</script>
 
 <div class="event-content">
     {{ content }}

@@ -1,0 +1,89 @@
+- name: Bear Creek
+  date: 2024-05-01 # use format: YYYY-MM-DD
+  time: "6:00 PM"
+  dist: 4.5 mi
+  sunset: "8:20 PM"
+  time-to-dark: "2:20"
+  min-pace: "30:50"
+  start-address: 110 Moccasin Mike Rd, Superior, WI 54880
+  start-gps: 46.6727892, -92.0018801 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  results-last-year: https://nmtc.run/wp-content/uploads/2023/05/2023-Bear-Creek-Trail-Run.pdf
+  results:
+  description: true
+
+- name: Point Pine
+  date: 2024-05-24 # use format: YYYY-MM-DD
+  time: "6:00 PM"
+  dist: 4 mi
+  sunset: "8:38 PM"
+  time-to-dark: "2:38"
+  min-pace: "37:30"
+  start-address: 5000 Minnesota Ave, Duluth, MN 55802
+  start-gps: 46.7270794, -92.0467458 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  results-last-year: https://nmtc.run/wp-content/uploads/2023/05/Point-Pine.pdf
+  results:
+
+- name: Spirit Mountain
+  date: 2024-05-12 # use format: YYYY-MM-DD
+  time: "10:00 AM"
+  dist: 10 mi
+  sunset:
+  time-to-dark:
+  min-pace:
+  start-address: 9525 W Skyline Pkwy, Duluth, MN 55810
+  start-gps: 46.722692, -92.217929 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  results-last-year: https://nmtc.run/wp-content/uploads/2023/05/Spirit-Mountain.pdf
+  results:
+
+- name: Billings Drive
+  date: 2024-05-15 # use format: YYYY-MM-DD
+  time: "6:00 PM"
+  dist: 4.5 mi
+  sunset:
+  time-to-dark:
+  min-pace:
+  start-address: Billings Dr, Superior, WI 54880
+  start-gps: 46.691779, -92.144101 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  results-last-year: https://nmtc.run/wp-content/uploads/2023/05/Billings-Drive.pdf
+  results:
+
+- name: Woodland Run
+  date: 2024-05-22 # use format: YYYY-MM-DD
+  time: "6:00 PM"
+  dist: 3.5 mi
+  sunset:
+  time-to-dark:
+  min-pace:
+  start-address: Billings Dr, Superior, WI 54880
+  start-gps: 46.844861, -92.054553 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  results-last-year:
+  results:
+
+- name: Rain date
+  date: 2024-05-29 # use format: YYYY-MM-DD
+  time:
+  dist:
+  sunset:
+  time-to-dark:
+  min-pace:
+  start-address:
+  start-gps: # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  results-last-year: https://nmtc.run/wp-content/uploads/2023/05/2023-Woodland-Run.pdf
+  results:
+
+- name: Chester Bowl
+  date: 2024-06-05 # use format: YYYY-MM-DD
+  time: "6:00 PM"
+  dist: 3.6 mi
+  sunset:
+  time-to-dark:
+  min-pace:
+  start-address: 1801 E Skyline Pkwy, Duluth, MN 55812
+  start-gps: 46.813871, -92.098662 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  results-last-year: https://nmtc.run/wp-content/uploads/2023/06/2023-Chester-Bowl.pdf
+  results:
+
+- name: Overall standings
+  women: https://nmtc.run/wp-content/uploads/2023/06/2023-NMTC-Spring-Trail-Series-Standings-Womens-Results.pdf
+  men: https://nmtc.run/wp-content/uploads/2023/06/2023-NMTC-Spring-Trail-Series-Standings-Mens-Results.pdf
+  nonbinary: https://nmtc.run/wp-content/uploads/2023/05/2023-NMTC-Spring-Trail-Series-Standings-Non-Binary-Results-3.pdf

@@ -6,13 +6,13 @@ description: |- # retain newlines
 
 ---
 
-# Schedule and standings
+<!-- # Schedule and standings
 
 <div class="table-container">
   <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQGBP-D3O2O5GxLUzg5TJK_KkR5bxiixdqXzfME1MXxh5Q-nzpX9ZmWd324__Gq2ovk4aRnjKYKqPgW/pubhtml?widget=true&amp;headers=false" style="border: 1px solid #ccc;width: calc(100% - 2px);min-height:670px;max-height: 100vh;"></iframe>
-</div>
+</div> -->
 
-# Everyone is welcome at NMTC
+# Everyone is welcome
 
 All ages and abilities are welcome and well represented. The vibe is something akin to a neighborhood barbecue—a community event where old friends meet and new friends are made. Come join a bunch of folks who like to play in the woods!
 
