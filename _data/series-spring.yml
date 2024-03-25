@@ -54,9 +54,9 @@
   sunset:
   time-to-dark:
   min-pace:
-  start-address: Billings Dr, Superior, WI 54880
+  start-address: 1800 Jean Duluth Rd, Duluth, MN 55804
   start-gps: 46.844861, -92.054553 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year:
+  results-last-year: https://nmtc.run/wp-content/uploads/2023/05/2023-Woodland-Run.pdf
   results:
 
 - name: Rain date
@@ -68,7 +68,7 @@
   min-pace:
   start-address:
   start-gps: # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year: https://nmtc.run/wp-content/uploads/2023/05/2023-Woodland-Run.pdf
+  results-last-year:
   results:
 
 - name: Chester Bowl
@@ -83,7 +83,7 @@
   results-last-year: https://nmtc.run/wp-content/uploads/2023/06/2023-Chester-Bowl.pdf
   results:
 
-- name: Overall standings
+- description: Overall standings
   women: https://nmtc.run/wp-content/uploads/2023/06/2023-NMTC-Spring-Trail-Series-Standings-Womens-Results.pdf
   men: https://nmtc.run/wp-content/uploads/2023/06/2023-NMTC-Spring-Trail-Series-Standings-Mens-Results.pdf
   nonbinary: https://nmtc.run/wp-content/uploads/2023/05/2023-NMTC-Spring-Trail-Series-Standings-Non-Binary-Results-3.pdf

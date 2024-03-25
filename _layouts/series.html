@@ -62,12 +62,14 @@ layout: default
 
 <div class="series-event-wrapper">
   {% for event in series %}
-    {% if event.start-gps %}
+    {% if event.name %}
       <div class="series-event click-map {% if event.name == active-listener %}active{% endif %}" onclick="panToLocation({{ event.start-gps }})">
         <div class="series-arrow-name">
           <div class="series-arrow"></div>
           <div class="series-name">{{ event.name }}</div>
-          <div class="series-dist">{{ event.dist }}</div>
+          {% if event.dist %}
+            <div class="series-dist">{{ event.dist }}</div>
+          {% endif %}
         </div>
         <div class="series-spacer"></div>
         <div class="series-date-time">

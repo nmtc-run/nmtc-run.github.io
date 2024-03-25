@@ -56,7 +56,7 @@
   min-pace:
   start-address: Billings Dr, Superior, WI 54880
   start-gps: 46.844861, -92.054553 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year:
+  results-last-year: https://nmtc.run/wp-content/uploads/2023/05/2023-Woodland-Run.pdf
   results:
 
 - name: Rain date
@@ -68,7 +68,7 @@
   min-pace:
   start-address:
   start-gps: # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year: https://nmtc.run/wp-content/uploads/2023/05/2023-Woodland-Run.pdf
+  results-last-year:
   results:
 
 - name: Chester Bowl
@@ -83,7 +83,7 @@
   results-last-year: https://nmtc.run/wp-content/uploads/2023/06/2023-Chester-Bowl.pdf
   results:
 
-- name: Overall standings
+- description: Overall standings
   overall-women:
   overall-men:
   overall-nonbinary:
