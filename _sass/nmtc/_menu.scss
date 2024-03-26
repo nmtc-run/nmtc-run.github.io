@@ -124,11 +124,6 @@
    display: none;
  }
 
- .menu-icon {
-   height: 0.85em;
-   transform: translateY(.1em);
- }
-
  .menu.show {
    display: block;
  }
@@ -143,7 +138,7 @@
 }
 
 .close-menu-icon {
-  height: 1.5em; 
+  height: 1.5em;
 }
 
 .close-menu span {
@@ -185,10 +180,4 @@
 /* Hide scrollbar on the body when menu is active */
 body.menu-active {
   overflow: hidden;
-}
-
-.down-arrow {
-  height: 0.8em;
-  transform: translateY(0.4em);
-  padding-left: .15em;
 }

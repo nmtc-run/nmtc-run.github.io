@@ -1,0 +1,26 @@
+/**
+ * Styles for icons
+ */
+
+.down-arrow {
+ display: inline-block;
+ background-image: url(/assets/icons/down-arrow.svg);
+ background-repeat: no-repeat;
+ background-position: center;
+ fill: $text-color;
+ width: 1em;
+ height: 0.8em;
+ transform: translateY(0.4em);
+ padding-left: 0.15em;
+}
+
+.menu-icon {
+  display: inline-block;
+  background-image: url(/assets/icons/menu-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  fill: $text-color;
+  width: 1em;
+  height: 0.85em;
+  transform: translateY(.1em);
+}
