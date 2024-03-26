@@ -18,7 +18,10 @@
             {% if item.submenu %}
               <div class="submenu-title">
                 {{ item.name }}
-                <div class="down-arrow"></div>
+                <div class="down-arrow">
+                  {% assign arrow-color = "#111" %}
+                  {% include down-arrow.html %}
+                </div>
               </div>
               <ul class="submenu">
                 {% for subitem in item.submenu %}

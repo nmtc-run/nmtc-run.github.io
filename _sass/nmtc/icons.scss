@@ -4,14 +4,21 @@
 
 .down-arrow {
  display: inline-block;
- background-image: url(/assets/icons/down-arrow.svg);
- background-repeat: no-repeat;
- background-position: center;
- fill: $text-color;
- width: 1em;
+ // background-image: url(/assets/icons/down-arrow.svg);
+ // background-repeat: no-repeat;
+ // background-position: center;
+ //
+ // width: 0.8em;
  height: 0.8em;
- transform: translateY(0.4em);
  padding-left: 0.15em;
+}
+
+.submenu-title .down-arrow {
+  transform: translateY(0.25em);
+}
+
+.button .down-arrow {
+  transform: translateY(0.4em);
 }
 
 .menu-icon {
