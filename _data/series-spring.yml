@@ -9,7 +9,7 @@
   start-gps: 46.6727892, -92.0018801 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
   results-last-year: https://nmtc.run/wp-content/uploads/2023/05/2023-Bear-Creek-Trail-Run.pdf
   results:
-  description: true
+  description: Bear Creek (Makwa Ziibiins) is a non-technical out-and-back course that connects the paved Osaugie Trail at Bear Creek Park to Wisconsin Point Road. The trail surface is raised and packed gravel path (well-drained) that winds and dips through young aspen, balsam poplar, and birch forest (maybe, can’t remember exactly). There are an impressive 34 numbered bridges or boardwalks that you can use to track your progress on the course.  Midway there is an overlook that provides a view west over the outer St. Louis River estuary and Superior port. This is a fast, non-technical course and perfect Spring Series opener.
 
 - name: Point Pine
   date: 2024-05-24 # use format: YYYY-MM-DD
@@ -22,6 +22,7 @@
   start-gps: 46.7270794, -92.0467458 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
   results-last-year: https://nmtc.run/wp-content/uploads/2023/05/Point-Pine.pdf
   results:
+  description: Point Pine (Neyaashi) is a lollipop course with a long out-and-back section that passes through Pine Point Scientific Natural Area, a remnant of old-growth coastal red and white pine forest. The route offers beautiful views of the outer St. Louis River estuary and Lake Superior. The trail is mostly flat and well drained with a mix of packed gravel, packed earth and short sections with loose sand. The outermost loop portion of the course passes by the brick ruins of the Minnesota Point Light, a navigational aid constructed in 1858. It is the oldest brick structure in Duluth. This is a fast, non-technical course but get ready for some sand in your shoes.
 
 - name: Spirit Mountain
   date: 2024-05-12 # use format: YYYY-MM-DD
@@ -34,30 +35,33 @@
   start-gps: 46.722692, -92.217929 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
   results-last-year: https://nmtc.run/wp-content/uploads/2023/05/Spirit-Mountain.pdf
   results:
+  description: Spirit Mountain 10 Mile (Manidoo Wajiw) is an out-and-back road run that largely follows the western most section of Skyline Parkway from beneath the upper Spirit Mountain Chalet to Becks Road. The parkway surface is mostly gravel but also has short sections of new and crumbling asphalt. The near middle of the route offers a sweeping view of the St. Louis River estuary and Morgan Park neighborhood from the Bardon’s Peak overlook. This is also the course’s subtle high point. Make sure to save energy for the gradual ascent back to here from the Becks Road turnaround! The parkway is open to vehicle traffic this time of year. Please be mindful on blind turns.
 
 - name: Billings Drive
   date: 2024-05-15 # use format: YYYY-MM-DD
   time: "6:00 PM"
   dist: 4.5 mi
-  sunset:
-  time-to-dark:
-  min-pace:
+  sunset: "8:38 PM"
+  time-to-dark: "2:38"
+  min-pace: "36:20"
   start-address: Billings Dr, Superior, WI 54880
   start-gps: 46.691779, -92.144101 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
   results-last-year: https://nmtc.run/wp-content/uploads/2023/05/Billings-Drive.pdf
   results:
+  description: Billings Drive is an out-and-back course on all-weather gravel roads in the Superior Municipal Forest with rolling hills throughout. The road is tree-lined with nearby water. Expect some mud depending on weather and recent conditions.  The road to the start may be rough in the Spring. Start/Finish across from parking lot at Billings Dr and 42nd street, near disc golf course in Superior WI.
 
 - name: Woodland Run
   date: 2024-05-22 # use format: YYYY-MM-DD
   time: "6:00 PM"
   dist: 3.5 mi
-  sunset:
-  time-to-dark:
-  min-pace:
+  sunset: "8:49 PM"
+  time-to-dark: "2:46"
+  min-pace: "36:20"
   start-address: 1800 Jean Duluth Rd, Duluth, MN 55804
   start-gps: 46.844861, -92.054553 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
   results-last-year: https://nmtc.run/wp-content/uploads/2023/05/2023-Woodland-Run.pdf
   results:
+  description: Woodland is on packed earth single track with a small road portion, loop course, some hilly sections. Starting out at the Morningside Gravel pit on Jean Duluth Road, run this 5.5k course through the surrounding woods and neighborhood. Enjoy a mix of rolling slopes, and small hills to climb on this rarely flat single track loop using a mix of trails in the area.
 
 - name: Rain date
   date: 2024-05-29 # use format: YYYY-MM-DD
@@ -70,20 +74,22 @@
   start-gps: # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
   results-last-year:
   results:
+  description: If a previous race is canceled, watch this space for updates.
 
 - name: Chester Bowl
   date: 2024-06-05 # use format: YYYY-MM-DD
   time: "6:00 PM"
   dist: 3.6 mi
-  sunset:
-  time-to-dark:
-  min-pace:
+  sunset: "8:59 PM"
+  time-to-dark: "2:59"
+  min-pace: "48:34"
   start-address: 1801 E Skyline Pkwy, Duluth, MN 55812
   start-gps: 46.813871, -92.098662 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
   results-last-year: https://nmtc.run/wp-content/uploads/2023/06/2023-Chester-Bowl.pdf
   results:
+  description: Chester Bowl is run within the 117 acre Chester Park on ski trails and on the Dan Proctor Hiking Trail single track, which runs along both sides of Chester Creek.  The course is very hilly and technical and is a popular hiking destination.  Be sure to say “Hi!” when you cross paths with a hiker!
 
-- description: Overall standings
+- metadata: Overall standings
   women: https://nmtc.run/wp-content/uploads/2023/06/2023-NMTC-Spring-Trail-Series-Standings-Womens-Results.pdf
   men: https://nmtc.run/wp-content/uploads/2023/06/2023-NMTC-Spring-Trail-Series-Standings-Mens-Results.pdf
   nonbinary: https://nmtc.run/wp-content/uploads/2023/05/2023-NMTC-Spring-Trail-Series-Standings-Non-Binary-Results-3.pdf
