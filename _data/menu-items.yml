@@ -2,12 +2,12 @@
   page: /
 - name: Races
   submenu:
-  - name: Minnesota Voyageur Ultramarathon
-    page: /voyageur
-  - name: Eugene Curnow Trail Marathon
-    page: /curnow
   - name: NMTC Spring Race Series
     page: /spring-series
+  - name: Eugene Curnow Trail Marathon
+    page: /curnow
+  - name: Minnesota Voyageur Ultramarathon
+    page: /voyageur
   - name: NMTC Fall Race Series
     page: /fall-series
 - name: Volunteer
