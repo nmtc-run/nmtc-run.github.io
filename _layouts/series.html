@@ -52,7 +52,7 @@ layout: default
   Note: Although courses mapped above show typical routes, these are subject to change based on trail conditions and the whims of the race director. Runners don't find out exactly where we'll run until the prerace briefing—a fun challenge.
 </blockquote>
 
-{% assign first_event = site.data.series-spring | first %}
+{% assign first_event = series | first %}
 
 {% for event in series %}
   {% if event == first_event %}
@@ -60,6 +60,10 @@ layout: default
   {% else %}
     {% if event.results %}
       {% assign active-listener = event.name %}
+    {% else if event.metadata %}
+      {% assign results-women = event.women %}
+      {% assign results-men = event.men %}
+      {% assign results-nonbinary = event.nonbinary %}
     {% endif %}
   {% endif %}
 {% endfor %}
@@ -136,17 +140,16 @@ layout: default
 </div>
 
 <div class="container" style="display:flex;padding-bottom:1em;">
-  <a href="https://nmtc.run/wp-content/uploads/2023/06/2023-NMTC-Spring-Trail-Series-Standings-Womens-Results.pdf" style="margin: 0 auto;" target="blank">
+  <a href="{{ results-women }}" style="margin: 0 auto;" target="blank">
     <div class="button">Women</div>
   </a>
-  <a href="https://nmtc.run/wp-content/uploads/2023/06/2023-NMTC-Spring-Trail-Series-Standings-Mens-Results.pdf" style="margin: 0 auto;" target="blank">
+  <a href="{{ results-men }}" style="margin: 0 auto;" target="blank">
     <div class="button">Men</div>
   </a>
-  <a href="https://nmtc.run/wp-content/uploads/2023/05/2023-NMTC-Spring-Trail-Series-Standings-Non-Binary-Results-3.pdf" style="margin: 0 auto;" target="blank">
+  <a href="{{ results-nonbinary }}" style="margin: 0 auto;" target="blank">
     <div class="button">Nonbinary</div>
   </a>
 </div>
-
 
 <script type="text/javascript">
   // Define an async function to load the Google Maps JavaScript API
