@@ -6,6 +6,7 @@ description: >- # ignore newlines
   Promoting trail running and managing races since 1981.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://markgrindy.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+google-analytics: G-WQPCE80YGQ #insert Measurement ID: "G-XXXXXXXXXX"
 
 # Build settings
 # theme: minima
