@@ -63,7 +63,7 @@ layout: default
 <div class="series-event-wrapper">
   {% for event in series %}
     {% if event.name %}
-      <div class="series-event click-map {% if event.name == active-listener %}active{% endif %}" onclick="panToLocation({{ event.start-gps }})">
+      <div class="series-event click-map {% if event.name == active-listener %}active{% endif %}" onclick="panToLocation({{ event.start-gps }},13)">
         <div class="series-arrow-name">
           <div class="series-arrow"></div>
           <div class="series-name">{{ event.name }}</div>
@@ -157,8 +157,8 @@ layout: default
   });
 
   // Define the panToLocation function
-  function panToLocation(latitude, longitude) {
-      console.log('Pan to:', latitude, longitude);
+  function panToLocation(latitude, longitude, zoom) {
+      console.log('Pan to:', latitude, longitude, 'Zoom:', zoom);
 
       // Get the embedded map iframe
       const mapIframe = document.getElementById("map-iframe");
@@ -166,8 +166,8 @@ layout: default
       // Extract the current map URL
       let mapSrc = mapIframe.src;
 
-      // Construct the new map URL
-      const newMapSrc = mapSrc.includes('ll=') ? mapSrc.replace(/ll=[^&]+/, `ll=${latitude},${longitude}`) : `${mapSrc}&ll=${latitude},${longitude}`;
+      // Construct the new map URL with latitude, longitude, and zoom level
+      const newMapSrc = mapSrc.includes('ll=') ? mapSrc.replace(/ll=[^&]+/, `ll=${latitude},${longitude}&z=${zoom}`) : `${mapSrc}&ll=${latitude},${longitude}&z=${zoom}`;
 
       // Update the map iframe src with the new URL to pan the map
       mapIframe.src = newMapSrc;
