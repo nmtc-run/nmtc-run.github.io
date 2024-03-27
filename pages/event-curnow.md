@@ -71,7 +71,7 @@ strava-id: 3207880018615880304
 </tbody></table>
 </div>
 
-> **ATTENTION:** Runners’ crews and spectators are not allowed at Hwy 210 (water) or Peterson’s aid stations! Failure to adhere to this will result in runner disqualification! As a runner participant you are responsible for your crew and spectators understanding this limitation.  
+> **ATTENTION:** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations. We have to disqualify runners who ignore this rule. As a runner participant, \*you\* are responsible for your crew and fans understanding this limitation. 
 
 **Aid station items:**
 * Drinks include water, an electrolyte drink, and various sodas.

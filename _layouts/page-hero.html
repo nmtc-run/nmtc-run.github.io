@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div class="event-hero" style="background-image:url({{ page.img }})">
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="spacer"></div>
+  <div class="event-hero-content">
+    <h1>{{ page.title }}</h1>
+  </div>
+  <div class="spacer"></div>
+  <div class="buttons">
+    <a href="{{ page.button-url }}" {% if page.open-in-new-window == true %}target="_blank"{% endif %}>
+      <div class="button">{{ page.button-text }}
+      </div>
+    </a>
+  </div>
+</div>
+
+{% if page.description or page.below-content-goes-in-box-below-photo %}
+  <div class="home-content">
+    <div class="key-details">
+      {% if page.subtitle %}
+        <h1>{{ page.subtitle }}</h1>
+      {% else if page.title %}
+        <h1>{{ page.title }}</h1>
+      {% endif %}
+      {% if page.below-content-goes-in-box-below-photo %}
+        <p>{{ content }}</p>
+      {% else if page.description %}
+        <p>{{ page.description }}</p>
+      {% endif %}
+    </div>
+  </div>
+{% else %}
+  <br>
+{% endif %}
+
+{% unless page.below-content-goes-in-box-below-photo %}
+  {{ content }}
+{% endunless %}

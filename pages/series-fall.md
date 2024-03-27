@@ -17,7 +17,7 @@ All ages and abilities are welcome and well represented. The vibe is something a
 
 We believe everyone can find exactly as much competition as they’re looking for. NMTC events offer a chance to test yourself against many of the area’s fastest trail runners or enjoy a fun run with friends—or both!—it’s entirely up to you.
 
-We maintain overall series standings and award points to everyone based on the order they finish in each race. Find links to [race results and overall standings](#schedule-and-standings) above. We update the overall standings each week. You can find results from prior years on our [race results](/results) page.
+We maintain overall series standings and award points to everyone based on the order they finish in each race. Find links to [race results and overall standings](#overall-standings) above. We update the overall standings each week. You can find results from prior years on our [race results](/results) page.
 
 Everyone who participates receives a prize—typically these are donated by local businesses. The emcee calls runners’ names in order of how they finished in the overall series, and each runner is invited to pick a prize when their name is called.
 

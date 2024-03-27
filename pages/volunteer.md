@@ -1,19 +1,26 @@
 ---
-layout: page
-title: Volunteer
+layout: page-hero
+title: Make magic happen
 permalink: /volunteer/
+img: /img/volunteer-table.jpeg
+subtitle: Minnesota Voyageur Trail Ultra and the Eugene Curnow Trail Marathon are in need of volunteers!
+button-text: Sign up to volunteer
+button-url: /volunteer/#eugene-curnow-trail-marathon # to link to a heading in the content below, use format /PAGE_TITLE/#HEADING-TEXT-BUT-REPLACE-SPACES-WITH-HYPHENS
+open-in-new-window: false
+below-content-goes-in-box-below-photo: false
+description:
+  Time commitments vary and some of the work can be appropriate for all ages; this is a great way to introduce friends and family to the world of trail running. Most important, volunteers have an absolute blast supporting racers, meeting new people, and giving back to the trail running community.
 ---
-Minnesota Voyageur Trail Ultra and the Eugene Curnow Trail Marathon are in need of volunteers! Time commitments vary and some of the work can be appropriate for all ages; this is a great way to introduce friends and family to the world of trail running. Most important, volunteers have an absolute blast supporting racers, meeting new people, and giving back to the trail running community.
 
 If you are volunteering as part of a job, education, or race requirement we will be happy to complete any necessary paperwork to verify your time commitment at our event.
 
+Volunteering at the Eugene Curnow Trail Marathon gets you a discounted entry to the Minnesota Voyageur—and vice versa. A very nice benefit, indeed! But please do not sign up for volunteering just for the discount and then back out. It places us in a short-handed situation. We do audit these post-race and contact no-shows to square up.
+
+If for some reason your ability to volunteer changes, please notify us right away. We rely on all of our volunteers to help us provide a successful event.
+
 If you have any questions, please contact our Volunteer Coordinator using our [contact page](/contact).
 
-> Note: If for some reason your ability to volunteer changes, please notify us right away. We rely on all of our volunteers to help us provide a successful event.
-
-# Curnow volunteer sign-up form
-
-Volunteering at the Eugene Curnow Trail Marathon gets you a discounted entry to the Minnesota Voyageur. A very nice benefit, indeed! But… please do not sign up for volunteering just for the discount and then back out. It places us in a short-handed situation. We do audit these post-race and contact no-shows to square up.
+# Eugene Curnow Trail Marathon
 
 <div class="container" style="display:flex;padding-bottom:1em;">
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvW7FwzVv2naQ7jjNZF6tMq6eHe5CRb-l4dAnTbKKEShpmhQ/viewform?vc=0&c=0&w=1&flr=0" style="margin: 0 auto;" target="blank">
@@ -21,9 +28,7 @@ Volunteering at the Eugene Curnow Trail Marathon gets you a discounted entry to 
   </a>
 </div>
 
-# Voyageur volunteer sign-up form
-
-Volunteering at the Minnesota Voyageur gets you a discounted entry to the Eugene Curnow Trail Marathon. A very nice benefit, indeed! But… please do not sign up for volunteering just for the discount and then back out. It places us in a short-handed situation. We do audit these post-race and contact no-shows to square up.
+# Minnesota Voyageur Trail Ultramarathon
 
 <div class="container" style="display:flex;padding-bottom:1em;">
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWOkAprzE5xPmNP7AgLZDdEAtwwzN5v_LMGYf7IO_D-XkxMw/viewform?vc=0&c=0&w=1&flr=0" style="margin: 0 auto;" target="blank">
