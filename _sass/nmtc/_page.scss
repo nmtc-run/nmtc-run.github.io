@@ -6,8 +6,8 @@
   // background-color: darken($background-color,15%);
   padding: 0.5em;
   text-align: center;
-  border-top: double 3px black;
-  border-bottom: solid 1px black;
+  border-top: double 3px $text-color;
+  border-bottom: solid 1px $text-color;
 }
 
 .event-content a {
@@ -41,6 +41,10 @@
 #map-iframe {
   border: none;
   position:relative; top:-67px;
+}
+
+.strava-wrapper {
+  padding-bottom: 1em; 
 }
 
 .series-event-wrapper {
@@ -104,7 +108,6 @@
 .series-date-time {
   display: flex;
   align-items: center;
-  max-width: 49%;
   flex-direction: row;
 }
 
@@ -176,7 +179,7 @@
  */
 
 @include media-query($on-palm)  {
-  
+
   .series-event,
   .series-details {
     font-size: 0.8em;

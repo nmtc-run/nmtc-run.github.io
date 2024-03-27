@@ -14,34 +14,8 @@ description: |-
   <br><br>
   Originally called the Half Voyageur Trail Marathon, in 2013 took the name of its indefatigable founder, the local trail and ultramarathon running legend Eugene Curnow. Gene’s energy, enthusiasm, and volunteer spirit played a significant role in the success of the Minnesota Voyageur, the growth of the northern Minnesota running community, and the development of the sport of trail running in general.
 map-id: 1854033
+strava-id: 3207880018615880304
 ---
-
-# Schedule
-
-4:45 AM: Buses depart to bring runners from the finish to the start.
-
-5:45 AM: Pre-race briefing. Attendance is mandatory.
-
-6:00 AM: Race starts promptly to ensure accurate splits.
-
-12:40 PM: Front runner close to finish.
-
-Runners receive awards as they finish.
-
-Mid-afternoon: Dinner will be provided by Magnolia Cafe at the school, runners free. A small charge for “extra eaters” can be paid at the door. Includes a variety of meat, vegetarian, and vegan / gluten-free sandwiches, pasta salad, and ice cream.
-
-4:00 PM: Final cutoff.
-
-# Getting to the start
-
-**Bus from finish area:** When you park at the finish, your car is ready and waiting when you finish! Park near the Munger Trailhead at Magnum Trucking and Ponderosa Sales in Carlton, MN. Buses depart at 4:45 AM and arrive in plenty of time for check-in and bib pickup.
-
-* *Finish Address:* 406 South Ave, Carlton, MN 55718
-* *GPS:* [46.6620848, -92.4205273](https://maps.app.goo.gl/dtaecq7rvTo44A5V6)
-
-**Parking at start:** Runners are encouraged to take advantage of the bus from the finish line; however, there are spaces available in the Lake Superior Zoo lot. Runners are responsible for finding a way back to their vehicles.
-* *Start Address:* 7210 Fremont St, Duluth, MN 55807
-* *GPS:* [46.7264351, -92.1902315](https://maps.app.goo.gl/D8NzRvwSxxSKiKqY7)
 
 # Aid stations
 
@@ -112,6 +86,33 @@ Mid-afternoon: Dinner will be provided by Magnolia Cafe at the school, runners f
 * You must label drop bags with your name and race number. Do this at home so you don’t have to worry about it on race morning. Duct tape and a Sharpie marker work well. Unmarked bags will not be delivered to the aid station.
 * At the race start location, place your clearly marked bags by the signs for the aid station and the finish line, and we will deliver them to the appropriate place.
 * We will return aid station drop bags to the finish line.
+
+# Schedule
+
+4:45 AM: Buses depart to bring runners from the finish to the start.
+
+5:45 AM: Pre-race briefing. Attendance is mandatory.
+
+6:00 AM: Race starts promptly to ensure accurate splits.
+
+12:40 PM: Front runner close to finish.
+
+Runners receive awards as they finish.
+
+Mid-afternoon: Dinner will be provided by Magnolia Cafe at the school, runners free. A small charge for “extra eaters” can be paid at the door. Includes a variety of meat, vegetarian, and vegan / gluten-free sandwiches, pasta salad, and ice cream.
+
+4:00 PM: Final cutoff.
+
+# Getting to the start
+
+**Bus from finish area:** When you park at the finish, your car is ready and waiting when you finish! Park near the Munger Trailhead at Magnum Trucking and Ponderosa Sales in Carlton, MN. Buses depart at 4:45 AM and arrive in plenty of time for check-in and bib pickup.
+
+* *Finish Address:* 406 South Ave, Carlton, MN 55718
+* *GPS:* [46.6620848, -92.4205273](https://maps.app.goo.gl/dtaecq7rvTo44A5V6)
+
+**Parking at start:** Runners are encouraged to take advantage of the bus from the finish line; however, there are spaces available in the Lake Superior Zoo lot. Runners are responsible for finding a way back to their vehicles.
+* *Start Address:* 7210 Fremont St, Duluth, MN 55807
+* *GPS:* [46.7264351, -92.1902315](https://maps.app.goo.gl/D8NzRvwSxxSKiKqY7)
 
 # Details
 

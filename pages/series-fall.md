@@ -3,14 +3,11 @@ layout: series
 title: NMTC Fall Series
 permalink: /fall-series/
 description: |- # retain newlines
+  The Fall Series offers the trail community nine short-distance races showcasing many of the area's most fun wooded singletrack trails. Races are held across the Twin Ports starting on Wednesday evenings and switching to Sunday afternoons as it gets darker earlier. The final race is followed by a potluck and prizes for all.
+  <br><br>
+  Entry is absolutely free. We accept donations <a href="/donate">online</a> or at the race start.
 
 ---
-
-<!-- # Schedule and standings
-
-<div class="table-container">
-  <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQGBP-D3O2O5GxLUzg5TJK_KkR5bxiixdqXzfME1MXxh5Q-nzpX9ZmWd324__Gq2ovk4aRnjKYKqPgW/pubhtml?widget=true&amp;headers=false" style="border: 1px solid #ccc;width: calc(100% - 2px);min-height:670px;max-height: 100vh;"></iframe>
-</div> -->
 
 # Everyone is welcome
 

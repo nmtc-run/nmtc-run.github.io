@@ -10,12 +10,12 @@
     page: /contact
 - name: list 2
   list:
-  - name: Voyageur 50mi
-    page: /voyageur
-  - name: Curnow Marathon
-    page: /curnow
   - name: Spring Series
     page: /spring-series
+  - name: Curnow Marathon
+    page: /curnow
+  - name: Voyageur 50mi
+    page: /voyageur
   - name: Fall Series
     page: /fall-series
 - name: list 3

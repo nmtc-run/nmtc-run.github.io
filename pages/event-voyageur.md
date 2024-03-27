@@ -8,34 +8,8 @@ descent: 5,000 ft
 description: |-
   Founded in 1982, the Minnesota Voyageur 50 Mile Trail Ultramarathon is one of the oldest trail ultras in the nation. The race follows a rugged, varied, out-and-back course that takes runners on a journey from Carlton, MN, through Jay Cooke State Park, and heads northeast over difficult, rough woodland trails to Duluth, MN—and back. Enjoy scenic overlooks of Lake Superior and cross the iconic Swinging Bridge over the St. Louis River. </br></br>Carlton High School hosts the start, finish, and race-day festivities. Weather for the Minnesota Voyageur can be extreme. There have been several years when it was hot and humid—including 2003 when it was brutally hot with 90 percent humidity. In other years it has been cool, in the mid-50’s, and wet. Plan for everything except snow—at least not so far!
 map-id: 2059255
+strava-id: 3207869585823066736
 ---
-
-# Schedule
-
-5:00 AM-5:45 AM: Check-in and bib pick-up for runners at Carlton High School.
-
-5:45 AM: Pre-race briefing. Attendance is mandatory.
-
-6:00 AM: Race starts promptly to ensure accurate splits.
-
-12:40 PM: Front runner close to finish.
-
-Runners receive awards as they finish.
-
-Mid-afternoon: Dinner will be provided by Magnolia Cafe at the school, runners free. A small charge for “extra eaters” can be paid at the door. Includes a variety of meat, vegetarian, and vegan / gluten-free sandwiches, pasta salad, and ice cream.
-
-8:00 PM: Final cutoff.
-
-# Getting to the start
-
-**Address:** Carlton High School 405 School Ave, Carlton, MN 55718
-
-**GPS:** [46.6651196,-92.4226923](https://goo.gl/maps/9W3JPx3k8jA2)
-
-**Parking at start/finish:** A good amount of parking is available in the lots behind and near the school. Some parking is also available on the streets surrounding the school.
-
-> **USE CAUTION:** Approaching the start/finish area on Walnut Ave intersects with 4th St, which is the final sprint to the finish line for our runners. If you can, please use a different route to School Ave, such as 5th or 6th St.
-
 
 # Aid stations
 
@@ -146,6 +120,32 @@ Mid-afternoon: Dinner will be provided by Magnolia Cafe at the school, runners f
 * You must label drop bags with your name and race number. Do this at home so you don’t have to worry about it on race morning. Duct tape and a Sharpie marker work well. Unmarked bags will not be delivered to the aid station.
 * At the race start location, place your clearly marked bags by the signs for each aid station, and we will deliver them to those aid stations.
 * We will return your drop bags to the finish.
+
+# Schedule
+
+5:00 AM-5:45 AM: Check-in and bib pick-up for runners at Carlton High School.
+
+5:45 AM: Pre-race briefing. Attendance is mandatory.
+
+6:00 AM: Race starts promptly to ensure accurate splits.
+
+12:40 PM: Front runner close to finish.
+
+Runners receive awards as they finish.
+
+Mid-afternoon: Dinner will be provided by Magnolia Cafe at the school, runners free. A small charge for “extra eaters” can be paid at the door. Includes a variety of meat, vegetarian, and vegan / gluten-free sandwiches, pasta salad, and ice cream.
+
+8:00 PM: Final cutoff.
+
+# Getting to the start
+
+**Address:** Carlton High School 405 School Ave, Carlton, MN 55718
+
+**GPS:** [46.6651196,-92.4226923](https://goo.gl/maps/9W3JPx3k8jA2)
+
+**Parking at start/finish:** A good amount of parking is available in the lots behind and near the school. Some parking is also available on the streets surrounding the school.
+
+> **USE CAUTION:** Approaching the start/finish area on Walnut Ave intersects with 4th St, which is the final sprint to the finish line for our runners. If you can, please use a different route to School Ave, such as 5th or 6th St.
 
 # Details
 

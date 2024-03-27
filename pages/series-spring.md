@@ -5,10 +5,10 @@ permalink: /spring-series/
 description: |- # retain newlines
   The Spring Series offers the trail community six short-distance races on a mix of surfaces—from creekside paths to gravel roads to sandy stretches along Lake Superior. Races are held across the Twin Ports—most on Wednesday evenings and one on a Sunday morning. The final race is followed by a potluck and prizes for all.
   <br><br>
-  Entry is absolutely free. We welcome donations <a href="/donate">online</a> and in-person (look for the tip jar at the registration table of each race). All funds support the continued viability of the NMTC Spring & Fall Race Series, the Eugene Curnow Marathon, and the Minnesota Voyageur Trail Ultramarathon.
+  Entry is absolutely free. We accept donations <a href="/donate">online</a> or at the race start.
 ---
 
-# Everyone is welcome 
+# Everyone is welcome
 
 All ages and abilities are welcome and well represented. The vibe is something akin to a neighborhood barbecue—a community event where old friends meet and new friends are made. Come join a bunch of folks who like to play in the woods!
 
@@ -22,7 +22,7 @@ Everyone who participates receives a prize—typically these are donated by loca
 
 # Registration
 
-Race registration is free. Donations are accepted [online](/donate) or at the race start.
+Race registration is free. We welcome donations <a href="/donate">online</a> and in-person (look for the tip jar at the registration table of each race). All funds support the continued viability of the NMTC Spring & Fall Race Series, the Eugene Curnow Marathon, and the Minnesota Voyageur Trail Ultramarathon.
 
 Register at the starting line of each race. If you arrive about an hour before the race start, look for the person sitting at a folding table with a laptop. And if you arrive a little closer to race time, look for the line of people near the folding table and laptop!  
 

@@ -48,8 +48,8 @@ layout: default
   <iframe id="map-iframe" src="https://www.google.com/maps/d/u/0/embed?mid=1VXhMDtwdH88TTCiVfd9G2g9fnujkJpU&ehbc=2E312F" width="100%" height="480"></iframe>
 </div>
 
-<blockquote style="font-size: 0.8em">
-  Note: Although courses mapped above show typical routes, these are subject to change based on trail conditions and the whims of the race director. Runners don't find out exactly where we'll run until the prerace briefing—a fun challenge.
+<blockquote style="font-size: 0.8em; font-style: normal;">
+  Note: Although above routes and below distances reflect typical courses, these change based on trail conditions and the whims of the race director. Runners don't find out exactly where we'll run until the prerace briefing—all part of the fun.
 </blockquote>
 
 {% assign first_event = series | first %}
@@ -61,12 +61,18 @@ layout: default
     {% if event.results %}
       {% assign active-listener = event.name %}
     {% else if event.metadata %}
-      {% assign results-women = event.women %}
-      {% assign results-men = event.men %}
-      {% assign results-nonbinary = event.nonbinary %}
+      {% for overall-standings in event.metadata %}
+        {% for standings in overall-standings %}
+          {% assign results-women = standings.women %}
+          {% assign results-men = standings.men %}
+          {% assign results-nonbinary = standings.nonbinary %}
+        {% endfor %}
+      {% endfor %}
     {% endif %}
   {% endif %}
 {% endfor %}
+
+{{ results }}
 
 <div class="series-event-wrapper">
   {% for event in series %}

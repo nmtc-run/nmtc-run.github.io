@@ -1,12 +1,12 @@
 - name: Lester Park
-  date: 2024-08-08 # use format: YYYY-MM-DD
+  date: 2024-08-28 # use format: YYYY-MM-DD
   time: "6:00 PM"
   dist: 6.5 mi
   sunset: "7:51 PM"
   time-to-dark: "1:51"
   min-pace: "17:01"
-  start-address:
-  start-gps:  # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  start-address: 61 Lester River Rd, Duluth, MN 55804
+  start-gps: 46.84044917893964, -92.0079944386572 # use decimal lat, long format: X.XXXXXXX, X,XXXXXXX
   results-last-year: https://nmtc.run/wp-content/uploads/2023/08/Lester.pdf
   results:
   description:
@@ -18,8 +18,8 @@
   sunset: "7:38 PM"
   time-to-dark: "1:38"
   min-pace: "17:31"
-  start-address:
-  start-gps:  # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  start-address: 131st Ave W &, W 5th St, Duluth, MN 55808
+  start-gps: 46.66166074106454, -92.27342593895307 # use decimal lat, long format: X.XXXXXXX, X,XXXXXXX
   results-last-year: https://nmtc.run/wp-content/uploads/2023/08/Lester.pdf
   results:
   description:
@@ -31,84 +31,84 @@
   sunset: "7:24 PM"
   time-to-dark: "1:24"
   min-pace: "15:01"
-  start-address:
-  start-gps:  # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  start-address: 3001 Woodland Ave, Duluth, MN 55803
+  start-gps: 46.83826651402405, -92.0819565936629 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
   results-last-year: https://nmtc.run/wp-content/uploads/2023/09/2023-Hartley.pdf
   results:
   description:
 
 - name: Brown's Point
   date: 2024-09-18 # use format: YYYY-MM-DD
-  time: ""
-  dist: X mi
-  sunset: ""
-  time-to-dark: ""
-  min-pace: ""
-  start-address:
-  start-gps:  # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year:
+  time: "6:00 PM"
+  dist: 5 mi
+  sunset: "7:10 PM"
+  time-to-dark: "1:10"
+  min-pace: "14:05"
+  start-address: Billings Dr & 42nd St Superior, WI 54880
+  start-gps: 46.691779, -92.144101 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  results-last-year: https://nmtc.run/wp-content/uploads/2023/09/2023-Browns-Point-1.pdf
   results:
   description:
 
 - name: Rock Hill
   date: 2024-09-25 # use format: YYYY-MM-DD
-  time: ""
-  dist: X mi
-  sunset: ""
-  time-to-dark: ""
-  min-pace: ""
-  start-address:
-  start-gps:  # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year:
+  time: "6:00 PM"
+  dist: 4 mi
+  sunset: "6:56 PM"
+  time-to-dark: "0:56"
+  min-pace: "15:01"
+  start-address: 1737 Bayview Ave, Duluth, MN 55811
+  start-gps: 46.82349024472875, -92.08227154428224 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  results-last-year: https://nmtc.run/wp-content/uploads/2023/09/2023-Rock-Hill.pdf
   results:
   description:
 
 - name: Pine Valley
   date: 2024-10-02 # use format: YYYY-MM-DD
-  time: ""
-  dist: X mi
-  sunset: ""
-  time-to-dark: ""
-  min-pace: ""
-  start-address:
-  start-gps:  # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year:
+  time: "6:00 PM"
+  dist: 3.5 mi
+  sunset: "6:42 PM"
+  time-to-dark: "0:42"
+  min-pace: "12:17"
+  start-address: 1106 Olympic Dr, Cloquet, MN 55720
+  start-gps: 46.70666669609901, -92.46260718192711 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  results-last-year: https://nmtc.run/wp-content/uploads/2023/10/2023-Pine-Valley.pdf
   results:
   description:
 
 - name: Rolling Stone
   date: 2024-10-06 # use format: YYYY-MM-DD
-  time: ""
-  dist: X mi
-  sunset: ""
-  time-to-dark: ""
-  min-pace: ""
-  start-address:
-  start-gps:  # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year:
+  time: "2:00 PM"
+  dist: 4 mi
+  sunset:
+  time-to-dark:
+  min-pace:
+  start-address: Parking Lot B, 9500 Spirit Mountain Pl, Duluth, MN 55810
+  start-gps: 46.722550263322404, -92.21845846560359 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  results-last-year: https://nmtc.run/wp-content/uploads/2023/10/2023-Rolling-Stone.pdf
   results:
   description:
 
 - name: Bull Run
   date: 2024-10-13 # use format: YYYY-MM-DD
-  time: ""
-  dist: X mi
-  sunset: ""
-  time-to-dark: ""
-  min-pace: ""
-  start-address:
-  start-gps:  # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year:
+  time: "2:00 PM"
+  dist: 6.5 mi
+  sunset:
+  time-to-dark:
+  min-pace:
+  start-address: Spruce Trailhead, 1820 Veterans Evergreen Mem Dr, Wrenshall, MN 55797
+  start-gps: 46.64491802822802, -92.30763098575716 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  results-last-year: https://nmtc.run/wp-content/uploads/2023/10/2023-Bull-Run.pdf
   results:
   description:
 
 - name: Rain date
-  date:  # use format: YYYY-MM-DD
-  time: ""
-  dist: X mi
-  sunset: ""
-  time-to-dark: ""
-  min-pace: ""
+  date: 2024-10-20 # use format: YYYY-MM-DD
+  time:
+  dist:
+  sunset:
+  time-to-dark:
+  min-pace:
   start-address:
   start-gps:  # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
   results-last-year:
@@ -116,19 +116,20 @@
   description: If a previous race is canceled, watch this space for updates.
 
 - name: Hawk Ridge
-  date: 2024-10-20 # use format: YYYY-MM-DD
-  time: ""
-  dist: X mi
-  sunset: ""
-  time-to-dark: ""
-  min-pace: ""
-  start-address:
-  start-gps:  # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year:
+  date: 2024-10-27 # use format: YYYY-MM-DD
+  time: "2:00 PM"
+  dist: 4 mi
+  sunset:
+  time-to-dark:
+  min-pace:
+  start-address: Snively Trail, Duluth, MN 55804
+  start-gps: 46.86062283951229, -92.01641427694736 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  results-last-year: https://nmtc.run/wp-content/uploads/2023/10/2023-Hawk-ridge.pdf
   results:
   description:
 
-- metadata: Overall standings
-  women: https://nmtc.run/wp-content/uploads/2023/10/2023-NMTC-Fall-Trail-Series-Standings-Womens-Results-Hawk-Ridge.pdf
-  men: https://nmtc.run/wp-content/uploads/2023/10/2023-NMTC-Fall-Trail-Series-Standings-Mens-Results-Hawk-Ridge.pdf
-  nonbinary: https://nmtc.run/wp-content/uploads/2023/09/2023-NMTC-Fall-Trail-Series-Standings-Non-Binary-Results-Hartley.pdf
+- metadata:
+   overall-standings:
+      women: https://nmtc.run/wp-content/uploads/2023/10/2023-NMTC-Fall-Trail-Series-Standings-Womens-Results-Hawk-Ridge.pdf
+      men: https://nmtc.run/wp-content/uploads/2023/10/2023-NMTC-Fall-Trail-Series-Standings-Mens-Results-Hawk-Ridge.pdf
+      nonbinary: https://nmtc.run/wp-content/uploads/2023/09/2023-NMTC-Fall-Trail-Series-Standings-Non-Binary-Results-Hartley.pdf

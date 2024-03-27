@@ -44,7 +44,7 @@
   sunset: "8:38 PM"
   time-to-dark: "2:38"
   min-pace: "36:20"
-  start-address: Billings Dr, Superior, WI 54880
+  start-address: Billings Dr & 42nd St, Superior, WI 54880
   start-gps: 46.691779, -92.144101 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
   results-last-year: https://nmtc.run/wp-content/uploads/2023/05/Billings-Drive.pdf
   results:
@@ -89,7 +89,8 @@
   results:
   description: Chester Bowl is run within the 117 acre Chester Park on ski trails and on the Dan Proctor Hiking Trail single track, which runs along both sides of Chester Creek.  The course is very hilly and technical and is a popular hiking destination.  Be sure to say “Hi!” when you cross paths with a hiker!
 
-- metadata: Overall standings
-  women: https://nmtc.run/wp-content/uploads/2023/06/2023-NMTC-Spring-Trail-Series-Standings-Womens-Results.pdf
-  men: https://nmtc.run/wp-content/uploads/2023/06/2023-NMTC-Spring-Trail-Series-Standings-Mens-Results.pdf
-  nonbinary: https://nmtc.run/wp-content/uploads/2023/05/2023-NMTC-Spring-Trail-Series-Standings-Non-Binary-Results-3.pdf
+- metadata:
+    overall-standings:
+      women: https://nmtc.run/wp-content/uploads/2023/06/2023-NMTC-Spring-Trail-Series-Standings-Womens-Results.pdf
+      men: https://nmtc.run/wp-content/uploads/2023/06/2023-NMTC-Spring-Trail-Series-Standings-Mens-Results.pdf
+      nonbinary: https://nmtc.run/wp-content/uploads/2023/05/2023-NMTC-Spring-Trail-Series-Standings-Non-Binary-Results-3.pdf
