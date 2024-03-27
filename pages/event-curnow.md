@@ -71,7 +71,7 @@ strava-id: 3207880018615880304
 </tbody></table>
 </div>
 
-> **ATTENTION:** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations. We have to disqualify runners who ignore this rule. As a runner participant, \*you\* are responsible for your crew and fans understanding this limitation. 
+> **ATTENTION:** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations. We have to disqualify runners who ignore this rule. As a runner participant, \*you\* are responsible for your crew and fans understanding this limitation.
 
 **Aid station items:**
 * Drinks include water, an electrolyte drink, and various sodas.
@@ -122,7 +122,7 @@ Mid-afternoon: Dinner will be provided by Magnolia Cafe at the school, runners f
 
 **Footing warning:** The race is run primarily on rugged woodland singletrack with roots, rocks, and other potential hazards. Watch footing on the bridges; they can be slippery, especially when wet, and some may have boards missing.
 
-**Cupless:** NMTC races are cup-free races. We will not provide paper cups at aid stations, and runners will need to carry their own cups (for example, collapsible cups), bottles, or other hydration vessels for use at aid stations.
+**Cupless:** NMTC races are cup-free races. We will not provide paper cups at aid stations, and runners will need to carry their own cups (for example, collapsible cups, bottles, or other hydration vessels) for use at aid stations.
 
 **Cutoffs:** Curnow aid stations enforce cutoffs (with the exception of the water-only Hwy 210 aid station, which is uncrewed). Please see the [aid station chart](#aid-stations) for specific cutoff times. Runners must reach the finish in 10 hours, by 4:00 PM.
 
