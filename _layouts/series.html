@@ -48,10 +48,6 @@ layout: default
   <iframe id="map-iframe" src="https://www.google.com/maps/d/u/0/embed?mid={{ page.map-id }}&ehbc=2E312F&noprof=1" width="100%" height="480"></iframe>
 </div>
 
-<blockquote style="font-size: 0.8em; font-style: normal;">
-  Note: Although above routes and below distances reflect typical courses, these change based on trail conditions and the whims of the race director. Runners don't find out exactly where we'll run until the prerace briefing—all part of the fun.
-</blockquote>
-
 {% assign first_event = series | first %}
 
 {% for event in series %}
@@ -139,6 +135,9 @@ layout: default
       </div>
     {% endif %}
   {% endfor %}
+  <blockquote style="font-size: 1em; font-style: normal; margin-top: 1em;">
+    Note: Routes and distances reflect typical courses, which change based on trail conditions and the whims of the race director. Runners don't find out the exact route until the prerace briefing.
+  </blockquote>
 </div>
 
 <div class="event-content">

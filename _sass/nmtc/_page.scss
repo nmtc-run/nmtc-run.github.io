@@ -44,7 +44,7 @@
 }
 
 .strava-wrapper {
-  padding-bottom: 1em; 
+  padding-bottom: 1em;
 }
 
 .series-event-wrapper {
@@ -180,8 +180,7 @@
 
 @include media-query($on-palm)  {
 
-  .series-event,
-  .series-details {
+  .series-event-wrapper {
     font-size: 0.8em;
   }
 
