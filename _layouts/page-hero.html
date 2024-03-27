@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="event-hero" style="background-image:url({{ page.img }})">
+<div class="event-hero" style="background-image:url({% if page.img %}{{ page.img }}{% else %}/img/vintage-team.jpeg{% endif %})">
   <div class="spacer"></div>
   <div class="spacer"></div>
   <div class="spacer"></div>

@@ -8,7 +8,7 @@ layout: default
   {% assign event = site.data.event-data[1] %}
 {% endif %}
 
-<div class="event-hero" style="background-image:url({{ event.img }})">
+<div class="event-hero" style="background-image:url({% if event.img %}{{ event.img }}{% else %}/img/vintage-team.jpeg{% endif %})">
   <div class="spacer"></div>
   <div class="spacer"></div>
   <div class="spacer"></div>

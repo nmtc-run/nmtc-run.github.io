@@ -10,7 +10,7 @@ layout: default
   {% assign series = site.data.series-fall %}
 {% endif %}
 
-<div class="event-hero" style="background-image:url({{ event.img }})">
+<div class="event-hero" style="background-image:url({% if event.img %}{{ event.img }}{% else %}/img/vintage-team.jpeg{% endif %})">
   <div class="spacer"></div>
   <div class="spacer"></div>
   <div class="spacer"></div>
