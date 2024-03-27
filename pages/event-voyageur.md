@@ -39,7 +39,7 @@ strava-id: 3207869585823066736
 <td>Yes</td>
 </tr>
 <tr>
-<td>Hwy 210 (H2O only)</td>
+<td>Hwy 210 (water only)</td>
 <td>6.6 | 13.7</td>
 <td>7:40 AM</td>
 <td>N/A</td>
@@ -71,7 +71,7 @@ strava-id: 3207869585823066736
 <td>Yes</td>
 </tr>
 <tr>
-<td>Hwy 210 (H2O only)</td>
+<td>Hwy 210 (water only)</td>
 <td>3.3 | 34.5</td>
 <td>10:30 AM</td>
 <td>N/A</td>
@@ -141,7 +141,7 @@ Mid-afternoon: Dinner will be provided by Magnolia Cafe at the school, runners f
 
 **Address:** Carlton High School 405 School Ave, Carlton, MN 55718
 
-**GPS:** [46.6651196,-92.4226923](https://goo.gl/maps/9W3JPx3k8jA2)
+**GPS:** [46.6651196,-92.4226923](https://goo.gl/maps/9W3JPx3k8jA2) &#91;<a class="driving-directions" href="https://www.google.com/maps/dir/?api=1&destination=46.6651196,-92.4226923" target="_blank"><img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">Driving directions</a>&#93;
 
 **Parking at start/finish:** A good amount of parking is available in the lots behind and near the school. Some parking is also available on the streets surrounding the school.
 

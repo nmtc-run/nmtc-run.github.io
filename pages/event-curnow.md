@@ -108,11 +108,11 @@ Mid-afternoon: Dinner will be provided by Magnolia Cafe at the school, runners f
 **Bus from finish area:** When you park at the finish, your car is ready and waiting when you finish! Park near the Munger Trailhead at Magnum Trucking and Ponderosa Sales in Carlton, MN. Buses depart at 4:45 AM and arrive in plenty of time for check-in and bib pickup.
 
 * *Finish Address:* 406 South Ave, Carlton, MN 55718
-* *GPS:* [46.6620848, -92.4205273](https://maps.app.goo.gl/dtaecq7rvTo44A5V6)
+* *GPS:* [46.6620848, -92.4205273](https://maps.app.goo.gl/dtaecq7rvTo44A5V6) &#91;<a class="driving-directions" href="https://www.google.com/maps/dir/?api=1&destination=46.6620848,-92.4205273" target="_blank"><img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">Driving directions</a>&#93;
 
 **Parking at start:** Runners are encouraged to take advantage of the bus from the finish line; however, there are spaces available in the Lake Superior Zoo lot. Runners are responsible for finding a way back to their vehicles.
 * *Start Address:* 7210 Fremont St, Duluth, MN 55807
-* *GPS:* [46.7264351, -92.1902315](https://maps.app.goo.gl/D8NzRvwSxxSKiKqY7)
+* *GPS:* [46.7264351, -92.1902315](https://maps.app.goo.gl/D8NzRvwSxxSKiKqY7) &#91;<a class="driving-directions" href="https://www.google.com/maps/dir/?api=1&destination=46.7264351,-92.1902315" target="_blank"><img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">Driving directions</a>&#93;
 
 # Details
 

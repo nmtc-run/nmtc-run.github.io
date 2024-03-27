@@ -11,15 +11,16 @@
  // width: 0.8em;
  height: 0.8em;
  padding-left: 0.15em;
+ transform: translateY(0.25em);
 }
 
-.submenu-title .down-arrow {
-  transform: translateY(0.25em);
-}
-
-.button .down-arrow {
-  transform: translateY(0.4em);
-}
+// .submenu-title .down-arrow {
+//   transform: translateY(0.25em);
+// }
+//
+// .button .down-arrow {
+//   transform: translateY(0.4em);
+// }
 
 .menu-icon {
   display: inline-block;
