@@ -56,14 +56,13 @@ footer a {
   box-sizing: border-box;
 }
 
-.footer-item {
-  // margin-bottom: 10px;
-}
-
-/* For responsive layout */
+/* For smaller screens */
 @include media-query($on-palm) {
   .footer-container {
     flex-direction: column;
     text-align: center;
+  }
+  .footer-item {
+    padding: 0.1em;
   }
 }
