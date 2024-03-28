@@ -51,24 +51,39 @@ layout: default
 </div>
 
 {% assign first_event = series | first %}
-
+{% assign test = 0 %}
 {% for event in series %}
   {% if event == first_event %}
     {% assign active-listener = event.name %}
-  {% else %}
-    {% if event.results %}
-      {% assign active-listener = event.name %}
-    {% else if event.metadata %}
-      {% for overall-standings in event.metadata %}
-        {% for standings in overall-standings %}
-          {% assign results-women = standings.women %}
-          {% assign results-men = standings.men %}
-          {% assign results-nonbinary = standings.nonbinary %}
-        {% endfor %}
+  {% endif %}
+  {% if event.results %}
+    {% for edition in event.results %}
+      {% if event == first_event %}
+        {% assign test-first-name = event.name %}
+        {% if edition.url %}
+          {% assign test-first-year = edition.year %}
+        {% endif %}
+      {% endif %}
+      {% if edition.url %}
+        {% if edition.year >= test %}
+          {% assign test = edition.year %}
+          {% assign active-listener = event.name %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% else if event.metadata %}
+    {% for overall-standings in event.metadata %}
+      {% for standings in overall-standings %}
+        {% assign results-women = standings.women %}
+        {% assign results-men = standings.men %}
+        {% assign results-nonbinary = standings.nonbinary %}
       {% endfor %}
-    {% endif %}
+    {% endfor %}
   {% endif %}
 {% endfor %}
+{% if test == test-first-year %}
+  {% assign active-listener = test-first-name %}
+{% endif %}
 
 {{ results }}
 
@@ -109,7 +124,27 @@ layout: default
             </div>
           </div>
         {% endif %}
-        {% if event.results-last-year or event.results %}
+
+        {% assign display = true %}
+        {% if event.results %}
+          {% for edition in event.results %}
+            {% if forloop.first == true and display %}
+              {% unless edition.url %}
+                {% assign display = false %}
+              {% endunless %}
+              <div class="series-results">
+                <div>
+                  <strong>Results: </strong>
+            {%- endif -%}
+            {%- if edition.url -%}<a href="{{ edition.url }}" style="padding-right: 0.25em">{{ edition.year }}</a>{%- endif -%}
+            {% if forloop.last == true and display %}
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+
+        <!-- {% if event.results-last-year or event.results %}
           <div class="series-results">
             <div><strong>Results: </strong>
               {%- if event.results-last-year -%}
@@ -124,7 +159,7 @@ layout: default
               {%- endif -%}
             </div>
           </div>
-        {% endif %}
+        {% endif %} -->
         {% if event.description %}
           <div class="series-description">
             <div>

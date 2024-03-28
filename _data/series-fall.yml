@@ -7,8 +7,13 @@
   min-pace: "17:01"
   start-address: 61 Lester River Rd, Duluth, MN 55804
   start-gps: 46.84044917893964, -92.0079944386572 # use decimal lat, long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year: https://nmtc.run/wp-content/uploads/2023/08/Lester.pdf
   results:
+    - year: 2023
+      url: https://nmtc.run/wp-content/uploads/2023/08/Lester.pdf
+    - year: 2024
+      url:
+    - year: 2025
+      url:
   description:
 
 - name: Zapp's Loop
@@ -20,8 +25,13 @@
   min-pace: "17:31"
   start-address: 131st Ave W &, W 5th St, Duluth, MN 55808
   start-gps: 46.66166074106454, -92.27342593895307 # use decimal lat, long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year: https://nmtc.run/wp-content/uploads/2023/08/Lester.pdf
   results:
+    - year: 2023
+      url: https://nmtc.run/wp-content/uploads/2023/09/Zapps-Loop.pdf
+    - year: 2024
+      url:
+    - year: 2025
+      url:
   description:
 
 - name: Hartley
@@ -33,8 +43,13 @@
   min-pace: "15:01"
   start-address: 3001 Woodland Ave, Duluth, MN 55803
   start-gps: 46.83826651402405, -92.0819565936629 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year: https://nmtc.run/wp-content/uploads/2023/09/2023-Hartley.pdf
   results:
+    - year: 2023
+      url: https://nmtc.run/wp-content/uploads/2023/09/2023-Hartley.pdf
+    - year: 2024
+      url:
+    - year: 2025
+      url:
   description:
 
 - name: Brown's Point
@@ -46,8 +61,14 @@
   min-pace: "14:05"
   start-address: Billings Dr & 42nd St Superior, WI 54880
   start-gps: 46.691779, -92.144101 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year: https://nmtc.run/wp-content/uploads/2023/09/2023-Browns-Point-1.pdf
+  results-last-year:
   results:
+    - year: 2023
+      url: https://nmtc.run/wp-content/uploads/2023/09/2023-Browns-Point-1.pdf
+    - year: 2024
+      url:
+    - year: 2025
+      url:
   description:
 
 - name: Rock Hill
@@ -59,8 +80,13 @@
   min-pace: "15:01"
   start-address: 1737 Bayview Ave, Duluth, MN 55811
   start-gps: 46.82349024472875, -92.08227154428224 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year: https://nmtc.run/wp-content/uploads/2023/09/2023-Rock-Hill.pdf
   results:
+    - year: 2023
+      url: https://nmtc.run/wp-content/uploads/2023/09/2023-Rock-Hill.pdf
+    - year: 2024
+      url:
+    - year: 2025
+      url:
   description:
 
 - name: Pine Valley
@@ -72,8 +98,14 @@
   min-pace: "12:17"
   start-address: 1106 Olympic Dr, Cloquet, MN 55720
   start-gps: 46.70666669609901, -92.46260718192711 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year: https://nmtc.run/wp-content/uploads/2023/10/2023-Pine-Valley.pdf
+  results-last-year:
   results:
+    - year: 2023
+      url: https://nmtc.run/wp-content/uploads/2023/10/2023-Pine-Valley.pdf
+    - year: 2024
+      url:
+    - year: 2025
+      url:
   description:
 
 - name: Rolling Stone
@@ -85,8 +117,13 @@
   min-pace:
   start-address: Parking Lot B, 9500 Spirit Mountain Pl, Duluth, MN 55810
   start-gps: 46.722550263322404, -92.21845846560359 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year: https://nmtc.run/wp-content/uploads/2023/10/2023-Rolling-Stone.pdf
   results:
+    - year: 2023
+      url: https://nmtc.run/wp-content/uploads/2023/10/2023-Rolling-Stone.pdf
+    - year: 2024
+      url:
+    - year: 2025
+      url:
   description:
 
 - name: Bull Run
@@ -98,8 +135,13 @@
   min-pace:
   start-address: Spruce Trailhead, 1820 Veterans Evergreen Mem Dr, Wrenshall, MN 55797
   start-gps: 46.64491802822802, -92.30763098575716 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year: https://nmtc.run/wp-content/uploads/2023/10/2023-Bull-Run.pdf
   results:
+    - year: 2023
+      url: https://nmtc.run/wp-content/uploads/2023/10/2023-Bull-Run.pdf
+    - year: 2024
+      url:
+    - year: 2025
+      url:
   description:
 
 - name: Rain date
@@ -111,8 +153,6 @@
   min-pace:
   start-address:
   start-gps:  # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year:
-  results:
   description: If a previous race is canceled, watch this space for updates.
 
 - name: Hawk Ridge
@@ -124,8 +164,13 @@
   min-pace:
   start-address: Snively Trail, Duluth, MN 55804
   start-gps: 46.86062283951229, -92.01641427694736 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  results-last-year: https://nmtc.run/wp-content/uploads/2023/10/2023-Hawk-ridge.pdf
   results:
+    - year: 2023
+      url: https://nmtc.run/wp-content/uploads/2023/10/2023-Hawk-ridge.pdf
+    - year: 2024
+      url:
+    - year: 2025
+      url:
   description:
 
 - metadata:
