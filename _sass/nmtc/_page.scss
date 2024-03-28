@@ -27,7 +27,15 @@
 }
 
 /**
- * Styles for series pages
+ * Styles for event pages
+ */
+
+.strava-wrapper {
+  padding-bottom: 1em;
+}
+
+/**
+ * Series pages - base styles
  */
 
 .map-container {
@@ -41,10 +49,6 @@
 #map-iframe {
   border: none;
   position:relative; top:-67px;
-}
-
-.strava-wrapper {
-  padding-bottom: 1em;
 }
 
 .series-event-wrapper {
