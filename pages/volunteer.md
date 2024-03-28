@@ -2,7 +2,7 @@
 layout: page-hero
 title: Make magic happen
 permalink: /volunteer/
-img: /img/volunteer-table.jpeg
+img: /img/aid-station.jpeg
 subtitle: Minnesota Voyageur Trail Ultra and the Eugene Curnow Trail Marathon are in need of volunteers!
 button-text: Sign up to volunteer
 button-url: /volunteer/#eugene-curnow-trail-marathon # to link to a heading in the content below, use format /PAGE_TITLE/#HEADING-TEXT-BUT-REPLACE-SPACES-WITH-HYPHENS
