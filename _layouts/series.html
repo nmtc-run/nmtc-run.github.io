@@ -50,10 +50,7 @@ layout: default
   <iframe id="map-iframe" src="https://www.google.com/maps/d/u/0/embed?mid={{ page.map-id }}&ehbc=2E312F&noprof=1" width="100%" height="480"></iframe>
 </div>
 
-<div style="background-color:black;color:lime;padding:1em;display:none;">
-
-  <!-- Liquid for assigning .active and getting overall standings goes here -->
-
+  <!-- Assign .active and get overall standings -->
   {% assign year_counter = 0 %}
   {% assign first_edition_year = false %}
   {% assign final_event_year = false %}
@@ -86,7 +83,6 @@ layout: default
       <!-- set current event as .active -->
       {% if num_editions > 0 %}
         {% assign active_event = event.name %}
-        <br> active_event reassigned to {{ event.name }}
       {% endif %}
 
       <!-- store final event for use at after looping -->
@@ -95,7 +91,6 @@ layout: default
       <!-- establish first_year -->
       {% if forloop.first == true %}
         {% assign first_year = edition.year %}
-        <br> active_event assigned to {{ event.name }} (forloop.first)
         {% assign first_year_boolean = true %}
       {% endif %}
 
@@ -107,11 +102,9 @@ layout: default
         {% if edition.url %}
 
           <!-- establish first_edition_year -->
-          <br>--> {{ event.name }} + {{ series_opener }}
           {% if first_year_boolean == true or event.name == series_opener %}
             {% assign first_edition_year = edition.year %}
             {% assign first_year_boolean = false %}
-            <br>first_edition: {{ series_opener }}({{ first_edition_year }})
           {% endif %}
 
           <!-- if newer results have been uploaded... -->
@@ -121,13 +114,9 @@ layout: default
             {% assign latest_edition_name = event.name %}
             {% assign latest_edition_year = edition.year %}
 
-            <br> latest_edition assigned to {{ latest_edition_name }}({{ latest_edition_year }})
-
             {%  assign num_editions = num_editions | plus: 1 %}
-             [ {{ num_editions }} ]
 
             {% assign year_counter = edition.year %}
-            <br>year_counter: {{ year_counter }}
 
           {% endif %}
 
@@ -139,24 +128,10 @@ layout: default
 
   {% endfor %}
 
-
-<!-- if _,
-<!-- set the first event as .active -->
-<br> * * *
-<br> first_edition: {{ series_opener }} ({{ first_edition_year }})
-<br> latest_edition: {{ latest_edition_name }} ({{ latest_edition_year }})
-<br> series_final: {{ series_final }}
-<br> active_event: {{ active_event }}
-
+<!-- if season is complete, set the first event as .active -->
 {% if first_edition_year == latest_edition_year and latest_edition_name == series_final %}
   {% assign active_event = series_opener %}
-  <br> active_event was reassigned to {{ active_event }}
-{% else %}
-  <br> active event was *not* reassigned
 {% endif %}
-
-
-</div>
 
 <div class="series-event-wrapper">
   {% for event in series %}
