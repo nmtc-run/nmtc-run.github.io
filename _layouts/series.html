@@ -50,49 +50,123 @@ layout: default
   <iframe id="map-iframe" src="https://www.google.com/maps/d/u/0/embed?mid={{ page.map-id }}&ehbc=2E312F&noprof=1" width="100%" height="480"></iframe>
 </div>
 
-{% assign first_event = series | first %}
-{% assign test = 0 %}
-{% for event in series %}
-  {% if event == first_event %}
-    {% assign active-listener = event.name %}
-  {% endif %}
-  {% if event.results %}
-    {% for edition in event.results %}
-      {% if event == first_event %}
-        {% assign test-first-name = event.name %}
-        {% if edition.url %}
-          {% assign test-first-year = edition.year %}
-        {% endif %}
-      {% endif %}
-      {% if edition.url %}
-        {% if edition.year >= test %}
-          {% assign test = edition.year %}
-          {% assign active-listener = event.name %}
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-  {% else if event.metadata %}
-    {% for overall-standings in event.metadata %}
-      {% for standings in overall-standings %}
-        {% assign results-women = standings.women %}
-        {% assign results-men = standings.men %}
-        {% assign results-nonbinary = standings.nonbinary %}
+<div style="background-color:black;color:lime;padding:1em;display:none;">
+
+  <!-- Liquid for assigning .active and getting overall standings goes here -->
+
+  {% assign year_counter = 0 %}
+  {% assign first_edition_year = false %}
+  {% assign final_event_year = false %}
+  {% assign i = 0 %}
+
+  {% for event in series %}
+
+    <!-- if metadata, save a few variables and end forloop -->
+    {% if event.metadata %}
+      {% for overall-standings in event.metadata %}
+        {% for standings in overall-standings %}
+          {% assign results-women = standings.women %}
+          {% assign results-men = standings.men %}
+          {% assign results-nonbinary = standings.nonbinary %}
+        {% endfor %}
       {% endfor %}
-    {% endfor %}
-  {% endif %}
-{% endfor %}
-{% if test == test-first-year %}
-  {% assign active-listener = test-first-name %}
+      {% break %}
+    {% endif %}
+
+    <!-- establish first event as .active and save name for later -->
+    {% if forloop.first == true %}
+      {% assign active_event = event.name %}
+      {% assign series_opener = event.name %}
+    {% endif %}
+
+    <!-- check to see if we should even continue -->
+    {% if event.results %}
+
+      <!-- if previous event has results uploaded,
+      <!-- set current event as .active -->
+      {% if num_editions > 0 %}
+        {% assign active_event = event.name %}
+        <br> active_event reassigned to {{ event.name }}
+      {% endif %}
+
+      <!-- store final event for use at after looping -->
+      {% assign series_final = event.name %}
+
+      <!-- establish first_year -->
+      {% if forloop.first == true %}
+        {% assign first_year = edition.year %}
+        <br> active_event assigned to {{ event.name }} (forloop.first)
+        {% assign first_year_boolean = true %}
+      {% endif %}
+
+      <!-- start looping through editions of the event -->
+      {% assign num_editions = 0 %}
+
+      {% for edition in event.results %}
+
+        {% if edition.url %}
+
+          <!-- establish first_edition_year -->
+          <br>--> {{ event.name }} + {{ series_opener }}
+          {% if first_year_boolean == true or event.name == series_opener %}
+            {% assign first_edition_year = edition.year %}
+            {% assign first_year_boolean = false %}
+            <br>first_edition: {{ series_opener }}({{ first_edition_year }})
+          {% endif %}
+
+          <!-- if newer results have been uploaded... -->
+
+          {% if edition.year >= year_counter %}
+
+            {% assign latest_edition_name = event.name %}
+            {% assign latest_edition_year = edition.year %}
+
+            <br> latest_edition assigned to {{ latest_edition_name }}({{ latest_edition_year }})
+
+            {%  assign num_editions = num_editions | plus: 1 %}
+             [ {{ num_editions }} ]
+
+            {% assign year_counter = edition.year %}
+            <br>year_counter: {{ year_counter }}
+
+          {% endif %}
+
+        {% endif %}
+
+      {% endfor %}
+
+    {% endif %}
+
+  {% endfor %}
+
+
+<!-- if _,
+<!-- set the first event as .active -->
+<br> * * *
+<br> first_edition: {{ series_opener }} ({{ first_edition_year }})
+<br> latest_edition: {{ latest_edition_name }} ({{ latest_edition_year }})
+<br> series_final: {{ series_final }}
+<br> active_event: {{ active_event }}
+
+{% if first_edition_year == latest_edition_year and latest_edition_name == series_final %}
+  {% assign active_event = series_opener %}
+  <br> active_event was reassigned to {{ active_event }}
+{% else %}
+  <br> active event was *not* reassigned
 {% endif %}
 
-{{ results }}
+
+</div>
 
 <div class="series-event-wrapper">
   {% for event in series %}
     {% if event.name %}
-      <div class="series-event click-map {% if event.name == active-listener %}active{% endif %}" onclick="panToLocation({{ event.start-gps }},13)">
+      <div class="series-event click-map {% if active_event == event.name %}active{% endif %}" onclick="panToLocation({{ event.start-gps }},13)">
         <div class="series-arrow-name">
           <div class="series-arrow"></div>
+          {% if event.map-color %}
+            <div class="series-color" style="background-color: {{ event.map-color }}"></div>
+          {% endif %}
           <div class="series-name">{{ event.name }}</div>
           {% if event.dist %}
             <div class="series-dist">{{ event.dist }}</div>
@@ -107,6 +181,7 @@ layout: default
         </div>
       </div>
       <div class="series-details">
+        <div class="series-hr"></div>
         {% if event.sunset %}
           <div class="series-sunset-pace">
             <div><strong>Sunset: </strong>{{ event.sunset }}</div>
@@ -125,41 +200,24 @@ layout: default
           </div>
         {% endif %}
 
-        {% assign display = true %}
+        {% assign hide_results = 'hide-results' %}
         {% if event.results %}
           {% for edition in event.results %}
-            {% if forloop.first == true and display %}
-              {% unless edition.url %}
-                {% assign display = false %}
-              {% endunless %}
-              <div class="series-results">
-                <div>
-                  <strong>Results: </strong>
-            {%- endif -%}
-            {%- if edition.url -%}<a href="{{ edition.url }}" style="padding-right: 0.25em">{{ edition.year }}</a>{%- endif -%}
-            {% if forloop.last == true and display %}
-                </div>
-              </div>
+            {% if edition.url %}
+              {% assign hide_results = '' %}
+              {{ edition.url }}
             {% endif %}
           {% endfor %}
         {% endif %}
 
-        <!-- {% if event.results-last-year or event.results %}
-          <div class="series-results">
-            <div><strong>Results: </strong>
-              {%- if event.results-last-year -%}
-                <a href="{{ event.results-last-year }}" target="_blank">{{ event.date | date: "%Y" | minus: 1 }}</a>
-                {%- assign seperator = true -%}
-              {%- endif -%}
-              {%- if event.results -%}
-                {%- if seperator -%}
-                <span>&#44;&nbsp;</span>
-                {%- endif -%}
-                <a href="{{ event.results }}" target="_blank">{{ event.date | date: "%Y" }}</a>
-              {%- endif -%}
-            </div>
+        <div class="series-results {{ hide_results }}">
+          <div><strong>Results: </strong>
+            {% for edition in event.results %}
+              {%- if edition.url -%}<a href="{{ edition.url }}" style="padding-right: 0.25em">{{ edition.year }}</a>{%- endif -%}
+            {% endfor %}
           </div>
-        {% endif %} -->
+        </div>
+
         {% if event.description %}
           <div class="series-description">
             <div>
@@ -230,16 +288,22 @@ layout: default
     // Add click event listener to each series-event.click-map element
     seriesEvents.forEach(function(event) {
       event.addEventListener('click', function() {
-        // Remove "active" class from all series-event.click-map elements
-        seriesEvents.forEach(function(event) {
-          event.classList.remove('active');
-        });
+        if (this.classList.contains('active')) {
+          // If the clicked element is already active, remove the 'active' class
+          this.classList.remove('active');
+        } else {
+          // Remove "active" class from all series-event.click-map elements
+          seriesEvents.forEach(function(event) {
+            event.classList.remove('active');
+          });
 
-        // Add "active" class to the clicked series-event.click-map element
-        this.classList.add('active');
+          // Add "active" class to the clicked series-event.click-map element
+          this.classList.add('active');
+        }
       });
     });
   });
+
 
 </script>
 

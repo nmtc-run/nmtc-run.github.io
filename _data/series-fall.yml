@@ -7,6 +7,7 @@
   min-pace: "17:01"
   start-address: 61 Lester River Rd, Duluth, MN 55804
   start-gps: 46.84044917893964, -92.0079944386572 # use decimal lat, long format: X.XXXXXXX, X,XXXXXXX
+  map-color: 
   results:
     - year: 2023
       url: https://nmtc.run/wp-content/uploads/2023/08/Lester.pdf
