@@ -1,7 +1,7 @@
 ---
-layout: event
+layout: sandbox # event
 title: Eugene Curnow Trail Marathon
-permalink: /curnow/
+permalink: /curnow/sandbox/
 start-finish: false
 start: Duluth Superior Zoo, Duluth, MN
 finish: Munger Trailhead, Carlton, MN
@@ -19,68 +19,6 @@ google-map-id: 1TlA-qHl5EEzqz_rmYOi4nJQqiz4dA-I
 google-spreadsheet-id: 1CkNRacySeTR5hKvaq3EsZOJzZJ2kbBly4BnpIc7bhpw
 gpx-url: /assets/gpx/Curnow-Marathon.gpx
 ---
-
-# Aid stations
-
-<div class="table-container">
-<table class="table table-bordered table-hover table-condensed">
-<thead><tr><th title="Field #1">Station Name</th>
-<th title="Field #2">Split | Total</th>
-<th title="Field #3">1st Runner</th>
-<th title="Field #4">Cut-Off</th>
-<th title="Field #5">Crew Access</th>
-<th title="Field #6">Drop Bags</th>
-</tr></thead>
-<tbody><tr>
-<td>Becks Road</td>
-<td>7.3 | 7.3</td>
-<td>7:00 AM</td>
-<td>8:45 AM</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Hwy 210 (water only)</td>
-<td>3.3 | 10.6</td>
-<td>7:30 AM</td>
-<td>N/A</td>
-<td>No</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Peterson&#39;s</td>
-<td>6.6 | 17.2</td>
-<td>8:30 AM</td>
-<td>12:30 PM</td>
-<td>No</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Jay Cooke</td>
-<td>6.2 | 23.4</td>
-<td>9:00 AM</td>
-<td>2:40 PM</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Munger Trailhead (Finish)</td>
-<td>3.5 | 26.9</td>
-<td>9:45 AM</td>
-<td>4:00 PM</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-</tbody></table>
-</div>
-
-> **ATTENTION:** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations. We have to disqualify runners who ignore this rule. As a runner participant, \*you\* are responsible for your crew and fans understanding this limitation.
-
-**Aid station items:**
-* Drinks include water, an electrolyte drink, and various sodas.
-* Food includes fruit, cookies, potato chips, and other sweet/salty options.
-* We do not supply electrolyte supplement capsules, such as Endurolytes or S-Caps.
-* We highly recommend you carry water during the race, e.g. bottle or other hydration system.
 
 # Drop bags
 
