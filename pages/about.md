@@ -19,7 +19,7 @@ The NMTC is organized and managed by a committee of individuals who love the spo
 
 # At-Large Members
 
-* Samantha Carlson
+* Samantha Frey
 * Ron Hendrickson
 * Eric Nordgren
 * Leslie Semler
