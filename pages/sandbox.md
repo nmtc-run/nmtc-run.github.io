@@ -57,7 +57,7 @@ Mid-afternoon: Dinner will be provided by Magnolia Cafe at the school, runners f
 
 # Details
 
-**Trail markings:** Follow the hot orange pin flags, with the initials “NMTC” on them. If you don’t see one in about 0.1 miles, you are off course! Turns are marked with a series of pin flags a short distance (feet) apart on the side to which you’ll be turning.
+**Trail markings:** Follow the hot orange pin flags, with “NMTC” on them. If you don’t see one in about 0.1 miles, you are off course! Turns are marked with a series of pin flags a short distance (feet) apart on the side to which you’ll be turning.
 
 **Traffic warning:** Use care on bike paths and roads. Runners must yield to traffic when crossing roads! A race is just a run; a road crossing is life and death!  
 
