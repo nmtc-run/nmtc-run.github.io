@@ -13,19 +13,17 @@ The NMTC is organized and managed by a committee of individuals who love the spo
 
 # Officers
 
-* Barbara Bengtson – Chair
-* Haley Bengtson – Co-Chair
+* Haley Bengtson – Chair
+* Kaelyn Williams – Vice Chair
 * Mae Gackstetter – Secretary / Treasurer
 
 # At-Large Members
 
 * Samantha Frey
-* Ron Hendrickson
-* Eric Nordgren
 * Leslie Semler
 * Marcus Taintor
 * Shelly Thompson
 * Jarrow Wahman
 * Lane Johnson
 * Nate Hubert
-* Kaelyn Williams
+* Matt Livingston
