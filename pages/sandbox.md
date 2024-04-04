@@ -1,7 +1,7 @@
 ---
-layout: sandbox # event
+layout: sandbox-event # event
 title: Eugene Curnow Trail Marathon
-permalink: /sandbox/curnow
+permalink: /sandbox/curnow/
 start-finish: false
 start: Duluth Superior Zoo, Duluth, MN
 finish: Munger Trailhead, Carlton, MN
