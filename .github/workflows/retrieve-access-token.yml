@@ -1,0 +1,23 @@
+name: Retrieve Access Token
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  retrieve-access-token:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send HTTP POST request to Google Apps Script
+        run: |
+          # Replace 'YOUR_WEB_APP_URL' with the URL of your Google Apps Script web app endpoint
+          response=$(curl -X POST -H "Content-Type: application/json" -d '{"data": "your_data"}' https://script.google.com/macros/s/AKfycbzYstgPwK9xEL9D1cnLPN_dtUXyJYdisiEMjl5aD6NwLZsZb_6uI9Ruz4zf2_mdOcMAYQ/exec)
+          echo "$response" # Print the response for debugging purposes
+          access_token=$(echo "$response" | jq -r '.token') # Extract the access token from the response using 'jq' tool
+          echo "::set-output name=ACCESS_TOKEN::$access_token" # Set the access token as an output variable
+
+      - name: Save Access Token as GitHub Secret
+        if: ${{ success() }}
+        run: echo "ACCESS_TOKEN=$ACCESS_TOKEN" >> $GITHUB_ENV
