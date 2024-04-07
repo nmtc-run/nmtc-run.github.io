@@ -3,6 +3,7 @@ name: Retrieve Access Token
 on:
   schedule:
     - cron: '0 0 1 * *' # Run the workflow at midnight on the first day of every month
+  workflow_dispatch: 
 
 jobs:
   retrieve-access-token:
