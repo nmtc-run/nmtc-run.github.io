@@ -1,0 +1,287 @@
+
+<div id="facebook-container">
+  <div id="posts-header"></div>
+  <div id="posts-container"></div>
+  <div id="view-more-posts"></div>
+</div>
+
+<script>
+  // Pull in environment variables in development and production
+  {% if site.env %}
+    // Production
+    var FB_TOKEN = "{{ site.env.FB_TOKEN }}";
+    var FB_PAGE_ID = "{{ site.env.FB_PAGE_ID }}";
+  {% else %}
+    // Development
+    const FB_TOKEN = '{{ site.data.dev.env.FB_TOKEN }}';
+    const FB_PAGE_ID = '{{ site.data.dev.env.FB_PAGE_ID }}';
+  {% endif %}
+
+  const pageId = FB_PAGE_ID;
+  const accessToken = FB_TOKEN;
+  let loadedPostsCount = 0; // To keep track of num posts loaded
+
+  // Function to make a request to the Facebook Graph API
+  function getFacebookPosts(pageDetails) {
+    fetch(`https://graph.facebook.com/v19.0/${pageId}/posts?access_token=${accessToken}&fields=attachments,message,created_time,story`)
+      .then(response => response.json())
+      .then(data => {
+          // console.log(data);
+          // Process the response data
+          if (data && data.data && data.data.length > 0) {
+              // Iterate through each post
+              data.data.forEach(post => {
+                  // Extract relevant information including attachments
+                  const postId = post.id;
+                  const message = post.message || 'No message';
+                  const createdTime = formatDate(post.created_time);
+                  let story = post.story || '';
+                  const attachments = post.attachments || {};
+                  let profileImgSrc = pageDetails.profileImgSrc;
+                  let pageName = pageDetails.pageName;
+                  let pageUrl = pageDetails.pageUrl;
+
+                  // Extract media image URL from attachments
+                  let mediaImgSrc = '';
+                  if (attachments.data && attachments.data.length > 0) {
+                      attachments.data.forEach(attachment => {
+                          if (attachment.media && attachment.media.image && attachment.media.image.src) {
+                              // Get the URL of the image if it exists
+                              mediaImgSrc = attachment.media.image.src;
+                          }
+                      });
+                  }
+
+                  // Extract title from attachments
+                  let title = '';
+                  if (attachments.data && attachments.data.length > 0) {
+                      attachments.data.forEach(attachment => {
+                          if (attachment.title) {
+                              title = attachment.title;
+                          }
+                      });
+                  }
+
+                  // Extract title and description from link preview
+                  let linkUrl = '';
+                  let linkTitle = '';
+                  let linkDescription = '';
+                  let postType = '';
+                  if (attachments.data && attachments.data.length > 0 && attachments.data[0].title && postType == 'share') {
+                    linkUrl = attachments.data[0].url;
+                    linkTitle = attachments.data[0].title;
+                    linkDescription = attachments.data[0].description || '';
+                    postType = attachments.data[0].type;
+                  }
+
+                  // get the post URL
+                  const postUrl = `https://www.facebook.com/${postId.split('_')[0]}/posts/${postId.split('_')[1]}`;
+
+                  // if story, display that; if not, display Page name
+                  if (!story) {
+                    story = pageName;
+                  }
+
+                  // Display the post information on the webpage
+                  if (loadedPostsCount <= 5) {
+                    displayPost(postUrl, message, createdTime, story, mediaImgSrc, title, profileImgSrc, pageName, pageUrl, linkUrl, linkTitle, linkDescription);
+                    loadedPostsCount = loadedPostsCount + 1;
+                  }
+              });
+          } else {
+              console.log('No posts found.');
+          }
+          viewMorePosts(pageDetails);
+      })
+      .catch(error => console.error('Error fetching Facebook posts:', error));
+  }
+
+  // Function to display a post on the webpage
+  function displayPost(postUrl, message, createdTime, story, mediaImgSrc, title, profileImgSrc, pageName, pageUrl, linkUrl, linkTitle, linkDescription) {
+    const container = document.getElementById('posts-container');
+    const postElement = document.createElement('div');
+    message = addAnchorTags(message);
+    let mediaHtml = '';
+    if (mediaImgSrc.includes('external')) {
+      mediaImgSrc = false;
+    }
+    if (mediaImgSrc) {
+      mediaHtml = `
+        <a href="${postUrl}" target="_blank">
+          <div class="fb-image" style="background-image: url(${mediaImgSrc});"></div>
+        </a>
+        `;
+    }
+    if (message == 'No message') {
+      message = '';
+    }
+    var linkHtml = ``;
+    if (linkUrl) {
+      linkHtml = `<a class="fb-link-a" href="${linkUrl}">
+          <div class="fb-link-container">
+            <div class="fb-link-image"></div>
+            <div class="fb-link">
+              <div class="fb-link-title">${linkTitle}</div>
+              <div class="fb-link-description">${linkDescription}</div>
+            </div>
+          </div>
+        </a>`;
+    }
+    postElement.innerHTML = `
+      ${mediaHtml}
+      <div class="fb-header">
+        <a href="${pageUrl}" target="_blank">
+          <div class="fb-profile-photo" style="background-image: url(${profileImgSrc})"></div>
+        </a>
+        <div class="fb-title-date-container">
+          <div class="fb-title">
+              ${story}
+          </div>
+          <div class="fb-date">
+            <a href="${postUrl}" target="_blank">${createdTime}</a>
+          </div>
+        </div>
+        <div class="fb-spacer"></div>
+        <a href="${pageUrl}" target="_blank">
+          <div class="fb-logo"></div>
+        </a>
+      </div>
+      <div class="fb-content">
+        <div class="fb-message">${message}</div>
+        ${linkHtml}
+      </div>
+      <div class="fb-buttons">
+        <div class="fb-spacer"></div>
+        <a target="_blank" href="${postUrl}"><div class="like"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M323.8 34.8c-38.2-10.9-78.1 11.2-89 49.4l-5.7 20c-3.7 13-10.4 25-19.5 35l-51.3 56.4c-8.9 9.8-8.2 25 1.6 33.9s25 8.2 33.9-1.6l51.3-56.4c14.1-15.5 24.4-34 30.1-54.1l5.7-20c3.6-12.7 16.9-20.1 29.7-16.5s20.1 16.9 16.5 29.7l-5.7 20c-5.7 19.9-14.7 38.7-26.6 55.5c-5.2 7.3-5.8 16.9-1.7 24.9s12.3 13 21.3 13L448 224c8.8 0 16 7.2 16 16c0 6.8-4.3 12.7-10.4 15c-7.4 2.8-13 9-14.9 16.7s.1 15.8 5.3 21.7c2.5 2.8 4 6.5 4 10.6c0 7.8-5.6 14.3-13 15.7c-8.2 1.6-15.1 7.3-18 15.2s-1.6 16.7 3.6 23.3c2.1 2.7 3.4 6.1 3.4 9.9c0 6.7-4.2 12.6-10.2 14.9c-11.5 4.5-17.7 16.9-14.4 28.8c.4 1.3 .6 2.8 .6 4.3c0 8.8-7.2 16-16 16H286.5c-12.6 0-25-3.7-35.5-10.7l-61.7-41.1c-11-7.4-25.9-4.4-33.3 6.7s-4.4 25.9 6.7 33.3l61.7 41.1c18.4 12.3 40 18.8 62.1 18.8H384c34.7 0 62.9-27.6 64-62c14.6-11.7 24-29.7 24-50c0-4.5-.5-8.8-1.3-13c15.4-11.7 25.3-30.2 25.3-51c0-6.5-1-12.8-2.8-18.7C504.8 273.7 512 257.7 512 240c0-35.3-28.6-64-64-64l-92.3 0c4.7-10.4 8.7-21.2 11.8-32.2l5.7-20c10.9-38.2-11.2-78.1-49.4-89zM32 192c-17.7 0-32 14.3-32 32V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32H32z" fill="#111"/></svg></div></a>
+        <a target="_blank" href="${postUrl}"><div class="comment"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M160 368c26.5 0 48 21.5 48 48v16l72.5-54.4c8.3-6.2 18.4-9.6 28.8-9.6H448c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H64c-8.8 0-16 7.2-16 16V352c0 8.8 7.2 16 16 16h96zm48 124l-.2 .2-5.1 3.8-17.1 12.8c-4.8 3.6-11.3 4.2-16.8 1.5s-8.8-8.2-8.8-14.3V474.7v-6.4V468v-4V416H112 64c-35.3 0-64-28.7-64-64V64C0 28.7 28.7 0 64 0H448c35.3 0 64 28.7 64 64V352c0 35.3-28.7 64-64 64H309.3L208 492z" fill="#111"/></svg></div></a>
+        <a target="_blank" href="${postUrl}"><div class="share"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M307 34.8c-11.5 5.1-19 16.6-19 29.2v64H176C78.8 128 0 206.8 0 304C0 417.3 81.5 467.9 100.2 478.1c2.5 1.4 5.3 1.9 8.1 1.9c10.9 0 19.7-8.9 19.7-19.7c0-7.5-4.3-14.4-9.8-19.5C108.8 431.9 96 414.4 96 384c0-53 43-96 96-96h96v64c0 12.6 7.4 24.1 19 29.2s25 3 34.4-5.4l160-144c6.7-6.1 10.6-14.7 10.6-23.8s-3.8-17.7-10.6-23.8l-160-144c-9.4-8.5-22.9-10.6-34.4-5.4z" fill="#111"/></svg></div></a>
+        <div class="fb-spacer"></div>
+      </div>
+    `;
+    container.appendChild(postElement);
+}
+
+// Function to format the created time
+function formatDate(dateString) {
+    const date = new Date(dateString);
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return date.toLocaleDateString('en-US', options);
+}
+
+// Function to make a request to the Facebook Graph API to fetch page details
+function getFacebookPageDetails() {
+    return new Promise((resolve, reject) => {
+        fetch(`https://graph.facebook.com/${pageId}?fields=name,picture,fan_count,link&access_token=${accessToken}`)
+            .then(response => response.json())
+            .then(data => {
+                if (data && data.name) {
+                    const pageDetails = {
+                        pageName: data.name,
+                        profileImgSrc: data.picture.data.url,
+                        followerCount: data.fan_count,
+                        pageUrl: data.link
+                    };
+                    console.log('Page details:', pageDetails);
+                    resolve(pageDetails); // Resolve the promise with pageDetails
+                } else {
+                    console.log('Page details not found.');
+                    resolve(null); // Resolve with null if page details are not found
+                }
+            })
+            .catch(error => {
+                console.error('(2) Error fetching Facebook page details:', error);
+                reject(error); // Reject the promise with the error
+            });
+    });
+}
+
+// Function to display a post on the webpage
+function displayHeader(pageDetails) {
+    // set variables for header @@@
+    pageName = pageDetails.pageName;
+    pageUrl = pageDetails.pageUrl;
+    profileImgSrc = pageDetails.profileImgSrc;
+    followerCount = pageDetails.followerCount;
+
+    // create header
+    const container = document.getElementById('posts-header');
+    const postElement = document.createElement('div');
+    postElement.innerHTML = `
+      <a href="${pageUrl}" target="_blank">
+        <div id="fb-header-photo" style="background-image: url(${profileImgSrc});"></div></a>
+      <div id="fb-header-name-likes">
+        <div id="fb-header-name">
+          <a href="${pageUrl}" target="_blank">${pageName}</a>
+        </div>
+        <div id="fb-header-likes">
+          ${followerCount} followers
+        </div>
+      </div>
+      <div class="fb-spacer"></div>
+      <a class="fb-button-a" href="${pageUrl}" target="_blank">
+        <div class="button fb-button">
+          <div class="fb-logo"></div>
+          Follow NMTC
+        </div>
+      </a>
+    `;
+    container.appendChild(postElement);
+}
+
+// add a button to view more posts
+function viewMorePosts(pageDetails) {
+  const container = document.getElementById('posts-container');
+  const postElement = document.createElement('div');
+  let buttonHtml = '';
+  console.log(!pageDetails);
+  if (pageDetails) {
+    buttonHtml = `
+    <div class="container" style="display:flex;padding: 0.5em;">
+      <a href="${pageUrl}" style="margin: 0 auto;text-decoration:none;" target="blank">
+        <div class="button fb-button">View more posts</div>
+      </a>
+    </div>
+    `;
+  }
+  postElement.innerHTML = buttonHtml;
+  container.appendChild(postElement);
+}
+
+function addAnchorTags(text) {
+  // Regular expression to find URLs in the text
+  var urlRegex = /(https?:\/\/[^\s]+)/g;
+
+  // Replace URLs with anchor tags
+  return text.replace(urlRegex, function(url) {
+      return '<a href="' + url + '">' + url + '</a>';
+  });
+}
+
+// Call the function to fetch Facebook page details and profile photo when the page loads
+window.onload = function() {
+    getFacebookPageDetails()
+        .then(pageDetails => {
+            // console.log('Page details:', pageDetails);
+            displayHeader(pageDetails);
+            getFacebookPosts(pageDetails);
+        })
+        .catch(error => {
+            console.error('(1) Error fetching Facebook page details:', error);
+
+            let pageDetails = {pageName: 'Northern Minnesota Track Club (NMTC)', profileImgSrc: '/img/mn-outline-green.svg', followerCount: 1127, pageUrl: 'https://www.facebook.com/runnmtc'};
+            displayHeader(pageDetails);
+
+            let postUrl = 'https://www.facebook.com/runnmtc/posts/1354522829273742:1354522829273742?__cft__[0]=AZWja4IVP7LMvuYk7xT96vxEkSGlSasakHfBDxvzmSZOJioHEO_PEQ6ssa5b3DVK_40jumkWk-XAG9KPfrAC4PiiyK3VJmgrUYDD_mgUQ6BPZ5AkbH5n9PXvQMI6YdEVbZGBU4Uo1HteyiaHH07LCojWnE4rNvgQlzJ82HSKe9sa2oQIuPkz8Z4SKey_uSUGMa8&__tn__=%2CO%2CP-R';
+            let message = '';
+            let createdTime = 'March 24, 2024';
+            let story = 'Northern Minnesota Track Club (NMTC) updated their cover photo.';
+            let mediaImgSrc = 'https://lh3.googleusercontent.com/pw/AP1GczMdDWwe4kCQzLhBuZmt2J6EgQAU3XadDScTmszQJ8Iz3l6KuEQ31eL_Iq3myIpPITS1M6E5bo0j6Vw_rHKOfakfNWgravnHSF1KlWHqgUreFao8oA=w2400';
+            let title = 'Northern Minnesota Track Club (NMTC)';
+            let profileImgSrc = '/img/mn-outline-green.svg';
+            let pageName = 'Northern Minnesota Track Club (NMTC)';
+            let pageUrl = 'https://www.facebook.com/runnmtc';
+            displayPost(postUrl, message, createdTime, story, mediaImgSrc, title, profileImgSrc, pageName, pageUrl);
+        });
+};
+
+</script>

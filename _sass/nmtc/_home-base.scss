@@ -1,9 +1,4 @@
 /**
-* Home page optional content box
-*/
-
-
-/**
 * Home page base css
 */
 
@@ -35,4 +30,16 @@
     font-size: 1.25em;
     text-align: left;
   }
+}
+
+/**
+* Facebook feed
+*/
+
+.facebook-feed {
+  display: flex; 
+}
+
+.fb-container {
+  margin: 0 auto;
 }
