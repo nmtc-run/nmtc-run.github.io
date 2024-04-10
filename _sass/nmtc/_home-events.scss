@@ -79,6 +79,9 @@
 
 @include media-query($on-palm) {
   .box {
-    width: calc(100% - 10px); /* One box per row for mobile viewer width */
+    width: 100%; /* One box per row for mobile viewer width */
+  }
+  #facebook-feed {
+    // width: 100%;
   }
 }
