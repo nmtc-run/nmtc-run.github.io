@@ -201,7 +201,7 @@ function displayHeader(pageDetails) {
     pageName = pageDetails.pageName;
     pageUrl = pageDetails.pageUrl;
     profileImgSrc = pageDetails.profileImgSrc;
-    followerCount = pageDetails.followerCount;
+    followerCount = pageDetails.followerCount.toLocaleString();
 
     // create header
     const container = document.getElementById('posts-header');
