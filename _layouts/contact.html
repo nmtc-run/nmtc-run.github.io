@@ -1,0 +1,103 @@
+---
+layout: default
+---
+
+<h1>{{ page.title }}</h1>
+
+{{ content }}
+
+<div class="form-container">
+  <div class="form-content">
+    <div id="statusMessage" style="display: none;">
+      <div class="">
+        <div id="sendingMessage" style="display: none;">Sending message...</div>
+      </div>
+      <div id="sentMessage" style="display: none;">
+        <div class="thanks-headline">Success!</div>
+        <div class="thanks-message">
+          Your message has been sent. We look forward to connecting with you soon.
+        </div>
+      </div>
+      <div id="errorMessage" style="display: none;">
+        <div class="error-headline">Error!</div>
+        <div class="error-message">
+          We failed to process your message for some reason. Please try again later or contact us through the NMTC Facebook page.
+        </div>
+      </div>
+    </div>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="topic">Topic:</label>
+      <select id="topic" name="topic" required>
+        <option value="">Select Topic...</option>
+        <option value="Volunteering">Volunteering</option>
+        <option value="Sponsorship">Sponsorship</option>
+        <option value="Voyageur/Curnow">Voyageur/Curnow</option>
+        <option value="Spring/Fall">Spring/Fall Race Series</option>
+        <option value="Web/Social">Website/Social Media</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+
+<script>
+
+  const url = 'https://script.google.com/macros/s/AKfycbx1Aq1yXQ86A6GymwtB843nYI_ZL53cnrv_KziyOrsSiW6lFA0i7T-cehMzADyEpQ8sag/exec';
+
+  document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    submitForm();
+  });
+
+  function submitForm() {
+    var form = document.getElementById("contactForm");
+    var statusMessage = document.getElementById("statusMessage");
+    var sendingMessage = document.getElementById("sendingMessage");
+    var sentMessage = document.getElementById("sentMessage");
+    var errorMessage = document.getElementById("errorMessage");
+
+    form.style.display = "none"; // Hide the form
+    statusMessage.style.display = "block"; // Show the status message
+    sendingMessage.style.display = "block"; // Show the sending message
+
+    var formData = new FormData(form);
+    var data = {};
+    formData.forEach(function(value, key) {
+      data[key] = value;
+    });
+    fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'text/plain;charset=utf-8',
+      },
+      body: JSON.stringify(data),
+    })
+      .then((res) => {
+        sendingMessage.style.display = "none"; // Hide the sending message
+        sentMessage.style.display = "block"; // Show the sent message
+        return res.json();
+      })
+      .then((data) => console.log('data', data))
+      .catch((err) => {
+        sendingMessage.style.display = "none"; // Hide the sending message
+        errorMessage.style.display = "block"; // Show the error message
+        form.style.display = "block"; // Show the form
+        console.log('err', err);
+      })
+  }
+
+</script>
