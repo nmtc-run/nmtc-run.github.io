@@ -43,6 +43,31 @@
   box-sizing: border-box;
   font-size: 16px;
   font-family: $base-font-family;
+  &:focus {
+    outline: none;
+  }
+}
+
+/*
+ * Styles for dropdown
+ */
+
+#topic {
+ -webkit-appearance: none; /* Remove default styling in Chrome */
+ -moz-appearance: none; /* Remove default styling in Firefox */
+ appearance: none; /* Remove default styling in other browsers */
+ border-radius: 0; // remove rounded corners in Safari
+}
+
+/* Style the dropdown arrow */
+#topic::-ms-expand {
+ display: none; /* Hide default arrow for IE */
+}
+
+/* Style dropdown options */
+#topic option {
+ font-family: $base-font-family; /* Your desired font family */
+ font-size: 16px; /* Your desired font size */
 }
 
 /* Style for submit button */
@@ -71,14 +96,26 @@
   border: 4px dashed $brand-color;
 }
 
-#sentMessage > div.thanks-headline,
-#errorMessage > div.error-headline {
-  border: 4px solid $brand-color;
+#sentMessage > div.thanks-headline {
+  background-color: $brand-color;
   font-weight: bold;
+  color: #fff;
+}
+
+#sentMessage > div.thanks-message {
+  border: 4px solid $brand-color;
+  border-top: none;
+  background-color: $background-color;
 }
 
 #errorMessage > div.error-headline {
-  border: none;
   background-color: red;
+  font-weight: bold;
   color: #fff;
+}
+
+#errorMessage > div.error-message {
+  border: 4px solid red;
+  border-top: none;
+  background-color: $background-color;
 }

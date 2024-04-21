@@ -6,11 +6,11 @@ permalink: /contact/
 
 Have a question about volunteering?
 
-Interested in sponsorship opportunities for your business?
+Interested in sponsorship opps for your biz?
 
-Looking for information that isn't (yet) on this website?
+Looking for info that isn't (yet!) on this website?
 
-Got a fun idea to share? 
+Got a fun idea to share?
 
 Something else?
 
