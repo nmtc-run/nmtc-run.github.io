@@ -81,7 +81,68 @@
   .box {
     width: 100%; /* One box per row for mobile viewer width */
   }
-  #facebook-feed {
-    // width: 100%;
+}
+
+/**
+ * "Our Races" page boxes for events
+ */
+
+.events-list a {
+  text-decoration: none;
+}
+
+.events-list > a > .event {
+  display: flex;
+  margin-bottom: 1em;
+  color: $text-color;
+}
+
+.events-list > a > .event > .photo {
+  flex: 1;
+  flex-grow: 1;
+  background-position: center;
+  background-size: cover;
+  border-right: 4px solid $brand-color;
+  max-width: calc(50% - 0.5em);
+}
+
+.events-list > a > .event > .content {
+  flex: 1;
+  flex-grow: 2; 
+  background-color: darken($background-color,5%);
+  padding: 0.5em;
+  &> .event-date-dist {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: lighten($text-color, 25%);
+  }
+  &> .event-name {
+    padding: 0;
+  }
+  &> .event-desc {
+    padding: 0;
+  }
+}
+
+@include media-query($on-palm) {
+
+  .events-list > a > .event {
+    display: block;
+  }
+
+  .events-list > a > .event > .content {
+    &> .event-date-dist {
+      padding-top: 0.8em;
+    }
+  }
+
+  .events-list > a > .event > .photo  {
+    height: calc((100vw - 71px) * 4 / 6);
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    border-right: none;
+    border-bottom: 4px solid $brand-color;
   }
 }
