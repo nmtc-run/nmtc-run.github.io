@@ -167,7 +167,7 @@
    z-index: 1000; /* Ensure the menu appears above other content */
    padding: 20px;
    box-sizing: border-box;
-   overflow-y: auto; /* Allow vertical scrolling */
+   overflow-y: scroll; /* Allow vertical scrolling */
    height: 100vh; /* Set height to full viewport height */
   }
 
