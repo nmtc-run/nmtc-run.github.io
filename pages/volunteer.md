@@ -4,7 +4,7 @@ title: Make magic happen
 permalink: /volunteer
 img: /img/aid-station.jpeg
 button-text: Volunteer Sign-Up
-button-url: /volunteer/#curnow-marathon--voyageur-50
+button-url: /volunteer/#jump
 button-external: false
 button-down-arrow: true
 ---
@@ -25,6 +25,7 @@ We rely on all our volunteers to provide a successful event:
 
 Time commitments vary and many important tasks are appropriate for all ages. That makes volunteering a great way to introduce friends and family to the world of trail running. We promise you will have an absolute blast supporting racers, meeting new people, and giving back to the trail running community. That's a guarantee—or your money back!
 
+<div id="jump"></div>
 # Curnow Marathon &amp; Voyageur 50
 
 Curnow and Voyageur are in need of volunteers. Sign up today!
