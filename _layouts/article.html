@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="article-title"> {{ page.title }}</div>
+
+{% if page.subtitle %}
+  <div class="article-subtitle"> {{ page.subtitle }}</div>
+{% else %}
+  <div class="article-subtitle"></div>
+{% endif %}
+
+{% if page.img %}
+  <div class="event-hero" style="background-image:url({{ page.img }}); margin-bottom: 1em;">
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="buttons">
+      {% if page.button-text %}
+          <a href="{{ page.button-url }}" style="margin: 0 auto;" {% if page.button-external-link %}target="_blank"{% endif %}>
+            <div class="button" style="margin: 0;">{{ page.button-text }}
+              {% if page.button-external-link %}
+                <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;">
+              {% else %}
+                {% if page.button-down-arrow %}
+                <div class="down-arrow"></div>
+                {% endif %}
+              {% endif %}
+            </div>
+          </a>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
+
+<div class="event-content">
+  {{ content }}
+</div>
+
+{% if page.include-races %}
+  {% include races.html %}
+{% endif %}

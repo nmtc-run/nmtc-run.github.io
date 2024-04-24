@@ -1,14 +1,15 @@
 ---
-layout: page-hero
+layout: article
 title: Support local trail running
-permalink: /donate/
+permalink: /donate
 img: /img/volunteer-table.jpeg
-subtitle: Let's goooooo!
 button-text: Donate via PayPal
-button-url: https://www.paypal.com/donate/?hosted_button_id=CANSARLQY4Z7G # to link to a heading in the content below, use format /PAGE_TITLE/#HEADING-TEXT-BUT-REPLACE-SPACES-WITH-HYPHENS
-open-in-new-window: true
-below-content-goes-in-box-below-photo: true
+button-url: https://www.paypal.com/donate/?hosted_button_id=CANSARLQY4Z7G
+button-external-link: true
+button-down-arrow: false
 ---
+
+## Let's goooooo!
 
 Every cent supports the continued viability of the NMTC Spring & Fall Race Series, the Eugene Curnow Marathon, and the Minnesota Voyageur Trail Ultramarathon.
 
@@ -21,7 +22,7 @@ Every cent supports the continued viability of the NMTC Spring & Fall Race Serie
 Thank you for supporting the Northern Minnesota trail running community. See you on trail!
 
 <div id="donate-via-paypal" class="container" style="display:flex;padding-bottom:1em;">
-  <a href="https://www.paypal.com/donate/?hosted_button_id=CANSARLQY4Z7G" style="margin: 0 auto;" target="blank">
-    <div class="button">Donate via PayPal</div>
+  <a href="https://www.paypal.com/donate/?hosted_button_id=CANSARLQY4Z7G" style="margin: 0 auto;" target="_blank">
+    <div class="button">Donate via PayPal<img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;"></div>
   </a>
 </div>

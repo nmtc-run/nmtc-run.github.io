@@ -3,9 +3,8 @@
  */
 
 .event-hero {
-  border-bottom: 4px solid $brand-color;
-  height: 60vh;
-  min-height: 400px;
+  height: -webkit-calc((#{$content-width} - (#{$spacing-unit} * 2)) * 4 / 6);
+  height:         calc((#{$content-width} - (#{$spacing-unit} * 2)) * 4 / 6);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -49,5 +48,12 @@
 @include media-query($on-palm) {
   .event-hero-content {
     font-size: 0.7em;
+  }
+}
+
+@include media-query($on-laptop) {
+  .event-hero {
+    height: -webkit-calc((100vw - 2em - (#{$spacing-unit} * 2)) * 4 / 6);
+    height:         calc((100vw - 2em - (#{$spacing-unit} * 2)) * 4 / 6);
   }
 }

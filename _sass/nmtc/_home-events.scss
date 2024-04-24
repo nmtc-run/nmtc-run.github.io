@@ -60,6 +60,8 @@
   cursor: pointer;
   font-weight: bold;
   border-bottom: 1px solid #999;
+  font-size: 0.8em;
+  text-transform: uppercase;
 
   & a {
     color: $background-color;
@@ -89,6 +91,9 @@
 
 .events-list a {
   text-decoration: none;
+  &:hover .event-name {
+    text-decoration: underline;
+  }
 }
 
 .events-list > a > .event {
@@ -108,7 +113,7 @@
 
 .events-list > a > .event > .content {
   flex: 1;
-  flex-grow: 2; 
+  flex-grow: 2;
   background-color: darken($background-color,5%);
   padding: 0.5em;
   &> .event-date-dist {
