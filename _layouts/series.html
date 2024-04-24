@@ -2,32 +2,36 @@
 layout: default
 ---
 
-{% if page.permalink == '/spring-series/' %}
+{% if page.permalink == '/spring-series' %}
   {% assign event = site.data.event-data[0] %}
   {% assign series = site.data.series-spring %}
-{% else if page.permalink == '/fall-series/' %}
+{% else if page.permalink == '/fall-series' %}
   {% assign event = site.data.event-data[3] %}
   {% assign series = site.data.series-fall %}
 {% endif %}
+
+<div class="article-title"> {{ page.title }}</div>
+<div class="article-subtitle"> {{ event.date }}</div>
 
 <div class="event-hero" style="background-image:url({% if event.img %}{{ event.img }}{% else %}/img/vintage-team.jpeg{% endif %})">
   <div class="spacer"></div>
   <div class="spacer"></div>
   <div class="spacer"></div>
-  <div class="event-hero-content">
-    <h1>{{ event.name }}</h1>
-  </div>
   <div class="spacer"></div>
-  <!-- <h2>{{ event.distance }} — {{ event.date }} </h2> -->
   <div class="buttons">
-    <a href="#schedule-and-race-results">
-      <div class="button">Race schedule
-        <div class="down-arrow">
-          {% assign arrow-color = "#fdfdfd" %}
-          {% include down-arrow.html %}
-        </div>
-      </div>
-    </a>
+    {% if page.button-text %}
+        <a href="{{ page.button-url }}" style="margin: 0 auto;" {% if page.button-external-link %}target="_blank"{% endif %}>
+          <div class="button" style="margin: 0;">{{ page.button-text }}
+            {% if page.button-external-link %}
+              <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;">
+            {% else %}
+              {% if page.button-down-arrow %}
+              <div class="down-arrow"></div>
+              {% endif %}
+            {% endif %}
+          </div>
+        </a>
+    {% endif %}
   </div>
 </div>
 
@@ -38,7 +42,7 @@ layout: default
       <li><strong>Date:</strong> {{ event.date }}</li>
       <li><strong>Distance:</strong> {{ event.distance }}</li>
     </ul>
-    <p>{{ page.description }}</p>
+    <p>{{ content }}</p>
   </div>
 </div>
 
@@ -282,5 +286,8 @@ layout: default
 </script>
 
 <div class="event-content">
-    {{ content }}
+    {% capture seriesDetails %}
+      {% include series-details.md%}
+    {% endcapture %}
+    {{ seriesDetails | markdownify }}
 </div>

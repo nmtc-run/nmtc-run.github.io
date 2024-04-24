@@ -1,7 +1,11 @@
 ---
 layout: event
 title: Eugene Curnow Trail Marathon
-permalink: /curnow/
+permalink: /sandbox/curnow
+button-text: Register
+button-url: /sandbox/curnow/#register
+button-external-link: false
+button-down-arrow: true
 start-finish: false
 start: Duluth Superior Zoo, Duluth, MN
 finish: Munger Trailhead, Carlton, MN
@@ -10,9 +14,9 @@ descent: 2,566 ft
 description: |-
   The Eugene Curnow Trail Marathon is run over rough woodland trails on a point-to-point course from the Lake Superior Zoo in Duluth, MN, to Carlton, MN.
   <br><br>
-  The course encompasses one half of the Minnesota Voyageur Trail Ultramarathon, plus a bit extra to reach 26.2 miles. We introduced the race in the 1990s to support the Voyageur 50 Mile—as a thank you to Voyageur volunteers and as an introduction to the course for those exploring the 50 miler. The race has become wildly popular in its own right.
+  The course encompasses half of the Minnesota Voyageur Trail Ultramarathon, plus a bit extra to reach 26.2 miles. We introduced the race in the 1990s to support the Voyageur 50 Mile—as a thank you to Voyageur volunteers and as an introduction to the course for those exploring the 50 miler. The race has become wildly popular in its own right.
   <br><br>
-  Originally called the Half Voyageur Trail Marathon, in 2013 took the name of its indefatigable founder, the local trail and ultramarathon running legend Eugene Curnow. Gene’s energy, enthusiasm, and volunteer spirit played a significant role in the success of the Minnesota Voyageur, the growth of the northern Minnesota running community, and the development of the sport of trail running in general.
+  Originally called the Half Voyageur Trail Marathon, in 2013 the race took the name of its indefatigable founder, the local trail and ultramarathon running legend Eugene Curnow. Gene’s energy, enthusiasm, and volunteer spirit played a significant role in the success of the Minnesota Voyageur, the growth of the northern Minnesota running community, and the development of the sport of trail running in general.
 map-id: 1854033
 strava-id: 3207880018615880304
 google-map-id: 1TlA-qHl5EEzqz_rmYOi4nJQqiz4dA-I
@@ -74,15 +78,17 @@ gpx-url: /assets/gpx/Curnow-Marathon.gpx
 </tbody></table>
 </div>
 
-> **ATTENTION:** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations. We have to disqualify runners who ignore this rule. As a runner participant, \*you\* are responsible for your crew and fans understanding this limitation.
-
-**Aid station items:**
-* Drinks include water, an electrolyte drink, and various sodas.
+## Aid station items:
+* Drinks include water, electrolyte drink, and various sodas.
 * Food includes fruit, cookies, potato chips, and other sweet/salty options.
-* We do not supply electrolyte supplement capsules, such as Endurolytes or S-Caps.
-* We highly recommend you carry water during the race, e.g. bottle or other hydration system.
+* We do \*not\* supply electrolyte supplement capsules, such as Endurolytes or S-Caps.
+* We do \*not\* supply cups. We strongly recommend you carry water during the race in a bottle or other hydration system.
 
-# Drop bags
+## Crew access:
+
+**<span style="color:saddlebrown;">¡ ATTENTION !</span>** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
+
+## Drop bags
 
 * Note available drop bag locations on the [aid station](#aid-stations) chart.
 * Please keep your drop bags reasonable in size.
@@ -92,19 +98,19 @@ gpx-url: /assets/gpx/Curnow-Marathon.gpx
 
 # Schedule
 
-4:45 AM: Buses depart to bring runners from the finish to the start.
+**4:45 AM:** Buses depart to bring runners from the finish to the start.
 
-5:45 AM: Pre-race briefing. Attendance is mandatory.
+**5:45 AM:** Pre-race briefing. Attendance is mandatory.
 
-6:00 AM: Race starts promptly to ensure accurate splits.
+**6:00 AM:** Race starts promptly to ensure accurate splits.
 
-12:40 PM: Front runner close to finish.
+**12:40 PM:** Front runner close to finish.
 
 Runners receive awards as they finish.
 
-Mid-afternoon: Dinner will be provided by Magnolia Cafe at the school, runners free. A small charge for “extra eaters” can be paid at the door. Includes a variety of meat, vegetarian, and vegan / gluten-free sandwiches, pasta salad, and ice cream.
+**Mid-afternoon:** Dinner will be provided by Magnolia Cafe at the school, runners free. A small charge for “extra eaters” can be paid at the door. Includes a variety of meat, vegetarian, and vegan / gluten-free sandwiches, pasta salad, and ice cream.
 
-4:00 PM: Final cutoff.
+**4:00 PM:** Final cutoff.
 
 # Getting to the start
 
@@ -141,11 +147,13 @@ Please review the Eugene Curnow Trail Marathon race rules at [nmtc.run/rules](/r
 
 # Register
 
-Registration via Ultrasignup typically opens in March. In addition to the info on this page, runners should review the [race rules](/rules), and the [registration and refund policies](/registration) before registering.
+Registration via Ultrasignup typically opens in March. In addition to the info on this page, runners should review the [race rules](/rules), and the [registration and refund policies](/registration).
 
 <div class="container" style="display:flex;padding-bottom:1em;">
   <a href="https://ultrasignup.com/register.aspx?did=114069" style="margin: 0 auto;" target="blank">
-    <div class="button">Register on Ultrasignup</div>
+    <div class="button">
+      Register on Ultrasignup<img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;">
+    </div>
   </a>
 </div>
 

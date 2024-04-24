@@ -2,30 +2,34 @@
 layout: default
 ---
 
-{% if page.permalink == '/voyageur/' %}
+{% if page.permalink == '/voyageur' %}
   {% assign event = site.data.event-data[2] %}
-{% else page.permalink == '/curnow/' %}
+{% else page.permalink == '/curnow' %}
   {% assign event = site.data.event-data[1] %}
 {% endif %}
+
+<div class="article-title"> {{ event.name }}</div>
+<div class="article-subtitle"> {{ event.distance }} • {{ event.date }}</div>
 
 <div class="event-hero" style="background-image:url({% if event.img %}{{ event.img }}{% else %}/img/vintage-team.jpeg{% endif %})">
   <div class="spacer"></div>
   <div class="spacer"></div>
   <div class="spacer"></div>
-  <div class="event-hero-content">
-    <h1>{{ event.name }}</h1>
-  </div>
   <div class="spacer"></div>
-  <!-- <h2>{{ event.distance }} — {{ event.date }} </h2> -->
   <div class="buttons">
-    <a href="#register">
-      <div class="button">Register
-        <div class="down-arrow">
-          {% assign arrow-color = "#fdfdfd" %}
-          {% include down-arrow.html %}
-        </div>
-      </div>
-    </a>
+    {% if page.button-text %}
+        <a href="{{ page.button-url }}" style="margin: 0 auto;" {% if page.button-external-link %}target="_blank"{% endif %}>
+          <div class="button" style="margin: 0;">{{ page.button-text }}
+            {% if page.button-external-link %}
+              <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;">
+            {% else %}
+              {% if page.button-down-arrow %}
+              <div class="down-arrow"></div>
+              {% endif %}
+            {% endif %}
+          </div>
+        </a>
+    {% endif %}
   </div>
 </div>
 

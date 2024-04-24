@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Minnesota Voyageur Trail Ultramarathon
-permalink: /voyageur/
+permalink: /voyageur
 start-finish: Carlton High School, Carlton, MN
 ascent: 5,000 ft
 descent: 5,000 ft
@@ -108,17 +108,19 @@ gpx-url: /assets/gpx/Voyageur-50.gpx
 </tbody></table>
 </div>
 
-> **ATTENTION:** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations. We have to disqualify runners who ignore this rule. As a runner participant, \*you\* are responsible for your crew and fans understanding this limitation.
-
-**Aid station items:**
-* Drinks include water, an electrolyte drink, and various sodas.
+## Aid station items:
+* Drinks include water, electrolyte drink, and various sodas.
 * Food includes fruit, cookies, potato chips, and other sweet/salty options.
-* We do not supply electrolyte supplement capsules, such as Endurolytes or S-Caps.
-* We highly recommend you carry water during the race, e.g. bottle or other hydration system.
+* We do \*not\* supply electrolyte supplement capsules, such as Endurolytes or S-Caps.
+* We do \*not\* supply cups. We strongly recommend you carry water during the race in a bottle or other hydration system.
 
-# Drop bags
+## Crew access:
 
-* Note available drop bag locations on the [aid station](#aid-stations) chart.
+**<span style="color:saddlebrown;">¡ ATTENTION !</span>** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
+
+## Drop bags:
+
+* Note available drop bag locations on the [aid station](#aid-stations-crew-access-and-drop-bags) chart.
 * Please keep your drop bags reasonable in size.
 * You must label drop bags with your name and race number. Do this at home so you don’t have to worry about it on race morning. Duct tape and a Sharpie marker work well. Unmarked bags will not be delivered to the aid station.
 * At the race start location, place your clearly marked bags by the signs for each aid station, and we will deliver them to those aid stations.
@@ -126,19 +128,19 @@ gpx-url: /assets/gpx/Voyageur-50.gpx
 
 # Schedule
 
-5:00 AM-5:45 AM: Check-in and bib pick-up for runners at Carlton High School.
+**5:00 AM-5:45 AM:** Check-in and bib pick-up for runners at Carlton High School.
 
-5:45 AM: Pre-race briefing. Attendance is mandatory.
+**5:45 AM:** Pre-race briefing. Attendance is mandatory.
 
-6:00 AM: Race starts promptly to ensure accurate splits.
+**6:00 AM:** Race starts promptly to ensure accurate splits.
 
-12:40 PM: Front runner close to finish.
+**12:40 PM:** Front runner close to finish.
 
 Runners receive awards as they finish.
 
-Mid-afternoon: Dinner will be provided by Magnolia Cafe at the school, runners free. A small charge for “extra eaters” can be paid at the door. Includes a variety of meat, vegetarian, and vegan / gluten-free sandwiches, pasta salad, and ice cream.
+**Mid-afternoon:** Dinner will be provided by Magnolia Cafe at the school, runners free. A small charge for “extra eaters” can be paid at the door. Includes a variety of meat, vegetarian, and vegan / gluten-free sandwiches, pasta salad, and ice cream.
 
-8:00 PM: Final cutoff.
+**8:00 PM:** Final cutoff.
 
 # Getting to the start
 
@@ -148,7 +150,7 @@ Mid-afternoon: Dinner will be provided by Magnolia Cafe at the school, runners f
 
 **Parking at start/finish:** A good amount of parking is available in the lots behind and near the school. Some parking is also available on the streets surrounding the school.
 
-> **USE CAUTION:** Approaching the start/finish area on Walnut Ave intersects with 4th St, which is the final sprint to the finish line for our runners. If you can, please use a different route to School Ave, such as 5th or 6th St.
+**<span style="color:saddlebrown;">¡ USE CAUTION !</span>** Approaching the start/finish area on Walnut Ave intersects with 4th St, which is the final sprint to the finish line for our runners. If you can, please use a different route to School Ave, such as 5th or 6th St.
 
 # Details
 
@@ -160,7 +162,7 @@ Mid-afternoon: Dinner will be provided by Magnolia Cafe at the school, runners f
 
 **Cupless:** NMTC races are cup-free races. We will not provide paper cups at aid stations, and runners will need to carry their own cups (for example, collapsible cups, bottles, or other hydration vessels) for use at aid stations.
 
-**Cutoffs:** Voyageur aid stations enforce cutoffs (with the exception of the water-only Hwy 210 aid station, which is uncrewed). Please see the [aid station chart](#aid-stations) for specific cutoff times. Runners must reach the finish in 14 hours, by 8:00 PM.
+**Cutoffs:** Voyageur aid stations enforce cutoffs (with the exception of the water-only Hwy 210 aid station, which is uncrewed). Please see the [aid station chart](#aid-stations-crew-access-and-drop-bags) for specific cutoff times. Runners must reach the finish in 14 hours, by 8:00 PM.
 
 **Results:** Results are posted on [Ultrasignup](https://ultrasignup.com/register.aspx?did=114070) and [MTEC](https://www.mtecresults.com/event/show/4974/).
 
