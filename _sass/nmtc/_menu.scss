@@ -217,7 +217,7 @@
 
 #overlay-toggle {
   display: none;
-  cursor: pointer; 
+  cursor: pointer;
   &.overlay {
     display: block;
   }
@@ -273,7 +273,7 @@
   }
 
   .menu-wrapper {
-    // display: none;
+    display: none;
   }
 
   .menu {
