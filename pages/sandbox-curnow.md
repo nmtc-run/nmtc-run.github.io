@@ -1,7 +1,7 @@
 ---
 layout: sandbox-event # event
 title: Eugene Curnow Trail Marathon
-permalink: /curnow/
+permalink: /curnow
 button-text: Register
 button-url: /curnow/#register
 button-external-link: false
