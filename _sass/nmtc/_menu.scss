@@ -333,6 +333,12 @@ body.menu-active {
   padding-left: 1em;
 }
 
+@include media-query($on-laptop) {
+  .more-content {
+    padding: 0.5em 10vw 0;
+  }
+}
+
 .more-item {
   width: auto;
   flex: 1;
@@ -363,18 +369,3 @@ body.menu-active {
   text-transform: uppercase;
   padding-bottom: 0.25em;
 }
-
- @include media-query($on-laptop) {
-   .more-container {
-
-   }
-   .more-content {
-     padding: 0.5em 10vw 0;
-   }
- }
-
- @include media-query($on-palm) {
-   .more-container {
-     // display: none;
-   }
- }

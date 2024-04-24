@@ -16,15 +16,15 @@
     - name: Contact
       page: /contact
   - submenu:
-    - heading: Running
-    - name: Races
+    - heading: Fun Stuff
+    - name: Trail Races
       page: /races
-    - name: Results
+    - name: Race Results
       page: /results
     - name: Photos
       page: /photos
   - submenu:
-    - heading: Buzzkill
+    - heading: Boring Stuff
     - name: Registration Policies
       page: /registration
     - name: Race Rules
