@@ -17,4 +17,9 @@
   <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml">
   <meta name="theme-color" content="#fdfdfd">
   <!-- <meta name="robots" content="noindex"> -->
+  {% if page.title %}
+    <title>{{ page.title }} - NMTC</title>
+  {% else %}
+    <title>NMTC - Northern Minnesota Track Club</title>
+  {% endif %}
 </head>
