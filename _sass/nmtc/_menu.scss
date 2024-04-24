@@ -221,6 +221,9 @@
   padding-top: 4rem;
   & .more-item {
     font-size: 1.2rem;
+    &:last-child {
+      padding-bottom: 10em;
+    }
   }
 }
 
