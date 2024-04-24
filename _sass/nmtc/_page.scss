@@ -30,25 +30,42 @@
  * Styles for article pages
  */
 
-.headline {
-  // font-size: 2.5rem;
-  // line-height: 2.875rem;
-  // font-style: italic;
+.article-title {
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 2em;
+ overflow-wrap: break-word;
+ padding-top: 0.25em 0;
+}
+
+.article-subtitle {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 1em;
 }
 
 .subhead {
-  // font-size: 1.4rem;
-  // line-height: 1.875rem;
-  // color: lighten($text-color, 15%);
   padding-bottom: 1em;
 }
 
 .main-image {
-  height: 400px;
   width: 100%;
+  height: -webkit-calc((#{$content-width} - (#{$spacing-unit} * 2)) * 4 / 6);
+  height:         calc((#{$content-width} - (#{$spacing-unit} * 2)) * 4 / 6);
   background-position: center;
   background-size: cover;
   margin-bottom: 1em;
+}
+
+@include media-query($on-palm)  {
+  .article-title {
+    font-size: 1.25em;
+    padding-bottom: 0.5em;
+  }
+  .article-subtitle {
+    padding-bottom: 0.8em;
+    font-size: 0.8em;
+  }
 }
 
 /**
@@ -140,7 +157,7 @@
 
 .aid-station.click-map.active .as-details {
   display: block;
-  padding-left: 6.25em;
+  padding-left: 6.1em;
 }
 
 @include media-query($on-palm)  {

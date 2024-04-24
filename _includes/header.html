@@ -1,65 +1,138 @@
 <nav class="main-menu">
-  <a href="/">
-    <div class="logo">
-    <img src="/img/nmtc-logo.svg" alt="">
+  <div class="logo-container">
+    <div class="logo-spacer">
+      <div class="menu-icon menu-toggle" id="main-toggle"></div>
     </div>
-  </a>
-  <div class="menu-wrapper">
-    <div class="menu-items">
-      <div class="menu-toggle">Menu
-        <div class="menu-icon"></div>
+    <a href="/">
+      <div class="logo">
+        <img src="/img/nmtc-logo.svg" alt="">
       </div>
+    </a>
+    <div class="logo-spacer right">
+      <div class="runner-icon"></div>
+    </div>
+  </div>
+  <div class="menu-wrapper items-main">
+    <div class="menu-items">
       <ul class="menu">
         {% for item in site.data.menu-items %}
-          <li>
-            {% unless item.submenu %}
-              <a href="{{ item.page }}">{{ item.name }}</a>
-            {% endunless %}
-            {% if item.submenu %}
-              <div class="submenu-title">
-                {{ item.name }}
-                <div class="down-arrow">
-                  {% assign arrow-color = "#111" %}
-                  {% include down-arrow.html %}
-                </div>
-              </div>
-              <ul class="submenu">
-                {% for subitem in item.submenu %}
-                  <li><a href="{{ subitem.page }}">{{ subitem.name }}</a></li>
+          {% if item.page == page.permalink %}
+            {% assign active = "active" %}
+          {% else %}
+            {% assign active = null %}
+          {% endif %}
+          {% if item.name %}
+            <li class="{% if active %}active{% endif %}">
+                <a href="{{ item.page }}">{{ item.name }}</a>
+            </li>
+          {% endif %}
+        {% endfor %}
+        <li id="more-selector" onclick="toggleMoreItems()">
+          <a href="#" style="display: inline-block;">More</a><div class="more-arrow"></div>
+        </li>
+      </ul>
+      <!-- <div class="close-menu"></div> -->
+    </div>
+  </div>
+  <div class="more-overlay" id="more-container">
+    <!-- Fix above: more-overlay: needed?
+          Fix below: logo-container: better style? -->
+    <div class="more-content" id="more-content">
+      {% for menuItem in site.data.menu-items %}
+        {% if menuItem.more %}
+          {% for submenus in menuItem.more %}
+            <div class="more-item">
+              <ul>
+                {% for submenu in submenus.submenu %}
+                  {% if submenu.heading %}
+                    <li class="submenu-heading">{{ submenu.heading }}</li>
+                  {% else if submenu.name %}
+                    {% if  submenu.external %}
+                      <li><a href="{{ submenu.page }}" target="_blank">{{ submenu.name }}<img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="" style="padding-left: 0.25em;"></a></li>
+                    {% else %}
+                      <li> <a href="{{ submenu.page }}">{{ submenu.name }}</a></li>
+                    {% endif %}
+                  {% endif %}
                 {% endfor %}
               </ul>
-            {% endif %}
+            </div>
+          {% endfor %}
+        {% endif %}
+      {% endfor %}
+    </div>
+    <div class="close-menu" id="overlay-toggle"></div>
+  </div>
+  <div class="menu-wrapper items-races">
+    <div class="menu-items">
+      <ul class="menu">
+        {% for item in site.data.event-data %}
+          {% if item.page == page.permalink %}
+            {% assign active = "active" %}
+          {% else %}
+            {% assign active = null %}
+          {% endif %}
+          <li class="{% if active %}active{% endif %}">
+              <a href="{{ item.page }}">{{ item.slug }}</a>
           </li>
         {% endfor %}
       </ul>
-      <div class="close-menu">
-        <svg class="close-menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
-      </div>
     </div>
   </div>
+  <div id="menu-hr"></div>
 </nav>
 
 <script type="text/javascript">
 
+  // toggle submenu overlay
+  function toggleMoreItems() {
+    var moreItems = document.getElementById('more-container');
+    if (moreItems.classList.contains('show')) {
+          moreItems.classList.remove('show');
+      } else {
+          moreItems.classList.add('show');
+      }
+  }
+
+  // Function to handle window resize
+  function handleResize() {
+    var viewportWidth = window.innerWidth;
+    var moreItems = document.getElementById('more-container');
+
+    if (viewportWidth < 600) {
+      // moreItems.style.display = 'none';
+      moreItems.classList.remove('show');
+    }
+  }
+
+  // Add event listener for window resize
+  window.addEventListener('resize', handleResize);
+
+  // Call handleResize initially to handle initial viewport width
+  handleResize();
+
+  // toggle menu on small screens
   document.addEventListener('DOMContentLoaded', function () {
 
-    const menuToggle = document.querySelector('.menu-toggle');
-    const closeMenu = document.querySelector('.close-menu');
-    const menu = document.querySelector('.menu');
+    const mainToggle = document.getElementById('main-toggle');
+    const overlayToggle = document.getElementById('overlay-toggle');
+    const moreContainer = document.getElementById('more-container');
+    const moreContent = document.getElementById('more-content');
     const body = document.body;
 
     // When "Menu" is clicked, show menu and stop scrolling
-    menuToggle.addEventListener('click', function () {
-      menu.classList.add('show');
-      closeMenu.style.display = 'block';
+    mainToggle.addEventListener('click', function () {
+      moreContainer.classList.add('overlay');
+      moreContent.classList.add('overlay');
+      overlayToggle.classList.add('overlay');
       body.classList.add('menu-active');
     });
 
-    // When "X" is clicked, hide menu and resume scrolling
-    closeMenu.addEventListener('click', function () {
-      menu.classList.remove('show');
-      closeMenu.style.display = 'none';
+    overlayToggle.addEventListener('click', function () {
+      moreContainer.classList.remove('overlay');
+      moreContent.classList.remove('overlay');
+      overlayToggle.classList.remove('overlay');
       body.classList.remove('menu-active');
     });
+
   });
 </script>

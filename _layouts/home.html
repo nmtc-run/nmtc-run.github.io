@@ -2,12 +2,16 @@
 layout: default
 ---
 
+{% if page.title %}
+  <div class="page-heading">{{ page.title }}</div>
+{% endif %}
+
 <div class="hero-carousel">
   {% assign dot_counter = 0 %}
   {% for hero in site.data.home-photos %}
     {% assign dot_counter = dot_counter | plus: 1 %}
     <div class="carousel-slide{% if dot_counter == 1 %} active{% endif %}" style="background-image: url('{{ hero.image }}');">
-      <h1 class="carousel-caption">{{ hero.headline }}</h1>
+      <!-- <h1 class="carousel-caption">{{ hero.headline }}</h1> -->
     </div>
   {% endfor %}
 
@@ -23,8 +27,7 @@ layout: default
     <a href="#events">
       <div class="button">Our races
         <div class="down-arrow">
-          {%- assign arrow-color = "#fdfdfd" -%}
-          {%- include down-arrow.html -%}
+
         </div>
       </div>
     </a>
@@ -33,9 +36,6 @@ layout: default
 
 {% if page.display-this-content %}
   <div class="home-content">
-    {% if page.title %}
-      <div class="page-heading">{{ page.title }}</div>
-    {% endif %}
     {% if page.subtitle %}
       <h1 class="page-subhead">{{ page.subtitle }}</h1>
     {% endif %}

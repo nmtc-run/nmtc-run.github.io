@@ -4,31 +4,41 @@
 
 .down-arrow {
  display: inline-block;
- // background-image: url(/assets/icons/down-arrow.svg);
- // background-repeat: no-repeat;
- // background-position: center;
- //
- // width: 0.8em;
+ background-image: url(/assets/icons/angle-down-light.svg);
+ background-repeat: no-repeat;
+ background-position: center;
+ width: 0.8em;
  height: 0.8em;
  padding-left: 0.15em;
  transform: translateY(0.25em);
 }
-
-// .submenu-title .down-arrow {
-//   transform: translateY(0.25em);
-// }
-//
-// .button .down-arrow {
-//   transform: translateY(0.4em);
-// }
 
 .menu-icon {
   display: inline-block;
   background-image: url(/assets/icons/menu-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
-  fill: $text-color;
-  width: 1em;
-  height: 0.85em;
-  transform: translateY(.1em);
+  width: 1.5rem;
+  height: 1.5rem;
+  transform: translateY(-0.2rem);
+}
+
+.runner-icon {
+  display: inline-block;
+  // background-image: url(/assets/icons/runner-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  transform: translateY(-0.2rem);
+}
+
+.close-menu {
+  display: inline-block;
+  background-image: url(/assets/icons/close-menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  transform: translateY(-0.2rem);
 }

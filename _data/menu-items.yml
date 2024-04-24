@@ -4,23 +4,41 @@
   page: /volunteer
 - name: Donate
   page: /donate
-- name: More
-  submenu:
-  - name: About NMTC
-    page: /about
-  - name: Race Photos
-    page: /photos
-  - name: Race Results
-    page: /results
-  - name: Registration Policies
-    page: /registration
-  - name: Race rules
-    page: /rules
-  - name: Trail Running Etiquette
-    page: /etiquette
-  - name: Waiver Form
-    page: /waiver
-  - name: Ella Fennessey Award
-    page: /fennessey
-  - name: Contact NMTC
-    page: /contact
+- more:
+  - submenu:
+    - heading: NMTC
+    - name: About
+      page: /about
+    - name: Donate
+      page: /donate
+    - name: Volunteer
+      page: /volunteer
+    - name: Contact
+      page: /contact
+  - submenu:
+    - heading: Running
+    - name: Races
+      page: /races
+    - name: Results
+      page: /results
+    - name: Photos
+      page: /photos
+  - submenu:
+    - heading: Buzzkill
+    - name: Registration Policies
+      page: /registration
+    - name: Race Rules
+      page: /rules
+    - name: Trail Running Etiquette
+      page: /etiquette
+    - name: Waiver Form
+      page: /waiver
+  - submenu:
+    - heading: Community
+    - name: Fennessey Award
+      page: /fennessey
+    - name: NMTC Legends
+      page: /gene
+    - name: Facebook
+      page: https://www.facebook.com/295987053807192
+      external: true
