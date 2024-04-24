@@ -198,6 +198,12 @@
   height: 2rem;
 }
 
+#more-container {
+  display: none;
+  &.show {
+    display: flex;
+  }
+}
 
 #more-container.overlay {
   display: flex;
@@ -213,6 +219,9 @@
 #more-content.overlay {
   display: block;
   padding-top: 4rem;
+  & .more-item {
+    font-size: 1.2rem;
+  }
 }
 
 #overlay-toggle {
@@ -223,17 +232,15 @@
   }
 }
 
-
-
-
-
-
-.more-overlay {
+#overlay-events-list {
   display: none;
   &.show {
-    display: flex;
+    display: block;
   }
 }
+
+
+
 
  .menu.show {
    // display: block;

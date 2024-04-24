@@ -17,7 +17,7 @@
       page: /contact
   - submenu:
     - heading: Fun Stuff
-    - name: Trail Races
+    - name: Our Races
       page: /races
     - name: Race Results
       page: /results

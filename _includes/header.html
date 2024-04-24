@@ -34,10 +34,18 @@
       <!-- <div class="close-menu"></div> -->
     </div>
   </div>
-  <div class="more-overlay" id="more-container">
-    <!-- Fix above: more-overlay: needed?
-          Fix below: logo-container: better style? -->
+  <div class="" id="more-container">
     <div class="more-content" id="more-content">
+      <div class="more-item" id="overlay-events-list">
+        <ul>
+          <li class="submenu-heading">Run</li>
+          {% for race in site.data.event-data %}
+            <li>
+              <a href="{{ race.page }}">{{ race.slug }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
       {% for menuItem in site.data.menu-items %}
         {% if menuItem.more %}
           {% for submenus in menuItem.more %}
@@ -117,6 +125,7 @@
     const overlayToggle = document.getElementById('overlay-toggle');
     const moreContainer = document.getElementById('more-container');
     const moreContent = document.getElementById('more-content');
+    const overlayEvents = document.getElementById('overlay-events-list');
     const body = document.body;
 
     // When "Menu" is clicked, show menu and stop scrolling
@@ -124,6 +133,7 @@
       moreContainer.classList.add('overlay');
       moreContent.classList.add('overlay');
       overlayToggle.classList.add('overlay');
+      overlayEvents.classList.add('show');
       body.classList.add('menu-active');
     });
 
@@ -131,6 +141,7 @@
       moreContainer.classList.remove('overlay');
       moreContent.classList.remove('overlay');
       overlayToggle.classList.remove('overlay');
+      overlayEvents.classList.remove('show');
       body.classList.remove('menu-active');
     });
 
