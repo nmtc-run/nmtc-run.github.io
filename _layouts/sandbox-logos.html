@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    <nav class="main-menu">
+      <div class="logo-container">
+        <div class="logo-spacer">
+          <div class="menu-icon menu-toggle" id="main-toggle"></div>
+        </div>
+        <a href="/">
+          <div class="logo">
+            <img src="/assets/logos/nmtc-logo-runner.jpeg" alt="">
+          </div>
+        </a>
+        <div class="logo-spacer right">
+          <div class="runner-icon"></div>
+        </div>
+      </div>
+      <div class="menu-wrapper items-main">
+        <div class="menu-items">
+          <ul class="menu">
+            {% for item in site.data.menu-items %}
+              {% if item.page == page.permalink %}
+                {% assign active = "active" %}
+              {% else %}
+                {% assign active = null %}
+              {% endif %}
+              {% if item.name %}
+                <li class="{% if active %}active{% endif %}">
+                    <a href="{{ item.page }}">{{ item.name }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+            <li id="more-selector" onclick="toggleMoreItems()">
+              <a href="#" style="display: inline-block;">More</a><div class="more-arrow"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="" id="more-container">
+        <div class="more-content" id="more-content">
+          <div class="more-item" id="overlay-events-list">
+            <ul>
+              <li class="submenu-heading">Run</li>
+              {% for race in site.data.event-data %}
+                <li>
+                  <a href="{{ race.page }}">{{ race.slug }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% for menuItem in site.data.menu-items %}
+            {% if menuItem.more %}
+              {% for submenus in menuItem.more %}
+                <div class="more-item">
+                  <ul>
+                    {% for submenu in submenus.submenu %}
+                      {% if submenu.heading %}
+                        <li class="submenu-heading">{{ submenu.heading }}</li>
+                      {% else if submenu.name %}
+                        {% if  submenu.external %}
+                          <li><a href="{{ submenu.page }}" target="_blank">{{ submenu.name }}<img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="" style="padding-left: 0.25em;"></a></li>
+                        {% else %}
+                          <li> <a href="{{ submenu.page }}">{{ submenu.name }}</a></li>
+                        {% endif %}
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </div>
+        <div class="close-menu" id="overlay-toggle"></div>
+      </div>
+      <div class="menu-wrapper items-races">
+        <div class="menu-items">
+          <ul class="menu">
+            {% for item in site.data.event-data %}
+              {% if item.page == page.permalink %}
+                {% assign active = "active" %}
+              {% else %}
+                {% assign active = null %}
+              {% endif %}
+              <li class="{% if active %}active{% endif %}">
+                  <a href="{{ item.page }}">{{ item.slug }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div id="menu-hr"></div>
+    </nav>
+
+    <main class="page-content" aria-label="Content" style="height: 100vh;"></main>
+
+    <nav class="main-menu">
+      <div class="logo-container">
+        <div class="logo-spacer">
+          <div class="menu-icon menu-toggle" id="main-toggle"></div>
+        </div>
+        <a href="/">
+          <div class="logo">
+            <img src="/assets/logos/nmtc-logo-thru-green.jpeg" alt="">
+          </div>
+        </a>
+        <div class="logo-spacer right">
+          <div class="runner-icon"></div>
+        </div>
+      </div>
+      <div class="menu-wrapper items-main">
+        <div class="menu-items">
+          <ul class="menu">
+            {% for item in site.data.menu-items %}
+              {% if item.page == page.permalink %}
+                {% assign active = "active" %}
+              {% else %}
+                {% assign active = null %}
+              {% endif %}
+              {% if item.name %}
+                <li class="{% if active %}active{% endif %}">
+                    <a href="{{ item.page }}">{{ item.name }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+            <li id="more-selector" onclick="toggleMoreItems()">
+              <a href="#" style="display: inline-block;">More</a><div class="more-arrow"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="" id="more-container">
+        <div class="more-content" id="more-content">
+          <div class="more-item" id="overlay-events-list">
+            <ul>
+              <li class="submenu-heading">Run</li>
+              {% for race in site.data.event-data %}
+                <li>
+                  <a href="{{ race.page }}">{{ race.slug }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% for menuItem in site.data.menu-items %}
+            {% if menuItem.more %}
+              {% for submenus in menuItem.more %}
+                <div class="more-item">
+                  <ul>
+                    {% for submenu in submenus.submenu %}
+                      {% if submenu.heading %}
+                        <li class="submenu-heading">{{ submenu.heading }}</li>
+                      {% else if submenu.name %}
+                        {% if  submenu.external %}
+                          <li><a href="{{ submenu.page }}" target="_blank">{{ submenu.name }}<img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="" style="padding-left: 0.25em;"></a></li>
+                        {% else %}
+                          <li> <a href="{{ submenu.page }}">{{ submenu.name }}</a></li>
+                        {% endif %}
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </div>
+        <div class="close-menu" id="overlay-toggle"></div>
+      </div>
+      <div class="menu-wrapper items-races">
+        <div class="menu-items">
+          <ul class="menu">
+            {% for item in site.data.event-data %}
+              {% if item.page == page.permalink %}
+                {% assign active = "active" %}
+              {% else %}
+                {% assign active = null %}
+              {% endif %}
+              <li class="{% if active %}active{% endif %}">
+                  <a href="{{ item.page }}">{{ item.slug }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div id="menu-hr"></div>
+    </nav>
+
+    <main class="page-content" aria-label="Content" style="height: 100vh;"></main>
+
+    <nav class="main-menu">
+      <div class="logo-container">
+        <div class="logo-spacer">
+          <div class="menu-icon menu-toggle" id="main-toggle"></div>
+        </div>
+        <a href="/">
+          <div class="logo">
+            <img src="/assets/logos/nmtc-logo-mtn-green.svg" alt="">
+          </div>
+        </a>
+        <div class="logo-spacer right">
+          <div class="runner-icon"></div>
+        </div>
+      </div>
+      <div class="menu-wrapper items-main">
+        <div class="menu-items">
+          <ul class="menu">
+            {% for item in site.data.menu-items %}
+              {% if item.page == page.permalink %}
+                {% assign active = "active" %}
+              {% else %}
+                {% assign active = null %}
+              {% endif %}
+              {% if item.name %}
+                <li class="{% if active %}active{% endif %}">
+                    <a href="{{ item.page }}">{{ item.name }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+            <li id="more-selector" onclick="toggleMoreItems()">
+              <a href="#" style="display: inline-block;">More</a><div class="more-arrow"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="" id="more-container">
+        <div class="more-content" id="more-content">
+          <div class="more-item" id="overlay-events-list">
+            <ul>
+              <li class="submenu-heading">Run</li>
+              {% for race in site.data.event-data %}
+                <li>
+                  <a href="{{ race.page }}">{{ race.slug }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% for menuItem in site.data.menu-items %}
+            {% if menuItem.more %}
+              {% for submenus in menuItem.more %}
+                <div class="more-item">
+                  <ul>
+                    {% for submenu in submenus.submenu %}
+                      {% if submenu.heading %}
+                        <li class="submenu-heading">{{ submenu.heading }}</li>
+                      {% else if submenu.name %}
+                        {% if  submenu.external %}
+                          <li><a href="{{ submenu.page }}" target="_blank">{{ submenu.name }}<img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="" style="padding-left: 0.25em;"></a></li>
+                        {% else %}
+                          <li> <a href="{{ submenu.page }}">{{ submenu.name }}</a></li>
+                        {% endif %}
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </div>
+        <div class="close-menu" id="overlay-toggle"></div>
+      </div>
+      <div class="menu-wrapper items-races">
+        <div class="menu-items">
+          <ul class="menu">
+            {% for item in site.data.event-data %}
+              {% if item.page == page.permalink %}
+                {% assign active = "active" %}
+              {% else %}
+                {% assign active = null %}
+              {% endif %}
+              <li class="{% if active %}active{% endif %}">
+                  <a href="{{ item.page }}">{{ item.slug }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div id="menu-hr"></div>
+    </nav>
+
+    <main class="page-content" aria-label="Content" style="height: 100vh;"></main>
+
+    <nav class="main-menu">
+      <div class="logo-container">
+        <div class="logo-spacer">
+          <div class="menu-icon menu-toggle" id="main-toggle"></div>
+        </div>
+        <a href="/">
+          <div class="logo" style="padding: 1em 0;">
+            <img src="/assets/logos/nmtc-logo-lanes.svg" alt="">
+          </div>
+        </a>
+        <div class="logo-spacer right">
+          <div class="runner-icon"></div>
+        </div>
+      </div>
+      <div class="menu-wrapper items-main">
+        <div class="menu-items">
+          <ul class="menu">
+            {% for item in site.data.menu-items %}
+              {% if item.page == page.permalink %}
+                {% assign active = "active" %}
+              {% else %}
+                {% assign active = null %}
+              {% endif %}
+              {% if item.name %}
+                <li class="{% if active %}active{% endif %}">
+                    <a href="{{ item.page }}">{{ item.name }}</a>
+                </li>
+              {% endif %}
+            {% endfor %}
+            <li id="more-selector" onclick="toggleMoreItems()">
+              <a href="#" style="display: inline-block;">More</a><div class="more-arrow"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="" id="more-container">
+        <div class="more-content" id="more-content">
+          <div class="more-item" id="overlay-events-list">
+            <ul>
+              <li class="submenu-heading">Run</li>
+              {% for race in site.data.event-data %}
+                <li>
+                  <a href="{{ race.page }}">{{ race.slug }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% for menuItem in site.data.menu-items %}
+            {% if menuItem.more %}
+              {% for submenus in menuItem.more %}
+                <div class="more-item">
+                  <ul>
+                    {% for submenu in submenus.submenu %}
+                      {% if submenu.heading %}
+                        <li class="submenu-heading">{{ submenu.heading }}</li>
+                      {% else if submenu.name %}
+                        {% if  submenu.external %}
+                          <li><a href="{{ submenu.page }}" target="_blank">{{ submenu.name }}<img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="" style="padding-left: 0.25em;"></a></li>
+                        {% else %}
+                          <li> <a href="{{ submenu.page }}">{{ submenu.name }}</a></li>
+                        {% endif %}
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div>
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+        </div>
+        <div class="close-menu" id="overlay-toggle"></div>
+      </div>
+      <div class="menu-wrapper items-races">
+        <div class="menu-items">
+          <ul class="menu">
+            {% for item in site.data.event-data %}
+              {% if item.page == page.permalink %}
+                {% assign active = "active" %}
+              {% else %}
+                {% assign active = null %}
+              {% endif %}
+              <li class="{% if active %}active{% endif %}">
+                  <a href="{{ item.page }}">{{ item.slug }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div id="menu-hr"></div>
+    </nav>
+
+    <main class="page-content" aria-label="Content" style="height: 100vh;"></main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
