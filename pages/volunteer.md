@@ -1,50 +1,67 @@
 ---
-layout: page-hero
+layout: article
 title: Make magic happen
-permalink: /volunteer/
+permalink: /volunteer
 img: /img/aid-station.jpeg
-subtitle: Minnesota Voyageur Trail Ultra and the Eugene Curnow Trail Marathon are in need of volunteers!
-button-text: Sign up to volunteer
-button-url: /volunteer/#eugene-curnow-trail-marathon # to link to a heading in the content below, use format /PAGE_TITLE/#HEADING-TEXT-BUT-REPLACE-SPACES-WITH-HYPHENS
-open-in-new-window: false
-below-content-goes-in-box-below-photo: false
-description:
-  Time commitments vary and some of the work can be appropriate for all ages; this is a great way to introduce friends and family to the world of trail running. Most important, volunteers have an absolute blast supporting racers, meeting new people, and giving back to the trail running community.
+button-text: Volunteer Sign-Up
+button-url: /volunteer/#curnow-marathon--voyageur-50
+button-external: false
+button-down-arrow: true
 ---
 
-If you are volunteering as part of a job, education, or race requirement we will be happy to complete any necessary paperwork to verify your time commitment at our event.
+## YOU make Voyageur and Curnow possible
 
-Volunteering at the Eugene Curnow Trail Marathon gets you a discounted entry to the Minnesota Voyageur—and vice versa. A very nice benefit, indeed! But please do not sign up for volunteering just for the discount and then back out. It places us in a short-handed situation. We do audit these post-race and contact no-shows to square up.
+Well-marked courses. Well-stocked aid stations. A safe, fun, and exciting atmosphere. This stuff just doesn't happen without volunteers!
 
-If for some reason your ability to volunteer changes, please notify us right away. We rely on all of our volunteers to help us provide a successful event.
+Although we often pretend the course makes the race, it's the people—competitors, supporters, and volunteers—who create the experience and make the memories.
 
-If you have any questions, please contact our Volunteer Coordinator using our [contact page](/contact).
+We rely on all our volunteers to provide a successful event:
 
-# Eugene Curnow Trail Marathon
+* When you volunteer at either the [Curnow Marathon](/curnow) or the [Voyageur 50](/voyageur), we give you a discounted entry to the other race.
+
+* If you're volunteering as part of your job, education, or race requirement, we're happy to complete any necessary paperwork to verify your time commitment.
+
+* When you participate in every NMTC event in a calendar year—whether by running or volunteering—you qualify for the coveted [Ella Fennessey Award](/fennessey).
+
+Time commitments vary and many important tasks are appropriate for all ages. That makes volunteering a great way to introduce friends and family to the world of trail running. We promise you will have an absolute blast supporting racers, meeting new people, and giving back to the trail running community. That's a guarantee—or your money back!
+
+# Curnow Marathon & Voyageur 50
+
+Curnow and Voyageur are in need of volunteers. Sign up today!
 
 <div class="container" style="display:flex;padding-bottom:1em;">
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvW7FwzVv2naQ7jjNZF6tMq6eHe5CRb-l4dAnTbKKEShpmhQ/viewform?vc=0&c=0&w=1&flr=0" style="margin: 0 auto;" target="blank">
-    <div class="button">Curnow volunteer sign-up form</div>
+    <div class="button">Curnow volunteers</div>
   </a>
-</div>
-
-# Minnesota Voyageur Trail Ultramarathon
-
-<div class="container" style="display:flex;padding-bottom:1em;">
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWOkAprzE5xPmNP7AgLZDdEAtwwzN5v_LMGYf7IO_D-XkxMw/viewform?vc=0&c=0&w=1&flr=0" style="margin: 0 auto;" target="blank">
-    <div class="button">Voyageur volunteer sign-up form</div>
+    <div class="button">Voyageur volunteers</div>
   </a>
 </div>
 
-# High-priority needs
+Opportunities include:
 
-* **Aid Station Volunteers (This is a biggie!)**
-  <br>This is far and away our biggest need every year! Fortunately, it’s also one of the most fun things to do on race day. Assemble a group of friends to volunteer for the day, or just bring yourself and make some great new friends – all while providing the most essential contribution to race day success for our runners!
-  <br>A couple of aid stations may require monitoring / assistance with road crossings. This is generally handled in shifts. We only have a couple of crossings, but their busy nature makes this aspect extremely important.
+* **Aid station volunteers:** This is our highest-priority—far and away our biggest need each year. Fortunately, it’s also one of the most fun things to do on race day. Assemble a group of friends for the day, or just bring yourself and make some great new friends—all while providing the most essential contribution to race day success for our runners!
 
-# Other opportunities
+* **Road crossings and road monitoring:** Several aid stations feature this safety role—a responsibility that requires the highest level of commitment and focus. This is generally handled in shifts. We only have a couple of crossings, but their busy nature makes this extremely important.
 
-* Click into the sign-up form above for a complete list of opportunities.
+* **Medical & first aid specialists:** A level of medical training is preferred – e.g. doctor, nurse, EMT, formal first-aid training, or similar.
 
-* **Specialties: Medical/First Aid**
-  <br>A level of medical training is preferred – e.g. doctor, nurse, EMT, formal first-aid training, or similar.
+* **Other roles:** Click into the sign-up form above for a complete list of ways to help before, during, and after the race.
+
+# Spring & Fall Series
+
+Although we rarely require extra hands to present Spring & Fall Series races, by all means [contact us](/contact) if interested. Other excellent ways to participate include cheering runners on, sharing photos on social media, and bringing a dish to the series-finale potluck.  
+
+# Volunteering FAQ
+
+## What happens if I claim the discount but don't volunteer?
+
+Volunteering in exchange for discounted race entry is a very nice benefit, indeed! But please don't sign up to volunteer just for the discount and back out later—it leaves us short-handed on race day. We do audit attendance post-race and contact no-shows to square up.
+
+## What if my circumstances change, and I can't follow through on my commitment?
+
+If for some reason your ability to volunteer changes, please notify us right away. We rely on all of our volunteers to help us provide a successful event.
+
+## Other questions?
+
+Please don't hesitate to [contact us](/contact).
