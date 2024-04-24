@@ -2,6 +2,10 @@
 layout: event
 title: Minnesota Voyageur Trail Ultramarathon
 permalink: /voyageur
+button-text: Register
+button-url: /voyageur/#register
+button-external-link: false
+button-down-arrow: true
 start-finish: Carlton High School, Carlton, MN
 ascent: 5,000 ft
 descent: 5,000 ft

@@ -1,0 +1,11 @@
+# Redirects from the old nmtc.run website
+/old-page-on-domain1 https://your-new-domain.com/new-page
+/old-page2-on-domain1 https://your-new-domain.com/another-new-page
+
+# Redirects from the old curnowmarathon.com website
+/old-page-on-domain2 https://your-new-domain.com/new-page
+/old-page2-on-domain2 https://your-new-domain.com/another-new-page
+
+# Redirects from the voyageur50.com website
+/old-page-on-domain2 https://your-new-domain.com/new-page
+/old-page2-on-domain2 https://your-new-domain.com/another-new-page
