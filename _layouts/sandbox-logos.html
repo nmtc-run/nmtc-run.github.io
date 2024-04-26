@@ -12,7 +12,7 @@
         </div>
         <a href="/">
           <div class="logo">
-            <img id="logo" src="/assets/logos/nmtc-logo-runner.jpeg" alt="">
+            <img id="logo" src="/assets/logos/nmtc-logo-mtn-brown.svg" alt="">
           </div>
         </a>
         <div class="logo-spacer right">
@@ -101,21 +101,32 @@
         flex-wrap: wrap;
       }
       .logo-button {
-        height: 6em;
-        width: 6em;
+        height: 6rem;
+        width: 6rem;
         background-color: #ccc;
-        margin: 1em;
+        margin: 1rem;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
         cursor: pointer;
+      }
+      .logo-text {
+        word-break: break-all;
+        font-size: 0.8em;
+        margin: 0.25rem 1rem 1rem 1rem;
+        max-width: 6em;
       }
     </style>
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper" id="sandbox">
         {% for logo in site.data.sandbox-logos %}
+        <div class="logo-butto-wrapper">
           <div class="logo-button" data-logo-src="{{ logo.url }}" style="background-image: url({{ logo.url }})"></div>
+          {% assign logoPath = logo.url %}
+          {% assign parts = logoPath | split: '/assets/logos/nmtc-logo-' %}
+          <div class="logo-text">{{ parts[1] }}</div>
+        </div>
         {% endfor %}
       </div>
     </main>
@@ -134,6 +145,62 @@
           document.getElementById('logo').src = logoSrc;
         });
       });
+
+        // toggle submenu overlay
+        function toggleMoreItems() {
+          var moreItems = document.getElementById('more-container');
+          if (moreItems.classList.contains('show')) {
+                moreItems.classList.remove('show');
+            } else {
+                moreItems.classList.add('show');
+            }
+        }
+
+        // Function to handle window resize
+        function handleResize() {
+          var viewportWidth = window.innerWidth;
+          var moreItems = document.getElementById('more-container');
+
+          if (viewportWidth < 600) {
+            // moreItems.style.display = 'none';
+            moreItems.classList.remove('show');
+          }
+        }
+
+        // Add event listener for window resize
+        window.addEventListener('resize', handleResize);
+
+        // Call handleResize initially to handle initial viewport width
+        handleResize();
+
+        // toggle menu on small screens
+        document.addEventListener('DOMContentLoaded', function () {
+
+          const mainToggle = document.getElementById('main-toggle');
+          const overlayToggle = document.getElementById('overlay-toggle');
+          const moreContainer = document.getElementById('more-container');
+          const moreContent = document.getElementById('more-content');
+          const overlayEvents = document.getElementById('overlay-events-list');
+          const body = document.body;
+
+          // When "Menu" is clicked, show menu and stop scrolling
+          mainToggle.addEventListener('click', function () {
+            moreContainer.classList.add('overlay');
+            moreContent.classList.add('overlay');
+            overlayToggle.classList.add('overlay');
+            overlayEvents.classList.add('show');
+            body.classList.add('menu-active');
+          });
+
+          overlayToggle.addEventListener('click', function () {
+            moreContainer.classList.remove('overlay');
+            moreContent.classList.remove('overlay');
+            overlayToggle.classList.remove('overlay');
+            overlayEvents.classList.remove('show');
+            body.classList.remove('menu-active');
+          });
+
+        });
     </script>
 
     {%- include footer.html -%}
