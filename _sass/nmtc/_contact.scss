@@ -120,3 +120,13 @@
   border-top: none;
   background-color: $background-color;
 }
+
+.captcha-wrapper {
+  width: 100%;
+  display: flex;
+  padding-bottom: 0.8em; 
+}
+
+.g-recaptcha {
+  margin: 0 auto;
+}
