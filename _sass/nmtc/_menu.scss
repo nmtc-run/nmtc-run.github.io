@@ -33,19 +33,22 @@
   flex-direction: column;
 }
 
+.logo-container > a {
+  margin: 1.5em 0 1em 0;
+}
+
 .logo {
   width: 300px;
   // height: 100px;
   display: flex;
   align-items: center;
-  padding: 1em 0 0.5em 0;
 }
 
 .logo * {
   max-width: 60%;
   max-height: 60%;
   margin: 0 auto;
-  padding: 0 2em;
+  // padding: 0 2em;
   text-align: center;
 }
 
@@ -114,7 +117,6 @@
  border-bottom: 2px solid transparent;
  &:hover {
    border-bottom: 2px solid darken($background-color,40%);
-   // border-bottom: 2px solid lighten(saddlebrown,40%);
  }
 }
 
@@ -218,7 +220,13 @@
 
 #more-content.overlay {
   display: block;
-  padding-top: 4rem;
+  // padding-top: 4rem;
+  & #more-logo {
+    max-width: 60vw;
+    height: 1.4em;
+    padding-top: 0.5em;
+    margin-bottom: 1em;
+  }
   & .more-item {
     font-size: 1.2rem;
     &:last-child {
@@ -272,6 +280,10 @@
   */
 
 @include media-query($on-palm) {
+  .logo-container > a {
+    margin: 0;
+  }
+
   .logo {
     max-width: 63vw;
     min-width: 200px;
