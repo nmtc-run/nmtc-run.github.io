@@ -116,18 +116,39 @@
         margin: 0.25rem 1rem 1rem 1rem;
         max-width: 6em;
       }
+      .checkered-background {
+        background-image:
+          linear-gradient(45deg, #ccc 25%, transparent 25%),
+          linear-gradient(-45deg, #ccc 25%, transparent 25%),
+          linear-gradient(45deg, transparent 75%, #ccc 75%),
+          linear-gradient(-45deg, transparent 75%, #ccc 75%);
+        background-size: 20px 20px; /* Adjust the size of the checkered pattern */
+      }
+      #big-logo {
+        width: 100%;
+        min-height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
     </style>
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper" id="sandbox">
         {% for logo in site.data.sandbox-logos %}
-        <div class="logo-butto-wrapper">
+        <div class="logo-button-wrapper">
           <div class="logo-button" data-logo-src="{{ logo.url }}" style="background-image: url({{ logo.url }})"></div>
           {% assign logoPath = logo.url %}
           {% assign parts = logoPath | split: '/assets/logos/nmtc-logo-' %}
-          <div class="logo-text">{{ parts[1] }}</div>
+          {% assign final = parts[1] | split: '.' %}
+          <div class="logo-text">{{ final[0] }}</div>
         </div>
         {% endfor %}
+      </div>
+      <div class="wrapper">
+        <div class="checkered-background">
+          <img src="/assets/logos/nmtc-logo-mtn-brown.svg" id="big-logo" alt="">
+        </div>
       </div>
     </main>
 
@@ -143,6 +164,7 @@
 
           // Set the "src" attribute of the img with id "logo" to the value of logoSrc
           document.getElementById('logo').src = logoSrc;
+          document.getElementById('big-logo').src = logoSrc;
         });
       });
 
