@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Minnesota Voyageur Trail Ultramarathon
-permalink: /voyageur
+permalink: /voyageur/
 button-text: Register
 button-url: /voyageur/#register
 button-external-link: false
@@ -120,7 +120,7 @@ gpx-url: /assets/gpx/Voyageur-50.gpx
 
 ## Crew access:
 
-**<span style="color:saddlebrown;">¡ ATTENTION !</span>** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
+**<span class="nb">¡ ATTENTION !</span>** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
 
 ## Drop bags:
 
@@ -154,7 +154,7 @@ Runners receive awards as they finish.
 
 **Parking at start/finish:** A good amount of parking is available in the lots behind and near the school. Some parking is also available on the streets surrounding the school.
 
-**<span style="color:saddlebrown;">¡ USE CAUTION !</span>** Approaching the start/finish area on Walnut Ave intersects with 4th St, which is the final sprint to the finish line for our runners. If you can, please use a different route to School Ave, such as 5th or 6th St.
+**<span class="nb">¡ USE CAUTION !</span>** Approaching the start/finish area on Walnut Ave intersects with 4th St, which is the final sprint to the finish line for our runners. If you can, please use a different route to School Ave, such as 5th or 6th St.
 
 # Details
 

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Support local trail running
-permalink: /donate
+permalink: /donate/
 img: /img/volunteer-table.jpeg
 button-text: Donate via PayPal
 button-url: https://www.paypal.com/donate/?hosted_button_id=CANSARLQY4Z7G

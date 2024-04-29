@@ -3,7 +3,7 @@
   date: May 1 to June 5, 2024
   description: >- # ignore newlines
     Six short-distance races on a mix of surfaces—from creekside paths to gravel roads to sandy stretches along Lake Superior. Races are held across the Twin Ports—most on Wednesday evenings and one on a Sunday morning.
-  page: /spring-series
+  page: /spring-series/
   img: /img/series-start.jpeg
   slug: Spring Series
 
@@ -12,7 +12,7 @@
   date: 13 July 2024
   description: >- # ignore newlines
     Originally known as the Half-Voyageur, this challenging point-to-point course over rough woodland trails offers scenic overlooks of Duluth, Lake Superior, and the St. Louis River.
-  page: /curnow
+  page: /curnow/
   img: /img/jarrows-beach.jpeg
   slug: Curnow Marathon
 
@@ -21,7 +21,7 @@
   date: 27 July 2024
   description: >- # ignore newlines
     Founded in 1982, this legendary race stands among the longest-running trail ultras in the nation. The out-and-back course invites runners on a journey through several rugged trail systems between Carlton and Duluth.
-  page: /voyageur
+  page: /voyageur/
   img: /img/voyageur-runners.jpeg
   slug: Voyageur 50
 
@@ -30,6 +30,6 @@
   date: Aug 28 to Oct 27, 2024
   description: >- # ignore newlines
     Nine short-distance races over rugged woodland singletrack, held across the Twin Ports starting on Wednesday evenings before switching to Sunday afternoons to maintain daylight.
-  page: /fall-series
+  page: /fall-series/
   img: /img/series-wide.png
   slug: Fall Series

@@ -1,7 +1,7 @@
 ---
 layout: series
 title: NMTC Spring Series
-permalink: /spring-series
+permalink: /spring-series/
 button-text: Schedule
 button-url: /spring-series/#schedule-and-race-results
 button-external-link: false

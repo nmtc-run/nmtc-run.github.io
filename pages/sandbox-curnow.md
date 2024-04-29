@@ -1,7 +1,7 @@
 ---
 layout: sandbox-event # event
 title: Eugene Curnow Trail Marathon
-permalink: /curnow
+permalink: /curnow/
 button-text: Register
 button-url: /curnow/#register
 button-external-link: false
@@ -34,7 +34,7 @@ gpx-url: /assets/gpx/Curnow-Marathon.gpx
 
 ## Crew access:
 
-**<span style="color:saddlebrown;">¡ ATTENTION !</span>** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
+**<span class="nb">¡ ATTENTION !</span>** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
 
 ## Drop bags
 

@@ -2,10 +2,10 @@
 layout: default
 ---
 
-{% if page.permalink == '/curnow' or page.permalink == '/sandbox/curnow' %}
+{% if page.permalink == '/curnow/' or page.permalink == '/sandbox/curnow/' %}
   {% assign event = site.data.event-data[1] %}
   {% assign aid_stations = site.data.as-curnow %}
-{% else if page.permalink == '/voyageur' %}
+{% else if page.permalink == '/voyageur/' %}
   {% assign event = site.data.event-data[2] %}
   {% assign aid_stations = site.data.as-voyageur %}
 {% endif %}

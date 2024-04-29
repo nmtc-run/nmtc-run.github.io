@@ -2,7 +2,7 @@
 layout: article
 title: NMTC Races
 img: /img/series-start.jpeg
-permalink: /races
+permalink: /races/
 include-races: true
 ---
 
