@@ -14,7 +14,9 @@ $spacing-unit:     30px !default;
 
 $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
-$brand-color:      #1abc9c !default;
+$brand-color:      #1abc9c !default; // NMTC green
+$brand-brown:      #cc6f77 !default; // track brown
+$brand-yellow:     #ecdcb0 !default; // mellow gold  // #FCECC9
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
