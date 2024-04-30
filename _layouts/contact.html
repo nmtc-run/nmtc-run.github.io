@@ -81,13 +81,14 @@ layout: default
     formData.forEach(function(value, key) {
       data[key] = value;
     });
+    data.gCaptchaResponse = document.getElementById('g-recaptcha-response').value;
+    
     fetch(url, {
       method: 'POST',
       headers: {
         'Content-Type': 'text/plain;charset=utf-8',
       },
       body: JSON.stringify(data),
-      gCaptchaResponse: document.getElementById('g-recaptcha-response').value,
     })
       .then((res) => {
         sendingMessage.style.display = "none"; // Hide the sending message
