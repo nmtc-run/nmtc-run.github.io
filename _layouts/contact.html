@@ -82,7 +82,7 @@ layout: default
       data[key] = value;
     });
     data.gCaptchaResponse = document.getElementById('g-recaptcha-response').value;
-    
+
     fetch(url, {
       method: 'POST',
       headers: {
@@ -93,9 +93,16 @@ layout: default
       .then((res) => {
         sendingMessage.style.display = "none"; // Hide the sending message
         sentMessage.style.display = "block"; // Show the sent message
+        if (res.status == 'error') {
+          sentMessage.style.display = "none"; // Show the sent message
+          errorMessage.style.display = "block"; // Show the error message
+          form.style.display = "block"; // Show the form
+        }
         return res.json();
       })
-      .then((data) => console.log('data', data))
+      .then((data) => {
+        console.log('data', data);
+      })
       .catch((err) => {
         sendingMessage.style.display = "none"; // Hide the sending message
         errorMessage.style.display = "block"; // Show the error message
