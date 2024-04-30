@@ -18,8 +18,8 @@ layout: default
       </div>
       <div id="errorMessage" style="display: none;">
         <div class="error-headline">Error!</div>
-        <div class="error-message">
-          We failed to process your message for some reason. Please try again later or contact us through the NMTC Facebook page.
+        <div class="error-message" id="errorMessageText">
+          We failed to process your message for some reason. Please try again later or contact us through the <a href="https://www.facebook.com/295987053807192" target="_blank">NMTC Facebook page</a>.
         </div>
       </div>
     </div>
@@ -71,6 +71,7 @@ layout: default
     var sendingMessage = document.getElementById("sendingMessage");
     var sentMessage = document.getElementById("sentMessage");
     var errorMessage = document.getElementById("errorMessage");
+    var errorMessageText = document.getElementById("errorMessageText");
 
     form.style.display = "none"; // Hide the form
     statusMessage.style.display = "block"; // Show the status message
@@ -93,15 +94,16 @@ layout: default
       .then((res) => {
         sendingMessage.style.display = "none"; // Hide the sending message
         sentMessage.style.display = "block"; // Show the sent message
-        if (res.status == 'error') {
-          sentMessage.style.display = "none"; // Show the sent message
-          errorMessage.style.display = "block"; // Show the error message
-          form.style.display = "block"; // Show the form
-        }
         return res.json();
       })
       .then((data) => {
         console.log('data', data);
+        if (data.status == 'error') {
+          sentMessage.style.display = "none"; // Show the sent message
+          errorMessage.style.display = "block"; // Show the error message
+          errorMessageText.innerHTML = 'We failed to process your message. It seems you did not click the reCAPTCHA anti-spam checkbox before clicking Submit. Please try again later or contact us through the <a href="https://www.facebook.com/295987053807192" target="_blank">NMTC Facebook page</a>.';
+          form.style.display = "block"; // Show the form
+        }
       })
       .catch((err) => {
         sendingMessage.style.display = "none"; // Hide the sending message
