@@ -3,11 +3,11 @@
   <div id="updates-spotlight">[Loading...]</div>
 </div>
 <div class="news-right" id="news-right">
-  <div class="news-heading">More Updates</div>
+  <div class="news-heading"></div>
   <div class="" id="updates-feed">[Loading...]</div>
   <div class="news-button container" style="display:flex;padding: 0.5em;">
     <a href="https://www.facebook.com/runnmtc/" style="margin: 0 auto;text-decoration:none;" target="_blank">
-      <div class="button">More Posts</div>
+      <div class="button grey">More: NMTC on Facebook</div>
     </a>
 
   </div>
@@ -33,7 +33,7 @@
     displayFeedItems(data);
   })
   .catch(error => {
-    var defaultData = [{"sourceName":"Facebook","sourceUrl":"https://www.facebook.com/295987053807192/posts/863267505840758","imgUrl":"https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/438640661_853688836798625_8120563862475073905_n.jpg?stp=dst-jpg_p720x720&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=qClQc3_nwUMQ7kNvgGSJVNk&_nc_ht=scontent-dfw5-2.xx&edm=AKIiGfEEAAAA&oh=00_AfAA538CvWW5sSPPaeU_sAbE4g5eT1vQ7SlK4qlXHVlWcA&oe=663978B0","headline":"NMTC posted on Facebook","date":"2024-05-01T06:00:00.000Z","message":"Our first race is tonight at 6 p.m.! Join us for a 7.3k on Bear Creek trail. Head over to Superior and follow highway 2 to the edge of town. You'll hang a left onto Moccasin Mike Rd and then you'll turn left again right behind the humane society. \nThis link shows pins for all of the spring series. \nhttps://nmtc.run/google-maps/spring-series/"}];
+    var defaultData = [{"sourceName":"Facebook","sourceUrl":"https://www.facebook.com/295987053807192/posts/863267505840758","imgUrl":"https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/438640661_853688836798625_8120563862475073905_n.jpg?stp=dst-jpg_p720x720&_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=qClQc3_nwUMQ7kNvgGSJVNk&_nc_ht=scontent-dfw5-2.xx&edm=AKIiGfEEAAAA&oh=00_AfAA538CvWW5sSPPaeU_sAbE4g5eT1vQ7SlK4qlXHVlWcA&oe=663978B0","headline":"NMTC posted on Facebook","date":"2024-04-24T15:48:21+0000","message":"Our first race is tonight at 6 p.m.! \nJoin us for a 7.3k on Bear Creek trail. \nHead over to Superior and follow highway 2 to the edge of town. You'll hang a left onto Moccasin Mike Rd and then you'll turn left again right behind the humane society. \nThis link shows pins for all of the spring series. \nhttps://nmtc.run/google-maps/spring-series/"}];
     displayFeedItems(defaultData);
     console.error('There was a problem with the fetch operation:', error);
   });
@@ -49,12 +49,12 @@
     // Iterate through the updates and display on page
     data.forEach((item, index) => {
 
+      // Set the social icon
+      let iconUrl = getIconUrl(item.sourceName);
+
       if (index === 0) {
 
-        const anchor = document.createElement('a');
-        anchor.className = 'left-item';
-        anchor.href = item.sourceUrl;
-        anchor.target = '_blank';
+        const container = document.createElement('div');
 
         // Hide the image if img url is blank
         let imgStyle = '';
@@ -62,30 +62,39 @@
           imgStyle = 'display:none;'
         }
 
-        // Format the date
-        item.date = formatDate(item.date); 
+        // Format the dateline
+        let dateline = formatDate(item.date);
+        if (dateline === 'Invalid date') {
+          dateline = '';
+        } else {
+          dateline = dateline + ' — ';
+        }
+
+        // Create and format the lede
+        let lede =  dateline + item.message;
+        var lines = lede.split(/\n/g);
+        var wrappedLines = lines.map(function(line) {
+            return '<p>' + line + '</p>';
+        });
+        lede = wrappedLines.join('');
+        lede = addAnchorTags(lede);
 
         const leftHtml = `
-          <a class="left-item" href="${item.sourceUrl}">
+          <a class="left-item" href="${item.sourceUrl}" target="_blank">
             <div class="left-image" id="left-image" style="background-image: url('${item.imgUrl}');${imgStyle}">
               <div class="social-icon-container">
-                <div class="social-icon" style="background-image: url('/assets/icons/social/fb.svg');"></div>
+                <div class="social-icon" style="background-image: url('${iconUrl}');"></div>
               </div>
             </div>
             <div class="left-content">
-              <div class="news-spacer"></div>
-              <div class="left-headline">
-                ${item.headline}
-              </div>
-              <div class="left-message">
-                ${item.date} — ${item.message}
-              </div>
+              <div class="left-headline">${item.headline}</div>
             </div>
           </a>
+          <div class="left-message">${lede}</div>
         `;
 
-        anchor.innerHTML = leftHtml;
-        newsLeft.appendChild(anchor);
+        container.innerHTML = leftHtml;
+        newsLeft.appendChild(container);
 
       } else {
 
@@ -117,7 +126,7 @@
           </div>
           <div class="right-image" style="background-image: url('${item.imgUrl}');">
             <div class="social-icon-container">
-              <div class="social-icon" style="background-image: url('/assets/icons/social/fb.svg');"></div>
+              <div class="social-icon" style="background-image: url('${iconUrl}');"></div>
             </div>
           </div>
         `;
@@ -148,11 +157,40 @@
     return str.substring(0, lastSpaceIndex) + '...';
   }
 
-  // Function to format the created time
+  // Get icon url
+  function getIconUrl(source) {
+    let iconUrl = '';
+    if (source.trim().length > 0) {
+      iconUrl = '/assets/icons/social/' + source + '.svg';
+    } else {
+      iconUrl = '/assets/icons/chain-link.svg';
+    }
+    return iconUrl;
+  }
+
   function formatDate(dateString) {
-      const date = new Date(dateString);
-      const options = { year: 'numeric', month: 'long', day: 'numeric' };
-      return date.toLocaleDateString('en-US', options);
+    // Extract date components from the input string
+    const [datePart, timePart] = dateString.split('T');
+    const [year, month, day] = datePart.split('-');
+    const [hours, minutes, seconds] = timePart.split(/[:+]/);
+    const offset = dateString.slice(-5);
+
+    // Create a new Date object
+    const date = new Date(Date.UTC(year, month - 1, day, hours, minutes, seconds));
+
+    // Get the formatted date using options
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return date.toLocaleDateString('en-US', options);
+  }
+
+  function addAnchorTags(text) {
+    // Regular expression to find URLs in the text
+    var urlRegex = /(https?:\/\/[^\s]+)/g;
+
+    // Replace URLs with anchor tags
+    return text.replace(urlRegex, function(url) {
+        return '<a href="' + url + '">' + url + '</a>';
+    });
   }
 
 </script>
