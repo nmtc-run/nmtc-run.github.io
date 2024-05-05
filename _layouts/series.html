@@ -153,10 +153,21 @@ layout: default
         </div>
         <div class="series-spacer"></div>
         <div class="series-date-time">
+          {% comment %} if results are posted, set .posted {% endcomment %}
+          {% assign eventYear = event.date | date: "%Y" | plus: 0 %}
+          {% assign displayResults = '' %}
+          {% for edition in event.results %}
+            {% if edition.url %}
+              {% if edition.year == eventYear %}
+                {% assign displayResults = 'display-results' %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
           <div class="series-spacer"></div>
           <div class="series-date">{{ event.date | date: "%a %-d %b" }}</div>
           <div class="series-dtSpacer"></div>
-          <div class="series-time">{{ event.time }}</div>
+          <div class="results-icon {{ displayResults }}">Results</div>
+          <div class="series-time {{ displayResults }}">{{ event.time }}</div>
         </div>
       </div>
       <div class="series-details">

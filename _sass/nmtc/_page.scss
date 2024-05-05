@@ -36,7 +36,7 @@
  font-size: 2em;
  overflow-wrap: break-word;
  padding-top: 0.25em;
- font-weight: 550; 
+ font-weight: 550;
 }
 
 .article-subtitle {
@@ -259,14 +259,39 @@
   flex-direction: row;
 }
 
+.results-icon {
+  display: none;
+  width: 4.3rem;
+  overflow: hidden;
+  margin-left: 10px;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  flex-shrink: 0;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  text-align: center;
+  border: 1px solid #1abc9c;
+  color: white;
+  background-color: #1abc9c;
+  &.display-results {
+    display: inline-block;
+  }
+}
+
 .series-date {
   padding-left: 1em;
+  &.display-results {
+    display: none;
+  }
 }
 
 .series-time {
   width: 4.7em;
   padding-left: 10px;
   text-align: right;
+  &.display-results {
+    display: none;
+  }
 }
 
 /**
