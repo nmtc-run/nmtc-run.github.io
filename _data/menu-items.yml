@@ -40,5 +40,5 @@
     - name: NMTC Legends
       page: /gene/
     - name: Facebook
-      page: https://www.facebook.com/295987053807192
+      page: https://www.facebook.com/runnmtc/
       external: true
