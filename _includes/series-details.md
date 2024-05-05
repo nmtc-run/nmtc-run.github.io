@@ -1,3 +1,12 @@
+{% assign springFall = '' %}
+{% assign potluck = '' %}
+{% if page.permalink == '/spring-series/' %}
+  {% assign springFall = 'Spring' %}
+  {% assign potluck = 'at the Chester Park Chalet' %}
+{% else if page.permalink == '/fall-series/' %}
+  {% assign springFall = 'Fall' %}
+  {% assign potluck = 'at the Lester Amity Chalet' %}
+{% endif %}
 
 # Everyone is welcome
 
@@ -29,10 +38,10 @@ NMTC requires all runners to complete the waiver once per year. You are welcome 
 
 We supply water at the start/finish line of every race, but you must bring your own cup.
 
-At the final race of each series, we present awards and our end-of-series potluck. Bring a dish!
+At the final race, join us for awards and a potluck {{ potluck }}. Bring a dish!
 
 # Volunteer opportunities
 
-Can't run? Volunteer instead! You'll get points for the race and keep yourself in the running for the [Ella Fennessey Award](/fennessey)!
+Not running? Volunteer instead! You'll earn points toward the {{ springFall }} Series overall standings and stay eligible for the [Ella Fennessey Award](/fennessey).
 
 If you're interested, [contact us](/contact) in advance or show up between 5:30 and 6:00 pm on race day. We'll find a job for everyone!
