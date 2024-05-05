@@ -204,6 +204,15 @@ layout: default
           </div>
         </div>
 
+        {% if event.parking %}
+          <div class="series-description">
+            <div>
+              <strong>Parking: </strong>
+              {{ event.parking }}
+            </div>
+          </div>
+        {% endif %}
+
         {% if event.description %}
           <div class="series-description">
             <div>
@@ -217,7 +226,7 @@ layout: default
     {% endif %}
   {% endfor %}
   <blockquote style="font-size: 1em; font-style: normal; margin-top: 1em;">
-    Note: Routes and distances reflect typical courses, which change based on trail conditions and the whims of the race director. Runners don't find out the exact route until the prerace briefing.
+    Note: Routes and distances reflect typical courses, which change based on trail conditions and the whims of the race directors. Runners don't find out the exact route until the prerace briefing.
   </blockquote>
 </div>
 

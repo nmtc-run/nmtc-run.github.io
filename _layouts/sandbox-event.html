@@ -111,10 +111,7 @@ layout: default
           {% if station.latLong %}
             <div class="series-location">
               <div><strong>GPS: </strong>
-                {{ station.latLong }}
-                &#91;
-                <a class="driving-directions" href="https://www.google.com/maps/dir/?api=1&destination={{ station.latLong }}" target="_blank"><img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">Driving directions</a>
-                &#93;
+                <a class="" href="https://www.google.com/maps/search/?api=1&query={{ station.latLong }}" target="_blank">{{ station.latLong }}<img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="" style="padding-left:0.4em"></a>
               </div>
             </div>
           {% endif %}

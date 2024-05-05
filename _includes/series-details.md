@@ -9,7 +9,7 @@ We believe everyone can find exactly as much competition as they’re looking fo
 
 We maintain overall series standings and award points to everyone based on the order they finish in each race. Find links to [race results and overall standings](#overall-standings) above. We update the overall standings each week. You can find results from prior years on our [race results](/results) page.
 
-Everyone who participates receives a prize—typically these are donated by local businesses. The emcee calls runners’ names in order of how they finished in the overall series, and each runner is invited to pick a prize when their name is called.
+ Everyone who runs or volunteers receives a prize at our end-of-series potluck. Prizes are donated by individuals and local businesses.
 
 # Registration
 
@@ -27,6 +27,12 @@ NMTC requires all runners to complete the waiver once per year. You are welcome 
 
 # Refreshments
 
-We supply water at the start/finish line of every race.
+We supply water at the start/finish line of every race, but you must bring your own cup.
 
-At the final race of each series, we hold a potluck. Bring a dish!
+At the final race of each series, we present awards and our end-of-series potluck. Bring a dish!
+
+# Volunteer opportunities
+
+Can't run? Volunteer instead! You'll get points for the race and keep yourself in the running for the [Ella Fennessey Award](/fennessey)!
+
+If you're interested, [contact us](/contact) in advance or show up between 5:30 and 6:00 pm on race day. We'll find a job for everyone!
