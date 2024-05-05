@@ -54,7 +54,7 @@ layout: default
   <iframe id="map-iframe" src="https://www.google.com/maps/d/u/0/embed?mid={{ page.map-id }}&ehbc=2E312F&noprof=1" width="100%" height="480"></iframe>
 </div>
 
-  <!-- Assign .active and get overall standings -->
+  {% comment %} Assign .active and get overall standings {% endcomment %}
   {% assign year_counter = 0 %}
   {% assign first_edition_year = false %}
   {% assign final_event_year = false %}
@@ -62,7 +62,7 @@ layout: default
 
   {% for event in series %}
 
-    <!-- if metadata, save a few variables and end forloop -->
+    {% comment %} if metadata, save a few variables and end forloop {% endcomment %}
     {% if event.metadata %}
       {% for overall-standings in event.metadata %}
         {% for standings in overall-standings %}
@@ -74,44 +74,44 @@ layout: default
       {% break %}
     {% endif %}
 
-    <!-- establish first event as .active and save name for later -->
+    {% comment %} establish first event as .active and save name for later {% endcomment %}
     {% if forloop.first == true %}
       {% assign active_event = event.name %}
       {% assign series_opener = event.name %}
     {% endif %}
 
-    <!-- check to see if we should even continue -->
+    {% comment %} check to see if we should even continue {% endcomment %}
     {% if event.results %}
 
-      <!-- if previous event has results uploaded,
-      <!-- set current event as .active -->
+      {% comment %} if previous event has results uploaded,
+                    set current event as .active {% endcomment %}
       {% if num_editions > 0 %}
         {% assign active_event = event.name %}
       {% endif %}
 
-      <!-- store final event for use at after looping -->
+      {% comment %} store final event for use at after looping {% endcomment %}
       {% assign series_final = event.name %}
 
-      <!-- establish first_year -->
+      {% comment %} establish first_year {% endcomment %}
       {% if forloop.first == true %}
         {% assign first_year = edition.year %}
         {% assign first_year_boolean = true %}
       {% endif %}
 
-      <!-- start looping through editions of the event -->
+      {% comment %} start looping through editions of the event {% endcomment %}
       {% assign num_editions = 0 %}
 
       {% for edition in event.results %}
 
         {% if edition.url %}
 
-          <!-- establish first_edition_year -->
+          {% comment %} establish first_edition_year {% endcomment %}
           {% if first_year_boolean == true or event.name == series_opener %}
             {% assign first_edition_year = edition.year %}
             {% assign first_year_boolean = false %}
           {% endif %}
 
-          <!-- if newer results have been uploaded... -->
+          {% comment %} if newer results have been uploaded... {% endcomment %}
 
           {% if edition.year >= year_counter %}
 
@@ -132,7 +132,7 @@ layout: default
 
   {% endfor %}
 
-<!-- if season is complete, set the first event as .active -->
+{% comment %} if season is complete, set the first event as .active {% endcomment %}
 {% if first_edition_year == latest_edition_year and latest_edition_name == series_final %}
   {% assign active_event = series_opener %}
 {% endif %}
@@ -171,10 +171,7 @@ layout: default
         {% if event.start-address and event.start-gps %}
           <div class="series-location">
             <div><strong>Start/finish: </strong>
-              {{ event.start-address }}
-              &#91;
-              <a class="driving-directions" href="https://www.google.com/maps/dir/?api=1&destination={{ event.start-gps }}" target="_blank"><img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">Driving directions</a>
-              &#93;
+              <a class="" href="https://www.google.com/maps/dir/?api=1&destination={{ event.start-gps }}" target="_blank">{{ event.start-gps }}<img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="" style="padding-left:0.4em"></a>
             </div>
           </div>
         {% endif %}
