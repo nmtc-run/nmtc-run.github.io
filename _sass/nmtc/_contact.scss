@@ -110,13 +110,13 @@
 }
 
 #errorMessage > div.error-headline {
-  background-color: red;
+  background-color: $brand-brown;
   font-weight: bold;
   color: #fff;
 }
 
 #errorMessage > div.error-message {
-  border: 4px solid red;
+  border: 4px solid $brand-brown;
   border-top: none;
   background-color: $background-color;
 }
@@ -124,7 +124,7 @@
 .captcha-wrapper {
   width: 100%;
   display: flex;
-  padding-bottom: 0.8em; 
+  padding-bottom: 0.8em;
 }
 
 .g-recaptcha {
