@@ -147,9 +147,9 @@ a.right-item:hover .right-headline {
 }
 
 .button.grey {
-  background-color: darken($background-color,40%);
+  background-color: darken($background-color,60%);
   &:hover {
-    background-color: darken($background-color,45%);
+    background-color: darken($background-color,65%);
   }
 }
 
