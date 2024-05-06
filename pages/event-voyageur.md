@@ -10,7 +10,7 @@ start-finish: Carlton High School, Carlton, MN
 ascent: 5,000 ft
 descent: 5,000 ft
 description: |-
-  Founded in 1982, the Minnesota Voyageur 50 Mile Trail Ultramarathon is one of the oldest trail ultras in the nation. The race follows a rugged, varied, out-and-back course that takes runners on a journey from Carlton, MN, through Jay Cooke State Park, and heads northeast over difficult, rough woodland trails to Duluth, MN—and back. Enjoy scenic overlooks of Lake Superior and cross the iconic Swinging Bridge over the St. Louis River. </br></br>Carlton High School hosts the start, finish, and race-day festivities. Weather for the Minnesota Voyageur can be extreme. There have been several years when it was hot and humid—including 2003 when it was brutally hot with 90 percent humidity. In other years it has been cool, in the mid-50’s, and wet. Plan for everything except snow—at least not so far!
+  Founded in 1982, the Minnesota Voyageur 50 Mile Trail Ultramarathon is one of the oldest trail ultras in the nation. The race follows a rugged, varied, out-and-back course that takes runners on a journey from Carlton, MN, through Jay Cooke State Park, and heads northeast over difficult, rough woodland trails to Duluth, MN—and back. Enjoy scenic overlooks of Lake Superior and cross the iconic Swinging Bridge over the dalles of the St. Louis River. </br></br>Carlton High School hosts the start, finish, and race-day festivities. Weather for the Minnesota Voyageur can be extreme. There have been several years when it was hot and humid—including 2003 when it was brutally hot with 90 percent humidity. In other years it has been cool, in the mid-50’s, and wet. Plan for everything except snow—at least not so far!
 map-id: 2059255
 strava-id: 3207869585823066736
 google-map-id: 1TlA-qHl5EEzqz_rmYOi4nJQqiz4dA-I
@@ -120,7 +120,7 @@ gpx-url: /assets/gpx/Voyageur-50.gpx
 
 ## Crew access:
 
-**<span class="nb">¡ ATTENTION !</span>** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
+**<span class="nb">¡ ATTENTION !</span>** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations due to limited parking. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
 
 ## Drop bags:
 
@@ -158,7 +158,7 @@ Runners receive awards as they finish.
 
 # Details
 
-**Trail markings:** Follow the hot orange pin flags, with “NMTC” on them. If you don’t see one in about 0.1 miles, you are off course! Turns are marked with a series of pin flags a short distance (feet) apart on the side to which you’ll be turning.
+**Trail markings:** Follow the hot orange pin flags with “NMTC” on them. If you don’t see one in about 0.1 miles, you are off course! Turns are marked with a series of pin flags a short distance (feet) apart on the side to which you’ll be turning.
 
 **Traffic warning:** Use care on bike paths and roads. Runners must yield to traffic when crossing roads! A race is just a run; a road crossing is life and death!  
 
