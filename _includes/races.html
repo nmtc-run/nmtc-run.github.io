@@ -6,7 +6,10 @@
         <div class="content">
           <div class="event-date-dist">{{ event.date }} • {{ event.distance }}</div>
           <div class="event-name">{{ event.name }}</div>
-          <div class="event-desc">{{ event.description | newline_to_br }}</div>
+          <div class="event-desc">
+            {{ event.description | newline_to_br }}
+          </div>
+
         </div>
       </div>
     </a>

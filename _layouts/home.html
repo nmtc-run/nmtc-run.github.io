@@ -44,36 +44,11 @@ layout: default
 
 {% endif %}
 
-<div class="home-events" id="events">
-  <div class="container">
-    {% for event in site.data.event-data %}
-      <div class="box">
-        <div class="box-image" style="background-image: url('{{ event.img }}')"></div>
-        <div class="box-content">
-            <div class="event-name">{{ event.name }}</div>
-            <div class="event-date">{{ event.date }}</div>
-            <div class="event-dist">{{ event.distance }}</div>
-            <div class="event-desc">{{ event.description | newline_to_br }}</div>
-            <div class="button-container">
-              <a href="{{ event.page }}">
-                <div class="button">Event details</div>
-              </a>
-            </div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</div>
+<div class="news-heading">Our races</div>
 
-<!-- <div class="facebook-feed" id="facebook-feed">
-  {% comment %}
-    {% include facebook-feed.html %}
-  {% endcomment %}
-</div> -->
+{% include races.html %}
 
-<div class="news-feed" id="news-feed">
-  {% include news-feed.html %}
-</div>
+{% include news-feed.html %}
 
 <script type="text/javascript">
   let slideIndex = 0;
