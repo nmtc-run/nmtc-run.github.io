@@ -1,7 +1,7 @@
 - name: Bear Creek
   date: 2024-05-01 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 4.5 mi
+  dist: 4.5
   sunset: "8:20 PM"
   time-to-dark: "2:20"
   min-pace: "30:50"
@@ -20,7 +20,7 @@
 - name: Point Pine
   date: 2024-05-08 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 4 mi
+  dist: 4
   sunset: "8:38 PM"
   time-to-dark: "2:38"
   min-pace: "37:30"
@@ -39,12 +39,12 @@
 - name: Spirit Mountain
   date: 2024-05-12 # use format: YYYY-MM-DD
   time: "10:00 AM"
-  dist: 10 mi
+  dist: 10
   sunset:
   time-to-dark:
   min-pace:
   start-address: 9525 W Skyline Pkwy, Duluth, MN 55810
-  start-gps: 46.71499843121714, -92.21483115846851 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  start-gps: 46.714998, -92.214831 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
   map-color: rgb(2,136,209)
   results:
     - year: 2023
@@ -59,7 +59,7 @@
 - name: Billings Drive
   date: 2024-05-15 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 4.5 mi
+  dist: 4.5
   sunset: "8:38 PM"
   time-to-dark: "2:38"
   min-pace: "36:20"
@@ -78,7 +78,7 @@
 - name: Woodland Run
   date: 2024-05-22 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 3.5 mi
+  dist: 3.5
   sunset: "8:49 PM"
   time-to-dark: "2:46"
   min-pace: "36:20"
@@ -97,7 +97,7 @@
 - name: Rain date
   date: 2024-05-29 # use format: YYYY-MM-DD
   time:
-  dist:
+  dist: 0
   sunset:
   time-to-dark:
   min-pace:
@@ -109,7 +109,7 @@
 - name: Chester Bowl
   date: 2024-06-05 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 3.6 mi
+  dist: 3.6
   sunset: "8:59 PM"
   time-to-dark: "2:59"
   min-pace: "48:34"

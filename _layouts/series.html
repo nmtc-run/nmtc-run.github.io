@@ -137,100 +137,94 @@ layout: default
   {% assign active_event = series_opener %}
 {% endif %}
 
-<div class="series-event-wrapper">
-  {% for event in series %}
-    {% if event.name %}
-      <div class="series-event click-map {% if active_event == event.name %}active{% endif %}" onclick="panToLocation({{ event.start-gps }},13)">
+<div class="aid-station-wrapper">
+  {% for station in series %}
+    {% if station.name %}
+      <div class="aid-station click-map {% if active_event == station.name %}active{% endif %}" onclick="panToLocation({{ station.start-gps }},13)">
         <div class="series-arrow-name">
-          <div class="series-arrow"></div>
-          {% if event.map-color %}
-            <div class="series-color" style="background-color: {{ event.map-color }}"></div>
+          {% assign fill = station.map-color %}
+          <div class="series-pin right">
+            {% include icon-map-right.html fill=fill %}
+          </div>
+          <div class="series-pin down">
+            {% include icon-map-down.html fill=fill %}
+          </div>
+          {% if station.dist %}
+            <div class="as-dist">{{ station.dist }} mi</div>
           {% endif %}
-          <div class="series-name">{{ event.name }}</div>
-          {% if event.dist %}
-            <div class="series-dist">{{ event.dist }}</div>
-          {% endif %}
-        </div>
-        <div class="series-spacer"></div>
-        <div class="series-date-time">
+          <div class="as-name">{{ station.name }}</div>
+          <div class="as-spacer"></div>
           {% comment %} if results are posted, set .posted {% endcomment %}
-          {% assign eventYear = event.date | date: "%Y" | plus: 0 %}
+          {% assign eventYear = station.date | date: "%Y" | plus: 0 %}
           {% assign displayResults = '' %}
-          {% for edition in event.results %}
+          {% for edition in station.results %}
             {% if edition.url %}
               {% if edition.year == eventYear %}
                 {% assign displayResults = 'display-results' %}
               {% endif %}
             {% endif %}
           {% endfor %}
-          <div class="series-spacer"></div>
-          <div class="series-date">{{ event.date | date: "%a %-d %b" }}</div>
-          <div class="series-dtSpacer"></div>
+          <div class="series-date">{{ station.date | date: "%a %-d %b" }}</div>
           <div class="results-icon {{ displayResults }}">Results</div>
-          <div class="series-time {{ displayResults }}">{{ event.time }}</div>
+          <div class="series-time {{ displayResults }}">{{ station.time }}</div>
         </div>
-      </div>
-      <div class="series-details">
-        <div class="series-hr"></div>
-        {% if event.sunset %}
-          <div class="series-sunset-pace">
-            <div><strong>Sunset: </strong>{{ event.sunset }}</div>
-            <div><strong>Time-to-dark: </strong>{{ event.time-to-dark }}</div>
-            <div><strong>Min pace: </strong>{{ event.min-pace }}</div>
+        <div class="as-details">
+          <div class="series-location series-date-time-details">
+            <div><strong>Date/time: </strong>{{ station.date | date: "%a %-d %b" }} {{ station.time }}</div>
           </div>
-        {% endif %}
-        {% if event.start-address and event.start-gps %}
-          <div class="series-location">
-            <div><strong>Start/finish: </strong>
-              <a class="" href="https://www.google.com/maps/dir/?api=1&destination={{ event.start-gps }}" target="_blank">{{ event.start-gps }}<img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="" style="padding-left:0.4em"></a>
+          {% if station.sunset %}
+            <div class="series-location">
+              <div><strong>Sunset: </strong>{{ station.sunset }}</div>
+              <div><strong>Time-to-dark: </strong>{{ station.time-to-dark }}</div>
+              <div><strong>Min pace: </strong>{{ station.min-pace }}</div>
             </div>
-          </div>
-        {% endif %}
+          {% endif %}
+          {% if station.start-gps %}
+            <div class="series-location">
+              <div><strong>Start/finish: </strong>
+                <a class="" href="https://www.google.com/maps/search/?api=1&query={{ station.start-gps }}" target="_blank">{{ station.start-gps }}<img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="" style="padding-left:0.4em"></a>
+              </div>
+            </div>
+          {% endif %}
 
-        {% assign hide_results = 'hide-results' %}
-        {% if event.results %}
-          {% for edition in event.results %}
-            {% if edition.url %}
-              {% assign hide_results = '' %}
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-
-        <div class="series-results {{ hide_results }}">
-          <div><strong>Results: </strong>
-            {% for edition in event.results %}
-              {%- if edition.url -%}<a href="{{ edition.url }}" style="padding-right: 0.25em">{{ edition.year }}</a>{%- endif -%}
+          {% assign hide_results = 'hide-results' %}
+          {% if station.results %}
+            {% for edition in station.results %}
+              {% if edition.url %}
+                {% assign hide_results = '' %}
+              {% endif %}
             {% endfor %}
+          {% endif %}
+          <div class="series-results {{ hide_results }}">
+            <div><strong>Results: </strong>
+              {% for edition in station.results %}
+                {%- if edition.url -%}<a href="{{ edition.url }}" style="padding-right: 0.25em">{{ edition.year }}</a>{%- endif -%}
+              {% endfor %}
+            </div>
           </div>
+
+          {% if station.parking %}
+            <div class="series-location">
+              <div><strong>Parking: </strong>
+                {{ station.parking }}
+              </div>
+            </div>
+          {% endif %}
+          {% if station.description %}
+            <div class="series-location">
+              <div><strong>Course description: </strong>
+                {{ station.description }}
+              </div>
+            </div>
+          {% endif %}
         </div>
-
-        {% if event.parking %}
-          <div class="series-description">
-            <div>
-              <strong>Parking: </strong>
-              {{ event.parking }}
-            </div>
-          </div>
-        {% endif %}
-
-        {% if event.description %}
-          <div class="series-description">
-            <div>
-              <strong>Course description: </strong>
-              {{ event.description }}
-            </div>
-          </div>
-        {% endif %}
-          <div class="series-padding"></div>
       </div>
     {% endif %}
   {% endfor %}
-  <blockquote style="font-size: 1em; font-style: normal; margin-top: 1em;">
-    Note: Routes and distances reflect typical courses, which change based on trail conditions and the whims of the race directors. Runners don't find out the exact route until the prerace briefing.
-  </blockquote>
 </div>
 
 <div class="event-content">
+  <p><span class="nb" style="font-weight:bold;">¡ NOTE !</span> Routes and distances displayed above reflect typical courses, which change based on trail conditions and the whims of the race directors. Runners don't find out the exact route until the prerace briefing — all part of the fun.</p>
   <h1 id="overall-standings">Overall standings</h1>
 </div>
 
@@ -278,7 +272,7 @@ layout: default
   // Dropdown functionality to view event details
   document.addEventListener('DOMContentLoaded', function() {
     // Get all series-event.click-map elements
-    var seriesEvents = document.querySelectorAll('.series-event.click-map');
+    var seriesEvents = document.querySelectorAll('.aid-station.click-map');
 
     // Add click event listener to each series-event.click-map element
     seriesEvents.forEach(function(event) {
