@@ -70,7 +70,15 @@ layout: default
     {% if station.name %}
       <div class="aid-station click-map {% if station.name contains "Start" %}active{% endif %}" onclick="panToLocation({{ station.latLong }},13)">
         <div class="series-arrow-name">
-          <div class="series-arrow light" style="background-color: {{ station.map-color }};"></div>
+          {% assign fill = station.map-color %}
+          <div class="series-pin right">
+            {% include icon-map-right.html fill=fill %}
+          </div>
+          <div class="series-pin down">
+            {% include icon-map-down.html fill=fill %}
+          </div>
+
+          <!-- <div class="series-arrow light" style="background-color: {{ station.map-color }};"></div> -->
           {% if station.total %}
             <div class="as-dist">{{ station.total }} mi</div>
           {% endif %}
@@ -86,8 +94,12 @@ layout: default
         <div class="as-details">
           <div class="series-location crew-access">
             <div>
-              <strong>Dist from prev aid: </strong>
+              <strong>Prev aid: </strong>
               {{ station.split }} mi
+            </div>
+            <div>
+              <strong>Next aid: </strong>
+              {{ station.next }} mi
             </div>
           </div>
           <div class="series-location crew-access">
@@ -95,16 +107,14 @@ layout: default
               <strong>Crew access: </strong>
               {% if station.crew-access %}Yes{% else %}No{% endif %}
             </div>
-          </div>
-          <div class="series-location drop-bags">
             <div>
               <strong>Drop bags: </strong>
               {% if station.drop-bags %}Yes{% else %}No{% endif %}
               {% if station.name contains "Start" %}
-                – deposit your bags here
+                – deposit bags here
               {% endif %}
               {% if station.name contains "Finish" %}
-                — we bring your bags back here
+                — collect bags here
               {% endif %}
             </div>
           </div>

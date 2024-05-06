@@ -1,28 +1,31 @@
 -   name: "Start: Zoo"
-    split: 0.0
     total: 0.0
+    split: 0.0
+    next: 7.3
     first-runner: "6:00 AM"
     cutoff: N/A
     crew-access: Yes
     drop-bags: Yes
-    map-color: rgb(15 157 88);
+    map-color: rgb(15,157,88)
     latLong: 46.72757, -92.19056
     parking: We encourage runners to take advantage of the bus from the finish line; however, there are spaces available in the Lake Superior Zoo lot. Runners are responsible for finding a way back to their vehicles.
 
 -   name: Becks Road
     split: 7.3
     total: 7.3
+    next: 3.3
     first-runner: "7:00 AM"
     cutoff: "8:45 AM"
     crew-access: Yes
     drop-bags: No
     map-color: rgb(194,24,91)
     latLong: 46.69069, -92.27712
-    parking: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    parking:
 
 -   name: Hwy 210 (water only)
     split: 3.3
     total: 10.6
+    next: 6.6
     first-runner: "7:30 AM"
     cutoff: N/A
     crew-access: No
@@ -33,6 +36,7 @@
 -   name: "Peterson's"
     split: 6.6
     total: 17.2
+    next: 6.2
     first-runner: "8:30 AM"
     cutoff: "12:30 PM"
     crew-access: No
@@ -43,13 +47,14 @@
 -   name: Jay Cooke
     split: 6.2
     total: 23.4
+    next: 3.5
     first-runner: "9:00 AM"
     cutoff: "2:40 PM"
     crew-access: Yes
     drop-bags: No
     map-color: rgb(249,168,37)
     latLong: 46.65380, -92.37318
-    parking: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    parking:
 
 -   name: "Finish: Munger Trailhead"
     split: 3.5

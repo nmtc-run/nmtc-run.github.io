@@ -209,6 +209,14 @@
   border-top: 1px solid $text-color;
 }
 
+.series-pin.right,
+.series-pin.down {
+  width: 1.2em;
+  height: 1.2em;
+  margin: 0 0.25em;
+  transform: translateY(-3px);
+}
+
 .series-arrow-name {
   display: flex;
   align-items: center;
@@ -222,6 +230,18 @@
   height: 1em;
   fill: $text-color;
   margin-right: 0.25em;
+}
+
+.aid-station.click-map.active .series-pin.right {
+  display: none;
+}
+
+.aid-station.click-map .series-pin.down {
+  display: none;
+}
+
+.aid-station.click-map.active .series-pin.down {
+  display: block;
 }
 
 .series-event.click-map.active .series-arrow {
