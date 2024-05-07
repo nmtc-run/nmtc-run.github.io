@@ -150,7 +150,7 @@ Runners receive awards as they finish.
 
 **Address:** Carlton High School 405 School Ave, Carlton, MN 55718
 
-**GPS:** [46.6651196,-92.4226923](https://goo.gl/maps/9W3JPx3k8jA2) &#91;<a class="driving-directions" href="https://www.google.com/maps/dir/?api=1&destination=46.6651196,-92.4226923" target="_blank"><img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">Driving directions</a>&#93;
+**GPS:** [46.6651196,-92.4226923](https://goo.gl/maps/9W3JPx3k8jA2) <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">
 
 **Parking at start/finish:** A good amount of parking is available in the lots behind and near the school. Some parking is also available on the streets surrounding the school.
 

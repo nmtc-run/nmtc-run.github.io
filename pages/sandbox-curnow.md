@@ -34,9 +34,9 @@ gpx-url: /assets/gpx/Curnow-Marathon.gpx
 
 ## Crew access:
 
-**<span class="nb">¡ ATTENTION !</span>** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
+**<span class="nb">¡ ATTENTION !</span>** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations due to limited parking. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
 
-## Drop bags
+## Drop bags: 
 
 * Note available drop bag locations on the [aid station](#aid-stations) chart.
 * Please keep your drop bags reasonable in size.
@@ -65,15 +65,15 @@ Runners receive awards as they finish.
 **Bus from finish area:** When you park at the finish, your car is ready and waiting when you finish! Park near the Munger Trailhead at Magnum Trucking and Ponderosa Sales in Carlton, MN. Buses depart at 4:45 AM and arrive in plenty of time for check-in and bib pickup.
 
 * *Finish Address:* 406 South Ave, Carlton, MN 55718
-* *GPS:* [46.6620848, -92.4205273](https://maps.app.goo.gl/dtaecq7rvTo44A5V6) &#91;<a class="driving-directions" href="https://www.google.com/maps/dir/?api=1&destination=46.6620848,-92.4205273" target="_blank"><img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">Driving directions</a>&#93;
+* *GPS:* [46.6620848, -92.4205273](https://maps.app.goo.gl/dtaecq7rvTo44A5V6) <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">
 
-**Parking at start:** Runners are encouraged to take advantage of the bus from the finish line; however, there are spaces available in the Lake Superior Zoo lot. Runners are responsible for finding a way back to their vehicles.
+**Parking at start:** Runners are encouraged to take advantage of the bus from the finish line; however, there are spaces available in the Fairmont Park gravel parking lot (adjacent to the Lake Superior Zoo). Runners are responsible for finding a way back to their vehicles.
 * *Start Address:* 7210 Fremont St, Duluth, MN 55807
-* *GPS:* [46.7264351, -92.1902315](https://maps.app.goo.gl/D8NzRvwSxxSKiKqY7) &#91;<a class="driving-directions" href="https://www.google.com/maps/dir/?api=1&destination=46.7264351,-92.1902315" target="_blank"><img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">Driving directions</a>&#93;
+* *GPS:* [46.7264351, -92.1902315](https://maps.app.goo.gl/D8NzRvwSxxSKiKqY7) <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">
 
 # Details
 
-**Trail markings:** Follow the hot orange pin flags, with “NMTC” on them. If you don’t see one in about 0.1 miles, you are off course! Turns are marked with a series of pin flags a short distance (feet) apart on the side to which you’ll be turning.
+**Trail markings:** Follow the hot orange pin flags with “NMTC” on them. If you don’t see one in about 0.1 miles, you are off course! Turns are marked with a series of pin flags a short distance (feet) apart on the side to which you’ll be turning.
 
 **Traffic warning:** Use care on bike paths and roads. Runners must yield to traffic when crossing roads! A race is just a run; a road crossing is life and death!  
 
