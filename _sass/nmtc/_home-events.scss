@@ -53,23 +53,23 @@
   display: inline-block;
   margin-top: 10px; /* Adjust spacing between paragraph and button */
   padding: 10px 20px;
-  background-color: $brand-color; /* Button background color */
+  background-color: $brand-green; /* Button background color */
   color: $background-color; /* Button text color */
   border: none;
   // border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid darken($brand-green,10%);
   font-size: 0.8em;
   text-transform: uppercase;
 
   & a {
-    color: $background-color;
+    color: $text-color;
     text-decoration: none;
   }
 
   &:hover {
-    background-color: darken($brand-color, 5%);
+    background-color: darken($brand-green, 5%);
   }
 }
 
