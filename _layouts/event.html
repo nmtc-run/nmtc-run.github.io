@@ -2,10 +2,12 @@
 layout: default
 ---
 
-{% if page.permalink == '/voyageur/' %}
-  {% assign event = site.data.event-data[2] %}
-{% else if page.permalink == '/curnow/' or page.permalink == '/sandbox/curnow/' %}
+{% if page.permalink == '/curnow/' or page.permalink == '/sandbox/curnow/' %}
   {% assign event = site.data.event-data[1] %}
+  {% assign aid_stations = site.data.as-curnow %}
+{% else if page.permalink == '/voyageur/' %}
+  {% assign event = site.data.event-data[2] %}
+  {% assign aid_stations = site.data.as-voyageur %}
 {% endif %}
 
 <div class="article-title"> {{ event.name }}</div>
@@ -52,16 +54,165 @@ layout: default
   </div>
 </div>
 
-<div class="strava-wrapper">
-  <div class="strava-embed-placeholder" data-embed-type="route" data-embed-id="{{ page.strava-id }}" data-units="imperial" data-full-width="true" data-style="standard" data-map-hash="10.46/46.6791/-92.3342" data-from-embed="false" style="min-height:680px;"></div><script src="https://strava-embeds.com/embed.js"></script>
+<div class="event-content">
+  <h1 id="elevation-profile">Course map</h1>
+  <img src="{{ page.elevation-profile }}" alt="" style="margin-bottom:1em;">
 </div>
 
-<!-- <div style="overflow:hidden;position:relative;margin-bottom:1em;">
-  <div style="position:relative;width:100%;padding-top:56.25%;overflow:visible;"/>
-    <iframe name="plotaroute_map_2059255" src="https://www.plotaroute.com/embedmap/{{ page.map-id }}?units=miles&hills=show" style="position:absolute;top:0;left:0;bottom:0;right:0;width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-  </div>
-</div> -->
+<div class="map-container" style="border:none;position:relative;">
+  <iframe id="map-iframe" src="https://www.google.com/maps/d/u/0/embed?mid={{ page.google-map-id }}&ehbc=2E312F&noprof=1" width="100%" height="480"></iframe>
+  <a style="width: 60px; height: 60px; position: absolute; bottom: 22px; right: 15px; background-color: #000; box-shadow: 0 2px 6px rgba(0, 0, 0, .3); border-radius: 2px; text-align: right; background-image: url(/assets/icons/sat-view.png); background-position: center; background-repeat: no-repeat; background-size: cover;" href="https://www.google.com/maps/d/u/2/edit?mid={{ page.google-sat-view }}&amp;usp=sharing" target="_blank">
+    <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="box-shadow: 0 2px 6px rgba(0, 0, 0, .3)">
+  </a>
+</div>
 
 <div class="event-content">
-    {{ content }}
+  <h1 id="aid-stations" style="margin-bottom: 0px;">Aid stations</h1>
+
+  <div class="aid-station-wrapper">
+  {% for station in aid_stations %}
+    {% if station.name %}
+      <div class="aid-station click-map {% if station.name contains "Start" %}active{% endif %}" onclick="panToLocation({{ station.latLong }},13)">
+        <div class="series-arrow-name">
+          {% assign fill = station.map-color %}
+          <div class="series-pin right">
+            {% include icon-map-right.html fill=fill %}
+          </div>
+          <div class="series-pin down">
+            {% include icon-map-down.html fill=fill %}
+          </div>
+
+          <!-- <div class="series-arrow light" style="background-color: {{ station.map-color }};"></div> -->
+          {% if station.total %}
+            <div class="as-dist">{{ station.total }} mi</div>
+          {% endif %}
+          <div class="as-name">{{ station.name }}</div>
+          <div class="as-spacer"></div>
+          <div class="as-crew-drop crew {{ station.crew-access}}">
+            Crew
+          </div>
+          <div class="as-crew-drop drop {{ station.drop-bags }}">
+            Bags
+          </div>
+        </div>
+        <div class="as-details">
+          <div class="series-location crew-access">
+            <div>
+              <strong>Prev aid: </strong>
+              {{ station.split }} mi
+            </div>
+            <div>
+              <strong>Next aid: </strong>
+              {{ station.next }} mi
+            </div>
+          </div>
+          <div class="series-location crew-access">
+            <div>
+              <strong>Crew access: </strong>
+              {% if station.crew-access %}Yes{% else %}No{% endif %}
+            </div>
+            <div>
+              <strong>Drop bags: </strong>
+              {% if station.drop-bags %}Yes{% else %}No{% endif %}
+              {% if station.name contains "Start" %}
+                – deposit bags here
+              {% endif %}
+              {% if station.name contains "Finish" %}
+                — collect bags here
+              {% endif %}
+            </div>
+          </div>
+          {% if station.latLong %}
+            <div class="series-location">
+              <div><strong>GPS: </strong>
+                <a class="" href="https://www.google.com/maps/search/?api=1&query={{ station.latLong }}" target="_blank">{{ station.latLong }}<img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="" style="padding-left:0.4em"></a>
+              </div>
+            </div>
+          {% endif %}
+          {% if station.parking %}
+            <div class="series-location">
+              <div><strong>Parking: </strong>
+                {{ station.parking }}
+              </div>
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+  </div>
+</div>
+
+<script type="text/javascript">
+  // Define an async function to load the Google Maps JavaScript API
+  async function loadGoogleMaps() {
+      // Import the Maps library using importLibrary function
+      const { Map } = await google.maps.importLibrary("maps");
+  }
+
+  // Call the loadGoogleMaps function to initialize the map
+  loadGoogleMaps().catch(error => {
+      console.error('Error loading Google Maps:', error);
+  });
+
+  // Define the panToLocation function
+  function panToLocation(latitude, longitude, zoom) {
+      console.log('Pan to:', latitude, longitude, 'Zoom:', zoom);
+
+      // Get the embedded map iframe
+      const mapIframe = document.getElementById("map-iframe");
+
+      // Extract the current map URL
+      let mapSrc = mapIframe.src;
+
+      // Construct the new map URL with latitude, longitude, and zoom level
+      const newMapSrc = mapSrc.includes('ll=') ? mapSrc.replace(/ll=[^&]+/, `ll=${latitude},${longitude}&z=${zoom}`) : `${mapSrc}&ll=${latitude},${longitude}&z=${zoom}`;
+
+      // Update the map iframe src with the new URL to pan the map
+      mapIframe.src = newMapSrc;
+  }
+
+  // Dropdown functionality to view event details
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get all series-event.click-map elements
+    var seriesEvents = document.querySelectorAll('.aid-station.click-map');
+
+    // Add click event listener to each series-event.click-map element
+    seriesEvents.forEach(function(event) {
+      event.addEventListener('click', function() {
+        if (this.classList.contains('active')) {
+          // If the clicked element is already active, remove the 'active' class
+          this.classList.remove('active');
+        } else {
+          // Remove "active" class from all series-event.click-map elements
+          seriesEvents.forEach(function(event) {
+            event.classList.remove('active');
+          });
+
+          // Add "active" class to the clicked series-event.click-map element
+          this.classList.add('active');
+        }
+      });
+    });
+  });
+</script>
+
+<div class="event-content">
+
+  <h2 id="course-data">Course data: </h2>
+  <p>We make course data available with the cautionary note that race courses are subject to change based on trail conditions and other factors. The race director will discuss changes, if any, at the prerace briefing.</p>
+  <div class="container" style="display:flex;padding-bottom:1em;">
+    <a href="{{ page.gpx-url }}" style="margin: 0 auto;" target="_blank">
+      <div class="button">GPX download</div>
+    </a>
+    <a href="https://www.plotaroute.com/route/{{ page.plotaroute-id }}" style="margin: 0 auto;" target="_blank">
+      <div class="button">Plotaroute course view</div>
+    </a>
+    <a href="https://docs.google.com/spreadsheets/d/{{ page.google-spreadsheet-id }}/edit?usp=sharing" style="margin: 0 auto;" target="_blank">
+      <div class="button">Aid station spreadsheet</div>
+    </a>
+  </div>
+
+  {{ content }}
+
 </div>
