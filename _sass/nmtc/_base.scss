@@ -116,10 +116,10 @@ h1, h2, h3 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $hyperlink-color;
 
   &:visited {
-    color: $brand-color;
+    color: $hyperlink-color;
   }
 
   &:hover {
