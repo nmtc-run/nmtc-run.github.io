@@ -15,7 +15,7 @@
       url:
     - year: 2025
       url:
-  description:
+  description: Begins near the lower parking lot in Lester Park accessed from Lester River Road. Lollipop course with two laps around ski loop B before returning to the start. Moderately technical and hilly ski trails with occasional loose rocks. Wide trails make passing easier. Playground at the start/finish for the kiddos.
 
 - name: Zapp's Loop
   date: 2024-09-04 # use format: YYYY-MM-DD
@@ -34,7 +34,7 @@
       url:
     - year: 2025
       url:
-  description:
+  description: Technical, hilly, single track loop course in the Fond du Lac neighborhood. Begins on the paved road next the the park/playground area on 131st street and ends at the trailhead just up the street. Combination of Superior Hiking Trail, Mission Creek Boulevard, and other singletrack. The route crosses Mission Creek twice. You may or may not get your feet wet depending on the water level. Beautiful forest with mushrooms and wildflowers.
 
 - name: Hartley
   date: 2024-09-11 # use format: YYYY-MM-DD
@@ -53,7 +53,7 @@
       url:
     - year: 2025
       url:
-  description:
+  description: Loop course beginning on Old Hartley Road and ending in front of the nature center. Moderately technical and moderately hilly multi use single track. Mixed forest with pines and the occasional wild flower. Begins and ends near the main parking lot.
 
 - name: Brown's Point
   date: 2024-09-18 # use format: YYYY-MM-DD
@@ -72,7 +72,7 @@
       url:
     - year: 2025
       url:
-  description:
+  description: Parking lot at the intersection of of 42nd St. and Billings Dr. A 5-mile out-and-back course on ski trails in the Superior Municipal Forest (Superior, WI). Steep rolling hills. Not technical, but the course is muddy/slippery in wet weather.
 
 - name: Rock Hill
   date: 2024-09-25 # use format: YYYY-MM-DD
@@ -91,7 +91,8 @@
       url:
     - year: 2025
       url:
-  description:
+  description: Two figure-eight loops on the ski trails in Bagley nature area adjacent to UMD. Begins and ends at the baseball field. Pretty wide and not technical, but there are some respectable hills. Boardwalks can be very slippery in wetter conditions. Beautiful pines and a pond with occasional ducks.
+
 
 - name: Pine Valley
   date: 2024-10-02 # use format: YYYY-MM-DD
@@ -110,7 +111,7 @@
       url:
     - year: 2025
       url:
-  description:
+  description: A quick 5K loop on the ski trails at Pine Valley ski area in Cloquet. Wide, grassy non-technical ski trail with rolling hills. This is our last Wednesday night race of the season. Slower runners may experience some dwindling light. (Subsequent races move to Sunday afternoons.)
 
 - name: Rolling Stone
   date: 2024-10-06 # use format: YYYY-MM-DD
@@ -129,7 +130,7 @@
       url:
     - year: 2025
       url:
-  description:
+  description: Loop course beginning and ending in the parking lot near the upper Chalet of Spirit Mountain. Combination of hilly, rocky access roads, double track and single track.
 
 - name: Bull Run
   date: 2024-10-13 # use format: YYYY-MM-DD
@@ -148,7 +149,7 @@
       url:
     - year: 2025
       url:
-  description:
+  description: All the way around the Spruce and Upper Lake Loop Trails on the far end of Jay Cooke State Park. Begins and ends at the trailhead off of HWY 23, past Chamber’s Grove. Very hilly, moderately technical ski trails with some wet spots in the lower areas. One of the longer and more difficult races in the series.
 
 - name: Rain date
   date: 2024-10-20 # use format: YYYY-MM-DD
@@ -179,7 +180,7 @@
       url:
     - year: 2025
       url:
-  description:
+  description: Loop course with a combination of gravel road, two-track, and singletrack. Moderate hills and not too technical. Much of the second half runs along a creek, and there may be a few wet spots. Begins and ends in parking lot off of East Skyline Blvd above Lester Park. Join us at the Lester-Amity Chalet immediately following the race for end of season potluck and prizes for all!
 
 - metadata:
    overall-standings:
