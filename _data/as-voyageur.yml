@@ -1,0 +1,119 @@
+-   name: "Start: Carlton High School"
+    total: 0.0
+    split: 0.0
+    next: 7.1
+    first-runner: "6:00 AM"
+    cutoff: N/A
+    crew-access: Yes
+    drop-bags: Yes
+    map-color: rgb(230,81,0)
+    latLong: 46.6651196,-92.4226923
+    parking: A good amount of parking is available in the lots behind and near the school. Some parking is also available on the streets surrounding the school.
+
+-   name: "Peterson's"
+    total: 7.1
+    split: 7.1
+    next: 6.6
+    first-runner: "6:50 AM"
+    cutoff: "N/A"
+    crew-access: No
+    drop-bags: Yes
+    map-color: rgb(103,58,183)
+    latLong: 46.67616, -92.33634
+    parking:
+
+-   name: "Hwy 210 (water only)"
+    total: 13.7
+    split: 6.6
+    next: 3.3
+    first-runner: "8:10 AM"
+    cutoff: "N/A"
+    crew-access: No
+    drop-bags: No
+    map-color: rgb(2,136,209)
+    latLong: 46.67367, -92.29232
+    parking:
+
+-   name: "Becks Road"
+    total: 17.0
+    split: 3.3
+    next: 7.1
+    first-runner: "8:10 AM"
+    cutoff: "10:45 AM"
+    crew-access: Yes
+    drop-bags: Yes
+    map-color: rgb(194,24,91)
+    latLong: 46.69069, -92.27712
+    parking:
+
+-   name: "Turnaround: Zoo"
+    total: 24.1
+    split: 7.1
+    next: 7.1
+    first-runner: "9:00 AM"
+    cutoff: "12:30 PM"
+    crew-access: Yes
+    drop-bags: Yes
+    map-color: rgb(15,157,88)
+    latLong: 46.72757, -92.19056
+    parking: Fairmont Park gravel parking lot (adjacent to the Lake Superior Zoo).
+
+-   name: "Becks Road"
+    total: 31.2
+    split: 7.1
+    next: 3.3
+    first-runner: "10:10 AM"
+    cutoff: "2:40 PM"
+    crew-access: Yes
+    drop-bags: Yes
+    map-color: rgb(194,24,91)
+    latLong: 46.69069, -92.27712
+    parking:
+
+-   name: "Hwy 210 (water only)"
+    total: 34.5
+    split: 3.3
+    next: 6.6
+    first-runner: "10:30 AM"
+    cutoff: "N/A"
+    crew-access: No
+    drop-bags: No
+    map-color: rgb(2,136,209)
+    latLong: 46.67367, -92.29232
+    parking:
+
+-   name: "Peterson's"
+    total: 41.1
+    split: 6.6
+    next: 5.4
+    first-runner: "11:30 AM"
+    cutoff: "5:30 PM"
+    crew-access: No
+    drop-bags: Yes
+    map-color: rgb(103,58,183)
+    latLong: 46.67616, -92.33634
+    parking:
+
+-   name: "Jay Cooke"
+    total: 46.5
+    split: 5.4
+    next: 3.5
+    first-runner: "12:00 PM"
+    cutoff: "7:00 PM"
+    crew-access: Yes
+    drop-bags: No
+    map-color: rgb(249,168,37)
+    latLong: 46.65380, -92.37318
+    parking:
+
+-   name: "Finish: Carlton High School"
+    split: 3.5
+    next: 0.0
+    total: 50.0
+    first-runner: "12:45 PM"
+    cutoff: "8:00 PM"
+    crew-access: No
+    drop-bags: Yes
+    map-color: rgb(230,81,0)
+    latLong: 46.6651196,-92.4226923
+    parking: ¡ USE CAUTION ! If possible, use 5th or 6th St to approach the start/finish area on Walnut Ave—4th St is the final sprint to the finish line for our runners. A good amount of parking is available in the lots behind and near the school. Some parking is also available on the streets surrounding the school.
