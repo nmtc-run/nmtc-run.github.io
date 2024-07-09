@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
+  {% assign first_logo = site.data.sandbox-logos[0].url %}
+
   {%- include head.html -%}
 
   <body>
@@ -12,7 +14,7 @@
         </div>
         <a href="/">
           <div class="logo">
-            <img id="logo" src="/assets/logos/nmtc-flag-blues.svg" alt="">
+            <img id="logo" src="{{ first_logo }}" alt="">
           </div>
         </a>
         <div class="logo-spacer right">
@@ -147,7 +149,7 @@
       </div>
       <div class="wrapper">
         <div class="checkered-background">
-          <img src="/assets/logos/nmtc-logo-mtn-brown.svg" id="big-logo" alt="">
+          <img src="{{ first_logo }}" id="big-logo" alt="">
         </div>
       </div>
     </main>

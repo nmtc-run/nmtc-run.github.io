@@ -1,3 +1,5 @@
+- name: Logos
+  page: /logos/
 - name: Race
   page: /races/
 - name: Volunteer
