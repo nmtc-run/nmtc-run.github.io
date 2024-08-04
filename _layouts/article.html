@@ -11,7 +11,7 @@ layout: default
 {% endif %}
 
 {% if page.img %}
-  <div class="event-hero" style="background-image:url({{ page.img }}); margin-bottom: 1em;">
+  <div class="event-hero" style="background-image:url({{ page.img }}); {% unless page.caption %} margin-bottom: 1em; {% endunless %}">
     <div class="spacer"></div>
     <div class="spacer"></div>
     <div class="spacer"></div>
@@ -32,9 +32,12 @@ layout: default
       {% endif %}
     </div>
   </div>
+  {% if page.caption %}
+    <p class="event-hero-caption"><em>{{ page.caption }}</em></p>
+  {% endif %}
 {% endif %}
 
-<div class="event-content">
+<div class="event-content article">
   {{ content }}
 </div>
 

@@ -1,0 +1,18 @@
+{% assign legends = site.pages | where_exp: 'page', 'page.permalink contains "legends/"' %}
+
+<div class="events-list">
+  {% for legend in legends %}
+    <a href="{{ legend.permalink }}">
+      <div class="event">
+        <div class="photo" style="background-image: url( {{ legend.img }} )"></div>
+        <div class="content">
+          <div class="event-name">{{ legend.title }}</div>
+          <div class="event-desc">
+            {{ legend.preview | newline_to_br }}
+          </div>
+
+        </div>
+      </div>
+    </a>
+  {% endfor %}
+</div>

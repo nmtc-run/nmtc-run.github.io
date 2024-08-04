@@ -27,3 +27,4 @@ The NMTC is organized and managed by a committee of individuals who love the spo
 * Lane Johnson
 * Nate Hubert
 * Matt Livingston
+* Mark Grindy

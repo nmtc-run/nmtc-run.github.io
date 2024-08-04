@@ -2,8 +2,8 @@
 layout: event
 title: Minnesota Voyageur Trail Ultramarathon
 permalink: /voyageur/
-button-text: Register
-button-url: /voyageur/#register
+button-text: Registration / Results
+button-url: /voyageur/#register-results
 button-external-link: false
 button-down-arrow: true
 start-finish: Carlton High School, Carlton, MN
@@ -20,99 +20,7 @@ gpx-url: /assets/gpx/Voyageur-50.gpx
 elevation-profile: /assets/gpx/voyageur-elevation-2024.svg
 ---
 
-# Aid stations
-
-<div class="table-container">
-<table class="table table-bordered table-hover table-condensed">
-<thead><tr><th title="Field #1">Station Name</th>
-<th title="Field #2">Split | Total</th>
-<th title="Field #3">1st Runner</th>
-<th title="Field #4">Cut-Off</th>
-<th title="Field #5">Crew Access</th>
-<th title="Field #6">Drop Bags</th>
-</tr></thead>
-<tbody><tr>
-<td>Jay Cooke (return trip only)</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>No</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Peterson&#39;s</td>
-<td>7.1 | 7.1</td>
-<td>6:50 AM</td>
-<td>N/A</td>
-<td>No</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Hwy 210 (water only)</td>
-<td>6.6 | 13.7</td>
-<td>7:40 AM</td>
-<td>N/A</td>
-<td>No</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Becks Road</td>
-<td>3.3 | 17.0</td>
-<td>8:10 AM</td>
-<td>10:45 AM</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Zoo - Turnaround</td>
-<td>7.1 | 24.1</td>
-<td>9:00 AM</td>
-<td>12:30 PM</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Becks Road</td>
-<td>7.1 | 31.2</td>
-<td>10:10 AM</td>
-<td>2:40 PM</td>
-<td>Yes</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Hwy 210 (water only)</td>
-<td>3.3 | 34.5</td>
-<td>10:30 AM</td>
-<td>N/A</td>
-<td>No</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Peterson&#39;s</td>
-<td>6.6 | 41.1</td>
-<td>11:30 AM</td>
-<td>5:30 PM</td>
-<td>No</td>
-<td>Yes</td>
-</tr>
-<tr>
-<td>Jay Cooke</td>
-<td>5.4 | 46.5</td>
-<td>12:00 PM</td>
-<td>7:00 PM</td>
-<td>Yes</td>
-<td>No</td>
-</tr>
-<tr>
-<td>Finish/Carlton HS</td>
-<td>3.5 | 50.0</td>
-<td>12:45 PM</td>
-<td>8:00 PM</td>
-<td>N/A</td>
-<td>N/A</td>
-</tr>
-</tbody></table>
-</div>
+# Runner support
 
 ## Aid station items:
 * Drinks include water, electrolyte drink, and various sodas.
@@ -160,7 +68,7 @@ Runners receive awards as they finish.
 
 # Details
 
-**Trail markings:** Follow the hot orange pin flags with “NMTC” on them. If you don’t see one in about 0.1 miles, you are off course! Turns are marked with a series of pin flags a short distance (feet) apart on the side to which you’ll be turning.
+**Trail markings:** Follow the hot orange pin flags with “NMTC” on them. If you don’t see one in about 0.1 miles, you are off course! Turns are marked with a series of pin flags a few feet apart on the side to which you’ll be turning—for example, a right-hand turn marked with three pin flags on the runner's right hand side. For more, see [course marking](/course-marking).
 
 **Traffic warning:** Use care on bike paths and roads. Runners must yield to traffic when crossing roads! A race is just a run; a road crossing is life and death!  
 
@@ -170,7 +78,7 @@ Runners receive awards as they finish.
 
 **Cutoffs:** Voyageur aid stations enforce cutoffs (with the exception of the water-only Hwy 210 aid station, which is uncrewed). Please see the [aid station chart](#aid-stations-crew-access-and-drop-bags) for specific cutoff times. Runners must reach the finish in 14 hours, by 8:00 PM.
 
-**Results:** Results are posted on [Ultrasignup](https://ultrasignup.com/register.aspx?did=114070) and [MTEC](https://www.mtecresults.com/event/show/4974/).
+**Results:** Results are posted on [Ultrasignup](https://ultrasignup.com/register.aspx?did=114070){:target="_blank" rel="noopener noreferrer"} and [MTEC](https://www.mtecresults.com/event/show/4974/){:target="_blank" rel="noopener noreferrer"}.
 
 **Photos:** Photos are often uploaded to the [Voyageur Facebook page](https://www.facebook.com/minnesotavoyageur).
 
@@ -178,17 +86,20 @@ Runners receive awards as they finish.
 
 **Area events:** Coinciding with Voyageur race weekend, the city of Carlton, MN will be putting on their annual [Carlton Daze](https://carltonchamber.com/carlton-daze/) festivities, including a 5k Run/Walk, kids fun races, a spaghetti feed, and much more. Organizers really appreciate support on Friday evening, when volunteer help is always appreciated.
 
-# Race Rules
+# Race rules
 
 Please review the Minnesota Voyageur Trail Ultramarathon race rules at [nmtc.run/rules](/rules).
 
-# Register
+# Register or view results
 
 Registration via Ultrasignup typically opens in March. In addition to the info on this page, runners should review the [race rules](/rules), and the [registration and refund policies](/registration) before registering.
 
+<a id="register-results"></a>
 <div class="container" style="display:flex;padding-bottom:1em;">
   <a href="https://ultrasignup.com/register.aspx?did=114070" style="margin: 0 auto;" target="blank">
-    <div class="button">Register on Ultrasignup</div>
+    <div class="button">
+      Ultrasignup <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;">
+    </div>
   </a>
 </div>
 

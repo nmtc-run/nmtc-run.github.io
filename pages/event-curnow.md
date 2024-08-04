@@ -2,8 +2,8 @@
 layout: event
 title: Eugene Curnow Trail Marathon
 permalink: /curnow/
-button-text: Register
-button-url: /curnow/#register
+button-text: Registration / Results
+button-url: /curnow/#register-results
 button-external-link: false
 button-down-arrow: true
 start-finish: false
@@ -75,7 +75,7 @@ Runners receive awards as they finish.
 
 # Details
 
-**Trail markings:** Follow the hot orange pin flags with “NMTC” on them. If you don’t see one in about 0.1 miles, you are off course! Turns are marked with a series of pin flags a short distance (feet) apart on the side to which you’ll be turning.
+**Trail markings:** Follow the hot orange pin flags with “NMTC” on them. If you don’t see one in about 0.1 miles, you are off course! Turns are marked with a series of pin flags a few feet apart on the side to which you’ll be turning—for example, a right-hand turn marked with three pin flags on the runner's right hand side. For more, see [course marking](/course-marking).
 
 **Traffic warning:** Use care on bike paths and roads. Runners must yield to traffic when crossing roads! A race is just a run; a road crossing is life and death!  
 
@@ -85,24 +85,25 @@ Runners receive awards as they finish.
 
 **Cutoffs:** Curnow aid stations enforce cutoffs (with the exception of the water-only Hwy 210 aid station, which is uncrewed). Please see the [aid station chart](#aid-stations) for specific cutoff times. Runners must reach the finish in 10 hours, by 4:00 PM.
 
-**Results:** Results are posted on [Ultrasignup](https://ultrasignup.com/results_event.aspx?did=101010) and [MTEC](https://www.mtecresults.com/race/leaderboard/15693).
+**Results:** Results are posted on [Ultrasignup](https://ultrasignup.com/results_event.aspx?did=101010){:target="_blank" rel="noopener noreferrer"} and [MTEC](https://www.mtecresults.com/race/leaderboard/15693){:target="_blank" rel="noopener noreferrer"}.
 
 **Photos:** Photos are often uploaded to the [Curnow Facebook page](https://www.facebook.com/minnesotavoyageur).
 
 **Awards:** Top 10 men and women receive a pottery mug; all finishers receive a medal.
 
-# Race Rules
+# Race rules
 
 Please review the Eugene Curnow Trail Marathon race rules at [nmtc.run/rules](/rules).
 
-# Register
+# Register or view results
 
 Registration via Ultrasignup typically opens in March. In addition to the info on this page, runners should review the [race rules](/rules), and the [registration and refund policies](/registration).
 
+<a id="register-results"></a>
 <div class="container" style="display:flex;padding-bottom:1em;">
   <a href="https://ultrasignup.com/register.aspx?did=114069" style="margin: 0 auto;" target="blank">
     <div class="button">
-      Register on Ultrasignup<img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;">
+      Ultrasignup <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;">
     </div>
   </a>
 </div>
