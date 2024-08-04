@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Ella Fennessey
-subtitle: <a href="/legends/">Legend of NMTC</a>
+subtitle: <a href="/legends">Legend of NMTC</a>
 permalink: /legends/ella
 img: /img/legends/ella-bio.jpeg
 caption: Ella Fennessey (far right) was famous for running away whenever someone pointed a camera in her direction. Here, she is captured on vacation with (from left) Eugene Curnow, Don Fennessey, and Barb Curnow.

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Eugene "Gene" Curnow
-subtitle: <a href="/legends/">Legend of NMTC</a>
+subtitle: <a href="/legends">Legend of NMTC</a>
 permalink: /legends/gene
 img: /img/legends/gene-bio.jpeg
 caption: Eugene Curnow climbs a steep section of the Minnesota Voyageur Trail Ultramarathon in 1991. It's one of the few known photos of Gene in which he is not chatting with a fellow runner.

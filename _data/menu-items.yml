@@ -40,7 +40,7 @@
     - name: Fennessey Award
       page: /fennessey-award/
     - name: NMTC Legends
-      page: /legends/
+      page: /legends
     - name: <img src="/assets/icons/social/Facebook.svg" style="height:1em;"> Spring/Fall Series
       page: https://www.facebook.com/runnmtc/
       external: true
