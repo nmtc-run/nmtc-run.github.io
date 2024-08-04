@@ -23,6 +23,8 @@
       page: /results/
     - name: Photos
       page: /photos/
+    - name: (Logos)
+      page: /logos/
   - submenu:
     - heading: Boring Stuff
     - name: Registration Policies
@@ -44,10 +46,4 @@
       external: true
     - name: <img src="/assets/icons/social/Facebook.svg" style="height:1em;"> Curnow/Voyageur
       page: https://www.facebook.com/minnesotavoyageur
-      external: true 
-  - submenu:
-    - heading: Temp
-    - name: Logos
-      page: /logos/
-    - name: test
-      page: /test/
+      external: true
