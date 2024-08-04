@@ -21,7 +21,7 @@ We rely on all our volunteers to provide a successful event:
 
 * If you're volunteering as part of your job, education, or race requirement, we're happy to complete any necessary paperwork to verify your time commitment.
 
-* When you participate in every NMTC event in a calendar year—whether by running or volunteering—you qualify for the coveted [Ella Fennessey Award](/fennessey).
+* When you participate in every NMTC event in a calendar year—whether by running or volunteering—you qualify for the coveted [Ella Fennessey Award](/fennessey-award).
 
 Time commitments vary and many important tasks are appropriate for all ages. That makes volunteering a great way to introduce friends and family to the world of trail running. We promise you will have an absolute blast supporting racers, meeting new people, and giving back to the trail running community. That's a guarantee—or your money back!
 
@@ -50,7 +50,7 @@ Opportunities include:
 
 # Spring & Fall Series
 
-Although we rarely require extra hands to present Spring & Fall Series races, by all means [contact us](/contact) if interested. Other excellent ways to participate include cheering runners on, sharing photos on social media, and bringing a dish to the series-finale potluck.  
+When you volunteer for Spring and Fall Series races, you earn points toward the overall standings and stay eligible for the Ella Fennessey Award. Whenever you're not running, just [contact us](/contact) in advance or show up between 5:30 and 6:00 pm on race day. We’ll find a job for everyone!  
 
 # Volunteering FAQ
 
