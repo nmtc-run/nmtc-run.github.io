@@ -1,7 +1,5 @@
-- name: Logos
-  page: /logos/
 - name: Race
-  page: /races/
+  page: /race/
 - name: Volunteer
   page: /volunteer/
 - name: Donate
@@ -20,7 +18,7 @@
   - submenu:
     - heading: Fun Stuff
     - name: Our Races
-      page: /races/
+      page: /race/
     - name: Race Results
       page: /results/
     - name: Photos
@@ -38,9 +36,18 @@
   - submenu:
     - heading: Community
     - name: Fennessey Award
-      page: /fennessey/
+      page: /fennessey-award/
     - name: NMTC Legends
-      page: /gene/
-    - name: Facebook
+      page: /legends/
+    - name: <img src="/assets/icons/social/Facebook.svg" style="height:1em;"> Spring/Fall Series
       page: https://www.facebook.com/runnmtc/
       external: true
+    - name: <img src="/assets/icons/social/Facebook.svg" style="height:1em;"> Curnow/Voyageur
+      page: https://www.facebook.com/minnesotavoyageur
+      external: true 
+  - submenu:
+    - heading: Temp
+    - name: Logos
+      page: /logos/
+    - name: test
+      page: /test/

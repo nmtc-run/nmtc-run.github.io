@@ -58,7 +58,7 @@
                     <li class="submenu-heading">{{ submenu.heading }}</li>
                   {% else if submenu.name %}
                     {% if  submenu.external %}
-                      <li><a href="{{ submenu.page }}" target="_blank">{{ submenu.name }}<img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="" style="padding-left: 0.25em;"></a></li>
+                      <li><a href="{{ submenu.page }}" target="_blank">{{ submenu.name }}</a></li>
                     {% else %}
                       <li> <a href="{{ submenu.page }}">{{ submenu.name }}</a></li>
                     {% endif %}
