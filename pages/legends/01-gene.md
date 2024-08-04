@@ -56,6 +56,9 @@ Each July, hundreds of runners, supporters, and volunteers come together to cele
 
 **Barb:** Gene’s first Voyageur was 1987. My youngest [Gene, Jr.] and I drove out to see what it was all about. The next year, he dragged my oldest [Billy] into it. I went out and crewed that one, mainly because he had Billy with him. The next year, I captained a Voyageur aid station. The next year, I captained the aid station with Young Gene’s future wife and her two parents, while the boys ran. By then, Gene was running Ed Fitz, too; before long, I was in charge of the aid stations for Ed Fitz, then Voyageur aid stations, and eventually I was directing the race itself.
 
+![Minnesota Voyageur packet pickup](/img/legends/g-steve-barb-barb.jpeg "Minnesota Voyageur packet pickup")
+*Packet pickup at the 1991 edition of the Minnesota Voyageur, featuring Steve, Barb Curnow, and Barb's daughter Barb Curnow.*
+
 **Q. Seems like Gene had a way of convincing other people to get involved.**
 
 **Barb:** Eugene was either running or volunteering. If he was running, he dragged me along, and I was volunteering. I used to work the midnight shift at St. Luke’s, and he’d pick me up in the mornings on the weekends, and push me out, and walk whatever race he was running. Fortunately, by the time I woke up I was done.
@@ -63,5 +66,6 @@ Each July, hundreds of runners, supporters, and volunteers come together to cele
 **Haley Bengston:** At the NMTC races, he was always picking up when someone looked at all confused. He’d strike up a conversation: “Hey, how are you doing? Have you done this before? How fast are you?” Always making people feel welcome. It's just who he was.
 
 <div style="text-align:center;font-style:italic;">* * *<br>
+  <p>Read more about the Curnow family: <a href="https://www.duluthnewstribune.com/obituaries/eugene-r-curnow" target="_blank">Gene's obituary</a></p>
   <p>Read more: <a href="/legends">Legends of NMTC</a></p>
 </div>
