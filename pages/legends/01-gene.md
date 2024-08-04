@@ -5,7 +5,7 @@ subtitle: <a href="/legends">Legend of NMTC</a>
 permalink: /legends/gene
 img: /img/legends/gene-bio.jpeg
 caption: Eugene Curnow climbs a steep section of the Minnesota Voyageur Trail Ultramarathon in 1991. It's one of the few known photos of Gene in which he is not chatting with a fellow runner.
-preview: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+preview: Gene dubbed it the Half Voyageur, but the Eugene Curnow Trail Marathon now bears the name of its charismatic founder. He created it so more people—especially Voyageur volunteers—could enjoy the race course he loved.  
 ---
 
 Each July, hundreds of runners, supporters, and volunteers come together to celebrate the latest edition of the [Eugene Curnow Trail Marathon](/curnow). Originally called the Half Voyageur, the race now bears the name of its charismatic founder. Gene was often first to identify new faces at trail races and always went out of his way to make everyone feel welcome. He died in 2013 at age 68, just 28 years into his running career. Gene’s wife and former Voyageur race director Barb Curnow, granddaughter Haley Bengston, and several friends shared some of the stories that made Gene a legendary figure in trail running.
