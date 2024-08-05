@@ -4,7 +4,7 @@
   description: >- # ignore newlines
     Six short-distance races on a mix of surfaces—from creekside paths to gravel roads to sandy stretches along Lake Superior. Races are held across the Twin Ports—most on Wednesday evenings and one on a Sunday morning.
   page: /spring-series/
-  img: /img/series-start.jpeg
+  img: /img/bc-kids.jpeg
   slug: Spring Series
 
 - name: Eugene Curnow Trail Marathon
@@ -13,7 +13,7 @@
   description: >- # ignore newlines
     Originally known as the Half-Voyageur, this challenging point-to-point course over rough woodland trails offers scenic overlooks of Duluth, Lake Superior, and the St. Louis River.
   page: /curnow/
-  img: /img/jarrows-beach.jpeg
+  img: /img/curnow.jpeg
   slug: Curnow Marathon
 
 - name: Minnesota Voyageur Trail Ultramarathon
@@ -31,5 +31,5 @@
   description: >- # ignore newlines
     Nine short-distance races over rugged woodland singletrack, held across the Twin Ports starting on Wednesday evenings before switching to Sunday afternoons to maintain daylight.
   page: /fall-series/
-  img: /img/series-wide.png
+  img: /img/lift-bridge.jpeg
   slug: Fall Series

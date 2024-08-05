@@ -1,11 +1,11 @@
 ---
-layout: page
+layout: article
 title: Race Photos
 permalink: /photos/
 ---
 
-## Comments: 
+# Minnesota Voyageur Trail Ultramarathon
 
-Mark: "Not sure we want to do a photos page. Worst case, it could link to the Facebook page(s)?"
+# Eugene Curnow Trail Marathon
 
-Lane: "Links to available photo albums listed by year and event could work well."
+# Spring & Fall Series

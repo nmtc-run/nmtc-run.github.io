@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Eugene "Gene" Curnow
-subtitle: <a href="/legends">Legend of NMTC</a>
+subtitle: <a href="/legends">NMTC Legend</a>
 permalink: /legends/gene
 img: /img/legends/gene-bio.jpeg
 caption: Eugene Curnow climbs a steep section of the Minnesota Voyageur Trail Ultramarathon in 1991. It's one of the few known photos of Gene in which he is not chatting with a fellow runner.
@@ -57,7 +57,7 @@ Each July, hundreds of runners, supporters, and volunteers come together to cele
 **Barb:** Gene’s first Voyageur was 1987. My youngest [Gene, Jr.] and I drove out to see what it was all about. The next year, he dragged my oldest [Billy] into it. I went out and crewed that one, mainly because he had Billy with him. The next year, I captained a Voyageur aid station. The next year, I captained the aid station with Young Gene’s future wife and her two parents, while the boys ran. By then, Gene was running Ed Fitz, too; before long, I was in charge of the aid stations for Ed Fitz, then Voyageur aid stations, and eventually I was directing the race itself.
 
 ![Minnesota Voyageur packet pickup](/img/legends/g-steve-barb-barb.jpeg "Minnesota Voyageur packet pickup")
-*Packet pickup at the 1991 edition of the Minnesota Voyageur, featuring Steve, Barb Curnow, and Barb's daughter Barb Curnow.*
+*Packet pickup at the 1991 edition of the Minnesota Voyageur, featuring son-in-law Steve Bengtson, Barb Curnow, and daughter Barb Bengtson.*
 
 **Q. Seems like Gene had a way of convincing other people to get involved.**
 
