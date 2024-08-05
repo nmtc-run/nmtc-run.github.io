@@ -198,7 +198,7 @@ layout: default
           <div class="series-results {{ hide_results }}">
             <div><strong>Results: </strong>
               {% for edition in station.results %}
-                {%- if edition.url -%}<a href="{{ edition.url }}" style="padding-right: 0.25em">{{ edition.year }}</a>{%- endif -%}
+                {%- if edition.url -%}<a href="{{ edition.url }}" target="_blank" style="padding-right: 0.25em">{{ edition.year }}</a>{%- endif -%}
               {% endfor %}
             </div>
           </div>
