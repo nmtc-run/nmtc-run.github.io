@@ -1,7 +1,7 @@
 ---
 layout: article
 title: NMTC Races
-img: /img/series-start.jpeg
+img: /img/voyageur-start.jpeg
 permalink: /race/
 include-races: true
 ---
