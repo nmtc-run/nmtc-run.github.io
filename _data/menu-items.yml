@@ -23,7 +23,7 @@
       page: /results/
     - name: Photos
       page: /photos/
-    - name: (Logos)
+    - name: Logos
       page: /logos/
   - submenu:
     - heading: Boring Stuff
