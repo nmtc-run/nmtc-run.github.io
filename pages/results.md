@@ -6,7 +6,7 @@ permalink: /results/
 
 # Minnesota Voyageur Trail Ultramarathon
 
-See annual results on [Ultrasignup](https://ultrasignup.com/register.aspx?did=114070){:target="_blank"}. More data: 
+See annual results on [Ultrasignup](https://ultrasignup.com/register.aspx?did=114070){:target="_blank"} or [Mtec](https://www.mtecresults.com/race/historical/7105/){:target="_blank"}. More data:
 
 * [Winners By Year (Course Records Indicated)](/results/Voyageur/Voyageur 50 Mile - Winners By Year.pdf){:target="_blank"}
 * [Top 25 Times – Male](/results/Voyageur/Voyageur 50 Mile - Top 25 Times - Male.pdf){:target="_blank"}
@@ -15,7 +15,7 @@ See annual results on [Ultrasignup](https://ultrasignup.com/register.aspx?did=11
 
 # Eugene Curnow Trail Marathon
 
-See annual results on [Ultrasignup](https://ultrasignup.com/register.aspx?did=114069){:target="_blank"}. More data:
+See annual results on [Ultrasignup](https://ultrasignup.com/register.aspx?did=114069){:target="_blank"} or [Mtec](https://www.mtecresults.com/race/historical/6969/){:target="_blank"}. More data:
 
 * [Winners By Year (Course Records Indicated)](/results/Curnow/E Curnow Marathon - Winners By Year.pdf){:target="_blank"}
 * [Top 25 Times – Male](/results/Curnow/E Curnow Marathon - Top 25 Times - Male.pdf){:target="_blank"}
