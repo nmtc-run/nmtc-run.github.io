@@ -1,15 +1,27 @@
 ---
-layout: page
+layout: article
 title: Race Results
 permalink: /results/
 ---
-To-do:
-* add voyageur
-* add curnow
-* track down spring & fall series historical standings
 
-This page could potentially include a lot of stuff:
-* list the course records (asterisk / explain course changes over the years)
-* include links to prior spring/fall final standings PDFs
-* link to ultrasignup for curnow/voyageur results
-* etc. 
+# Minnesota Voyageur Trail Ultramarathon
+
+See annual results on [Ultrasignup](https://ultrasignup.com/register.aspx?did=114070){:target="_blank"}. More data: 
+
+* [Winners By Year (Course Records Indicated)](/results/Voyageur/Voyageur 50 Mile - Winners By Year.pdf){:target="_blank"}
+* [Top 25 Times – Male](/results/Voyageur/Voyageur 50 Mile - Top 25 Times - Male.pdf){:target="_blank"}
+* [Top 25 Times – Female](/results/Voyageur/Voyageur 50 Mile - Top 25 Times - Female.pdf){:target="_blank"}
+* [Finishes By Entrant (sorted by # of finishes)](/results/Voyageur/Voyageur 50 Mile - Finishes By Entrant.pdf){:target="_blank"}
+
+# Eugene Curnow Trail Marathon
+
+See annual results on [Ultrasignup](https://ultrasignup.com/register.aspx?did=114069){:target="_blank"}. More data:
+
+* [Winners By Year (Course Records Indicated)](/results/Curnow/E Curnow Marathon - Winners By Year.pdf){:target="_blank"}
+* [Top 25 Times – Male](/results/Curnow/E Curnow Marathon - Top 25 Times - Male.pdf){:target="_blank"}
+* [Top 25 Times – Female](/results/Curnow/E Curnow Marathon - Top 25 Times - Female.pdf){:target="_blank"}
+* [Finishes By Entrant (sorted by # of finishes)](/results/Curnow/E Curnow Marathon - Finishes By Entrant.pdf){:target="_blank"}
+
+# Spring & Fall Series
+
+To view historical results for each series event, click into the "schedule and results" section for each race: [Spring Series](/spring-series) or [Fall Series](/fall-series).

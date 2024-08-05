@@ -19,7 +19,7 @@
     - heading: Fun Stuff
     - name: Our Races
       page: /race/
-    - name: Race Results
+    - name: Results
       page: /results/
     - name: Photos
       page: /photos/
