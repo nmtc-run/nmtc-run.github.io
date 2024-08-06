@@ -23,16 +23,12 @@
       page: /results/
     - name: Photos
       page: /photos/
-    - name: Logos
-      page: /logos/
   - submenu:
     - heading: Boring Stuff
     - name: Registration Policies
       page: /registration/
     - name: Race Rules
       page: /rules/
-    - name: Trail Running Etiquette
-      page: /etiquette/
     - name: Waiver Form
       page: /waiver/
   - submenu:
