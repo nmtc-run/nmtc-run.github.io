@@ -16,4 +16,4 @@ Entry fees are non-transferable between individuals or to future races.
 
 We wish our events to be places where all runners are able to compete as who they are. We will accept each runner’s declared gender at face value and no additional supporting evidence is required. We are also introducing a third gender category, with place awards, for those who are a non-binary gender.
 
-While UltraSignup does not yet have this capacity, after registering for Curnow or Voyageur you may email the race director to let us know you wish to enter as a non-binary runner and the results on our websites will reflect who you are. Please direct any questions to the race director at nmtc.samantha@gmail.com.
+While UltraSignup does not yet have this capacity, after registering for Curnow or Voyageur you may email the race director to let us know you wish to enter as a non-binary runner and the results on our websites will reflect who you are. If you have any questions, please [contact](/contact) the race director.
