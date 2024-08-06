@@ -16,7 +16,7 @@ description: |-
   <br><br>
   The course encompasses one half of the Minnesota Voyageur Trail Ultramarathon, plus a bit extra to reach 26.2 miles. We introduced the race in the 1990s to support the Voyageur 50 Mile—as a thank you to Voyageur volunteers and as an introduction to the course for those exploring the 50 miler. The race has become wildly popular in its own right.
   <br><br>
-  Originally called the Half Voyageur Trail Marathon, in 2013 took the name of its indefatigable founder, the local trail and ultramarathon running legend Eugene Curnow. Gene’s energy, enthusiasm, and volunteer spirit played a significant role in the success of the Minnesota Voyageur, the growth of the northern Minnesota running community, and the development of the sport of trail running in general.
+  Originally called the Half Voyageur Trail Marathon, in 2013 took the name of its indefatigable founder, the local trail and ultramarathon running legend <a href="/legends/gene">Eugene Curnow</a>. Gene’s energy, enthusiasm, and volunteer spirit played a significant role in the success of the Minnesota Voyageur, the growth of the northern Minnesota running community, and the development of the sport of trail running in general.
 plotaroute-id: 1854033
 strava-id: 3207880018615880304
 google-map-id: 1TlA-qHl5EEzqz_rmYOi4nJQqiz4dA-I
