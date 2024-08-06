@@ -52,7 +52,8 @@
  * Styles for dropdown
  */
 
-#topic {
+#topic,
+#race {
  -webkit-appearance: none; /* Remove default styling in Chrome */
  -moz-appearance: none; /* Remove default styling in Firefox */
  appearance: none; /* Remove default styling in other browsers */
@@ -60,12 +61,14 @@
 }
 
 /* Style the dropdown arrow */
-#topic::-ms-expand {
+#topic::-ms-expand,
+#race::-ms-expand {
  display: none; /* Hide default arrow for IE */
 }
 
 /* Style dropdown options */
-#topic option {
+#topic option,
+#race option {
  font-family: $base-font-family; /* Your desired font family */
  font-size: 16px; /* Your desired font size */
 }
