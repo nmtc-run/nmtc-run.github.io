@@ -6,15 +6,17 @@
   page: /spring-series/
   img: /img/bc-kids.jpeg
   slug: Spring Series
+  button-text: Schedule/Results
 
 - name: Eugene Curnow Trail Marathon
   distance: 26.2 mi
   date: 13 July 2024
   description: >- # ignore newlines
-    Originally known as the Half-Voyageur, this challenging point-to-point course over rough woodland trails offers scenic overlooks of Duluth, Lake Superior, and the St. Louis River.
+    Originally dubbed the Half Voyageur, this challenging point-to-point course over rough woodland trails offers scenic overlooks of Duluth, Lake Superior, and the St. Louis River.
   page: /curnow/
   img: /img/curnow.jpeg
   slug: Curnow Marathon
+  button-text: Register/Results
 
 - name: Minnesota Voyageur Trail Ultramarathon
   distance: 50 mi
@@ -24,6 +26,7 @@
   page: /voyageur/
   img: /img/voyageur-runners.jpeg
   slug: Voyageur 50
+  button-text: Register/Results
 
 - name: NMTC Fall Series
   distance: 3 to 7 mi
@@ -33,3 +36,4 @@
   page: /fall-series/
   img: /img/lift-bridge.jpeg
   slug: Fall Series
+  button-text: Schedule/Results

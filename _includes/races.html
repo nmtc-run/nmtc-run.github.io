@@ -8,6 +8,9 @@
           <div class="event-name">{{ event.name }}</div>
           <div class="event-desc">
             {{ event.description | newline_to_br }}
+            <div class="container" style="display:flex;">
+                <div class="button" style="margin: 0.5em auto 0.25em auto;">{{ event.button-text }}</div>
+            </div>
           </div>
 
         </div>
