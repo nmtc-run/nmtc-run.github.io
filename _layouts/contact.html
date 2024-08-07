@@ -87,7 +87,7 @@ layout: default
     formData.forEach(function(value, key) {
       data[key] = value;
     });
-    data.gCaptchaResponse = document.getElementById('g-recaptcha-response').value;
+    // data.gCaptchaResponse = document.getElementById('g-recaptcha-response').value;
 
     fetch(url, {
       method: 'POST',
