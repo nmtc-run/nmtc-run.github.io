@@ -46,7 +46,8 @@
 
 .logo * {
   max-width: 60%;
-  max-height: 2em;
+  // max-height: 2em; // for modern logo
+  max-height: 4em; // for vintage logo
   margin: 0 auto;
   // padding: 0 2em;
   text-align: center;
@@ -334,7 +335,8 @@ body.menu-active {
 
 #more-container {
   position: absolute;
-  top: calc(1em + 60.73px + 0.5em + 1em - 2px + 0.8em + 3px);
+  // top: calc(1em + 60.73px + 0.5em + 1em - 2px + 0.8em + 3px); // for modern logo
+  top: calc(3em + 60.73px + 0.5em + 1em - 2px + 0.8em + 3px); // for vintage logo
   z-index: 999;
 
   background-color: $background-color;
