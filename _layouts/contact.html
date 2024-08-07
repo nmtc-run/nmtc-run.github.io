@@ -53,7 +53,7 @@ layout: default
       <textarea id="message" name="message" required></textarea>
 
       <div class="captcha-wrapper">
-        <!-- <div class="g-recaptcha" data-sitekey="6LddTMspAAAAAAH5fyelUt9N6vvmQCFEhDql-Gfd"></div> -->
+        <div class="g-recaptcha" data-sitekey="6LddTMspAAAAAAH5fyelUt9N6vvmQCFEhDql-Gfd"></div>
       </div>
 
       <input type="submit" value="Submit">
@@ -87,7 +87,7 @@ layout: default
     formData.forEach(function(value, key) {
       data[key] = value;
     });
-    // data.gCaptchaResponse = document.getElementById('g-recaptcha-response').value;
+    data.gCaptchaResponse = document.getElementById('g-recaptcha-response').value;
 
     fetch(url, {
       method: 'POST',
