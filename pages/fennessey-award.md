@@ -12,4 +12,4 @@ To qualify for this coveted award, do in one year what Ella did every year: run 
 
 # Ella Fennessey Awardees
 
-* 2023: Anissa Thompson, Barb Curnow, Dave Schaeffer, Jarrow Wahman, Marcus Taintor, Matt Livingston, Nate Hubert, Roger Reinert
+* 2023: Anissa Thompson, Barb Curnow, Brian Beckman, Dave Schaeffer, Jarrow Wahman, Marcus Taintor, Matt Livingston, Nate Hubert, Roger Reinert
