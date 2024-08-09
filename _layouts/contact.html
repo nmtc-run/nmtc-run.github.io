@@ -40,13 +40,19 @@ layout: default
       </select>
 
       <label for="race">Event:</label>
-      <select id="race" name="race" required>
-        <option value="">Select race &#8594;</option>
-        <option value="Voyageur">Voyageur 50mi</option>
-        <option value="Curnow">Curnow Marathon</option>
-        <option value="Spring/Fall">Spring/Fall Series</option>
-        <option value="General">None</option>
-      </select>
+      <div id="race" name="race">
+          <input type="checkbox" id="voyageur" name="raceVoyageur" value="Voyageur">
+          <label for="voyageur">Voyageur 50mi</label><br>
+
+          <input type="checkbox" id="curnow" name="raceCurnow" value="Curnow">
+          <label for="curnow">Curnow Marathon</label><br>
+
+          <input type="checkbox" id="springfall" name="raceSpringFall" value="Spring/Fall">
+          <label for="springfall">Spring/Fall Series</label><br>
+
+          <input type="checkbox" id="general" name="raceNone" value="General">
+          <label for="general">None</label><br>
+      </div>
 
       <label for="message">Message:</label>
       <textarea id="message" name="message" required></textarea>
@@ -70,12 +76,21 @@ layout: default
   });
 
   function submitForm() {
+
     var form = document.getElementById("contactForm");
     var statusMessage = document.getElementById("statusMessage");
     var sendingMessage = document.getElementById("sendingMessage");
     var sentMessage = document.getElementById("sentMessage");
     var errorMessage = document.getElementById("errorMessage");
     var errorMessageText = document.getElementById("errorMessageText");
+
+    var validated = validateForm();
+    if (validated) {
+      errorMessage.style.display = "none"; // Hide the error message
+    } else {
+      errorMessage.style.display = "block"; // Show the error message
+      return
+    };
 
     form.style.display = "none"; // Hide the form
     statusMessage.style.display = "block"; // Show the status message
@@ -102,10 +117,11 @@ layout: default
       })
       .then((data) => {
         console.log('data', data);
-        if (data.status == 'error') {
+        if (data.status == 'error' || data.status == 'ERROR') {
           sentMessage.style.display = "none"; // Show the sent message
           errorMessage.style.display = "block"; // Show the error message
-          errorMessageText.innerHTML = 'We failed to process your message. It seems you did not click the reCAPTCHA anti-spam checkbox before clicking Submit. Please try again later or contact us through the <a href="https://www.facebook.com/295987053807192" target="_blank">NMTC Facebook page</a>.';
+          errorMessageText.innerHTML = data.message; 
+          // errorMessageText.innerHTML = 'We failed to process your message. It seems you did not click the reCAPTCHA anti-spam checkbox before clicking Submit. Please try again later or contact us through the <a href="https://www.facebook.com/295987053807192" target="_blank">NMTC Facebook page</a>.';
           form.style.display = "block"; // Show the form
         }
       })
@@ -115,6 +131,15 @@ layout: default
         form.style.display = "block"; // Show the form
         console.log('err', err);
       })
+  }
+
+  function validateForm() {
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+    if (checkboxes.length === 0) {
+        alert('Please select at least one event, or select "none."');
+        return false;
+    }
+    return true;
   }
 
 </script>
