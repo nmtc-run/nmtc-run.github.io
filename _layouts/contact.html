@@ -10,9 +10,9 @@ layout: default
       <div class="">
         <div id="sendingMessage" style="display: none;">Sending message...</div>
       </div>
-      <div id="sentMessage" style="display: none;">
-        <div class="thanks-headline">Success!</div>
-        <div class="thanks-message">
+      <div id="successMessage" style="display: none;">
+        <div class="thanks-headline" id="successHeadlineText">Success!</div>
+        <div class="thanks-message" id="successMessageText">
           Your message has been sent. We look forward to connecting with you soon.
         </div>
       </div>
@@ -80,7 +80,7 @@ layout: default
     var form = document.getElementById("contactForm");
     var statusMessage = document.getElementById("statusMessage");
     var sendingMessage = document.getElementById("sendingMessage");
-    var sentMessage = document.getElementById("sentMessage");
+    var successMessage = document.getElementById("successMessage");
     var errorMessage = document.getElementById("errorMessage");
     var errorMessageText = document.getElementById("errorMessageText");
 
@@ -112,17 +112,20 @@ layout: default
     })
       .then((res) => {
         sendingMessage.style.display = "none"; // Hide the sending message
-        sentMessage.style.display = "block"; // Show the sent message
+        successMessage.style.display = "block"; // Show the sent message
         return res.json();
       })
       .then((data) => {
         console.log('data', data);
-        if (data.status == 'error' || data.status == 'ERROR') {
-          sentMessage.style.display = "none"; // Show the sent message
+        if (data.status == 'error') {
+          successMessage.style.display = "none"; // Hide the sent message
           errorMessage.style.display = "block"; // Show the error message
-          errorMessageText.innerHTML = data.message; 
-          // errorMessageText.innerHTML = 'We failed to process your message. It seems you did not click the reCAPTCHA anti-spam checkbox before clicking Submit. Please try again later or contact us through the <a href="https://www.facebook.com/295987053807192" target="_blank">NMTC Facebook page</a>.';
+          errorMessageText.innerHTML = data.message;
           form.style.display = "block"; // Show the form
+        }
+        if (data.status == 'created') {
+          successHeadlineText.innerHTML = "Message sent, but...";
+          successMessageText.innerHTML = data.message;
         }
       })
       .catch((err) => {
