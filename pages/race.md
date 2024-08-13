@@ -1,7 +1,7 @@
 ---
 layout: article
 title: NMTC Races
-img: /img/voyageur-start.jpeg
+img: https://lh3.googleusercontent.com/pw/AP1GczP2x3SJEJN1mf451b95bM57EKgtUchV849hA_qfkq470ZMd2hnDjfsUKonC2DWH32hERakAMUncmNTknmzSIs577PX66xyeG5SCaHxZdQRwzweic0o=w2400
 permalink: /race/
 include-races: true
 ---

@@ -3,7 +3,7 @@ layout: article
 title: Eugene "Gene" Curnow
 subtitle: <a href="/legends">NMTC Legend</a>
 permalink: /legends/gene
-img: /img/legends/gene-bio.jpeg
+img: https://lh3.googleusercontent.com/pw/AP1GczOk85Mn-CzeBifLwIsTgLG5omzWYTUZUQXLtTpY7JsrSa37NLk9FeZuZKgZ9sLS63mu5HbRq5pT3cu91dTcmAyq7Ei9bswIDS_kS_80z8zL1oRAlIg=w2400
 caption: Eugene Curnow climbs a steep section of the Minnesota Voyageur Trail Ultramarathon in 1991. It's one of the few known photos of Gene in which he is not chatting with a fellow runner.
 preview: Gene dubbed it the Half Voyageur, but the Eugene Curnow Trail Marathon now bears the name of its charismatic founder. He created it so more people—especially Voyageur volunteers—could enjoy the race course he loved.  
 ---
@@ -18,7 +18,7 @@ Each July, hundreds of runners, supporters, and volunteers come together to cele
 
 **Barb:** Gene and two others finished the first five Superior 100s. And then he became the first to finish ten Superior 100s. It took him eleven years. He didn’t start the sixth year [in 1996], but he tried to. He was playing racquetball the Monday before the race and injured himself pretty badly. He was all suited up, ready to run, and went up to register. Harry [Sloan, Superior 100 race director, 1991-1997] took one look at him, took off his number, and said, “Sorry, we need the pins.” Harry did not want to go out on that trail later to dig Gene up.
 
-![Bill Curnow, Barb Curnow, and Gene Curnow](/img/legends/bill-barb-eugene.jpeg "Bill Curnow, Barb Curnow, and Gene Curnow")
+![Bill Curnow, Barb Curnow, and Gene Curnow](https://lh3.googleusercontent.com/pw/AP1GczNXani82FOf4KkZNyI-Z92MIskzQ6J7kBbCZ3pw1MWKqcfl527gmoVcuKEnuk9qN8M_76MkZaqRi17Btpp3Eeaal-tQ07O0AUr_Z5IVaGFAeSjb9r8=w2400 "Bill Curnow, Barb Curnow, and Gene Curnow")
 *From left: Bill Curnow, Barb Curnow, and Gene Curnow pause at an aid station during the 1988 edition of the Minnesota Voyageur.*
 
 **Q. What was it like to be around Gene on race day?**
@@ -37,7 +37,7 @@ Each July, hundreds of runners, supporters, and volunteers come together to cele
 
 **Barb:** The main reason was to give Voyageur volunteers a free race. Everybody else had to pay. The shorter distance made the course more accessible to more people. A lot of our regular Voyageur runners got to bring their significant others out on the trail.
 
-![Gene Curnow running with friends](/img/legends/gene-group-running.jpeg "Gene Curnow running with friends")
+![Gene Curnow running with friends](https://lh3.googleusercontent.com/pw/AP1GczONzpKE5tZDUuKUsiS770Ii10PjW7FP5-Klk-dV1fDOVnzc1_9AAuiHEewRkO8EuAE4lypoyAV39AuDjxrnR11viZ2hrSY0p86Oxkdj9118fLTSkC8=w2400 "Gene Curnow running with friends")
 *Gene Curnow (far left) in typical running form, surrounded by running friends.*
 
 **Q. Was the race always going to be a marathon, 26.2 miles?**
@@ -56,7 +56,7 @@ Each July, hundreds of runners, supporters, and volunteers come together to cele
 
 **Barb:** Gene’s first Voyageur was 1987. My youngest [Gene, Jr.] and I drove out to see what it was all about. The next year, he dragged my oldest [Billy] into it. I went out and crewed that one, mainly because he had Billy with him. The next year, I captained a Voyageur aid station. The year after that, I captained the aid station with Young Gene’s future wife and her two parents, while the boys ran. By then, Gene was running Ed Fitz, too; before long, I was in charge of the aid stations for Ed Fitz, then Voyageur aid stations, and eventually I was directing the race itself.
 
-![Minnesota Voyageur packet pickup](/img/legends/g-steve-barb-barb.jpeg "Minnesota Voyageur packet pickup")
+![Minnesota Voyageur packet pickup](https://lh3.googleusercontent.com/pw/AP1GczPajMrfvlbwHU5L5jJbmAen--XKbWiVd6AC5YmXRnc6u3b5f-5uZ5iWR7UL-K0dVm7AXeGmwYRmLDwxzYs3eu3FCy3r1KX0Pa_V4buP1bffHBOBgyU=w2400 "Minnesota Voyageur packet pickup")
 *Packet pickup at the 1991 edition of the Minnesota Voyageur, featuring son-in-law Steve Bengtson, Barb Curnow, and daughter Barb Bengtson.*
 
 **Q. Seems like Gene had a way of convincing other people to get involved.**

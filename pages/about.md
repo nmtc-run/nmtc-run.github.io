@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: article
 title: About NMTC
 permalink: /about/
 ---
@@ -11,13 +11,13 @@ Founded in 1981, the Northern Minnesota Track Club (NMTC) is a non-profit, grass
 
 The NMTC is organized and managed by a committee of individuals who love the sport of trail running and are dedicated to its continued success and growth. This committee serves the NMTC, MN Voyageur Trail Ultramarathon, and Eugene Curnow Trail Marathon.
 
-# Officers
+## Officers
 
 * Haley Bengtson – Chair
 * Kaelyn Williams – Vice Chair
 * Mae Gackstetter – Secretary / Treasurer
 
-# At-Large Members
+## At-Large Members
 
 * Samantha Frey
 * Leslie Semler
@@ -28,3 +28,6 @@ The NMTC is organized and managed by a committee of individuals who love the spo
 * Nate Hubert
 * Matt Livingston
 * Mark Grindy
+
+![NMTC board members](https://lh3.googleusercontent.com/pw/AP1GczNHR5aQF-U2yyVYK-Gid9T9zm04cMundIZvnec2qbWJbZoqfaBasWe_OlPYCLe8M7BzDAmlalhOr8stkCE0s47TxfK2eruqakQT8q3EEevZoOrJotg=w800 "NMTC board members")
+_NMTC board members, June 2024. From left: Lane, Mark, Matt, Kaelyn, Shelly, Haley, Sam, Leslie, Jarrow, Mae, Nate, and Marcus (with Clay)._

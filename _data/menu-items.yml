@@ -4,8 +4,6 @@
   page: /volunteer/
 - name: Donate
   page: /donate/
-- name: Contact
-  page: /contact/
 - more:
   - submenu:
     - heading: NMTC
