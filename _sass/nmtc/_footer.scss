@@ -70,6 +70,10 @@ footer a {
 
 /* For smaller screens */
 @include media-query($on-palm) {
+  .footer-logo img.logo-acro {
+    max-height: 3.5em;
+    padding-bottom: 0.25em; 
+  }
   .footer-container {
     flex-direction: column;
     text-align: center;
