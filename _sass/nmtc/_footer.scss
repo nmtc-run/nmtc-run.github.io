@@ -33,9 +33,20 @@ footer a {
   text-align: center;
 }
 
-.footer-logo img {
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo img.logo-acro {
+  max-height: 2em;
+  padding-top: 1.8em;
+}
+
+.footer-logo img.logo-words {
   max-height: 1.5em;
-  padding: 2em 0 1.8em 0;
+  padding: 0.75em 0 1.8em 0;
   max-width: 400px;
 }
 
