@@ -244,7 +244,7 @@
   // padding-top: 4rem;
   & #more-logo {
     max-width: 60vw;
-    height: 1.4em;
+    height: 2.16em;
     padding-top: 0.5em;
     margin-bottom: 2em;
   }
@@ -360,6 +360,7 @@ body.menu-active {
   z-index: 999;
 
   background-color: $background-color;
+  border-left: 4px solid $brand-color; 
   width: 100%;
 
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
