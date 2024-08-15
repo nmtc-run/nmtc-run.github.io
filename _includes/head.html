@@ -39,7 +39,8 @@
     <meta property="og:image" content="https://lh3.googleusercontent.com/pw/AP1GczOFclJnqBJDg_KVA79GVQ14eAOJzETXRKWRlLxBEFgqnQ-x1ZyvmWZKro-eDT6sQwZOAroOTA4NYktR8Cv2EkC2zTq9c1dalt0oPU1642Rl36m4FL0=w2400" />
   {% endif %}
   {% if page.description %}
-    <meta property="og:description" content="{{ page.description }}" />
+    {% assign processed_string = page.description | replace: '<br>', '' | strip_newlines | escape %}
+    <meta property="og:description" content="{{ processed_string }}" />
   {% else %}
     <meta property="og:description" content="NMTC races offer fun and challenging courses for all. Come meet old friends and make new ones." />
   {% endif %}

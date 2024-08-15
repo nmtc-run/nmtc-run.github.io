@@ -1,0 +1,21 @@
+{% assign products = site.pages | where_exp: 'page', 'page.permalink contains "store/"' %}
+
+<div class="events-list">
+  {% for product in products %}
+    <a href="{{ product.permalink }}">
+      <div class="event">
+        <div class="photo" style="background-image: url( {{ product.img }} )"></div>
+        <div class="content">
+          <div class="event-name">{{ product.subtitle }} – {{ product.title }}</div>
+          <div class="event-desc">
+            {{ product.preview | newline_to_br }}
+            <div class="container" style="display:flex;">
+                <div class="button" style="margin: 0.5em auto 0.25em auto;">More info</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </a>
+  {% endfor %}
+</div>
