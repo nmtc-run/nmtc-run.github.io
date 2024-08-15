@@ -30,17 +30,16 @@
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="en_US" />
   {% if page.title %}
-    <meta property="og:title" content="{{ page.title }}" />
+    {% assign processed_string = page.title | replace: '<br>', '' | strip_newlines | escape %}
+    <meta property="og:title" content="{{ processed_string }}" />
   {% endif %}
   {% if page.img %}
-    <meta property="og:image" content="https://www.example.com/images/sample-image.jpg" />
+    <meta property="og:image" content="{{ page.img }}" />
   {% else %}
     <meta property="og:image" content="https://lh3.googleusercontent.com/pw/AP1GczOFclJnqBJDg_KVA79GVQ14eAOJzETXRKWRlLxBEFgqnQ-x1ZyvmWZKro-eDT6sQwZOAroOTA4NYktR8Cv2EkC2zTq9c1dalt0oPU1642Rl36m4FL0=w2400" />
   {% endif %}
   {% if page.description %}
     <meta property="og:description" content="{{ page.description }}" />
-  {% else if page.caption %}
-    <meta property="og:description" content="{{ page.caption }}" />
   {% else %}
     <meta property="og:description" content="NMTC races offer fun and challenging courses for all. Come meet old friends and make new ones." />
   {% endif %}

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Duluth/Superior’s grassroots <br> trail running events
+title: Duluth/Superior’s grassroots<br> trail running events
 subtitle: Promoting trail running and managing races since 1981
 display-this-content: yes
 ---
