@@ -4,6 +4,8 @@
   page: /volunteer/
 - name: Donate
   page: /donate/
+- name: Shop
+  page: /shop/
 - more:
   - submenu:
     - heading: NMTC
@@ -23,6 +25,8 @@
       page: /results/
     - name: Photos
       page: /photos/
+    - name: Shop
+      page: /shop/
   - submenu:
     - heading: Boring Stuff
     - name: Registration Policies

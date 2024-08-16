@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<div class="">
+  <a href="/shop" style="font-size: 0.8em; text-decoration: none; color: #777;">
+    &larr; BACK TO SHOP
+  </a>
+</div>
+
+<div class="article-title"> {{ page.title }}</div>
+
+{% if page.subtitle %}
+  <div class="article-subtitle"> {{ page.subtitle }}</div>
+{% else %}
+  <div class="article-subtitle"></div>
+{% endif %}
+
+{% if page.img %}
+  <div class="event-hero" style="background-image:url({{ page.img }}); {% unless page.caption %} margin-bottom: 1em; {% endunless %}">
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="buttons">
+      {% if page.button-text %}
+          <a href="{{ page.button-url }}" style="margin: 0 auto;" {% if page.button-external-link %}target="_blank"{% endif %}>
+            <div class="button" style="margin: 0;">{{ page.button-text }}
+              {% if page.button-external-link %}
+                <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;">
+              {% else %}
+                {% if page.button-down-arrow %}
+                <div class="down-arrow"></div>
+                {% endif %}
+              {% endif %}
+            </div>
+          </a>
+      {% endif %}
+    </div>
+  </div>
+  {% if page.caption %}
+    <p class="event-hero-caption"><em>{{ page.caption }}</em></p>
+  {% endif %}
+{% endif %}
+
+<div class="event-content article">
+  {{ content }}
+</div>
+
+<div style="text-align:center;font-style:italic;">* * *<br>
+  <p><a href="/shop">Back to shop</a></p>
+</div>
