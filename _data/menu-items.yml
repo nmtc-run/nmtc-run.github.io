@@ -26,7 +26,7 @@
     - name: Photos
       page: /photos/
     - name: Shop
-      page: /shop/
+      page: /shop
   - submenu:
     - heading: Boring Stuff
     - name: Registration Policies
