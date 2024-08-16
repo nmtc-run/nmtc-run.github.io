@@ -5,12 +5,10 @@ permalink: /shop
 img: /img/shop/nmtc-product.jpg
 ---
 
-Spread the good word of great local trail running, with these NMTC-branded, lifestyle-enhancing conversation starters. When people do a double take and ask you "What's that NMTC thing?" and "Can I get into that, too?" be sure to tell them:
+Spread the good word of great local trail running, with these NMTC-branded, lifestyle-enhancing conversation starters. When people do a double take and ask you "What's that NMTC thing?" and "Can I get into that, too?" be sure to tell 'em:
 
-* __NMTC supports the Twin Points trail running community.__ Runners of all ages and abilities can enjoy 15 completely free and absolutely fun Spring and Fall Series events.
+* __Jump into \*free\* short-distance Spring/Fall Series races.__ NMTC supports local trail running with 15 completely free, absolutely fun—and highly competitive—races.
 
-* __NMTC carries forward an American trail running legacy.__ The Minnesota Voyageur 50mi is one of longest-running trail ultras in the United States.
+* __Experience an American trail running legacy.__ The Voyageur 50mi is one of longest-running trail ultras in the U.S.A.—and the Curnow Marathon runs on the same trails.
 
-* __NMTC makes trail running events accessible to more people.__ We keep race fees low—and drive them even lower for [volunteers](/volunteer).
-
-Why is this stuff so expensive? About 40 percent of the purchase price goes to NMTC, and the rest goes to the manufacturer. Of course, if you want 100 percent of your dollars to support local trail racing, you can always [make a donation](/donate).
+* __Everyone is welcome.__  NMTC makes trail running events more accessible by keeping race fees low—and driving them even lower for [volunteers](/volunteer).
