@@ -7,13 +7,12 @@
         <div class="photo" style="background-image: url( {{ product.img }} )"></div>
         <div class="content">
           <div class="event-name">{{ product.subtitle }} – {{ product.title }}</div>
-          <div class="event-desc">
+          <div class="event-desc" style="min-height: 3em;">
             {{ product.preview | newline_to_br }}
-            <div class="container" style="display:flex;">
-                <div class="button" style="margin: 0.5em auto 0.25em auto;">More info</div>
-            </div>
           </div>
-
+          <div class="container" style="display:flex;">
+              <div class="button" style="margin: 0.5em auto 0.25em auto;">More info</div>
+          </div>
         </div>
       </div>
     </a>
