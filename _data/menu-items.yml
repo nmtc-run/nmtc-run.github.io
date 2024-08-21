@@ -5,7 +5,7 @@
 - name: Donate
   page: /donate/
 - name: Shop
-  page: /shop/
+  page: /shop
 - more:
   - submenu:
     - heading: NMTC
