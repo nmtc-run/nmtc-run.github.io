@@ -12,7 +12,7 @@
       <div class="footer-column">
         {% for item in list.list %}
         <div class="footer-item">
-          <a href="{{ item.page }}">{{ item.name }}</a>
+          <a href="{{ item.page }}" target="{% if item.external == true %}_blank{% endif %}">{{ item.name }}</a>
         </div>
         {% endfor %}
       </div>
