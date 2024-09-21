@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="article-title"> {{ page.title }}</div>
+
+{% if page.subtitle %}
+  <div class="article-subtitle"> {{ page.subtitle }}</div>
+{% else %}
+  <div class="article-subtitle"></div>
+{% endif %}
+
+<div class="sponsor-content">
+  {{ content }}
+</div>
+
+<div class="sponsors-list">
+  {% for sponsor in site.data.sponsors %}
+    <a href="{{ sponsor.url }}">
+      <div class="sponsor">
+        <div class="photo" style="background-image: url( {{ sponsor.img }} )"></div>
+        <div class="content">
+          <div class="sponsor-name">{{ sponsor.name }}</div>
+          <div class="sponsor-desc">
+            {{ sponsor.description | newline_to_br }}
+          </div>
+
+        </div>
+      </div>
+    </a>
+  {% endfor %}
+</div>

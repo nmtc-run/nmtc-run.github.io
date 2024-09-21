@@ -1,0 +1,47 @@
+- name: Bernick's
+  img: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVnqT-2p9ll9ot2ghzPKnSl1FLPH5lm80MSg&s
+  url: https://www.bernicks.com/
+  description: >- # ignore newlines
+    Bernick's is a family-owned food and beverage distribution company focused on building long-term relationships with customers as well as with community organizations like NMTC that it supports year after year. Many runners of the Voyageur 50 and Curnow Marathon have counted on aid station staples like Schweppes Ginger Ale to calm their stomaches, Lays potato chips to rebalance their electrolytes, or Pepsi to fuel their drive to the finish line. Website: <em>bernicks.com</em>
+
+- name: Austin Jarrow
+  img: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJSd3CJBRm3gcohcz9tzBYzJ6SLn4A9ns2eg&s
+  url: https://www.austin-jarrow.com/
+  description: >- # ignore newlines
+    Local running shoe and gear store Austin Jarrow—located on Central Entrance in Duluth—has long served as a pillar of the Twin Ports running community. Its founders, Bill Austin and Jarrow Whaman, also founded several local trail races that are now part of the NMTC Spring and Fall Race Series. In decades of volunteering at trail races, they've played a huge role in the development of the local running scene. Website: <em>austin-jarrow.com</em>
+
+- name: SuperOne Foods
+  img: https://www.superonefoods.com/images/super-one-foods-logo-icon_302x302.png
+  url: https://www.superonefoods.com/
+  description: >- # ignore newlines
+    SuperOne Foods—headquarterd locally in Hermantown, MN—operates 31 stores across Minnesota, Wisconsin, and Michigan. Runners who pause at Curnow and Voyageur aid station to replenish their glycogen stores with savory or sweet snacks have SuperOne to thank for those tasty—and sometimes even race-saving—treats. Website: <em>superonefoods.com</em>
+
+- name: Kari Toyota
+  img: https://karitoyota.aim4toyota1.com/Admin/Content/images/dealer-images/10979/Logo.JPG
+  url: https://www.karitoyota.com/
+  description: >- # ignore newlines
+    Kari Toyota of Superior, WI, has been a longstanding part of the Twin Ports community and steadfast supporter of the Twin Ports running community. Kari treats customers like family—listening to their needs and offering no-pressure solutions. Website: <em>karitoyota.com</em>
+
+- name: Magnolia Cafe
+  img: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2dSlknUQCGxIoLKPJW7sQgMkBDQYarQ9z2Q&s
+  url: https://magnoliacafecarlton.com/
+  description: >- # ignore newlines
+    Magnolia Cafe offers a quick stop for coffee, espresso, ice cream, or a bite to eat. Magnolia is located right in Carlton, MN, making it a go-to spot for finishers and fans of the Voyageur 50 and Curnow Marathon who want to celebrate on race day. Website: <em>magnoliacafecarlton.com</em>
+
+- name: Magnum Trucking
+  img: https://content.cdntwrk.com/files/aHViPTExNjE2MCZjbWQ9aXRlbWVkaXRvcmltYWdlJmZpbGVuYW1lPWl0ZW1lZGl0b3JpbWFnZV81ZjI5NTU5ZGEyOTlkLnBuZyZ2ZXJzaW9uPTAwMDAmc2lnPWZhNzYwYmFkMzdmNTU0NTQyZWY0NmYzZGMyOTNlNjZl
+  url: https://magnumlog.com/
+  description: >- # ignore newlines
+    Magnum Trucking provides warehousing and logistics services, and manages a network of terminals throughout ten states—including one in Carlton, Minnesota, near the start/finish of the Voyageur 50 and the finish of the Curnow Marathon. Magnum makes it possible for NMTC to offer easy and reliable parking to Curnow runners who shuttle to the start, as well as family and friends who cheer them on to the finish. Website: <em>magnumlog.com</em>
+
+- name: Arrowhead Radio Amateurs Club
+  img: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcIMY02G4psadCt9Scg8u7G0FgRz7uQ_XuOw&s
+  url: https://www.thearac.org/
+  description: >- # ignore newlines
+    As runners arrive at key checkpoints along the Voyageur 50 and Curnow Marathon courses, licensed Amateur/HAM Radio Operators from the Arrowhead Radio Amateurs Club record each runner's bib number and stay in communication with the rest of the race organization. They play a crucial role in helping to ensure every runner is safe and on course. Website: <em>thearac.org</em>
+
+- name: Perception Coaching
+  img: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRGaGihsOEvmGy4KL6eOThpPQtPse8jfDQmQ&s
+  url: https://perceptioncoaching.org/
+  description: >- # ignore newlines
+    Perception Coaching supports the efforts of leaders, entrepreneurs, and their teams—and has been a longstanding and outstanding supporter of NMTC. Over the past several decades, Barb and Haley Bengtson have been runners, supervoluteers, and former NMTC Board Chairs—not only devoting their time but also making Perception Coaching's Duluth office available to support NMTC's mission. Website: <em>perceptioncoaching.org</em>

@@ -20,11 +20,17 @@
     page: /fall-series
 - name: list 3
   list:
-  - name: Registration Policies
-    page: /registration
-  - name: Race Rules
-    page: /rules
+  # - name: <img src="/assets/icons/social/Facebook-light.svg" style="height:1em;"> Spring/Fall Series
+  #   page: https://www.facebook.com/runnmtc/
+  #   external: true
+  # - name: <img src="/assets/icons/social/Facebook-light.svg" style="height:1em;"> Curnow/Voyageur
+  #   page: https://www.facebook.com/minnesotavoyageur
+  #   external: true
   - name: Fennessey Award
     page: /fennessey-award
   - name: NMTC Legends
     page: /legends
+  - name: Sponsors
+    page: /sponsors/
+  - name: Shop
+    page: /shop

@@ -28,13 +28,15 @@
     - name: Shop
       page: /shop
   - submenu:
-    - heading: Boring Stuff
+    - heading: Important Stuff
     - name: Registration Policies
       page: /registration/
     - name: Race Rules
       page: /rules/
     - name: Waiver Form
       page: /waiver/
+    - name: NMTC Sponsors
+      page: /sponsors/
   - submenu:
     - heading: Community
     - name: Fennessey Award
