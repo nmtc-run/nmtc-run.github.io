@@ -88,6 +88,10 @@
     </div>
   </div>
   <div id="menu-hr"></div>
+  {% if page.url == "/" %}
+    {% include alert.html %}
+    {% include prev-next-links.html %}
+  {% endif %}
 </nav>
 
 <script type="text/javascript">

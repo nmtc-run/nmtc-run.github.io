@@ -1,0 +1,141 @@
+{% assign today = "now" | date: "%Y-%m-%d" %}
+{% assign curnDate = site.data.event-data[1].date | date: "%Y-%m-%d" %}
+{% assign voyaDate = site.data.event-data[2].date | date: "%Y-%m-%d" %}
+
+{% if today <= curnDate %}
+  {% assign series = site.data.series-spring %}
+  {% assign next-url = "/spring-series/" %}
+  {% assign series-over = "spring" %}
+  {% assign prev-event = "Spring Series" %}
+  {% assign prev-url = "/spring-series/#overall-standings" %}
+{% else %}
+  {% assign series = site.data.series-fall %}
+  {% assign next-url = "/fall-series/" %}
+  {% assign series-over = "fall" %}
+  {% assign prev-event = "Fall Series" %}
+  {% assign prev-url = "/fall-series/#overall-standings" %}
+{% endif %}
+
+{% comment %} Assign .active and get overall standings {% endcomment %}
+{% assign year_counter = 0 %}
+{% assign first_edition_year = false %}
+{% assign final_event_year = false %}
+{% assign i = 0 %}
+
+{% for event in series %}
+
+  {% comment %} if metadata, save a few variables and end forloop {% endcomment %}
+  {% if event.metadata %}
+    {% for overall-standings in event.metadata %}
+      {% for standings in overall-standings %}
+        {% assign results-women = standings.women %}
+        {% assign results-men = standings.men %}
+        {% assign results-nonbinary = standings.nonbinary %}
+      {% endfor %}
+    {% endfor %}
+    {% break %}
+  {% endif %}
+
+  {% comment %} establish first event as .active and save name for later {% endcomment %}
+  {% if forloop.first == true %}
+    {% assign active_event = event.name %}
+    {% assign series_opener = event.name %}
+  {% endif %}
+
+  {% comment %} check to see if we should even continue {% endcomment %}
+  {% if event.results %}
+
+    {% comment %} if previous event has results uploaded,
+                  set current event as .active {% endcomment %}
+    {% if num_editions > 0 %}
+      {% assign active_event = event.name %}
+    {% endif %}
+
+    {% comment %} store final event for use at after looping {% endcomment %}
+    {% assign series_final = event.name %}
+
+    {% comment %} establish first_year {% endcomment %}
+    {% if forloop.first == true %}
+      {% assign first_year = edition.year %}
+      {% assign first_year_boolean = true %}
+    {% endif %}
+
+    {% comment %} start looping through editions of the event {% endcomment %}
+    {% assign num_editions = 0 %}
+
+    {% for edition in event.results %}
+
+      {% if edition.url %}
+
+        {% comment %} establish first_edition_year {% endcomment %}
+        {% if first_year_boolean == true or event.name == series_opener %}
+          {% assign first_edition_year = edition.year %}
+          {% assign first_year_boolean = false %}
+        {% endif %}
+
+        {% comment %} if newer results have been uploaded... {% endcomment %}
+
+        {% if edition.year >= year_counter %}
+
+          {% assign latest_edition_name = event.name %}
+          {% assign latest_edition_year = edition.year %}
+
+          {% assign num_editions = num_editions | plus: 1 %}
+
+          {% assign year_counter = edition.year %}
+
+        {% endif %}
+
+      {% endif %}
+
+    {% endfor %}
+
+  {% endif %}
+
+{% endfor %}
+
+{% assign event_id = active_event | downcase | replace: ' ', '-' | replace: ',', '' | replace: '.', '' | replace: "'", "" %}
+{% assign next-url = next-url | append: "#" | append: event_id %}
+
+{% if first_edition_year == latest_edition_year and latest_edition_name == series_final %}
+  {% comment %} if season is complete, set the first event as .active {% endcomment %}
+  {% assign active_event = series_opener %}
+
+  {% comment %} if spring, set curnow or voyageur {% endcomment %}
+
+  {% if series-over == "spring" %}
+
+    {% if today <= curnDate %}
+      {% assign active_event = "Curnow Marathon" %}
+      {% assign next-url = "/curnow/" %}
+      {% assign prev-event = "Spring Series" %}
+      {% assign prev-url = "/spring-series/#overall-standings" %}
+    {% else %}
+      {% if today <= voyaDate %}
+        {% assign active_event = "Voyageur 50" %}
+        {% assign next-url = "/voyageur/" %}
+        {% assign prev-event = "Curnow Marathon" %}
+        {% assign prev-url = "/curnow/#register-results" %}
+      {% else %}
+      {% assign active_event = "Fall Series" %}
+      {% assign next-url = "/fall-series/" %}
+      {% assign prev-event = "Voyageur 50" %}
+      {% assign prev-url = "/voyageur/#register-results" %}
+      {% endif %}
+    {% endif %}
+
+  {% else %}
+    {% assign active_event = "Spring Series" %}
+    {% assign next-url = "/spring-series/" %}
+    {% assign prev-event = "Fall Series" %}
+    {% assign prev-url = "/fall-series/#overall-standings" %}
+  {% endif %}
+
+{% endif %}
+
+<div id="prevNext" class="headerSub">
+  <div class="prevNext-right">
+    <div class="prevNext-right-item next-event"><em>Next event:</em> <a href="{{ next-url }}">{{ active_event }}</a></div>
+    <div class="prevNext-right-item latest-results"><em>Latest results:</em> <a href="{{ prev-url }}">{{ prev-event }}</a></div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+display-now: false
+display-expires: 2025-01-01
+text: |-
+    Welcome to our new website—one stop for info about all the NMTC races: Voyageur, Curnow, and the Spring/Fall Series. Anything amiss?
+button-text: Contact us
+button-url: /contact/
+
+
+# See below options for `background-color`.
+# Leave blank for default (red).
+#
+# Text is white, so if you are using
+# a custom color, make it a dark one!
+#
+# no background:  fdfdfd      (matches the page background color)
+# red/brown:      cc6f77      (typical color of a running track)
+# green:          1abc9c      (green from old NMTC website)
+# dark blue:      002e5d      (dark blue from Minn. flag)
+
+background-color:

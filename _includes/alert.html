@@ -1,0 +1,15 @@
+{% assign alert = site.data.alert %}
+{% assign today = 'now' | date: "%Y-%m-%d" %}
+{% assign expires = alert.display-expires | date: "%Y-%m-%d" %}
+{% if alert.display-now == true and expires >= today %}
+  {% assign bgColor = cc6f77 %}
+  {% if alert.background-color %}
+    {% assign bgColor = alert.background-color %}
+  {% endif %}
+  <div id="alert" class="headerSub" style="background-color:#{{ bgColor }}">
+    <div class="alertText">
+      {{ alert.text }}
+      <a href="{{ alert.button-url }}">{{ alert.button-text }}</a>
+    </div>
+  </div>
+{% endif %}

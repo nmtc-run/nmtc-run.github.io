@@ -140,7 +140,8 @@ layout: default
 <div class="aid-station-wrapper">
   {% for station in series %}
     {% if station.name %}
-      <div class="aid-station click-map {% if active_event == station.name %}active{% endif %}" onclick="panToLocation({{ station.start-gps }},13)">
+      {% assign event_id = station.name | downcase | replace: ' ', '-' | replace: ',', '' | replace: '.', '' | replace: "'", "" %}
+      <div class="aid-station click-map {% if active_event == station.name %}active{% endif %}" onclick="panToLocation({{ station.start-gps }},13)" id="{{ event_id }}">
         <div class="series-arrow-name">
           {% assign fill = station.map-color %}
           <div class="series-pin right">
@@ -241,6 +242,28 @@ layout: default
 </div>
 
 <script type="text/javascript">
+  // Function to automatically expand the div if the URL has a #section
+  function expandDivFromHash() {
+    var hash = window.location.hash.substring(1); // Get the #section part of the URL without the #
+    if (hash) {
+      var sectionContentDiv = document.getElementById(hash);
+      if (sectionContentDiv) {
+        // Remove 'active' class from all divs
+        // var activeDivs = document.querySelectorAll('.active');
+        // activeDivs.forEach(function(div) {
+        //  div.classList.remove('active');
+        // });
+        // Expand the corresponding div
+        sectionContentDiv.classList.add('active');
+        // Scroll to the section
+        document.getElementById(hash).scrollIntoView();
+      }
+    }
+  }
+
+  // Run  function expandDivFromHash() when the page loads
+  window.onload = expandDivFromHash;
+
   // Define an async function to load the Google Maps JavaScript API
   async function loadGoogleMaps() {
       // Import the Maps library using importLibrary function
@@ -292,7 +315,6 @@ layout: default
       });
     });
   });
-
 
 </script>
 
