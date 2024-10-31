@@ -10,7 +10,7 @@
 
 # Everyone is welcome
 
-All ages and experience levels are welcome and well represented. The vibe is something akin to a neighborhood barbecue—a community gathering to meet old friends and make new ones. Come join a bunch of folks who like to play in the woods!
+All ages and experience levels are welcome and well represented at our running events. The vibe is something akin to a neighborhood barbecue—a community gathering to meet old friends and make new ones. Come join a bunch of folks who like to play in the woods!
 
 # Fun events and competitive racing
 
@@ -22,7 +22,7 @@ Everyone who runs or volunteers receives a prize at our end-of-series potluck. P
 
 # Registration
 
-Race registration is free. Donations are accepted [online](/donate) or at the race start.
+Races are free. We do have a donation jar at each race and an [online donation option](/donate), with all contributions dedicated directly toward the continued viability of the NMTC race series, the Eugene Curnow Trail Marathon, and the Minnesota Voyageur Trail Ultramarathon.
 
 Register at the starting line of each race. If you arrive about an hour before the race start, look for the person sitting at a folding table with a laptop. And if you arrive a little closer to race time, look for the line of people near the folding table and laptop!  
 

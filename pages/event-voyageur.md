@@ -32,6 +32,8 @@ elevation-profile: /assets/gpx/voyageur-elevation-2024.svg
 
 **<span class="nb">¡ ATTENTION !</span>** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations due to limited parking. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
 
+To prevent crowding at Becks Rd aid station, spectators can park on the road and spectate from the designated area at aid station or further down the trail towards the bridge. 
+
 ## Drop bags:
 
 * Note available drop bag locations on the [aid station](#aid-stations-crew-access-and-drop-bags) chart.

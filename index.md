@@ -11,5 +11,5 @@ NMTC exists to create trail running events we can all participate in and enjoy. 
 * Everyone is invited to come play in the woods
 * Races offer as much community as competition
 * Meet old friends and make new ones
-* FREE Spring & Fall Race Series (donations welcome)
-* Volunteer to get a discount on Voyageur/Curnow registration
+* FREE Spring & Fall Race Series (donations appreciated)
+* Volunteer at Curnow or Voyageur and get a discount on the other race
