@@ -10,7 +10,7 @@
 
 # Everyone is welcome
 
-All ages and abilities are welcome and well represented. The vibe is something akin to a neighborhood barbecue—a community gathering to meet old friends and make new ones. Come join a bunch of folks who like to play in the woods!
+All ages and experience levels are welcome and well represented. The vibe is something akin to a neighborhood barbecue—a community gathering to meet old friends and make new ones. Come join a bunch of folks who like to play in the woods!
 
 # Fun events and competitive racing
 

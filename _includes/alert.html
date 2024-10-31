@@ -6,10 +6,13 @@
   {% if alert.background-color %}
     {% assign bgColor = alert.background-color %}
   {% endif %}
+  {% if alert.text-color %}
+    {% assign textColor = alert.text-color %}
+  {% endif %}
   <div id="alert" class="headerSub" style="background-color:#{{ bgColor }}">
-    <div class="alertText">
+    <div class="alertText" style="color:#{{ textColor }}">
       {{ alert.text }}
-      <a href="{{ alert.button-url }}">{{ alert.button-text }}</a>
+      <a href="{{ alert.button-url }}" style="color:#{{ textColor }}">{{ alert.button-text }}</a>
     </div>
   </div>
 {% endif %}

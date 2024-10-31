@@ -1,7 +1,7 @@
-display-now: false
+display-now: true
 display-expires: 2025-01-01
 text: |-
-    Welcome to our new website—one stop for info about all the NMTC races: Voyageur, Curnow, and the Spring/Fall Series. Anything amiss?
+    Welcome to our new website—one stop for all the NMTC races: Voyageur, Curnow, and the Spring/Fall Series. See anything amiss?
 button-text: Contact us
 button-url: /contact/
 
@@ -17,4 +17,5 @@ button-url: /contact/
 # green:          1abc9c      (green from old NMTC website)
 # dark blue:      002e5d      (dark blue from Minn. flag)
 
-background-color:
+background-color: eee
+text-color: 111

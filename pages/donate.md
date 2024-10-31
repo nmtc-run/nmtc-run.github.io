@@ -13,7 +13,7 @@ button-down-arrow: false
 
 Every cent supports the continued viability of the NMTC Spring & Fall Race Series, the Eugene Curnow Marathon, and the Minnesota Voyageur Trail Ultramarathon.
 
-* **Your donation supports a community.** Local runners of all ages and abilities can enjoy 15 completely free and absolutely fun Spring and Fall Series events.
+* **Your donation supports a community.** Local runners of all ages and experience levels can enjoy 15 completely free and absolutely fun Spring and Fall Series events.
 
 * **Your donation encourages volunteering.** You enable NMTC to offer a discount to Curnow and Voyageur racers who help create fantastic experiences for our community.
 

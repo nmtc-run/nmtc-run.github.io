@@ -6,6 +6,10 @@ layout: default
   <div class="page-heading">{{ page.title }}</div>
 {% endif %}
 
+{% if page.url == "/" %}
+  {% include prev-next-links.html %}
+{% endif %}
+
 <div class="hero-carousel">
   {% assign dot_counter = 0 %}
   {% for hero in site.data.home-photos %}
