@@ -25,16 +25,16 @@
       page: /results/
     - name: Photos
       page: /photos/
-    - name: Shop
-      page: /shop
+    - name: # Shop
+      page: # /shop
   - submenu:
     - heading: Important Stuff
     - name: Registration Policies
       page: /registration/
     - name: Race Rules
       page: /rules/
-    - name: Waiver Form
-      page: /waiver/
+    - name: # Waiver Form
+      page: # /waiver/
     - name: NMTC Sponsors
       page: /sponsors/
   - submenu:

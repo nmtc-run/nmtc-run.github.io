@@ -32,5 +32,7 @@
     page: /legends
   - name: Sponsors
     page: /sponsors/
-  - name: Shop
-    page: /shop
+  - name: 
+    page:
+  # - name: Shop
+  #   page: /shop
