@@ -3,7 +3,7 @@ display-expires: 2025-01-01
 text: |-
     Welcome to our new website—one stop for all the NMTC races: Voyageur, Curnow, and the Spring/Fall Series. See anything amiss?
 button-text: Contact us
-button-url: /contact/
+button-url: /contact
 
 
 # See below options for `background-color`.

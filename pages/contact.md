@@ -1,7 +1,7 @@
 ---
 layout: contact
 title: Contact NMTC
-permalink: /contact/
+permalink: /contact
 ---
 
 Have a question about volunteering?

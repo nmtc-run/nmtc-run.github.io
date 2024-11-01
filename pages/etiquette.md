@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Trail Running Etiquette
-permalink: /etiquette/
+permalink: /etiquette
 ---
 While we included these with an eye toward trail running, they aren’t bad practices for use on trails regardless of speed or means of locomotion.
 

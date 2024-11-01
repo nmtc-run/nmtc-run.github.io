@@ -1,4 +1,4 @@
-{% assign products = site.pages | where_exp: 'page', 'page.permalink contains "shop/"' %}
+{% assign products = site.pages | where_exp: 'page', 'page.permalink contains "/shop"' %}
 
 <div class="events-list">
   {% for product in products %}

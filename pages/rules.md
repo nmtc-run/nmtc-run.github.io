@@ -1,13 +1,13 @@
 ---
 layout: article
 title: Race Rules
-permalink: /rules/
+permalink: /rules
 ---
 These race rules and procedures are designed for the safety and well-being of everyone involved in the race including runners, crews, volunteers and spectators. The runner is responsible for knowing all the rules. Failure to comply with these rules may result in the disqualification of the runner.
 
 # Runner Responsibilities:
 
-1. **Note any aid stations closed to crews and spectators:** The race information page may specify aid stations that are accessible \*only\* to runners. This may be for the safety of our runners and volunteers, to get permission to locate the aid station, and/or to keep the race running smoothly. As a runner participant, \*you\* are responsible for your crew and spectators understanding this limitation. If they show up, you will be disqualified. 
+1. **Note any aid stations closed to crews and spectators:** The race information page may specify aid stations that are accessible \*only\* to runners. This may be for the safety of our runners and volunteers, to get permission to locate the aid station, and/or to keep the race running smoothly. As a runner participant, \*you\* are responsible for your crew and spectators understanding this limitation. If they show up, you will be disqualified.
 2. **Caution at road crossings:** Vehicles have the right-of-way at all times. There are some busy road intersections on the course, do not be complacent and forget to look both ways before crossing. We will have run officials at the busiest crossings. They are there to stop runners, if necessary, not cars. But ultimately, you need to be responsible for your safety. Never assume a vehicle will stop for you!
 3. **No unauthorized aid caches/drops or crew help:** No one is allowed to cache, drop or store supplies on the race course before or during the run. Runners are not allowed to receive aid between checkpoints from their crews.
 4. **Do not litter:** Either carry your trash or leave it at the aid stations. We are operating under permits from the City of Duluth and the State of Minnesota and litter could threaten the acquisition of permits in the future. Littering along the trail will be cause for disqualification.

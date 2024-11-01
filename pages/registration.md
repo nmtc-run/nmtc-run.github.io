@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Registration Policies
-permalink: /registration/
+permalink: /registration
 ---
 ## Refund Policy
 

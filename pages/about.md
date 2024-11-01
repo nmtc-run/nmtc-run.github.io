@@ -1,7 +1,7 @@
 ---
 layout: article
 title: About NMTC
-permalink: /about/
+permalink: /about
 ---
 # Our Mission
 

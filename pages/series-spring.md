@@ -1,9 +1,9 @@
 ---
 layout: series
 title: NMTC Spring Series
-permalink: /spring-series/
+permalink: /spring-series
 button-text: Schedule
-button-url: /spring-series/#schedule-and-race-results
+button-url: /spring-series#schedule-and-race-results
 button-external-link: false
 button-down-arrow: true
 map-id: 1VXhMDtwdH88TTCiVfd9G2g9fnujkJpU

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Race Photos
-permalink: /photos/
+permalink: /photos
 ---
 
 We welcome professional photographers on our courses and tend to rely on volunteer photographers to cover our races. Photographers who volunteer their time to capture the entire field and make their photos available for free earn credit for the [Fennessey Award](/fennessey).

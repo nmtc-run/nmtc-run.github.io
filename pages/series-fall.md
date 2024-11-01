@@ -1,9 +1,9 @@
 ---
 layout: series
 title: NMTC Fall Series
-permalink: /fall-series/
+permalink: /fall-series
 button-text: Schedule
-button-url: /fall-series/#schedule-and-race-results
+button-url: /fall-series#schedule-and-race-results
 button-external-link: false
 button-down-arrow: true
 map-id: 1AhWZ7rEKd5vdWU1HRrWqSDrOkauKaD4

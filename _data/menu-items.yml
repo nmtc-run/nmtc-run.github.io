@@ -1,46 +1,46 @@
 - name: Race
-  page: /race/
+  page: /race
 - name: Volunteer
-  page: /volunteer/
+  page: /volunteer
 - name: Donate
-  page: /donate/
+  page: /donate
 # - name: Shop
   # page: /shop
 - more:
   - submenu:
     - heading: NMTC
     - name: About
-      page: /about/
+      page: /about
     - name: Volunteer
-      page: /volunteer/
+      page: /volunteer
     - name: Donate
-      page: /donate/
+      page: /donate
     - name: Contact
-      page: /contact/
+      page: /contact
   - submenu:
     - heading: Fun Stuff
     - name: Our Races
-      page: /race/
+      page: /race
     - name: Results
-      page: /results/
+      page: /results
     - name: Photos
-      page: /photos/
+      page: /photos
     - name: # Shop
       page: # /shop
   - submenu:
     - heading: Important Stuff
     - name: Registration Policies
-      page: /registration/
+      page: /registration
     - name: Race Rules
-      page: /rules/
+      page: /rules
     - name: # Waiver Form
       page: # /waiver/
     - name: NMTC Sponsors
-      page: /sponsors/
+      page: /sponsors
   - submenu:
     - heading: Community
     - name: Fennessey Award
-      page: /fennessey-award/
+      page: /fennessey-award
     - name: NMTC Legends
       page: /legends
     - name: <img src="/assets/icons/social/Facebook.svg" style="height:1em;"> Spring/Fall Series

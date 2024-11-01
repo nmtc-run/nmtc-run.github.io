@@ -4,16 +4,16 @@
 
 {% if today <= curnDate %}
   {% assign series = site.data.series-spring %}
-  {% assign next-url = "/spring-series/" %}
+  {% assign next-url = "/spring-series" %}
   {% assign series-over = "spring" %}
   {% assign prev-event = "Spring Series" %}
-  {% assign prev-url = "/spring-series/#overall-standings" %}
+  {% assign prev-url = "/spring-series#overall-standings" %}
 {% else %}
   {% assign series = site.data.series-fall %}
-  {% assign next-url = "/fall-series/" %}
+  {% assign next-url = "/fall-series" %}
   {% assign series-over = "fall" %}
   {% assign prev-event = "Fall Series" %}
-  {% assign prev-url = "/fall-series/#overall-standings" %}
+  {% assign prev-url = "/fall-series#overall-standings" %}
 {% endif %}
 
 {% comment %} Assign .active and get overall standings {% endcomment %}
@@ -107,28 +107,28 @@
 
     {% if today <= curnDate %}
       {% assign active_event = "Curnow Marathon" %}
-      {% assign next-url = "/curnow/" %}
+      {% assign next-url = "/curnow" %}
       {% assign prev-event = "Spring Series" %}
-      {% assign prev-url = "/spring-series/#overall-standings" %}
+      {% assign prev-url = "/spring-series#overall-standings" %}
     {% else %}
       {% if today <= voyaDate %}
         {% assign active_event = "Voyageur 50" %}
-        {% assign next-url = "/voyageur/" %}
+        {% assign next-url = "/voyageur" %}
         {% assign prev-event = "Curnow Marathon" %}
-        {% assign prev-url = "/curnow/#register-results" %}
+        {% assign prev-url = "/curnow#register-results" %}
       {% else %}
       {% assign active_event = "Fall Series" %}
-      {% assign next-url = "/fall-series/" %}
+      {% assign next-url = "/fall-series" %}
       {% assign prev-event = "Voyageur 50" %}
-      {% assign prev-url = "/voyageur/#register-results" %}
+      {% assign prev-url = "/voyageur#register-results" %}
       {% endif %}
     {% endif %}
 
   {% else %}
     {% assign active_event = "Spring Series" %}
-    {% assign next-url = "/spring-series/" %}
+    {% assign next-url = "/spring-series" %}
     {% assign prev-event = "Fall Series" %}
-    {% assign prev-url = "/fall-series/#overall-standings" %}
+    {% assign prev-url = "/fall-series#overall-standings" %}
   {% endif %}
 
 {% endif %}

@@ -1,5 +1,5 @@
 ---
 layout: page
 title: Waiver Form
-permalink: /waiver/
+permalink: /waiver
 ---
