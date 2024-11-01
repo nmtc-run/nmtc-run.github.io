@@ -165,7 +165,7 @@
 
 .sponsor-desc em {
   text-decoration: underline;
-  font-style: normal; 
+  font-style: normal;
 }
 
 .sponsors-list > a > .sponsor {
@@ -183,7 +183,7 @@
   // border-right: 4px solid darken($background-color, 5%);
   margin-right: 1em;
   max-width: calc(50% - 0.5em);
-  filter: grayscale(100%) contrast(200%);
+  // filter: grayscale(100%) contrast(200%);
 }
 
 .sponsors-list > a > .sponsor > .content {
