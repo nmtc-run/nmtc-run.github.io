@@ -100,9 +100,22 @@
     var moreItems = document.getElementById('more-container');
     if (moreItems.classList.contains('show')) {
           moreItems.classList.remove('show');
+          document.removeEventListener('click', handleOutsideClick); // Remove event listener when menu closes
       } else {
           moreItems.classList.add('show');
+          document.addEventListener('click', handleOutsideClick); // Add event listener to close menu on outside click
       }
+  }
+
+  // Function to close menu when clicking outside of it
+  function handleOutsideClick(event) {
+    const moreContainer = document.getElementById('more-container');
+    const moreToggle = document.getElementById('more-selector');
+
+    if (!moreContainer.contains(event.target) && !moreToggle.contains(event.target)) {
+      moreContainer.classList.remove('show');
+      document.removeEventListener('click', handleOutsideClick); // Remove listener once menu is closed
+    }
   }
 
   // Function to handle window resize
@@ -141,6 +154,7 @@
       body.classList.add('menu-active');
     });
 
+    // Event listener for the overlay toggle close button
     overlayToggle.addEventListener('click', function () {
       moreContainer.classList.remove('overlay');
       moreContent.classList.remove('overlay');
