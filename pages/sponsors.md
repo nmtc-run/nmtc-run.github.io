@@ -1,6 +1,7 @@
 ---
 layout: sponsors
 title: NMTC Sponsors
+description: A big thank you to our sponsors. 
 permalink: /sponsors
 ---
 

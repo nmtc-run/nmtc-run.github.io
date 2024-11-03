@@ -1,6 +1,7 @@
 ---
 layout: series
 title: NMTC Fall Series
+description: Nine short-distance trail races showcasing many of the area's finest woodland singletrack trails. 
 permalink: /fall-series
 button-text: Schedule
 button-url: /fall-series#schedule-and-race-results

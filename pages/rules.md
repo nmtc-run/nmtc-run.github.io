@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Race Rules
+description: Race rules and procedures are designed for the safety and well-being of everyone involved in the race—including runners, crews, volunteers and spectators.
 permalink: /rules
 ---
 These race rules and procedures are designed for the safety and well-being of everyone involved in the race including runners, crews, volunteers and spectators. The runner is responsible for knowing all the rules. Failure to comply with these rules may result in the disqualification of the runner.

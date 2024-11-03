@@ -3,6 +3,7 @@ layout: shop
 title: Shop NMTC
 permalink: /shop
 img: /img/shop/nmtc-product.jpg
+sitemap: false
 ---
 
 Spread the good word of great local trail running, with these NMTC-branded, lifestyle-enhancing conversation starters. When people do a double take and ask you "Say, what's that NMTC thing?" and "Can I get into that, too?" be sure to tell 'em:

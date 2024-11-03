@@ -1,6 +1,7 @@
 ---
 layout: legends
 title: Legends of NMTC
+description: The contributions of these extraordinary volunteers added up over decades to make our local trail running community what it is today.  
 permalink: /legends
 ---
 

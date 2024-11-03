@@ -1,6 +1,8 @@
 ---
 layout: article
-title: Race Results
+title: Results
+article-title: Race Results
+description: Historical results for the Voyageur 50 and Curnow Marathon.  
 permalink: /results/
 ---
 

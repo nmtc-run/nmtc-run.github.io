@@ -1,6 +1,7 @@
 ---
 layout: series
 title: NMTC Spring Series
+description: Six short-distance trail races to kick off a year of fantastic local trail running.
 permalink: /spring-series
 button-text: Schedule
 button-url: /spring-series#schedule-and-race-results

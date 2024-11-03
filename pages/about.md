@@ -1,6 +1,8 @@
 ---
 layout: article
-title: About NMTC
+title: About
+description: Directing trail races and supporting trail running in the Duluth / Superior area since 1981.
+article-title: About NMTC
 permalink: /about
 ---
 # Our Mission

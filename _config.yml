@@ -1,6 +1,6 @@
 
 
-title: NMTC - Northen Minnesota Track Club
+title: " "
 description: >- # ignore newlines
   Northern Minnesota's grassroots trail running events.
   Promoting trail running and managing races since 1981.
@@ -13,6 +13,7 @@ google-analytics: G-WQPCE80YGQ #insert Measurement ID: "G-XXXXXXXXXX"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.

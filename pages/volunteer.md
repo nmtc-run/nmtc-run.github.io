@@ -1,6 +1,8 @@
 ---
 layout: article
-title: Make magic happen
+title: Volunteer
+description: Make magic happen for your fellow runners. 
+article-title: Make magic happen
 permalink: /volunteer
 img: /img/aid-station.jpeg
 button-text: Volunteer Sign-Up

@@ -1,6 +1,8 @@
 ---
 layout: contact
-title: Contact NMTC
+title: Contact
+article-title: Contact NMTC
+description: Get in touch with NMTC. 
 permalink: /contact
 ---
 

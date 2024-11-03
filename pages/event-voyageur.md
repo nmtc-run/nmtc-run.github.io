@@ -1,6 +1,7 @@
 ---
 layout: event
 title: Minnesota Voyageur Trail Ultramarathon
+description: 50 mi out-and-back, one of the oldest trail running ultras in the nation. 
 permalink: /voyageur
 button-text: Registration / Results
 button-url: /voyageur#register-results

@@ -1,6 +1,8 @@
 ---
 layout: article
-title: Race Photos
+title: Photos
+article-title: Race Photos
+description:
 permalink: /photos
 ---
 

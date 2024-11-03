@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Ella Fennessey Award
+description: This award for dedication to local trail running honors Ella Fennessey, who became a fixture of our community by always showing up.
 permalink: /fennessey-award
 img: /img/legends/ella-bio.jpeg
 caption: Ella Fennessey (far right) with fellow local running legends Eugene Curnow, Don Fennessey, and Barb Curnow.

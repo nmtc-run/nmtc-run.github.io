@@ -1,6 +1,8 @@
 ---
 layout: article
-title: Support local trail running
+title: Donate
+description: Every dollar supports local trail running and racing. 
+article-title: Support local trail running
 permalink: /donate
 img: https://lh3.googleusercontent.com/pw/AP1GczMalOwkUn9MqQ79pmQpi_ebe5NcSXqp8YWe7vaKm9DwqdOxjNtxRXnWprtF5hWuKVFdEbV-fFuI3LBXi-QpmsyBqBcu8gbjBSRRYL9I57a7Kpa5e3E=w2400
 button-text: Donate via PayPal
