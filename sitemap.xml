@@ -1,72 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>http://nmtc.run/</loc>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>http://nmtc.run/voyageur</loc>
-<priority>0.9</priority>
-</url>
-<url>
-<loc>http://nmtc.run/curnow</loc>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>http://nmtc.run/spring-series</loc>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>http://nmtc.run/fall-series</loc>
-<priority>0.7</priority>
-</url>
-<url>
-<loc>http://nmtc.run/about</loc>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>http://nmtc.run/contact</loc>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>http://nmtc.run/donate</loc>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>http://nmtc.run/volunteer</loc>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>http://nmtc.run/legends</loc>
-</url>
-<url>
-<loc>http://nmtc.run/legends/gene</loc>
-</url>
-<url>
-<loc>http://nmtc.run/legends/ella</loc>
-</url>
-<url>
-<loc>http://nmtc.run/fennessey-award</loc>
-</url>
-<url>
-<loc>http://nmtc.run/photos</loc>
-</url>
-<url>
-<loc>http://nmtc.run/race</loc>
-</url>
-<url>
-<loc>http://nmtc.run/registration</loc>
-</url>
-<url>
-<loc>http://nmtc.run/results/</loc>
-</url>
-<url>
-<loc>http://nmtc.run/rules</loc>
-</url>
-<url>
-<loc>http://nmtc.run/sponsors</loc>
-</url>
-<url>
-<loc>http://nmtc.run/course-marking</loc>
-</url>
+  <url>
+    <loc>http://nmtc.run/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/voyageur</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/curnow</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/spring-series</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/fall-series</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/about</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/contact</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/donate</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/volunteer</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/legends</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/legends/gene</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/legends/ella</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/fennessey-award</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/photos</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/race</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/registration</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/results</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/rules</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/sponsors</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://nmtc.run/course-marking</loc>
+    <priority>0.5</priority>
+  </url>
 </urlset>
