@@ -19,6 +19,8 @@ To earn this coveted annual award, do in one year what Ella did every year: run 
 
 [2022](https://www.facebook.com/runnmtc/posts/pfbid0tcFFiScHxMSToncra7zd1t5H9iqgNKTvtcqnbzMF85rAzTLXU7QjTe3AKoLECFzrl?__cft__[0]=AZVhMlBP4zYPQm6KxjtAjuBOwb_MlZIhHHvp4nxZJ7QtbN8bFJjR8EdmIdLR5bygh6_8QmTk_xo4WYxso9JTQaIqCtr5B9ghJltefCUiH8CgBc-TDdmunmTMOQkIFLWk1u-FuktEx7WswVat2WMVxqxITg_SuFWFvGxSJLULij3Maa6IpYl7TN494N3DKebfI0w&__tn__=%2CO%2CP-R){:target="_blank"}: Barb Bengtson, Barb Luke, Haley Bengtson, Jarrow Wahman, Marcus Taintor, Matt Nixon, Roger Reinert
 
+<span style="text-decoration: underline;">2020/2021</span>: No awards given, with racing suspended in 2020 and an abridged race calendar in 2021.
+
 [2019](https://www.facebook.com/runnmtc/photos/pb.100064725485034.-2207520000/3092790717460131/?type=3){:target="_blank"}: Barb Bengtson, Barb Luke, Haley Bengtson, Jarrow Wahman, Mae Gackstetter, Marcus Taintor, Nick Korhonen, Rollie Everson, Seth Lozano, Shelly Thompson
 
 [2018](https://www.facebook.com/runnmtc/photos/pb.100064725485034.-2207520000/2232839120121966/?type=3){:target="_blank"}: Barb Bengtson, Barb Luke, Brian Landstrom, Jarrow Wahman, Macy Curnow, Rollie Everson
@@ -28,3 +30,7 @@ To earn this coveted annual award, do in one year what Ella did every year: run 
 [2016](https://www.facebook.com/photo/?fbid=10207303406999940&set=t.1310903575){:target="_blank"}: Amber Gurske, Barb Bengtson, Dan Proctor, Haley Bengston, Jamie Glesener, Jarrow Wahman, Jonas Ryttie, Kris Glesener, Sam Shanks, Shelly Thompson, Tina Nelson
 
 [2015](https://www.facebook.com/photo.php?fbid=10204813219026797&set=t.1310903575&type=3){:target="_blank"}: Barb Bengtson, Erik Elmstrand, Haley Bengtson, Jarrow Wahman, Kris Glesener, Shaun Lynch, Shelly Thompson, Tina Nelson, Wildknits
+
+<span style="text-decoration: underline;">2014</span>: Two times makes it a new tradition! Class list to come. 
+
+<span style="text-decoration: underline;">2013</span>: The inaugural year! Class list to come.
