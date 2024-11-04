@@ -76,7 +76,7 @@ Runners receive awards as they finish.
 
 **Traffic warning:** Use care on bike paths and roads. Runners must yield to traffic when crossing roads! A race is just a run; a road crossing is life and death!  
 
-**Footing warning:** The race is run primarily on rugged woodland singletrack with roots, rocks, and other potential hazards. Watch footing on the bridges; they can be slippery, especially when wet, and some may have boards missing.
+**Footing warning:** Many race courses feature rugged woodland singletrack with roots, rocks, and other potential hazards. Watch footing on the bridges; they can be slippery, especially when wet, and some may have boards missing.
 
 **Cupless:** NMTC races are cup-free races. We will not provide paper cups at aid stations, and runners will need to carry their own cups (for example, collapsible cups, bottles, or other hydration vessels) for use at aid stations.
 

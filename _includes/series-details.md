@@ -8,31 +8,39 @@
   {% assign potluck = 'at the Lester Amity Chalet' %}
 {% endif %}
 
-# Everyone is welcome
-
-All ages and experience levels are welcome and well represented at our running events. The vibe is something akin to a neighborhood barbecue—a community gathering to meet old friends and make new ones. Come join a bunch of folks who like to play in the woods!
-
 # Fun events and competitive racing
 
-We believe everyone can find exactly as much competition as they’re looking for. NMTC events offer a chance to test yourself against many of the area’s fastest trail runners or enjoy a fun run with friends—or both!—it’s entirely up to you.
+**Run your race**: We believe everyone can find exactly as much competition as they’re looking for. NMTC events offer a chance to test yourself against many of the area’s fastest trail runners or enjoy a fun run with friends—or both!—it’s entirely up to you.
 
-We maintain overall series standings and award points to everyone based on the order they finish in each race. Find links to [race results and overall standings](#overall-standings) above. We update the overall standings each week. You can find results from prior years on our [race results](/results) page.
+**Overall series standings:** After each race, we award points to everyone based on the order in which they finish—and we publish results for each race, as well as the updated overall standings, on this page.
 
-Everyone who runs or volunteers receives a prize at our end-of-series potluck. Prizes are donated by individuals and local businesses.
+**Series finale potluck and prizes:** At the final race, join us for awards and a potluck {{ potluck }}. Bring a dish! Everyone who runs or volunteers at any Series race receives a prize, which are donated by individuals and local businesses.
+
+**Everyone is welcome:** All ages and experience levels are welcome and well represented at our running events. The vibe is something akin to a neighborhood barbecue—a community gathering to meet old friends and make new ones. Come join a bunch of folks who like to play in the woods!
 
 # Registration
 
 Races are free. We do have a donation jar at each race and an [online donation option](/donate), with all contributions dedicated directly toward the continued viability of the NMTC race series, the Eugene Curnow Trail Marathon, and the Minnesota Voyageur Trail Ultramarathon.
 
-Register at the starting line of each race. If you arrive about an hour before the race start, look for the person sitting at a folding table with a laptop. And if you arrive a little closer to race time, look for the line of people near the folding table and laptop!  
+Check in at the starting line of each race. If you arrive about an hour before the race start, look for the person sitting at a folding table with a laptop. And if you arrive a little closer to race time, look for the line of people near the folding table and laptop!  
 
-NMTC requires all runners to complete a waiver once per year. Waiver forms are provided at the check-in table at all races. 
+NMTC requires all runners to complete a waiver once per year. Waiver forms are provided at the check-in table at all races.
 
-# Refreshments
+# Details
 
-We supply water at the start/finish line of every race, but you must bring your own cup.
+**Trail markings:** Follow the hot orange pin flags with “NMTC” on them. If you don’t see one in about 0.1 miles, you are off course! Turns are marked with a series of pin flags a few feet apart on the side to which you’ll be turning—for example, a right-hand turn marked with three pin flags on the runner's right hand side. For more, see [course marking](/course-marking).
 
-At the final race, join us for awards and a potluck {{ potluck }}. Bring a dish!
+**Runner safety:** Unlike the [Curnow Marathon](/curnow) and [Voyageur 50](/voyageur), {{ springFall }} Series races have \*zero\* road crossings. As always, many of our race courses feature rugged woodland singletrack with roots, rocks, and other potential hazards. Watch footing on the bridges; they can be slippery, especially when wet, and some may have boards missing.
+
+**Cupless:** NMTC races are cup-free races. We supply water at the start/finish line of every race, but you must bring your own cup.
+
+**Potluck:** Join us after the final race for the potluck {{ potluck }}. Remember to bring a dish!
+
+**Awards:** Everyone who runs or volunteers at any Series race gets a prize. Prizes are donated by individuals and local businesses.
+
+**Race results:** Links to historical results are posted above. Click on the race name, then click the year to see results.
+
+**Photos:** Photos are often uploaded to the [NMTC Facebook page](https://www.facebook.com/runnmtc).
 
 # Volunteer opportunities
 
