@@ -14,7 +14,7 @@
   description: >- # ignore newlines
     Originally dubbed the Half Voyageur, this challenging point-to-point course over rough woodland trails offers scenic overlooks of Duluth, Lake Superior, and the St. Louis River.
   page: /curnow
-  img: https://lh3.googleusercontent.com/pw/AP1GczOpqfuJz4sfl5TnVxEikJ5mUOH9eaBLzNPYzczWau37ZCzIxs7E8cAp276fRMzfvBvyarAAk8NJdPAppg3cTqn4h3hMlfH_SiGHDx-UW1AoA4AeVm0=w2400
+  img: /img/curnow.jpeg
   slug: Curnow Marathon
   button-text: Register/Results
 
@@ -24,7 +24,7 @@
   description: >- # ignore newlines
     Founded in 1982, this legendary race stands among the longest-running trail ultras in the nation. The out-and-back course invites runners on a journey through several rugged trail systems between Carlton and Duluth.
   page: /voyageur
-  img: https://lh3.googleusercontent.com/pw/AP1GczMALLswh_8UF6HpPqhln8713s7YAL0wgvHnmc3Jd4D9M_7Wprm2mkGeW-EG5YGLRkIZfSLtieOZuJ2Devs0lC1IafVwXeo3wN49D9UohowfRuJhk4w=w2400
+  img: /img/voyageur-runners.jpeg
   slug: Voyageur 50
   button-text: Register/Results
 
@@ -34,6 +34,6 @@
   description: >- # ignore newlines
     Nine short-distance races over rugged woodland singletrack, held across the Twin Ports starting on Wednesday evenings before switching to Sunday afternoons to maintain daylight.
   page: /fall-series
-  img: https://lh3.googleusercontent.com/pw/AP1GczPfVoFNc7XCQdP-3EGWWdEocXgxDLpzp-5u0niwX5F1nX0CLfTJSr4UNnC8srq8wlndiGTXwyjs4fR5OWMA4bOj5_9khPEHMaZdc3SLVA9Y7lbAtYs=w2400
+  img: /img/lift-bridge.jpeg
   slug: Fall Series
   button-text: Schedule/Results

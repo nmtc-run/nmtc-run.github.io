@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Eugene Curnow Trail Marathon
-description: 26.2 mi point-to-point course run over rough woodland trails. 
+description: 26.2 mi point-to-point course run over rough woodland trails.
 permalink: /curnow
 button-text: Registration / Results
 button-url: /curnow#register-results
@@ -25,6 +25,7 @@ google-sat-view: 15yRKa9KWA1H8DIV_LvPyGiUp9s_4ROc
 google-spreadsheet-id: 11C7XBqt0ejhSXVvgBR5zNpl0l_SCzJNnqSAdX5At9UI
 gpx-url: /assets/gpx/Curnow-Marathon.gpx
 elevation-profile: /assets/gpx/curnow-elevation-2024.svg
+redirect_from: /about-our-races/eugene-curnow-marathon/
 ---
 
 # Runner support

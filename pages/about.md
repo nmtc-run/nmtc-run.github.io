@@ -4,6 +4,7 @@ title: About
 description: Directing trail races and supporting trail running in the Duluth / Superior area since 1981.
 article-title: About NMTC
 permalink: /about
+redirect_from: /about-us/
 ---
 # Our Mission
 
@@ -15,21 +16,20 @@ The NMTC is organized and managed by a committee of individuals who love the spo
 
 ## Officers
 
-* Haley Bengtson – Chair
+* Nate Hubert – Chair
 * Kaelyn Williams – Vice Chair
 * Mae Gackstetter – Secretary / Treasurer
 
 ## At-Large Members
-
-* Samantha Frey
-* Leslie Semler
-* Marcus Taintor
-* Shelly Thompson
 * Jarrow Wahman
 * Lane Johnson
-* Nate Hubert
-* Matt Livingston
+* Leslie Semler
+* Marcus Taintor
 * Mark Grindy
+* Matt Livingston
+* Ron Hendrickson
+* Samantha Frey
+* Shelly Thompson
 
-![NMTC board members](https://lh3.googleusercontent.com/pw/AP1GczNHR5aQF-U2yyVYK-Gid9T9zm04cMundIZvnec2qbWJbZoqfaBasWe_OlPYCLe8M7BzDAmlalhOr8stkCE0s47TxfK2eruqakQT8q3EEevZoOrJotg=w800 "NMTC board members")
+![NMTC board members](/img/nmtc-board.jpeg "NMTC board members")
 _NMTC board members, June 2024. From left: Lane, Mark, Matt, Kaelyn, Shelly, Haley, Sam, Leslie, Jarrow, Mae, Nate, and Marcus (with Clay)._

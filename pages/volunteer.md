@@ -1,14 +1,17 @@
 ---
 layout: article
 title: Volunteer
-description: Make magic happen for your fellow runners. 
+description: Make magic happen for your fellow runners.
 article-title: Make magic happen
 permalink: /volunteer
 img: /img/aid-station.jpeg
 button-text: Volunteer Sign-Up
-button-url: https://lh3.googleusercontent.com/pw/AP1GczOnGVqZnDOZ0Spioe63juWh-blEKxJt4vea1y30JLoDRUOAFCs3BjtBu6_8lT23rI2_hTlhigvzQpJR0XunVCFx9AA-MEsafOofAgA3bN3uIOgiJiY=w2400
+button-url: /img/aid-station.jpeg
 button-external: false
 button-down-arrow: true
+redirect_from:
+  - /the-trail-community/volunteering/
+  - /the-trail-community/
 ---
 
 ## YOU make Voyageur and Curnow possible

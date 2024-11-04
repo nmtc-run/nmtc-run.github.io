@@ -2,7 +2,7 @@
 layout: article
 title: How we mark courses  
 permalink: /course-marking
-img: https://lh3.googleusercontent.com/pw/AP1GczOADpEAaP0c06LWflgTx_oRvqCWNoJZrnjGtgmTYIjDv8t4BMtvTjxIZWM8eD90ZJG-zBp5Lsv4PhdLeAv0hBD3OpI8OY5xZHUSGuXyIdWw6jiGlHQ=w2400
+img: /img/marking-arrow-orange.jpg
 ---
 
 # Basic marking

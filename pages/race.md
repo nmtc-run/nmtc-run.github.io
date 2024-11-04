@@ -3,9 +3,18 @@ layout: article
 title: Our Races
 description: NMTC presents trail running events throughout the temperate seasons.
 article-title: NMTC Races
-img: https://lh3.googleusercontent.com/pw/AP1GczP2x3SJEJN1mf451b95bM57EKgtUchV849hA_qfkq470ZMd2hnDjfsUKonC2DWH32hERakAMUncmNTknmzSIs577PX66xyeG5SCaHxZdQRwzweic0o=w2400
+img: /img/voyageur-start.jpeg
 permalink: /race
 include-races: true
+redirect_from:
+  - /about-our-races/
+  - /about-our-races/nmtc-spring-fall-race-series/
+  - /race-information/directions/
+  - /race-information/
+  - /spring-2023-race-descriptions/
+  - /directions-to-bull-run-course/
+  - /2022-nmtc-series-race-dates-have-been-set-pending-permitting/
+  - /2023-nmtc-series-race-dates-have-been-set-pending-permitting/
 ---
 
 ## Grassroots trail running events

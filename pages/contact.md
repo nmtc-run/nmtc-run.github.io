@@ -2,8 +2,9 @@
 layout: contact
 title: Contact
 article-title: Contact NMTC
-description: Get in touch with NMTC. 
+description: Get in touch with NMTC.
 permalink: /contact
+redirect_from: /contact-us/
 ---
 
 Have a question about volunteering?
