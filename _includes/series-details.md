@@ -12,9 +12,9 @@
 
 **Run your race**: We believe everyone can find exactly as much competition as they’re looking for. NMTC events offer a chance to test yourself against many of the area’s fastest trail runners or enjoy a fun run with friends—or both!—it’s entirely up to you.
 
-**Overall series standings:** After each race, we award points to everyone based on the order in which they finish—and we publish results for each race, as well as the updated overall standings, on this page.
+**Overall series standings:** Runners are awarded points based on the order in which they finish. To see historical results, click on the race name, then click on the year. We update overall standings after each race.
 
-**Series finale potluck and prizes:** At the final race, join us for awards and a potluck {{ potluck }}. Bring a dish! Everyone who runs or volunteers at any Series race receives a prize, which are donated by individuals and local businesses.
+**Series finale potluck and prizes:** At the final race, join us for awards and a potluck {{ potluck }}. Bring a dish! Everyone who runs or volunteers at any Series race receives a prize. Prizes are generously donated by individuals and local businesses.
 
 **Everyone is welcome:** All ages and experience levels are welcome and well represented at our running events. The vibe is something akin to a neighborhood barbecue—a community gathering to meet old friends and make new ones. Come join a bunch of folks who like to play in the woods!
 
@@ -34,12 +34,6 @@ NMTC requires all runners to complete a waiver once per year. Waiver forms are p
 
 **Cupless:** NMTC races are cup-free races. We supply water at the start/finish line of every race, but you must bring your own cup.
 
-**Potluck:** Join us after the final race for the potluck {{ potluck }}. Remember to bring a dish!
-
-**Awards:** Everyone who runs or volunteers at any Series race gets a prize. Prizes are donated by individuals and local businesses.
-
-**Race results:** Links to historical results are posted above. Click on the race name, then click the year to see results.
-
 **Photos:** Photos are often uploaded to the [NMTC Facebook page](https://www.facebook.com/runnmtc).
 
 # Volunteer opportunities
@@ -47,3 +41,19 @@ NMTC requires all runners to complete a waiver once per year. Waiver forms are p
 Not running? Volunteer instead! You'll earn points toward the {{ springFall }} Series overall standings and stay eligible for the [Ella Fennessey Award](/fennessey-award).
 
 If you're interested in volunteering, [contact us](/contact) in advance or show up between 5:30 and 6:00 pm on race day. We'll find a job for everyone!
+
+# Potluck & prizes
+
+Join us after the final race for the potluck {{ potluck }}. Everyone who runs or volunteers in support of at least one {{ springFall }} Series race earns a prize. Prizes are generously donated by individuals and local businesses, including:
+* [Austin-Jarrow](https://www.austin-jarrow.com/)
+* [Duluth Running Company](https://duluthrunning.com/)
+* Jamison and Lisa Swift of [Fire Tower Trail Races](https://firetowertrailraces.com/) and [St. Croix 40](https://stcroixwinterultra.com/about-us/)
+* John Storkamp of [Rocksteady Running](https://www.rocksteadyrunning.com/)
+* [Lisa Bryne](https://www.theduluthrundown.com/tag/lisa-byrne/)
+* [Minnesota Voyageur Trail Ultra](/voyageur) and [Curnow Marathon](/curnow)
+* [North Shore Ballroom](https://northshoreballroom.dance/)
+* Siiri Morse of [Grand Traverse](https://grandtraverseduluth.com/) and [Midnight Sun](https://www.mnspas.com/)
+* [Ski Hut](https://www.skihut.com/)
+* [Superior Hiking Trail Association](https://superiorhiking.org/)
+* [Trailfitters](https://trailfitters.com/)
+* [Wild State Cider](https://wildstatecider.com/)

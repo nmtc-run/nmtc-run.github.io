@@ -1,7 +1,7 @@
 - name: Lester Park
   date: 2024-08-28 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 6.5
+  dist: 10.5
   sunset: "7:51 PM"
   time-to-dark: "1:51"
   min-pace: "17:01"
@@ -20,7 +20,7 @@
 - name: Zapp's Loop
   date: 2024-09-04 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 5.5
+  dist: 9
   sunset: "7:38 PM"
   time-to-dark: "1:38"
   min-pace: "17:31"
@@ -39,7 +39,7 @@
 - name: Hartley
   date: 2024-09-11 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 5.5
+  dist: 9
   sunset: "7:24 PM"
   time-to-dark: "1:24"
   min-pace: "15:01"
@@ -58,7 +58,7 @@
 - name: Brown's Point
   date: 2024-09-18 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 5
+  dist: 8
   sunset: "7:10 PM"
   time-to-dark: "1:10"
   min-pace: "14:05"
@@ -77,7 +77,7 @@
 - name: Rock Hill
   date: 2024-09-25 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 4
+  dist: 6
   sunset: "6:56 PM"
   time-to-dark: "0:56"
   min-pace: "15:01"
@@ -97,7 +97,7 @@
 - name: Pine Valley
   date: 2024-10-02 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 3.5
+  dist: 5.5
   sunset: "6:42 PM"
   time-to-dark: "0:42"
   min-pace: "12:17"
@@ -116,7 +116,7 @@
 - name: Rolling Stone
   date: 2024-10-06 # use format: YYYY-MM-DD
   time: "2:00 PM"
-  dist: 4
+  dist: 6
   sunset:
   time-to-dark:
   min-pace:
@@ -135,7 +135,7 @@
 - name: Bull Run
   date: 2024-10-13 # use format: YYYY-MM-DD
   time: "2:00 PM"
-  dist: 6.5
+  dist: 10.5
   sunset:
   time-to-dark:
   min-pace:
@@ -166,7 +166,7 @@
 - name: Hawk Ridge
   date: 2024-10-27 # use format: YYYY-MM-DD
   time: "2:00 PM"
-  dist: 4
+  dist: 6
   sunset:
   time-to-dark:
   min-pace:

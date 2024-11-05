@@ -1,7 +1,7 @@
 - name: Bear Creek
   date: 2024-05-01 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 4.5
+  dist: 7.3
   sunset: "8:20 PM"
   time-to-dark: "2:20"
   min-pace: "30:50"
@@ -20,7 +20,7 @@
 - name: Point Pine
   date: 2024-05-08 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 4
+  dist: 6.5
   sunset: "8:38 PM"
   time-to-dark: "2:38"
   min-pace: "37:30"
@@ -39,7 +39,7 @@
 - name: Spirit Mountain
   date: 2024-05-12 # use format: YYYY-MM-DD
   time: "10:00 AM"
-  dist: 10
+  dist: 16
   sunset:
   time-to-dark:
   min-pace:
@@ -59,7 +59,7 @@
 - name: Billings Drive
   date: 2024-05-15 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 4.5
+  dist: 7
   sunset: "8:38 PM"
   time-to-dark: "2:38"
   min-pace: "36:20"
@@ -78,7 +78,7 @@
 - name: Woodland Run
   date: 2024-05-22 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 3.5
+  dist: 5.5
   sunset: "8:49 PM"
   time-to-dark: "2:46"
   min-pace: "36:20"
@@ -109,7 +109,7 @@
 - name: Chester Bowl
   date: 2024-06-05 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 3.6
+  dist: 5.8
   sunset: "8:59 PM"
   time-to-dark: "2:59"
   min-pace: "48:34"

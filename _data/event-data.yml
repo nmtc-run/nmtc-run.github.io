@@ -1,5 +1,5 @@
 - name: NMTC Spring Series
-  distance: 3 to 10 mi
+  distance: 5 to 16 km
   date: May 1 to June 5, 2024
   description: >- # ignore newlines
     Six short-distance races on a mix of surfaces—from creekside paths to gravel roads to sandy stretches along Lake Superior. Races are held across the Twin Ports—most on Wednesday evenings and one on a Sunday morning.
@@ -29,7 +29,7 @@
   button-text: Register/Results
 
 - name: NMTC Fall Series
-  distance: 3 to 7 mi
+  distance: 6 to 11 km
   date: Aug 28 to Oct 27, 2024
   description: >- # ignore newlines
     Nine short-distance races over rugged woodland singletrack, held across the Twin Ports starting on Wednesday evenings before switching to Sunday afternoons to maintain daylight.
