@@ -31,6 +31,6 @@ To earn this coveted annual award, do in one year what Ella did every year: run 
 
 [2015](https://www.facebook.com/photo.php?fbid=10204813219026797&set=t.1310903575&type=3){:target="_blank"}: Barb Bengtson, Erik Elmstrand, Haley Bengtson, Jarrow Wahman, Kris Glesener, Shaun Lynch, Shelly Thompson, Tina Nelson, Wildknits
 
-<span style="text-decoration: underline;">2014</span>: Two times makes it a new tradition! Class list to come. 
+<span style="text-decoration: underline;">2014</span>: Barb Bengtson, Leslie Semler, Haley Bengtson, Marcus Taintor, Jamie Glesener, Sara Post, Kris Glesener, Shaun Lynch
 
-<span style="text-decoration: underline;">2013</span>: The inaugural year! Class list to come.
+<span style="text-decoration: underline;">2013</span>: Andrea Ring, Chris Rubesch, Craig Hertz, Jamie Block, Jarrow Wahman, Rick Kucinski, Shane Olson, Shelly Thompson
