@@ -47,14 +47,14 @@ If you're interested in volunteering, [contact us](/contact) in advance or show 
 Join us after the final race for the potluck {{ potluck }}. Everyone who runs or volunteers in support of at least one {{ springFall }} Series race earns a prize. Prizes are generously donated by individuals and local businesses, including:
 * [Austin-Jarrow](https://www.austin-jarrow.com/){:target="_blank"}
 * Benjamin Welch of [North Shore Ballroom](https://northshoreballroom.dance/){:target="_blank"}
-* Chester Bowl
+* [Chester Bowl](https://www.chesterbowl.org/){:target="_blank"}
 * [Duluth Running Company](https://duluthrunning.com/){:target="_blank"}
 * Jamison and Lisa Swift of [Fire Tower Trail Races](https://firetowertrailraces.com/) and [St. Croix 40](https://stcroixwinterultra.com/about-us/){:target="_blank"}
 * John Storkamp of [Rocksteady Running](https://www.rocksteadyrunning.com/)
-* Lester Amity Chalet
+* Lester Amity Chalet[](){:target="_blank"}
 * [Lisa Byrne](https://www.theduluthrundown.com/tag/lisa-byrne/){:target="_blank"}
 * [Minnesota Voyageur Trail Ultra](/voyageur) and [Curnow Marathon](/curnow){:target="_blank"}
-* Mike Ward
+* [Mike Ward](https://mikeward.cool/){:target="_blank"}
 * Nikk Adams of [Trail Life Coaching, NCTRaces](https://www.traillifellc.com/about){:target="_blank"}
 * Siiri Morse of [Grand Traverse](https://grandtraverseduluth.com/) and [Midnight Sun](https://www.mnspas.com/){:target="_blank"}
 * [Ski Hut](https://www.skihut.com/){:target="_blank"}
