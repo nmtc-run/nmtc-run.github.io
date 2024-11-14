@@ -17,7 +17,7 @@ To earn this coveted annual award, do in one year what Ella did every year: run 
 
 [2023](https://www.facebook.com/photo?fbid=10222591122823281&set=a.2844961679666){:target="_blank"}: Anissa Thompson, Barb Bengtson, Brian Beckman, Dave Schaeffer, Jarrow Wahman, Marcus Taintor, Matt Livingston, Nate Hubert, Roger Reinert
 
-[2022](https://www.facebook.com/runnmtc/posts/pfbid0tcFFiScHxMSToncra7zd1t5H9iqgNKTvtcqnbzMF85rAzTLXU7QjTe3AKoLECFzrl?__cft__[0]=AZVhMlBP4zYPQm6KxjtAjuBOwb_MlZIhHHvp4nxZJ7QtbN8bFJjR8EdmIdLR5bygh6_8QmTk_xo4WYxso9JTQaIqCtr5B9ghJltefCUiH8CgBc-TDdmunmTMOQkIFLWk1u-FuktEx7WswVat2WMVxqxITg_SuFWFvGxSJLULij3Maa6IpYl7TN494N3DKebfI0w&__tn__=%2CO%2CP-R){:target="_blank"}: Barb Bengtson, Barb Luke, Haley Bengtson, Jarrow Wahman, Marcus Taintor, Matt Nixon, Roger Reinert
+[2022](https://www.facebook.com/runnmtc/posts/pfbid0MauRYQMShNK9AJHMd5Rgg1NNdi4s6Dx6pAyB52ePxkVwnzaNpUb3Dr8nXTB967SFl){:target="_blank"}: Barb Bengtson, Barb Luke, Haley Bengtson, Jarrow Wahman, Marcus Taintor, [Matt Nixon](https://www.facebook.com/runnmtc/posts/pfbid0RtziAWhLfQqP6KYe98BaHtHhuub1UCvbEzFeL9xANjPnckfrsxRu3kcP1vmVeuLXl){:target="_blank"}, Roger Reinert
 
 <span style="text-decoration: underline;">2020/2021</span>: No awards given, with racing suspended in 2020 and an abridged race calendar in 2021.
 
