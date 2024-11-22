@@ -17,6 +17,7 @@ redirect_from:
   - /race-information/race-schedules/
   - /hello/
   - /a-quick-word-from-our-legal-department/
+  - /mission-creek-restoration-work-by-swcd-update/
 ---
 
 NMTC exists to create trail running events we can all participate in and enjoy. Many of our races take place on challenging courses, which is part of the fun. Everyone is welcome to participate, regardless of ability. Our trail runs offer opportunities to test and improve your fitness, enjoy the outdoors, and mingle with fellow runners.

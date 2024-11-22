@@ -12,6 +12,7 @@ button-down-arrow: true
 redirect_from:
   - /the-trail-community/volunteering/
   - /the-trail-community/
+  - /volunteering/
 ---
 
 ## YOU make Voyageur and Curnow possible
