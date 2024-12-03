@@ -40,6 +40,7 @@
   {% if forloop.first == true %}
     {% assign active_event = event.name %}
     {% assign series_opener = event.name %}
+    {% assign series_opener_date = event.date | date: "%Y-%m-%d" %}
   {% endif %}
 
   {% comment %} check to see if we should even continue {% endcomment %}
@@ -103,6 +104,10 @@
 
   {% comment %} if spring, set curnow or voyageur {% endcomment %}
 
+  {% if today <= series_opener_date %}
+    {% assign series-over = "fall" %}
+  {% endif %}
+
   {% if series-over == "spring" %}
 
     {% if today <= curnDate %}
@@ -125,7 +130,8 @@
     {% endif %}
 
   {% else %}
-    {% assign active_event = "Spring Series" %}
+    {% assign series_opener_date_formatted = series_opener_date | date: ", %B %-d" %}
+    {% assign active_event = "Spring Series: " | append: series_opener | append: series_opener_date_formatted %}
     {% assign next-url = "/spring-series" %}
     {% assign prev-event = "Fall Series" %}
     {% assign prev-url = "/fall-series#overall-standings" %}
