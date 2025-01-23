@@ -248,48 +248,43 @@ layout: default
     if (hash) {
       var sectionContentDiv = document.getElementById(hash);
       if (sectionContentDiv) {
-        // Remove 'active' class from all divs
-        // var activeDivs = document.querySelectorAll('.active');
-        // activeDivs.forEach(function(div) {
-        //  div.classList.remove('active');
-        // });
         // Expand the corresponding div
         sectionContentDiv.classList.add('active');
         // Scroll to the section
-        document.getElementById(hash).scrollIntoView();
+        sectionContentDiv.scrollIntoView();
       }
     }
   }
 
-  // Run  function expandDivFromHash() when the page loads
+  // Run function expandDivFromHash() when the page loads
   window.onload = expandDivFromHash;
 
   // Define an async function to load the Google Maps JavaScript API
   async function loadGoogleMaps() {
-      // Import the Maps library using importLibrary function
-      const { Map } = await google.maps.importLibrary("maps");
+    // Import the Maps library using importLibrary function
+    const { Map } = await google.maps.importLibrary("maps");
   }
 
   // Call the loadGoogleMaps function to initialize the map
   loadGoogleMaps().catch(error => {
-      console.error('Error loading Google Maps:', error);
+    console.error('Error loading Google Maps:', error);
   });
 
   // Define the panToLocation function
   function panToLocation(latitude, longitude, zoom) {
-      console.log('Pan to:', latitude, longitude, 'Zoom:', zoom);
+    console.log('Pan to:', latitude, longitude, 'Zoom:', zoom);
 
-      // Get the embedded map iframe
-      const mapIframe = document.getElementById("map-iframe");
+    // Get the embedded map iframe
+    const mapIframe = document.getElementById("map-iframe");
 
-      // Extract the current map URL
-      let mapSrc = mapIframe.src;
+    // Extract the current map URL
+    let mapSrc = mapIframe.src;
 
-      // Construct the new map URL with latitude, longitude, and zoom level
-      const newMapSrc = mapSrc.includes('ll=') ? mapSrc.replace(/ll=[^&]+/, `ll=${latitude},${longitude}&z=${zoom}`) : `${mapSrc}&ll=${latitude},${longitude}&z=${zoom}`;
+    // Construct the new map URL with latitude, longitude, and zoom level
+    const newMapSrc = mapSrc.includes('ll=') ? mapSrc.replace(/ll=[^&]+/, `ll=${latitude},${longitude}&z=${zoom}`) : `${mapSrc}&ll=${latitude},${longitude}&z=${zoom}`;
 
-      // Update the map iframe src with the new URL to pan the map
-      mapIframe.src = newMapSrc;
+    // Update the map iframe src with the new URL to pan the map
+    mapIframe.src = newMapSrc;
   }
 
   // Dropdown functionality to view event details
@@ -299,7 +294,13 @@ layout: default
 
     // Add click event listener to each series-event.click-map element
     seriesEvents.forEach(function(event) {
-      event.addEventListener('click', function() {
+      event.addEventListener('click', function(e) {
+        // Check if the click target is a link with target="_blank"
+        if (e.target.tagName === 'A' && e.target.target === '_blank') {
+          // If true, do nothing (allow the default behavior of opening the link)
+          return;
+        }
+
         if (this.classList.contains('active')) {
           // If the clicked element is already active, remove the 'active' class
           this.classList.remove('active');
@@ -315,8 +316,8 @@ layout: default
       });
     });
   });
-
 </script>
+
 
 <div class="event-content">
     {% capture seriesDetails %}
