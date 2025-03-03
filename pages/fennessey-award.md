@@ -5,6 +5,11 @@ description: This award for dedication to local trail running honors Ella Fennes
 permalink: /fennessey-award
 img: /img/legends/ella-bio.jpeg
 caption: Ella Fennessey (far right) with fellow local running legends Eugene Curnow, Don Fennessey, and Barb Curnow.
+redirect_from:
+  - /fennessey/
+  - /fennessey
+  - /fenessey
+  - /fennesey
 ---
 
 [Ella Fennessey](/legends/ella) became a fixture of the Minnesota trail running community by always showing up. NMTC created the Fennessey Award in her honor.
