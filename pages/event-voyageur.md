@@ -24,25 +24,33 @@ redirect_from: /about-our-races/minnesota-voyageur-ultramarathon/
 
 # Runner support
 
-## Aid station items:
+## Aid stations:
 * Drinks include water, electrolyte drink, and various sodas.
 * Food includes fruit, cookies, potato chips, and other sweet/salty options.
 * We do \*not\* supply electrolyte supplement capsules, such as Endurolytes or S-Caps.
-* We do \*not\* supply cups. We strongly recommend you carry water during the race in a bottle or other hydration system.
-
-## Crew access:
-
-**<span class="nb">¡ ATTENTION !</span>** Runners’ crews and spectators are \*not\* allowed at Hwy 210 or Peterson’s aid stations due to limited parking. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
-
-To prevent crowding at Becks Rd aid station, spectators can park on the road and spectate from the designated area at aid station or further down the trail towards the bridge.
+* We do \*not\* supply cups.
+* Come prepared to meet your nutrition and hydration needs between aid stations. We strongly recommend you carry water during the race.
 
 ## Drop bags:
 
-* Note available drop bag locations on the [aid station](#aid-stations-crew-access-and-drop-bags) chart.
+We heartily encourage runners to be self-sufficient and make use of our drop bag service.
+
+* Note available drop bag locations on the [aid station](#aid-stations) chart.
 * Please keep your drop bags reasonable in size.
 * You must label drop bags with your name and race number. Do this at home so you don’t have to worry about it on race morning. Duct tape and a Sharpie marker work well. Unmarked bags will not be delivered to the aid station.
 * At the race start location, place your clearly marked bags by the signs for each aid station, and we will deliver them to those aid stations.
 * We will return your drop bags to the finish.
+
+## Crew access:
+
+**<span class="nb">¡ ATTENTION !</span>** Some aid stations are designated \*no crew\*, which also means \*no spectators*\. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
+
+* **Hwy 210:** No crew, no spectators due to limited parking.
+* **Peterson's:** No crew, no spectators due to limited parking.
+
+Some aid stations allow crew access. Runners, please warn your crew and fans to drive with care. Reduce vehicle traffic around aid stations by carpooling and parking as far away as your legs allow. Reserve parking spots near aid stations for medical, resupply, and other race vehicles. Please pay special attention at the following aid stations:
+
+* **Beck's Rd:** To prevent crowding, spectators can park on the road and spectate from the designated area at aid station or further down the trail towards the bridge.
 
 # Schedule
 
@@ -80,7 +88,7 @@ Runners receive awards as they finish.
 
 **Cupless:** NMTC races are cup-free races. We will not provide paper cups at aid stations, and runners will need to carry their own cups (for example, collapsible cups, bottles, or other hydration vessels) for use at aid stations.
 
-**Cutoffs:** Voyageur aid stations enforce cutoffs (with the exception of the water-only Hwy 210 aid station, which is uncrewed). Please see the [aid station chart](#aid-stations-crew-access-and-drop-bags) for specific cutoff times. Runners must reach the finish in 14 hours, by 8:00 PM.
+**Cutoffs:** Voyageur aid stations enforce cutoffs (with the exception of the water-only Hwy 210 aid station, which is uncrewed). Please see the [aid station chart](#aid-stations) for specific cutoff times. Runners must reach the finish in 14 hours, by 8:00 PM.
 
 **Results:** Results are posted on [Ultrasignup](https://ultrasignup.com/register.aspx?did=114070){:target="_blank" rel="noopener noreferrer"} and [MTEC](https://www.mtecresults.com/event/show/4974/){:target="_blank" rel="noopener noreferrer"}.
 
