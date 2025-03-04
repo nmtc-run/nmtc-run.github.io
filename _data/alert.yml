@@ -1,9 +1,17 @@
 display-now: true
-display-expires: 2025-01-01
+display-expires: 2025-04-01
 text: |-
-    Welcome to our new website—one stop for all the Northern Minnesota Track Club races: Voyageur, Curnow, and the Spring/Fall Series. See anything amiss?
-button-text: Contact us
-button-url: /contact
+      Registration is now open for Curnow and Voyageur, and we heartily welcome volunteers to let us know you're in for 2025.
+button-text: See you in July!
+button-url: /volunteer
+
+
+# display-now: true
+# display-expires: 2025-05-12
+# text: |-
+#       The 2025 edition of the Spirit Mountain 10 Mile follows a temporary reroute due to road construction on the original race course. For more info, see the <a href="/spring-series" style="">Spring Series</a> page.
+# button-text:
+# button-url:
 
 
 # See below options for `background-color`.
@@ -13,9 +21,10 @@ button-url: /contact
 # a custom color, make it a dark one!
 #
 # no background:  fdfdfd      (matches the page background color)
+# grey:           eee         (matches other subtle alert boxes)
 # red/brown:      cc6f77      (typical color of a running track)
 # green:          1abc9c      (green from old NMTC website)
 # dark blue:      002e5d      (dark blue from Minn. flag)
 
-background-color: eee
-text-color: 111
+background-color:
+text-color: fff
