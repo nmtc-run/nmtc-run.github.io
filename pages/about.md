@@ -29,6 +29,7 @@ The NMTC is organized and managed by a committee of individuals who love the spo
 * Matt Livingston
 * Ron Hendrickson
 * Samantha Frey
+* Sara Baldwin 
 * Shelly Thompson
 
 ![NMTC board members](/img/nmtc-board.jpeg "NMTC board members")
