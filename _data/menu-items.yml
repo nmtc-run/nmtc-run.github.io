@@ -33,6 +33,8 @@
       page: /rules
     - name: Sponsors
       page: /sponsors
+    - name: Waiver form
+      page: /waiver
   - submenu:
     - heading: Community
     - name: Fennessey Award

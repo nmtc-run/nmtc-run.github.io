@@ -24,7 +24,13 @@ Races are free. We do have a donation jar at each race and an [online donation o
 
 Check in at the starting line of each race. If you arrive about an hour before the race start, look for the person sitting at a folding table with a laptop. And if you arrive a little closer to race time, look for the line of people near the folding table and laptop!  
 
-NMTC requires all runners to complete a waiver once per year. Waiver forms are provided at the check-in table at all races.
+NMTC requires all runners to complete a waiver once per year. Waiver forms are provided at the check-in table at all races—or you can download, print, and sign the waiver in advance:
+
+<div class="container" style="display:flex;padding-bottom:1em;">
+  <a href="https://drive.google.com/file/d/1Oi7ZZGoC_LKUgtKJ8Bj_u7ClPld5iRRD/view" style="margin: 0 auto;" target="blank">
+    <div class="button">Download waiver</div>
+  </a>
+</div>
 
 # Details
 
