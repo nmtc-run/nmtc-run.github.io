@@ -6,7 +6,7 @@ article-title: Make magic happen
 permalink: /volunteer
 img: /img/aid-station.jpeg
 button-text: Volunteer Sign-Up
-button-url: /img/aid-station.jpeg
+button-url: /volunteer#curnow-marathon--voyageur-50
 button-external: false
 button-down-arrow: true
 redirect_from:
