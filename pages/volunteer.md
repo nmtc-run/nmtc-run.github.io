@@ -36,10 +36,10 @@ Time commitments vary and many important tasks are appropriate for all ages. Tha
 Curnow and Voyageur are in need of volunteers. Sign up today!
 
 <div class="container" style="display:flex;padding-bottom:1em;">
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdvW7FwzVv2naQ7jjNZF6tMq6eHe5CRb-l4dAnTbKKEShpmhQ/viewform?vc=0&c=0&w=1&flr=0" style="margin: 0 auto;" target="blank">
+  <a href="https://www.signupgenius.com/go/10C0A45AFAC2AABFBC16-54927800-eugene#/" style="margin: 0 auto;" target="blank">
     <div class="button">Curnow volunteers</div>
   </a>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWOkAprzE5xPmNP7AgLZDdEAtwwzN5v_LMGYf7IO_D-XkxMw/viewform?vc=0&c=0&w=1&flr=0" style="margin: 0 auto;" target="blank">
+  <a href="https://www.signupgenius.com/go/10C0A45AFAC2AABFBC16-54265403-minnesota" style="margin: 0 auto;" target="blank">
     <div class="button">Voyageur volunteers</div>
   </a>
 </div>
@@ -51,6 +51,14 @@ Opportunities include:
 * **Road crossings and road monitoring:** Several aid stations feature this safety role—a responsibility that requires the highest level of commitment and focus. This is generally handled in shifts. We only have a couple of crossings, but their busy nature makes this extremely important.
 
 * **Medical & first aid specialists:** A level of medical training is preferred – e.g. doctor, nurse, EMT, formal first-aid training, or similar.
+
+* **Aid station captains:** Captains tend to be experienced volunteers who oversee setup/takedown, track food/drink inventories, communicate with race organizers and HAM radio operators, and generally empower the team to take great care of runners.
+
+* **Drop bag delivery and aid station resupply**: Volunteers drive their own vehicles. Some bring drop bags from the start to aid stations and the finish. Others deliver extra food, water, ice, and other supplies to keep aid stations running smoothly.
+
+* **Course marking, checking, and sweeping:** These volunteers have experience running and racing on the Curnow/Voyageur course. Before the race, markers plant flags and arrows. Race morning, checkers make sure the marking is easy to follow. After the race, sweepers clear the course of all marking.
+
+* **Friday race prep and Sunday cleanup:** These are absolutely essential and often overlooked parts of the race—and a fantastic option for everyone who wants to both support the race and race the race. On Friday, volunteers stage aid station equipment and supplies. On Sunday, we wash water jugs, food containers, and reorganize equipment for the next race.
 
 * **Other roles:** Click into the sign-up form above for a complete list of ways to help before, during, and after the race.
 
