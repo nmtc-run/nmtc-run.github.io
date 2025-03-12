@@ -37,12 +37,12 @@ Curnow and Voyageur are in need of volunteers. Sign up today!
 
 <div class="container" style="display:flex;padding-bottom:1em;">
   <a href="https://www.signupgenius.com/go/10C0A45AFAC2AABFBC16-54927800-eugene#/" style="margin: 0 auto;" target="blank">
-    <div class="button" onclick="ga('send', 'event', 'Button', 'Click', 'curnow-volunteer')>
+    <div class="button" onclick="ga('send', 'event', 'Button', 'Click', 'curnow-volunteer')">
       Curnow volunteers
     </div>
   </a>
   <a href="https://www.signupgenius.com/go/10C0A45AFAC2AABFBC16-54265403-minnesota" style="margin: 0 auto;" target="blank">
-    <div class="button" onclick="ga('send', 'event', 'Button', 'Click', 'voyageur-volunteer')>
+    <div class="button" onclick="ga('send', 'event', 'Button', 'Click', 'voyageur-volunteer')">
       Voyageur volunteers
     </div>
   </a>

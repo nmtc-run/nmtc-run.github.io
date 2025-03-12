@@ -114,7 +114,7 @@ Registration via Ultrasignup typically opens in March. In addition to the info o
 <a id="register-results"></a>
 <div class="container" style="display:flex;padding-bottom:1em;">
   <a href="https://ultrasignup.com/register.aspx?did=122153" style="margin: 0 auto;" target="blank">
-    <div class="button" onclick="ga('send', 'event', 'Button', 'Click', 'curnow-ultrasignup')>
+    <div class="button" onclick="ga('send', 'event', 'Button', 'Click', 'curnow-ultrasignup')">
       Ultrasignup <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;">
     </div>
   </a>

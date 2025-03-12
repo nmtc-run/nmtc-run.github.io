@@ -26,7 +26,7 @@ Thank you for supporting the Northern Minnesota trail running community. See you
 
 <div id="donate-via-paypal" class="container" style="display:flex;padding-bottom:1em;">
   <a href="https://www.paypal.com/donate/?hosted_button_id=CANSARLQY4Z7G" style="margin: 0 auto;" target="_blank">
-    <div class="button" onclick="ga('send', 'event', 'Button', 'Click', 'donate')>
+    <div class="button" onclick="ga('send', 'event', 'Button', 'Click', 'donate')">
       Donate via PayPal<img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;">
     </div>
   </a>
