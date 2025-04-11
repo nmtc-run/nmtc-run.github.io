@@ -101,7 +101,7 @@ Runners receive awards as they finish.
 
 **Photos:** Photos are often uploaded to the [Curnow Facebook page](https://www.facebook.com/minnesotavoyageur).
 
-**Awards:** Top 10 men and women receive a pottery mug; all finishers receive a medal.
+**Awards:** The top ten men, women, and nonbinary finishers receive a pottery mug; all finishers receive a medal.
 
 # Race rules
 
