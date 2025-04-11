@@ -94,7 +94,7 @@ Runners receive awards as they finish.
 
 **Photos:** Photos are often uploaded to the [Voyageur Facebook page](https://www.facebook.com/minnesotavoyageur).
 
-**Awards:** Top 10 men and women receive a pottery mug; all finishers receive a medal.
+**Awards:** The top ten men, women, and nonbinary finishers receive a pottery mug; all finishers receive a medal.
 
 **Area events:** Coinciding with Voyageur race weekend, the city of Carlton, MN will be putting on their annual [Carlton Daze](https://carltonchamber.com/carlton-daze/) festivities, including a 5k Run/Walk, kids fun races, a spaghetti feed, and much more. Organizers really appreciate support on Friday evening, when volunteer help is always appreciated.
 
