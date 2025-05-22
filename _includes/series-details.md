@@ -38,6 +38,8 @@ NMTC requires all runners to complete a waiver once per year. Waiver forms are p
 
 **Runner safety:** Unlike the [Curnow Marathon](/curnow) and [Voyageur 50](/voyageur), {{ springFall }} Series races have \*zero\* road crossings. As always, many of our race courses feature rugged woodland singletrack with roots, rocks, and other potential hazards. Watch footing on the bridges; they can be slippery, especially when wet, and some may have boards missing.
 
+**Rainout/cancellation policy:** Check the [NMTC Facebook page](https://www.facebook.com/runnmtc/){:target="_blank"} for the latest information. If we cancel a race, we announce the cancellation on Facebook by noon on race day. 
+
 **Cupless:** NMTC races are cup-free races. We supply water at the start/finish line of every race, but you must bring your own cup.
 
 **Photos:** Photos are often uploaded to the [NMTC Facebook page](https://www.facebook.com/runnmtc).
