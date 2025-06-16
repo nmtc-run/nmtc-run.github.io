@@ -50,8 +50,15 @@ layout: default
   <h1 id="schedule-and-race-results">Schedule and race results</h1>
 </div>
 
-<div class="map-container">
+<!-- <div class="map-container">
   <iframe id="map-iframe" src="https://www.google.com/maps/d/u/0/embed?mid={{ page.map-id }}&ehbc=2E312F&noprof=1" width="100%" height="480"></iframe>
+</div> -->
+
+<div class="map-container" style="border:none;position:relative;">
+  <iframe id="map-iframe" src="https://www.google.com/maps/d/u/0/embed?mid={{ page.google-map-id }}&ehbc=2E312F&noprof=1" width="100%" height="480"></iframe>
+  <a style="width: 60px; height: 60px; position: absolute; bottom: 22px; right: 15px; background-color: #000; box-shadow: 0 2px 6px rgba(0, 0, 0, .3); border-radius: 2px; text-align: right; background-image: url(/assets/icons/sat-view.png); background-position: center; background-repeat: no-repeat; background-size: cover;" href="https://www.google.com/maps/d/u/2/edit?mid={{ page.google-map-id }}&amp;usp=sharing" target="_blank">
+    <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="box-shadow: 0 2px 6px rgba(0, 0, 0, .3)">
+  </a>
 </div>
 
   {% comment %} Assign .active and get overall standings {% endcomment %}
