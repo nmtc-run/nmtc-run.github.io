@@ -28,7 +28,29 @@ elevation-profile: /assets/gpx/curnow-elevation-2024.svg
 redirect_from: /about-our-races/eugene-curnow-marathon/
 ---
 
-# Runner support
+# Getting to the start line
+
+**Bus from finish area:**
+
+When you park at the finish, your car is ready and waiting when you finish! Park near the Munger Trailhead at Magnum Trucking and Ponderosa Sales in Carlton, MN. Buses depart at 4:45 AM and arrive in plenty of time for check-in and bib pickup.
+
+* **Finish Address:** 406 South Ave, Carlton, MN 55718
+* **GPS:** [46.6620848, -92.4205273](https://maps.app.goo.gl/dtaecq7rvTo44A5V6) <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">
+
+**Parking at start:**
+
+Runners are encouraged to take advantage of the bus from the finish line. If you must leave your car at the start line, know that the Fairmont Park gravel parking lot can fill quickly. The lot is adjacent to the Lake Superior Zoo—please do \*not\* park in the Zoo lot. If you arrive too late to park in the gravel lot, plan to walk or jog to the start area from further afield. Runners are responsible for finding a way back to their vehicles after the race.
+* **Start Address:** 7210 Fremont St, Duluth, MN 55807
+* **GPS:** [46.7264351, -92.1902315](https://maps.app.goo.gl/D8NzRvwSxxSKiKqY7) <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">
+
+# Race number pick-up and drop bag drop-off at start line
+
+The time and place for bibs and bags is race morning in the start area. Runners take the bus from the finish line and arrive with plenty of time for number pick-up, bag drop-off, warm-up jogs, bathroom breaks, and the pre-race briefing.
+
+* **Race number:** At the check-in desk, we will assign and present you with your race number.
+* **Drop bags:**  In the parking lot near the check-in desk, you will find signs noting where to place your clearly-labeled drop bags.
+
+# Runner support during the race
 
 ## Aid stations:
 * Drinks include water, electrolyte drink, and various sodas.
@@ -49,12 +71,14 @@ We heartily encourage runners to be self-sufficient and make use of our drop bag
 
 ## Crew access:
 
-**<span class="nb">¡ ATTENTION !</span>** Some aid stations are designated \*no crew\*, which also means \*no spectators*\. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
+Crew members are allowed to support their runners at designated [aid stations](#aid-stations).  
+
+Some aid stations are designated \*no crew\*, which also means \*no spectators*\. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
 
 * **Hwy 210:** No crew, no spectators due to limited parking.
 * **Peterson's:** No crew, no spectators due to limited parking.
 
-Some aid stations allow crew access. Runners, please warn your crew and fans to drive with care. Reduce vehicle traffic around aid stations by carpooling and parking as far away as your legs allow. Reserve parking spots near aid stations for medical, resupply, and other race vehicles. Please pay special attention at the following aid stations:
+Runners, please warn your crew and fans to drive with care. Reduce vehicle traffic around aid stations by carpooling and parking as far away as your legs allow. Reserve parking spots near aid stations for medical, resupply, and other race vehicles. Please pay special attention at the following aid stations:
 
 * **Beck's Rd:** To prevent crowding, spectators can park on the road and spectate from the designated area at aid station or further down the trail towards the bridge.
 
@@ -62,28 +86,19 @@ Some aid stations allow crew access. Runners, please warn your crew and fans to 
 
 **4:45 AM:** Buses depart to bring runners from the finish to the start.
 
+**5:00 AM:** Runner check-in and bib pick-up in the start area.
+
 **5:45 AM:** Pre-race briefing. Attendance is mandatory.
 
 **6:00 AM:** Race starts promptly to ensure accurate splits.
 
 **12:40 PM:** Front runner close to finish.
 
-Runners receive awards as they finish.
+**Awards:** Runners receive awards as they finish.
 
 **Mid-afternoon:** Dinner will be provided by Magnolia Cafe at the school, runners free. A small charge for “extra eaters” can be paid at the door. Includes a variety of meat, vegetarian, and vegan / gluten-free sandwiches, pasta salad, and ice cream.
 
 **4:00 PM:** Final cutoff.
-
-# Getting to the start
-
-**Bus from finish area:** When you park at the finish, your car is ready and waiting when you finish! Park near the Munger Trailhead at Magnum Trucking and Ponderosa Sales in Carlton, MN. Buses depart at 4:45 AM and arrive in plenty of time for check-in and bib pickup.
-
-* *Finish Address:* 406 South Ave, Carlton, MN 55718
-* *GPS:* [46.6620848, -92.4205273](https://maps.app.goo.gl/dtaecq7rvTo44A5V6) <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">
-
-**Parking at start:** Runners are encouraged to take advantage of the bus from the finish line; however, there are spaces available in the Fairmont Park gravel parking lot (adjacent to the Lake Superior Zoo). Runners are responsible for finding a way back to their vehicles.
-* *Start Address:* 7210 Fremont St, Duluth, MN 55807
-* *GPS:* [46.7264351, -92.1902315](https://maps.app.goo.gl/D8NzRvwSxxSKiKqY7) <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">
 
 # Details
 

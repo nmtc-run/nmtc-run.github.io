@@ -22,7 +22,24 @@ elevation-profile: /assets/gpx/voyageur-elevation-2024.svg
 redirect_from: /about-our-races/minnesota-voyageur-ultramarathon/
 ---
 
-# Runner support
+# Getting to the start/finish
+
+**Address:** Carlton High School 405 School Ave, Carlton, MN 55718
+
+**GPS:** [46.6651196,-92.4226923](https://goo.gl/maps/9W3JPx3k8jA2) <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">
+
+**Parking at start/finish:** A good amount of parking is available in the lots behind and near the school. Some parking is also available on the streets surrounding the school.
+
+**<span class="nb">¡ USE CAUTION !</span>** Approaching the start/finish area on Walnut Ave intersects with 4th St, which is the final sprint to the finish line for our runners. If you can, please use a different route to School Ave, such as 5th or 6th St.
+
+# Race number pick-up and drop bag drop-off at start line
+
+The time and place for bibs and bags is race morning in the start area.
+
+* **Race number:** At the check-in desk, we will assign and present you with your race number.
+* **Drop bags:**  After checking in, look for signs noting where to place your clearly-labeled drop bags.
+
+# Runner support during the race
 
 ## Aid stations:
 * Drinks include water, electrolyte drink, and various sodas.
@@ -43,7 +60,9 @@ We heartily encourage runners to be self-sufficient and make use of our drop bag
 
 ## Crew access:
 
-**<span class="nb">¡ ATTENTION !</span>** Some aid stations are designated \*no crew\*, which also means \*no spectators*\. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
+Crew members are allowed to support their runners at designated [aid stations](#aid-stations).  
+
+Some aid stations are designated \*no crew\*, which also means \*no spectators*\. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
 
 * **Hwy 210:** No crew, no spectators due to limited parking.
 * **Peterson's:** No crew, no spectators due to limited parking.
@@ -62,21 +81,11 @@ Some aid stations allow crew access. Runners, please warn your crew and fans to 
 
 **12:40 PM:** Front runner close to finish.
 
-Runners receive awards as they finish.
+**Awards:** Runners receive awards as they finish.
 
 **Mid-afternoon:** Dinner will be provided by Magnolia Cafe at the school, runners free. A small charge for “extra eaters” can be paid at the door. Includes a variety of meat, vegetarian, and vegan / gluten-free sandwiches, pasta salad, and ice cream.
 
 **8:00 PM:** Final cutoff.
-
-# Getting to the start
-
-**Address:** Carlton High School 405 School Ave, Carlton, MN 55718
-
-**GPS:** [46.6651196,-92.4226923](https://goo.gl/maps/9W3JPx3k8jA2) <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">
-
-**Parking at start/finish:** A good amount of parking is available in the lots behind and near the school. Some parking is also available on the streets surrounding the school.
-
-**<span class="nb">¡ USE CAUTION !</span>** Approaching the start/finish area on Walnut Ave intersects with 4th St, which is the final sprint to the finish line for our runners. If you can, please use a different route to School Ave, such as 5th or 6th St.
 
 # Details
 
@@ -84,7 +93,7 @@ Runners receive awards as they finish.
 
 **Traffic warning:** Use care on bike paths and roads. Runners must yield to traffic when crossing roads! A race is just a run; a road crossing is life and death!  
 
-**Footing warning:** Many race courses feature rugged woodland singletrack with roots, rocks, and other potential hazards. Watch footing on the bridges; they can be slippery, especially when wet, and some may have boards missing.
+**Footing warning:** The race is run primarily on rugged woodland singletrack with roots, rocks, and other potential hazards. Watch footing on the bridges; they can be slippery, especially when wet, and some may have boards missing.
 
 **Cupless:** NMTC races are cup-free races. We will not provide paper cups at aid stations, and runners will need to carry their own cups (for example, collapsible cups, bottles, or other hydration vessels) for use at aid stations.
 
