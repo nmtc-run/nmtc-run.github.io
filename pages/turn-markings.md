@@ -17,7 +17,7 @@ Our primary course markers are hot orange pin flags with "NMTC" printed on them:
 We mark most turns with the hot orange pin flags:
 
 * Leading into the turn, we plant three flags in succession (roughly 3 feet apart).
-* Exiting the turn, we plant a single flag. Of course, when racing an out-and-back course such as the [Minnesota Voyageur](/voyageur), runners will see three pin flags on both the entrance and exit of the turn.
+* Exiting the turn, we plant a single flag. When racing an out-and-back course such as the [Minnesota Voyageur](/voyageur), runners will see three pin flags on both the entrance and exit of the turn.
 * We then resume normal spacing of 0.1 miles until the next turn.
 
 ![NMTC default course marking](/img/course-marking/default-marking.svg "NMTC default course marking")
