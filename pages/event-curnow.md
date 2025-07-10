@@ -66,7 +66,7 @@ We heartily encourage runners to be self-sufficient and make use of our drop bag
 * Note available drop bag locations on the [aid station](#aid-stations) chart.
 * Please keep your drop bags reasonable in size.
 * You must label drop bags with your name and race number. Unmarked bags will not be delivered to the aid station.
-* We give you your number at check-in on race morning. We provide markers at check-in. If you want to prep your bags at home, we recommend writing your name on your bag and/or fixing a piece of duct tape to your bag and using a Sharpie marker to write on the tape. 
+* We give you your number at check-in on race morning. We provide markers at check-in. If you want to prep your bags at home, we recommend writing your name on your bag and/or fixing a piece of duct tape to your bag and using a Sharpie marker to write on the tape.
 * At the race start location, place your clearly marked bags by the signs for the aid station and the finish line, and we will deliver them to the appropriate place.
 * We will return aid station drop bags to the finish line.
 
@@ -96,8 +96,6 @@ Runners, please warn your crew and fans to drive with care. Reduce vehicle traff
 **12:40 PM:** Front runner close to finish.
 
 **Awards:** Runners receive awards as they finish.
-
-**Mid-afternoon:** Dinner will be provided by Magnolia Cafe at the school, runners free. A small charge for “extra eaters” can be paid at the door. Includes a variety of meat, vegetarian, and vegan / gluten-free sandwiches, pasta salad, and ice cream.
 
 **4:00 PM:** Final cutoff.
 
