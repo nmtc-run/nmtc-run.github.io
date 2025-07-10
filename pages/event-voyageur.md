@@ -17,7 +17,7 @@ strava-id: 3207869585823066736
 google-map-id: 1jQCEbQoT-Y4WGaQSeP4dfwr9oFJF7nE
 google-sat-view: 1b98GKj3lDJIJ0OX2qEETUQIYN5rZKsw
 google-spreadsheet-id: 1Aktdv0SMrTByESs20zGcy53GAKqESummAD-SMmRESm4
-gpx-url: /assets/gpx/Voyageur-50.gpx
+gpx-url: /assets/gpx/Voyageur-updated-2025-07-07.gpx
 elevation-profile: /assets/gpx/voyageur-elevation-2024.svg
 redirect_from: /about-our-races/minnesota-voyageur-ultramarathon/
 ---

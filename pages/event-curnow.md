@@ -23,7 +23,7 @@ strava-id: 3207880018615880304
 google-map-id: 1TlA-qHl5EEzqz_rmYOi4nJQqiz4dA-I
 google-sat-view: 15yRKa9KWA1H8DIV_LvPyGiUp9s_4ROc
 google-spreadsheet-id: 11C7XBqt0ejhSXVvgBR5zNpl0l_SCzJNnqSAdX5At9UI
-gpx-url: /assets/gpx/Curnow-Marathon.gpx
+gpx-url: /assets/gpx/Curnow-updated-2025-07-07.gpx
 elevation-profile: /assets/gpx/curnow-elevation-2024.svg
 redirect_from: /about-our-races/eugene-curnow-marathon/
 ---
@@ -48,7 +48,7 @@ Runners are encouraged to take advantage of the bus from the finish line. If you
 The time and place for bibs and bags is race morning in the start area. Runners take the bus from the finish line and arrive with plenty of time for number pick-up, bag drop-off, warm-up jogs, bathroom breaks, and the pre-race briefing.
 
 * **Race number:** At the check-in desk, we will assign and present you with your race number.
-* **Drop bags:**  Near the check-in desk, you will find a table with markers to label your bags with name and bib number. Look for signs directing you where to drop each bag. 
+* **Drop bags:**  Near the check-in desk, you will find a table with markers to label your bags with name and bib number. Look for signs directing you where to drop each bag.
 
 # Runner support during the race
 
