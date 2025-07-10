@@ -48,7 +48,7 @@ Runners are encouraged to take advantage of the bus from the finish line. If you
 The time and place for bibs and bags is race morning in the start area. Runners take the bus from the finish line and arrive with plenty of time for number pick-up, bag drop-off, warm-up jogs, bathroom breaks, and the pre-race briefing.
 
 * **Race number:** At the check-in desk, we will assign and present you with your race number.
-* **Drop bags:**  Near the check-in desk, you will find a table with markers to label your bags with name and bib number. Look for signs directing you where to drop each bag.
+* **Drop bags:**  After checking in, label your drop bags with your name and number. Signs will direct you where to place each bag.
 
 # Runner support during the race
 
@@ -65,7 +65,8 @@ We heartily encourage runners to be self-sufficient and make use of our drop bag
 
 * Note available drop bag locations on the [aid station](#aid-stations) chart.
 * Please keep your drop bags reasonable in size.
-* You must label drop bags with your name and race number. You will get your number at the check-in desk on race morning. If you want to prep your bags at home, duct tape and a Sharpie marker work well. We provide markers at check-in. Unmarked bags will not be delivered to the aid station.
+* You must label drop bags with your name and race number. Unmarked bags will not be delivered to the aid station.
+* We give you your number at check-in on race morning. We provide markers at check-in. If you want to prep your bags at home, we recommend writing your name on your bag and/or fixing a piece of duct tape to your bag and using a Sharpie marker to write on the tape. 
 * At the race start location, place your clearly marked bags by the signs for the aid station and the finish line, and we will deliver them to the appropriate place.
 * We will return aid station drop bags to the finish line.
 

@@ -37,7 +37,7 @@ redirect_from: /about-our-races/minnesota-voyageur-ultramarathon/
 The time and place for bibs and bags is race morning in the start area.
 
 * **Race number:** At the check-in desk, we will assign and present you with your race number.
-* **Drop bags:**  After checking in, look for signs noting where to place your clearly-labeled drop bags.
+* **Drop bags:**  After checking in, label your drop bags with your name and number. Signs will direct you where to place each bag.
 
 # Runner support during the race
 
@@ -54,9 +54,10 @@ We heartily encourage runners to be self-sufficient and make use of our drop bag
 
 * Note available drop bag locations on the [aid station](#aid-stations) chart.
 * Please keep your drop bags reasonable in size.
-* You must label drop bags with your name and race number. Do this at home so you don’t have to worry about it on race morning. Duct tape and a Sharpie marker work well. Unmarked bags will not be delivered to the aid station.
-* At the race start location, place your clearly marked bags by the signs for each aid station, and we will deliver them to those aid stations.
-* We will return your drop bags to the finish.
+* You must label drop bags with your name and race number. Unmarked bags will not be delivered to the aid station.
+* We give you your number at check-in on race morning. We provide markers at check-in. If you want to prep your bags at home, we recommend writing your name on your bag and/or fixing a piece of duct tape to your bag and using a Sharpie marker to write on the tape.
+* At the race start location, place your clearly marked bags by the signs for the aid station and the finish line, and we will deliver them to the appropriate place.
+* We will return your drop bags to the finish line.
 
 ## Crew access:
 
