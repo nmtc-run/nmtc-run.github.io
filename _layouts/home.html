@@ -8,9 +8,11 @@ layout: default
   <div class="page-heading">{{ page.title }}</div>
 {% endif %}
 
-{% if page.url == "/" %}
-  {% include prev-next-links.html %}
-{% endif %}
+{% comment %}
+  {% if page.url == "/" %}
+    {% include prev-next-links.html %}
+  {% endif %}
+{% endcomment %}
 
 <div class="hero-carousel">
   {% assign dot_counter = 0 %}
