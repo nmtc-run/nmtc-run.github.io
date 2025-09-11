@@ -1,0 +1,148 @@
+---
+layout: default
+---
+
+{% if page.article-title %}
+  <div class="article-title"> {{ page.article-title }}</div>
+{% else %}
+  <div class="article-title"> {{ page.title }}</div>
+{% endif %}
+
+{% if page.subtitle %}
+  <div class="article-subtitle"> {{ page.subtitle }}</div>
+{% else %}
+  <div class="article-subtitle"></div>
+{% endif %}
+
+{% if page.img %}
+  <div class="event-hero" style="background-image:url({{ page.img }}); {% unless page.caption %} margin-bottom: 1em; {% endunless %}">
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="buttons">
+      {% if page.button-text %}
+          <a href="{{ page.button-url }}" style="margin: 0 auto;" {% if page.button-external-link %}target="_blank"{% endif %}>
+            <div class="button" style="margin: 0;">{{ page.button-text }}
+              {% if page.button-external-link %}
+                <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;">
+              {% else %}
+                {% if page.button-down-arrow %}
+                <div class="down-arrow"></div>
+                {% endif %}
+              {% endif %}
+            </div>
+          </a>
+      {% endif %}
+    </div>
+  </div>
+  {% if page.caption %}
+    <p class="event-hero-caption"><em>{{ page.caption }}</em></p>
+  {% endif %}
+{% endif %}
+
+<div class="event-content article">
+  {{ content }}
+</div>
+
+<style>
+  .filters {
+    margin-bottom: 1em;
+  }
+  .filters label {
+    margin-right: 1em;
+  }
+</style>
+
+<div class="filters">
+  <label>Year:
+    <select id="yearFilter"><option value="">All</option></select>
+  </label>
+  <label>Gender:
+    <select id="genderFilter"><option value="">All</option></select>
+  </label>
+</div>
+
+<table id="resultsTable" class="display" style="width:100%">
+  <thead>
+    <tr>
+      <th>Year</th>
+      <th>Place</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Time</th>
+      <th>Gender</th>
+      <th>Gender Place</th>
+      <th>Finish #</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Populated by JS -->
+  </tbody>
+</table>
+
+<div class="" style="height:1em;">
+  &nbsp;
+</div>
+
+<script>
+  $(document).ready(function() {
+    $.getJSON("/results/demo.json?nocache=" + new Date().getTime(), function(data) {
+      // Transform data
+      const rows = data.map(runner => {
+        let timeStr = runner.time;
+        // If it's an ISO string, convert it to HH:MM:SS
+        if (runner.time && runner.time.includes("T")) {
+          const date = new Date(runner.time);
+          if (!isNaN(date)) {
+            timeStr = date.toTimeString().split(' ')[0];
+          }
+        }
+        return [
+          runner.year,
+          runner.place,
+          runner.first_name,
+          runner.last_name,
+          timeStr,
+          runner.gender,
+          runner.gender_place,
+          runner.finish_number
+        ];
+      });
+
+      const table = $('#resultsTable').DataTable({
+        data: rows,
+        columns: [
+          { title: "Year" },
+          { title: "Place" },
+          { title: "First Name" },
+          { title: "Last Name" },
+          { title: "Time" },
+          { title: "Gender" },
+          { title: "Gender Place" },
+          { title: "Finish #" }
+        ],
+        pageLength: 25,
+        order: [[0, 'desc']]
+      });
+
+      // Populate filter dropdowns
+      function populateFilter(selector, colIndex) {
+        const unique = new Set(table.column(colIndex).data().toArray());
+        [...unique].sort().forEach(val => {
+          $(selector).append(`<option value="${val}">${val}</option>`);
+        });
+      }
+      populateFilter("#yearFilter", 0);
+      populateFilter("#genderFilter", 5);
+
+      // Hook up filters
+      $('#yearFilter').on('change', function() {
+        table.column(0).search(this.value).draw();
+      });
+      $('#genderFilter').on('change', function() {
+        table.column(5).search(this.value).draw();
+      })
+    });
+  });
+</script>

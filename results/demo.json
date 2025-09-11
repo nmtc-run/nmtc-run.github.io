@@ -1,0 +1,3862 @@
+[
+  {
+    "year": 2023,
+    "place": 1,
+    "first_name": "Ben",
+    "last_name": "Cogger",
+    "time": "1899-12-31T16:30:00.000Z",
+    "gender": "M",
+    "gender_place": 1,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 2,
+    "first_name": "Landen",
+    "last_name": "Harwood",
+    "time": "1899-12-31T17:47:00.000Z",
+    "gender": "M",
+    "gender_place": 2,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 3,
+    "first_name": "Josh",
+    "last_name": "Tarnowski",
+    "time": "1899-12-31T18:26:00.000Z",
+    "gender": "M",
+    "gender_place": 3,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 4,
+    "first_name": "Hayden",
+    "last_name": "O'Connor",
+    "time": "1899-12-31T18:58:00.000Z",
+    "gender": "M",
+    "gender_place": 4,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 5,
+    "first_name": "Kieran",
+    "last_name": "Johnson",
+    "time": "1899-12-31T18:59:00.000Z",
+    "gender": "M",
+    "gender_place": 5,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 6,
+    "first_name": "Cale",
+    "last_name": "Newby",
+    "time": "1899-12-31T19:26:00.000Z",
+    "gender": "M",
+    "gender_place": 6,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 7,
+    "first_name": "Tommy",
+    "last_name": "Martin",
+    "time": "1899-12-31T19:35:00.000Z",
+    "gender": "M",
+    "gender_place": 7,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 8,
+    "first_name": "Jordan",
+    "last_name": "Gruenes",
+    "time": "1899-12-31T19:37:00.000Z",
+    "gender": "M",
+    "gender_place": 8,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 9,
+    "first_name": "Lane",
+    "last_name": "Johnson",
+    "time": "1899-12-31T19:41:00.000Z",
+    "gender": "M",
+    "gender_place": 9,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 10,
+    "first_name": "Brad",
+    "last_name": "Leick",
+    "time": "1899-12-31T20:13:00.000Z",
+    "gender": "M",
+    "gender_place": 10,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 11,
+    "first_name": "Liam",
+    "last_name": "Fife",
+    "time": "1899-12-31T20:55:00.000Z",
+    "gender": "M",
+    "gender_place": 11,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 12,
+    "first_name": "Chelsey",
+    "last_name": "Youngberg",
+    "time": "1899-12-31T21:05:00.000Z",
+    "gender": "F",
+    "gender_place": 1,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 13,
+    "first_name": "Adam",
+    "last_name": "Swank",
+    "time": "1899-12-31T21:16:00.000Z",
+    "gender": "M",
+    "gender_place": 12,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 14,
+    "first_name": "Riley",
+    "last_name": "Ronning",
+    "time": "1899-12-31T21:17:00.000Z",
+    "gender": "M",
+    "gender_place": 13,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 15,
+    "first_name": "Mike",
+    "last_name": "Ward",
+    "time": "1899-12-31T21:43:00.000Z",
+    "gender": "M",
+    "gender_place": 14,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 16,
+    "first_name": "Charlie",
+    "last_name": "Hickman",
+    "time": "1899-12-31T21:48:00.000Z",
+    "gender": "M",
+    "gender_place": 15,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 17,
+    "first_name": "Eric",
+    "last_name": "Nordgren",
+    "time": "1899-12-31T21:58:00.000Z",
+    "gender": "M",
+    "gender_place": 16,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 18,
+    "first_name": "Alec",
+    "last_name": "Dean",
+    "time": "1899-12-31T22:02:00.000Z",
+    "gender": "M",
+    "gender_place": 17,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 19,
+    "first_name": "Eric",
+    "last_name": "Borer",
+    "time": "1899-12-31T22:04:00.000Z",
+    "gender": "M",
+    "gender_place": 18,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 20,
+    "first_name": "Justus",
+    "last_name": "Olson",
+    "time": "1899-12-31T22:13:00.000Z",
+    "gender": "M",
+    "gender_place": 19,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 21,
+    "first_name": "Tim",
+    "last_name": "Kostner",
+    "time": "1899-12-31T22:18:00.000Z",
+    "gender": "M",
+    "gender_place": 20,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 22,
+    "first_name": "Ian",
+    "last_name": "Derauf",
+    "time": "1899-12-31T22:26:00.000Z",
+    "gender": "M",
+    "gender_place": 21,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 23,
+    "first_name": "Hanna",
+    "last_name": "Torvi",
+    "time": "1899-12-31T22:31:00.000Z",
+    "gender": "F",
+    "gender_place": 2,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 24,
+    "first_name": "Cody",
+    "last_name": "Hanson",
+    "time": "1899-12-31T22:43:00.000Z",
+    "gender": "M",
+    "gender_place": 22,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 25,
+    "first_name": "Grant",
+    "last_name": "Nelson",
+    "time": "1899-12-31T23:02:00.000Z",
+    "gender": "M",
+    "gender_place": 23,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 26,
+    "first_name": "Nick",
+    "last_name": "Flynn",
+    "time": "1899-12-31T23:05:00.000Z",
+    "gender": "M",
+    "gender_place": 24,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 27,
+    "first_name": "Aiden",
+    "last_name": "Coutu",
+    "time": "1899-12-31T23:05:00.000Z",
+    "gender": "M",
+    "gender_place": 25,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 28,
+    "first_name": "Brad",
+    "last_name": "Everets",
+    "time": "1899-12-31T23:20:00.000Z",
+    "gender": "M",
+    "gender_place": 26,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 29,
+    "first_name": "Kevin",
+    "last_name": "Wood",
+    "time": "1899-12-31T23:23:00.000Z",
+    "gender": "M",
+    "gender_place": 27,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 30,
+    "first_name": "Josh",
+    "last_name": "Nonnemacher",
+    "time": "1899-12-31T23:45:00.000Z",
+    "gender": "M",
+    "gender_place": 28,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 31,
+    "first_name": "Phillip",
+    "last_name": "Ankley",
+    "time": "1900-01-01T00:09:00.000Z",
+    "gender": "M",
+    "gender_place": 29,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 32,
+    "first_name": "Ryan",
+    "last_name": "Ballard",
+    "time": "1900-01-01T00:38:00.000Z",
+    "gender": "M",
+    "gender_place": 30,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 33,
+    "first_name": "Tyler",
+    "last_name": "Pilon",
+    "time": "1900-01-01T00:45:00.000Z",
+    "gender": "M",
+    "gender_place": 31,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 34,
+    "first_name": "Alex",
+    "last_name": "Kasparek",
+    "time": "1900-01-01T00:48:00.000Z",
+    "gender": "M",
+    "gender_place": 32,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 35,
+    "first_name": "Matthew",
+    "last_name": "Eystad",
+    "time": "1900-01-01T00:55:00.000Z",
+    "gender": "M",
+    "gender_place": 33,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 36,
+    "first_name": "Lily",
+    "last_name": "Hubanks",
+    "time": "1900-01-01T00:58:00.000Z",
+    "gender": "F",
+    "gender_place": 3,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 37,
+    "first_name": "Karl",
+    "last_name": "Holub",
+    "time": "1900-01-01T01:09:00.000Z",
+    "gender": "M",
+    "gender_place": 34,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 38,
+    "first_name": "Ana",
+    "last_name": "McCabe",
+    "time": "1900-01-01T01:10:00.000Z",
+    "gender": "F",
+    "gender_place": 4,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 39,
+    "first_name": "Dave",
+    "last_name": "Antonson",
+    "time": "1900-01-01T01:11:00.000Z",
+    "gender": "M",
+    "gender_place": 35,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 40,
+    "first_name": "Dave",
+    "last_name": "Lane",
+    "time": "1900-01-01T01:20:00.000Z",
+    "gender": "M",
+    "gender_place": 36,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 41,
+    "first_name": "Kyle",
+    "last_name": "Anderson",
+    "time": "1900-01-01T01:40:00.000Z",
+    "gender": "M",
+    "gender_place": 37,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 42,
+    "first_name": "Anders",
+    "last_name": "Rasmussen",
+    "time": "1900-01-01T01:46:00.000Z",
+    "gender": "M",
+    "gender_place": 38,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 43,
+    "first_name": "Ben",
+    "last_name": "Riegert",
+    "time": "1900-01-01T02:18:00.000Z",
+    "gender": "M",
+    "gender_place": 39,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 44,
+    "first_name": "Alex",
+    "last_name": "H",
+    "time": "1900-01-01T02:19:00.000Z",
+    "gender": "M",
+    "gender_place": 40,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 45,
+    "first_name": "Tim",
+    "last_name": "Kufahl",
+    "time": "1900-01-01T02:41:00.000Z",
+    "gender": "M",
+    "gender_place": 41,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 46,
+    "first_name": "Kinyee",
+    "last_name": "Sin",
+    "time": "1900-01-01T03:09:00.000Z",
+    "gender": "M",
+    "gender_place": 42,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 47,
+    "first_name": "Nico",
+    "last_name": "Ghandhi",
+    "time": "1900-01-01T03:11:00.000Z",
+    "gender": "M",
+    "gender_place": 43,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 48,
+    "first_name": "Paul",
+    "last_name": "Baelk",
+    "time": "1900-01-01T03:16:00.000Z",
+    "gender": "M",
+    "gender_place": 44,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 49,
+    "first_name": "Spencer",
+    "last_name": "Carlson",
+    "time": "1900-01-01T03:26:00.000Z",
+    "gender": "M",
+    "gender_place": 45,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 50,
+    "first_name": "Roger",
+    "last_name": "Reinert",
+    "time": "1900-01-01T03:35:00.000Z",
+    "gender": "M",
+    "gender_place": 46,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 51,
+    "first_name": "Logan",
+    "last_name": "Thoreson",
+    "time": "1900-01-01T03:38:00.000Z",
+    "gender": "M",
+    "gender_place": 47,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 52,
+    "first_name": "Ryan",
+    "last_name": "Staub",
+    "time": "1900-01-01T03:40:00.000Z",
+    "gender": "M",
+    "gender_place": 48,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 53,
+    "first_name": "Joy",
+    "last_name": "Rasmussen",
+    "time": "1900-01-01T03:41:00.000Z",
+    "gender": "F",
+    "gender_place": 5,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 54,
+    "first_name": "Shawn",
+    "last_name": "Quast",
+    "time": "1900-01-01T03:48:00.000Z",
+    "gender": "M",
+    "gender_place": 49,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 55,
+    "first_name": "Aaron",
+    "last_name": "Smith",
+    "time": "1900-01-01T04:03:00.000Z",
+    "gender": "M",
+    "gender_place": 50,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 56,
+    "first_name": "Jesse",
+    "last_name": "Coenen",
+    "time": "1900-01-01T04:15:00.000Z",
+    "gender": "M",
+    "gender_place": 51,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 57,
+    "first_name": "Mitch",
+    "last_name": "Inlang",
+    "time": "1900-01-01T04:42:00.000Z",
+    "gender": "M",
+    "gender_place": 52,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 58,
+    "first_name": "Slavo",
+    "last_name": "Tkac",
+    "time": "1900-01-01T04:51:00.000Z",
+    "gender": "M",
+    "gender_place": 53,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 59,
+    "first_name": "Noah",
+    "last_name": "Grode",
+    "time": "1900-01-01T04:55:00.000Z",
+    "gender": "M",
+    "gender_place": 54,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 60,
+    "first_name": "Brooke",
+    "last_name": "Wilson",
+    "time": "1900-01-01T04:59:00.000Z",
+    "gender": "F",
+    "gender_place": 6,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 61,
+    "first_name": "Brian",
+    "last_name": "Berget",
+    "time": "1900-01-01T05:07:00.000Z",
+    "gender": "M",
+    "gender_place": 55,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 62,
+    "first_name": "Aurora",
+    "last_name": "Kothe",
+    "time": "1900-01-01T05:10:00.000Z",
+    "gender": "F",
+    "gender_place": 7,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 63,
+    "first_name": "Rod",
+    "last_name": "Raymond",
+    "time": "1900-01-01T05:26:00.000Z",
+    "gender": "M",
+    "gender_place": 56,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 64,
+    "first_name": "Rick",
+    "last_name": "LaCaille",
+    "time": "1900-01-01T05:35:00.000Z",
+    "gender": "M",
+    "gender_place": 57,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 65,
+    "first_name": "Max",
+    "last_name": "Maas",
+    "time": "1900-01-01T05:45:00.000Z",
+    "gender": "M",
+    "gender_place": 58,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 66,
+    "first_name": "Alex",
+    "last_name": "Popp",
+    "time": "1900-01-01T06:02:00.000Z",
+    "gender": "M",
+    "gender_place": 59,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 67,
+    "first_name": "Molly",
+    "last_name": "Watkins",
+    "time": "1900-01-01T06:07:00.000Z",
+    "gender": "F",
+    "gender_place": 8,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 68,
+    "first_name": "Shannon",
+    "last_name": "Meehan",
+    "time": "1900-01-01T06:26:00.000Z",
+    "gender": "F",
+    "gender_place": 9,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 69,
+    "first_name": "Tom",
+    "last_name": "O'Rourke",
+    "time": "1900-01-01T06:48:00.000Z",
+    "gender": "M",
+    "gender_place": 60,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 70,
+    "first_name": "Matthew",
+    "last_name": "Rohres",
+    "time": "1900-01-01T06:49:00.000Z",
+    "gender": "M",
+    "gender_place": 61,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 71,
+    "first_name": "Ingrid",
+    "last_name": "Sokup",
+    "time": "1900-01-01T07:03:00.000Z",
+    "gender": "F",
+    "gender_place": 10,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 72,
+    "first_name": "Patrick",
+    "last_name": "Riley",
+    "time": "1900-01-01T07:08:00.000Z",
+    "gender": "M",
+    "gender_place": 62,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 73,
+    "first_name": "Jonathan",
+    "last_name": "Nyhus",
+    "time": "1900-01-01T07:45:00.000Z",
+    "gender": "M",
+    "gender_place": 63,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 74,
+    "first_name": "Micah",
+    "last_name": "Heikkila",
+    "time": "1900-01-01T07:46:00.000Z",
+    "gender": "M",
+    "gender_place": 64,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 75,
+    "first_name": "Lou",
+    "last_name": "Himes",
+    "time": "1900-01-01T07:49:00.000Z",
+    "gender": "F",
+    "gender_place": 11,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 76,
+    "first_name": "Marcus",
+    "last_name": "Taintor",
+    "time": "1900-01-01T08:00:00.000Z",
+    "gender": "M",
+    "gender_place": 65,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 77,
+    "first_name": "Matt L",
+    "last_name": "Johnson",
+    "time": "1900-01-01T08:51:00.000Z",
+    "gender": "M",
+    "gender_place": 66,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 78,
+    "first_name": "Luke",
+    "last_name": "Rosholt",
+    "time": "1900-01-01T09:09:00.000Z",
+    "gender": "M",
+    "gender_place": 67,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 79,
+    "first_name": "Braydon",
+    "last_name": "Bennyhoff",
+    "time": "1900-01-01T09:13:00.000Z",
+    "gender": "M",
+    "gender_place": 68,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 80,
+    "first_name": "Justin",
+    "last_name": "Fleck",
+    "time": "1900-01-01T09:14:00.000Z",
+    "gender": "M",
+    "gender_place": 69,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 81,
+    "first_name": "Todd",
+    "last_name": "Struckman",
+    "time": "1900-01-01T09:46:00.000Z",
+    "gender": "M",
+    "gender_place": 70,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 82,
+    "first_name": "Chris",
+    "last_name": "Morris",
+    "time": "1900-01-01T10:06:00.000Z",
+    "gender": "M",
+    "gender_place": 71,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 83,
+    "first_name": "Steven",
+    "last_name": "Barnabo",
+    "time": "1900-01-01T10:29:00.000Z",
+    "gender": "M",
+    "gender_place": 72,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 84,
+    "first_name": "Brynn",
+    "last_name": "Olsen",
+    "time": "1900-01-01T10:31:00.000Z",
+    "gender": "F",
+    "gender_place": 12,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 85,
+    "first_name": "Susanna",
+    "last_name": "Gaunt",
+    "time": "1900-01-01T10:32:00.000Z",
+    "gender": "F",
+    "gender_place": 13,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 86,
+    "first_name": "Rachel",
+    "last_name": "Poppe",
+    "time": "1900-01-01T10:39:00.000Z",
+    "gender": "F",
+    "gender_place": 14,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 87,
+    "first_name": "Taylor",
+    "last_name": "Mulholland",
+    "time": "1900-01-01T12:04:00.000Z",
+    "gender": "M",
+    "gender_place": 73,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 88,
+    "first_name": "Jacob",
+    "last_name": "Dalberg",
+    "time": "1900-01-01T12:10:00.000Z",
+    "gender": "M",
+    "gender_place": 74,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 89,
+    "first_name": "Ryan",
+    "last_name": "Johnson",
+    "time": "1900-01-01T13:00:00.000Z",
+    "gender": "M",
+    "gender_place": 75,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 90,
+    "first_name": "Justin",
+    "last_name": "Otsea",
+    "time": "1900-01-01T13:22:00.000Z",
+    "gender": "M",
+    "gender_place": 76,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 91,
+    "first_name": "Thomas",
+    "last_name": "Dehler",
+    "time": "1900-01-01T13:23:00.000Z",
+    "gender": "M",
+    "gender_place": 77,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 92,
+    "first_name": "Camille",
+    "last_name": "Wikstrom",
+    "time": "1900-01-01T13:26:00.000Z",
+    "gender": "F",
+    "gender_place": 15,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 93,
+    "first_name": "Gabrial",
+    "last_name": "Burch",
+    "time": "1900-01-01T13:30:00.000Z",
+    "gender": "M",
+    "gender_place": 78,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 94,
+    "first_name": "Luke",
+    "last_name": "Israel",
+    "time": "1900-01-01T13:37:00.000Z",
+    "gender": "M",
+    "gender_place": 79,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 95,
+    "first_name": "Jack",
+    "last_name": "Hagley",
+    "time": "1900-01-01T13:38:00.000Z",
+    "gender": "M",
+    "gender_place": 80,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 96,
+    "first_name": "Paige",
+    "last_name": "Orcutt",
+    "time": "1900-01-01T13:49:00.000Z",
+    "gender": "F",
+    "gender_place": 16,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 97,
+    "first_name": "Jeffrey",
+    "last_name": "Vos",
+    "time": "1900-01-01T14:03:00.000Z",
+    "gender": "M",
+    "gender_place": 81,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 98,
+    "first_name": "Matt",
+    "last_name": "Evans",
+    "time": "1900-01-01T14:04:00.000Z",
+    "gender": "M",
+    "gender_place": 82,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 99,
+    "first_name": "Addison",
+    "last_name": "Kyte",
+    "time": "1900-01-01T14:05:00.000Z",
+    "gender": "F",
+    "gender_place": 17,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 100,
+    "first_name": "Shannon",
+    "last_name": "Gabrielson",
+    "time": "1899-12-30T07:14:48.000Z",
+    "gender": "F",
+    "gender_place": 27,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 100,
+    "first_name": "Amanda",
+    "last_name": "Tveite",
+    "time": "1900-01-01T14:08:00.000Z",
+    "gender": "F",
+    "gender_place": 18,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 101,
+    "first_name": "Tim",
+    "last_name": "Shovein",
+    "time": "1899-12-30T07:14:51.000Z",
+    "gender": "M",
+    "gender_place": 72,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 101,
+    "first_name": "Sara",
+    "last_name": "Baldwin",
+    "time": "1900-01-01T14:18:00.000Z",
+    "gender": "F",
+    "gender_place": 19,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 102,
+    "first_name": "Lynn",
+    "last_name": "Saari",
+    "time": "1899-12-30T07:16:55.000Z",
+    "gender": "F",
+    "gender_place": 28,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 102,
+    "first_name": "Rachel",
+    "last_name": "White",
+    "time": "1900-01-01T14:23:00.000Z",
+    "gender": "F",
+    "gender_place": 20,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 103,
+    "first_name": "Brian",
+    "last_name": "Beckman",
+    "time": "1899-12-30T07:16:56.000Z",
+    "gender": "M",
+    "gender_place": 73,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 103,
+    "first_name": "Robbie",
+    "last_name": "Stevens",
+    "time": "1900-01-01T14:30:00.000Z",
+    "gender": "M",
+    "gender_place": 83,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 104,
+    "first_name": "Dot",
+    "last_name": "Hogan",
+    "time": "1899-12-30T07:18:39.000Z",
+    "gender": "F",
+    "gender_place": 29,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 104,
+    "first_name": "Claire",
+    "last_name": "Zwagerman",
+    "time": "1900-01-01T14:42:00.000Z",
+    "gender": "F",
+    "gender_place": 21,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 105,
+    "first_name": "Eric",
+    "last_name": "Schwerdt",
+    "time": "1899-12-30T07:18:49.000Z",
+    "gender": "M",
+    "gender_place": 74,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 105,
+    "first_name": "Kaitlin",
+    "last_name": "Bryhn",
+    "time": "1900-01-01T14:43:00.000Z",
+    "gender": "F",
+    "gender_place": 22,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 106,
+    "first_name": "Dave",
+    "last_name": "Israel",
+    "time": "1899-12-30T07:20:14.000Z",
+    "gender": "M",
+    "gender_place": 75,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 106,
+    "first_name": "Gina",
+    "last_name": "Wege",
+    "time": "1900-01-01T14:44:00.000Z",
+    "gender": "F",
+    "gender_place": 23,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 107,
+    "first_name": "Maria",
+    "last_name": "Vespa",
+    "time": "1899-12-30T07:21:02.000Z",
+    "gender": "F",
+    "gender_place": 30,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 107,
+    "first_name": "Hailey",
+    "last_name": "Bauer",
+    "time": "1900-01-01T14:45:00.000Z",
+    "gender": "F",
+    "gender_place": 24,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 108,
+    "first_name": "Lauren",
+    "last_name": "Cotton",
+    "time": "1899-12-30T07:21:04.000Z",
+    "gender": "F",
+    "gender_place": 31,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 108,
+    "first_name": "Matt",
+    "last_name": "Doneux",
+    "time": "1900-01-01T14:46:00.000Z",
+    "gender": "M",
+    "gender_place": 84,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 109,
+    "first_name": "Justin",
+    "last_name": "Otsea",
+    "time": "1899-12-30T07:21:12.000Z",
+    "gender": "M",
+    "gender_place": 76,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 109,
+    "first_name": "Quincie",
+    "last_name": "Floden",
+    "time": "1900-01-01T14:46:00.000Z",
+    "gender": "F",
+    "gender_place": 25,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 110,
+    "first_name": "Danielle",
+    "last_name": "LePage",
+    "time": "1899-12-30T07:21:13.000Z",
+    "gender": "F",
+    "gender_place": 32,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 110,
+    "first_name": "Harvey",
+    "last_name": "Floden",
+    "time": "1900-01-01T14:47:00.000Z",
+    "gender": "M",
+    "gender_place": 85,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 111,
+    "first_name": "Mara",
+    "last_name": "McKenzie",
+    "time": "1899-12-30T07:24:07.000Z",
+    "gender": "F",
+    "gender_place": 33,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 111,
+    "first_name": "Kathleen",
+    "last_name": "Torso",
+    "time": "1900-01-01T14:53:00.000Z",
+    "gender": "F",
+    "gender_place": 26,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 112,
+    "first_name": "Keith",
+    "last_name": "McKenzie",
+    "time": "1899-12-30T07:24:08.000Z",
+    "gender": "M",
+    "gender_place": 77,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 112,
+    "first_name": "Christopher",
+    "last_name": "Montague",
+    "time": "1900-01-01T14:55:00.000Z",
+    "gender": "M",
+    "gender_place": 86,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 113,
+    "first_name": "Oliver",
+    "last_name": "Kalinoiwski",
+    "time": "1899-12-30T07:28:04.000Z",
+    "gender": "M",
+    "gender_place": 78,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 113,
+    "first_name": "Jordan",
+    "last_name": "Curtis",
+    "time": "1900-01-01T14:59:00.000Z",
+    "gender": "M",
+    "gender_place": 87,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 114,
+    "first_name": "Jessica",
+    "last_name": "Ramey",
+    "time": "1899-12-30T07:28:32.000Z",
+    "gender": "F",
+    "gender_place": 34,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 114,
+    "first_name": "Tim",
+    "last_name": "Staub",
+    "time": "1900-01-01T15:12:00.000Z",
+    "gender": "M",
+    "gender_place": 88,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 115,
+    "first_name": "Linda",
+    "last_name": "Israel",
+    "time": "1899-12-30T07:29:15.000Z",
+    "gender": "F",
+    "gender_place": 35,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 115,
+    "first_name": "Riley",
+    "last_name": "Beskar",
+    "time": "1900-01-01T15:52:00.000Z",
+    "gender": "F",
+    "gender_place": 27,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 116,
+    "first_name": "Michelle",
+    "last_name": "Israel",
+    "time": "1899-12-30T07:29:16.000Z",
+    "gender": "F",
+    "gender_place": 36,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 116,
+    "first_name": "Allie",
+    "last_name": "Prokosch",
+    "time": "1900-01-01T15:56:00.000Z",
+    "gender": "F",
+    "gender_place": 28,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 117,
+    "first_name": "Barb",
+    "last_name": "Bengtson",
+    "time": "1899-12-30T07:38:41.000Z",
+    "gender": "F",
+    "gender_place": 37,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 117,
+    "first_name": "Brian",
+    "last_name": "Beckman",
+    "time": "1900-01-01T15:59:00.000Z",
+    "gender": "M",
+    "gender_place": 89,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 118,
+    "first_name": "Barb",
+    "last_name": "Luke",
+    "time": "1899-12-30T07:38:43.000Z",
+    "gender": "F",
+    "gender_place": 38,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 118,
+    "first_name": "Johnny",
+    "last_name": "Olson",
+    "time": "1900-01-01T16:01:00.000Z",
+    "gender": "M",
+    "gender_place": 90,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 119,
+    "first_name": "Ben",
+    "last_name": "Talarico",
+    "time": "1899-12-30T07:44:59.000Z",
+    "gender": "M",
+    "gender_place": 79,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 119,
+    "first_name": "Amity",
+    "last_name": "Borden",
+    "time": "1900-01-01T16:18:00.000Z",
+    "gender": "F",
+    "gender_place": 29,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 120,
+    "first_name": "Rosella",
+    "last_name": "Boemker",
+    "time": "1899-12-30T16:40:39.000Z",
+    "gender": "F",
+    "gender_place": 39,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 120,
+    "first_name": "Kristin",
+    "last_name": "Weber",
+    "time": "1899-12-30T16:40:39.000Z",
+    "gender": "F",
+    "gender_place": 39,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 120,
+    "first_name": "Matthew T",
+    "last_name": "Johnson",
+    "time": "1899-12-30T16:40:39.000Z",
+    "gender": "M",
+    "gender_place": 80,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 120,
+    "first_name": "Ingrid",
+    "last_name": "Sokup",
+    "time": "1899-12-30T16:40:39.000Z",
+    "gender": "F",
+    "gender_place": 39,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 120,
+    "first_name": "Chase",
+    "last_name": "Bonczek",
+    "time": "1900-01-01T16:29:00.000Z",
+    "gender": "M",
+    "gender_place": 91,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 121,
+    "first_name": "Zach",
+    "last_name": "Vavra",
+    "time": "1900-01-01T16:45:00.000Z",
+    "gender": "M",
+    "gender_place": 92,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 122,
+    "first_name": "Ashley",
+    "last_name": "Kittelson",
+    "time": "1900-01-01T16:55:00.000Z",
+    "gender": "F",
+    "gender_place": 30,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 123,
+    "first_name": "Tim",
+    "last_name": "Shovein",
+    "time": "1900-01-01T17:00:00.000Z",
+    "gender": "M",
+    "gender_place": 93,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 124,
+    "first_name": "Hallie",
+    "last_name": "Miller",
+    "time": "1900-01-01T17:53:00.000Z",
+    "gender": "F",
+    "gender_place": 31,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 125,
+    "first_name": "Anna",
+    "last_name": "Dehler",
+    "time": "1900-01-01T17:55:00.000Z",
+    "gender": "F",
+    "gender_place": 32,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 126,
+    "first_name": "Eric",
+    "last_name": "Schwerdt",
+    "time": "1899-12-30T07:00:42.000Z",
+    "gender": "M",
+    "gender_place": 94,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 127,
+    "first_name": "Nikolai",
+    "last_name": "Anikin",
+    "time": "1899-12-30T07:01:37.000Z",
+    "gender": "M",
+    "gender_place": 95,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 128,
+    "first_name": "Oscar",
+    "last_name": "Toftegaard",
+    "time": "1899-12-30T07:01:38.000Z",
+    "gender": "M",
+    "gender_place": 96,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 129,
+    "first_name": "Alexis",
+    "last_name": "Carpenter",
+    "time": "1899-12-30T07:01:41.000Z",
+    "gender": "F",
+    "gender_place": 33,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 130,
+    "first_name": "Alexa",
+    "last_name": "Mattson",
+    "time": "1899-12-30T07:01:42.000Z",
+    "gender": "F",
+    "gender_place": 34,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 131,
+    "first_name": "Josiah",
+    "last_name": "Burrell",
+    "time": "1899-12-30T07:01:43.000Z",
+    "gender": "M",
+    "gender_place": 97,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 132,
+    "first_name": "Anne",
+    "last_name": "Toftegaard",
+    "time": "1899-12-30T07:01:48.000Z",
+    "gender": "F",
+    "gender_place": 35,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 133,
+    "first_name": "Keith",
+    "last_name": "Thompson",
+    "time": "1899-12-30T07:01:51.000Z",
+    "gender": "M",
+    "gender_place": 98,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 134,
+    "first_name": "Jen",
+    "last_name": "Krussow",
+    "time": "1899-12-30T07:02:55.000Z",
+    "gender": "F",
+    "gender_place": 36,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 135,
+    "first_name": "Deb",
+    "last_name": "Powers",
+    "time": "1899-12-30T07:02:59.000Z",
+    "gender": "F",
+    "gender_place": 37,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 136,
+    "first_name": "Stacey",
+    "last_name": "Stark",
+    "time": "1899-12-30T07:03:01.000Z",
+    "gender": "F",
+    "gender_place": 38,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 137,
+    "first_name": "Brynn",
+    "last_name": "Borer",
+    "time": "1899-12-30T07:03:44.000Z",
+    "gender": "F",
+    "gender_place": 39,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 138,
+    "first_name": "Deli",
+    "last_name": "Heal",
+    "time": "1899-12-30T07:03:51.000Z",
+    "gender": "N",
+    "gender_place": 1,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 139,
+    "first_name": "Morty",
+    "last_name": "Harwood",
+    "time": "1899-12-30T07:03:57.000Z",
+    "gender": "M",
+    "gender_place": 99,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 140,
+    "first_name": "Audrey",
+    "last_name": "Todhunter",
+    "time": "1899-12-30T07:04:11.000Z",
+    "gender": "F",
+    "gender_place": 40,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 141,
+    "first_name": "Anne-Lu",
+    "last_name": "Hovis",
+    "time": "1899-12-30T07:04:16.000Z",
+    "gender": "F",
+    "gender_place": 41,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 142,
+    "first_name": "Dave",
+    "last_name": "Kauma",
+    "time": "1899-12-30T07:04:32.000Z",
+    "gender": "M",
+    "gender_place": 100,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 143,
+    "first_name": "Danielle",
+    "last_name": "Hennies",
+    "time": "1899-12-30T07:05:26.000Z",
+    "gender": "F",
+    "gender_place": 42,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 144,
+    "first_name": "Maria",
+    "last_name": "Vespa",
+    "time": "1899-12-30T07:06:38.000Z",
+    "gender": "F",
+    "gender_place": 43,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 145,
+    "first_name": "Mason",
+    "last_name": "Kirby",
+    "time": "1899-12-30T07:07:04.000Z",
+    "gender": "F",
+    "gender_place": 44,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 146,
+    "first_name": "Shannon",
+    "last_name": "Gabrielson",
+    "time": "1899-12-30T07:07:15.000Z",
+    "gender": "F",
+    "gender_place": 45,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 147,
+    "first_name": "Natalie",
+    "last_name": "Hagstrom",
+    "time": "1899-12-30T07:07:16.000Z",
+    "gender": "F",
+    "gender_place": 46,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 148,
+    "first_name": "Dave",
+    "last_name": "Israel",
+    "time": "1899-12-30T07:07:52.000Z",
+    "gender": "M",
+    "gender_place": 101,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 149,
+    "first_name": "Mak",
+    "last_name": "Robinson",
+    "time": "1899-12-30T07:08:15.000Z",
+    "gender": "F",
+    "gender_place": 47,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 150,
+    "first_name": "Steve",
+    "last_name": "Graham",
+    "time": "1899-12-30T07:10:21.000Z",
+    "gender": "M",
+    "gender_place": 102,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 151,
+    "first_name": "Adam",
+    "last_name": "McGill",
+    "time": "1899-12-30T07:10:26.000Z",
+    "gender": "M",
+    "gender_place": 103,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 152,
+    "first_name": "Jessica",
+    "last_name": "Ramey",
+    "time": "1899-12-30T07:10:29.000Z",
+    "gender": "F",
+    "gender_place": 48,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 153,
+    "first_name": "Kaylee",
+    "last_name": "Hagstrom",
+    "time": "1899-12-30T07:12:23.000Z",
+    "gender": "F",
+    "gender_place": 49,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 154,
+    "first_name": "Mackenzie",
+    "last_name": "Nash",
+    "time": "1899-12-30T07:12:24.000Z",
+    "gender": "F",
+    "gender_place": 50,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 155,
+    "first_name": "Taylor",
+    "last_name": "O'Brien",
+    "time": "1899-12-30T07:15:48.000Z",
+    "gender": "F",
+    "gender_place": 51,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 156,
+    "first_name": "Linda",
+    "last_name": "Israel",
+    "time": "1899-12-30T07:20:16.000Z",
+    "gender": "F",
+    "gender_place": 52,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 157,
+    "first_name": "Ben",
+    "last_name": "Talarico",
+    "time": "1899-12-30T07:23:13.000Z",
+    "gender": "M",
+    "gender_place": 104,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 158,
+    "first_name": "Barb",
+    "last_name": "Bengtson",
+    "time": "1899-12-30T07:27:04.000Z",
+    "gender": "F",
+    "gender_place": 53,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 159,
+    "first_name": "Barb",
+    "last_name": "Luke",
+    "time": "1899-12-30T07:27:05.000Z",
+    "gender": "F",
+    "gender_place": 54,
+    "finish_number": 1
+  },
+  {
+    "year": 2023,
+    "place": 160,
+    "first_name": "Steve",
+    "last_name": "Heikkila",
+    "time": "1899-12-30T16:40:39.000Z",
+    "gender": "M",
+    "gender_place": 105,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 1,
+    "first_name": "Ben",
+    "last_name": "Cogger",
+    "time": "1899-12-30T06:38:30.000Z",
+    "gender": "M",
+    "gender_place": 1,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 2,
+    "first_name": "Jakob",
+    "last_name": "Wartman",
+    "time": "1899-12-30T06:39:48.000Z",
+    "gender": "M",
+    "gender_place": 2,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 3,
+    "first_name": "Landen",
+    "last_name": "Harwood",
+    "time": "1899-12-30T06:39:56.000Z",
+    "gender": "M",
+    "gender_place": 3,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 4,
+    "first_name": "Guthrie",
+    "last_name": "Cunningham",
+    "time": "1899-12-30T06:41:21.000Z",
+    "gender": "M",
+    "gender_place": 4,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 5,
+    "first_name": "Kieran",
+    "last_name": "Johnson",
+    "time": "1899-12-30T06:41:34.000Z",
+    "gender": "M",
+    "gender_place": 5,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 6,
+    "first_name": "John",
+    "last_name": "Hottinger",
+    "time": "1899-12-30T06:41:38.000Z",
+    "gender": "M",
+    "gender_place": 6,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 7,
+    "first_name": "Josh",
+    "last_name": "Tarnowski",
+    "time": "1899-12-30T06:41:44.000Z",
+    "gender": "M",
+    "gender_place": 7,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 8,
+    "first_name": "Jeff",
+    "last_name": "Cottrell",
+    "time": "1899-12-30T06:41:49.000Z",
+    "gender": "M",
+    "gender_place": 8,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 9,
+    "first_name": "Chelsey",
+    "last_name": "Youngberg",
+    "time": "1899-12-30T06:42:42.000Z",
+    "gender": "F",
+    "gender_place": 1,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 10,
+    "first_name": "Kyle",
+    "last_name": "Anderson",
+    "time": "1899-12-30T06:43:04.000Z",
+    "gender": "M",
+    "gender_place": 9,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 11,
+    "first_name": "Justus",
+    "last_name": "Olson",
+    "time": "1899-12-30T06:43:08.000Z",
+    "gender": "M",
+    "gender_place": 10,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 12,
+    "first_name": "Ryan",
+    "last_name": "Wilch",
+    "time": "1899-12-30T06:43:24.000Z",
+    "gender": "M",
+    "gender_place": 11,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 13,
+    "first_name": "Jordan",
+    "last_name": "Gruenes",
+    "time": "1899-12-30T06:43:26.000Z",
+    "gender": "M",
+    "gender_place": 12,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 14,
+    "first_name": "Bradley",
+    "last_name": "Gumtow",
+    "time": "1899-12-30T06:43:52.000Z",
+    "gender": "M",
+    "gender_place": 13,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 15,
+    "first_name": "Mike",
+    "last_name": "Ward",
+    "time": "1899-12-30T06:43:53.000Z",
+    "gender": "M",
+    "gender_place": 14,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 16,
+    "first_name": "Alex",
+    "last_name": "Kasparek",
+    "time": "1899-12-30T06:44:03.000Z",
+    "gender": "M",
+    "gender_place": 15,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 17,
+    "first_name": "Adam",
+    "last_name": "Swank",
+    "time": "1899-12-30T06:44:21.000Z",
+    "gender": "M",
+    "gender_place": 16,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 18,
+    "first_name": "Eric",
+    "last_name": "Nordgren",
+    "time": "1899-12-30T06:45:07.000Z",
+    "gender": "M",
+    "gender_place": 17,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 19,
+    "first_name": "Kevin",
+    "last_name": "Mack",
+    "time": "1899-12-30T06:45:08.000Z",
+    "gender": "M",
+    "gender_place": 18,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 20,
+    "first_name": "Cody",
+    "last_name": "Hanson",
+    "time": "1899-12-30T06:45:50.000Z",
+    "gender": "M",
+    "gender_place": 19,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 21,
+    "first_name": "Benjamin",
+    "last_name": "Welch",
+    "time": "1899-12-30T06:46:05.000Z",
+    "gender": "M",
+    "gender_place": 20,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 22,
+    "first_name": "Hanna",
+    "last_name": "Torvi",
+    "time": "1899-12-30T06:46:12.000Z",
+    "gender": "F",
+    "gender_place": 2,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 23,
+    "first_name": "Kevin",
+    "last_name": "Wood",
+    "time": "1899-12-30T06:46:24.000Z",
+    "gender": "M",
+    "gender_place": 21,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 24,
+    "first_name": "Ben",
+    "last_name": "Riegert",
+    "time": "1899-12-30T06:46:31.000Z",
+    "gender": "M",
+    "gender_place": 22,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 25,
+    "first_name": "Charlie",
+    "last_name": "Hickman",
+    "time": "1899-12-30T06:46:39.000Z",
+    "gender": "M",
+    "gender_place": 23,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 26,
+    "first_name": "Karl",
+    "last_name": "Holub",
+    "time": "1899-12-30T06:46:44.000Z",
+    "gender": "M",
+    "gender_place": 24,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 27,
+    "first_name": "Matt",
+    "last_name": "Livingston",
+    "time": "1899-12-30T06:47:03.000Z",
+    "gender": "M",
+    "gender_place": 25,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 28,
+    "first_name": "Logan",
+    "last_name": "Baier",
+    "time": "1899-12-30T06:47:23.000Z",
+    "gender": "M",
+    "gender_place": 26,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 29,
+    "first_name": "Max",
+    "last_name": "Botz",
+    "time": "1899-12-30T06:47:40.000Z",
+    "gender": "M",
+    "gender_place": 27,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 30,
+    "first_name": "Tyler",
+    "last_name": "Pilon",
+    "time": "1899-12-30T06:48:24.000Z",
+    "gender": "M",
+    "gender_place": 28,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 31,
+    "first_name": "Dave",
+    "last_name": "Lane",
+    "time": "1899-12-30T06:48:45.000Z",
+    "gender": "M",
+    "gender_place": 29,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 32,
+    "first_name": "Dave",
+    "last_name": "Antonson",
+    "time": "1899-12-30T06:48:53.000Z",
+    "gender": "M",
+    "gender_place": 30,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 33,
+    "first_name": "Asher",
+    "last_name": "Hollowman",
+    "time": "1899-12-30T06:49:14.000Z",
+    "gender": "M",
+    "gender_place": 31,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 34,
+    "first_name": "Maddy",
+    "last_name": "Sweeney",
+    "time": "1899-12-30T06:49:16.000Z",
+    "gender": "F",
+    "gender_place": 3,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 35,
+    "first_name": "Ryan",
+    "last_name": "Ballard",
+    "time": "1899-12-30T06:49:47.000Z",
+    "gender": "M",
+    "gender_place": 32,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 36,
+    "first_name": "Luke",
+    "last_name": "Rosholt",
+    "time": "1899-12-30T06:50:23.000Z",
+    "gender": "M",
+    "gender_place": 33,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 37,
+    "first_name": "Noah",
+    "last_name": "DeLuca",
+    "time": "1899-12-30T06:50:25.000Z",
+    "gender": "M",
+    "gender_place": 34,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 38,
+    "first_name": "Shannon",
+    "last_name": "Hogan",
+    "time": "1899-12-30T06:51:08.000Z",
+    "gender": "F",
+    "gender_place": 4,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 39,
+    "first_name": "Brooke",
+    "last_name": "Wilson",
+    "time": "1899-12-30T06:51:38.000Z",
+    "gender": "F",
+    "gender_place": 5,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 40,
+    "first_name": "Grant",
+    "last_name": "Sparstad",
+    "time": "1899-12-30T06:52:02.000Z",
+    "gender": "M",
+    "gender_place": 35,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 41,
+    "first_name": "Molly",
+    "last_name": "Watkins",
+    "time": "1899-12-30T06:52:05.000Z",
+    "gender": "F",
+    "gender_place": 6,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 42,
+    "first_name": "Roger",
+    "last_name": "Reinert",
+    "time": "1899-12-30T06:52:16.000Z",
+    "gender": "M",
+    "gender_place": 36,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 43,
+    "first_name": "Rick",
+    "last_name": "LaCaille",
+    "time": "1899-12-30T06:52:49.000Z",
+    "gender": "M",
+    "gender_place": 37,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 44,
+    "first_name": "Matthew",
+    "last_name": "Eystad",
+    "time": "1899-12-30T06:52:55.000Z",
+    "gender": "M",
+    "gender_place": 38,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 45,
+    "first_name": "Spencer",
+    "last_name": "Carlson",
+    "time": "1899-12-30T06:53:02.000Z",
+    "gender": "M",
+    "gender_place": 39,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 46,
+    "first_name": "Aurora",
+    "last_name": "Kothe",
+    "time": "1899-12-30T06:53:21.000Z",
+    "gender": "F",
+    "gender_place": 7,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 47,
+    "first_name": "Shannon",
+    "last_name": "Meehan",
+    "time": "1899-12-30T06:53:28.000Z",
+    "gender": "F",
+    "gender_place": 8,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 48,
+    "first_name": "Don",
+    "last_name": "Kuchenbecker",
+    "time": "1899-12-30T06:53:37.000Z",
+    "gender": "M",
+    "gender_place": 40,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 49,
+    "first_name": "Alex",
+    "last_name": "Popp",
+    "time": "1899-12-30T06:53:41.000Z",
+    "gender": "M",
+    "gender_place": 41,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 50,
+    "first_name": "Phil",
+    "last_name": "Rogers",
+    "time": "1899-12-30T06:53:47.000Z",
+    "gender": "M",
+    "gender_place": 42,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 51,
+    "first_name": "Jackson",
+    "last_name": "Saburn",
+    "time": "1899-12-30T06:53:49.000Z",
+    "gender": "M",
+    "gender_place": 43,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 52,
+    "first_name": "Nate",
+    "last_name": "Hubert",
+    "time": "1899-12-30T06:53:57.000Z",
+    "gender": "M",
+    "gender_place": 44,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 53,
+    "first_name": "Rod",
+    "last_name": "Raymond",
+    "time": "1899-12-30T06:54:46.000Z",
+    "gender": "M",
+    "gender_place": 45,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 54,
+    "first_name": "James",
+    "last_name": "Keyes",
+    "time": "1899-12-30T06:55:29.000Z",
+    "gender": "M",
+    "gender_place": 46,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 55,
+    "first_name": "Ely",
+    "last_name": "Young",
+    "time": "1899-12-30T06:55:39.000Z",
+    "gender": "M",
+    "gender_place": 47,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 56,
+    "first_name": "Caroline",
+    "last_name": "Olson",
+    "time": "1899-12-30T06:55:43.000Z",
+    "gender": "F",
+    "gender_place": 9,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 57,
+    "first_name": "Tyler",
+    "last_name": "Breitkreutz",
+    "time": "1899-12-30T06:57:07.000Z",
+    "gender": "M",
+    "gender_place": 48,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 58,
+    "first_name": "Matt",
+    "last_name": "Wasland",
+    "time": "1899-12-30T06:57:08.000Z",
+    "gender": "M",
+    "gender_place": 49,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 59,
+    "first_name": "Matt L",
+    "last_name": "Johnson",
+    "time": "1899-12-30T06:57:16.000Z",
+    "gender": "M",
+    "gender_place": 50,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 60,
+    "first_name": "Brian",
+    "last_name": "Berget",
+    "time": "1899-12-30T06:57:45.000Z",
+    "gender": "M",
+    "gender_place": 51,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 61,
+    "first_name": "Madeline",
+    "last_name": "Arpin",
+    "time": "1899-12-30T06:58:02.000Z",
+    "gender": "F",
+    "gender_place": 10,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 62,
+    "first_name": "Jesse",
+    "last_name": "Coenen",
+    "time": "1899-12-30T06:58:04.000Z",
+    "gender": "M",
+    "gender_place": 52,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 63,
+    "first_name": "Mae",
+    "last_name": "Gackstetter",
+    "time": "1899-12-30T06:58:41.000Z",
+    "gender": "F",
+    "gender_place": 11,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 64,
+    "first_name": "Steven",
+    "last_name": "Barnabo",
+    "time": "1899-12-30T06:59:25.000Z",
+    "gender": "M",
+    "gender_place": 53,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 65,
+    "first_name": "Luke",
+    "last_name": "Israel",
+    "time": "1899-12-30T06:59:46.000Z",
+    "gender": "M",
+    "gender_place": 54,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 66,
+    "first_name": "Matt",
+    "last_name": "Evans",
+    "time": "1899-12-30T07:00:20.000Z",
+    "gender": "M",
+    "gender_place": 55,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 67,
+    "first_name": "Alex",
+    "last_name": "Johnson",
+    "time": "1899-12-30T07:00:55.000Z",
+    "gender": "M",
+    "gender_place": 56,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 68,
+    "first_name": "Ben",
+    "last_name": "Johnson",
+    "time": "1899-12-30T07:00:57.000Z",
+    "gender": "M",
+    "gender_place": 57,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 69,
+    "first_name": "Natalie",
+    "last_name": "Hagstrom",
+    "time": "1899-12-30T07:01:08.000Z",
+    "gender": "F",
+    "gender_place": 12,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 70,
+    "first_name": "Ryan",
+    "last_name": "Johnson",
+    "time": "1899-12-30T07:01:18.000Z",
+    "gender": "M",
+    "gender_place": 58,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 71,
+    "first_name": "Kathleen",
+    "last_name": "Torso",
+    "time": "1899-12-30T07:01:28.000Z",
+    "gender": "F",
+    "gender_place": 13,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 72,
+    "first_name": "Chris",
+    "last_name": "Morris",
+    "time": "1899-12-30T07:01:50.000Z",
+    "gender": "M",
+    "gender_place": 59,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 73,
+    "first_name": "Ashley",
+    "last_name": "Kittelson",
+    "time": "1899-12-30T07:02:00.000Z",
+    "gender": "F",
+    "gender_place": 14,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 74,
+    "first_name": "Erik",
+    "last_name": "Riker-Coleman",
+    "time": "1899-12-30T07:02:16.000Z",
+    "gender": "M",
+    "gender_place": 60,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 75,
+    "first_name": "Jordan",
+    "last_name": "Curtis",
+    "time": "1899-12-30T07:02:32.000Z",
+    "gender": "M",
+    "gender_place": 61,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 76,
+    "first_name": "Kevin",
+    "last_name": "Jahr",
+    "time": "1899-12-30T07:02:48.000Z",
+    "gender": "M",
+    "gender_place": 62,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 77,
+    "first_name": "Peter",
+    "last_name": "Carlson",
+    "time": "1899-12-30T07:03:06.000Z",
+    "gender": "M",
+    "gender_place": 63,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 78,
+    "first_name": "Kaitlin",
+    "last_name": "Bryhn",
+    "time": "1899-12-30T07:03:11.000Z",
+    "gender": "F",
+    "gender_place": 15,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 79,
+    "first_name": "Hailey",
+    "last_name": "Bauer",
+    "time": "1899-12-30T07:03:12.000Z",
+    "gender": "F",
+    "gender_place": 16,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 80,
+    "first_name": "Brynn",
+    "last_name": "Olsen",
+    "time": "1899-12-30T07:03:31.000Z",
+    "gender": "F",
+    "gender_place": 17,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 81,
+    "first_name": "Alexis",
+    "last_name": "Carpenter",
+    "time": "1899-12-30T07:04:33.000Z",
+    "gender": "F",
+    "gender_place": 18,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 82,
+    "first_name": "Amanda",
+    "last_name": "Tveite",
+    "time": "1899-12-30T07:04:48.000Z",
+    "gender": "F",
+    "gender_place": 19,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 83,
+    "first_name": "Miguel",
+    "last_name": "Bernardez",
+    "time": "1899-12-30T07:04:49.000Z",
+    "gender": "M",
+    "gender_place": 64,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 84,
+    "first_name": "Caitlin",
+    "last_name": "McConaghy",
+    "time": "1899-12-30T07:05:34.000Z",
+    "gender": "F",
+    "gender_place": 20,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 85,
+    "first_name": "Sara",
+    "last_name": "Baldwin",
+    "time": "1899-12-30T07:05:51.000Z",
+    "gender": "F",
+    "gender_place": 21,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 86,
+    "first_name": "L",
+    "last_name": "Byrne",
+    "time": "1899-12-30T07:06:12.000Z",
+    "gender": "N",
+    "gender_place": 1,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 87,
+    "first_name": "Daryl",
+    "last_name": "Saari",
+    "time": "1899-12-30T07:06:13.000Z",
+    "gender": "M",
+    "gender_place": 65,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 88,
+    "first_name": "Nico",
+    "last_name": "Ghandhi",
+    "time": "1899-12-30T07:06:14.000Z",
+    "gender": "M",
+    "gender_place": 66,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 89,
+    "first_name": "Riley",
+    "last_name": "Beskar",
+    "time": "1899-12-30T07:06:18.000Z",
+    "gender": "F",
+    "gender_place": 22,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 90,
+    "first_name": "Anne",
+    "last_name": "Toftegaard",
+    "time": "1899-12-30T07:07:14.000Z",
+    "gender": "F",
+    "gender_place": 23,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 91,
+    "first_name": "Oscar",
+    "last_name": "Toftegaard",
+    "time": "1899-12-30T07:07:15.000Z",
+    "gender": "M",
+    "gender_place": 67,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 92,
+    "first_name": "Matthew",
+    "last_name": "Henderson",
+    "time": "1899-12-30T07:08:54.000Z",
+    "gender": "M",
+    "gender_place": 68,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 93,
+    "first_name": "Morty",
+    "last_name": "Harwood",
+    "time": "1899-12-30T07:08:58.000Z",
+    "gender": "M",
+    "gender_place": 69,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 94,
+    "first_name": "Liz",
+    "last_name": "Olson",
+    "time": "1899-12-30T07:08:59.000Z",
+    "gender": "F",
+    "gender_place": 24,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 95,
+    "first_name": "Deb",
+    "last_name": "Powers",
+    "time": "1899-12-30T07:09:33.000Z",
+    "gender": "F",
+    "gender_place": 25,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 96,
+    "first_name": "Lauren",
+    "last_name": "Gean",
+    "time": "1899-12-30T07:11:16.000Z",
+    "gender": "F",
+    "gender_place": 26,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 97,
+    "first_name": "Nick",
+    "last_name": "Terwey",
+    "time": "1899-12-30T07:11:25.000Z",
+    "gender": "M",
+    "gender_place": 70,
+    "finish_number": 1
+  },
+  {
+    "year": 2024,
+    "place": 98,
+    "first_name": "Dave",
+    "last_name": "Kauma",
+    "time": "1899-12-30T07:12:03.000Z",
+    "gender": "M",
+    "gender_place": 71,
+    "finish_number": 2
+  },
+  {
+    "year": 2024,
+    "place": 99,
+    "first_name": "Deli",
+    "last_name": "Heal",
+    "time": "1899-12-30T07:13:29.000Z",
+    "gender": "N",
+    "gender_place": 2,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 1,
+    "first_name": "Ben",
+    "last_name": "Cogger",
+    "time": "1899-12-30T06:34:51.000Z",
+    "gender": "M",
+    "gender_place": 1,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 2,
+    "first_name": "Landen",
+    "last_name": "Harwood",
+    "time": "1899-12-30T06:36:07.000Z",
+    "gender": "M",
+    "gender_place": 2,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 3,
+    "first_name": "Guthrie",
+    "last_name": "Cunningham",
+    "time": "1899-12-30T06:36:08.000Z",
+    "gender": "M",
+    "gender_place": 3,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 4,
+    "first_name": "Josh",
+    "last_name": "Tarnowski",
+    "time": "1899-12-30T06:37:34.000Z",
+    "gender": "M",
+    "gender_place": 4,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 5,
+    "first_name": "Justus",
+    "last_name": "Olson",
+    "time": "1899-12-30T06:37:58.000Z",
+    "gender": "M",
+    "gender_place": 5,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 6,
+    "first_name": "John",
+    "last_name": "Fox",
+    "time": "1899-12-30T06:38:06.000Z",
+    "gender": "M",
+    "gender_place": 6,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 7,
+    "first_name": "Tommy",
+    "last_name": "Martin",
+    "time": "1899-12-30T06:38:56.000Z",
+    "gender": "M",
+    "gender_place": 7,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 8,
+    "first_name": "Chelsey",
+    "last_name": "Youngberg",
+    "time": "1899-12-30T06:39:24.000Z",
+    "gender": "F",
+    "gender_place": 1,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 9,
+    "first_name": "Kevin",
+    "last_name": "Mack",
+    "time": "1899-12-30T06:39:31.000Z",
+    "gender": "M",
+    "gender_place": 8,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 10,
+    "first_name": "Ryan",
+    "last_name": "Wilch",
+    "time": "1899-12-30T06:40:01.000Z",
+    "gender": "M",
+    "gender_place": 9,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 11,
+    "first_name": "Alex",
+    "last_name": "Kasparek",
+    "time": "1899-12-30T06:40:10.000Z",
+    "gender": "M",
+    "gender_place": 10,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 12,
+    "first_name": "Benjamin",
+    "last_name": "Welch",
+    "time": "1899-12-30T06:40:17.000Z",
+    "gender": "M",
+    "gender_place": 11,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 13,
+    "first_name": "Josh",
+    "last_name": "Nonnemacher",
+    "time": "1899-12-30T06:40:37.000Z",
+    "gender": "M",
+    "gender_place": 12,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 14,
+    "first_name": "Hanna",
+    "last_name": "Torvi",
+    "time": "1899-12-30T06:41:17.000Z",
+    "gender": "F",
+    "gender_place": 2,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 15,
+    "first_name": "Adam",
+    "last_name": "Swank",
+    "time": "1899-12-30T06:41:29.000Z",
+    "gender": "M",
+    "gender_place": 13,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 16,
+    "first_name": "Kevin",
+    "last_name": "Wood",
+    "time": "1899-12-30T06:41:35.000Z",
+    "gender": "M",
+    "gender_place": 14,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 17,
+    "first_name": "Charlie",
+    "last_name": "Hickman",
+    "time": "1899-12-30T06:41:46.000Z",
+    "gender": "M",
+    "gender_place": 15,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 18,
+    "first_name": "Cody",
+    "last_name": "Hanson",
+    "time": "1899-12-30T06:42:00.000Z",
+    "gender": "M",
+    "gender_place": 16,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 19,
+    "first_name": "Ryan",
+    "last_name": "Peterson",
+    "time": "1899-12-30T06:42:31.000Z",
+    "gender": "M",
+    "gender_place": 17,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 20,
+    "first_name": "Parker",
+    "last_name": "Bjorlin",
+    "time": "1899-12-30T06:43:18.000Z",
+    "gender": "M",
+    "gender_place": 18,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 21,
+    "first_name": "Ben",
+    "last_name": "Riegert",
+    "time": "1899-12-30T06:43:42.000Z",
+    "gender": "M",
+    "gender_place": 19,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 22,
+    "first_name": "Brad",
+    "last_name": "Everets",
+    "time": "1899-12-30T06:43:43.000Z",
+    "gender": "M",
+    "gender_place": 20,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 23,
+    "first_name": "Max",
+    "last_name": "Botz",
+    "time": "1899-12-30T06:44:27.000Z",
+    "gender": "M",
+    "gender_place": 21,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 24,
+    "first_name": "Zach",
+    "last_name": "Via",
+    "time": "1899-12-30T06:44:36.000Z",
+    "gender": "M",
+    "gender_place": 22,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 25,
+    "first_name": "Tyler",
+    "last_name": "Pilon",
+    "time": "1899-12-30T06:45:15.000Z",
+    "gender": "M",
+    "gender_place": 23,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 26,
+    "first_name": "Kinyee",
+    "last_name": "Sin",
+    "time": "1899-12-30T06:45:25.000Z",
+    "gender": "M",
+    "gender_place": 24,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 27,
+    "first_name": "Kaelyn",
+    "last_name": "Williams",
+    "time": "1899-12-30T06:45:33.000Z",
+    "gender": "F",
+    "gender_place": 3,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 28,
+    "first_name": "Dave",
+    "last_name": "Lane",
+    "time": "1899-12-30T06:45:41.000Z",
+    "gender": "M",
+    "gender_place": 25,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 29,
+    "first_name": "Nico",
+    "last_name": "Ghandhi",
+    "time": "1899-12-30T06:45:58.000Z",
+    "gender": "M",
+    "gender_place": 26,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 30,
+    "first_name": "Ryan",
+    "last_name": "Staub",
+    "time": "1899-12-30T06:46:03.000Z",
+    "gender": "M",
+    "gender_place": 27,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 31,
+    "first_name": "Dave",
+    "last_name": "Schaeffer",
+    "time": "1899-12-30T06:46:08.000Z",
+    "gender": "M",
+    "gender_place": 28,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 32,
+    "first_name": "Brooke",
+    "last_name": "Wilson",
+    "time": "1899-12-30T06:46:10.000Z",
+    "gender": "F",
+    "gender_place": 4,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 33,
+    "first_name": "Roger",
+    "last_name": "Reinert",
+    "time": "1899-12-30T06:46:11.000Z",
+    "gender": "M",
+    "gender_place": 29,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 34,
+    "first_name": "Rod",
+    "last_name": "Raymond",
+    "time": "1899-12-30T06:46:16.000Z",
+    "gender": "M",
+    "gender_place": 30,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 35,
+    "first_name": "Blake",
+    "last_name": "Peters",
+    "time": "1899-12-30T06:46:20.000Z",
+    "gender": "M",
+    "gender_place": 31,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 36,
+    "first_name": "Matthew",
+    "last_name": "Eystad",
+    "time": "1899-12-30T06:47:25.000Z",
+    "gender": "M",
+    "gender_place": 32,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 37,
+    "first_name": "Molly",
+    "last_name": "Watkins",
+    "time": "1899-12-30T06:47:34.000Z",
+    "gender": "F",
+    "gender_place": 5,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 38,
+    "first_name": "Aurora",
+    "last_name": "Kothe",
+    "time": "1899-12-30T06:47:52.000Z",
+    "gender": "F",
+    "gender_place": 6,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 39,
+    "first_name": "Phil",
+    "last_name": "Rogers",
+    "time": "1899-12-30T06:48:08.000Z",
+    "gender": "M",
+    "gender_place": 33,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 40,
+    "first_name": "Austin",
+    "last_name": "Willoughby",
+    "time": "1899-12-30T06:48:16.000Z",
+    "gender": "M",
+    "gender_place": 34,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 41,
+    "first_name": "Rick",
+    "last_name": "LaCaille",
+    "time": "1899-12-30T06:48:37.000Z",
+    "gender": "M",
+    "gender_place": 35,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 42,
+    "first_name": "Luke",
+    "last_name": "Rosholt",
+    "time": "1899-12-30T06:48:45.000Z",
+    "gender": "M",
+    "gender_place": 36,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 43,
+    "first_name": "Spencer",
+    "last_name": "Carlson",
+    "time": "1899-12-30T06:48:52.000Z",
+    "gender": "M",
+    "gender_place": 37,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 44,
+    "first_name": "Patrick",
+    "last_name": "Riley",
+    "time": "1899-12-30T06:50:21.000Z",
+    "gender": "M",
+    "gender_place": 38,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 45,
+    "first_name": "Ryan",
+    "last_name": "Saline",
+    "time": "1899-12-30T06:51:36.000Z",
+    "gender": "M",
+    "gender_place": 39,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 46,
+    "first_name": "Jake",
+    "last_name": "Guello",
+    "time": "1899-12-30T06:51:49.000Z",
+    "gender": "M",
+    "gender_place": 40,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 47,
+    "first_name": "Justin",
+    "last_name": "Fleck",
+    "time": "1899-12-30T06:51:55.000Z",
+    "gender": "M",
+    "gender_place": 41,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 48,
+    "first_name": "Lou",
+    "last_name": "Himes",
+    "time": "1899-12-30T06:52:02.000Z",
+    "gender": "F",
+    "gender_place": 7,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 49,
+    "first_name": "Marcus",
+    "last_name": "Taintor",
+    "time": "1899-12-30T06:52:25.000Z",
+    "gender": "M",
+    "gender_place": 42,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 50,
+    "first_name": "Matt",
+    "last_name": "O'Connor",
+    "time": "1899-12-30T06:52:43.000Z",
+    "gender": "M",
+    "gender_place": 43,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 51,
+    "first_name": "Chris",
+    "last_name": "Morris",
+    "time": "1899-12-30T06:53:22.000Z",
+    "gender": "M",
+    "gender_place": 44,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 52,
+    "first_name": "Steven",
+    "last_name": "Barnabo",
+    "time": "1899-12-30T06:53:47.000Z",
+    "gender": "M",
+    "gender_place": 45,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 53,
+    "first_name": "Brette",
+    "last_name": "Jensen",
+    "time": "1899-12-30T06:53:56.000Z",
+    "gender": "F",
+    "gender_place": 8,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 54,
+    "first_name": "Paige",
+    "last_name": "Orcutt",
+    "time": "1899-12-30T06:53:59.000Z",
+    "gender": "F",
+    "gender_place": 9,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 55,
+    "first_name": "Alexis",
+    "last_name": "Carpenter",
+    "time": "1899-12-30T06:54:01.000Z",
+    "gender": "F",
+    "gender_place": 10,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 56,
+    "first_name": "Ryan",
+    "last_name": "Johnson",
+    "time": "1899-12-30T06:54:14.000Z",
+    "gender": "M",
+    "gender_place": 46,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 57,
+    "first_name": "Jordan",
+    "last_name": "Curtis",
+    "time": "1899-12-30T06:54:35.000Z",
+    "gender": "M",
+    "gender_place": 47,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 58,
+    "first_name": "Brynn",
+    "last_name": "Olsen",
+    "time": "1899-12-30T06:55:47.000Z",
+    "gender": "F",
+    "gender_place": 11,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 59,
+    "first_name": "Matt",
+    "last_name": "Evans",
+    "time": "1899-12-30T06:55:53.000Z",
+    "gender": "M",
+    "gender_place": 48,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 60,
+    "first_name": "Rachel",
+    "last_name": "White",
+    "time": "1899-12-30T06:56:04.000Z",
+    "gender": "F",
+    "gender_place": 12,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 61,
+    "first_name": "Matthew T",
+    "last_name": "Johnson",
+    "time": "1899-12-30T06:56:05.000Z",
+    "gender": "M",
+    "gender_place": 49,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 62,
+    "first_name": "Amanda",
+    "last_name": "Tveite",
+    "time": "1899-12-30T06:56:27.000Z",
+    "gender": "F",
+    "gender_place": 13,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 63,
+    "first_name": "Miguel",
+    "last_name": "Bernardez",
+    "time": "1899-12-30T06:56:28.000Z",
+    "gender": "M",
+    "gender_place": 50,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 64,
+    "first_name": "Riley",
+    "last_name": "Beskar",
+    "time": "1899-12-30T06:57:01.000Z",
+    "gender": "F",
+    "gender_place": 14,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 65,
+    "first_name": "Joshua",
+    "last_name": "Tomczak",
+    "time": "1899-12-30T06:57:45.000Z",
+    "gender": "M",
+    "gender_place": 51,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 66,
+    "first_name": "Sara",
+    "last_name": "Zimmer",
+    "time": "1899-12-30T06:58:03.000Z",
+    "gender": "F",
+    "gender_place": 15,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 67,
+    "first_name": "Mike",
+    "last_name": "Ward",
+    "time": "1899-12-30T06:58:16.000Z",
+    "gender": "M",
+    "gender_place": 52,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 68,
+    "first_name": "Ashley",
+    "last_name": "Kittelson",
+    "time": "1899-12-30T06:58:30.000Z",
+    "gender": "F",
+    "gender_place": 16,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 69,
+    "first_name": "Amity",
+    "last_name": "Borden",
+    "time": "1899-12-30T06:59:06.000Z",
+    "gender": "F",
+    "gender_place": 17,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 70,
+    "first_name": "Brian",
+    "last_name": "Beckman",
+    "time": "1899-12-30T06:59:07.000Z",
+    "gender": "M",
+    "gender_place": 53,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 71,
+    "first_name": "Matthew",
+    "last_name": "Henderson",
+    "time": "1899-12-30T06:59:31.000Z",
+    "gender": "M",
+    "gender_place": 54,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 72,
+    "first_name": "L",
+    "last_name": "Byrne",
+    "time": "1899-12-30T06:59:47.000Z",
+    "gender": "N",
+    "gender_place": 1,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 73,
+    "first_name": "Nikolai",
+    "last_name": "Anikin",
+    "time": "1899-12-30T07:00:18.000Z",
+    "gender": "M",
+    "gender_place": 55,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 74,
+    "first_name": "Anne",
+    "last_name": "Toftegaard",
+    "time": "1899-12-30T07:00:56.000Z",
+    "gender": "F",
+    "gender_place": 18,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 75,
+    "first_name": "Oscar",
+    "last_name": "Toftegaard",
+    "time": "1899-12-30T07:00:56.000Z",
+    "gender": "M",
+    "gender_place": 56,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 76,
+    "first_name": "Steve",
+    "last_name": "Heikkila",
+    "time": "1899-12-30T07:02:55.000Z",
+    "gender": "M",
+    "gender_place": 57,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 77,
+    "first_name": "Jen",
+    "last_name": "Krussow",
+    "time": "1899-12-30T07:03:15.000Z",
+    "gender": "F",
+    "gender_place": 19,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 78,
+    "first_name": "Tim",
+    "last_name": "Shovein",
+    "time": "1899-12-30T07:03:22.000Z",
+    "gender": "M",
+    "gender_place": 58,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 79,
+    "first_name": "Keith",
+    "last_name": "Thompson",
+    "time": "1899-12-30T07:03:29.000Z",
+    "gender": "M",
+    "gender_place": 59,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 80,
+    "first_name": "Deli",
+    "last_name": "Heal",
+    "time": "1899-12-30T07:04:54.000Z",
+    "gender": "N",
+    "gender_place": 2,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 81,
+    "first_name": "Deb",
+    "last_name": "Powers",
+    "time": "1899-12-30T07:05:08.000Z",
+    "gender": "F",
+    "gender_place": 20,
+    "finish_number": 3
+  },
+  {
+    "year": 2025,
+    "place": 82,
+    "first_name": "Tyson",
+    "last_name": "Freier",
+    "time": "1899-12-30T07:07:40.000Z",
+    "gender": "M",
+    "gender_place": 60,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 83,
+    "first_name": "Irina",
+    "last_name": "Boggie",
+    "time": "1899-12-30T07:08:42.000Z",
+    "gender": "F",
+    "gender_place": 21,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 84,
+    "first_name": "Danielle",
+    "last_name": "Hennies",
+    "time": "1899-12-30T07:08:44.000Z",
+    "gender": "F",
+    "gender_place": 22,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 85,
+    "first_name": "Lisa",
+    "last_name": "Freier",
+    "time": "1899-12-30T07:09:06.000Z",
+    "gender": "F",
+    "gender_place": 23,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 86,
+    "first_name": "Adam",
+    "last_name": "McGill",
+    "time": "1899-12-30T07:10:15.000Z",
+    "gender": "M",
+    "gender_place": 61,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 87,
+    "first_name": "Dot",
+    "last_name": "Hogan",
+    "time": "1899-12-30T07:10:29.000Z",
+    "gender": "F",
+    "gender_place": 24,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 88,
+    "first_name": "Shannon",
+    "last_name": "Gabrielson",
+    "time": "1899-12-30T07:12:03.000Z",
+    "gender": "F",
+    "gender_place": 25,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 89,
+    "first_name": "Shannon",
+    "last_name": "Hogan",
+    "time": "1899-12-30T07:12:04.000Z",
+    "gender": "F",
+    "gender_place": 26,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 90,
+    "first_name": "Lauren",
+    "last_name": "Cotton",
+    "time": "1899-12-30T07:13:57.000Z",
+    "gender": "F",
+    "gender_place": 27,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 91,
+    "first_name": "Maria",
+    "last_name": "Vespa",
+    "time": "1899-12-30T07:13:58.000Z",
+    "gender": "F",
+    "gender_place": 28,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 92,
+    "first_name": "Karen",
+    "last_name": "McKagon",
+    "time": "1899-12-30T07:14:39.000Z",
+    "gender": "F",
+    "gender_place": 29,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 93,
+    "first_name": "Mason",
+    "last_name": "Kirby",
+    "time": "1899-12-30T07:20:05.000Z",
+    "gender": "F",
+    "gender_place": 30,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 94,
+    "first_name": "Ben",
+    "last_name": "Talarico",
+    "time": "1899-12-30T07:23:26.000Z",
+    "gender": "M",
+    "gender_place": 62,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 95,
+    "first_name": "Michelle",
+    "last_name": "Israel",
+    "time": "1899-12-30T07:24:00.000Z",
+    "gender": "F",
+    "gender_place": 31,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 96,
+    "first_name": "Linda",
+    "last_name": "Israel",
+    "time": "1899-12-30T07:24:01.000Z",
+    "gender": "F",
+    "gender_place": 32,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 97,
+    "first_name": "Dave",
+    "last_name": "Israel",
+    "time": "1899-12-30T07:24:03.000Z",
+    "gender": "M",
+    "gender_place": 63,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 98,
+    "first_name": "James Scott",
+    "last_name": "Kliegle",
+    "time": "1899-12-30T07:29:48.000Z",
+    "gender": "M",
+    "gender_place": 64,
+    "finish_number": 1
+  },
+  {
+    "year": 2025,
+    "place": 99,
+    "first_name": "Barb",
+    "last_name": "Luke",
+    "time": "1899-12-30T07:34:26.000Z",
+    "gender": "F",
+    "gender_place": 33,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 100,
+    "first_name": "Barb",
+    "last_name": "Bengtson",
+    "time": "1899-12-30T07:34:27.000Z",
+    "gender": "F",
+    "gender_place": 34,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 101,
+    "first_name": "Nate",
+    "last_name": "Hubert",
+    "time": "1899-12-30T16:40:39.000Z",
+    "gender": "M",
+    "gender_place": 65,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 101,
+    "first_name": "Matt",
+    "last_name": "Livingston",
+    "time": "1899-12-30T16:40:39.000Z",
+    "gender": "M",
+    "gender_place": 65,
+    "finish_number": 2
+  },
+  {
+    "year": 2025,
+    "place": 101,
+    "first_name": "Leif",
+    "last_name": "DeVaney",
+    "time": "1899-12-30T16:40:39.000Z",
+    "gender": "M",
+    "gender_place": 65,
+    "finish_number": 1
+  }
+]
