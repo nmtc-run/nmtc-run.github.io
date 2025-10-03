@@ -22,7 +22,7 @@ To earn this coveted annual award, do in one year what Ella did every year: run 
 
 [2023](https://www.facebook.com/photo?fbid=10222591122823281&set=a.2844961679666){:target="_blank"}: Anissa Thompson, Barb Bengtson, Brian Beckman, Dave Schaeffer, Jarrow Wahman, Marcus Taintor, Matt Livingston, Nate Hubert, Roger Reinert
 
-[2022](https://www.facebook.com/runnmtc/posts/pfbid0MauRYQMShNK9AJHMd5Rgg1NNdi4s6Dx6pAyB52ePxkVwnzaNpUb3Dr8nXTB967SFl){:target="_blank"}: Barb Bengtson, Barb Luke, Haley Bengtson, Jarrow Wahman, Marcus Taintor, [Matt Nixon](https://www.facebook.com/runnmtc/posts/pfbid0RtziAWhLfQqP6KYe98BaHtHhuub1UCvbEzFeL9xANjPnckfrsxRu3kcP1vmVeuLXl){:target="_blank"}, Roger Reinert
+[2022](https://www.facebook.com/runnmtc/posts/pfbid0MauRYQMShNK9AJHMd5Rgg1NNdi4s6Dx6pAyB52ePxkVwnzaNpUb3Dr8nXTB967SFl){:target="_blank"}: Barb Bengtson, Barb Luke, Haley Bengtson, Jarrow Wahman, Marcus Taintor, [Matt Nixon](https://www.facebook.com/runnmtc/posts/pfbid0RtziAWhLfQqP6KYe98BaHtHhuub1UCvbEzFeL9xANjPnckfrsxRu3kcP1vmVeuLXl){:target="_blank"}, Roger Reinert, Shelly Thompson
 
 <span style="text-decoration: underline;">2020/2021</span>: No awards given, with racing suspended in 2020 and an abridged race calendar in 2021.
 
@@ -36,6 +36,6 @@ To earn this coveted annual award, do in one year what Ella did every year: run 
 
 [2015](https://www.facebook.com/photo.php?fbid=10204813219026797&set=t.1310903575&type=3){:target="_blank"}: Barb Bengtson, Erik Elmstrand, Haley Bengtson, Jarrow Wahman, Kris Glesener, Shaun Lynch, Shelly Thompson, Tina Nelson, Wildknits
 
-<span style="text-decoration: underline;">2014</span>: Barb Bengtson, Leslie Semler, Haley Bengtson, Marcus Taintor, Jamie Glesener, Sara Post, Kris Glesener, Shaun Lynch
+<span style="text-decoration: underline;">2014</span>: Barb Bengtson, Leslie Semler, Haley Bengtson, Marcus Taintor, Jamie Glesener, Sara Post, Kris Glesener, Shaun Lynch, Shelly Thompson
 
-<span style="text-decoration: underline;">2013</span>: Andrea Ring, Chris Rubesch, Craig Hertz, Jamie Block, Jarrow Wahman, Rick Kucinski, Shane Olson, Shelly Thompson
+<span style="text-decoration: underline;">2013</span>: Andrea Ring, Chris Rubesch, Craig Hertz, Jarrow Wahman, Rick Kucinski, Shane Olson, Shelly Thompson
