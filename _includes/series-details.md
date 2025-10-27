@@ -53,7 +53,8 @@ If you're interested in volunteering, [contact us](/contact) in advance or show 
 # Potluck & prizes
 
 Join us after the final race for the potluck {{ potluck }}. Everyone who runs or volunteers in support of at least one {{ springFall }} Series race earns a prize. Prizes are generously donated by individuals and local businesses, including:
-*[Amsoil, Inc](https://www.amsoil.com/){:target="_blank"}
+
+* [Amsoil, Inc](https://www.amsoil.com/){:target="_blank"}
 * [Austin-Jarrow](https://www.austin-jarrow.com/){:target="_blank"}
 * Benjamin Welch of [North Shore Ballroom](https://northshoreballroom.dance/){:target="_blank"}
 * [Chester Bowl](https://www.chesterbowl.org/){:target="_blank"}
@@ -61,8 +62,8 @@ Join us after the final race for the potluck {{ potluck }}. Everyone who runs or
 * Jamison and Lisa Swift of [Fire Tower Trail Races](https://firetowertrailraces.com/) and [St. Croix 40](https://stcroixwinterultra.com/about-us/){:target="_blank"}
 * John Storkamp of [Rocksteady Running](https://www.rocksteadyrunning.com/){:target="_blank"}
 * [Kari Toyota](https://www.karitoyota.com/){:target="_blank"}
-*Kim and Andy Holak of [Wild Duluth Races](https://www.wildduluthraces.com/){:target="_blank"} and
-[duluth Winter Trailrunning Series](https://www.duluthwintertrailseries.com/){:target="_blank"}
+*Kim & Andy Holak of [Wild Duluth Races](https://www.wildduluthraces.com/){:target="_blank"} and
+[Duluth Winter Trailrunning Series](https://www.duluthwintertrailseries.com/){:target="_blank"}
 * Lester Amity Chalet[](){:target="_blank"}
 * [Lisa Byrne](https://www.theduluthrundown.com/tag/lisa-byrne/){:target="_blank"}
 * [Marquette Trail 50](https://www.marquettetrail50.com/){:target="_blank"}
@@ -74,8 +75,9 @@ Join us after the final race for the potluck {{ potluck }}. Everyone who runs or
   [Fitger's Brewhouse](https://fitgersbrewhouse.com/){:target="_blank"},
   [The Rathsceller](https://rathskellerduluth.com/){:target="_blank"} and
   [The Brewhouse Beer Store](https://store.fitgersbrewhouse.com/){:target="_blank"}
-* Siiri Morse of [Grand Traverse](https://grandtraverseduluth.com/){:target="_blank"} and [Midnight Sun](https://www.mnspas.com/){:target="_blank"}
+* Siiri Morse of [Grand Traverse](https://grandtraverseduluth.com/){:target="_blank"} and
+  [Midnight Sun](https://www.mnspas.com/){:target="_blank"}
 * [Ski Hut](https://www.skihut.com/){:target="_blank"}
-* [Superior Hiking Trail Association](https://superiorhiking.org/)
+* [Superior Hiking Trail Association](https://superiorhiking.org/
 * [Trailfitters](https://trailfitters.com/){:target="_blank"}
 * [Wild State Cider](https://wildstatecider.com/){:target="_blank"}
