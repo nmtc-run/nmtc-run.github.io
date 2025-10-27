@@ -59,13 +59,14 @@ Join us after the final race for the potluck {{ potluck }}. Everyone who runs or
 * [Duluth Running Company](https://duluthrunning.com/){:target="_blank"}
 * Jamison and Lisa Swift of [Fire Tower Trail Races](https://firetowertrailraces.com/) and [St. Croix 40](https://stcroixwinterultra.com/about-us/){:target="_blank"}
 * John Storkamp of [Rocksteady Running](https://www.rocksteadyrunning.com/)
+* [Kari Toyota](https://www.karitoyota.com/){:target="_blank"}
 * Lester Amity Chalet[](){:target="_blank"}
 * [Lisa Byrne](https://www.theduluthrundown.com/tag/lisa-byrne/){:target="_blank"}
 * [Marquette Trail 50](https://www.marquettetrail50.com/){:target="_blank"}
 * [Minnesota Voyageur Trail Ultra](/voyageur) and [Curnow Marathon](/curnow){:target="_blank"}
 * [Mike Ward](https://mikeward.cool/){:target="_blank"}
 * Nikk Adams of [Trail Life Coaching, NCTRaces](https://www.traillifellc.com/about){:target="_blank"}
-* Rod Raymond of [Burrito Union](https://burritounion.com/), [Fitger's Brewhouse](https://fitgersbrewhouse.com/}, [The Rathsceller](https://rathskellerduluth.com/) and [The Brewhouse Beer Store](https://store.fitgersbrewhouse.com/?srsltid=AfmBOoqsodbv40-JaJW3k9efhD7-MVh4LFWREuU7kg7jWrc36z7gNBGB){:target="_blank"}
+* Rod Raymond of [Burrito Union](https://burritounion.com/) [Fitger's Brewhouse](https://fitgersbrewhouse.com/), [The Rathsceller](https://rathskellerduluth.com/) and [The Brewhouse Beer Store](https://store.fitgersbrewhouse.com/){:target="_blank"}
 * Siiri Morse of [Grand Traverse](https://grandtraverseduluth.com/) and [Midnight Sun](https://www.mnspas.com/){:target="_blank"}
 * [Ski Hut](https://www.skihut.com/){:target="_blank"}
 * [Superior Hiking Trail Association](https://superiorhiking.org/)
