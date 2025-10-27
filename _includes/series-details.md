@@ -62,7 +62,7 @@ Join us after the final race for the potluck {{ potluck }}. Everyone who runs or
 * Jamison and Lisa Swift of [Fire Tower Trail Races](https://firetowertrailraces.com/) and [St. Croix 40](https://stcroixwinterultra.com/about-us/){:target="_blank"}
 * John Storkamp of [Rocksteady Running](https://www.rocksteadyrunning.com/){:target="_blank"}
 * [Kari Toyota](https://www.karitoyota.com/){:target="_blank"}
-*Kim & Andy Holak of [Wild Duluth Races](https://www.wildduluthraces.com/){:target="_blank"} and
+* Kim & Andy Holak of [Wild Duluth Races](https://www.wildduluthraces.com/){:target="_blank"} and
 [Duluth Winter Trailrunning Series](https://www.duluthwintertrailseries.com/){:target="_blank"}
 * Lester Amity Chalet[](){:target="_blank"}
 * [Lisa Byrne](https://www.theduluthrundown.com/tag/lisa-byrne/){:target="_blank"}
