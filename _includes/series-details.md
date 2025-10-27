@@ -59,7 +59,8 @@ Join us after the final race for the potluck {{ potluck }}. Everyone who runs or
 * Benjamin Welch of [North Shore Ballroom](https://northshoreballroom.dance/){:target="_blank"}
 * [Chester Bowl](https://www.chesterbowl.org/){:target="_blank"}
 * [Duluth Running Company](https://duluthrunning.com/){:target="_blank"}
-* Jamison and Lisa Swift of [Fire Tower Trail Races](https://firetowertrailraces.com/) and [St. Croix 40](https://stcroixwinterultra.com/about-us/){:target="_blank"}
+* Jamison and Lisa Swift of [Fire Tower Trail Races](https://firetowertrailraces.com/){:target="_blank"} and
+  [St. Croix 40](https://stcroixwinterultra.com/about-us/){:target="_blank"}
 * John Storkamp of [Rocksteady Running](https://www.rocksteadyrunning.com/){:target="_blank"}
 * [Kari Toyota](https://www.karitoyota.com/){:target="_blank"}
 * Kim & Andy Holak of [Wild Duluth Races](https://www.wildduluthraces.com/){:target="_blank"} and
