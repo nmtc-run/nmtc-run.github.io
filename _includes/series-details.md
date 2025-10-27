@@ -78,6 +78,6 @@ Join us after the final race for the potluck {{ potluck }}. Everyone who runs or
 * Siiri Morse of [Grand Traverse](https://grandtraverseduluth.com/){:target="_blank"} and
   [Midnight Sun](https://www.mnspas.com/){:target="_blank"}
 * [Ski Hut](https://www.skihut.com/){:target="_blank"}
-* [Superior Hiking Trail Association](https://superiorhiking.org/)(:target="_blank"}
+* [Superior Hiking Trail Association](https://superiorhiking.org/){:target="_blank"}
 * [Trailfitters](https://trailfitters.com/){:target="_blank"}
 * [Wild State Cider](https://wildstatecider.com/){:target="_blank"}
