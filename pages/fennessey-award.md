@@ -18,6 +18,8 @@ To earn this coveted annual award, do in one year what Ella did every year: run 
 
 # Ella Fennessey Awardees
 
+[2025](https://www.facebook.com/runnmtc/posts/pfbid02CE1322EhoVioM89xfz4zV3LDs79Gh2F5WeHRK1nHbJGBH8pdb94ATJphatCPuwuhl){:target="_blank"}: Alex Kasparek, Barb Bengtson, Barb Luke, Jarrow Wahman, Mae Gackstetter, Marcus Taintor, Matt Livingston, Mike Ward, Ryan Johnson, Shelly Thompson
+
 [2024](https://www.facebook.com/photo?fbid=990672746433566&set=pcb.990673033100204){:target="_blank"}: Anissa Thompson, Barb Bengtson, Haley Bengtson, Jarrow Wahman, Marcus Taintor, Matt Livingston, Molly Watkins, Nate Hubert, Roger Reinert, Shelly Thompson
 
 [2023](https://www.facebook.com/photo?fbid=10222591122823281&set=a.2844961679666){:target="_blank"}: Anissa Thompson, Barb Bengtson, Brian Beckman, Dave Schaeffer, Jarrow Wahman, Marcus Taintor, Matt Livingston, Nate Hubert, Roger Reinert
