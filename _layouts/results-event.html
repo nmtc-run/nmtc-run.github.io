@@ -1,0 +1,229 @@
+---
+layout: default
+---
+
+{% if page.article-title %}
+  <div class="article-title"> {{ page.article-title }}</div>
+{% else %}
+  <div class="article-title"> {{ page.title }}</div>
+{% endif %}
+
+{% if page.subtitle %}
+  <div class="article-subtitle"> {{ page.subtitle }}</div>
+{% endif %}
+
+<div class="" style="height:1.5em;">&nbsp;</div>
+<div class="event-content article">
+	<h1 id="all-finishers">
+		All finishers since {% if page.permalink contains "voyageur" %}1982{% elsif page.permalink contains "curnow" %}1992{% else %}the beginning of time{% endif %}
+	</h1>
+
+	<style>
+	  .filters {
+	    margin-bottom: 1em;
+	  }
+	  .filters label {
+	    margin-right: 1em;
+	  }
+	</style>
+
+	<div class="filters">
+	  <label>Year:
+	    <select id="yearFilter"><option value="">All</option></select>
+	  </label>
+	  <label>Gender:
+	    <select id="genderFilter"><option value="">All</option></select>
+	  </label>
+	</div>
+
+	<table id="resultsTable" class="display" style="width:100%">
+	  <thead>
+	    <tr>
+	      <th>Year</th>
+	      <th>P</th>
+	      <th>GP</th>
+	      <th>First Name</th>
+	      <th>Last Name</th>
+	      <th>Time</th>
+	      <th>Age</th>
+	      <th>G</th>
+	      <th>Finish #</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <!-- Populated by JS -->
+	  </tbody>
+	</table>
+
+	<div class="" style="height:3em;">&nbsp;</div>
+	<h1 id="course-records">Course records</h1>
+	<table id="courseRecordsTable" class="display stripe"></table>
+	
+	<div class="" style="height:3em;">&nbsp;</div>
+	<h1 id="past-champions">Past champions</h1>
+	<table id="pastChampionsTable" class="display stripe"></table>
+	
+	<div class="" style="height:2em;">&nbsp;</div>
+	<h1 id="top-finishers">500 Mile Club</h1>
+	<table id="mostFinishesTable" class="display stripe"></table>	
+
+	<div class="" style="height:2em;">&nbsp;</div>
+	{{ content }}
+</div>
+
+<script>
+	const allResults = '{{ page.allResults }}';
+
+  $(document).ready(function() {
+    $.getJSON(allResults + "?nocache=" + new Date().getTime(), function(data) {
+
+      // Transform data
+      const rows = data.map(runner => {
+        let timeStr = runner.time;
+        // If it's an ISO string, convert it to HH:MM:SS
+        if (runner.time && runner.time.includes("T")) {
+          const date = new Date(runner.time);
+          if (!isNaN(date)) {
+            timeStr = date.toTimeString().split(' ')[0];
+          }
+        }
+        return [
+          runner.year,
+          runner.place,          
+          runner.genderPlace,
+          runner.first,
+          runner.last,
+          timeStr,
+          runner.age,
+          runner.gender,
+          runner.finishNumber
+        ];
+      });
+
+      const table = $('#resultsTable').DataTable({
+        data: rows,
+        columns: [
+          { title: "Year" },
+          { title: "P" },          
+          { title: "GP" },
+          { title: "First" },
+          { title: "Last" },
+          { title: "Time" },
+          { title: "Age" },
+          { title: "G" },
+          { title: "#Fin" }
+        ],
+        pageLength: 10,
+        order: [[0, 'desc']],
+        dom: '<"top-controls"lf>rt<"bottom"ip>', // custom wrapper
+        autoWidth: false, // prevent DataTables from auto-picking padding columns
+			  columnDefs: [
+			    // Tell columns 4 and 5 that they can expand
+			    { targets: [3, 4], width: "20%" },
+
+			    // Tell other columns to fit content only
+			    { targets: [0,1,2,5,6,7,8], width: "1%" }
+			  ]
+      });
+
+      // Move DataTables controls into your custom .filters div
+		  const dataTableWrapper = $('#resultsTable_wrapper');
+		  const length = dataTableWrapper.find('.dataTables_length');
+		  const filter = dataTableWrapper.find('.dataTables_filter');
+
+		  // Append them into the same row as your dropdowns
+  		$('.filters').append(length).append(filter);
+
+  		// Optional: tweak CSS for alignment
+		  $('.filters').css({
+		    display: 'flex',
+		    'flex-wrap': 'wrap',
+		    'align-items': 'center',
+		    'gap': '1rem',
+		    'margin-bottom': '0.5rem'
+		  });
+
+      // Populate filter dropdowns
+      function populateFilter(selector, colIndex) {
+        const unique = new Set(table.column(colIndex).data().toArray());
+        [...unique].sort().forEach(val => {
+          $(selector).append(`<option value="${val}">${val}</option>`);
+        });
+      }
+      populateFilter("#yearFilter", 0);
+      populateFilter("#genderFilter", 7);
+
+      // Hook up filters
+      $('#yearFilter').on('change', function() {
+        table.column(0).search(this.value).draw();
+      });
+      $('#genderFilter').on('change', function() {
+        table.column(7).search(this.value).draw();
+      })
+    });
+  });
+
+  // ------- Helper to load + initialize a simple DataTable -------
+	function loadSimpleTable(jsonUrl, tableSelector, columns, columnDefs) {
+	  $.getJSON(jsonUrl + "?nocache=" + new Date().getTime(), function(data) {
+
+	    // Convert objects into row arrays
+	    const rows = data.map(obj => columns.map(col => obj[col] ?? ""));
+
+	    $(tableSelector).DataTable({
+	      data: rows,
+	      columns: columns.map(col => ({ title: col.replace(/^\w/, c => c.toUpperCase()) })),
+	      paging: false,
+	      searching: false,
+	      info: false,
+	      ordering: false,
+	      autoWidth: !!columnDefs,
+	      columnDefs: columnDefs
+	    });
+	  });
+	}
+
+	$(document).ready(function () {
+
+	  // 1. Course Records
+	  loadSimpleTable(
+	    "/results/Voyageur/course-records.json",
+	    "#courseRecordsTable",
+	    ["category", "men", "women"],
+	    [
+		    // Tell columns 2, 3, and 4 that they can expand
+		    { targets: [1, 2], width: "20%" },
+
+		    // Tell other columns to fit content only
+		    { targets: [0], width: "1%" }
+		  ]
+	  );
+
+	  // 2. Past Champions
+	  loadSimpleTable(
+	    "/results/Voyageur/past-champions.json",
+	    "#pastChampionsTable",
+	    ["year", "men", "women"],
+	    [
+		    // Tell columns 2, 3, and 4 that they can expand
+		    { targets: [1, 2], width: "20%" },
+
+		    // Tell other columns to fit content only
+		    { targets: [0], width: "1%" }
+		  ]
+	  );
+
+	  // 3. Most Finishes
+	  loadSimpleTable(
+	    "/results/Voyageur/most-finishes.json",
+	    "#mostFinishesTable",
+	    [
+	      "name",
+	      "finishes",
+	    ]
+	  );
+
+	  
+
+	});
+</script>

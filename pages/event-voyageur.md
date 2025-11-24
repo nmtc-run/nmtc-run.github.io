@@ -118,6 +118,11 @@ Registration via Ultrasignup typically opens in March. In addition to the info o
 
 <a id="register-results"></a>
 <div class="container" style="display:flex;padding-bottom:1em;">
+	<a href="/results/voyageur" style="margin: 0 auto;">
+    <div class="button">
+      Voyageur results 
+    </div>
+  </a>
   <a href="https://ultrasignup.com/register.aspx?did=124305" style="margin: 0 auto;" target="blank">
     <div class="button" onclick="ga('send', 'event', 'Button', 'Click', 'voyageur-ultrasignup')">
       Ultrasignup <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;">

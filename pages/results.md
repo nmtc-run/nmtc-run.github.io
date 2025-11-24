@@ -8,14 +8,14 @@ permalink: /results/
 
 # Minnesota Voyageur Trail Ultramarathon
 
-See annual results on [Ultrasignup](https://ultrasignup.com/register.aspx?did=114070){:target="_blank"} or [Mtec](https://www.mtecresults.com/race/historical/7105/){:target="_blank"}.
+See [Voyageur results](/results/voyageur) for: 
 
-We last crunched the following numbers in 2022. We plan to update these historical data again soon:
+* All finishers since 1982 
+* Course records 
+* Past champions 
+* 500 Mile Club members 
 
-* [Winners By Year (Course Records Indicated)](/results/Voyageur/Voyageur 50 Mile - Winners By Year.pdf){:target="_blank"}
-* [Top 25 Times – Male](/results/Voyageur/Voyageur 50 Mile - Top 25 Times - Male.pdf){:target="_blank"}
-* [Top 25 Times – Female](/results/Voyageur/Voyageur 50 Mile - Top 25 Times - Female.pdf){:target="_blank"}
-* [Finishes By Entrant (sorted by # of finishes)](/results/Voyageur/Voyageur 50 Mile - Finishes By Entrant.pdf){:target="_blank"}
+You can also find annual results on [Ultrasignup](https://ultrasignup.com/register.aspx?did=114070){:target="_blank"} or [Mtec](https://www.mtecresults.com/race/historical/7105/){:target="_blank"}. 
 
 # Eugene Curnow Trail Marathon
 

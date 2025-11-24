@@ -1,0 +1,30 @@
+/**
+ * DataTables styles 
+ */
+
+.filters label {
+  margin-right: 1rem;
+}
+
+.dataTables_length,
+.dataTables_filter {
+  margin-left: auto;
+}
+
+#resultsTable_filter > label > input {
+	margin-left: 0.5em;
+	height: 2em;
+	font-family: $sans-font-family;
+}
+
+#resultsTable_length > label > select,
+#genderFilter,
+#yearFilter {
+	height: 2em;
+	font-family: $sans-font-family; 
+}
+
+table.dataTable thead>tr>th {
+	font-size: 0.75em;
+	text-transform: uppercase;
+}
