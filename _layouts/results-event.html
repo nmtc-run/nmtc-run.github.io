@@ -62,6 +62,12 @@ layout: default
 	<div class="" style="height:3em;">&nbsp;</div>
 	<h1 id="past-champions">Past champions</h1>
 	<table id="pastChampionsTable" class="display stripe"></table>
+
+	{% if page.mostFinishes1000 %} 
+		<div class="" style="height:2em;">&nbsp;</div>
+		<h1 id="top-finishers-1000">1,000 Mile Club</h1>
+		<table id="mostFinishes1000Table" class="display stripe"></table>		
+	{% endif %}
 	
 	<div class="" style="height:2em;">&nbsp;</div>
 	<h1 id="top-finishers">500 Mile Club</h1>
@@ -187,21 +193,18 @@ layout: default
 
 	  // 1. Course Records
 	  loadSimpleTable(
-	    "/results/Voyageur/course-records.json",
+	    "{{ page.courseRecords }}",
 	    "#courseRecordsTable",
 	    ["category", "men", "women"],
 	    [
-		    // Tell columns 2, 3, and 4 that they can expand
-		    { targets: [1, 2], width: "20%" },
-
-		    // Tell other columns to fit content only
-		    { targets: [0], width: "1%" }
+		    { targets: [1, 2], width: "20%" }, // cols 2, 3 can expand 
+		    { targets: [0], width: "1%" } // col 1 fit content only
 		  ]
 	  );
 
 	  // 2. Past Champions
 	  loadSimpleTable(
-	    "/results/Voyageur/past-champions.json",
+	    "{{ page.pastChampions }}",
 	    "#pastChampionsTable",
 	    ["year", "men", "women"],
 	    [
@@ -215,13 +218,41 @@ layout: default
 
 	  // 3. Most Finishes
 	  loadSimpleTable(
-	    "/results/Voyageur/most-finishes.json",
+	    "{{ page.mostFinishes }}",
 	    "#mostFinishesTable",
 	    [
 	      "name",
 	      "finishes",
-	    ]
+	    ],
+	    [
+		    // Tell columns 2, 3, and 4 that they can expand
+		    { targets: [1], width: "50%" },
+
+		    // Tell other columns to fit content only
+		    { targets: [0], width: "50%" }
+		  ]
 	  );
+
+	  const mostFinishes1000 = "{{ page.mostFinishes1000 }}"; 
+
+	  if (mostFinishes1000) {
+	  	// 3. Voyageur's 1,000 Mile Club
+		  loadSimpleTable(
+		    mostFinishes1000,
+		    "#mostFinishes1000Table",
+		    [
+		      "name",
+		      "finishes",
+		    ],
+	    [
+		    // Tell columns 2, 3, and 4 that they can expand
+		    { targets: [1], width: "50%" },
+
+		    // Tell other columns to fit content only
+		    { targets: [0], width: "50%" }
+		  ]
+		  );
+	  }
 
 	  
 

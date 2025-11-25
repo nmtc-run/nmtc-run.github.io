@@ -6,27 +6,14 @@ description: Historical results for the Voyageur 50 and Curnow Marathon.
 permalink: /results/
 ---
 
-# Minnesota Voyageur Trail Ultramarathon
+# Voyageur 50 & Curnow Marathon
 
-See [Voyageur results](/results/voyageur) for: 
+See [Voyageur results](/results/voyageur) or [Curnow Results](/results/curnow) for: 
 
-* All finishers since 1982 
+* All finishers 
 * Course records 
 * Past champions 
 * 500 Mile Club members 
-
-You can also find annual results on [Ultrasignup](https://ultrasignup.com/register.aspx?did=114070){:target="_blank"} or [Mtec](https://www.mtecresults.com/race/historical/7105/){:target="_blank"}. 
-
-# Eugene Curnow Trail Marathon
-
-See annual results on [Ultrasignup](https://ultrasignup.com/register.aspx?did=114069){:target="_blank"} or [Mtec](https://www.mtecresults.com/race/historical/6969/){:target="_blank"}. More data:
-
-We last crunched the following numbers in 2022. We plan to update these historical data again soon:
-
-* [Winners By Year (Course Records Indicated)](/results/Curnow/E Curnow Marathon - Winners By Year.pdf){:target="_blank"}
-* [Top 25 Times – Male](/results/Curnow/E Curnow Marathon - Top 25 Times - Male.pdf){:target="_blank"}
-* [Top 25 Times – Female](/results/Curnow/E Curnow Marathon - Top 25 Times - Female.pdf){:target="_blank"}
-* [Finishes By Entrant (sorted by # of finishes)](/results/Curnow/E Curnow Marathon - Finishes By Entrant.pdf){:target="_blank"}
 
 # Spring & Fall Series
 
