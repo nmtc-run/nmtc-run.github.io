@@ -17,20 +17,19 @@ The NMTC is organized and managed by a committee of individuals who love the spo
 ## Officers
 
 * Nate Hubert – Chair
-* Kaelyn Williams – Vice Chair
 * Mae Gackstetter – Secretary / Treasurer
 
 ## At-Large Members
 * Jarrow Wahman
 * Lane Johnson
+* Laura Palombi 
 * Leslie Semler
 * Marcus Taintor
 * Mark Grindy
 * Matt Livingston
 * Ron Hendrickson
-* Samantha Frey
 * Sara Baldwin 
 * Shelly Thompson
 
-![NMTC board members](/img/nmtc-board.jpeg "NMTC board members")
-_NMTC board members, June 2024. From left: Lane, Mark, Matt, Kaelyn, Shelly, Haley, Sam, Leslie, Jarrow, Mae, Nate, and Marcus (with Clay)._
+![NMTC board members](/img/nmtc-board.jpg "NMTC board members")
+_NMTC board members, Oct 2025. Standing, from left: Matt, Marcus (with Clay), Sam, Kaelyn, Mark, Leslie, Jarrow, Sara, Nate. Seated, from left: Ron, Shelly, Lane, Mae._
