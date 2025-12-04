@@ -32,4 +32,4 @@ The NMTC is organized and managed by a committee of individuals who love the spo
 * Shelly Thompson
 
 ![NMTC board members](/img/nmtc-board.jpg "NMTC board members")
-_NMTC board members, Oct 2025. Standing, from left: Matt, Marcus (with Clay), Sam, Kaelyn, Mark, Leslie, Jarrow, Sara, Nate. Seated, from left: Ron, Shelly, Lane, Mae._
+_NMTC board members, Oct 2025. Standing, from left: Matt, Marcus (with Clay), Sam, Kaelyn, Mark, Leslie, Jarrow, Sara, Nate, Laura. Seated, from left: Ron, Shelly, Lane, Mae._
