@@ -28,7 +28,7 @@ elevation-profile: /assets/gpx/curnow-elevation-2024.svg
 redirect_from: /about-our-races/eugene-curnow-marathon/
 ---
 
-# Getting to the start line
+# Getting to the start line 
 
 **Bus from finish area:**
 

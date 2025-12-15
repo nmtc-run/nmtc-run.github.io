@@ -22,7 +22,7 @@ elevation-profile: /assets/gpx/voyageur-elevation-2024.svg
 redirect_from: /about-our-races/minnesota-voyageur-ultramarathon/
 ---
 
-# Getting to the start/finish
+# Getting to the start/finish 
 
 **Address:** Carlton High School 405 School Ave, Carlton, MN 55718
 

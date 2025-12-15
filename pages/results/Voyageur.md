@@ -13,4 +13,4 @@ mostFinishes1000: /results/Voyageur/1000-mile-club.json
 # Content added below will appear in the *footer* of the results page. 
 ---
 
-Results are maintained by NMTC volunteers. [Contact us](/contact) with comments or questions. 
+Results are maintained by NMTC volunteers. [Contact us](/contact) with comments or questions.  
