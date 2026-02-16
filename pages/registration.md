@@ -18,4 +18,4 @@ We wish our events to be places where all runners are able to compete as who the
 
 ## Finisher swag deadline
 
-When you register via Ultrasignup, you may see a t-shirt size option. Because we must order finisher swag well in advance of race day (typically about 1 month in advance), we cannot guarantee finisher shirts for runners who wait to register until after we place the order. This policy aligns with our nonprofit mission to keep our expenses as low as possible in order to keep race entry fees as low as possible. 
+When you register via Ultrasignup, you may see a t-shirt size option. Because we must order finisher swag three weeks in advance of race day, we cannot guarantee finisher shirts for runners who wait to register until after we place the order. This policy aligns with NMTC's nonprofit mission to keep our expenses as low as possible in order to keep your entry fees as low as possible. 
