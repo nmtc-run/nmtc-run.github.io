@@ -121,20 +121,27 @@ Runners, please warn your crew and fans to drive with care. Reduce vehicle traff
 
 Please review the Eugene Curnow Trail Marathon race rules at [nmtc.run/rules](/rules).
 
-# Register or view results
+# Registration 
 
-Registration via Ultrasignup typically opens in March. In addition to the info on this page, runners should review the [race rules](/rules), and the [registration and refund policies](/registration).
+Registration via Ultrasignup typically opens in March. In addition to the info on this page, runners should review the [race rules](/rules), and the [registration and refund policies](/registration). When you sign up early, you help us plan. We place our shirt order three weeks before race day, and you must register before then to guarantee yourself a shirt in your size. 
 
 <a id="register-results"></a>
+<div class="container" style="display:flex;padding-bottom:1em;">
+	<a href="https://ultrasignup.com/register.aspx?did=122153" style="margin: 0 auto;" target="blank">
+    <div class="button" onclick="ga('send', 'event', 'Button', 'Click', 'curnow-ultrasignup')">
+      Ultrasignup <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;">
+    </div>
+  </a>
+</div>
+
+# Results
+
+See results for all finishers, course records, past champions, and 500 Mile Club members. 
+
 <div class="container" style="display:flex;padding-bottom:1em;">
 	<a href="/results/curnow" style="margin: 0 auto;">
     <div class="button">
       Curnow results 
-    </div>
-  </a>
-  <a href="https://ultrasignup.com/register.aspx?did=122153" style="margin: 0 auto;" target="blank">
-    <div class="button" onclick="ga('send', 'event', 'Button', 'Click', 'curnow-ultrasignup')">
-      Ultrasignup <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;">
     </div>
   </a>
 </div>

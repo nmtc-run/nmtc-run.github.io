@@ -84,8 +84,6 @@ Some aid stations allow crew access. Runners, please warn your crew and fans to 
 
 **Awards:** Runners receive awards as they finish.
 
-**Mid-afternoon:** Dinner will be provided by Magnolia Cafe at the school, runners free. A small charge for “extra eaters” can be paid at the door. Includes a variety of meat, vegetarian, and vegan / gluten-free sandwiches, pasta salad, and ice cream.
-
 **8:00 PM:** Final cutoff.
 
 # Details
@@ -112,20 +110,27 @@ Some aid stations allow crew access. Runners, please warn your crew and fans to 
 
 Please review the Minnesota Voyageur Trail Ultramarathon race rules at [nmtc.run/rules](/rules).
 
-# Register or view results
+# Registration
 
-Registration via Ultrasignup typically opens in March. In addition to the info on this page, runners should review the [race rules](/rules), and the [registration and refund policies](/registration) before registering.
+Registration via Ultrasignup typically opens in March. In addition to the info on this page, runners should review the [race rules](/rules), and the [registration and refund policies](/registration) before registering. When you sign up early, you help us plan. We place our shirt order three weeks before race day, and you must register before then to guarantee yourself a shirt in your size. 
 
 <a id="register-results"></a>
+<div class="container" style="display:flex;padding-bottom:1em;">
+	<a href="https://ultrasignup.com/register.aspx?did=124305" style="margin: 0 auto;" target="blank">
+    <div class="button" onclick="ga('send', 'event', 'Button', 'Click', 'voyageur-ultrasignup')">
+      Ultrasignup <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;">
+    </div>
+  </a>
+</div>
+
+# Results
+
+See results for all finishers, course records, past champions, and 500 Mile Club members. 
+
 <div class="container" style="display:flex;padding-bottom:1em;">
 	<a href="/results/voyageur" style="margin: 0 auto;">
     <div class="button">
       Voyageur results 
-    </div>
-  </a>
-  <a href="https://ultrasignup.com/register.aspx?did=124305" style="margin: 0 auto;" target="blank">
-    <div class="button" onclick="ga('send', 'event', 'Button', 'Click', 'voyageur-ultrasignup')">
-      Ultrasignup <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="padding-left: 0.25em;">
     </div>
   </a>
 </div>
