@@ -1,0 +1,542 @@
+---
+layout: default
+---
+
+{% if page.article-title %}
+  <div class="article-title"> {{ page.article-title }}</div>
+{% else %}
+  <div class="article-title"> {{ page.title }}</div>
+{% endif %}
+
+<div class="article-subtitle"> 
+	<label for="yearSelect">Select year:</label>
+	<select id="yearSelect" style="height:2em;"></select>
+	<div id="errorMessage"></div>
+</div>
+
+<!-- <div class="article-subtitle"> 
+	<label for="courseSelect">Select course:</label>
+	<select id="courseSelect"></select>
+</div> -->
+
+<!-- <div class="" style="height:1.5em;">&nbsp;</div> -->
+<div class="event-content article">
+
+	<h1 id="series-standings">
+		Series standings
+	</h1>
+
+	<table id="seriesStandings" class="display" style="width:100%">
+	  <thead>
+	    <tr>
+	      <th>G.Place</th>
+	      <th>Name</th>
+	      <th>G</th>
+	      <th>Points</th>
+	    </tr>
+	  </thead>
+	  <tbody></tbody>
+	</table>
+
+	<div class="" style="height:1.5em;">&nbsp;</div>
+
+	<h1 id="race-results">
+		Race results
+	</h1>
+
+	<div class="article-subtitle"> 
+		<label for="courseFilter">Select course:</label>
+		<select id="courseFilter" style="height:2em;">
+		  <option value="">All</option>
+		</select>
+	</div>
+
+	<table id="raceResults" class="display" style="width:100%">
+	  <thead>
+	    <tr>
+	      <th>Place</th>
+	      <th>Name</th>
+	      <th>Time</th>
+	      <th>Gender</th>
+	      <th>Gender Place</th>
+	      <th>Points</th>
+	    </tr>
+	  </thead>
+	  <tbody></tbody>
+	</table>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', async () => {
+
+		  const yearSelect = document.getElementById('yearSelect');
+		  const errorBox = document.getElementById('errorMessage');
+
+		  const pathParts = window.location.pathname.split('/').filter(Boolean);
+		  const series = pathParts[pathParts.indexOf('results') + 1];
+
+		  const params = new URLSearchParams(window.location.search);
+		  let currentYear = parseInt(params.get('year'), 10);
+
+		  let table = null; // DataTables instance
+
+		  async function fetchYears() {
+		    const res = await fetch(`/results/${series}/years.json`, { cache: "no-store" });
+		    if (!res.ok) throw new Error("Missing years.json");
+		    const years = await res.json();
+		    if (!Array.isArray(years) || years.length === 0)
+		      throw new Error("No years available");
+		    return years.sort((a,b) => b - a);
+		  }
+
+		  async function fetchRaceData(year) {
+		    const res = await fetch(`/results/${series}/${year}.json`, { cache: "no-store" });
+		    if (!res.ok) throw new Error(`Missing data for ${year}`);
+		    return res.json();
+		  }
+
+		  function initializeTable(data) {
+		    if (table) {
+		      table.clear().destroy();
+		      $('#raceResults tbody').empty(); // Prevent duplication
+		    }
+
+		    table = $('#raceResults').DataTable({
+		      data,
+		      columns: [
+		      	{ data: 'place', name: 'place', type: 'num' },
+		        { data: 'name' },
+		        { data: 'time' },
+		        { data: 'gender' },
+		        { data: 'gender_place' },
+		        { data: 'points' },
+		        { data: 'course', name: 'course', visible:false } 
+		      ],
+		      pageLength: 10,
+	        order: [[0, 'asc']],
+	        dom: '<"top-controls"lf>rt<"bottom"ip>', // custom wrapper
+		      autoWidth: false, // prevent DataTables from auto-picking padding columns
+				  columnDefs: [
+				    // Tell columns 4 and 5 that they can expand
+				    { targets: [2], width: "20%" },
+
+				    // Tell other columns to fit content only
+				    { targets: [0,1,3,4,5], width: "1%" }
+				  ]
+		    });
+
+		    setupCourseFilter(table);
+		  }
+
+		  function setupCourseFilter(table) {
+			  const courseSelect = document.getElementById('courseFilter');
+
+			  // Clear previous options (important when reloading year)
+			  courseSelect.innerHTML = '<option value="">All</option>';
+
+			  // Get unique course values from DataTables
+			  const courses = table
+			    .column('course:name') // optional if using column names
+			    .data()
+			    .unique()
+			    .sort();
+
+			  courses.each(function (course) {
+			    const option = document.createElement('option');
+			    option.value = course;
+			    option.textContent = course;
+			    courseSelect.appendChild(option);
+			  });
+
+			  // Filter on change
+			  courseSelect.addEventListener('change', function () {
+			    const value = this.value;
+
+			    if (!value) {
+			      table.column('course:name').search('').draw();
+			    } else {
+			      table
+			        .column('course:name')
+			        .search('^' + value + '$', true, false) // exact match
+			        .draw();
+			    }
+			  });
+			}
+
+		  async function loadYear(year) {
+		    const data = await fetchRaceData(year);
+		    initializeTable(data);
+		  }
+
+		  try {
+		    const years = await fetchYears();
+
+		    // Populate dropdown
+		    years.forEach(year => {
+		      const opt = document.createElement('option');
+		      opt.value = year;
+		      opt.textContent = year;
+		      yearSelect.appendChild(opt);
+		    });
+
+		    // Determine initial year
+		    if (!currentYear || !years.includes(currentYear)) {
+		      currentYear = years[0]; // latest
+		      params.set('year', currentYear);
+		      window.history.replaceState({}, '', '?' + params.toString());
+		    }
+
+		    yearSelect.value = currentYear;
+
+		    // Initial DataTables load
+		    await loadYear(currentYear);
+
+		    // Handle dropdown change
+		    yearSelect.addEventListener('change', async function () {
+		      const selectedYear = parseInt(this.value, 10);
+
+		      if (selectedYear === currentYear) return; // Do nothing
+
+		      currentYear = selectedYear;
+
+		      params.set('year', currentYear);
+		      window.history.pushState({}, '', '?' + params.toString());
+
+		      await loadYear(currentYear);
+		    });
+
+		  } catch (err) {
+		    errorBox.textContent = "Unable to load results.";
+		  }
+
+		});
+	</script>	
+
+
+
+	<!-- <script>
+	  const errorBox = document.getElementById('errorMessage');
+	  const yearSelect = document.getElementById('yearSelect');
+
+	  const pathParts = window.location.pathname.split('/').filter(Boolean);
+	  const series = pathParts[pathParts.indexOf('results') + 1];
+
+	  const params = new URLSearchParams(window.location.search);
+	  const requestedYear = parseInt(params.get('year'), 10);	  
+
+	  async function loadIndex() {
+	    const res = await fetch('/results/_years.json');
+	    return res.json();
+	  }
+
+	  async function loadData(year) {
+	    const res = await fetch(`/results/${series}/${year}.json`);
+	    if (!res.ok) throw new Error('Missing');
+	    return res.json();
+	  }
+
+	  (async function init() {
+	    const index = await loadIndex();
+	    const years = (index[series] || []).sort((a,b) => b - a);
+
+	    if (!years.length) {
+	      errorBox.textContent = 'No data available.';
+	      errorBox.style.display = 'block';
+	      return;
+	    }
+
+	    // Populate dropdown
+	    years.forEach(y => {
+	      const opt = document.createElement('option');
+	      opt.value = y;
+	      opt.textContent = y;
+	      yearSelect.appendChild(opt);
+	    });
+
+	    yearSelect.addEventListener('change', () => {
+	      params.set('year', yearSelect.value);
+	      window.location.search = params.toString();
+	    });
+
+	    let yearToLoad = years[0];
+	    let fallback = false;
+
+	    if (requestedYear && years.includes(requestedYear)) {
+	      yearToLoad = requestedYear;
+	    } else if (requestedYear) {
+	      fallback = true;
+	    }
+
+	    yearSelect.value = yearToLoad;
+	    params.set('year', yearToLoad);
+	    window.history.replaceState({}, '', '?' + params.toString());
+
+	    if (fallback) {
+	      errorBox.textContent =
+	        `Results for ${requestedYear} were not found. Showing ${yearToLoad} instead.`;
+	      errorBox.style.display = 'block';
+	    }
+
+	    const data = await loadData(yearToLoad);
+
+	    $('#raceResults').DataTable({
+	      data,
+	      columns: [
+	        { data: 'year' },
+	        { data: 'place' },
+	        { data: 'first_name' },
+	        { data: 'last_name' },
+	        { data: 'time' },
+	        { data: 'gender' },
+	        { data: 'gender_place' },
+	        { data: 'finish_number' }
+	      ]
+	    });
+	  })();
+	</script> -->
+
+
+
+	<h1 id="all-finishers">
+		All results
+	</h1>
+
+	<style>
+	  .filters {
+	    margin-bottom: 1em;
+	  }
+	  .filters label {
+	    margin-right: 1em;
+	  }
+	</style>
+
+	<div class="filters">
+	  <label>Year:
+	    <select id="yearFilter"><option value="">All</option></select>
+	  </label>
+	  <label>Gender:
+	    <select id="genderFilter"><option value="">All</option></select>
+	  </label>
+	</div>
+
+	<table id="resultsTable" class="display" style="width:100%">
+	  <thead>
+	    <tr>
+	      <th>Year</th>
+	      <th>P</th>
+	      <th>GP</th>
+	      <th>First Name</th>
+	      <th>Last Name</th>
+	      <th>Time</th>
+	      <th>Age</th>
+	      <th>G</th>
+	      <th>Finish #</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <!-- Populated by JS -->
+	  </tbody>
+	</table>
+
+	<div class="" style="height:3em;">&nbsp;</div>
+	<h1 id="course-records">Course records</h1>
+	<table id="courseRecordsTable" class="display stripe"></table>
+	
+	<div class="" style="height:3em;">&nbsp;</div>
+	<h1 id="past-champions">Past champions</h1>
+	<table id="pastChampionsTable" class="display stripe"></table>
+
+	{% if page.mostFinishes1000 %} 
+		<div class="" style="height:2em;">&nbsp;</div>
+		<h1 id="top-finishers-1000">1,000 Mile Club</h1>
+		<table id="mostFinishes1000Table" class="display stripe"></table>		
+	{% endif %}
+	
+	<div class="" style="height:2em;">&nbsp;</div>
+	<h1 id="top-finishers">500 Mile Club</h1>
+	<table id="mostFinishesTable" class="display stripe"></table>	
+
+	<div class="" style="height:2em;">&nbsp;</div>
+	{{ content }}
+</div>
+
+<script>
+	const allResults = '{{ page.allResults }}';
+
+  $(document).ready(function() {
+    $.getJSON(allResults + "?nocache=" + new Date().getTime(), function(data) {
+
+      // Transform data
+      const rows = data.map(runner => {
+        let timeStr = runner.time;
+        // If it's an ISO string, convert it to HH:MM:SS
+        if (runner.time && runner.time.includes("T")) {
+          const date = new Date(runner.time);
+          if (!isNaN(date)) {
+            timeStr = date.toTimeString().split(' ')[0];
+          }
+        }
+        return [
+          runner.year,
+          runner.place,          
+          runner.genderPlace,
+          runner.first,
+          runner.last,
+          timeStr,
+          runner.age,
+          runner.gender,
+          runner.finishNumber
+        ];
+      });
+
+      const table = $('#resultsTable').DataTable({
+        data: rows,
+        columns: [
+          { title: "Year" },
+          { title: "P" },          
+          { title: "GP" },
+          { title: "First" },
+          { title: "Last" },
+          { title: "Time" },
+          { title: "Age" },
+          { title: "G" },
+          { title: "#Fin" }
+        ],
+        pageLength: 10,
+        order: [[0, 'desc']],
+        dom: '<"top-controls"lf>rt<"bottom"ip>', // custom wrapper
+        autoWidth: false, // prevent DataTables from auto-picking padding columns
+			  columnDefs: [
+			    // Tell columns 4 and 5 that they can expand
+			    { targets: [3, 4], width: "20%" },
+
+			    // Tell other columns to fit content only
+			    { targets: [0,1,2,5,6,7,8], width: "1%" }
+			  ]
+      });
+
+      // Move DataTables controls into your custom .filters div
+		  const dataTableWrapper = $('#resultsTable_wrapper');
+		  const length = dataTableWrapper.find('.dataTables_length');
+		  const filter = dataTableWrapper.find('.dataTables_filter');
+
+		  // Append them into the same row as your dropdowns
+  		$('.filters').append(length).append(filter);
+
+  		// Optional: tweak CSS for alignment
+		  $('.filters').css({
+		    display: 'flex',
+		    'flex-wrap': 'wrap',
+		    'align-items': 'center',
+		    'gap': '1rem',
+		    'margin-bottom': '0.5rem'
+		  });
+
+      // Populate filter dropdowns
+      function populateFilter(selector, colIndex) {
+        const unique = new Set(table.column(colIndex).data().toArray());
+        [...unique].sort().forEach(val => {
+          $(selector).append(`<option value="${val}">${val}</option>`);
+        });
+      }
+      populateFilter("#yearFilter", 0);
+      populateFilter("#genderFilter", 7);
+
+      // Hook up filters
+      $('#yearFilter').on('change', function() {
+        table.column(0).search(this.value).draw();
+      });
+      $('#genderFilter').on('change', function() {
+        table.column(7).search(this.value).draw();
+      })
+    });
+  });
+
+  // ------- Helper to load + initialize a simple DataTable -------
+	function loadSimpleTable(jsonUrl, tableSelector, columns, columnDefs) {
+	  $.getJSON(jsonUrl + "?nocache=" + new Date().getTime(), function(data) {
+
+	    // Convert objects into row arrays
+	    const rows = data.map(obj => columns.map(col => obj[col] ?? ""));
+
+	    $(tableSelector).DataTable({
+	      data: rows,
+	      columns: columns.map(col => ({ title: col.replace(/^\w/, c => c.toUpperCase()) })),
+	      paging: false,
+	      searching: false,
+	      info: false,
+	      ordering: false,
+	      autoWidth: !!columnDefs,
+	      columnDefs: columnDefs
+	    });
+	  });
+	}
+
+	$(document).ready(function () {
+
+	  // 1. Course Records
+	  loadSimpleTable(
+	    "{{ page.courseRecords }}",
+	    "#courseRecordsTable",
+	    ["category", "men", "women"],
+	    [
+		    { targets: [1, 2], width: "20%" }, // cols 2, 3 can expand 
+		    { targets: [0], width: "1%" } // col 1 fit content only
+		  ]
+	  );
+
+	  // 2. Past Champions
+	  loadSimpleTable(
+	    "{{ page.pastChampions }}",
+	    "#pastChampionsTable",
+	    ["year", "men", "women"],
+	    [
+		    // Tell columns 2, 3, and 4 that they can expand
+		    { targets: [1, 2], width: "20%" },
+
+		    // Tell other columns to fit content only
+		    { targets: [0], width: "1%" }
+		  ]
+	  );
+
+	  // 3. Most Finishes
+	  loadSimpleTable(
+	    "{{ page.mostFinishes }}",
+	    "#mostFinishesTable",
+	    [
+	      "name",
+	      "finishes",
+	    ],
+	    [
+		    // Tell columns 2, 3, and 4 that they can expand
+		    { targets: [1], width: "50%" },
+
+		    // Tell other columns to fit content only
+		    { targets: [0], width: "50%" }
+		  ]
+	  );
+
+	  const mostFinishes1000 = "{{ page.mostFinishes1000 }}"; 
+
+	  if (mostFinishes1000) {
+	  	// 3. Voyageur's 1,000 Mile Club
+		  loadSimpleTable(
+		    mostFinishes1000,
+		    "#mostFinishes1000Table",
+		    [
+		      "name",
+		      "finishes",
+		    ],
+	    [
+		    // Tell columns 2, 3, and 4 that they can expand
+		    { targets: [1], width: "50%" },
+
+		    // Tell other columns to fit content only
+		    { targets: [0], width: "50%" }
+		  ]
+		  );
+	  }
+
+	  
+
+	});
+</script>
