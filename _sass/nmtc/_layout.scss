@@ -31,4 +31,95 @@ table.dataTable thead>tr>th {
 
 #resultsTable {
 	background-color: $background-color; 
+<<<<<<< HEAD
+=======
+}
+
+.results-select-head {
+	height: 2em; 
+	padding: 0.1em 0.2em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+
+#genderFilter {
+	padding: 4px; 
+}
+
+.errorMessage {
+	background-color: #cc6f77;
+  color: #fdfdfd;
+  padding: 0.2em 2em;
+}
+
+.dataTables_scroll {
+	padding-top: 10px;
+}
+
+.table-scroll-wrapper {
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.table-scroll-wrapper::-webkit-scrollbar {
+  height: 10px;
+}
+
+.table-scroll-wrapper {
+  position: relative;
+}
+
+.scroll-hint {
+  position: absolute;
+  right: 20px;
+  bottom: 46px;
+  background: #cb6e78;
+  color: white;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  border-radius: 14px;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.scroll-hint.hidden {
+  opacity: 0;
+}
+
+/* Always show horizontal scrollbar */
+.dataTables_scrollBody {
+  overflow-x: scroll !important;
+}
+
+/* WebKit (Safari / Chrome) scrollbar styling */
+.dataTables_scrollBody::-webkit-scrollbar {
+  height: 12px;
+}
+
+.dataTables_scrollBody::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+.dataTables_scrollBody::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 6px;
+}
+
+.dataTables_scrollBody::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+.wide-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+  }
+>>>>>>> 342242b (demo standings-only page; table/list linking to race results in progress)
 }

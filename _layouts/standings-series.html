@@ -23,7 +23,9 @@ layout: default-wide
 		</span>
 	</h1>
 
-	<table id="seriesSchedule" class="display" style="width:100%"></table>
+	<!-- <table id="seriesSchedule" class="display" style="width:600px; margin: 0 auto;"></table> -->
+	<h3>Schedule</h3>
+	<ul id="seriesSchedule" class="display" style="width:600px"></ul>
 </div>	
 
 <div class="table-scroll-wrapper">
@@ -251,7 +253,49 @@ layout: default-wide
 		  });
 		}
 
+		async function loadSchedule(year) {
+
+		  const seriesName = getSeriesName();
+		  const ul = document.getElementById('seriesSchedule');
+		  if (!ul) return; // safe if ul not on this page
+
+		  const data = await fetchJSON(
+		    `/results/${seriesName}/${year}-results.json`
+		  );
+
+		  const schedule = data.schedule || [];
+
+		  ul.innerHTML = '';
+
+		  schedule.forEach(item => {
+
+		    const li = document.createElement('li');
+
+		    const date = new Date(item.date);
+		    const formattedDate = date.toLocaleDateString('en-US', {
+		      weekday: 'short',
+		      day: '2-digit',
+		      month: 'short',
+		      year: 'numeric'
+		    });
+
+		    if (item.cancelled) {
+		      li.innerHTML =
+		        `<strong>${item.course}:</strong> ${formattedDate} (cancelled)`;
+		    } else {
+		      li.innerHTML =
+		        `<strong>${item.course}:</strong> ${formattedDate} ` +
+		        `(<a href="/results/${seriesName}?course=${encodeURIComponent(item.course)}&year=${year}">results</a>)`;
+		    }
+
+		    ul.appendChild(li);
+		  });
+
+		}
+
 	  async function loadTable(year) {
+
+  	  await loadSchedule(year);  
 
 	    const seriesName = getSeriesName();
 	    const data = await fetchJSON(
@@ -368,7 +412,7 @@ layout: default-wide
 	});
 </script>
 
-<script>
+<!-- <script>
 	document.addEventListener('DOMContentLoaded', function () {
 
 	  const table = document.getElementById('seriesSchedule');
@@ -484,4 +528,5 @@ layout: default-wide
 	  }
 
 	});
-</script>
+</script> -->
+

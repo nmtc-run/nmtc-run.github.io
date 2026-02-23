@@ -22,23 +22,34 @@ layout: default
 <!-- <div class="" style="height:1.5em;">&nbsp;</div> -->
 <div class="event-content article">
 
+<<<<<<< HEAD
 	<h1 id="series-standings">
 		Series standings
+=======
+	<h1 id="race-results">
+		Series standings for 
+		<select id="yearSelect" class="results-select-head"></select>
+>>>>>>> 342242b (demo standings-only page; table/list linking to race results in progress)
 	</h1>
 
 	<table id="seriesStandings" class="display" style="width:100%">
 	  <thead>
 	    <tr>
-	      <th>G.Place</th>
-	      <th>Name</th>
 	      <th>G</th>
+	      <th>GP</th>
+	      <th>Name</th>
 	      <th>Points</th>
+	      <th>Bonus</th>
 	    </tr>
 	  </thead>
 	  <tbody></tbody>
 	</table>
 
+<<<<<<< HEAD
 	<div class="" style="height:1.5em;">&nbsp;</div>
+=======
+	<div class="" style="height:1.5em;">&nbsp;</div> 
+>>>>>>> 342242b (demo standings-only page; table/list linking to race results in progress)
 
 	<h1 id="race-results">
 		Race results
@@ -74,8 +85,15 @@ layout: default
 		  const pathParts = window.location.pathname.split('/').filter(Boolean);
 		  const series = pathParts[pathParts.indexOf('results') + 1];
 
+<<<<<<< HEAD
 		  const params = new URLSearchParams(window.location.search);
 		  let currentYear = parseInt(params.get('year'), 10);
+=======
+		  let standingsTable = null;
+		  let resultsTable = null;
+		  let currentYear  = null;
+		  let currentData  = null; // cache of loaded results file
+>>>>>>> 342242b (demo standings-only page; table/list linking to race results in progress)
 
 		  let table = null; // DataTables instance
 
@@ -94,6 +112,7 @@ layout: default
 		    return res.json();
 		  }
 
+<<<<<<< HEAD
 		  function initializeTable(data) {
 		    if (table) {
 		      table.clear().destroy();
@@ -118,6 +137,47 @@ layout: default
 				  columnDefs: [
 				    // Tell columns 4 and 5 that they can expand
 				    { targets: [2], width: "20%" },
+=======
+		  async function fetchStandings(year) {
+		    const res = await fetch(`/results/${series}/${year}-standings.json`, { cache: "no-store" });
+		    if (!res.ok) throw new Error("Missing standings file");
+		    return res.json();
+		  }
+
+		  /* ----------------------------------
+		     DataTable Setup
+		  ---------------------------------- */
+
+		  function initStandingsTable(data) {
+
+			  if (standingsTable) {
+			    standingsTable.clear();
+			    standingsTable.rows.add(data);
+			    standingsTable.draw();
+			    return;
+			  }
+
+			  standingsTable = $('#seriesStandings').DataTable({
+			    data: data,
+			    dom: '<"top-controls"lf>rt<"bottom"ip>',
+			    columns: [
+			      { data: 'Gender', name: 'gender', className: 'dt-body-center' },
+			      { data: 'Place', type: 'num', className: 'dt-body-center' },
+			      { data: 'Name' },
+			      { data: 'Total Points', className: 'dt-body-center' },
+			      { data: 'Bonus', className: 'dt-body-center' }
+			    ],
+			    order: [[1, 'asc']],
+			    // paging: false,        // usually standings don’t need paging
+			    // searching: false,
+			  });
+
+			  addGenderFilter(standingsTable, 'seriesStandings');
+
+			}
+
+		  function initResultsTable(results) {
+>>>>>>> 342242b (demo standings-only page; table/list linking to race results in progress)
 
 				    // Tell other columns to fit content only
 				    { targets: [0,1,3,4,5], width: "1%" }
@@ -133,9 +193,92 @@ layout: default
 			  // Clear previous options (important when reloading year)
 			  courseSelect.innerHTML = '<option value="">All</option>';
 
+<<<<<<< HEAD
 			  // Get unique course values from DataTables
 			  const courses = table
 			    .column('course:name') // optional if using column names
+=======
+						    // Convert to total seconds
+						    const totalSeconds =
+						      (d.getUTCHours() * 3600) +
+						      (d.getUTCMinutes() * 60) +
+						      d.getUTCSeconds();
+
+						    const hours   = Math.floor(totalSeconds / 3600);
+						    const minutes = Math.floor((totalSeconds % 3600) / 60);
+						    const seconds = totalSeconds % 60;
+
+						    // Sorting should use numeric value
+						    if (type === 'sort' || type === 'type') {
+						      return totalSeconds;
+						    }
+
+						    // Display formatting
+						    if (hours > 0) {
+						      return `${hours}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+						    } else {
+						      const totalMinutes = Math.floor(totalSeconds / 60);
+						      return `${totalMinutes}:${String(seconds).padStart(2, '0')}`;
+						    }
+						  }
+						},
+			      { data: 'gender', name: 'gender', className: 'dt-body-center' },
+			      { data: 'gender_place', className: 'dt-body-center' },
+			      { data: 'points', className: 'dt-body-center' },
+			      { data: 'course', name: 'course', visible: false },
+			      { data: 'date', visible: false }
+			    ],
+			    order: [[0, 'asc']],
+			    pageLength: 10,
+			    language: {
+					  info: "Showing _START_ to _END_ of _TOTAL_ results",
+					  infoEmpty: "Showing 0 results",
+					  infoFiltered: ""
+					}
+			  });
+
+			  addGenderFilter(resultsTable, 'raceResults'); 
+
+			}
+
+			function addGenderFilter(tableInstance, tableId) {
+
+			  const wrapperId = `${tableId}-genderFilterWrapper`;
+			  const selectId  = `${tableId}-genderFilter`;
+
+			  // Remove existing filter for THIS table only
+			  const existingWrapper = document.getElementById(wrapperId);
+			  if (existingWrapper) existingWrapper.remove();
+
+			  // Target that table’s DataTables top controls
+			  const container = document.querySelector(`#${tableId}_wrapper .top-controls`);
+			  if (!container) return;
+
+			  // Wrapper
+			  const wrapper = document.createElement('div');
+			  wrapper.id = wrapperId;
+			  wrapper.style.display = 'inline-block';
+			  wrapper.style.marginLeft = '1rem';
+
+			  // Label
+			  const label = document.createElement('span');
+			  label.textContent = 'Gender: ';
+			  wrapper.appendChild(label);
+
+			  // Select
+			  const select = document.createElement('select');
+			  select.id = selectId;
+
+			  // Default option
+			  const allOption = document.createElement('option');
+			  allOption.value = '';
+			  allOption.textContent = 'All';
+			  select.appendChild(allOption);
+
+			  // Get unique gender values from THIS table
+			  const genders = tableInstance
+			    .column('gender:name')
+>>>>>>> 342242b (demo standings-only page; table/list linking to race results in progress)
 			    .data()
 			    .unique()
 			    .sort();
@@ -147,6 +290,7 @@ layout: default
 			    courseSelect.appendChild(option);
 			  });
 
+<<<<<<< HEAD
 			  // Filter on change
 			  courseSelect.addEventListener('change', function () {
 			    const value = this.value;
@@ -157,6 +301,22 @@ layout: default
 			      table
 			        .column('course:name')
 			        .search('^' + value + '$', true, false) // exact match
+=======
+			  wrapper.appendChild(select);
+			  container.appendChild(wrapper);
+
+			  // Filter logic
+			  select.addEventListener('change', function () {
+
+			    const value = this.value;
+
+			    if (!value) {
+			      tableInstance.column('gender:name').search('').draw();
+			    } else {
+			      tableInstance
+			        .column('gender:name')
+			        .search('^' + value + '$', true, false)
+>>>>>>> 342242b (demo standings-only page; table/list linking to race results in progress)
 			        .draw();
 			    }
 			  });
@@ -167,6 +327,120 @@ layout: default
 		    initializeTable(data);
 		  }
 
+<<<<<<< HEAD
+=======
+		  function applyCourseFilter(courseParam) {
+
+			  const validCourses = currentData.courses || [];
+			  const latestCourse = currentData.latest_course;
+
+			  let courseToUse = null;
+
+			  // 1. Explicit All in URL → respect it
+			  if (courseParam === 'All') {
+			    courseToUse = 'All';
+			  }
+
+			  // 2. Valid course in URL → use it
+			  else if (courseParam && validCourses.includes(courseParam)) {
+			    courseToUse = courseParam;
+			  }
+
+			  // 3. Fallback to latest_course if valid
+			  else if (latestCourse && validCourses.includes(latestCourse)) {
+			    courseToUse = latestCourse;
+			  }
+
+			  // 4. Absolute fallback → first available course (efficient)
+			  else if (validCourses.length > 0) {
+			    courseToUse = validCourses[0];
+			  }
+
+			  // 5. If no courses at all → show All
+			  else {
+			    courseToUse = 'All';
+			  }
+
+			  courseSelect.value = courseToUse;
+
+			  if (courseToUse === 'All') {
+			    resultsTable.column('course:name').search('').draw();
+			  } else {
+			    resultsTable
+			      .column('course:name')
+			      .search('^' + courseToUse + '$', true, false)
+			      .draw();
+			  }
+
+			  // Sync URL to final resolved value
+			  updateURL(currentYear, courseToUse, false);
+			}
+
+		  /* ----------------------------------
+		     Load Year
+		  ---------------------------------- */
+
+		  async function loadYear(year, courseParam, push = false) {
+
+		    currentYear = year;
+		    yearSelect.value = year;
+
+		    const standingsData = await fetchStandings(year);
+		    initStandingsTable(standingsData);
+
+		    currentData = await fetchResults(year);
+
+		    initResultsTable(currentData.results);
+		    populateCourseDropdown(currentData.courses);
+
+		    applyCourseFilter(courseParam);
+
+		    if (push) {
+		      updateURL(year, courseSelect.value, true);
+		    }
+		  }
+
+		  /* ----------------------------------
+		     Event Listeners
+		  ---------------------------------- */
+
+		  yearSelect.addEventListener('change', async function () {
+
+			  const newYear = parseInt(this.value, 10);
+			  if (newYear === currentYear) return;
+
+			  const params = new URLSearchParams(window.location.search);
+			  const currentCourseParam = params.get('course');
+
+			  await loadYear(newYear, currentCourseParam, true);
+			});
+
+		  courseSelect.addEventListener('change', function () {
+
+		    const selectedCourse = this.value;
+
+		    applyCourseFilter(selectedCourse);
+		    updateURL(currentYear, selectedCourse, true);
+		  });
+
+		  window.addEventListener('popstate', async () => {
+
+		    const params = getParams();
+		    const year   = parseInt(params.get('year'), 10);
+		    const course = params.get('course');
+
+		    if (year !== currentYear) {
+		      await loadYear(year, course, false);
+		    } else {
+		      applyCourseFilter(course);
+		    }
+		  });
+
+		  /* ----------------------------------
+		     Initial Load
+		  ---------------------------------- */
+
+>>>>>>> 342242b (demo standings-only page; table/list linking to race results in progress)
 		  try {
 		    const years = await fetchYears();
 
