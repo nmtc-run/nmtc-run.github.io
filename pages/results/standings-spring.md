@@ -1,5 +1,5 @@
 ---
-layout: standings-series
+layout: series-standings
 title: Spring Series Standings
 description: NMTC Spring Series race results and series standings
 permalink: /results/standings/spring-series

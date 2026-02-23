@@ -1,0 +1,464 @@
+---
+layout: default
+---
+
+{% if page.article-title %}
+  <div class="article-title"> {{ page.article-title }}</div>
+{% else %}
+  <div class="article-title"> {{ page.title }}</div>
+{% endif %}
+
+<div class="article-subtitle"> 
+	<label for="yearSelect">Select year:</label>
+	<select id="yearSelect" style="height:2em;"></select>
+	<div id="errorMessage"></div>
+</div>
+
+<!-- <div class="article-subtitle"> 
+	<label for="courseSelect">Select course:</label>
+	<select id="courseSelect"></select>
+</div> -->
+
+<!-- <div class="" style="height:1.5em;">&nbsp;</div> -->
+<div class="event-content article">
+
+	<h1 id="series-standings">
+		Series standings for 
+		<select id="yearSelect" class="results-select-head"></select>
+	</h1>
+
+	<table id="seriesStandings" class="display" style="width:100%">
+	  <thead>
+	    <tr>
+	      <th>G</th>
+	      <th>GP</th>
+	      <th>Name</th>
+	      <th>Points</th>
+	      <th>Bonus</th>
+	    </tr>
+	  </thead>
+	  <tbody></tbody>
+	</table>
+
+	<div class="" style="height:1.5em;">&nbsp;</div>
+
+	<h1 id="race-results">
+		Race results
+	</h1>
+
+	<div class="article-subtitle"> 
+		<label for="courseFilter">Select course:</label>
+		<select id="courseFilter" style="height:2em;">
+		  <option value="">All</option>
+		</select>
+	</div>
+
+	<table id="raceResults" class="display" style="width:100%">
+	  <thead>
+	    <tr>
+	      <th>Place</th>
+	      <th>Name</th>
+	      <th>Time</th>
+	      <th>Gender</th>
+	      <th>Gender Place</th>
+	      <th>Points</th>
+	    </tr>
+	  </thead>
+	  <tbody></tbody>
+	</table>
+
+	<script>
+		document.addEventListener('DOMContentLoaded', async () => {
+
+		  const yearSelect = document.getElementById('yearSelect');
+		  const errorBox = document.getElementById('errorMessage');
+
+		  const pathParts = window.location.pathname.split('/').filter(Boolean);
+		  const series = pathParts[pathParts.indexOf('results') + 1];
+
+		  const params = new URLSearchParams(window.location.search);
+		  let currentYear = parseInt(params.get('year'), 10);
+		  let standingsTable = null;
+		  let resultsTable = null;
+		  let currentYear  = null;
+		  let currentData  = null; // cache of loaded results file
+
+		  let table = null; // DataTables instance
+
+		  async function fetchYears() {
+		    const res = await fetch(`/results/${series}/years.json`, { cache: "no-store" });
+		    if (!res.ok) throw new Error("Missing years.json");
+		    const years = await res.json();
+		    if (!Array.isArray(years) || years.length === 0)
+		      throw new Error("No years available");
+		    return years.sort((a,b) => b - a);
+		  }
+
+		  async function fetchRaceData(year) {
+		    const res = await fetch(`/results/${series}/${year}.json`, { cache: "no-store" });
+		    if (!res.ok) throw new Error(`Missing data for ${year}`);
+		    return res.json();
+		  }
+
+		  function initializeTable(data) {
+		    if (table) {
+		      table.clear().destroy();
+		      $('#raceResults tbody').empty(); // Prevent duplication
+		    }
+
+		    table = $('#raceResults').DataTable({
+		      data,
+		      columns: [
+		      	{ data: 'place', name: 'place', type: 'num' },
+		        { data: 'name' },
+		        { data: 'time' },
+		        { data: 'gender' },
+		        { data: 'gender_place' },
+		        { data: 'points' },
+		        { data: 'course', name: 'course', visible:false } 
+		      ],
+		      pageLength: 10,
+	        order: [[0, 'asc']],
+	        dom: '<"top-controls"lf>rt<"bottom"ip>', // custom wrapper
+		      autoWidth: false, // prevent DataTables from auto-picking padding columns
+				  columnDefs: [
+				    // Tell columns 4 and 5 that they can expand
+				    { targets: [2], width: "20%" },
+
+		  async function fetchStandings(year) {
+		    const res = await fetch(`/results/${series}/${year}-standings.json`, { cache: "no-store" });
+		    if (!res.ok) throw new Error("Missing standings file");
+		    return res.json();
+		  }
+
+		  /* ----------------------------------
+		     DataTable Setup
+		  ---------------------------------- */
+
+		  function initStandingsTable(data) {
+
+			  if (standingsTable) {
+			    standingsTable.clear();
+			    standingsTable.rows.add(data);
+			    standingsTable.draw();
+			    return;
+			  }
+
+			  standingsTable = $('#seriesStandings').DataTable({
+			    data: data,
+			    dom: '<"top-controls"lf>rt<"bottom"ip>',
+			    columns: [
+			      { data: 'Gender', name: 'gender', className: 'dt-body-center' },
+			      { data: 'Place', type: 'num', className: 'dt-body-center' },
+			      { data: 'Name' },
+			      { data: 'Total Points', className: 'dt-body-center' },
+			      { data: 'Bonus', className: 'dt-body-center' }
+			    ],
+			    order: [[1, 'asc']],
+			    // paging: false,        // usually standings don’t need paging
+			    // searching: false,
+			  });
+
+			  addGenderFilter(standingsTable, 'seriesStandings');
+
+			}
+
+		  function initResultsTable(results) {
+
+				    // Tell other columns to fit content only
+				    { targets: [0,1,3,4,5], width: "1%" }
+				  ]
+		    });
+
+		    setupCourseFilter(table);
+		  }
+
+		  function setupCourseFilter(table) {
+			  const courseSelect = document.getElementById('courseFilter');
+
+			  // Clear previous options (important when reloading year)
+			  courseSelect.innerHTML = '<option value="">All</option>';
+
+			  // Get unique course values from DataTables
+			  const courses = table
+			    .column('course:name') // optional if using column names
+						    // Convert to total seconds
+						    const totalSeconds =
+						      (d.getUTCHours() * 3600) +
+						      (d.getUTCMinutes() * 60) +
+						      d.getUTCSeconds();
+
+						    const hours   = Math.floor(totalSeconds / 3600);
+						    const minutes = Math.floor((totalSeconds % 3600) / 60);
+						    const seconds = totalSeconds % 60;
+
+						    // Sorting should use numeric value
+						    if (type === 'sort' || type === 'type') {
+						      return totalSeconds;
+						    }
+
+						    // Display formatting
+						    if (hours > 0) {
+						      return `${hours}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+						    } else {
+						      const totalMinutes = Math.floor(totalSeconds / 60);
+						      return `${totalMinutes}:${String(seconds).padStart(2, '0')}`;
+						    }
+						  }
+						},
+			      { data: 'gender', name: 'gender', className: 'dt-body-center' },
+			      { data: 'gender_place', className: 'dt-body-center' },
+			      { data: 'points', className: 'dt-body-center' },
+			      { data: 'course', name: 'course', visible: false },
+			      { data: 'date', visible: false }
+			    ],
+			    order: [[0, 'asc']],
+			    pageLength: 10,
+			    language: {
+					  info: "Showing _START_ to _END_ of _TOTAL_ results",
+					  infoEmpty: "Showing 0 results",
+					  infoFiltered: ""
+					}
+			  });
+
+			  addGenderFilter(resultsTable, 'raceResults'); 
+
+			}
+
+			function addGenderFilter(tableInstance, tableId) {
+
+			  const wrapperId = `${tableId}-genderFilterWrapper`;
+			  const selectId  = `${tableId}-genderFilter`;
+
+			  // Remove existing filter for THIS table only
+			  const existingWrapper = document.getElementById(wrapperId);
+			  if (existingWrapper) existingWrapper.remove();
+
+			  // Target that table’s DataTables top controls
+			  const container = document.querySelector(`#${tableId}_wrapper .top-controls`);
+			  if (!container) return;
+
+			  // Wrapper
+			  const wrapper = document.createElement('div');
+			  wrapper.id = wrapperId;
+			  wrapper.style.display = 'inline-block';
+			  wrapper.style.marginLeft = '1rem';
+
+			  // Label
+			  const label = document.createElement('span');
+			  label.textContent = 'Gender: ';
+			  wrapper.appendChild(label);
+
+			  // Select
+			  const select = document.createElement('select');
+			  select.id = selectId;
+
+			  // Default option
+			  const allOption = document.createElement('option');
+			  allOption.value = '';
+			  allOption.textContent = 'All';
+			  select.appendChild(allOption);
+
+			  // Get unique gender values from THIS table
+			  const genders = tableInstance
+			    .column('gender:name')
+			    .data()
+			    .unique()
+			    .sort();
+
+			  courses.each(function (course) {
+			    const option = document.createElement('option');
+			    option.value = course;
+			    option.textContent = course;
+			    courseSelect.appendChild(option);
+			  });
+
+			  // Filter on change
+			  courseSelect.addEventListener('change', function () {
+			    const value = this.value;
+
+			    if (!value) {
+			      table.column('course:name').search('').draw();
+			    } else {
+			      table
+			        .column('course:name')
+			        .search('^' + value + '$', true, false) // exact match
+			  wrapper.appendChild(select);
+			  container.appendChild(wrapper);
+
+			  // Filter logic
+			  select.addEventListener('change', function () {
+
+			    const value = this.value;
+
+			    if (!value) {
+			      tableInstance.column('gender:name').search('').draw();
+			    } else {
+			      tableInstance
+			        .column('gender:name')
+			        .search('^' + value + '$', true, false)
+			        .draw();
+			    }
+			  });
+			}
+
+		  async function loadYear(year) {
+		    const data = await fetchRaceData(year);
+		    initializeTable(data);
+		  }
+
+		  function applyCourseFilter(courseParam) {
+
+			  const validCourses = currentData.courses || [];
+			  const latestCourse = currentData.latest_course;
+
+			  let courseToUse = null;
+
+			  // 1. Explicit All in URL → respect it
+			  if (courseParam === 'All') {
+			    courseToUse = 'All';
+			  }
+
+			  // 2. Valid course in URL → use it
+			  else if (courseParam && validCourses.includes(courseParam)) {
+			    courseToUse = courseParam;
+			  }
+
+			  // 3. Fallback to latest_course if valid
+			  else if (latestCourse && validCourses.includes(latestCourse)) {
+			    courseToUse = latestCourse;
+			  }
+
+			  // 4. Absolute fallback → first available course (efficient)
+			  else if (validCourses.length > 0) {
+			    courseToUse = validCourses[0];
+			  }
+
+			  // 5. If no courses at all → show All
+			  else {
+			    courseToUse = 'All';
+			  }
+
+			  courseSelect.value = courseToUse;
+
+			  if (courseToUse === 'All') {
+			    resultsTable.column('course:name').search('').draw();
+			  } else {
+			    resultsTable
+			      .column('course:name')
+			      .search('^' + courseToUse + '$', true, false)
+			      .draw();
+			  }
+
+			  // Sync URL to final resolved value
+			  updateURL(currentYear, courseToUse, false);
+			}
+
+		  /* ----------------------------------
+		     Load Year
+		  ---------------------------------- */
+
+		  async function loadYear(year, courseParam, push = false) {
+
+		    currentYear = year;
+		    yearSelect.value = year;
+
+		    const standingsData = await fetchStandings(year);
+		    initStandingsTable(standingsData);
+
+		    currentData = await fetchResults(year);
+
+		    initResultsTable(currentData.results);
+		    populateCourseDropdown(currentData.courses);
+
+		    applyCourseFilter(courseParam);
+
+		    if (push) {
+		      updateURL(year, courseSelect.value, true);
+		    }
+		  }
+
+		  /* ----------------------------------
+		     Event Listeners
+		  ---------------------------------- */
+
+		  yearSelect.addEventListener('change', async function () {
+
+			  const newYear = parseInt(this.value, 10);
+			  if (newYear === currentYear) return;
+
+			  const params = new URLSearchParams(window.location.search);
+			  const currentCourseParam = params.get('course');
+
+			  await loadYear(newYear, currentCourseParam, true);
+			});
+
+		  courseSelect.addEventListener('change', function () {
+
+		    const selectedCourse = this.value;
+
+		    applyCourseFilter(selectedCourse);
+		    updateURL(currentYear, selectedCourse, true);
+		  });
+
+		  window.addEventListener('popstate', async () => {
+
+		    const params = getParams();
+		    const year   = parseInt(params.get('year'), 10);
+		    const course = params.get('course');
+
+		    if (year !== currentYear) {
+		      await loadYear(year, course, false);
+		    } else {
+		      applyCourseFilter(course);
+		    }
+		  });
+
+		  /* ----------------------------------
+		     Initial Load
+		  ---------------------------------- */
+
+		  try {
+		    const years = await fetchYears();
+
+		    // Populate dropdown
+		    years.forEach(year => {
+		      const opt = document.createElement('option');
+		      opt.value = year;
+		      opt.textContent = year;
+		      yearSelect.appendChild(opt);
+		    });
+
+		    // Determine initial year
+		    if (!currentYear || !years.includes(currentYear)) {
+		      currentYear = years[0]; // latest
+		      params.set('year', currentYear);
+		      window.history.replaceState({}, '', '?' + params.toString());
+		    }
+
+		    yearSelect.value = currentYear;
+
+		    // Initial DataTables load
+		    await loadYear(currentYear);
+
+		    // Handle dropdown change
+		    yearSelect.addEventListener('change', async function () {
+		      const selectedYear = parseInt(this.value, 10);
+
+		      if (selectedYear === currentYear) return; // Do nothing
+
+		      currentYear = selectedYear;
+
+		      params.set('year', currentYear);
+		      window.history.pushState({}, '', '?' + params.toString());
+
+		      await loadYear(currentYear);
+		    });
+
+		  } catch (err) {
+		    errorBox.textContent = "Unable to load results.";
+		  }
+
+		});
+	</script>	
+

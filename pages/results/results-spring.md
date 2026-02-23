@@ -1,5 +1,5 @@
 ---
-layout: results-series
+layout: series-results
 title: Spring Series Results
 description: Historical results for the NMTC Spring Series
 permalink: /results/spring-series

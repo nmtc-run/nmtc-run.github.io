@@ -51,6 +51,10 @@ table.dataTable thead>tr>th {
   padding: 0.2em 2em;
 }
 
+/*
+ * Scroll bar for DataTables 
+ */
+
 .dataTables_scroll {
 	padding-top: 10px;
 }
@@ -66,23 +70,6 @@ table.dataTable thead>tr>th {
 
 .table-scroll-wrapper {
   position: relative;
-}
-
-.scroll-hint {
-  position: absolute;
-  right: 20px;
-  bottom: 46px;
-  background: #cb6e78;
-  color: white;
-  padding: 4px 10px;
-  font-size: 0.8rem;
-  border-radius: 14px;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-}
-
-.scroll-hint.hidden {
-  opacity: 0;
 }
 
 /* Always show horizontal scrollbar */
@@ -108,6 +95,48 @@ table.dataTable thead>tr>th {
   background: #999;
 }
 
+div.bottom > div.dt-buttons {
+	padding-left: 1em; 
+}
+
+/* Wrapper for top scrollbar */
+.table-scroll-wrapper {
+  position: relative;
+  overflow-x: auto; /* fallback for old browsers */
+}
+
+/* Top scroll mimic */
+.table-scroll-sync-top {
+  overflow-x: auto;
+  overflow-y: hidden; /* horizontal only */
+  height: 12px;       /* matches bottom scrollbar height */
+  margin-bottom: 4px; /* space between scrollbar and table */
+}
+
+.table-scroll-sync-top::-webkit-scrollbar {
+  height: 12px;
+}
+
+.table-scroll-sync-top::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+.table-scroll-sync-top::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 6px;
+}
+
+.table-scroll-sync-top::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* Optional: existing DataTables bottom scrollbar styling */
+.dataTables_scrollBody {
+  overflow-x: scroll !important;
+}
+
+// Wide wrapper 
+
 .wide-wrapper {
   margin-right: auto;
   margin-left: auto;
@@ -119,4 +148,13 @@ table.dataTable thead>tr>th {
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
   }
+}
+
+// standings schedule 
+
+.standings-schedule-box {
+	width: 600px; 
+  margin: 0 auto 15px auto;
+  background-color: #f0f0f0;
+  padding: 15px 15px 1px 15px;
 }

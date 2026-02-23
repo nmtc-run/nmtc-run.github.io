@@ -14,18 +14,22 @@ layout: default-wide
 
 <div class="event-content article">
 
-	<h1 id="race-results">
+	<h1 id="standings-year">
 		<span>
 			Year: <select id="yearSelect" class="results-select-head"></select>
 		</span>
+	</h1>
+	<div class="standings-schedule-box">
+		<ul id="seriesSchedule" class="display" ></ul>
+	</div>
+	<h1 id="gender-standings">
 		<span>
-			Gender: <select id="genderSelect" class="results-select-head"></select>
+			Gender category: <select id="genderSelect" class="results-select-head"></select>
 		</span>
 	</h1>
 
-	<!-- <table id="seriesSchedule" class="display" style="width:600px; margin: 0 auto;"></table> -->
-	<h3>Schedule</h3>
-	<ul id="seriesSchedule" class="display" style="width:600px"></ul>
+<!-- 	<h3><span id="scheduleYear"></span> Schedule</h3>
+	<ul id="seriesSchedule" class="display" style="width:600px"></ul> -->
 </div>	
 
 <div class="table-scroll-wrapper">
@@ -34,6 +38,9 @@ layout: default-wide
 
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/4.3.0/css/fixedColumns.dataTables.min.css">
 <script src="https://cdn.datatables.net/fixedcolumns/4.3.0/js/dataTables.fixedColumns.min.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css">
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
 
 <script>
 	document.addEventListener('DOMContentLoaded', async function () {
@@ -75,6 +82,26 @@ layout: default-wide
 	    if (!res.ok) throw new Error(`Failed to fetch ${url}`);
 	    return await res.json();
 	  }
+
+	  function buildStandingsPrintTitle() {
+		  const year = getQueryParam('year') || '';
+		  const gender = getQueryParam('gender') || '';
+		  const slug = getSeriesName(); 
+
+		  // Convert slug to Title Case
+		  const seriesName = slug
+		    .split('-')
+		    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+		    .join(' ');
+
+		  let title = `${year} ${seriesName} Standings`;
+
+		  if (gender) {
+		    title += ` - ${gender}`;
+		  }
+
+		  return title.trim();
+		}
 
 	  // ----------------------------------
 	  // Build Columns (fixed → dynamic)
@@ -272,12 +299,18 @@ layout: default-wide
 		    const li = document.createElement('li');
 
 		    const date = new Date(item.date);
-		    const formattedDate = date.toLocaleDateString('en-US', {
-		      weekday: 'short',
-		      day: '2-digit',
-		      month: 'short',
-		      year: 'numeric'
-		    });
+
+				const parts = new Intl.DateTimeFormat('en-GB', { 
+				  weekday: 'short', 
+				  day: 'numeric', 
+				  month: 'short', 
+				  year: 'numeric' 
+				}).formatToParts(date);
+
+				const formattedDate = `${parts.find(p => p.type==='weekday').value} ` +
+				                      `${parts.find(p => p.type==='day').value} ` +
+				                      `${parts.find(p => p.type==='month').value} ` +
+				                      `${parts.find(p => p.type==='year').value}`;
 
 		    if (item.cancelled) {
 		      li.innerHTML =
@@ -313,39 +346,32 @@ layout: default-wide
 	      $(tableId).empty();
 	    }
 
+	    const printTitle = buildStandingsPrintTitle();
+
 	    standingsTable = $(tableId).DataTable({
 	      data: data,
 	      columns: buildColumns(data),
-	      dom: '<"top-controls"lf>rt<"bottom"ip>',
+	      dom: '<"top-controls"lf>rt<"bottom"ipB>',
+	      buttons: [
+				  {
+				    extend: 'print',
+				    text: 'Print',
+				    title: printTitle,
+				    exportOptions: {
+				      columns: ':visible'
+				    }
+				  }
+				],
 	      order: [[1, 'asc']], // assumes Place is second column
 	      scrollX: true,
-		  scrollCollapse: true,
-
-		  fixedColumns: {
-		    leftColumns: 3
-		  }
+			  scrollCollapse: true,
+			  pageLength: 100,
+			  fixedColumns: {
+			    leftColumns: 3
+			  }
 
 	    });
 
-	    setTimeout(() => {
-
-		  const scrollBody = document.querySelector(
-		    '#seriesStandings_wrapper .dataTables_scrollBody'
-		  );
-
-		  const hint = document.querySelector('.scroll-hint');
-
-		  if (!scrollBody || !hint) return;
-
-		  scrollBody.addEventListener('scroll', function () {
-		    if (this.scrollLeft > 10) {
-		      hint.classList.add('hidden');
-		    }
-		  }, { once: true });
-
-		}, 300);
-
-	    // addGenderFilter(standingsTable, data); // @@@ delete later? 
 	    initGenderSelector(data);
 	  }
 
@@ -371,6 +397,10 @@ layout: default-wide
 	      ? urlYear
 	      : latestYear;
 
+	    // Populate headline 
+	    const scheduleYearSpan = document.getElementById('scheduleYear');
+			if (scheduleYearSpan) scheduleYearSpan.textContent = selectedYear;
+
 	    // Populate select
 	    yearSelect.innerHTML = '';
 
@@ -394,6 +424,8 @@ layout: default-wide
 
 	      updateQueryParam('year', newYear);
 
+	      if (scheduleYearSpan) scheduleYearSpan.textContent = newYear;
+
 	      await loadTable(newYear);
 	    });
 	  }
@@ -411,122 +443,3 @@ layout: default-wide
 
 	});
 </script>
-
-<!-- <script>
-	document.addEventListener('DOMContentLoaded', function () {
-
-	  const table = document.getElementById('seriesSchedule');
-	  const yearSelect = document.getElementById('yearSelect');
-
-	  function getSeriesName() {
-		  const parts = window.location.pathname
-		    .split('/')
-		    .filter(Boolean);   // removes empty strings
-
-		  const resultsIndex = parts.indexOf('results');
-		  if (resultsIndex === -1) return null;
-
-		  // If URL contains "standings", series name is after that
-		  if (parts[resultsIndex + 1] === 'standings') {
-		    return parts[resultsIndex + 2] || null;
-		  }
-
-		  // Otherwise series name is immediately after "results"
-		  return parts[resultsIndex + 1] || null;
-	}
-
-	  function getQueryParam(param) {
-	    return new URLSearchParams(window.location.search).get(param);
-	  }
-
-	  async function fetchJSON(url) {
-	    const res = await fetch(url);
-	    if (!res.ok) throw new Error(`Failed to fetch ${url}`);
-	    return await res.json();
-	  }
-
-	  function formatDate(isoString) {
-	    const date = new Date(isoString);
-	    return date.toLocaleDateString(undefined, {
-	      weekday: 'short',
-	      month: 'short',
-	      day: 'numeric',
-	      year: 'numeric'
-	    });
-	  }
-
-	  function renderSchedule(schedule) {
-
-	    if (!schedule || !schedule.length) {
-	      table.innerHTML = '<tr><td>No schedule available</td></tr>';
-	      return;
-	    }
-
-	    let html = `
-	      <thead>
-	        <tr>
-	          <th>Course</th>
-	          <th>Date</th>
-	          <th>Status</th>
-	        </tr>
-	      </thead>
-	      <tbody>
-	    `;
-
-	    schedule.forEach(item => {
-	      html += `
-	        <tr class="${item.cancelled ? 'cancelled-row' : ''}">
-	          <td>${item.course}</td>
-	          <td>${formatDate(item.date)}</td>
-	          <td>${item.cancelled ? 'Cancelled' : ''}</td>
-	        </tr>
-	      `;
-	    });
-
-	    html += '</tbody>';
-
-	    table.innerHTML = html;
-	  }
-
-	  async function loadSchedule() {
-
-	    const seriesName = getSeriesName();
-	    const year = getQueryParam('year');
-	    
-	    if (!seriesName || !year) return;
-
-	    const res = await fetch(`/results/${seriesName}/${year}-results.json`);
-		const text = await res.text();
-		console.log(text);
-
-	    try {
-	      const data = await fetchJSON(
-	        `/results/${seriesName}/${year}-results.json`
-	      );
-
-	      renderSchedule(data.schedule);
-
-	    } catch (err) {
-	      console.error(err);
-	      table.innerHTML = '<tr><td>Error loading schedule</td></tr>';
-	    }
-	  }
-
-	  // Load on page load
-	  loadSchedule();
-
-	  // Reload when year changes
-	  if (yearSelect) {
-	    yearSelect.addEventListener('change', function () {
-
-	      const url = new URL(window.location);
-	      url.searchParams.set('year', this.value);
-	      window.history.pushState({}, '', url);
-
-	      loadSchedule();
-	    });
-	  }
-
-	});
-</script> -->
-
