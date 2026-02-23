@@ -1,0 +1,487 @@
+---
+layout: default-wide
+---
+
+{% if page.article-title %}
+  <div class="article-title"> {{ page.article-title }}</div>
+{% else %}
+  <div class="article-title"> {{ page.title }}</div>
+{% endif %}
+
+<div class="article-subtitle"> 
+	<div id="errorMessage"></div>
+</div>
+
+<div class="event-content article">
+
+	<h1 id="race-results">
+		<span>
+			Year: <select id="yearSelect" class="results-select-head"></select>
+		</span>
+		<span>
+			Gender: <select id="genderSelect" class="results-select-head"></select>
+		</span>
+	</h1>
+
+	<table id="seriesSchedule" class="display" style="width:100%"></table>
+</div>	
+
+<div class="table-scroll-wrapper">
+	<table id="seriesStandings" class="display" style="width:100%"></table>
+</div>
+
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/4.3.0/css/fixedColumns.dataTables.min.css">
+<script src="https://cdn.datatables.net/fixedcolumns/4.3.0/js/dataTables.fixedColumns.min.js"></script>
+
+<script>
+	document.addEventListener('DOMContentLoaded', async function () {
+
+	  const tableId = '#seriesStandings';
+	  const yearSelect = document.getElementById('yearSelect');
+	  const genderSelect = document.getElementById('genderSelect');
+	  let standingsTable;
+
+	  // ----------------------------------
+	  // Helpers
+	  // ----------------------------------
+
+	  function getSeriesName() {
+	    const match = window.location.pathname.match(
+	      /\/results\/standings\/([^\/]+)\/?$/
+	    );
+	    return match ? match[1] : null;
+	  }
+
+	  function getQueryParam(param) {
+	    return new URLSearchParams(window.location.search).get(param);
+	  }
+
+	  function updateQueryParam(key, value) {
+	    const url = new URL(window.location);
+	    url.searchParams.set(key, value);
+	    window.history.pushState({}, '', url);
+	  }
+
+	  function removeQueryParam(key) {
+		  const url = new URL(window.location);
+		  url.searchParams.delete(key);
+		  window.history.pushState({}, '', url);
+		}
+
+	  async function fetchJSON(url) {
+	    const res = await fetch(url);
+	    if (!res.ok) throw new Error(`Failed to fetch ${url}`);
+	    return await res.json();
+	  }
+
+	  // ----------------------------------
+	  // Build Columns (fixed → dynamic)
+	  // ----------------------------------
+
+	  function buildColumns(data) {
+
+	    const columnSet = new Set();
+
+	    data.forEach(row => {
+	      Object.keys(row).forEach(key => {
+	        if (key.trim() !== '') columnSet.add(key);
+	      });
+	    });
+
+	    const fixedColumns = [
+	      "Gender",
+	      "Place",
+	      "Name",
+	      "Total Points",
+	      "Bonus"
+	    ];
+
+	    const dynamicColumns = Array.from(columnSet)
+	      .filter(key => !fixedColumns.includes(key));
+
+	    const orderedColumns = [
+	      ...fixedColumns.filter(k => columnSet.has(k)),
+	      ...dynamicColumns
+	    ];
+
+	    const headerMap = {
+		  "Gender": "GP",
+		  "Place": "P",
+		  "Name": "Name",
+		  "Total Points": "Total",
+		  "Bonus": "Bonus",
+		};
+
+	    return orderedColumns.map(key => {
+	      const col = {
+	        data: key,
+	        title: headerMap[key] || key, // original --> title: key,
+	        defaultContent: ''
+	      };
+
+	      if (key === "Gender") col.className = 'dt-body-center';
+	      if (key === "Place") {
+	        col.type = 'num';
+	        col.className = 'dt-body-center';
+	      }
+	      if (key === "Total Points" || key === "Bonus") {
+	        col.className = 'dt-body-center';
+	      }
+
+	      return col;
+	    });
+	  }
+
+	  // ----------------------------------
+	  // Add Filter, Load & Render Table
+	  // ----------------------------------
+
+	  function initGenderSelector(data) {
+
+		  const genders = [
+		    ...new Set(data.map(row => row.Gender).filter(Boolean))
+		  ].sort();
+
+		  const urlGender = getQueryParam('gender');
+		  const validGender = genders.includes(urlGender) ? urlGender : '';
+
+		  // Populate dropdown
+		  genderSelect.innerHTML = `
+		    <option value="">All</option>
+		    ${genders.map(g =>
+		      `<option value="${g}" ${g === validGender ? 'selected' : ''}>${g}</option>`
+		    ).join('')}
+		  `;
+
+		  // Apply filter if valid
+		  const genderColIndex = standingsTable.settings()[0].aoColumns
+		    .findIndex(col => col.data === "Gender");
+
+		  if (validGender && genderColIndex !== -1) {
+		    standingsTable.column(genderColIndex)
+		      .search('^' + validGender + '$', true, false)
+		      .draw();
+		  }
+
+		  // On change
+		  genderSelect.onchange = function () {
+
+		    const value = this.value;
+
+		    if (genderColIndex === -1) return;
+
+		    if (value) {
+		      updateQueryParam('gender', value);
+		      standingsTable.column(genderColIndex)
+		        .search('^' + value + '$', true, false)
+		        .draw();
+		    } else {
+		      removeQueryParam('gender');
+		      standingsTable.column(genderColIndex)
+		        .search('')
+		        .draw();
+		    }
+		  };
+		}
+
+	  function addGenderFilter(table, data) {
+
+		  const container = document.querySelector('.top-controls');
+		  if (!container) return;
+
+		  // Remove old filter if reloading year
+		  const existing = document.getElementById('genderFilterWrapper');
+		  if (existing) existing.remove();
+
+		  const genders = [
+		    ...new Set(data.map(row => row.Gender).filter(Boolean))
+		  ].sort();
+
+		  const urlGender = getQueryParam('gender');
+		  const validGender = genders.includes(urlGender) ? urlGender : null;
+
+		  // Create wrapper
+		  const wrapper = document.createElement('div');
+		  wrapper.id = 'genderFilterWrapper';
+		  wrapper.style.display = 'inline-block';
+		  wrapper.style.margin = '0 30px'; 
+
+		  wrapper.innerHTML = `
+		    <label style="margin-right:6px;">Gender:</label>
+		    <select id="genderSelect">
+		      <option value="">All</option>
+		      ${genders.map(g =>
+		        `<option value="${g}" ${g === validGender ? 'selected' : ''}>${g}</option>`
+		      ).join('')}
+		    </select>
+		  `;
+
+		  container.prepend(wrapper);
+
+		  const genderSelect = document.getElementById('genderSelect');
+
+		  // Apply initial filter
+		  const genderColIndex = table.settings()[0].aoColumns
+		    .findIndex(col => col.data === "Gender");
+
+		  if (validGender && genderColIndex !== -1) {
+		    table.column(genderColIndex)
+		      .search('^' + validGender + '$', true, false)
+		      .draw();
+		  }
+
+		  // On change
+		  genderSelect.addEventListener('change', function () {
+
+		    const value = this.value;
+
+		    if (genderColIndex === -1) return;
+
+		    if (value) {
+		      updateQueryParam('gender', value);
+		      table.column(genderColIndex)
+		        .search('^' + value + '$', true, false)
+		        .draw();
+		    } else {
+		      removeQueryParam('gender');
+		      table.column(genderColIndex)
+		        .search('')
+		        .draw();
+		    }
+		  });
+		}
+
+	  async function loadTable(year) {
+
+	    const seriesName = getSeriesName();
+	    const data = await fetchJSON(
+	      `/results/${seriesName}/${year}-standings.json`
+	    );
+
+	    if (!data.length) {
+	      $(tableId).html('<tr><td>No data available</td></tr>');
+	      return;
+	    }
+
+	    // Destroy completely if exists (structure may change)
+	    if ($.fn.DataTable.isDataTable(tableId)) {
+	      standingsTable.destroy();
+	      $(tableId).empty();
+	    }
+
+	    standingsTable = $(tableId).DataTable({
+	      data: data,
+	      columns: buildColumns(data),
+	      dom: '<"top-controls"lf>rt<"bottom"ip>',
+	      order: [[1, 'asc']], // assumes Place is second column
+	      scrollX: true,
+		  scrollCollapse: true,
+
+		  fixedColumns: {
+		    leftColumns: 3
+		  }
+
+	    });
+
+	    setTimeout(() => {
+
+		  const scrollBody = document.querySelector(
+		    '#seriesStandings_wrapper .dataTables_scrollBody'
+		  );
+
+		  const hint = document.querySelector('.scroll-hint');
+
+		  if (!scrollBody || !hint) return;
+
+		  scrollBody.addEventListener('scroll', function () {
+		    if (this.scrollLeft > 10) {
+		      hint.classList.add('hidden');
+		    }
+		  }, { once: true });
+
+		}, 300);
+
+	    // addGenderFilter(standingsTable, data); // @@@ delete later? 
+	    initGenderSelector(data);
+	  }
+
+	  // ----------------------------------
+	  // Populate Year Dropdown
+	  // ----------------------------------
+
+	  async function initYearSelector() {
+
+	    const seriesName = getSeriesName();
+	    const years = await fetchJSON(
+	      `/results/${seriesName}/years.json`
+	    );
+
+	    if (!years.length) return;
+
+	    years.sort((a, b) => b - a); // latest first
+
+	    const urlYear = getQueryParam('year');
+	    const latestYear = years[0];
+
+	    const selectedYear = years.includes(Number(urlYear))
+	      ? urlYear
+	      : latestYear;
+
+	    // Populate select
+	    yearSelect.innerHTML = '';
+
+	    years.forEach(year => {
+	      const option = document.createElement('option');
+	      option.value = year;
+	      option.textContent = year;
+	      if (String(year) === String(selectedYear)) {
+	        option.selected = true;
+	      }
+	      yearSelect.appendChild(option);
+	    });
+
+	    // Initial table load
+	    await loadTable(selectedYear);
+
+	    // On change → update URL + reload table
+	    yearSelect.addEventListener('change', async function () {
+
+	      const newYear = this.value;
+
+	      updateQueryParam('year', newYear);
+
+	      await loadTable(newYear);
+	    });
+	  }
+
+	  // ----------------------------------
+	  // Init
+	  // ----------------------------------
+
+	  try {
+	    await initYearSelector();
+	  } catch (err) {
+	    console.error(err);
+	    $(tableId).html('<tr><td>Error loading data</td></tr>');
+	  }
+
+	});
+</script>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+
+	  const table = document.getElementById('seriesSchedule');
+	  const yearSelect = document.getElementById('yearSelect');
+
+	  function getSeriesName() {
+		  const parts = window.location.pathname
+		    .split('/')
+		    .filter(Boolean);   // removes empty strings
+
+		  const resultsIndex = parts.indexOf('results');
+		  if (resultsIndex === -1) return null;
+
+		  // If URL contains "standings", series name is after that
+		  if (parts[resultsIndex + 1] === 'standings') {
+		    return parts[resultsIndex + 2] || null;
+		  }
+
+		  // Otherwise series name is immediately after "results"
+		  return parts[resultsIndex + 1] || null;
+	}
+
+	  function getQueryParam(param) {
+	    return new URLSearchParams(window.location.search).get(param);
+	  }
+
+	  async function fetchJSON(url) {
+	    const res = await fetch(url);
+	    if (!res.ok) throw new Error(`Failed to fetch ${url}`);
+	    return await res.json();
+	  }
+
+	  function formatDate(isoString) {
+	    const date = new Date(isoString);
+	    return date.toLocaleDateString(undefined, {
+	      weekday: 'short',
+	      month: 'short',
+	      day: 'numeric',
+	      year: 'numeric'
+	    });
+	  }
+
+	  function renderSchedule(schedule) {
+
+	    if (!schedule || !schedule.length) {
+	      table.innerHTML = '<tr><td>No schedule available</td></tr>';
+	      return;
+	    }
+
+	    let html = `
+	      <thead>
+	        <tr>
+	          <th>Course</th>
+	          <th>Date</th>
+	          <th>Status</th>
+	        </tr>
+	      </thead>
+	      <tbody>
+	    `;
+
+	    schedule.forEach(item => {
+	      html += `
+	        <tr class="${item.cancelled ? 'cancelled-row' : ''}">
+	          <td>${item.course}</td>
+	          <td>${formatDate(item.date)}</td>
+	          <td>${item.cancelled ? 'Cancelled' : ''}</td>
+	        </tr>
+	      `;
+	    });
+
+	    html += '</tbody>';
+
+	    table.innerHTML = html;
+	  }
+
+	  async function loadSchedule() {
+
+	    const seriesName = getSeriesName();
+	    const year = getQueryParam('year');
+	    
+	    if (!seriesName || !year) return;
+
+	    const res = await fetch(`/results/${seriesName}/${year}-results.json`);
+		const text = await res.text();
+		console.log(text);
+
+	    try {
+	      const data = await fetchJSON(
+	        `/results/${seriesName}/${year}-results.json`
+	      );
+
+	      renderSchedule(data.schedule);
+
+	    } catch (err) {
+	      console.error(err);
+	      table.innerHTML = '<tr><td>Error loading schedule</td></tr>';
+	    }
+	  }
+
+	  // Load on page load
+	  loadSchedule();
+
+	  // Reload when year changes
+	  if (yearSelect) {
+	    yearSelect.addEventListener('change', function () {
+
+	      const url = new URL(window.location);
+	      url.searchParams.set('year', this.value);
+	      window.history.pushState({}, '', url);
+
+	      loadSchedule();
+	    });
+	  }
+
+	});
+</script>
