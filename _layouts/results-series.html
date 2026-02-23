@@ -22,14 +22,9 @@ layout: default
 <!-- <div class="" style="height:1.5em;">&nbsp;</div> -->
 <div class="event-content article">
 
-<<<<<<< HEAD
 	<h1 id="series-standings">
-		Series standings
-=======
-	<h1 id="race-results">
 		Series standings for 
 		<select id="yearSelect" class="results-select-head"></select>
->>>>>>> 342242b (demo standings-only page; table/list linking to race results in progress)
 	</h1>
 
 	<table id="seriesStandings" class="display" style="width:100%">
@@ -45,11 +40,7 @@ layout: default
 	  <tbody></tbody>
 	</table>
 
-<<<<<<< HEAD
 	<div class="" style="height:1.5em;">&nbsp;</div>
-=======
-	<div class="" style="height:1.5em;">&nbsp;</div> 
->>>>>>> 342242b (demo standings-only page; table/list linking to race results in progress)
 
 	<h1 id="race-results">
 		Race results
@@ -85,15 +76,12 @@ layout: default
 		  const pathParts = window.location.pathname.split('/').filter(Boolean);
 		  const series = pathParts[pathParts.indexOf('results') + 1];
 
-<<<<<<< HEAD
 		  const params = new URLSearchParams(window.location.search);
 		  let currentYear = parseInt(params.get('year'), 10);
-=======
 		  let standingsTable = null;
 		  let resultsTable = null;
 		  let currentYear  = null;
 		  let currentData  = null; // cache of loaded results file
->>>>>>> 342242b (demo standings-only page; table/list linking to race results in progress)
 
 		  let table = null; // DataTables instance
 
@@ -112,7 +100,6 @@ layout: default
 		    return res.json();
 		  }
 
-<<<<<<< HEAD
 		  function initializeTable(data) {
 		    if (table) {
 		      table.clear().destroy();
@@ -137,7 +124,7 @@ layout: default
 				  columnDefs: [
 				    // Tell columns 4 and 5 that they can expand
 				    { targets: [2], width: "20%" },
-=======
+
 		  async function fetchStandings(year) {
 		    const res = await fetch(`/results/${series}/${year}-standings.json`, { cache: "no-store" });
 		    if (!res.ok) throw new Error("Missing standings file");
@@ -177,7 +164,6 @@ layout: default
 			}
 
 		  function initResultsTable(results) {
->>>>>>> 342242b (demo standings-only page; table/list linking to race results in progress)
 
 				    // Tell other columns to fit content only
 				    { targets: [0,1,3,4,5], width: "1%" }
@@ -193,11 +179,9 @@ layout: default
 			  // Clear previous options (important when reloading year)
 			  courseSelect.innerHTML = '<option value="">All</option>';
 
-<<<<<<< HEAD
 			  // Get unique course values from DataTables
 			  const courses = table
 			    .column('course:name') // optional if using column names
-=======
 						    // Convert to total seconds
 						    const totalSeconds =
 						      (d.getUTCHours() * 3600) +
@@ -278,7 +262,6 @@ layout: default
 			  // Get unique gender values from THIS table
 			  const genders = tableInstance
 			    .column('gender:name')
->>>>>>> 342242b (demo standings-only page; table/list linking to race results in progress)
 			    .data()
 			    .unique()
 			    .sort();
@@ -290,7 +273,6 @@ layout: default
 			    courseSelect.appendChild(option);
 			  });
 
-<<<<<<< HEAD
 			  // Filter on change
 			  courseSelect.addEventListener('change', function () {
 			    const value = this.value;
@@ -301,7 +283,6 @@ layout: default
 			      table
 			        .column('course:name')
 			        .search('^' + value + '$', true, false) // exact match
-=======
 			  wrapper.appendChild(select);
 			  container.appendChild(wrapper);
 
@@ -316,7 +297,6 @@ layout: default
 			      tableInstance
 			        .column('gender:name')
 			        .search('^' + value + '$', true, false)
->>>>>>> 342242b (demo standings-only page; table/list linking to race results in progress)
 			        .draw();
 			    }
 			  });
@@ -327,8 +307,6 @@ layout: default
 		    initializeTable(data);
 		  }
 
-<<<<<<< HEAD
-=======
 		  function applyCourseFilter(courseParam) {
 
 			  const validCourses = currentData.courses || [];
@@ -440,7 +418,6 @@ layout: default
 		     Initial Load
 		  ---------------------------------- */
 
->>>>>>> 342242b (demo standings-only page; table/list linking to race results in progress)
 		  try {
 		    const years = await fetchYears();
 

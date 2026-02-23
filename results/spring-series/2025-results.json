@@ -8,6 +8,18 @@
     "Woodland Run",
     "Chester Bowl"
   ],
+  "schedule": [
+    {
+      "course": "Spirit Mountain", 
+      "date": "2026-04-02T05:00:00.000Z",
+      "cancelled": false
+    },
+    {
+      "course": "Billings Drive", 
+      "date": "2026-04-03T05:00:00.000Z",
+      "cancelled": true 
+    }
+  ],
   "results":[
     {
       "name": "Matt Livingston",
