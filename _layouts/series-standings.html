@@ -18,15 +18,15 @@ layout: default-wide
 		<span>
 			Year: <select id="yearSelect" class="results-select-head"></select>
 		</span>
-	</h1>
-	<div class="standings-schedule-box">
-		<ul id="seriesSchedule" class="display" ></ul>
-	</div>
-	<h1 id="gender-standings">
 		<span>
-			Gender category: <select id="genderSelect" class="results-select-head"></select>
+			Gender: <select id="genderSelect" class="results-select-head"></select>
 		</span>
 	</h1>
+	<div class="standings-schedule-box">
+		<strong><span id="scheduleYear"></span> SCHEDULE</strong>
+		<ul id="seriesSchedule" class="display" ></ul>
+	</div>
+	
 
 <!-- 	<h3><span id="scheduleYear"></span> Schedule</h3>
 	<ul id="seriesSchedule" class="display" style="width:600px"></ul> -->
@@ -35,6 +35,9 @@ layout: default-wide
 <div class="table-scroll-wrapper">
 	<table id="seriesStandings" class="display" style="width:100%"></table>
 </div>
+
+<div class="" style="height:1.5em;">Use bottom scrollbar to view more columns.</div>	
+<div class="" style="height:1.5em;">&nbsp;</div>
 
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/4.3.0/css/fixedColumns.dataTables.min.css">
 <script src="https://cdn.datatables.net/fixedcolumns/4.3.0/js/dataTables.fixedColumns.min.js"></script>

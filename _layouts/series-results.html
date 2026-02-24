@@ -2,6 +2,13 @@
 layout: default
 ---
 
+
+<div style="text-align: center; text-transform: uppercase; font-size: 0.8em; font-weight: normal; padding-top: 10px; "> 
+		<span style="background-color: #444444; color: #fdfdfd; padding: 3px 9px;">results</span>
+		<span><a href="/">standings</a> </span>
+</div>
+
+
 {% if page.article-title %}
   <div class="article-title"> {{ page.article-title }}</div>
 {% else %}
@@ -9,455 +16,386 @@ layout: default
 {% endif %}
 
 <div class="article-subtitle"> 
-	<label for="yearSelect">Select year:</label>
-	<select id="yearSelect" style="height:2em;"></select>
 	<div id="errorMessage"></div>
 </div>
 
-<!-- <div class="article-subtitle"> 
-	<label for="courseSelect">Select course:</label>
-	<select id="courseSelect"></select>
-</div> -->
-
-<!-- <div class="" style="height:1.5em;">&nbsp;</div> -->
 <div class="event-content article">
 
-	<h1 id="series-standings">
-		Series standings for 
-		<select id="yearSelect" class="results-select-head"></select>
+	<h1 id="standings-year">
+		<span>
+			Year: <select id="yearSelect" class="results-select-head"></select>
+		</span>
+		<span>
+			Course: <select id="courseSelect" class="results-select-head"></select> 
+		</span>
+		<span>
+			Gender: <select id="genderSelect" class="results-select-head"></select>
+		</span>
 	</h1>
-
-	<table id="seriesStandings" class="display" style="width:100%">
-	  <thead>
-	    <tr>
-	      <th>G</th>
-	      <th>GP</th>
-	      <th>Name</th>
-	      <th>Points</th>
-	      <th>Bonus</th>
-	    </tr>
-	  </thead>
-	  <tbody></tbody>
-	</table>
-
-	<div class="" style="height:1.5em;">&nbsp;</div>
-
-	<h1 id="race-results">
-		Race results
-	</h1>
-
-	<div class="article-subtitle"> 
-		<label for="courseFilter">Select course:</label>
-		<select id="courseFilter" style="height:2em;">
-		  <option value="">All</option>
-		</select>
-	</div>
-
+	
 	<table id="raceResults" class="display" style="width:100%">
 	  <thead>
 	    <tr>
 	      <th>Place</th>
 	      <th>Name</th>
 	      <th>Time</th>
-	      <th>Gender</th>
-	      <th>Gender Place</th>
+	      <th>G</th>
+	      <th>GP</th>
 	      <th>Points</th>
 	    </tr>
 	  </thead>
 	  <tbody></tbody>
 	</table>
 
+	<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css">
+	<script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
+
+	<!-- Required for Excel -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
+	<!-- Required for PDF -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+
 	<script>
-		document.addEventListener('DOMContentLoaded', async () => {
+		document.addEventListener("DOMContentLoaded", async function () {
 
-		  const yearSelect = document.getElementById('yearSelect');
-		  const errorBox = document.getElementById('errorMessage');
+		  const yearSelect   = document.getElementById("yearSelect");
+		  const courseSelect = document.getElementById("courseSelect");
+		  const genderSelect = document.getElementById("genderSelect");
 
-		  const pathParts = window.location.pathname.split('/').filter(Boolean);
-		  const series = pathParts[pathParts.indexOf('results') + 1];
+		  let table;
+		  let series;
 
-		  const params = new URLSearchParams(window.location.search);
-		  let currentYear = parseInt(params.get('year'), 10);
-		  let standingsTable = null;
-		  let resultsTable = null;
-		  let currentYear  = null;
-		  let currentData  = null; // cache of loaded results file
+		  /* ----------------------------------
+		     0. Helpers 
+		  ---------------------------------- */
 
-		  let table = null; // DataTables instance
+		  function formatDuration(isoString) {
+
+			  if (!isoString) return "";
+
+			  const date = new Date(isoString);
+
+			  const totalSeconds =
+			    date.getUTCHours() * 3600 +
+			    date.getUTCMinutes() * 60 +
+			    date.getUTCSeconds();
+
+			  const hours   = Math.floor(totalSeconds / 3600);
+			  const minutes = Math.floor((totalSeconds % 3600) / 60);
+			  const seconds = totalSeconds % 60;
+
+			  if (hours > 0) {
+			    return `${hours}:${String(minutes).padStart(2,"0")}:${String(seconds).padStart(2,"0")}`;
+			  } else {
+			    return `${minutes}:${String(seconds).padStart(2,"0")}`;
+			  }
+			}
+
+			function buildExportMeta() {
+
+			  const year   = currentYear;
+			  const seriesName = series
+			    .replace(/-/g, " ")
+			    .replace(/\b\w/g, l => l.toUpperCase());
+
+			  const filters = [];
+
+			  if (currentCourse && currentCourse !== "All") {
+			    filters.push(currentCourse);
+			  }
+
+			  if (currentGender && currentGender !== "All") {
+			    filters.push(currentGender);
+			  }
+
+			  const title = `${year} ${seriesName}` +
+			    (filters.length ? " – " + filters.join(" – ") : "");
+
+			  const filename = title
+			    .replace(/\s+/g, "-")
+			    .replace(/[^\w\-]/g, "")
+			    .toLowerCase();
+
+			  return { title, filename };
+			}
+
+		  /* ----------------------------------
+		     1. Parse URL
+		  ---------------------------------- */
+
+		  const url = new URL(window.location.href);
+		  const params = url.searchParams;
+
+		  // Get series from path: /results/spring-series/
+		  const pathParts = window.location.pathname.split("/").filter(Boolean);
+		  const resultsIndex = pathParts.indexOf("results");
+		  series = pathParts[resultsIndex + 1];
+
+		  let currentYear   = params.get("year");
+		  let currentCourse = params.get("course") || "All";
+		  let currentGender = params.get("gender") || "All";
+
+		  /* ----------------------------------
+		     2. Load Years
+		  ---------------------------------- */
 
 		  async function fetchYears() {
-		    const res = await fetch(`/results/${series}/years.json`, { cache: "no-store" });
-		    if (!res.ok) throw new Error("Missing years.json");
-		    const years = await res.json();
-		    if (!Array.isArray(years) || years.length === 0)
-		      throw new Error("No years available");
-		    return years.sort((a,b) => b - a);
+		    const res = await fetch(`/results/${series}/years.json`);
+		    return await res.json();
 		  }
 
-		  async function fetchRaceData(year) {
-		    const res = await fetch(`/results/${series}/${year}.json`, { cache: "no-store" });
-		    if (!res.ok) throw new Error(`Missing data for ${year}`);
-		    return res.json();
+		  const years = await fetchYears();
+
+		  // Sort descending
+		  years.sort((a, b) => b - a);
+
+		  // If no year in URL → default to most recent
+		  if (!currentYear || !years.includes(Number(currentYear))) {
+		    currentYear = years[0];
 		  }
 
-		  function initializeTable(data) {
-		    if (table) {
-		      table.clear().destroy();
-		      $('#raceResults tbody').empty(); // Prevent duplication
+		  // Populate dropdown
+		  years.forEach(year => {
+		    const opt = document.createElement("option");
+		    opt.value = year;
+		    opt.textContent = year;
+		    if (String(year) === String(currentYear)) {
+		      opt.selected = true;
 		    }
-
-		    table = $('#raceResults').DataTable({
-		      data,
-		      columns: [
-		      	{ data: 'place', name: 'place', type: 'num' },
-		        { data: 'name' },
-		        { data: 'time' },
-		        { data: 'gender' },
-		        { data: 'gender_place' },
-		        { data: 'points' },
-		        { data: 'course', name: 'course', visible:false } 
-		      ],
-		      pageLength: 10,
-	        order: [[0, 'asc']],
-	        dom: '<"top-controls"lf>rt<"bottom"ip>', // custom wrapper
-		      autoWidth: false, // prevent DataTables from auto-picking padding columns
-				  columnDefs: [
-				    // Tell columns 4 and 5 that they can expand
-				    { targets: [2], width: "20%" },
-
-		  async function fetchStandings(year) {
-		    const res = await fetch(`/results/${series}/${year}-standings.json`, { cache: "no-store" });
-		    if (!res.ok) throw new Error("Missing standings file");
-		    return res.json();
-		  }
+		    yearSelect.appendChild(opt);
+		  });
 
 		  /* ----------------------------------
-		     DataTable Setup
+		     3. Load Results + Build Table
 		  ---------------------------------- */
 
-		  function initStandingsTable(data) {
+		  async function loadResults(year) {
 
-			  if (standingsTable) {
-			    standingsTable.clear();
-			    standingsTable.rows.add(data);
-			    standingsTable.draw();
-			    return;
-			  }
+		    const res = await fetch(`/results/${series}/${year}-results.json`);
+		    let data = await res.json();
 
-			  standingsTable = $('#seriesStandings').DataTable({
-			    data: data,
-			    dom: '<"top-controls"lf>rt<"bottom"ip>',
-			    columns: [
-			      { data: 'Gender', name: 'gender', className: 'dt-body-center' },
-			      { data: 'Place', type: 'num', className: 'dt-body-center' },
-			      { data: 'Name' },
-			      { data: 'Total Points', className: 'dt-body-center' },
-			      { data: 'Bonus', className: 'dt-body-center' }
-			    ],
-			    order: [[1, 'asc']],
-			    // paging: false,        // usually standings don’t need paging
-			    // searching: false,
-			  });
+				if (!Array.isArray(data)) {
+				  data = data.results; // adjust key if different
+				}
 
-			  addGenderFilter(standingsTable, 'seriesStandings');
+		    // Destroy existing table if present
+		    if ($.fn.DataTable.isDataTable("#raceResults")) {
+		      table.destroy();
+		      $("#raceResults tbody").empty();
+		    }
 
-			}
-
-		  function initResultsTable(results) {
-
-				    // Tell other columns to fit content only
-				    { targets: [0,1,3,4,5], width: "1%" }
-				  ]
-		    });
-
-		    setupCourseFilter(table);
-		  }
-
-		  function setupCourseFilter(table) {
-			  const courseSelect = document.getElementById('courseFilter');
-
-			  // Clear previous options (important when reloading year)
-			  courseSelect.innerHTML = '<option value="">All</option>';
-
-			  // Get unique course values from DataTables
-			  const courses = table
-			    .column('course:name') // optional if using column names
-						    // Convert to total seconds
-						    const totalSeconds =
-						      (d.getUTCHours() * 3600) +
-						      (d.getUTCMinutes() * 60) +
-						      d.getUTCSeconds();
-
-						    const hours   = Math.floor(totalSeconds / 3600);
-						    const minutes = Math.floor((totalSeconds % 3600) / 60);
-						    const seconds = totalSeconds % 60;
-
-						    // Sorting should use numeric value
-						    if (type === 'sort' || type === 'type') {
-						      return totalSeconds;
+		    table = $("#raceResults").DataTable({
+		      data: data,
+		      dom: '<"top-controls"lf>rt<"bottom-controls"ipB><"clear">',
+		      pageLength: 100,
+		      columns: [
+		        { data: "place", className: "dt-center" },
+		        { data: "name", className: "dt-left" },
+		        { data: "time",
+						  className: "dt-right",
+						  render: function(data, type) {
+						    if (type === "display") {
+						      return formatDuration(data);
 						    }
-
-						    // Display formatting
-						    if (hours > 0) {
-						      return `${hours}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
-						    } else {
-						      const totalMinutes = Math.floor(totalSeconds / 60);
-						      return `${totalMinutes}:${String(seconds).padStart(2, '0')}`;
-						    }
+						    return data; // keep raw for sorting
 						  }
 						},
-			      { data: 'gender', name: 'gender', className: 'dt-body-center' },
-			      { data: 'gender_place', className: 'dt-body-center' },
-			      { data: 'points', className: 'dt-body-center' },
-			      { data: 'course', name: 'course', visible: false },
-			      { data: 'date', visible: false }
-			    ],
-			    order: [[0, 'asc']],
-			    pageLength: 10,
-			    language: {
-					  info: "Showing _START_ to _END_ of _TOTAL_ results",
-					  infoEmpty: "Showing 0 results",
-					  infoFiltered: ""
-					}
-			  });
+		        { data: "gender", className: "dt-center" },
+		        { data: "gender_place", className: "dt-center" },
+		        { data: "points", className: "dt-center" },
+		        { data: "date", visible: false },
+		        { data: "course", visible: false }
+		      ],
+		      order: [[0, "asc"]],
+		      buttons: [
+					  {
+					    extend: "csvHtml5",
+					    text: "CSV",
+					    title: function() {
+					      return buildExportMeta().title;
+					    },
+					    filename: function() {
+					      return buildExportMeta().filename;
+					    },
+					    exportOptions: {
+					      columns: [0,1,2,3,4,5,7],
+					      modifier: { search: "applied" }
+					    }
+					  },
+					  {
+					    extend: "excelHtml5",
+					    text: "Excel",
+					    title: function() {
+					      return buildExportMeta().title;
+					    },
+					    filename: function() {
+					      return buildExportMeta().filename;
+					    },
+					    exportOptions: {
+					      columns: [0,1,2,3,4,5,7],
+					      modifier: { search: "applied" }
+					    }
+					  },
+					  {
+					    extend: "pdfHtml5",
+					    text: "PDF",
+					    orientation: "landscape",
+					    pageSize: "LETTER",
+					    title: function() {
+					      return buildExportMeta().title;
+					    },
+					    filename: function() {
+					      return buildExportMeta().filename;
+					    },
+					    exportOptions: {
+					      columns: [0,1,2,3,4,5,7],
+					      modifier: { search: "applied" }
+					    }
+					  },
+					  {
+					    extend: "copyHtml5",
+					    text: "Copy",
+					    title: function() {
+					      return buildExportMeta().title;
+					    },
+					    exportOptions: {
+					      columns: [0,1,2,3,4,5,7],
+					      modifier: { search: "applied" }
+					    }
+					  },
+					  {
+					    extend: "print",
+					    text: "Print",
+					    title: function() {
+					      return buildExportMeta().title;
+					    },
+					    exportOptions: {
+					      columns: [0,1,2,3,4,5,7],
+					      modifier: { search: "applied" }
+					    }
+					  }
+					]
+		    });
 
-			  addGenderFilter(resultsTable, 'raceResults'); 
+		    buildCourseFilter(data);
+		    buildGenderFilter(data);
 
-			}
-
-			function addGenderFilter(tableInstance, tableId) {
-
-			  const wrapperId = `${tableId}-genderFilterWrapper`;
-			  const selectId  = `${tableId}-genderFilter`;
-
-			  // Remove existing filter for THIS table only
-			  const existingWrapper = document.getElementById(wrapperId);
-			  if (existingWrapper) existingWrapper.remove();
-
-			  // Target that table’s DataTables top controls
-			  const container = document.querySelector(`#${tableId}_wrapper .top-controls`);
-			  if (!container) return;
-
-			  // Wrapper
-			  const wrapper = document.createElement('div');
-			  wrapper.id = wrapperId;
-			  wrapper.style.display = 'inline-block';
-			  wrapper.style.marginLeft = '1rem';
-
-			  // Label
-			  const label = document.createElement('span');
-			  label.textContent = 'Gender: ';
-			  wrapper.appendChild(label);
-
-			  // Select
-			  const select = document.createElement('select');
-			  select.id = selectId;
-
-			  // Default option
-			  const allOption = document.createElement('option');
-			  allOption.value = '';
-			  allOption.textContent = 'All';
-			  select.appendChild(allOption);
-
-			  // Get unique gender values from THIS table
-			  const genders = tableInstance
-			    .column('gender:name')
-			    .data()
-			    .unique()
-			    .sort();
-
-			  courses.each(function (course) {
-			    const option = document.createElement('option');
-			    option.value = course;
-			    option.textContent = course;
-			    courseSelect.appendChild(option);
-			  });
-
-			  // Filter on change
-			  courseSelect.addEventListener('change', function () {
-			    const value = this.value;
-
-			    if (!value) {
-			      table.column('course:name').search('').draw();
-			    } else {
-			      table
-			        .column('course:name')
-			        .search('^' + value + '$', true, false) // exact match
-			  wrapper.appendChild(select);
-			  container.appendChild(wrapper);
-
-			  // Filter logic
-			  select.addEventListener('change', function () {
-
-			    const value = this.value;
-
-			    if (!value) {
-			      tableInstance.column('gender:name').search('').draw();
-			    } else {
-			      tableInstance
-			        .column('gender:name')
-			        .search('^' + value + '$', true, false)
-			        .draw();
-			    }
-			  });
-			}
-
-		  async function loadYear(year) {
-		    const data = await fetchRaceData(year);
-		    initializeTable(data);
+		    applyFilters();
 		  }
 
-		  function applyCourseFilter(courseParam) {
-
-			  const validCourses = currentData.courses || [];
-			  const latestCourse = currentData.latest_course;
-
-			  let courseToUse = null;
-
-			  // 1. Explicit All in URL → respect it
-			  if (courseParam === 'All') {
-			    courseToUse = 'All';
-			  }
-
-			  // 2. Valid course in URL → use it
-			  else if (courseParam && validCourses.includes(courseParam)) {
-			    courseToUse = courseParam;
-			  }
-
-			  // 3. Fallback to latest_course if valid
-			  else if (latestCourse && validCourses.includes(latestCourse)) {
-			    courseToUse = latestCourse;
-			  }
-
-			  // 4. Absolute fallback → first available course (efficient)
-			  else if (validCourses.length > 0) {
-			    courseToUse = validCourses[0];
-			  }
-
-			  // 5. If no courses at all → show All
-			  else {
-			    courseToUse = 'All';
-			  }
-
-			  courseSelect.value = courseToUse;
-
-			  if (courseToUse === 'All') {
-			    resultsTable.column('course:name').search('').draw();
-			  } else {
-			    resultsTable
-			      .column('course:name')
-			      .search('^' + courseToUse + '$', true, false)
-			      .draw();
-			  }
-
-			  // Sync URL to final resolved value
-			  updateURL(currentYear, courseToUse, false);
-			}
-
 		  /* ----------------------------------
-		     Load Year
+		     4. Build Course Filter
 		  ---------------------------------- */
 
-		  async function loadYear(year, courseParam, push = false) {
+		  function buildCourseFilter(data) {
 
-		    currentYear = year;
-		    yearSelect.value = year;
+		    const uniqueCourses = [...new Set(
+		      data.map(r => r.course).filter(Boolean)
+		    )].sort();
 
-		    const standingsData = await fetchStandings(year);
-		    initStandingsTable(standingsData);
+		    courseSelect.innerHTML = "";
 
-		    currentData = await fetchResults(year);
+		    ["All", ...uniqueCourses].forEach(course => {
+		      const opt = document.createElement("option");
+		      opt.value = course;
+		      opt.textContent = course;
+		      if (course === currentCourse) opt.selected = true;
+		      courseSelect.appendChild(opt);
+		    });
+		  }
 
-		    initResultsTable(currentData.results);
-		    populateCourseDropdown(currentData.courses);
+		  /* ----------------------------------
+		     5. Build Gender Filter
+		  ---------------------------------- */
 
-		    applyCourseFilter(courseParam);
+		  function buildGenderFilter(data) {
 
-		    if (push) {
-		      updateURL(year, courseSelect.value, true);
+		    const uniqueGenders = [...new Set(
+		      data.map(r => r.gender).filter(Boolean)
+		    )].sort();
+
+		    genderSelect.innerHTML = "";
+
+		    ["All", ...uniqueGenders].forEach(gender => {
+		      const opt = document.createElement("option");
+		      opt.value = gender;
+		      opt.textContent = gender;
+		      if (gender === currentGender) opt.selected = true;
+		      genderSelect.appendChild(opt);
+		    });
+		  }
+
+		  /* ----------------------------------
+		     Filtering Logic
+		  ---------------------------------- */
+
+		  function applyFilters() {
+
+		    if (!table) return;
+
+		    // Course filter (column index 7)
+		    if (currentCourse === "All") {
+		      table.column(7).search("");
+		    } else {
+		      table.column(7).search("^" + currentCourse + "$", true, false);
 		    }
+
+		    // Gender filter (column index 3)
+		    if (currentGender === "All") {
+		      table.column(3).search("");
+		    } else {
+		      table.column(3).search("^" + currentGender + "$", true, false);
+		    }
+
+		    table.draw();
+		  }
+
+		  /* ----------------------------------
+		     Update URL (no reload)
+		  ---------------------------------- */
+
+		  function updateURL() {
+		    const newUrl = new URL(window.location);
+
+		    newUrl.searchParams.set("year", currentYear);
+		    newUrl.searchParams.set("course", currentCourse);
+		    newUrl.searchParams.set("gender", currentGender);
+
+		    window.history.replaceState({}, "", newUrl);
 		  }
 
 		  /* ----------------------------------
 		     Event Listeners
 		  ---------------------------------- */
 
-		  yearSelect.addEventListener('change', async function () {
-
-			  const newYear = parseInt(this.value, 10);
-			  if (newYear === currentYear) return;
-
-			  const params = new URLSearchParams(window.location.search);
-			  const currentCourseParam = params.get('course');
-
-			  await loadYear(newYear, currentCourseParam, true);
-			});
-
-		  courseSelect.addEventListener('change', function () {
-
-		    const selectedCourse = this.value;
-
-		    applyCourseFilter(selectedCourse);
-		    updateURL(currentYear, selectedCourse, true);
+		  yearSelect.addEventListener("change", async function () {
+		    currentYear = this.value;
+		    updateURL();
+		    await loadResults(currentYear);
 		  });
 
-		  window.addEventListener('popstate', async () => {
+		  courseSelect.addEventListener("change", function () {
+		    currentCourse = this.value;
+		    updateURL();
+		    applyFilters();
+		  });
 
-		    const params = getParams();
-		    const year   = parseInt(params.get('year'), 10);
-		    const course = params.get('course');
-
-		    if (year !== currentYear) {
-		      await loadYear(year, course, false);
-		    } else {
-		      applyCourseFilter(course);
-		    }
+		  genderSelect.addEventListener("change", function () {
+		    currentGender = this.value;
+		    updateURL();
+		    applyFilters();
 		  });
 
 		  /* ----------------------------------
 		     Initial Load
 		  ---------------------------------- */
 
-		  try {
-		    const years = await fetchYears();
-
-		    // Populate dropdown
-		    years.forEach(year => {
-		      const opt = document.createElement('option');
-		      opt.value = year;
-		      opt.textContent = year;
-		      yearSelect.appendChild(opt);
-		    });
-
-		    // Determine initial year
-		    if (!currentYear || !years.includes(currentYear)) {
-		      currentYear = years[0]; // latest
-		      params.set('year', currentYear);
-		      window.history.replaceState({}, '', '?' + params.toString());
-		    }
-
-		    yearSelect.value = currentYear;
-
-		    // Initial DataTables load
-		    await loadYear(currentYear);
-
-		    // Handle dropdown change
-		    yearSelect.addEventListener('change', async function () {
-		      const selectedYear = parseInt(this.value, 10);
-
-		      if (selectedYear === currentYear) return; // Do nothing
-
-		      currentYear = selectedYear;
-
-		      params.set('year', currentYear);
-		      window.history.pushState({}, '', '?' + params.toString());
-
-		      await loadYear(currentYear);
-		    });
-
-		  } catch (err) {
-		    errorBox.textContent = "Unable to load results.";
-		  }
+		  updateURL();
+		  await loadResults(currentYear);
 
 		});
 	</script>	
