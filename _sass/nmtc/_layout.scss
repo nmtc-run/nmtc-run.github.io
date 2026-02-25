@@ -162,3 +162,28 @@ div.bottom > div.dt-buttons {
   background-color: #f0f0f0;
   padding: 15px 15px 1px 15px;
 }
+
+// menu 
+
+.results-menu-container {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+.results-menu-container span {
+  padding: 3px 9px;
+}
+
+.results-menu-container span.active {
+  background-color: #444444;
+  color: #fdfdfd;
+}
+
+.results-menu-container a,
+.results-menu-container a:visited {
+  text-decoration: none;
+  color: inherit;
+}

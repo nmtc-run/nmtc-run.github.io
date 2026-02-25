@@ -2,6 +2,65 @@
 layout: default-wide
 ---
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+
+  const currentParams = new URLSearchParams(window.location.search);
+  if (!currentParams.toString()) return;
+
+  ['menuResultsLink', 'menuStandingsLink'].forEach(id => {
+
+    const link = document.getElementById(id);
+    if (!link) return;
+
+    const url = new URL(link.href, window.location.origin);
+
+    currentParams.forEach((value, key) => {
+      url.searchParams.set(key, value);
+    });
+
+    link.href = url.pathname + url.search;
+  });
+
+});
+</script>
+
+{%- assign swap = '' -%}
+
+{%- if page.url contains '/results/' -%}
+  {%- assign swap = '/standings' -%}
+{%- elsif page.url contains '/standings/' -%}
+  {%- assign swap = '/results' -%}
+{%- endif -%}
+
+{%- if page.url contains '/spring-series' -%}
+  {%- assign swap = swap | append: '/spring-series' -%}
+{%- elsif page.url contains '/fall-series' -%}
+  {%- assign swap = swap | append: '/fall-series' -%}
+{%- endif -%}
+
+{%- if request.query_string != '' -%}
+  {%- assign swap = swap -%}
+{%- endif -%}
+
+<div class="results-menu-container">
+
+  <span id="menuResults"
+        class="{% if page.url contains '/results/' %}active{% endif %}">
+    <a id="menuResultsLink" href="{{- swap -}}">
+      results
+    </a>
+  </span>
+
+  <span id="menuStandings"
+        class="{% if page.url contains '/standings/' %}active{% endif %}">
+    <a id="menuStandingsLink" href="{{- swap -}}">
+      standings
+    </a>
+  </span>
+
+</div>
+
 {% if page.article-title %}
   <div class="article-title"> {{ page.article-title }}</div>
 {% else %}
@@ -27,9 +86,6 @@ layout: default-wide
 		<ul id="seriesSchedule" class="display" ></ul>
 	</div>
 	
-
-<!-- 	<h3><span id="scheduleYear"></span> Schedule</h3>
-	<ul id="seriesSchedule" class="display" style="width:600px"></ul> -->
 </div>	
 
 <div class="table-scroll-wrapper">
@@ -59,7 +115,7 @@ layout: default-wide
 
 	  function getSeriesName() {
 	    const match = window.location.pathname.match(
-	      /\/results\/standings\/([^\/]+)\/?$/
+	      /\/standings\/([^\/]+)\/?$/
 	    );
 	    return match ? match[1] : null;
 	  }
@@ -72,12 +128,14 @@ layout: default-wide
 	    const url = new URL(window.location);
 	    url.searchParams.set(key, value);
 	    window.history.pushState({}, '', url);
+	    updateMenuLinks();
 	  }
 
 	  function removeQueryParam(key) {
 		  const url = new URL(window.location);
 		  url.searchParams.delete(key);
 		  window.history.pushState({}, '', url);
+		  updateMenuLinks();
 		}
 
 	  async function fetchJSON(url) {
@@ -104,6 +162,29 @@ layout: default-wide
 		  }
 
 		  return title.trim();
+		}
+
+		function updateMenuLinks() {
+
+		  const currentParams = new URLSearchParams(window.location.search);
+
+		  ['menuResultsLink', 'menuStandingsLink'].forEach(id => {
+
+		    const link = document.getElementById(id);
+		    if (!link) return;
+
+		    const url = new URL(link.href, window.location.origin);
+
+		    // Clear existing params
+		    url.search = '';
+
+		    // Apply current params
+		    currentParams.forEach((value, key) => {
+		      url.searchParams.set(key, value);
+		    });
+
+		    link.href = url.pathname + (url.search ? '?' + url.searchParams.toString() : '');
+		  });
 		}
 
 	  // ----------------------------------
@@ -331,51 +412,72 @@ layout: default-wide
 
 	  async function loadTable(year) {
 
-  	  await loadSchedule(year);  
+	  	// Clear previous error message
+		  $("#errorMessage").html("");
 
-	    const seriesName = getSeriesName();
-	    const data = await fetchJSON(
-	      `/results/${seriesName}/${year}-standings.json`
-	    );
+		  try {
 
-	    if (!data.length) {
-	      $(tableId).html('<tr><td>No data available</td></tr>');
-	      return;
-	    }
+	  	  await loadSchedule(year);  
 
-	    // Destroy completely if exists (structure may change)
-	    if ($.fn.DataTable.isDataTable(tableId)) {
-	      standingsTable.destroy();
-	      $(tableId).empty();
-	    }
+		    const seriesName = getSeriesName();
+		    const data = await fetchJSON(
+		      `/results/${seriesName}/${year}-standings.json`
+		    );
 
-	    const printTitle = buildStandingsPrintTitle();
+		    if (!data.length) {
+		      $(tableId).html('<tr><td>No data available</td></tr>');
+		      return;
+		    }
 
-	    standingsTable = $(tableId).DataTable({
-	      data: data,
-	      columns: buildColumns(data),
-	      dom: '<"top-controls"lf>rt<"bottom"ipB>',
-	      buttons: [
-				  {
-				    extend: 'print',
-				    text: 'Print',
-				    title: printTitle,
-				    exportOptions: {
-				      columns: ':visible'
-				    }
+		    // Destroy completely if exists (structure may change)
+		    if ($.fn.DataTable.isDataTable(tableId)) {
+		      standingsTable.destroy();
+		      $(tableId).empty();
+		    }
+
+		    const printTitle = buildStandingsPrintTitle();
+
+		    standingsTable = $(tableId).DataTable({
+		      data: data,
+		      columns: buildColumns(data),
+		      dom: '<"top-controls"lf>rt<"bottom"ipB>',
+		      buttons: [
+					  {
+					    extend: 'print',
+					    text: 'Print',
+					    title: printTitle,
+					    exportOptions: {
+					      columns: ':visible'
+					    }
+					  }
+					],
+		      order: [[1, 'asc']], // assumes Place is second column
+		      scrollX: true,
+				  scrollCollapse: true,
+				  pageLength: 100,
+				  fixedColumns: {
+				    leftColumns: 3
 				  }
-				],
-	      order: [[1, 'asc']], // assumes Place is second column
-	      scrollX: true,
-			  scrollCollapse: true,
-			  pageLength: 100,
-			  fixedColumns: {
-			    leftColumns: 3
-			  }
 
-	    });
+		    });
 
-	    initGenderSelector(data);
+		    initGenderSelector(data);
+		  } catch (err) {
+
+		  	// 🔥 Destroy existing table if it exists
+		    if ($.fn.DataTable.isDataTable("#seriesStandings")) {
+		      $("#seriesStandings").DataTable().clear().destroy();
+		    }
+
+		    $("#seriesStandings").empty();
+
+		    // Display error message
+		    $("#errorMessage").html(
+		      `<p style="color: #cc6f77; font-weight: bold; background-color: #efecec; padding: 5px 0; margin-top: 15px;">
+		        No standings available for ${year}.
+		      </p>`
+		    );
+		  }
 	  }
 
 	  // ----------------------------------

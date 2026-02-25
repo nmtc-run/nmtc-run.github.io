@@ -2,10 +2,63 @@
 layout: default
 ---
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
 
-<div style="text-align: center; text-transform: uppercase; font-size: 0.8em; font-weight: normal; padding-top: 10px; "> 
-		<span style="background-color: #444444; color: #fdfdfd; padding: 3px 9px;">results</span>
-		<span><a href="/">standings</a> </span>
+  const currentParams = new URLSearchParams(window.location.search);
+  if (!currentParams.toString()) return;
+
+  ['menuResultsLink', 'menuStandingsLink'].forEach(id => {
+
+    const link = document.getElementById(id);
+    if (!link) return;
+
+    const url = new URL(link.href, window.location.origin);
+
+    currentParams.forEach((value, key) => {
+      url.searchParams.set(key, value);
+    });
+
+    link.href = url.pathname + url.search;
+  });
+
+});
+</script>
+
+{%- assign swap = '' -%}
+
+{%- if page.url contains '/results/' -%}
+  {%- assign swap = '/standings' -%}
+{%- elsif page.url contains '/standings/' -%}
+  {%- assign swap = '/results' -%}
+{%- endif -%}
+
+{%- if page.url contains '/spring-series' -%}
+  {%- assign swap = swap | append: '/spring-series' -%}
+{%- elsif page.url contains '/fall-series' -%}
+  {%- assign swap = swap | append: '/fall-series' -%}
+{%- endif -%}
+
+{%- if request.query_string != '' -%}
+  {%- assign swap = swap -%}
+{%- endif -%}
+
+<div class="results-menu-container">
+
+  <span id="menuResults"
+        class="{% if page.url contains '/results/' %}active{% endif %}">
+    <a id="menuResultsLink" href="{{- swap -}}">
+      results
+    </a>
+  </span>
+
+  <span id="menuStandings"
+        class="{% if page.url contains '/standings/' %}active{% endif %}">
+    <a id="menuStandingsLink" href="{{- swap -}}">
+      standings
+    </a>
+  </span>
+
 </div>
 
 
@@ -123,6 +176,29 @@ layout: default
 			  return { title, filename };
 			}
 
+			function updateMenuLinks() {
+
+			  const currentParams = new URLSearchParams(window.location.search);
+
+			  ['menuResultsLink', 'menuStandingsLink'].forEach(id => {
+
+			    const link = document.getElementById(id);
+			    if (!link) return;
+
+			    const url = new URL(link.href, window.location.origin);
+
+			    // Clear existing params
+			    url.search = '';
+
+			    // Apply current params
+			    currentParams.forEach((value, key) => {
+			      url.searchParams.set(key, value);
+			    });
+
+			    link.href = url.pathname + (url.search ? '?' + url.searchParams.toString() : '');
+			  });
+			}
+
 		  /* ----------------------------------
 		     1. Parse URL
 		  ---------------------------------- */
@@ -175,159 +251,207 @@ layout: default
 
 		  async function loadResults(year) {
 
-		    const res = await fetch(`/results/${series}/${year}-results.json`);
-		    let data = await res.json();
+		  	// Clear previous error message
+			  $("#errorMessage").html("");
 
-				if (!Array.isArray(data)) {
-				  data = data.results; // adjust key if different
-				}
+			  try {
 
-		    // Destroy existing table if present
-		    if ($.fn.DataTable.isDataTable("#raceResults")) {
-		      table.destroy();
-		      $("#raceResults tbody").empty();
-		    }
+			    const res = await fetch(`/results/${series}/${year}-results.json`);
+			    let data = await res.json();
 
-		    table = $("#raceResults").DataTable({
-		      data: data,
-		      dom: '<"top-controls"lf>rt<"bottom-controls"ipB><"clear">',
-		      pageLength: 100,
-		      columns: [
-		        { data: "place", className: "dt-center" },
-		        { data: "name", className: "dt-left" },
-		        { data: "time",
-						  className: "dt-right",
-						  render: function(data, type) {
-						    if (type === "display") {
-						      return formatDuration(data);
+					if (!Array.isArray(data)) {
+					  data = data.results; // adjust key if different
+					}
+
+			    // Destroy existing table and fully reset structure
+					if ($.fn.DataTable.isDataTable("#raceResults")) {
+					  $("#raceResults").DataTable().clear().destroy();
+					  $("#raceResults").empty();  // ← critical
+					}
+
+					$("#raceResults").html(`
+					  <thead>
+					    <tr>
+					      <th>Place</th>
+					      <th>Name</th>
+					      <th>Time</th>
+					      <th>Gender</th>
+					      <th>Gender Place</th>
+					      <th>Points</th>
+					      <th>Date</th>
+					      <th>Course</th>
+					    </tr>
+					  </thead>
+					`);
+
+			    table = $("#raceResults").DataTable({
+			      data: data,
+			      dom: '<"top-controls"lf>rt<"bottom-controls"ipB><"clear">',
+			      pageLength: 100,
+			      columns: [
+			        { data: "place", className: "dt-center" },
+			        { data: "name", className: "dt-left" },
+			        { data: "time",
+							  className: "dt-right",
+							  render: function(data, type) {
+							    if (type === "display") {
+							      return formatDuration(data);
+							    }
+							    return data; // keep raw for sorting
+							  }
+							},
+			        { data: "gender", className: "dt-center" },
+			        { data: "gender_place", className: "dt-center" },
+			        { data: "points", className: "dt-center" },
+			        { data: "date", visible: false },
+			        { data: "course", visible: false }
+			      ],
+			      order: [[0, "asc"]],
+			      buttons: [
+						  {
+						    extend: "csvHtml5",
+						    text: "CSV",
+						    title: function() {
+						      return buildExportMeta().title;
+						    },
+						    filename: function() {
+						      return buildExportMeta().filename;
+						    },
+						    exportOptions: {
+						      columns: [0,1,2,3,4,5,7],
+						      modifier: { search: "applied" }
 						    }
-						    return data; // keep raw for sorting
+						  },
+						  {
+						    extend: "excelHtml5",
+						    text: "Excel",
+						    title: function() {
+						      return buildExportMeta().title;
+						    },
+						    filename: function() {
+						      return buildExportMeta().filename;
+						    },
+						    exportOptions: {
+						      columns: [0,1,2,3,4,5,7],
+						      modifier: { search: "applied" }
+						    }
+						  },
+						  {
+						    extend: "pdfHtml5",
+						    text: "PDF",
+						    orientation: "landscape",
+						    pageSize: "LETTER",
+						    title: function() {
+						      return buildExportMeta().title;
+						    },
+						    filename: function() {
+						      return buildExportMeta().filename;
+						    },
+						    exportOptions: {
+						      columns: [0,1,2,3,4,5,7],
+						      modifier: { search: "applied" }
+						    }
+						  },
+						  {
+						    extend: "copyHtml5",
+						    text: "Copy",
+						    title: function() {
+						      return buildExportMeta().title;
+						    },
+						    exportOptions: {
+						      columns: [0,1,2,3,4,5,7],
+						      modifier: { search: "applied" }
+						    }
+						  },
+						  {
+						    extend: "print",
+						    text: "Print",
+						    title: function() {
+						      return buildExportMeta().title;
+						    },
+						    exportOptions: {
+						      columns: [0,1,2,3,4,5,7],
+						      modifier: { search: "applied" }
+						    }
 						  }
-						},
-		        { data: "gender", className: "dt-center" },
-		        { data: "gender_place", className: "dt-center" },
-		        { data: "points", className: "dt-center" },
-		        { data: "date", visible: false },
-		        { data: "course", visible: false }
-		      ],
-		      order: [[0, "asc"]],
-		      buttons: [
-					  {
-					    extend: "csvHtml5",
-					    text: "CSV",
-					    title: function() {
-					      return buildExportMeta().title;
-					    },
-					    filename: function() {
-					      return buildExportMeta().filename;
-					    },
-					    exportOptions: {
-					      columns: [0,1,2,3,4,5,7],
-					      modifier: { search: "applied" }
-					    }
-					  },
-					  {
-					    extend: "excelHtml5",
-					    text: "Excel",
-					    title: function() {
-					      return buildExportMeta().title;
-					    },
-					    filename: function() {
-					      return buildExportMeta().filename;
-					    },
-					    exportOptions: {
-					      columns: [0,1,2,3,4,5,7],
-					      modifier: { search: "applied" }
-					    }
-					  },
-					  {
-					    extend: "pdfHtml5",
-					    text: "PDF",
-					    orientation: "landscape",
-					    pageSize: "LETTER",
-					    title: function() {
-					      return buildExportMeta().title;
-					    },
-					    filename: function() {
-					      return buildExportMeta().filename;
-					    },
-					    exportOptions: {
-					      columns: [0,1,2,3,4,5,7],
-					      modifier: { search: "applied" }
-					    }
-					  },
-					  {
-					    extend: "copyHtml5",
-					    text: "Copy",
-					    title: function() {
-					      return buildExportMeta().title;
-					    },
-					    exportOptions: {
-					      columns: [0,1,2,3,4,5,7],
-					      modifier: { search: "applied" }
-					    }
-					  },
-					  {
-					    extend: "print",
-					    text: "Print",
-					    title: function() {
-					      return buildExportMeta().title;
-					    },
-					    exportOptions: {
-					      columns: [0,1,2,3,4,5,7],
-					      modifier: { search: "applied" }
-					    }
-					  }
-					]
-		    });
+						]
+			    });
 
-		    buildCourseFilter(data);
-		    buildGenderFilter(data);
+			    buildCourseFilter(data);
+			    buildGenderFilter(data);
+			    applyFilters();
 
-		    applyFilters();
+		    } catch (err) {
+
+		    	// 🔥 Destroy existing table if it exists
+			    if ($.fn.DataTable.isDataTable("#raceResults")) {
+			      $("#raceResults").DataTable().clear().destroy();
+			    }
+
+			    $("#raceResults").empty();
+
+			    // Display error message
+			    $("#errorMessage").html(
+			      `<p style="color: #cc6f77; font-weight: bold; background-color: #efecec; padding: 5px 0; margin-top: 15px;">
+			        No results available for ${year}.
+			      </p>`
+			    );
+		    }
 		  }
 
 		  /* ----------------------------------
-		     4. Build Course Filter
-		  ---------------------------------- */
+			   4. Build Course Filter (FIXED)
+			---------------------------------- */
 
-		  function buildCourseFilter(data) {
+			function buildCourseFilter(data) {
 
-		    const uniqueCourses = [...new Set(
-		      data.map(r => r.course).filter(Boolean)
-		    )].sort();
+			  const uniqueCourses = [...new Set(
+			    data.map(r => r.course).filter(Boolean)
+			  )].sort();
 
-		    courseSelect.innerHTML = "";
+			  // Validate state
+			  if (!uniqueCourses.includes(currentCourse)) {
+			    currentCourse = "All";
+			  }
 
-		    ["All", ...uniqueCourses].forEach(course => {
-		      const opt = document.createElement("option");
-		      opt.value = course;
-		      opt.textContent = course;
-		      if (course === currentCourse) opt.selected = true;
-		      courseSelect.appendChild(opt);
-		    });
-		  }
+			  // Rebuild dropdown
+			  courseSelect.innerHTML = "";
+
+			  ["All", ...uniqueCourses].forEach(course => {
+			    const opt = document.createElement("option");
+			    opt.value = course;
+			    opt.textContent = course;
+			    if (course === currentCourse) opt.selected = true;
+			    courseSelect.appendChild(opt);
+			  });
+			}
 
 		  /* ----------------------------------
-		     5. Build Gender Filter
-		  ---------------------------------- */
+			   5. Build Gender Filter (FIXED)
+			---------------------------------- */
 
-		  function buildGenderFilter(data) {
+			function buildGenderFilter(data) {
 
-		    const uniqueGenders = [...new Set(
-		      data.map(r => r.gender).filter(Boolean)
-		    )].sort();
+			  const uniqueGenders = [...new Set(
+			    data.map(r => r.gender).filter(Boolean)
+			  )].sort();
 
-		    genderSelect.innerHTML = "";
+			  // Validate state
+			  if (!uniqueGenders.includes(currentGender)) {
+			    currentGender = "All";
+			  }
 
-		    ["All", ...uniqueGenders].forEach(gender => {
-		      const opt = document.createElement("option");
-		      opt.value = gender;
-		      opt.textContent = gender;
-		      if (gender === currentGender) opt.selected = true;
-		      genderSelect.appendChild(opt);
-		    });
-		  }
+			  // Rebuild dropdown
+			  genderSelect.innerHTML = "";
+
+			  ["All", ...uniqueGenders].forEach(gender => {
+			    const opt = document.createElement("option");
+			    opt.value = gender;
+			    opt.textContent = gender;
+			    if (gender === currentGender) opt.selected = true;
+			    genderSelect.appendChild(opt);
+			  });
+			}
 
 		  /* ----------------------------------
 		     Filtering Logic
@@ -335,24 +459,27 @@ layout: default
 
 		  function applyFilters() {
 
-		    if (!table) return;
+			  if (!table) return;
 
-		    // Course filter (column index 7)
-		    if (currentCourse === "All") {
-		      table.column(7).search("");
-		    } else {
-		      table.column(7).search("^" + currentCourse + "$", true, false);
-		    }
+			  // Course filter (column index 7)
+			  if (currentCourse === "All") {
+			    table.column(7).search("");
+			  } else {
+			    table.column(7).search("^" + currentCourse + "$", true, false);
+			  }
 
-		    // Gender filter (column index 3)
-		    if (currentGender === "All") {
-		      table.column(3).search("");
-		    } else {
-		      table.column(3).search("^" + currentGender + "$", true, false);
-		    }
+			  // Gender filter (column index 3)
+			  if (currentGender === "All") {
+			    table.column(3).search("");
+			  } else {
+			    table.column(3).search("^" + currentGender + "$", true, false);
+			  }
 
-		    table.draw();
-		  }
+			  table.draw();
+
+			  // 🔗 Sync URL HERE (only here)
+			  updateURL();
+			}
 
 		  /* ----------------------------------
 		     Update URL (no reload)
@@ -366,6 +493,7 @@ layout: default
 		    newUrl.searchParams.set("gender", currentGender);
 
 		    window.history.replaceState({}, "", newUrl);
+		    updateMenuLinks();
 		  }
 
 		  /* ----------------------------------
@@ -379,16 +507,14 @@ layout: default
 		  });
 
 		  courseSelect.addEventListener("change", function () {
-		    currentCourse = this.value;
-		    updateURL();
-		    applyFilters();
-		  });
+			  currentCourse = this.value;
+			  applyFilters();
+			});
 
-		  genderSelect.addEventListener("change", function () {
-		    currentGender = this.value;
-		    updateURL();
-		    applyFilters();
-		  });
+			genderSelect.addEventListener("change", function () {
+			  currentGender = this.value;
+			  applyFilters();
+			});
 
 		  /* ----------------------------------
 		     Initial Load
