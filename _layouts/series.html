@@ -203,11 +203,21 @@ layout: default
               {% endif %}
             {% endfor %}
           {% endif %}
-          <div class="series-results {{ hide_results }}">
+          <!-- <div class="series-results {{ hide_results }}">
             <div><strong>Results: </strong>
               {% for edition in station.results %}
                 {%- if edition.url -%}<a href="{{ edition.url }}" target="_blank" style="padding-right: 0.25em">{{ edition.year }}</a>{%- endif -%}
               {% endfor %}
+            </div>
+          </div> -->
+          {%- assign seriesPath = page.url -%}
+
+          <div class="series-results {{ hide_results }}">
+            <div><strong>Results: </strong>
+              <a href="/results{{ seriesPath }}?&course={{ station.name }}&gender=X" target="_blank" style="padding-right: 0.25em">Nonbinary</a>
+              <a href="/results{{ seriesPath }}?&course={{ station.name }}&gender=W" target="_blank" style="padding-right: 0.25em">Women</a>
+              <a href="/results{{ seriesPath }}?&course={{ station.name }}&gender=M" target="_blank" style="padding-right: 0.25em">Men</a>
+              <a href="/results{{ seriesPath }}?&course={{ station.name }}" target="_blank" style="padding-right: 0.25em">All</a>
             </div>
           </div>
 

@@ -366,14 +366,46 @@ layout: default
 				//   .filter(Boolean);
 
 			  // Validate state
-			  if (!uniqueCourses.includes(currentCourse)) {
+			  // if (!uniqueCourses.includes(currentCourse)) {
 
-				  // default to most recent non-cancelled race
-				  if (uniqueCourses.length) {
-				    currentCourse = uniqueCourses[uniqueCourses.length - 1];
+				//   // default to most recent non-cancelled race
+				//   if (uniqueCourses.length) {
+				//     currentCourse = uniqueCourses[uniqueCourses.length - 1];
+				//   } else {
+				//     currentCourse = "All";
+				//   }
+				// }
+
+				const requestedCourse = currentCourse;
+
+				if (!uniqueCourses.includes(currentCourse)) {
+
+				  // Only show error if course came from URL and isn't valid
+				  if (params.has("course") && requestedCourse !== "All") {
+
+				    const fallbackCourse = uniqueCourses.length
+				      ? uniqueCourses[uniqueCourses.length - 1]
+				      : "All";
+
+				    $("#errorMessage").html(
+				      `<p style="color:#cc6f77;font-weight:bold;background:#efecec;padding:5px 0;margin-top:15px;">
+				        No results available for ${currentYear} ${requestedCourse}.
+				        Showing latest results.
+				      </p>`
+				    );
+
+				    currentCourse = fallbackCourse;
+
 				  } else {
-				    currentCourse = "All";
+
+				    currentCourse = uniqueCourses.length
+				      ? uniqueCourses[uniqueCourses.length - 1]
+				      : "All";
 				  }
+
+				} else {
+				  // Clear previous error if valid
+				  $("#errorMessage").html("");
 				}
 
 			  // Rebuild dropdown
