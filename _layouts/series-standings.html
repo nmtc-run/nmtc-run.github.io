@@ -2,64 +2,7 @@
 layout: default-wide
 ---
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-
-  const currentParams = new URLSearchParams(window.location.search);
-  if (!currentParams.toString()) return;
-
-  ['menuResultsLink', 'menuStandingsLink'].forEach(id => {
-
-    const link = document.getElementById(id);
-    if (!link) return;
-
-    const url = new URL(link.href, window.location.origin);
-
-    currentParams.forEach((value, key) => {
-      url.searchParams.set(key, value);
-    });
-
-    link.href = url.pathname + url.search;
-  });
-
-});
-</script>
-
-{%- assign swap = '' -%}
-
-{%- if page.url contains '/results/' -%}
-  {%- assign swap = '/standings' -%}
-{%- elsif page.url contains '/standings/' -%}
-  {%- assign swap = '/results' -%}
-{%- endif -%}
-
-{%- if page.url contains '/spring-series' -%}
-  {%- assign swap = swap | append: '/spring-series' -%}
-{%- elsif page.url contains '/fall-series' -%}
-  {%- assign swap = swap | append: '/fall-series' -%}
-{%- endif -%}
-
-{%- if request.query_string != '' -%}
-  {%- assign swap = swap -%}
-{%- endif -%}
-
-<div class="results-menu-container">
-
-  <span id="menuResults"
-        class="{% if page.url contains '/results/' %}active{% endif %}">
-    <a id="menuResultsLink" href="{{- swap -}}">
-      results
-    </a>
-  </span>
-
-  <span id="menuStandings"
-        class="{% if page.url contains '/standings/' %}active{% endif %}">
-    <a id="menuStandingsLink" href="{{- swap -}}">
-      standings
-    </a>
-  </span>
-
-</div>
+{% include results-menu.html %}
 
 {% if page.article-title %}
   <div class="article-title"> {{ page.article-title }}</div>
@@ -67,11 +10,16 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="article-title"> {{ page.title }}</div>
 {% endif %}
 
-<div class="article-subtitle"> 
+<!-- <div class="article-subtitle"> 
 	<div id="errorMessage"></div>
-</div>
+</div> -->
 
 <div class="event-content article">
+
+	{% include results-seriesSchedule.html %}
+	<div class="article-subtitle"> 
+		<div class="" id="errorMessage"></div>
+	</div>
 
 	<h1 id="standings-year">
 		<span>
@@ -81,15 +29,11 @@ document.addEventListener('DOMContentLoaded', function () {
 			Gender: <select id="genderSelect" class="results-select-head"></select>
 		</span>
 	</h1>
-	<div class="standings-schedule-box">
-		<strong><span id="scheduleYear"></span> SCHEDULE</strong>
-		<ul id="seriesSchedule" class="display" ></ul>
-	</div>
 	
 </div>	
 
-<div class="table-scroll-wrapper">
-	<table id="seriesStandings" class="display" style="width:100%"></table>
+<div class="table-scroll-wrapper" style="max-width: 1000px; margin: 0 auto;">
+	<table id="seriesStandings" class="display" style="width:100%; max-width: 1000px; padding-top: 0;"></table>
 </div>
 
 <div class="" style="height:1.5em;">Use bottom scrollbar to view more columns.</div>	
@@ -114,11 +58,11 @@ document.addEventListener('DOMContentLoaded', function () {
 	  // ----------------------------------
 
 	  function getSeriesName() {
-	    const match = window.location.pathname.match(
-	      /\/standings\/([^\/]+)\/?$/
-	    );
-	    return match ? match[1] : null;
-	  }
+		  const match = window.location.pathname.match(
+		    /^\/(?:results|standings)\/([^\/]+)\/?$/
+		  );
+		  return match ? match[1] : null;
+		}
 
 	  function getQueryParam(param) {
 	    return new URLSearchParams(window.location.search).get(param);
@@ -364,52 +308,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		  });
 		}
 
-		async function loadSchedule(year) {
-
-		  const seriesName = getSeriesName();
-		  const ul = document.getElementById('seriesSchedule');
-		  if (!ul) return; // safe if ul not on this page
-
-		  const data = await fetchJSON(
-		    `/results/${seriesName}/${year}-results.json`
-		  );
-
-		  const schedule = data.schedule || [];
-
-		  ul.innerHTML = '';
-
-		  schedule.forEach(item => {
-
-		    const li = document.createElement('li');
-
-		    const date = new Date(item.date);
-
-				const parts = new Intl.DateTimeFormat('en-GB', { 
-				  weekday: 'short', 
-				  day: 'numeric', 
-				  month: 'short', 
-				  year: 'numeric' 
-				}).formatToParts(date);
-
-				const formattedDate = `${parts.find(p => p.type==='weekday').value} ` +
-				                      `${parts.find(p => p.type==='day').value} ` +
-				                      `${parts.find(p => p.type==='month').value} ` +
-				                      `${parts.find(p => p.type==='year').value}`;
-
-		    if (item.cancelled) {
-		      li.innerHTML =
-		        `<strong>${item.course}:</strong> ${formattedDate} (cancelled)`;
-		    } else {
-		      li.innerHTML =
-		        `<strong>${item.course}:</strong> ${formattedDate} ` +
-		        `(<a href="/results/${seriesName}?course=${encodeURIComponent(item.course)}&year=${year}">results</a>)`;
-		    }
-
-		    ul.appendChild(li);
-		  });
-
-		}
-
 	  async function loadTable(year) {
 
 	  	// Clear previous error message
@@ -464,8 +362,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		    initGenderSelector(data);
 		  } catch (err) {
 
-		  	// 🔥 Destroy existing table if it exists
-		    if ($.fn.DataTable.isDataTable("#seriesStandings")) {
+		  	if ($.fn.DataTable.isDataTable("#seriesStandings")) {
 		      $("#seriesStandings").DataTable().clear().destroy();
 		    }
 
@@ -477,6 +374,13 @@ document.addEventListener('DOMContentLoaded', function () {
 		        No standings available for ${year}.
 		      </p>`
 		    );
+		    
+		    console.error("Schedule load failed:", err);
+
+		    const scheduleList = document.getElementById("seriesSchedule");
+			  if (scheduleList) {
+			    scheduleList.innerHTML = "";
+			  }
 		  }
 	  }
 

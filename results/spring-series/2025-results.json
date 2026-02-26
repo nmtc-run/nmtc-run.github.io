@@ -1,13 +1,5 @@
 {
-  "latest_race":"Chester Bowl",
-  "courses": [
-    "Bear Creek",
-    "Point Pine",
-    "Spirit Mountain",
-    "Billings Drive",
-    "Woodland Run",
-    "Chester Bowl"
-  ],
+  "latestCourse":"Chester Bowl",
   "schedule": [
     {
       "course": "Spirit Mountain", 

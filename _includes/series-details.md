@@ -36,7 +36,7 @@ NMTC requires all runners to complete a waiver once per year. Waiver forms are p
 
 **Trail markings:** Follow the hot orange pin flags with “NMTC” on them. If you don’t see one after 0.1 miles or so, you are off course! Turns are marked with a series of pin flags a few feet apart on the side to which you’ll be turning—for example, a right-hand turn marked with three pin flags on the runner's right hand side. For more, see [course marking](/course-marking).
 
-**Runner safety:** Unlike the [Curnow Marathon](/curnow) and [Voyageur 50](/voyageur), most {{ springFall }} Series races avoid road crossings (one counterexample: runners share driving lanes with neighborhood auto traffic during a brief portion of Spirit Mountain, our Spring road race). As always, many of our race courses feature rugged woodland singletrack with roots, rocks, and other potential hazards. Watch footing on the bridges; they can be slippery, especially when wet, and some may have boards missing.
+**Runner safety:** Series races are designed to avoid road crossings (one counterexample: runners share driving lanes with neighborhood auto traffic during a brief portion of Spirit Mountain, our Spring road race). As always, many of our race courses feature rugged woodland singletrack with roots, rocks, and other potential hazards. Watch footing on the bridges; they can be slippery, especially when wet, and some may have boards missing. 
 
 **Rainout/cancellation policy:** Check the [NMTC Facebook page](https://www.facebook.com/runnmtc/){:target="_blank"} for the latest information. If we cancel a race, we announce the cancellation on Facebook by noon on race day. 
 

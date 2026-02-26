@@ -2,65 +2,7 @@
 layout: default
 ---
 
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-
-  const currentParams = new URLSearchParams(window.location.search);
-  if (!currentParams.toString()) return;
-
-  ['menuResultsLink', 'menuStandingsLink'].forEach(id => {
-
-    const link = document.getElementById(id);
-    if (!link) return;
-
-    const url = new URL(link.href, window.location.origin);
-
-    currentParams.forEach((value, key) => {
-      url.searchParams.set(key, value);
-    });
-
-    link.href = url.pathname + url.search;
-  });
-
-});
-</script>
-
-{%- assign swap = '' -%}
-
-{%- if page.url contains '/results/' -%}
-  {%- assign swap = '/standings' -%}
-{%- elsif page.url contains '/standings/' -%}
-  {%- assign swap = '/results' -%}
-{%- endif -%}
-
-{%- if page.url contains '/spring-series' -%}
-  {%- assign swap = swap | append: '/spring-series' -%}
-{%- elsif page.url contains '/fall-series' -%}
-  {%- assign swap = swap | append: '/fall-series' -%}
-{%- endif -%}
-
-{%- if request.query_string != '' -%}
-  {%- assign swap = swap -%}
-{%- endif -%}
-
-<div class="results-menu-container">
-
-  <span id="menuResults"
-        class="{% if page.url contains '/results/' %}active{% endif %}">
-    <a id="menuResultsLink" href="{{- swap -}}">
-      results
-    </a>
-  </span>
-
-  <span id="menuStandings"
-        class="{% if page.url contains '/standings/' %}active{% endif %}">
-    <a id="menuStandingsLink" href="{{- swap -}}">
-      standings
-    </a>
-  </span>
-
-</div>
-
+{% include results-menu.html %}
 
 {% if page.article-title %}
   <div class="article-title"> {{ page.article-title }}</div>
@@ -68,11 +10,12 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="article-title"> {{ page.title }}</div>
 {% endif %}
 
-<div class="article-subtitle"> 
-	<div id="errorMessage"></div>
-</div>
-
 <div class="event-content article">
+
+	{% include results-seriesSchedule.html %}
+	<div class="article-subtitle"> 
+		<div class="" id="errorMessage"></div>
+	</div>
 
 	<h1 id="standings-year">
 		<span>
@@ -257,11 +200,15 @@ document.addEventListener('DOMContentLoaded', function () {
 			  try {
 
 			    const res = await fetch(`/results/${series}/${year}-results.json`);
-			    let data = await res.json();
+			    let json = await res.json();
 
-					if (!Array.isArray(data)) {
-					  data = data.results; // adjust key if different
-					}
+					let data = Array.isArray(json) ? json : json.results;
+					let latestCourse = json.latestCourse;
+
+					// // If course not explicitly set in URL, default to latestCourse
+					// if (!params.has("course") && latestCourse) {
+					//   currentCourse = latestCourse;
+					// }
 
 			    // Destroy existing table and fully reset structure
 					if ($.fn.DataTable.isDataTable("#raceResults")) {
@@ -377,7 +324,7 @@ document.addEventListener('DOMContentLoaded', function () {
 						]
 			    });
 
-			    buildCourseFilter(data);
+			    buildCourseFilter(data, json.schedule);
 			    buildGenderFilter(data);
 			    applyFilters();
 
@@ -403,16 +350,31 @@ document.addEventListener('DOMContentLoaded', function () {
 			   4. Build Course Filter (FIXED)
 			---------------------------------- */
 
-			function buildCourseFilter(data) {
+			function buildCourseFilter(data, schedule) {
 
+				// comment this out if you want to work from the schedule data instead 
 			  const uniqueCourses = [...new Set(
 			    data.map(r => r.course).filter(Boolean)
-			  )].sort();
+			  )];
+
+			  // uncomment this section if you want to work from the schedule data
+			  // const uniqueCourses = schedule
+				//   .slice()
+				//   .sort((a, b) => new Date(a.date) - new Date(b.date))
+				//   .filter(item => !item.cancelled)
+				//   .map(item => item.course)
+				//   .filter(Boolean);
 
 			  // Validate state
 			  if (!uniqueCourses.includes(currentCourse)) {
-			    currentCourse = "All";
-			  }
+
+				  // default to most recent non-cancelled race
+				  if (uniqueCourses.length) {
+				    currentCourse = uniqueCourses[uniqueCourses.length - 1];
+				  } else {
+				    currentCourse = "All";
+				  }
+				}
 
 			  // Rebuild dropdown
 			  courseSelect.innerHTML = "";
