@@ -20,7 +20,7 @@ async function loadSchedule(year) {
   document.getElementById("scheduleYear").textContent = year;
 
   try {
-    const res = await fetch(`/results/${seriesName}/${year}-results.json`);
+    const res = await fetch(`/results/${seriesName}/${year}.json`);
     if (!res.ok) return;
 
     const data = await res.json();
@@ -49,6 +49,9 @@ async function loadSchedule(year) {
       if (item.cancelled) {
         li.innerHTML =
           `<strong>${item.course}:</strong> ${formattedDate} (cancelled)`;
+      } else if (!item.published) {
+        li.innerHTML =
+          `<strong>${item.course}:</strong> ${formattedDate}`;
       } else {
         li.innerHTML =
           `<strong>${item.course}:</strong> ${formattedDate} ` +
@@ -57,6 +60,19 @@ async function loadSchedule(year) {
 
       ul.appendChild(li);
     });
+
+    const standingsLi = document.createElement('li');
+    const seriesPath = "/spring-series"; 
+    const seriesYear = "2026"; 
+    standingsLi.innerHTML = 
+      `<strong>Overall standings:</strong> 
+      <a href="/standings${seriesPath}?gender=X&year=${seriesYear}" style="padding-right: 0.25em;">Nonbinary</a>
+      <a href="/standings${seriesPath}?gender=W&year=${seriesYear}" style="padding-right: 0.25em;">Women</a>
+      <a href="/standings${seriesPath}?gender=M&year=${seriesYear}" style="padding-right: 0.25em;">Men</a>
+      <a href="/standings${seriesPath}?gender=All&year=${seriesYear}" style="padding-right: 0.25em;">All</a>
+      `; 
+
+    ul.appendChild(standingsLi); 
 
   } catch (err) {
     console.error("Schedule load failed:", err);

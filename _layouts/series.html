@@ -47,7 +47,7 @@ layout: default
 </div>
 
 <div class="event-content">
-  <h1 id="schedule-and-race-results">Schedule and race results</h1>
+  <h1 id="schedule-and-race-results">Schedule</h1>
 </div>
 
 <!-- <div class="map-container">
@@ -244,16 +244,26 @@ layout: default
 <div class="event-content">
   <p><span class="nb" style="font-weight:bold;">¡ NOTE !</span> Routes and distances displayed above reflect typical courses, which change based on trail conditions and the whims of the race directors. Runners don't find out the exact route until the prerace briefing — all part of the fun.</p>
   <h1 id="overall-standings">Race results and series standings</h1>
-  <p>Current and historical results and standings:</p>
+  <p>We often post results the same day as the race and alert runners via the <a href="https://www.facebook.com/295987053807192" target="_blank">NMTC Facebook page</a>. We provide all results, and you can filter them by gender category (X=nonbinary, W=women, M=men). Historical data is also accessible here.</p>
 </div>
 
 <div class="container" style="display:flex;padding-bottom:1em;">
-  <a href="/results{{ page.permalink }}" style="margin: 0 auto;" target="blank">
-    <div class="button">Results</div>
-  </a>
-  <a href="/standings{{ page.permalink }}" style="margin: 0 auto;" target="blank">
-    <div class="button">Standings</div>
-  </a>
+  <div style="margin: 0 auto;">
+    <a href="/results{{ seriesPath }}?gender=All">
+      <div class="button">Latest results</div><br>
+    </a>
+    <a href="/results{{ seriesPath }}?gender=X">X</a> • 
+    <a href="/results{{ seriesPath }}?gender=W">W</a> •
+    <a href="/results{{ seriesPath }}?gender=M">M</a>
+  </div>
+  <div style="margin: 0 auto;">
+    <a href="/standings{{ seriesPath }}?gender=All">
+      <div class="button">Current standings</div><br>
+    </a>
+    <a href="/standings{{ seriesPath }}?gender=X">X</a> • 
+    <a href="/standings{{ seriesPath }}?gender=W">W</a> •
+    <a href="/standings{{ seriesPath }}?gender=M">M</a>
+  </div>
 </div>
 
 <script type="text/javascript">
