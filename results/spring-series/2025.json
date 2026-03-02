@@ -138,6 +138,18 @@
     {
       "Place": 1,
       "Gender": "M",
+      "Name": "Mark Grindy",
+      "Total Points": 473,
+      "Bonus": 25,
+      "Bear Creek": 149,
+      "Point Pine": 0,
+      "Spirit Mountain": "[148]",
+      "Woodland Run": 149,
+      "Chester Bowl": 150
+    },
+    {
+      "Place": 2,
+      "Gender": "M",
       "Name": "Lane Johnson",
       "Total Points": 619,
       "Bonus": 25,
@@ -148,7 +160,7 @@
       "Chester Bowl": "[147]"
     },
     {
-      "Place": 2,
+      "Place": 3,
       "Gender": "M",
       "Name": "Marcus Taintor",
       "Total Points": 619,
@@ -160,7 +172,7 @@
       "Chester Bowl": 150
     },
     {
-      "Place": 3,
+      "Place": 4,
       "Gender": "M",
       "Name": "Ron Hendrickson",
       "Total Points": 618,
@@ -172,7 +184,7 @@
       "Chester Bowl": 147
     },
     {
-      "Place": 4,
+      "Place": 5,
       "Gender": "M",
       "Name": "Matt Livingston",
       "Total Points": 616,
@@ -184,7 +196,7 @@
       "Chester Bowl": 146
     },
     {
-      "Place": 5,
+      "Place": 6,
       "Gender": "M",
       "Name": "Nate Hubert",
       "Total Points": 616,
@@ -196,7 +208,7 @@
       "Chester Bowl": 148
     },
     {
-      "Place": 6,
+      "Place": 7,
       "Gender": "M",
       "Name": "Jarrow Wahman",
       "Total Points": 607,
@@ -208,31 +220,7 @@
       "Chester Bowl": 144
     },
     {
-      "Place": 7,
-      "Gender": "M",
-      "Name": "Mark Grindy",
-      "Total Points": 596,
-      "Bonus": 0,
-      "Bear Creek": 149,
-      "Point Pine": 0,
-      "Spirit Mountain": 148,
-      "Woodland Run": 149,
-      "Chester Bowl": 150
-    },
-    {
       "Place": 8,
-      "Gender": "M",
-      "Name": "John Fox",
-      "Total Points": 0,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Point Pine": 0,
-      "Spirit Mountain": 0,
-      "Woodland Run": 0,
-      "Chester Bowl": 0
-    },
-    {
-      "Place": 9,
       "Gender": "M",
       "Name": "John Doe",
       "Total Points": 145,
@@ -1146,7 +1134,7 @@
       "points": 144
     },
     {
-      "name": "John Fox",
+      "name": "Mark Grindy",
       "gender": "M",
       "date": "2025-05-14T05:00:00.000Z",
       "series": "Spring Series",
