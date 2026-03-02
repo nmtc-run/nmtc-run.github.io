@@ -949,9 +949,9 @@
       "course": "Spirit Mountain",
       "volunteer": "",
       "time": 0,
-      "place": 1,
-      "gender_place": 1,
-      "points": 150
+      "place": "Vol-X",
+      "gender_place": 2,
+      "points": 149
     }
   ]
 }
