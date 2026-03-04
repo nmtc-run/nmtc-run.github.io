@@ -1,5 +1,5 @@
 - name: Bear Creek
-  date: 2025-04-30 # use format: YYYY-MM-DD
+  date: 2026-04-29 # use format: YYYY-MM-DD
   time: "6:00 PM"
   dist: 7.3
   sunset: "8:20 PM"
@@ -17,8 +17,49 @@
       url: https://drive.google.com/file/d/1TKcEWHHoOY8hLYePvkb3a3j7D_cMeWl3/view?usp=drive_link
   description: Bear Creek (Makwa Ziibiins) is a non-technical out-and-back course that connects the paved Osaugie Trail at Bear Creek Park to Wisconsin Point Road. The trail surface is raised and packed gravel path (well-drained) that winds and dips through young aspen, balsam poplar, and birch forest. There are an impressive 34 numbered bridges or boardwalks that you can use to track your progress on the course.  Midway there is an overlook that provides a view west over the outer St. Louis River estuary and Superior port. This is a fast, non-technical course and perfect Spring Series opener.
 
+- name: Waabizheshikana
+  date: 2026-05-06 # use format: YYYY-MM-DD
+  time: "6:00 PM"
+  dist: 6.5
+  sunset: "8:38 PM"
+  time-to-dark: "2:38"
+  min-pace: "36:20"
+  start-address: Blackmer Park 8301 Beverly St, Duluth, MN 55808
+  start-gps:  46.69285, -92.20562 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  map-color: rgb(121,85,72)
+  results:
+    - year: 2025
+      url: /
+    - year: 2026
+      url: 
+    - year: 2027
+      url: 
+  parking: Blackmer Park 8301 Beverly St, Duluth, MN 55808
+  description: Waabizheshikana takes runners along the western waterfront of the St. Louis River estuary. The loopy out-and-back course starts and finishes at Blackmer Park. Racers head south on the mostly crushed stone path, u-turn, and run with water to the left and right toward the end of a narrow spit before looping back to the start. 
+
+- name: Spirit Mountain
+  date: 2026-05-10 # use format: YYYY-MM-DD
+  time: "10:00 AM"
+  dist: 16
+  sunset:
+  time-to-dark:
+  min-pace:
+  start-address: 8551 Grand Ave, Duluth, MN 55808
+  start-gps: 46.71529, -92.2055 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  map-color: rgb(2,136,209)
+  results:
+    - year: 2023
+      url: /results/SpringSeries/2023/Spirit-Mountain.pdf
+    - year: 2024
+      url: /results/SpringSeries/2024/Spirit-Mountain.pdf
+    - year: 2025
+      url: https://drive.google.com/file/d/1vJ4vLv2OjkbZhkNDMJhRt52nITAu0pVQ/view?usp=drive_link
+  parking: New in 2026, park near the Grand Ave Chalet 8551 Grand Ave, Duluth, MN 55808. To reach the start line, hike 500 m uphill to the cat track; turn left and jog 250 m to the start line; you are now warmed up and ready to race. 
+  description: Spirit Mountain (Manidoo Wajiw) is a point-to-point road and rails-to-trails run. The 2026 edition introduced a new course, which follows the westernmost section of Skyline Parkway (gravel and asphalt) and returns on the DWP (gravel), finishing near Grand Ave Chalet. 
+  # description: Spirit Mountain 10 Mile (Manidoo Wajiw) is an out-and-back road run that largely follows the western most section of Skyline Parkway from beneath the upper Spirit Mountain Chalet to Becks Road. The parkway surface is mostly gravel but also has short sections of new and crumbling asphalt. The near middle of the route offers a sweeping view of the St. Louis River estuary and Morgan Park neighborhood from the Bardon’s Peak overlook. This is also the course’s subtle high point. Make sure to save energy for the gradual ascent back to here from the Becks Road turnaround! The parkway is open to vehicle traffic this time of year. Please be mindful on blind turns.
+
 - name: Point Pine
-  date: 2025-05-07 # use format: YYYY-MM-DD
+  date: 2026-05-13 # use format: YYYY-MM-DD
   time: "6:00 PM"
   dist: 6.5
   sunset: "8:38 PM"
@@ -36,48 +77,27 @@
       url: https://drive.google.com/file/d/15uv2gUm3E0skf68dbrXIAX6aBClC0Mut/view?usp=drive_link
   description: Point Pine (Neyaashi) is a lollipop course with a long out-and-back section that passes through Pine Point Scientific Natural Area, a remnant of old-growth coastal red and white pine forest. The route offers beautiful views of the outer St. Louis River estuary and Lake Superior. The trail is mostly flat and well drained with a mix of packed gravel, packed earth and short sections with loose sand. The outermost loop portion of the course passes by the brick ruins of the Minnesota Point Light, a navigational aid constructed in 1858. It is the oldest brick structure in Duluth. This is a fast, non-technical course but get ready for some sand in your shoes.
 
-- name: Spirit Mountain
-  date: 2025-05-11 # use format: YYYY-MM-DD
-  time: "10:00 AM"
-  dist: 16
-  sunset:
-  time-to-dark:
-  min-pace:
-  start-address: 9525 W Skyline Pkwy, Duluth, MN 55810
-  start-gps: 46.714998, -92.214831 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  map-color: rgb(2,136,209)
-  results:
-    - year: 2023
-      url: /results/SpringSeries/2023/Spirit-Mountain.pdf
-    - year: 2024
-      url: /results/SpringSeries/2024/Spirit-Mountain.pdf
-    - year: 2025
-      url: https://drive.google.com/file/d/1vJ4vLv2OjkbZhkNDMJhRt52nITAu0pVQ/view?usp=drive_link
-  parking: Park in the upper Spirit Mountain Parking lot, then walk down the hill in front of the chalet and go right on the service road.
-  description: Spirit Mountain 10 Mile (Manidoo Wajiw) is an out-and-back road run. *The 2025 edition follows a temporary reroute due to road construction on the original race course.* The race starts at the same location as the original course, exits Spirit Mountain and follows Skyline Parkway to the Clyde Connector. After a winding descent on the dirt/gravel Connector, runners turn right on the DWP gravel trail and follow it until the 5 mi turnaround point just short of Beck's Rd.
-  # description: Spirit Mountain 10 Mile (Manidoo Wajiw) is an out-and-back road run that largely follows the western most section of Skyline Parkway from beneath the upper Spirit Mountain Chalet to Becks Road. The parkway surface is mostly gravel but also has short sections of new and crumbling asphalt. The near middle of the route offers a sweeping view of the St. Louis River estuary and Morgan Park neighborhood from the Bardon’s Peak overlook. This is also the course’s subtle high point. Make sure to save energy for the gradual ascent back to here from the Becks Road turnaround! The parkway is open to vehicle traffic this time of year. Please be mindful on blind turns.
-
-- name: Billings Drive
-  date: 2025-05-14 # use format: YYYY-MM-DD
-  time: "6:00 PM"
-  dist: 7
-  sunset: "8:38 PM"
-  time-to-dark: "2:38"
-  min-pace: "36:20"
-  start-address: Billings Dr & 42nd St, Superior, WI 54880
-  start-gps: 46.691779, -92.144101 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  map-color: rgb(121,85,72)
-  results:
-    - year: 2023
-      url: /results/SpringSeries/2023/Billings-Drive.pdf
-    - year: 2024
-      url: /results/SpringSeries/2024/2024-Billings-Drive.pdf
-    - year: 2025
-      url: https://drive.google.com/file/d/1TQOq_li-WThwufA1-booNmdjZezR9jph/view?usp=drive_link
-  description: Billings Drive is an out-and-back course on all-weather gravel roads in the Superior Municipal Forest with rolling hills throughout. The road is tree-lined with nearby water. The road to the start may be rough in the Spring. Start/Finish across from parking lot at Billings Dr and 42nd street, near disc golf course in Superior WI.
+# - name: Billings Drive
+#   date: 2026-05-13 # use format: YYYY-MM-DD
+#   time: "6:00 PM"
+#   dist: 7
+#   sunset: "8:38 PM"
+#   time-to-dark: "2:38"
+#   min-pace: "36:20"
+#   start-address: Billings Dr & 42nd St, Superior, WI 54880
+#   start-gps: 46.691779, -92.144101 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+#   map-color: rgb(121,85,72)
+#   results:
+#     - year: 2023
+#       url: /results/SpringSeries/2023/Billings-Drive.pdf
+#     - year: 2024
+#       url: /results/SpringSeries/2024/2024-Billings-Drive.pdf
+#     - year: 2025
+#       url: https://drive.google.com/file/d/1TQOq_li-WThwufA1-booNmdjZezR9jph/view?usp=drive_link
+#   description: Billings Drive is an out-and-back course on all-weather gravel roads in the Superior Municipal Forest with rolling hills throughout. The road is tree-lined with nearby water. The road to the start may be rough in the Spring. Start/Finish across from parking lot at Billings Dr and 42nd street, near disc golf course in Superior WI.
 
 - name: Woodland Run
-  date: 2025-05-21 # use format: YYYY-MM-DD
+  date: 2026-05-20 # use format: YYYY-MM-DD
   time: "6:00 PM"
   dist: 5.5
   sunset: "8:49 PM"
@@ -96,7 +116,7 @@
   description: The Woodland course is on singletrack with a small portion of road. It is a loop course with some hilly sections. Starting out at the Morningside Gravel pit on Jean Duluth Road, run this 5.5k course through the surrounding woods and neighborhood. Enjoy a mix of rolling slopes, and small hills to climb on this rarely flat singletrack loop using a mix of trails in the area.
 
 - name: Rain date
-  date: 2025-05-28 # use format: YYYY-MM-DD
+  date: 2026-05-27 # use format: YYYY-MM-DD
   time:
   dist: 0
   sunset:
@@ -107,24 +127,39 @@
   map-color: grey
   description: If a previous race is canceled, watch this space for updates.
 
-- name: Chester Bowl
-  date: 2025-06-04 # use format: YYYY-MM-DD
+- name: Cloquet Forestry Center 
+  date: 2026-06-03 # use format: YYYY-MM-DD
   time: "6:00 PM"
-  dist: 5.8
+  dist: 6.5
   sunset: "8:59 PM"
   time-to-dark: "2:59"
   min-pace: "48:34"
-  start-address: 1801 E Skyline Pkwy, Duluth, MN 55812
-  start-gps: 46.813871, -92.098662 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  start-address: 175 University Rd, Cloquet, MN 55720
+  start-gps: 46.7049, -92.52591 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
   map-color: rgb(136,14,79)
   results:
-    - year: 2023
-      url: /results/SpringSeries/2023/2023-Chester-Bowl.pdf
-    - year: 2024
-      url: /results/SpringSeries/2024/Chester-Bowl.pdf
     - year: 2025
-      url: https://drive.google.com/file/d/1nAcXG10ROTlrVzheEqSOWjl7VIHWglHx/view?usp=drive_link
-  description: Chester Bowl is run within the 117 acre Chester Park on ski trails and on the Dan Proctor Hiking Trail singletrack, which runs along both sides of Chester Creek.  The course is very hilly and technical and is a popular hiking destination.  Be sure to say “Hi!” when you cross paths with a hiker!
+      url: /
+  description: Traverse the internal forest roads and trails of the University of Minnesota Cloquet Forestry Center, within the boundaries of the Fond du Lac Reservation. The race course traverses flat to gently rolling terrain, with mixed surfaces including mowed path, old logging railroad grades, and sandy gravel two-track road. Expect a diverse mix of managed forest conditions and occasional glimpses of wet meadows along Otter Creek.
+
+# - name: Chester Bowl
+#   date: 2025-06-04 # use format: YYYY-MM-DD
+#   time: "6:00 PM"
+#   dist: 5.8
+#   sunset: "8:59 PM"
+#   time-to-dark: "2:59"
+#   min-pace: "48:34"
+#   start-address: 1801 E Skyline Pkwy, Duluth, MN 55812
+#   start-gps: 46.813871, -92.098662 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+#   map-color: rgb(136,14,79)
+#   results:
+#     - year: 2023
+#       url: /results/SpringSeries/2023/2023-Chester-Bowl.pdf
+#     - year: 2024
+#       url: /results/SpringSeries/2024/Chester-Bowl.pdf
+#     - year: 2025
+#       url: https://drive.google.com/file/d/1nAcXG10ROTlrVzheEqSOWjl7VIHWglHx/view?usp=drive_link
+#   description: Chester Bowl is run within the 117 acre Chester Park on ski trails and on the Dan Proctor Hiking Trail singletrack, which runs along both sides of Chester Creek.  The course is very hilly and technical and is a popular hiking destination.  Be sure to say “Hi!” when you cross paths with a hiker!
 
 - metadata:
     overall-standings:
