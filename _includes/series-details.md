@@ -2,7 +2,7 @@
 {% assign potluck = '' %}
 {% if page.permalink == '/spring-series' %}
   {% assign springFall = 'Spring' %}
-  {% assign potluck = 'at the Chester Park Chalet' %}
+  {% assign potluck = 'at the Cloquet Forestry Center' %}
 {% else if page.permalink == '/fall-series' %}
   {% assign springFall = 'Fall' %}
   {% assign potluck = 'at the Lester Amity Chalet' %}
