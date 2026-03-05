@@ -1,0 +1,13 @@
+# Text and urls for signup genius buttons 
+
+- text: Curnow volunteers
+  url: https://www.signupgenius.com/go/10C0A45AFAC2AABFBC16-62092739-2026
+  analytics-slug: curnow-volunteer
+
+- text: Voyageur volunteers 
+  url: https://www.signupgenius.com/go/10C0A45AFAC2AABFBC16-62092480-2026
+  analytics-slug: voyageur-volunteer
+
+- text: Trail maintenance
+  url: https://www.signupgenius.com/go/10C0A45AFAC2AABFBC16-62729082-2026
+  analytics-slug: trail-maintenance-volunteer
