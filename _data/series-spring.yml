@@ -17,24 +17,25 @@
       url: https://drive.google.com/file/d/1TKcEWHHoOY8hLYePvkb3a3j7D_cMeWl3/view?usp=drive_link
   description: Bear Creek (Makwa Ziibiins) is a non-technical out-and-back course that connects the paved Osaugie Trail at Bear Creek Park to Wisconsin Point Road. The trail surface is raised and packed gravel path (well-drained) that winds and dips through young aspen, balsam poplar, and birch forest. There are an impressive 34 numbered bridges or boardwalks that you can use to track your progress on the course.  Midway there is an overlook that provides a view west over the outer St. Louis River estuary and Superior port. This is a fast, non-technical course and perfect Spring Series opener.
 
-- name: Point Pine
+- name: Waabizheshikana
   date: 2026-05-06 # use format: YYYY-MM-DD
   time: "6:00 PM"
   dist: 6.5
   sunset: "8:38 PM"
   time-to-dark: "2:38"
-  min-pace: "37:30"
-  start-address: 5000 Minnesota Ave, Duluth, MN 55802
-  start-gps: 46.727079, -92.046745 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  map-color: rgb(230,81,0)
+  min-pace: "36:20"
+  start-address: Blackmer Park 8301 Beverly St, Duluth, MN 55808
+  start-gps:  46.69285, -92.20562 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  map-color: rgb(121,85,72)
   results:
-    - year: 2023
-      url: /results/SpringSeries/2023/Point-Pine.pdf
-    - year: 2024
-      url: /results/SpringSeries/2024/Point-Pine-Results.pdf
     - year: 2025
-      url: https://drive.google.com/file/d/15uv2gUm3E0skf68dbrXIAX6aBClC0Mut/view?usp=drive_link
-  description: Point Pine (Neyaashi) is a lollipop course with a long out-and-back section that passes through Pine Point Scientific Natural Area, a remnant of old-growth coastal red and white pine forest. The route offers beautiful views of the outer St. Louis River estuary and Lake Superior. The trail is mostly flat and well drained with a mix of packed gravel, packed earth and short sections with loose sand. The outermost loop portion of the course passes by the brick ruins of the Minnesota Point Light, a navigational aid constructed in 1858. It is the oldest brick structure in Duluth. This is a fast, non-technical course but get ready for some sand in your shoes.
+      url: /
+    - year: 2026
+      url: 
+    - year: 2027
+      url: 
+  parking: Blackmer Park 8301 Beverly St, Duluth, MN 55808
+  description: Waabizheshikana takes runners along the western waterfront of the St. Louis River estuary. The loopy out-and-back course starts and finishes at Blackmer Park. Racers head south on the mostly crushed stone path, u-turn, and run with water to the left and right toward the end of a narrow spit before looping back to the start. 
 
 - name: Spirit Mountain
   date: 2026-05-10 # use format: YYYY-MM-DD
@@ -57,27 +58,26 @@
   description: Spirit Mountain (Manidoo Wajiw) is a point-to-point road and rails-to-trails run. The 2026 edition introduced a new course, which follows the westernmost section of Skyline Parkway (gravel and asphalt) and returns on the DWP (gravel), finishing near Grand Ave Chalet. 
   # description: Spirit Mountain 10 Mile (Manidoo Wajiw) is an out-and-back road run that largely follows the western most section of Skyline Parkway from beneath the upper Spirit Mountain Chalet to Becks Road. The parkway surface is mostly gravel but also has short sections of new and crumbling asphalt. The near middle of the route offers a sweeping view of the St. Louis River estuary and Morgan Park neighborhood from the Bardon’s Peak overlook. This is also the course’s subtle high point. Make sure to save energy for the gradual ascent back to here from the Becks Road turnaround! The parkway is open to vehicle traffic this time of year. Please be mindful on blind turns.
 
-- name: Waabizheshikana
+- name: Point Pine
   date: 2026-05-13 # use format: YYYY-MM-DD
   time: "6:00 PM"
   dist: 6.5
   sunset: "8:38 PM"
   time-to-dark: "2:38"
-  min-pace: "36:20"
-  start-address: Blackmer Park 8301 Beverly St, Duluth, MN 55808
-  start-gps:  46.69285, -92.20562 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
-  map-color: rgb(121,85,72)
+  min-pace: "37:30"
+  start-address: 5000 Minnesota Ave, Duluth, MN 55802
+  start-gps: 46.727079, -92.046745 # use decimal lat,long format: X.XXXXXXX, X,XXXXXXX
+  map-color: rgb(230,81,0)
   results:
+    - year: 2023
+      url: /results/SpringSeries/2023/Point-Pine.pdf
+    - year: 2024
+      url: /results/SpringSeries/2024/Point-Pine-Results.pdf
     - year: 2025
-      url: /
-    - year: 2026
-      url: 
-    - year: 2027
-      url: 
-  parking: Blackmer Park 8301 Beverly St, Duluth, MN 55808
-  description: Waabizheshikana takes runners along the western waterfront of the St. Louis River estuary. The loopy out-and-back course starts and finishes at Blackmer Park. Racers head south on the mostly crushed stone path, u-turn, and run with water to the left and right toward the end of a narrow spit before looping back to the start. 
+      url: https://drive.google.com/file/d/15uv2gUm3E0skf68dbrXIAX6aBClC0Mut/view?usp=drive_link
+  description: Point Pine (Neyaashi) is a lollipop course with a long out-and-back section that passes through Pine Point Scientific Natural Area, a remnant of old-growth coastal red and white pine forest. The route offers beautiful views of the outer St. Louis River estuary and Lake Superior. The trail is mostly flat and well drained with a mix of packed gravel, packed earth and short sections with loose sand. The outermost loop portion of the course passes by the brick ruins of the Minnesota Point Light, a navigational aid constructed in 1858. It is the oldest brick structure in Duluth. This is a fast, non-technical course but get ready for some sand in your shoes.
 
-# - name: Billings Drive
+ # - name: Billings Drive
 #   date: 2026-05-13 # use format: YYYY-MM-DD
 #   time: "6:00 PM"
 #   dist: 7
