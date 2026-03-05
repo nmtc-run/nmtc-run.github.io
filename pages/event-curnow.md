@@ -148,6 +148,19 @@ See results for all finishers, course records, past champions, and 500 Mile Club
 
 # Volunteer
 
-NMTC is a nonprofit grassroots trail running organization. We rely on volunteers to create an outstanding experience for runners. If you know someone who might be interested supporting the race, please encourage them to sign up at [nmtc.run/volunteer](/volunteer).
+NMTC is a nonprofit grassroots trail running organization. We rely on volunteers to create an outstanding experience for runners. If you know someone who might be interested supporting the race, please encourage them to sign up:
 
-As a reminder, Curnow volunteers enjoy discounted race registration fees for the Minnesota Voyageur Trail Ultramarathon (and vice-versa). See the [volunteer page](/volunteer) for more information.
+
+<div class="container" style="display:flex;padding-bottom:1em;">
+	<a href="/volunteer" style="margin: 0 auto;">
+    <div class="button">
+      Volunteer 
+    </div>
+  </a>
+</div>
+
+**Volunteer at Voyageur, get a discount at Curnow:** Curnow volunteers enjoy discounted race registration fees for the Minnesota Voyageur Trail Ultramarathon (and vice-versa). 
+
+**Volunteer at Curnow \*and\* race Curnow:** Curnow racers qualify for discounted Curnow entry when they sign up for prerace prep and/or postrace clean-up. 
+
+**You are awesome, and you will feel awesome:** Volunteers get a Curnow race experience all their own. Join us in supporting our runners, and have a blast while you're at it! 
