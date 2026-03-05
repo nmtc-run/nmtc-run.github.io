@@ -33,20 +33,9 @@ Time commitments vary and many important tasks are appropriate for all ages. Tha
 
 # Curnow Marathon &amp; Voyageur 50
 
-You can volunteer before, during, and after the race—including weeks before the race, through our Trail Maintence days. The earlier you sign up, the easier it is for us to plan—and you can always return to edit your registration at a later date, if need. So, sign up today! 
+Curnow and Voyageur are in need of volunteers. Sign up today!
 
-<div class="container" style="display:flex; flex-wrap: wrap; padding-bottom:1em;">
-  {% for button in site.data.signup-genius %}
-    <a href="{{ button.url }}" style="margin: 0 auto;" target="_blank" rel="noopener">
-      <div class="button" onclick="ga('send', 'event', 'Button', 'Click', '{{ button.analytics-slug }}')">
-        {{ button.text }}
-      </div>
-    </a>
-  {% endfor %}
-</div>
-
-<!-- <div class="container" style="display:flex;padding-bottom:1em;">
-
+<div class="container" style="display:flex;padding-bottom:1em;">
   <a href="https://www.signupgenius.com/go/10C0A45AFAC2AABFBC16-54927800-eugene#/" style="margin: 0 auto;" target="blank">
     <div class="button" onclick="ga('send', 'event', 'Button', 'Click', 'curnow-volunteer')">
       Curnow volunteers
@@ -57,7 +46,7 @@ You can volunteer before, during, and after the race—including weeks before th
       Voyageur volunteers
     </div>
   </a>
-</div> -->
+</div>
 
 Opportunities include:
 
@@ -73,9 +62,7 @@ Opportunities include:
 
 * **Course marking, checking, and sweeping:** These volunteers have experience running and racing on the Curnow/Voyageur course. Before the race, markers plant flags and arrows. Race morning, checkers make sure the marking is easy to follow. After the race, sweepers clear the course of all marking.
 
-* **Friday race prep and Sunday cleanup:** These are absolutely essential and often overlooked parts of the race—and a fantastic option for everyone who wants to both support the race and race the race. On Friday, volunteers stage aid station equipment and supplies. On Sunday, we wash water jugs, food containers, and reorganize equipment for the next race. 
-
-* **Trail maintenance:** All are welcome. No experience required. Join our trail maintenance day: mowing, lopping, and clearing brush makes for a safer, more runnable course. A few weeks before the race, we cover a good portain of the central part of the course—including Mission Creek, Valley West, and Purgatory. 
+* **Friday race prep and Sunday cleanup:** These are absolutely essential and often overlooked parts of the race—and a fantastic option for everyone who wants to both support the race and race the race. On Friday, volunteers stage aid station equipment and supplies. On Sunday, we wash water jugs, food containers, and reorganize equipment for the next race.
 
 * **Other roles:** Click into the sign-up form above for a complete list of ways to help before, during, and after the race.
 

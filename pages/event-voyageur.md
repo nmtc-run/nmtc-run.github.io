@@ -137,19 +137,6 @@ See results for all finishers, course records, past champions, and 500 Mile Club
 
 # Volunteer
 
-NMTC is a nonprofit grassroots trail running organization. We rely on volunteers to create an outstanding experience for runners. If you know someone who might be interested supporting the race, please encourage them to sign up:
+NMTC is a nonprofit grassroots trail running organization. We rely on volunteers to create an outstanding experience for runners. If you know someone who might be interested supporting the race, please encourage them to sign up at [nmtc.run/volunteer](/volunteer).
 
-
-<div class="container" style="display:flex;padding-bottom:1em;">
-	<a href="/volunteer" style="margin: 0 auto;">
-    <div class="button">
-      Volunteer 
-    </div>
-  </a>
-</div>
-
-**Volunteer at Curnow, get a discount at Voyageur:** Voyageur volunteers enjoy discounted race registration fees for the Eugene Curnow Trail Marathon (and vice-versa). 
-
-**Volunteer at Voyageur \*and\* race Voyageur:** Voyageur racers qualify for discounted Voyageur entry when they sign up for prerace prep and/or postrace clean-up. 
-
-**You are awesome, and you will feel awesome:** Volunteers get a Voyageur race experience all their own. Join us in supporting our runners, and have a blast while you're at it! 
+As a reminder, volunteers of the Voyageur enjoy discounted race registration fees for the Curnow Trail Marathon (and vice-versa). See the [volunteer page](/volunteer) for more information.
