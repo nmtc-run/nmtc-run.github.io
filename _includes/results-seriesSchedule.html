@@ -62,14 +62,12 @@ async function loadSchedule(year) {
     });
 
     const standingsLi = document.createElement('li');
-    const seriesPath = "/spring-series"; 
-    const seriesYear = "2026"; 
     standingsLi.innerHTML = 
       `<strong>Overall standings:</strong> 
-      <a href="/standings${seriesPath}?gender=X&year=${seriesYear}" style="padding-right: 0.25em;">Nonbinary</a>
-      <a href="/standings${seriesPath}?gender=W&year=${seriesYear}" style="padding-right: 0.25em;">Women</a>
-      <a href="/standings${seriesPath}?gender=M&year=${seriesYear}" style="padding-right: 0.25em;">Men</a>
-      <a href="/standings${seriesPath}?gender=All&year=${seriesYear}" style="padding-right: 0.25em;">All</a>
+      <a href="/standings/${seriesName}?gender=X&year=${year}" style="padding-right: 0.25em;">Nonbinary</a>
+      <a href="/standings/${seriesName}?gender=W&year=${year}" style="padding-right: 0.25em;">Women</a>
+      <a href="/standings/${seriesName}?gender=M&year=${year}" style="padding-right: 0.25em;">Men</a>
+      <a href="/standings/${seriesName}?gender=All&year=${year}" style="padding-right: 0.25em;">All</a>
       `; 
 
     ul.appendChild(standingsLi); 
