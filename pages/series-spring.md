@@ -17,7 +17,4 @@ The Spring Series consists of six short-distance races on a mix of surfaces—fr
 * We are reintroducing Waabizheshikana to the series schedule after more than a decade, following a significant renovation and expansion of the trail.  
 * We are introducing Cloquet Forestry Center as our series finale and potluck. Chester Bowl will return next year following the construction of the new chalet.  
 
-New in 2026, park near the Grand Ave Chalet 8551 Grand Ave, Duluth, MN 55808. To reach the start line, hike 500 m uphill to the cat track; turn left and jog 250 m to the start line; you are now warmed up and ready to race.
-Course description: Spirit Mountain (Manidoo Wajiw) is a point-to-point road and rails-to-trails run. The 2026 edition introduced a new course, which follows the westernmost section of Skyline Parkway (gravel and asphalt) and returns on the DWP (gravel), finishing near Grand Ave Chalet.
-
 Entry is absolutely free. We welcome donations <a href="/donate">online</a> or at the race start.
