@@ -1,5 +1,5 @@
 {
-  "latestCourse": "Chester Bowl",
+  "latestCourse": "Test Race",
   "schedule": [
     {
       "course": "Bear Creek",
@@ -36,73 +36,126 @@
       "date": "2025-05-28T05:00:00.000Z",
       "cancelled": "",
       "published": true
+    },
+    {
+      "course": "Test Race",
+      "date": "2025-06-04T05:00:00.000Z",
+      "cancelled": "",
+      "published": true
     }
   ],
   "standings": [
     {
       "Place": 1,
-      "Gender": "W",
-      "Name": "Ingrid Sokup",
-      "Total Points": 949,
+      "Gender": "M",
+      "Name": "John Hottinger",
+      "Total Points": 893,
       "Bonus": 0,
-      "Bear Creek": 107,
-      "Point Pine": 141,
-      "Spirit Mountain": 274,
-      "Billings Drive": 140,
-      "Woodland Run": 146,
-      "Chester Bowl": 141
+      "Bear Creek": 150,
+      "Point Pine": 149,
+      "Spirit Mountain": 147,
+      "Billings Drive": 149,
+      "Woodland Run": 149,
+      "Chester Bowl": 149,
+      "Test Race": 0
     },
     {
-      "Place": 2,
+      "Place": 1,
       "Gender": "W",
       "Name": "Hanna Torvi",
-      "Total Points": 773,
-      "Bonus": 25,
-      "Bear Creek": "[140]",
+      "Total Points": 888,
+      "Bonus": 0,
+      "Bear Creek": 140,
       "Point Pine": 150,
       "Spirit Mountain": 148,
       "Billings Drive": 150,
       "Woodland Run": 150,
-      "Chester Bowl": 150
-    },
-    {
-      "Place": 1,
-      "Gender": "M",
-      "Name": "John Hottinger",
-      "Total Points": 771,
-      "Bonus": 25,
-      "Bear Creek": 150,
-      "Point Pine": 149,
-      "Spirit Mountain": "[147]",
-      "Billings Drive": 149,
-      "Woodland Run": 149,
-      "Chester Bowl": 149
+      "Chester Bowl": 150,
+      "Test Race": 0
     },
     {
       "Place": 2,
       "Gender": "M",
       "Name": "Liam Fife",
-      "Total Points": 757,
-      "Bonus": 25,
+      "Total Points": 873,
+      "Bonus": 0,
       "Bear Creek": 148,
       "Point Pine": 147,
-      "Spirit Mountain": "[141]",
+      "Spirit Mountain": 141,
       "Billings Drive": 147,
       "Woodland Run": 146,
-      "Chester Bowl": 144
+      "Chester Bowl": 144,
+      "Test Race": 0
     },
     {
       "Place": 3,
       "Gender": "M",
       "Name": "Alex Kasparek",
-      "Total Points": 748,
-      "Bonus": 25,
+      "Total Points": 863,
+      "Bonus": 0,
       "Bear Creek": 147,
-      "Point Pine": "[140]",
+      "Point Pine": 140,
       "Spirit Mountain": 143,
       "Billings Drive": 143,
       "Woodland Run": 145,
-      "Chester Bowl": 145
+      "Chester Bowl": 145,
+      "Test Race": 0
+    },
+    {
+      "Place": 4,
+      "Gender": "M",
+      "Name": "Mike Ward",
+      "Total Points": 851,
+      "Bonus": 0,
+      "Bear Creek": 145,
+      "Point Pine": 141,
+      "Spirit Mountain": 139,
+      "Billings Drive": 144,
+      "Woodland Run": 141,
+      "Chester Bowl": 141,
+      "Test Race": 0
+    },
+    {
+      "Place": 5,
+      "Gender": "M",
+      "Name": "Benjamin Welch",
+      "Total Points": 821,
+      "Bonus": 0,
+      "Bear Creek": 137,
+      "Point Pine": 139,
+      "Spirit Mountain": 135,
+      "Billings Drive": 136,
+      "Woodland Run": 140,
+      "Chester Bowl": 134,
+      "Test Race": 0
+    },
+    {
+      "Place": 2,
+      "Gender": "W",
+      "Name": "Ingrid Sokup",
+      "Total Points": 812,
+      "Bonus": 0,
+      "Bear Creek": 107,
+      "Point Pine": 141,
+      "Spirit Mountain": 137,
+      "Billings Drive": 140,
+      "Woodland Run": 146,
+      "Chester Bowl": 141,
+      "Test Race": 0
+    },
+    {
+      "Place": 6,
+      "Gender": "M",
+      "Name": "Max Botz",
+      "Total Points": 781,
+      "Bonus": 0,
+      "Bear Creek": 138,
+      "Point Pine": 136,
+      "Spirit Mountain": 131,
+      "Billings Drive": 135,
+      "Woodland Run": 123,
+      "Chester Bowl": 118,
+      "Test Race": 0
     },
     {
       "Place": 3,
@@ -115,49 +168,25 @@
       "Spirit Mountain": 150,
       "Billings Drive": 149,
       "Woodland Run": 149,
-      "Chester Bowl": 149
-    },
-    {
-      "Place": 4,
-      "Gender": "M",
-      "Name": "Ryan Johnson",
-      "Total Points": 740,
-      "Bonus": 0,
-      "Bear Creek": 93,
-      "Point Pine": 103,
-      "Spirit Mountain": 228,
-      "Billings Drive": 116,
-      "Woodland Run": 106,
-      "Chester Bowl": 94
-    },
-    {
-      "Place": 5,
-      "Gender": "M",
-      "Name": "Mike Ward",
-      "Total Points": 737,
-      "Bonus": 25,
-      "Bear Creek": 145,
-      "Point Pine": 141,
-      "Spirit Mountain": "[139]",
-      "Billings Drive": 144,
-      "Woodland Run": 141,
-      "Chester Bowl": 141
-    },
-    {
-      "Place": 6,
-      "Gender": "M",
-      "Name": "Marcus Taintor",
-      "Total Points": 735,
-      "Bonus": 0,
-      "Bear Creek": 132,
-      "Point Pine": 104,
-      "Spirit Mountain": 234,
-      "Billings Drive": 87,
-      "Woodland Run": 104,
-      "Chester Bowl": 74
+      "Chester Bowl": 149,
+      "Test Race": 0
     },
     {
       "Place": 7,
+      "Gender": "M",
+      "Name": "Nico Ghandhi",
+      "Total Points": 741,
+      "Bonus": 0,
+      "Bear Creek": 120,
+      "Point Pine": 126,
+      "Spirit Mountain": 120,
+      "Billings Drive": 130,
+      "Woodland Run": 117,
+      "Chester Bowl": 128,
+      "Test Race": 0
+    },
+    {
+      "Place": 8,
       "Gender": "M",
       "Name": "Jim Schwinghamer",
       "Total Points": 727,
@@ -167,10 +196,11 @@
       "Spirit Mountain": 150,
       "Billings Drive": 148,
       "Woodland Run": 142,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 8,
+      "Place": 9,
       "Gender": "M",
       "Name": "Lane Johnson",
       "Total Points": 726,
@@ -180,7 +210,22 @@
       "Spirit Mountain": 0,
       "Billings Drive": 145,
       "Woodland Run": 144,
-      "Chester Bowl": 146
+      "Chester Bowl": 146,
+      "Test Race": 0
+    },
+    {
+      "Place": 10,
+      "Gender": "M",
+      "Name": "Matt Livingston",
+      "Total Points": 726,
+      "Bonus": 0,
+      "Bear Creek": 136,
+      "Point Pine": 132,
+      "Spirit Mountain": 136,
+      "Billings Drive": 133,
+      "Woodland Run": 115,
+      "Chester Bowl": 74,
+      "Test Race": 0
     },
     {
       "Place": 1,
@@ -193,20 +238,8 @@
       "Spirit Mountain": 150,
       "Billings Drive": 0,
       "Woodland Run": 149,
-      "Chester Bowl": 150
-    },
-    {
-      "Place": 9,
-      "Gender": "M",
-      "Name": "Benjamin Welch",
-      "Total Points": 712,
-      "Bonus": 25,
-      "Bear Creek": 137,
-      "Point Pine": 139,
-      "Spirit Mountain": 135,
-      "Billings Drive": 136,
-      "Woodland Run": 140,
-      "Chester Bowl": "[134]"
+      "Chester Bowl": 150,
+      "Test Race": 0
     },
     {
       "Place": 4,
@@ -219,10 +252,11 @@
       "Spirit Mountain": 141,
       "Billings Drive": 146,
       "Woodland Run": 143,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 10,
+      "Place": 11,
       "Gender": "M",
       "Name": "Eric Nordgren",
       "Total Points": 703,
@@ -232,7 +266,8 @@
       "Spirit Mountain": 145,
       "Billings Drive": 141,
       "Woodland Run": 138,
-      "Chester Bowl": 135
+      "Chester Bowl": 135,
+      "Test Race": 0
     },
     {
       "Place": 5,
@@ -245,20 +280,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 143,
       "Woodland Run": 144,
-      "Chester Bowl": 144
-    },
-    {
-      "Place": 11,
-      "Gender": "M",
-      "Name": "Max Botz",
-      "Total Points": 688,
-      "Bonus": 25,
-      "Bear Creek": 138,
-      "Point Pine": 136,
-      "Spirit Mountain": 131,
-      "Billings Drive": 135,
-      "Woodland Run": 123,
-      "Chester Bowl": "[118]"
+      "Chester Bowl": 144,
+      "Test Race": 0
     },
     {
       "Place": 6,
@@ -271,23 +294,25 @@
       "Spirit Mountain": 143,
       "Billings Drive": 0,
       "Woodland Run": 140,
-      "Chester Bowl": 142
+      "Chester Bowl": 142,
+      "Test Race": 0
+    },
+    {
+      "Place": 7,
+      "Gender": "W",
+      "Name": "Barb Bengtson",
+      "Total Points": 681,
+      "Bonus": 0,
+      "Bear Creek": 100,
+      "Point Pine": 115,
+      "Spirit Mountain": 132,
+      "Billings Drive": 120,
+      "Woodland Run": 100,
+      "Chester Bowl": 114,
+      "Test Race": 0
     },
     {
       "Place": 12,
-      "Gender": "M",
-      "Name": "Matt Livingston",
-      "Total Points": 677,
-      "Bonus": 25,
-      "Bear Creek": 136,
-      "Point Pine": 132,
-      "Spirit Mountain": 136,
-      "Billings Drive": 133,
-      "Woodland Run": 115,
-      "Chester Bowl": "[74]"
-    },
-    {
-      "Place": 13,
       "Gender": "M",
       "Name": "Kevin Wood",
       "Total Points": 669,
@@ -297,10 +322,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 134,
       "Woodland Run": 125,
-      "Chester Bowl": 131
+      "Chester Bowl": 131,
+      "Test Race": 0
     },
     {
-      "Place": 14,
+      "Place": 13,
       "Gender": "M",
       "Name": "Matthew Rohrer",
       "Total Points": 662,
@@ -310,23 +336,39 @@
       "Spirit Mountain": 0,
       "Billings Drive": 132,
       "Woodland Run": 135,
-      "Chester Bowl": 136
+      "Chester Bowl": 136,
+      "Test Race": 0
     },
     {
-      "Place": 15,
-      "Gender": "M",
-      "Name": "Nico Ghandhi",
-      "Total Points": 649,
-      "Bonus": 25,
-      "Bear Creek": 120,
-      "Point Pine": 126,
-      "Spirit Mountain": 120,
-      "Billings Drive": 130,
-      "Woodland Run": "[117]",
-      "Chester Bowl": 128
+      "Place": 8,
+      "Gender": "W",
+      "Name": "Shelly Thompson",
+      "Total Points": 653,
+      "Bonus": 0,
+      "Bear Creek": 91,
+      "Point Pine": 109,
+      "Spirit Mountain": 129,
+      "Billings Drive": 116,
+      "Woodland Run": 98,
+      "Chester Bowl": 110,
+      "Test Race": 0
     },
     {
-      "Place": 16,
+      "Place": 9,
+      "Gender": "W",
+      "Name": "Barb Luke",
+      "Total Points": 651,
+      "Bonus": 0,
+      "Bear Creek": 70,
+      "Point Pine": 114,
+      "Spirit Mountain": 133,
+      "Billings Drive": 119,
+      "Woodland Run": 102,
+      "Chester Bowl": 113,
+      "Test Race": 0
+    },
+    {
+      "Place": 14,
       "Gender": "M",
       "Name": "Ryan Ballard",
       "Total Points": 645,
@@ -336,10 +378,11 @@
       "Spirit Mountain": 133,
       "Billings Drive": 131,
       "Woodland Run": 128,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 17,
+      "Place": 15,
       "Gender": "M",
       "Name": "Tyler Pilon",
       "Total Points": 628,
@@ -349,10 +392,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 128,
       "Woodland Run": 116,
-      "Chester Bowl": 116
+      "Chester Bowl": 116,
+      "Test Race": 0
     },
     {
-      "Place": 18,
+      "Place": 16,
       "Gender": "M",
       "Name": "Dave Schaeffer",
       "Total Points": 626,
@@ -362,10 +406,39 @@
       "Spirit Mountain": 129,
       "Billings Drive": 0,
       "Woodland Run": 113,
-      "Chester Bowl": 120
+      "Chester Bowl": 120,
+      "Test Race": 0
     },
     {
-      "Place": 19,
+      "Place": 17,
+      "Gender": "M",
+      "Name": "Ryan Johnson",
+      "Total Points": 626,
+      "Bonus": 0,
+      "Bear Creek": 93,
+      "Point Pine": 103,
+      "Spirit Mountain": 114,
+      "Billings Drive": 116,
+      "Woodland Run": 106,
+      "Chester Bowl": 94,
+      "Test Race": 0
+    },
+    {
+      "Place": 10,
+      "Gender": "W",
+      "Name": "Mae Gackstetter",
+      "Total Points": 624,
+      "Bonus": 0,
+      "Bear Creek": 62,
+      "Point Pine": 109,
+      "Spirit Mountain": 129,
+      "Billings Drive": 116,
+      "Woodland Run": 98,
+      "Chester Bowl": 110,
+      "Test Race": 0
+    },
+    {
+      "Place": 18,
       "Gender": "M",
       "Name": "Kinyee Sin",
       "Total Points": 620,
@@ -375,7 +448,22 @@
       "Spirit Mountain": 0,
       "Billings Drive": 124,
       "Woodland Run": 130,
-      "Chester Bowl": 130
+      "Chester Bowl": 130,
+      "Test Race": 0
+    },
+    {
+      "Place": 19,
+      "Gender": "M",
+      "Name": "Marcus Taintor",
+      "Total Points": 618,
+      "Bonus": 0,
+      "Bear Creek": 132,
+      "Point Pine": 104,
+      "Spirit Mountain": 117,
+      "Billings Drive": 87,
+      "Woodland Run": 104,
+      "Chester Bowl": 74,
+      "Test Race": 0
     },
     {
       "Place": 20,
@@ -388,23 +476,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 126,
       "Woodland Run": 120,
-      "Chester Bowl": 124
+      "Chester Bowl": 124,
+      "Test Race": 0
     },
     {
-      "Place": 21,
-      "Gender": "M",
-      "Name": "Ryan Saline",
-      "Total Points": 615,
-      "Bonus": 25,
-      "Bear Creek": 145,
-      "Point Pine": 113,
-      "Spirit Mountain": 230,
-      "Billings Drive": 0,
-      "Woodland Run": 102,
-      "Chester Bowl": "[100]"
-    },
-    {
-      "Place": 7,
+      "Place": 11,
       "Gender": "W",
       "Name": "Ellie Sin",
       "Total Points": 613,
@@ -414,36 +490,25 @@
       "Spirit Mountain": 0,
       "Billings Drive": 134,
       "Woodland Run": 125,
-      "Chester Bowl": 136
+      "Chester Bowl": 136,
+      "Test Race": 0
     },
     {
-      "Place": 8,
-      "Gender": "W",
-      "Name": "Barb Luke",
-      "Total Points": 606,
-      "Bonus": 25,
-      "Bear Creek": "[70]",
-      "Point Pine": 114,
-      "Spirit Mountain": 133,
-      "Billings Drive": 119,
-      "Woodland Run": 102,
-      "Chester Bowl": 113
+      "Place": 21,
+      "Gender": "M",
+      "Name": "Matt Evans",
+      "Total Points": 602,
+      "Bonus": 0,
+      "Bear Creek": 98,
+      "Point Pine": 102,
+      "Spirit Mountain": 113,
+      "Billings Drive": 114,
+      "Woodland Run": 84,
+      "Chester Bowl": 91,
+      "Test Race": 0
     },
     {
-      "Place": 9,
-      "Gender": "W",
-      "Name": "Barb Bengtson",
-      "Total Points": 606,
-      "Bonus": 25,
-      "Bear Creek": "[100]",
-      "Point Pine": 115,
-      "Spirit Mountain": 132,
-      "Billings Drive": 120,
-      "Woodland Run": 100,
-      "Chester Bowl": 114
-    },
-    {
-      "Place": 10,
+      "Place": 12,
       "Gender": "W",
       "Name": "Maria Vespa",
       "Total Points": 597,
@@ -453,10 +518,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 127,
       "Woodland Run": 113,
-      "Chester Bowl": 126
+      "Chester Bowl": 126,
+      "Test Race": 0
     },
     {
-      "Place": 11,
+      "Place": 13,
       "Gender": "W",
       "Name": "Sydney Patterson",
       "Total Points": 591,
@@ -466,33 +532,8 @@
       "Spirit Mountain": 147,
       "Billings Drive": 148,
       "Woodland Run": 0,
-      "Chester Bowl": 148
-    },
-    {
-      "Place": 12,
-      "Gender": "W",
-      "Name": "Mae Gackstetter",
-      "Total Points": 587,
-      "Bonus": 25,
-      "Bear Creek": "[62]",
-      "Point Pine": 109,
-      "Spirit Mountain": 129,
-      "Billings Drive": 116,
-      "Woodland Run": 98,
-      "Chester Bowl": 110
-    },
-    {
-      "Place": 13,
-      "Gender": "W",
-      "Name": "Shelly Thompson",
-      "Total Points": 587,
-      "Bonus": 25,
-      "Bear Creek": "[91]",
-      "Point Pine": 109,
-      "Spirit Mountain": 129,
-      "Billings Drive": 116,
-      "Woodland Run": 98,
-      "Chester Bowl": 110
+      "Chester Bowl": 148,
+      "Test Race": 0
     },
     {
       "Place": 22,
@@ -505,7 +546,8 @@
       "Spirit Mountain": 121,
       "Billings Drive": 0,
       "Woodland Run": 111,
-      "Chester Bowl": 117
+      "Chester Bowl": 117,
+      "Test Race": 0
     },
     {
       "Place": 23,
@@ -518,10 +560,25 @@
       "Spirit Mountain": 140,
       "Billings Drive": 146,
       "Woodland Run": 147,
-      "Chester Bowl": 147
+      "Chester Bowl": 147,
+      "Test Race": 0
     },
     {
       "Place": 24,
+      "Gender": "M",
+      "Name": "Ryan Saline",
+      "Total Points": 575,
+      "Bonus": 0,
+      "Bear Creek": 145,
+      "Point Pine": 113,
+      "Spirit Mountain": 115,
+      "Billings Drive": 0,
+      "Woodland Run": 102,
+      "Chester Bowl": 100,
+      "Test Race": 0
+    },
+    {
+      "Place": 25,
       "Gender": "M",
       "Name": "Adam Swank",
       "Total Points": 569,
@@ -531,7 +588,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 140,
       "Woodland Run": 0,
-      "Chester Bowl": 143
+      "Chester Bowl": 143,
+      "Test Race": 0
     },
     {
       "Place": 14,
@@ -544,7 +602,8 @@
       "Spirit Mountain": 145,
       "Billings Drive": 147,
       "Woodland Run": 0,
-      "Chester Bowl": 147
+      "Chester Bowl": 147,
+      "Test Race": 0
     },
     {
       "Place": 15,
@@ -557,7 +616,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 144,
       "Woodland Run": 141,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 16,
@@ -570,23 +630,25 @@
       "Spirit Mountain": 0,
       "Billings Drive": 128,
       "Woodland Run": 111,
-      "Chester Bowl": 124
-    },
-    {
-      "Place": 25,
-      "Gender": "M",
-      "Name": "Matt Evans",
-      "Total Points": 543,
-      "Bonus": 25,
-      "Bear Creek": 98,
-      "Point Pine": 102,
-      "Spirit Mountain": 113,
-      "Billings Drive": 114,
-      "Woodland Run": "[84]",
-      "Chester Bowl": 91
+      "Chester Bowl": 124,
+      "Test Race": 0
     },
     {
       "Place": 26,
+      "Gender": "M",
+      "Name": "Brian Beckman",
+      "Total Points": 549,
+      "Bonus": 0,
+      "Bear Creek": 111,
+      "Point Pine": 85,
+      "Spirit Mountain": 108,
+      "Billings Drive": 98,
+      "Woodland Run": 73,
+      "Chester Bowl": 74,
+      "Test Race": 0
+    },
+    {
+      "Place": 27,
       "Gender": "M",
       "Name": "Logan Baier",
       "Total Points": 537,
@@ -596,10 +658,25 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 134,
-      "Chester Bowl": 132
+      "Chester Bowl": 132,
+      "Test Race": 0
     },
     {
-      "Place": 27,
+      "Place": 28,
+      "Gender": "M",
+      "Name": "Leif DeVaney",
+      "Total Points": 517,
+      "Bonus": 0,
+      "Bear Creek": 78,
+      "Point Pine": 84,
+      "Spirit Mountain": 104,
+      "Billings Drive": 91,
+      "Woodland Run": 80,
+      "Chester Bowl": 80,
+      "Test Race": 0
+    },
+    {
+      "Place": 29,
       "Gender": "M",
       "Name": "Keith Thompson",
       "Total Points": 516,
@@ -609,7 +686,8 @@
       "Spirit Mountain": 109,
       "Billings Drive": 0,
       "Woodland Run": 98,
-      "Chester Bowl": 84
+      "Chester Bowl": 84,
+      "Test Race": 0
     },
     {
       "Place": 2,
@@ -622,10 +700,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 150,
-      "Chester Bowl": 149
+      "Chester Bowl": 149,
+      "Test Race": 0
     },
     {
-      "Place": 28,
+      "Place": 30,
       "Gender": "M",
       "Name": "Blake Peters",
       "Total Points": 515,
@@ -635,7 +714,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 129,
-      "Chester Bowl": 125
+      "Chester Bowl": 125,
+      "Test Race": 0
     },
     {
       "Place": 17,
@@ -648,23 +728,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 116,
       "Woodland Run": 107,
-      "Chester Bowl": 110
+      "Chester Bowl": 110,
+      "Test Race": 0
     },
     {
-      "Place": 29,
-      "Gender": "M",
-      "Name": "Brian Beckman",
-      "Total Points": 501,
-      "Bonus": 25,
-      "Bear Creek": 111,
-      "Point Pine": 85,
-      "Spirit Mountain": 108,
-      "Billings Drive": 98,
-      "Woodland Run": "[73]",
-      "Chester Bowl": 74
-    },
-    {
-      "Place": 30,
+      "Place": 31,
       "Gender": "M",
       "Name": "Justin Fleck",
       "Total Points": 496,
@@ -674,10 +742,11 @@
       "Spirit Mountain": 107,
       "Billings Drive": 108,
       "Woodland Run": 86,
-      "Chester Bowl": 96
+      "Chester Bowl": 96,
+      "Test Race": 0
     },
     {
-      "Place": 31,
+      "Place": 32,
       "Gender": "M",
       "Name": "Christopher Montague",
       "Total Points": 490,
@@ -687,7 +756,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 106,
       "Woodland Run": 94,
-      "Chester Bowl": 107
+      "Chester Bowl": 107,
+      "Test Race": 0
     },
     {
       "Place": 18,
@@ -700,10 +770,11 @@
       "Spirit Mountain": 134,
       "Billings Drive": 126,
       "Woodland Run": 108,
-      "Chester Bowl": 122
+      "Chester Bowl": 122,
+      "Test Race": 0
     },
     {
-      "Place": 32,
+      "Place": 33,
       "Gender": "M",
       "Name": "Grant Nelson",
       "Total Points": 487,
@@ -713,10 +784,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 138,
       "Woodland Run": 139,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 33,
+      "Place": 34,
       "Gender": "M",
       "Name": "Noah Grode",
       "Total Points": 476,
@@ -726,10 +798,25 @@
       "Spirit Mountain": 119,
       "Billings Drive": 112,
       "Woodland Run": 0,
-      "Chester Bowl": 112
+      "Chester Bowl": 112,
+      "Test Race": 0
     },
     {
-      "Place": 34,
+      "Place": 35,
+      "Gender": "M",
+      "Name": "Jarrow Wahman",
+      "Total Points": 476,
+      "Bonus": 0,
+      "Bear Creek": 65,
+      "Point Pine": 73,
+      "Spirit Mountain": 104,
+      "Billings Drive": 87,
+      "Woodland Run": 73,
+      "Chester Bowl": 74,
+      "Test Race": 0
+    },
+    {
+      "Place": 36,
       "Gender": "M",
       "Name": "Phil Rogers",
       "Total Points": 473,
@@ -739,10 +826,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 118,
       "Woodland Run": 0,
-      "Chester Bowl": 121
+      "Chester Bowl": 121,
+      "Test Race": 0
     },
     {
-      "Place": 35,
+      "Place": 37,
       "Gender": "M",
       "Name": "Matt L Johnson",
       "Total Points": 473,
@@ -752,10 +840,11 @@
       "Spirit Mountain": 124,
       "Billings Drive": 121,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 36,
+      "Place": 38,
       "Gender": "M",
       "Name": "Matthew Henderson",
       "Total Points": 471,
@@ -765,20 +854,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 93,
       "Woodland Run": 85,
-      "Chester Bowl": 87
-    },
-    {
-      "Place": 37,
-      "Gender": "M",
-      "Name": "Leif DeVaney",
-      "Total Points": 464,
-      "Bonus": 25,
-      "Bear Creek": "[78]",
-      "Point Pine": 84,
-      "Spirit Mountain": 104,
-      "Billings Drive": 91,
-      "Woodland Run": 80,
-      "Chester Bowl": 80
+      "Chester Bowl": 87,
+      "Test Race": 0
     },
     {
       "Place": 19,
@@ -791,7 +868,8 @@
       "Spirit Mountain": 130,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 111
+      "Chester Bowl": 111,
+      "Test Race": 0
     },
     {
       "Place": 20,
@@ -804,10 +882,11 @@
       "Spirit Mountain": 131,
       "Billings Drive": 0,
       "Woodland Run": 101,
-      "Chester Bowl": 110
+      "Chester Bowl": 110,
+      "Test Race": 0
     },
     {
-      "Place": 38,
+      "Place": 39,
       "Gender": "M",
       "Name": "Austin Willoughby",
       "Total Points": 443,
@@ -817,7 +896,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 117,
       "Woodland Run": 88,
-      "Chester Bowl": 108
+      "Chester Bowl": 108,
+      "Test Race": 0
     },
     {
       "Place": 21,
@@ -830,20 +910,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 148,
-      "Chester Bowl": 145
-    },
-    {
-      "Place": 39,
-      "Gender": "M",
-      "Name": "Jarrow Wahman",
-      "Total Points": 436,
-      "Bonus": 25,
-      "Bear Creek": "[65]",
-      "Point Pine": 73,
-      "Spirit Mountain": 104,
-      "Billings Drive": 87,
-      "Woodland Run": 73,
-      "Chester Bowl": 74
+      "Chester Bowl": 145,
+      "Test Race": 0
     },
     {
       "Place": 22,
@@ -856,7 +924,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 143
+      "Chester Bowl": 143,
+      "Test Race": 0
     },
     {
       "Place": 40,
@@ -869,7 +938,8 @@
       "Spirit Mountain": 148,
       "Billings Drive": 0,
       "Woodland Run": 136,
-      "Chester Bowl": 148
+      "Chester Bowl": 148,
+      "Test Race": 0
     },
     {
       "Place": 41,
@@ -882,7 +952,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 142,
       "Woodland Run": 0,
-      "Chester Bowl": 142
+      "Chester Bowl": 142,
+      "Test Race": 0
     },
     {
       "Place": 42,
@@ -895,7 +966,8 @@
       "Spirit Mountain": 144,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 23,
@@ -908,7 +980,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 138,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 43,
@@ -921,7 +994,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 90,
       "Woodland Run": 83,
-      "Chester Bowl": 81
+      "Chester Bowl": 81,
+      "Test Race": 0
     },
     {
       "Place": 24,
@@ -934,7 +1008,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 140
+      "Chester Bowl": 140,
+      "Test Race": 0
     },
     {
       "Place": 44,
@@ -947,7 +1022,8 @@
       "Spirit Mountain": 138,
       "Billings Drive": 0,
       "Woodland Run": 133,
-      "Chester Bowl": 138
+      "Chester Bowl": 138,
+      "Test Race": 0
     },
     {
       "Place": 45,
@@ -960,7 +1036,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 100,
-      "Chester Bowl": 99
+      "Chester Bowl": 99,
+      "Test Race": 0
     },
     {
       "Place": 46,
@@ -973,7 +1050,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 109,
-      "Chester Bowl": 74
+      "Chester Bowl": 74,
+      "Test Race": 0
     },
     {
       "Place": 47,
@@ -986,7 +1064,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 102,
       "Woodland Run": 0,
-      "Chester Bowl": 85
+      "Chester Bowl": 85,
+      "Test Race": 0
     },
     {
       "Place": 48,
@@ -999,7 +1078,8 @@
       "Spirit Mountain": 137,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 49,
@@ -1012,7 +1092,8 @@
       "Spirit Mountain": 123,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 127
+      "Chester Bowl": 127,
+      "Test Race": 0
     },
     {
       "Place": 50,
@@ -1025,7 +1106,8 @@
       "Spirit Mountain": 106,
       "Billings Drive": 96,
       "Woodland Run": 99,
-      "Chester Bowl": 98
+      "Chester Bowl": 98,
+      "Test Race": 0
     },
     {
       "Place": 25,
@@ -1038,7 +1120,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 145,
       "Woodland Run": 145,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 26,
@@ -1051,7 +1134,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 141,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 27,
@@ -1064,7 +1148,8 @@
       "Spirit Mountain": 136,
       "Billings Drive": 135,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 51,
@@ -1077,7 +1162,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 110,
       "Woodland Run": 0,
-      "Chester Bowl": 83
+      "Chester Bowl": 83,
+      "Test Race": 0
     },
     {
       "Place": 52,
@@ -1090,7 +1176,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 82,
-      "Chester Bowl": 101
+      "Chester Bowl": 101,
+      "Test Race": 0
     },
     {
       "Place": 53,
@@ -1103,7 +1190,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 109,
       "Woodland Run": 90,
-      "Chester Bowl": 92
+      "Chester Bowl": 92,
+      "Test Race": 0
     },
     {
       "Place": 54,
@@ -1116,7 +1204,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 111,
       "Woodland Run": 0,
-      "Chester Bowl": 93
+      "Chester Bowl": 93,
+      "Test Race": 0
     },
     {
       "Place": 28,
@@ -1129,7 +1218,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 132
+      "Chester Bowl": 132,
+      "Test Race": 0
     },
     {
       "Place": 29,
@@ -1142,7 +1232,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 119,
-      "Chester Bowl": 134
+      "Chester Bowl": 134,
+      "Test Race": 0
     },
     {
       "Place": 30,
@@ -1155,7 +1246,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 121,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 31,
@@ -1168,7 +1260,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 130
+      "Chester Bowl": 130,
+      "Test Race": 0
     },
     {
       "Place": 32,
@@ -1181,7 +1274,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 133,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 55,
@@ -1194,7 +1288,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 125,
       "Woodland Run": 121,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 56,
@@ -1207,7 +1302,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 122,
       "Woodland Run": 124,
-      "Chester Bowl": 126
+      "Chester Bowl": 126,
+      "Test Race": 0
     },
     {
       "Place": 33,
@@ -1220,7 +1316,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 137
+      "Chester Bowl": 137,
+      "Test Race": 0
     },
     {
       "Place": 34,
@@ -1233,7 +1330,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 130,
-      "Chester Bowl": 131
+      "Chester Bowl": 131,
+      "Test Race": 0
     },
     {
       "Place": 57,
@@ -1246,7 +1344,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 129,
       "Woodland Run": 103,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 35,
@@ -1259,7 +1358,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 131,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 58,
@@ -1272,7 +1372,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 94,
       "Woodland Run": 74,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 59,
@@ -1285,7 +1386,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 89,
-      "Chester Bowl": 90
+      "Chester Bowl": 90,
+      "Test Race": 0
     },
     {
       "Place": 60,
@@ -1298,7 +1400,8 @@
       "Spirit Mountain": 111,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 36,
@@ -1311,7 +1414,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 122,
       "Woodland Run": 110,
-      "Chester Bowl": 117
+      "Chester Bowl": 117,
+      "Test Race": 0
     },
     {
       "Place": 37,
@@ -1324,7 +1428,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 120,
-      "Chester Bowl": 110
+      "Chester Bowl": 110,
+      "Test Race": 0
     },
     {
       "Place": 61,
@@ -1337,7 +1442,8 @@
       "Spirit Mountain": 102,
       "Billings Drive": 0,
       "Woodland Run": 73,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 62,
@@ -1350,7 +1456,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 120,
       "Woodland Run": 110,
-      "Chester Bowl": 103
+      "Chester Bowl": 103,
+      "Test Race": 0
     },
     {
       "Place": 63,
@@ -1363,7 +1470,8 @@
       "Spirit Mountain": 112,
       "Billings Drive": 113,
       "Woodland Run": 107,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 64,
@@ -1376,7 +1484,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 88,
       "Woodland Run": 0,
-      "Chester Bowl": 109
+      "Chester Bowl": 109,
+      "Test Race": 0
     },
     {
       "Place": 65,
@@ -1389,7 +1498,22 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 150,
-      "Chester Bowl": 150
+      "Chester Bowl": 150,
+      "Test Race": 0
+    },
+    {
+      "Place": 3,
+      "Gender": "X",
+      "Name": "Jamie Mx",
+      "Total Points": 298,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Point Pine": 0,
+      "Spirit Mountain": 0,
+      "Billings Drive": 0,
+      "Woodland Run": 0,
+      "Chester Bowl": 0,
+      "Test Race": 298
     },
     {
       "Place": 66,
@@ -1402,7 +1526,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 102
+      "Chester Bowl": 102,
+      "Test Race": 0
     },
     {
       "Place": 67,
@@ -1415,7 +1540,8 @@
       "Spirit Mountain": 146,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 38,
@@ -1428,7 +1554,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 139,
       "Woodland Run": 139,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 68,
@@ -1441,7 +1568,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 101,
       "Woodland Run": 0,
-      "Chester Bowl": 86
+      "Chester Bowl": 86,
+      "Test Race": 0
     },
     {
       "Place": 69,
@@ -1454,7 +1582,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 137,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 39,
@@ -1467,7 +1596,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 138,
       "Woodland Run": 137,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 70,
@@ -1480,7 +1610,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 99,
       "Woodland Run": 95,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 40,
@@ -1493,7 +1624,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 138
+      "Chester Bowl": 138,
+      "Test Race": 0
     },
     {
       "Place": 71,
@@ -1506,7 +1638,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 133
+      "Chester Bowl": 133,
+      "Test Race": 0
     },
     {
       "Place": 72,
@@ -1519,7 +1652,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 95,
       "Woodland Run": 87,
-      "Chester Bowl": 89
+      "Chester Bowl": 89,
+      "Test Race": 0
     },
     {
       "Place": 41,
@@ -1532,7 +1666,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 137,
       "Woodland Run": 129,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 73,
@@ -1545,7 +1680,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 123,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 74,
@@ -1558,7 +1694,8 @@
       "Spirit Mountain": 130,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 129
+      "Chester Bowl": 129,
+      "Test Race": 0
     },
     {
       "Place": 42,
@@ -1571,7 +1708,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 132,
       "Woodland Run": 126,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 75,
@@ -1584,7 +1722,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 143,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 76,
@@ -1597,7 +1736,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 113
+      "Chester Bowl": 113,
+      "Test Race": 0
     },
     {
       "Place": 77,
@@ -1610,7 +1750,8 @@
       "Spirit Mountain": 128,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 123
+      "Chester Bowl": 123,
+      "Test Race": 0
     },
     {
       "Place": 43,
@@ -1623,7 +1764,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 134,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 78,
@@ -1636,7 +1778,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 110
+      "Chester Bowl": 110,
+      "Test Race": 0
     },
     {
       "Place": 79,
@@ -1649,7 +1792,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 119
+      "Chester Bowl": 119,
+      "Test Race": 0
     },
     {
       "Place": 80,
@@ -1662,7 +1806,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 131,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 81,
@@ -1675,7 +1820,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 108,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 82,
@@ -1688,20 +1834,8 @@
       "Spirit Mountain": 110,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
-    },
-    {
-      "Place": 83,
-      "Gender": "M",
-      "Name": "Shannon Meehan",
-      "Total Points": 236,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Point Pine": 0,
-      "Spirit Mountain": 236,
-      "Billings Drive": 0,
-      "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 44,
@@ -1714,10 +1848,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 121,
       "Woodland Run": 0,
-      "Chester Bowl": 115
+      "Chester Bowl": 115,
+      "Test Race": 0
     },
     {
-      "Place": 84,
+      "Place": 83,
       "Gender": "M",
       "Name": "Dan Poquette",
       "Total Points": 236,
@@ -1727,10 +1862,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 122
+      "Chester Bowl": 122,
+      "Test Race": 0
     },
     {
-      "Place": 85,
+      "Place": 84,
       "Gender": "M",
       "Name": "Jonathan Nyhus",
       "Total Points": 235,
@@ -1740,7 +1876,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 114,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 45,
@@ -1753,23 +1890,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 116
+      "Chester Bowl": 116,
+      "Test Race": 0
     },
     {
-      "Place": 86,
-      "Gender": "M",
-      "Name": "Eric Chandler",
-      "Total Points": 232,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Point Pine": 0,
-      "Spirit Mountain": 232,
-      "Billings Drive": 0,
-      "Woodland Run": 0,
-      "Chester Bowl": 0
-    },
-    {
-      "Place": 87,
+      "Place": 85,
       "Gender": "M",
       "Name": "Dave Lane",
       "Total Points": 230,
@@ -1779,7 +1904,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 46,
@@ -1792,10 +1918,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 114,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 88,
+      "Place": 86,
       "Gender": "M",
       "Name": "Kerry Hanson",
       "Total Points": 229,
@@ -1805,7 +1932,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 115,
       "Woodland Run": 0,
-      "Chester Bowl": 114
+      "Chester Bowl": 114,
+      "Test Race": 0
     },
     {
       "Place": 47,
@@ -1818,7 +1946,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 112,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 48,
@@ -1831,7 +1960,8 @@
       "Spirit Mountain": 129,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 49,
@@ -1844,7 +1974,8 @@
       "Spirit Mountain": 129,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 50,
@@ -1857,10 +1988,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 104,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 89,
+      "Place": 87,
       "Gender": "M",
       "Name": "Paul Dallavia",
       "Total Points": 216,
@@ -1870,10 +2002,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 73,
-      "Chester Bowl": 74
+      "Chester Bowl": 74,
+      "Test Race": 0
     },
     {
-      "Place": 90,
+      "Place": 88,
       "Gender": "M",
       "Name": "Rick Revoir",
       "Total Points": 212,
@@ -1883,10 +2016,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 101,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 91,
+      "Place": 89,
       "Gender": "M",
       "Name": "Jan Madsen",
       "Total Points": 211,
@@ -1896,10 +2030,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 119,
       "Woodland Run": 92,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 92,
+      "Place": 90,
       "Gender": "M",
       "Name": "Kevin Winterfeldt",
       "Total Points": 209,
@@ -1909,7 +2044,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 51,
@@ -1922,7 +2058,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 129
+      "Chester Bowl": 129,
+      "Test Race": 0
     },
     {
       "Place": 52,
@@ -1935,10 +2072,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 98,
-      "Chester Bowl": 110
+      "Chester Bowl": 110,
+      "Test Race": 0
     },
     {
-      "Place": 93,
+      "Place": 91,
       "Gender": "M",
       "Name": "Cole Bower",
       "Total Points": 206,
@@ -1948,7 +2086,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 53,
@@ -1961,10 +2100,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 94,
+      "Place": 92,
       "Gender": "M",
       "Name": "Joe Krasselt",
       "Total Points": 200,
@@ -1974,10 +2114,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 103,
       "Woodland Run": 97,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 95,
+      "Place": 93,
       "Gender": "M",
       "Name": "Tim Staub",
       "Total Points": 200,
@@ -1987,10 +2128,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 111
+      "Chester Bowl": 111,
+      "Test Race": 0
     },
     {
-      "Place": 96,
+      "Place": 94,
       "Gender": "M",
       "Name": "Kyle Anderson",
       "Total Points": 198,
@@ -2000,10 +2142,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 105,
       "Woodland Run": 93,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 97,
+      "Place": 95,
       "Gender": "M",
       "Name": "Joe Barnstorf",
       "Total Points": 197,
@@ -2013,10 +2156,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 98,
+      "Place": 96,
       "Gender": "M",
       "Name": "Ryan Bauer",
       "Total Points": 196,
@@ -2026,10 +2170,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 107,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 99,
+      "Place": 97,
       "Gender": "M",
       "Name": "John Glesener",
       "Total Points": 196,
@@ -2039,7 +2184,8 @@
       "Spirit Mountain": 102,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 54,
@@ -2052,7 +2198,8 @@
       "Spirit Mountain": 129,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 55,
@@ -2065,7 +2212,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 56,
@@ -2078,7 +2226,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 57,
@@ -2091,7 +2240,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 115,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 58,
@@ -2104,10 +2254,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 100,
+      "Place": 98,
       "Gender": "M",
       "Name": "Kellen Preiner",
       "Total Points": 180,
@@ -2117,10 +2268,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 92,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 101,
+      "Place": 99,
       "Gender": "M",
       "Name": "Shawn Roberts",
       "Total Points": 180,
@@ -2130,10 +2282,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 100,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 102,
+      "Place": 100,
       "Gender": "M",
       "Name": "James Scott Kliegle",
       "Total Points": 179,
@@ -2143,10 +2296,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 78
+      "Chester Bowl": 78,
+      "Test Race": 0
     },
     {
-      "Place": 103,
+      "Place": 101,
       "Gender": "M",
       "Name": "Nikolai Anikin",
       "Total Points": 177,
@@ -2156,10 +2310,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 97,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 104,
+      "Place": 102,
       "Gender": "M",
       "Name": "Kris Glesener",
       "Total Points": 167,
@@ -2169,10 +2324,11 @@
       "Spirit Mountain": 102,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 105,
+      "Place": 103,
       "Gender": "M",
       "Name": "Tim Schovein",
       "Total Points": 159,
@@ -2182,10 +2338,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 77,
-      "Chester Bowl": 82
+      "Chester Bowl": 82,
+      "Test Race": 0
     },
     {
-      "Place": 106,
+      "Place": 104,
       "Gender": "M",
       "Name": "Jake Patton",
       "Total Points": 158,
@@ -2195,10 +2352,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 77
+      "Chester Bowl": 77,
+      "Test Race": 0
     },
     {
-      "Place": 107,
+      "Place": 105,
       "Gender": "M",
       "Name": "Andrew Papke-Larson",
       "Total Points": 150,
@@ -2208,7 +2366,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 59,
@@ -2221,10 +2380,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 108,
+      "Place": 106,
       "Gender": "M",
       "Name": "John Curley",
       "Total Points": 150,
@@ -2234,10 +2394,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 150,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 109,
+      "Place": 107,
       "Gender": "M",
       "Name": "Tim Bontrager",
       "Total Points": 150,
@@ -2247,10 +2408,53 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 110,
+      "Place": 4,
+      "Gender": "X",
+      "Name": "Jamie Test 4",
+      "Total Points": 150,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Point Pine": 0,
+      "Spirit Mountain": 0,
+      "Billings Drive": 0,
+      "Woodland Run": 0,
+      "Chester Bowl": 0,
+      "Test Race": 150
+    },
+    {
+      "Place": 60,
+      "Gender": "W",
+      "Name": "Jamie Test 5",
+      "Total Points": 150,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Point Pine": 0,
+      "Spirit Mountain": 0,
+      "Billings Drive": 0,
+      "Woodland Run": 0,
+      "Chester Bowl": 0,
+      "Test Race": 150
+    },
+    {
+      "Place": 108,
+      "Gender": "M",
+      "Name": "Jamie Test 6",
+      "Total Points": 150,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Point Pine": 0,
+      "Spirit Mountain": 0,
+      "Billings Drive": 0,
+      "Woodland Run": 0,
+      "Chester Bowl": 0,
+      "Test Race": 150
+    },
+    {
+      "Place": 109,
       "Gender": "M",
       "Name": "Landen Harwood",
       "Total Points": 149,
@@ -2260,10 +2464,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 111,
+      "Place": 110,
       "Gender": "M",
       "Name": "Jake Searl",
       "Total Points": 149,
@@ -2273,10 +2478,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 112,
+      "Place": 111,
       "Gender": "M",
       "Name": "Nicholas Miller",
       "Total Points": 149,
@@ -2286,10 +2492,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 113,
+      "Place": 112,
       "Gender": "M",
       "Name": "Jakob Wartman",
       "Total Points": 149,
@@ -2299,10 +2506,11 @@
       "Spirit Mountain": 149,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 60,
+      "Place": 61,
       "Gender": "W",
       "Name": "Rychelle DeNardo",
       "Total Points": 149,
@@ -2312,7 +2520,22 @@
       "Spirit Mountain": 149,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
+    },
+    {
+      "Place": 113,
+      "Gender": "M",
+      "Name": "Jamie Wm",
+      "Total Points": 149,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Point Pine": 0,
+      "Spirit Mountain": 0,
+      "Billings Drive": 0,
+      "Woodland Run": 0,
+      "Chester Bowl": 0,
+      "Test Race": 149
     },
     {
       "Place": 114,
@@ -2325,10 +2548,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 148,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 61,
+      "Place": 62,
       "Gender": "W",
       "Name": "Liesl Cope-Schaeffer",
       "Total Points": 147,
@@ -2338,10 +2562,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 147,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 62,
+      "Place": 63,
       "Gender": "W",
       "Name": "Elizabeth Kyes",
       "Total Points": 147,
@@ -2351,10 +2576,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 63,
+      "Place": 64,
       "Gender": "W",
       "Name": "Rochelle Wirth",
       "Total Points": 146,
@@ -2364,10 +2590,11 @@
       "Spirit Mountain": 146,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 64,
+      "Place": 65,
       "Gender": "W",
       "Name": "Courtney Donahoe",
       "Total Points": 146,
@@ -2377,10 +2604,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 146
+      "Chester Bowl": 146,
+      "Test Race": 0
     },
     {
-      "Place": 65,
+      "Place": 66,
       "Gender": "W",
       "Name": "Shannon Hogan",
       "Total Points": 144,
@@ -2390,7 +2618,8 @@
       "Spirit Mountain": 144,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 115,
@@ -2403,7 +2632,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 116,
@@ -2416,10 +2646,11 @@
       "Spirit Mountain": 142,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 66,
+      "Place": 67,
       "Gender": "W",
       "Name": "Tristin Paige",
       "Total Points": 142,
@@ -2429,10 +2660,11 @@
       "Spirit Mountain": 142,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 67,
+      "Place": 68,
       "Gender": "W",
       "Name": "Ellie Rosenberg",
       "Total Points": 142,
@@ -2442,10 +2674,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 142,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 68,
+      "Place": 69,
       "Gender": "W",
       "Name": "Heather Danckwart",
       "Total Points": 142,
@@ -2455,10 +2688,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 142,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 69,
+      "Place": 70,
       "Gender": "W",
       "Name": "Mikaela Hetchler",
       "Total Points": 141,
@@ -2468,10 +2702,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 70,
+      "Place": 71,
       "Gender": "W",
       "Name": "Kelly Leal",
       "Total Points": 140,
@@ -2481,7 +2716,8 @@
       "Spirit Mountain": 140,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 117,
@@ -2494,10 +2730,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 140
+      "Chester Bowl": 140,
+      "Test Race": 0
     },
     {
-      "Place": 71,
+      "Place": 72,
       "Gender": "W",
       "Name": "Steph Olson",
       "Total Points": 139,
@@ -2507,7 +2744,8 @@
       "Spirit Mountain": 139,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 118,
@@ -2520,7 +2758,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 139,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 119,
@@ -2533,10 +2772,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 139
+      "Chester Bowl": 139,
+      "Test Race": 0
     },
     {
-      "Place": 72,
+      "Place": 73,
       "Gender": "W",
       "Name": "Leslie Semler",
       "Total Points": 139,
@@ -2546,10 +2786,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 139
+      "Chester Bowl": 139,
+      "Test Race": 0
     },
     {
-      "Place": 73,
+      "Place": 74,
       "Gender": "W",
       "Name": "Ashley Siebert",
       "Total Points": 138,
@@ -2559,7 +2800,8 @@
       "Spirit Mountain": 138,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 120,
@@ -2572,10 +2814,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 74,
+      "Place": 75,
       "Gender": "W",
       "Name": "Ellie Grossman",
       "Total Points": 137,
@@ -2585,7 +2828,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 121,
@@ -2598,7 +2842,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 137,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 122,
@@ -2611,10 +2856,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 137
+      "Chester Bowl": 137,
+      "Test Race": 0
     },
     {
-      "Place": 75,
+      "Place": 76,
       "Gender": "W",
       "Name": "Caitlin McConaghy",
       "Total Points": 136,
@@ -2624,10 +2870,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 136,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 76,
+      "Place": 77,
       "Gender": "W",
       "Name": "Milla Beldo",
       "Total Points": 136,
@@ -2637,7 +2884,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 136,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 123,
@@ -2650,10 +2898,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 77,
+      "Place": 78,
       "Gender": "W",
       "Name": "Tonya O'Connor",
       "Total Points": 135,
@@ -2663,10 +2912,11 @@
       "Spirit Mountain": 135,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 78,
+      "Place": 79,
       "Gender": "W",
       "Name": "Kelsey Raddawi",
       "Total Points": 135,
@@ -2676,10 +2926,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 135,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 79,
+      "Place": 80,
       "Gender": "W",
       "Name": "Megan Lessard",
       "Total Points": 135,
@@ -2689,7 +2940,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 135
+      "Chester Bowl": 135,
+      "Test Race": 0
     },
     {
       "Place": 124,
@@ -2702,7 +2954,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 125,
@@ -2715,7 +2968,8 @@
       "Spirit Mountain": 134,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 126,
@@ -2728,10 +2982,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 80,
+      "Place": 81,
       "Gender": "W",
       "Name": "Hallie Miller",
       "Total Points": 133,
@@ -2741,10 +2996,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 133,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 81,
+      "Place": 82,
       "Gender": "W",
       "Name": "Brynn Olsen",
       "Total Points": 133,
@@ -2754,7 +3010,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 133
+      "Chester Bowl": 133,
+      "Test Race": 0
     },
     {
       "Place": 127,
@@ -2767,7 +3024,8 @@
       "Spirit Mountain": 132,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 128,
@@ -2780,10 +3038,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 132,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 82,
+      "Place": 83,
       "Gender": "W",
       "Name": "Greta James",
       "Total Points": 132,
@@ -2793,10 +3052,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 132,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 83,
+      "Place": 84,
       "Gender": "W",
       "Name": "Betsy James",
       "Total Points": 131,
@@ -2806,10 +3066,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 131,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 84,
+      "Place": 85,
       "Gender": "W",
       "Name": "Caitlan Richard",
       "Total Points": 131,
@@ -2819,10 +3080,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 85,
+      "Place": 86,
       "Gender": "W",
       "Name": "Theresa Bauer",
       "Total Points": 130,
@@ -2832,10 +3094,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 130,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 86,
+      "Place": 87,
       "Gender": "W",
       "Name": "Jessica Feierabend",
       "Total Points": 130,
@@ -2845,10 +3108,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 87,
+      "Place": 88,
       "Gender": "W",
       "Name": "Annette Johnson",
       "Total Points": 129,
@@ -2858,10 +3122,11 @@
       "Spirit Mountain": 129,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 88,
+      "Place": 89,
       "Gender": "W",
       "Name": "Karen McKagon",
       "Total Points": 129,
@@ -2871,10 +3136,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 129,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 89,
+      "Place": 90,
       "Gender": "W",
       "Name": "Ann Farley",
       "Total Points": 128,
@@ -2884,10 +3150,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 128,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 90,
+      "Place": 91,
       "Gender": "W",
       "Name": "Emily Johnson",
       "Total Points": 128,
@@ -2897,10 +3164,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 128
+      "Chester Bowl": 128,
+      "Test Race": 0
     },
     {
-      "Place": 91,
+      "Place": 92,
       "Gender": "W",
       "Name": "Katy Jahr",
       "Total Points": 128,
@@ -2910,7 +3178,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 129,
@@ -2923,7 +3192,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 130,
@@ -2936,7 +3206,8 @@
       "Spirit Mountain": 127,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 131,
@@ -2949,7 +3220,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 127,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 132,
@@ -2962,10 +3234,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 127,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 92,
+      "Place": 93,
       "Gender": "W",
       "Name": "Jill Geyer",
       "Total Points": 127,
@@ -2975,10 +3248,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 127,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 93,
+      "Place": 94,
       "Gender": "W",
       "Name": "Catherine Long",
       "Total Points": 127,
@@ -2988,7 +3262,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 127
+      "Chester Bowl": 127,
+      "Test Race": 0
     },
     {
       "Place": 133,
@@ -3001,7 +3276,8 @@
       "Spirit Mountain": 126,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 134,
@@ -3014,7 +3290,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 126,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 135,
@@ -3027,10 +3304,11 @@
       "Spirit Mountain": 125,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 94,
+      "Place": 95,
       "Gender": "W",
       "Name": "Rita Kuzko",
       "Total Points": 125,
@@ -3040,10 +3318,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 125,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 95,
+      "Place": 96,
       "Gender": "W",
       "Name": "Nicole Popp",
       "Total Points": 125,
@@ -3053,7 +3332,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 125
+      "Chester Bowl": 125,
+      "Test Race": 0
     },
     {
       "Place": 136,
@@ -3066,10 +3346,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 96,
+      "Place": 97,
       "Gender": "W",
       "Name": "Mak Robertson",
       "Total Points": 125,
@@ -3079,7 +3360,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 137,
@@ -3092,10 +3374,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 97,
+      "Place": 98,
       "Gender": "W",
       "Name": "Erne Habegger McCabe",
       "Total Points": 124,
@@ -3105,10 +3388,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 124,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 98,
+      "Place": 99,
       "Gender": "W",
       "Name": "Addison Kyte",
       "Total Points": 124,
@@ -3118,10 +3402,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 124,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 99,
+      "Place": 100,
       "Gender": "W",
       "Name": "Natalie Hagstrom",
       "Total Points": 124,
@@ -3131,10 +3416,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 100,
+      "Place": 101,
       "Gender": "W",
       "Name": "Reilly Moberg",
       "Total Points": 123,
@@ -3144,10 +3430,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 123,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 101,
+      "Place": 102,
       "Gender": "W",
       "Name": "Viola Cogger",
       "Total Points": 123,
@@ -3157,10 +3444,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 123,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 102,
+      "Place": 103,
       "Gender": "W",
       "Name": "Mila Conant",
       "Total Points": 123,
@@ -3170,7 +3458,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 123
+      "Chester Bowl": 123,
+      "Test Race": 0
     },
     {
       "Place": 138,
@@ -3183,7 +3472,8 @@
       "Spirit Mountain": 122,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
       "Place": 139,
@@ -3196,10 +3486,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 122,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 103,
+      "Place": 104,
       "Gender": "W",
       "Name": "Aimee Foster",
       "Total Points": 122,
@@ -3209,10 +3500,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 122,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 104,
+      "Place": 105,
       "Gender": "W",
       "Name": "Ella Heaton",
       "Total Points": 121,
@@ -3222,10 +3514,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 105,
+      "Place": 106,
       "Gender": "W",
       "Name": "Lula Sanborn",
       "Total Points": 121,
@@ -3235,10 +3528,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 121
+      "Chester Bowl": 121,
+      "Test Race": 0
     },
     {
-      "Place": 106,
+      "Place": 107,
       "Gender": "W",
       "Name": "Michele Reinke",
       "Total Points": 120,
@@ -3248,7 +3542,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 120
+      "Chester Bowl": 120,
+      "Test Race": 0
     },
     {
       "Place": 140,
@@ -3261,10 +3556,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 119,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 107,
+      "Place": 108,
       "Gender": "W",
       "Name": "Lacy Almonte",
       "Total Points": 119,
@@ -3274,10 +3570,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 119
+      "Chester Bowl": 119,
+      "Test Race": 0
     },
     {
-      "Place": 108,
+      "Place": 109,
       "Gender": "W",
       "Name": "Kay Ann Larsen",
       "Total Points": 118,
@@ -3287,10 +3584,25 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 109,
+      "Place": 141,
+      "Gender": "M",
+      "Name": "Shannon Meehan",
+      "Total Points": 118,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Point Pine": 0,
+      "Spirit Mountain": 118,
+      "Billings Drive": 0,
+      "Woodland Run": 0,
+      "Chester Bowl": 0,
+      "Test Race": 0
+    },
+    {
+      "Place": 110,
       "Gender": "W",
       "Name": "Katie Oja",
       "Total Points": 118,
@@ -3300,10 +3612,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 118,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 141,
+      "Place": 142,
       "Gender": "M",
       "Name": "Brad Evraets",
       "Total Points": 118,
@@ -3313,10 +3626,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 118,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 110,
+      "Place": 111,
       "Gender": "W",
       "Name": "Aimee Bannwarth",
       "Total Points": 118,
@@ -3326,10 +3640,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 118,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 111,
+      "Place": 112,
       "Gender": "W",
       "Name": "Briana Patton",
       "Total Points": 118,
@@ -3339,10 +3654,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 118
+      "Chester Bowl": 118,
+      "Test Race": 0
     },
     {
-      "Place": 112,
+      "Place": 113,
       "Gender": "W",
       "Name": "Mandy Meyer",
       "Total Points": 117,
@@ -3352,10 +3668,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 117,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 113,
+      "Place": 114,
       "Gender": "W",
       "Name": "Anna Keto",
       "Total Points": 117,
@@ -3365,10 +3682,25 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 117,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 114,
+      "Place": 143,
+      "Gender": "M",
+      "Name": "Eric Chandler",
+      "Total Points": 116,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Point Pine": 0,
+      "Spirit Mountain": 116,
+      "Billings Drive": 0,
+      "Woodland Run": 0,
+      "Chester Bowl": 0,
+      "Test Race": 0
+    },
+    {
+      "Place": 115,
       "Gender": "W",
       "Name": "Alia B",
       "Total Points": 116,
@@ -3378,10 +3710,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 116,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 115,
+      "Place": 116,
       "Gender": "W",
       "Name": "Jacey Kufahl",
       "Total Points": 116,
@@ -3391,10 +3724,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 116,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 142,
+      "Place": 144,
       "Gender": "M",
       "Name": "Matt Nixon",
       "Total Points": 115,
@@ -3404,10 +3738,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 115
+      "Chester Bowl": 115,
+      "Test Race": 0
     },
     {
-      "Place": 116,
+      "Place": 117,
       "Gender": "W",
       "Name": "Taylor O'Brien",
       "Total Points": 114,
@@ -3417,10 +3752,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 117,
+      "Place": 118,
       "Gender": "W",
       "Name": "Deb Powers",
       "Total Points": 113,
@@ -3430,10 +3766,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 118,
+      "Place": 119,
       "Gender": "W",
       "Name": "Lynn Saari",
       "Total Points": 112,
@@ -3443,10 +3780,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 143,
+      "Place": 145,
       "Gender": "M",
       "Name": "Max Maas",
       "Total Points": 112,
@@ -3456,10 +3794,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 112,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 119,
+      "Place": 120,
       "Gender": "W",
       "Name": "Alena Krauss",
       "Total Points": 112,
@@ -3469,10 +3808,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 112
+      "Chester Bowl": 112,
+      "Test Race": 0
     },
     {
-      "Place": 144,
+      "Place": 146,
       "Gender": "M",
       "Name": "Andy Roberts",
       "Total Points": 112,
@@ -3482,10 +3822,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 120,
+      "Place": 121,
       "Gender": "W",
       "Name": "Larissa Fossum",
       "Total Points": 111,
@@ -3495,10 +3836,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 121,
+      "Place": 122,
       "Gender": "W",
       "Name": "Traci Scott",
       "Total Points": 110,
@@ -3508,10 +3850,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 122,
+      "Place": 123,
       "Gender": "W",
       "Name": "Barb Curnow",
       "Total Points": 110,
@@ -3521,10 +3864,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 110
+      "Chester Bowl": 110,
+      "Test Race": 0
     },
     {
-      "Place": 123,
+      "Place": 124,
       "Gender": "W",
       "Name": "Kaelyn Williams",
       "Total Points": 110,
@@ -3534,10 +3878,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 110
+      "Chester Bowl": 110,
+      "Test Race": 0
     },
     {
-      "Place": 124,
+      "Place": 125,
       "Gender": "W",
       "Name": "Kim Holak",
       "Total Points": 110,
@@ -3547,10 +3892,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 110
+      "Chester Bowl": 110,
+      "Test Race": 0
     },
     {
-      "Place": 125,
+      "Place": 126,
       "Gender": "W",
       "Name": "Anika Burke",
       "Total Points": 109,
@@ -3560,10 +3906,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 109,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 126,
+      "Place": 127,
       "Gender": "W",
       "Name": "Yvette Maijala",
       "Total Points": 108,
@@ -3573,10 +3920,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 127,
+      "Place": 128,
       "Gender": "W",
       "Name": "Kim Carlin",
       "Total Points": 107,
@@ -3586,10 +3934,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 145,
+      "Place": 147,
       "Gender": "M",
       "Name": "Logan Tillman",
       "Total Points": 106,
@@ -3599,10 +3948,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 128,
+      "Place": 129,
       "Gender": "W",
       "Name": "Cori Drickhamer",
       "Total Points": 106,
@@ -3612,10 +3962,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 106,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 146,
+      "Place": 148,
       "Gender": "M",
       "Name": "Cameron Bruce",
       "Total Points": 106,
@@ -3625,10 +3976,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 106
+      "Chester Bowl": 106,
+      "Test Race": 0
     },
     {
-      "Place": 129,
+      "Place": 130,
       "Gender": "W",
       "Name": "Laura Selden",
       "Total Points": 105,
@@ -3638,10 +3990,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 147,
+      "Place": 149,
       "Gender": "M",
       "Name": "Steve Hagedorn",
       "Total Points": 105,
@@ -3651,10 +4004,11 @@
       "Spirit Mountain": 105,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 148,
+      "Place": 150,
       "Gender": "M",
       "Name": "Jason Chrudimsky",
       "Total Points": 105,
@@ -3664,10 +4018,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 105,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 130,
+      "Place": 131,
       "Gender": "W",
       "Name": "Brooke Hedlund",
       "Total Points": 105,
@@ -3677,10 +4032,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 105,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 149,
+      "Place": 151,
       "Gender": "M",
       "Name": "Drew Guttormson",
       "Total Points": 105,
@@ -3690,10 +4046,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 105
+      "Chester Bowl": 105,
+      "Test Race": 0
     },
     {
-      "Place": 131,
+      "Place": 132,
       "Gender": "W",
       "Name": "Mandy Kauffman",
       "Total Points": 104,
@@ -3703,10 +4060,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 150,
+      "Place": 152,
       "Gender": "M",
       "Name": "Chris Dahlberg",
       "Total Points": 104,
@@ -3716,10 +4074,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 104,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 151,
+      "Place": 153,
       "Gender": "M",
       "Name": "Joe Granger",
       "Total Points": 104,
@@ -3729,10 +4088,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 104
+      "Chester Bowl": 104,
+      "Test Race": 0
     },
     {
-      "Place": 152,
+      "Place": 154,
       "Gender": "M",
       "Name": "Zane Webber",
       "Total Points": 103,
@@ -3742,10 +4102,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 132,
+      "Place": 133,
       "Gender": "W",
       "Name": "Liz Wahman",
       "Total Points": 103,
@@ -3755,10 +4116,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 103,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 133,
+      "Place": 134,
       "Gender": "W",
       "Name": "Bri Ditzler",
       "Total Points": 102,
@@ -3768,10 +4130,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 153,
+      "Place": 155,
       "Gender": "M",
       "Name": "Gary Lepisto",
       "Total Points": 102,
@@ -3781,10 +4144,11 @@
       "Spirit Mountain": 102,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 154,
+      "Place": 156,
       "Gender": "M",
       "Name": "Daryl Saari",
       "Total Points": 99,
@@ -3794,10 +4158,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 134,
+      "Place": 135,
       "Gender": "W",
       "Name": "Jordan Sandal",
       "Total Points": 99,
@@ -3807,10 +4172,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 99,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 135,
+      "Place": 136,
       "Gender": "W",
       "Name": "Bella Larson",
       "Total Points": 98,
@@ -3820,10 +4186,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 155,
+      "Place": 157,
       "Gender": "M",
       "Name": "Nick Terwey",
       "Total Points": 98,
@@ -3833,10 +4200,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 156,
+      "Place": 158,
       "Gender": "M",
       "Name": "Jacob Duric",
       "Total Points": 97,
@@ -3846,10 +4214,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 157,
+      "Place": 159,
       "Gender": "M",
       "Name": "Rudy O'Brien",
       "Total Points": 97,
@@ -3859,10 +4228,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 97
+      "Chester Bowl": 97,
+      "Test Race": 0
     },
     {
-      "Place": 158,
+      "Place": 160,
       "Gender": "M",
       "Name": "Adam Erie",
       "Total Points": 97,
@@ -3872,10 +4242,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 159,
+      "Place": 161,
       "Gender": "M",
       "Name": "Kenneth Shea",
       "Total Points": 96,
@@ -3885,10 +4256,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 96,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 160,
+      "Place": 162,
       "Gender": "M",
       "Name": "Clay Taintor",
       "Total Points": 95,
@@ -3898,10 +4270,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 161,
+      "Place": 163,
       "Gender": "M",
       "Name": "Chad Wilson",
       "Total Points": 95,
@@ -3911,10 +4284,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 95
+      "Chester Bowl": 95,
+      "Test Race": 0
     },
     {
-      "Place": 162,
+      "Place": 164,
       "Gender": "M",
       "Name": "August Walheim",
       "Total Points": 94,
@@ -3924,10 +4298,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 136,
+      "Place": 137,
       "Gender": "W",
       "Name": "Olivia Byrns",
       "Total Points": 92,
@@ -3937,10 +4312,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 163,
+      "Place": 165,
       "Gender": "M",
       "Name": "Mike McNulty",
       "Total Points": 92,
@@ -3950,10 +4326,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 137,
+      "Place": 138,
       "Gender": "W",
       "Name": "Chloe Eckstein",
       "Total Points": 91,
@@ -3963,10 +4340,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 164,
+      "Place": 166,
       "Gender": "M",
       "Name": "Jesse Coenen",
       "Total Points": 91,
@@ -3976,10 +4354,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 91,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 138,
+      "Place": 139,
       "Gender": "W",
       "Name": "Ashe Berton",
       "Total Points": 90,
@@ -3989,10 +4368,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 165,
+      "Place": 167,
       "Gender": "M",
       "Name": "Josiah Burrell",
       "Total Points": 89,
@@ -4002,10 +4382,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 89,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 166,
+      "Place": 168,
       "Gender": "M",
       "Name": "Henry Rodman",
       "Total Points": 88,
@@ -4015,10 +4396,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 88
+      "Chester Bowl": 88,
+      "Test Race": 0
     },
     {
-      "Place": 167,
+      "Place": 169,
       "Gender": "M",
       "Name": "Nick Lindeke",
       "Total Points": 88,
@@ -4028,10 +4410,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 168,
+      "Place": 170,
       "Gender": "M",
       "Name": "Kevin Jahr",
       "Total Points": 87,
@@ -4041,10 +4424,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 139,
+      "Place": 140,
       "Gender": "W",
       "Name": "Ariel Apitz",
       "Total Points": 84,
@@ -4054,10 +4438,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 169,
+      "Place": 171,
       "Gender": "M",
       "Name": "S Gowtham",
       "Total Points": 83,
@@ -4067,10 +4452,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 140,
+      "Place": 141,
       "Gender": "W",
       "Name": "Elle TRUE",
       "Total Points": 81,
@@ -4080,10 +4466,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 170,
+      "Place": 172,
       "Gender": "M",
       "Name": "Joe Berndt",
       "Total Points": 81,
@@ -4093,10 +4480,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 81,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 171,
+      "Place": 173,
       "Gender": "M",
       "Name": "Jake Liang",
       "Total Points": 79,
@@ -4106,10 +4494,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 79,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 172,
+      "Place": 174,
       "Gender": "M",
       "Name": "Allen Sanborn",
       "Total Points": 79,
@@ -4119,10 +4508,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 79
+      "Chester Bowl": 79,
+      "Test Race": 0
     },
     {
-      "Place": 173,
+      "Place": 175,
       "Gender": "M",
       "Name": "Andrew Mayer",
       "Total Points": 78,
@@ -4132,10 +4522,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 78,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 174,
+      "Place": 176,
       "Gender": "M",
       "Name": "Gage Ritchie",
       "Total Points": 76,
@@ -4145,10 +4536,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 76,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 175,
+      "Place": 177,
       "Gender": "M",
       "Name": "Ian Devaney",
       "Total Points": 76,
@@ -4158,10 +4550,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 76
+      "Chester Bowl": 76,
+      "Test Race": 0
     },
     {
-      "Place": 141,
+      "Place": 142,
       "Gender": "W",
       "Name": "Lauren Gean",
       "Total Points": 75,
@@ -4171,10 +4564,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 176,
+      "Place": 178,
       "Gender": "M",
       "Name": "Michael Hedlund",
       "Total Points": 75,
@@ -4184,10 +4578,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 75,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 177,
+      "Place": 179,
       "Gender": "M",
       "Name": "Jamie Dowds",
       "Total Points": 75,
@@ -4197,10 +4592,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 75
+      "Chester Bowl": 75,
+      "Test Race": 0
     },
     {
-      "Place": 178,
+      "Place": 180,
       "Gender": "M",
       "Name": "Keir Goetzelt",
       "Total Points": 75,
@@ -4210,10 +4606,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 142,
+      "Place": 143,
       "Gender": "W",
       "Name": "Elizabeth Johnson",
       "Total Points": 71,
@@ -4223,10 +4620,11 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     },
     {
-      "Place": 143,
+      "Place": 144,
       "Gender": "W",
       "Name": "Samantha Bonn",
       "Total Points": 67,
@@ -4236,7 +4634,8 @@
       "Spirit Mountain": 0,
       "Billings Drive": 0,
       "Woodland Run": 0,
-      "Chester Bowl": 0
+      "Chester Bowl": 0,
+      "Test Race": 0
     }
   ],
   "results": [
@@ -6653,18 +7052,6 @@
       "points": 118
     },
     {
-      "name": "Shannon Meehan",
-      "gender": "M",
-      "date": "2025-05-11T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Spirit Mountain",
-      "volunteer": "",
-      "time": 5516000,
-      "place": 46,
-      "gender_place": 33,
-      "points": 118
-    },
-    {
       "name": "Marcus Taintor",
       "gender": "M",
       "date": "2025-05-11T05:00:00.000Z",
@@ -6675,30 +7062,6 @@
       "place": 47,
       "gender_place": 34,
       "points": 117
-    },
-    {
-      "name": "Marcus Taintor",
-      "gender": "M",
-      "date": "2025-05-11T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Spirit Mountain",
-      "volunteer": "",
-      "time": 5563000,
-      "place": 47,
-      "gender_place": 34,
-      "points": 117
-    },
-    {
-      "name": "Eric Chandler",
-      "gender": "M",
-      "date": "2025-05-11T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Spirit Mountain",
-      "volunteer": "",
-      "time": 5569000,
-      "place": 48,
-      "gender_place": 35,
-      "points": 116
     },
     {
       "name": "Eric Chandler",
@@ -6725,18 +7088,6 @@
       "points": 137
     },
     {
-      "name": "Ingrid Sokup",
-      "gender": "W",
-      "date": "2025-05-11T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Spirit Mountain",
-      "volunteer": "",
-      "time": 5587000,
-      "place": 49,
-      "gender_place": 14,
-      "points": 137
-    },
-    {
       "name": "Ryan Saline",
       "gender": "M",
       "date": "2025-05-11T05:00:00.000Z",
@@ -6747,30 +7098,6 @@
       "place": 50,
       "gender_place": 36,
       "points": 115
-    },
-    {
-      "name": "Ryan Saline",
-      "gender": "M",
-      "date": "2025-05-11T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Spirit Mountain",
-      "volunteer": "",
-      "time": 5735000,
-      "place": 50,
-      "gender_place": 36,
-      "points": 115
-    },
-    {
-      "name": "Ryan Johnson",
-      "gender": "M",
-      "date": "2025-05-11T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Spirit Mountain",
-      "volunteer": "",
-      "time": 5749000,
-      "place": 51,
-      "gender_place": 37,
-      "points": 114
     },
     {
       "name": "Ryan Johnson",
@@ -11627,7 +11954,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1499999.9998603016,
+      "time": 1500000,
       "place": 1,
       "gender_place": 1,
       "points": 150
@@ -11639,7 +11966,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1509999.9999976717,
+      "time": 1510000,
       "place": 2,
       "gender_place": 2,
       "points": 149
@@ -11651,7 +11978,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1541999.9999343418,
+      "time": 1542000,
       "place": 3,
       "gender_place": 3,
       "points": 148
@@ -11663,7 +11990,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1595999.9999846332,
+      "time": 1596000,
       "place": 4,
       "gender_place": 4,
       "points": 147
@@ -11675,7 +12002,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1598000.0001378357,
+      "time": 1598000,
       "place": 5,
       "gender_place": 5,
       "points": 146
@@ -11687,7 +12014,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1615000.0000256114,
+      "time": 1615000,
       "place": 6,
       "gender_place": 6,
       "points": 145
@@ -11699,7 +12026,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1623999.9999292195,
+      "time": 1624000,
       "place": 7,
       "gender_place": 7,
       "points": 144
@@ -11711,7 +12038,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1631999.999913387,
+      "time": 1632000,
       "place": 8,
       "gender_place": 8,
       "points": 143
@@ -11723,7 +12050,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1637000.0001392327,
+      "time": 1637000,
       "place": 9,
       "gender_place": 9,
       "points": 142
@@ -11735,7 +12062,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1642000.000050757,
+      "time": 1642000,
       "place": 10,
       "gender_place": 10,
       "points": 141
@@ -11747,7 +12074,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1651999.9998738058,
+      "time": 1652000,
       "place": 11,
       "gender_place": 11,
       "points": 140
@@ -11759,7 +12086,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1684000.0001247972,
+      "time": 1684000,
       "place": 12,
       "gender_place": 12,
       "points": 139
@@ -11771,7 +12098,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1702999.999851454,
+      "time": 1703000,
       "place": 13,
       "gender_place": 13,
       "points": 138
@@ -11783,7 +12110,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1705999.9999240972,
+      "time": 1706000,
       "place": 14,
       "gender_place": 1,
       "points": 150
@@ -11795,7 +12122,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1708999.9999967404,
+      "time": 1709000,
       "place": 15,
       "gender_place": 2,
       "points": 149
@@ -11807,7 +12134,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1735000.0001024455,
+      "time": 1735000,
       "place": 16,
       "gender_place": 14,
       "points": 137
@@ -11819,7 +12146,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1758000.0001355074,
+      "time": 1758000,
       "place": 17,
       "gender_place": 15,
       "points": 136
@@ -11831,7 +12158,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1763000.0000470318,
+      "time": 1763000,
       "place": 18,
       "gender_place": 16,
       "points": 135
@@ -11843,7 +12170,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1770000.0001117587,
+      "time": 1770000,
       "place": 19,
       "gender_place": 3,
       "points": 148
@@ -11855,7 +12182,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1779000.0000153668,
+      "time": 1779000,
       "place": 20,
       "gender_place": 17,
       "points": 134
@@ -11867,7 +12194,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1779999.9999348074,
+      "time": 1780000,
       "place": 21,
       "gender_place": 18,
       "points": 133
@@ -11879,7 +12206,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1787999.999918975,
+      "time": 1788000,
       "place": 22,
       "gender_place": 19,
       "points": 132
@@ -11891,7 +12218,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1818000.0000167638,
+      "time": 1818000,
       "place": 23,
       "gender_place": 4,
       "points": 147
@@ -11903,7 +12230,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1833999.9999850988,
+      "time": 1834000,
       "place": 24,
       "gender_place": 20,
       "points": 131
@@ -11915,7 +12242,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1844000.000122469,
+      "time": 1844000,
       "place": 25,
       "gender_place": 21,
       "points": 130
@@ -11927,7 +12254,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1856000.0000987202,
+      "time": 1856000,
       "place": 26,
       "gender_place": 22,
       "points": 129
@@ -11939,7 +12266,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1862999.9998491257,
+      "time": 1863000,
       "place": 27,
       "gender_place": 23,
       "points": 128
@@ -11951,7 +12278,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1868999.999994412,
+      "time": 1869000,
       "place": 28,
       "gender_place": 24,
       "points": 127
@@ -11963,7 +12290,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1872000.0000670552,
+      "time": 1872000,
       "place": 29,
       "gender_place": 25,
       "points": 126
@@ -11975,7 +12302,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1872999.9999864958,
+      "time": 1873000,
       "place": 30,
       "gender_place": 26,
       "points": 125
@@ -11987,7 +12314,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1873999.9999059364,
+      "time": 1874000,
       "place": 31,
       "gender_place": 5,
       "points": 146
@@ -11999,7 +12326,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1877999.9998980202,
+      "time": 1878000,
       "place": 32,
       "gender_place": 6,
       "points": 145
@@ -12011,7 +12338,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1883000.000123866,
+      "time": 1883000,
       "place": 33,
       "gender_place": 27,
       "points": 124
@@ -12023,7 +12350,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1884999.999962747,
+      "time": 1885000,
       "place": 34,
       "gender_place": 28,
       "points": 123
@@ -12035,7 +12362,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1887000.0001159497,
+      "time": 1887000,
       "place": 35,
       "gender_place": 29,
       "points": 122
@@ -12047,7 +12374,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1896999.9999389984,
+      "time": 1897000,
       "place": 36,
       "gender_place": 7,
       "points": 144
@@ -12059,7 +12386,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1910000.0001490116,
+      "time": 1910000,
       "place": 37,
       "gender_place": 8,
       "points": 143
@@ -12071,7 +12398,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1915999.9999799766,
+      "time": 1916000,
       "place": 38,
       "gender_place": 9,
       "points": 142
@@ -12083,7 +12410,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1919000.0000526197,
+      "time": 1919000,
       "place": 39,
       "gender_place": 30,
       "points": 121
@@ -12095,7 +12422,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1950000.0000698492,
+      "time": 1950000,
       "place": 40,
       "gender_place": 31,
       "points": 120
@@ -12107,7 +12434,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1954999.9999813735,
+      "time": 1955000,
       "place": 41,
       "gender_place": 32,
       "points": 119
@@ -12119,7 +12446,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1959999.999892898,
+      "time": 1960000,
       "place": 42,
       "gender_place": 33,
       "points": 118
@@ -12131,7 +12458,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1962999.999965541,
+      "time": 1963000,
       "place": 43,
       "gender_place": 34,
       "points": 117
@@ -12143,7 +12470,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1966999.9999576248,
+      "time": 1967000,
       "place": 44,
       "gender_place": 35,
       "points": 116
@@ -12155,7 +12482,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1967999.9998770654,
+      "time": 1968000,
       "place": 45,
       "gender_place": 36,
       "points": 115
@@ -12167,7 +12494,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1971999.9998691492,
+      "time": 1972000,
       "place": 46,
       "gender_place": 37,
       "points": 114
@@ -12179,7 +12506,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1973000.0001029111,
+      "time": 1973000,
       "place": 47,
       "gender_place": 38,
       "points": 113
@@ -12191,7 +12518,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1974000.0000223517,
+      "time": 1974000,
       "place": 48,
       "gender_place": 39,
       "points": 112
@@ -12203,7 +12530,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1975999.999861233,
+      "time": 1976000,
       "place": 49,
       "gender_place": 40,
       "points": 111
@@ -12215,7 +12542,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1982999.9999259599,
+      "time": 1983000,
       "place": 50,
       "gender_place": 41,
       "points": 110
@@ -12227,7 +12554,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 1985999.999998603,
+      "time": 1986000,
       "place": 51,
       "gender_place": 42,
       "points": 109
@@ -12239,7 +12566,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2031000.0001452863,
+      "time": 2031000,
       "place": 52,
       "gender_place": 43,
       "points": 108
@@ -12251,7 +12578,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2033999.999903608,
+      "time": 2034000,
       "place": 53,
       "gender_place": 10,
       "points": 141
@@ -12263,7 +12590,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2039000.0001294538,
+      "time": 2039000,
       "place": 54,
       "gender_place": 11,
       "points": 140
@@ -12275,7 +12602,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2041999.9998877756,
+      "time": 2042000,
       "place": 55,
       "gender_place": 12,
       "points": 139
@@ -12287,7 +12614,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2043000.0001215376,
+      "time": 2043000,
       "place": 56,
       "gender_place": 44,
       "points": 107
@@ -12299,7 +12626,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2067000.0000740401,
+      "time": 2067000,
       "place": 57,
       "gender_place": 45,
       "points": 106
@@ -12311,7 +12638,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2067999.9999934807,
+      "time": 2068000,
       "place": 58,
       "gender_place": 46,
       "points": 105
@@ -12323,7 +12650,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2074000.000138767,
+      "time": 2074000,
       "place": 59,
       "gender_place": 13,
       "points": 138
@@ -12335,7 +12662,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2079000.0000502914,
+      "time": 2079000,
       "place": 60,
       "gender_place": 47,
       "points": 104
@@ -12347,7 +12674,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2082000.0001229346,
+      "time": 2082000,
       "place": 61,
       "gender_place": 48,
       "points": 103
@@ -12359,7 +12686,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2092999.999865424,
+      "time": 2093000,
       "place": 62,
       "gender_place": 14,
       "points": 137
@@ -12371,7 +12698,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2095999.999938067,
+      "time": 2096000,
       "place": 63,
       "gender_place": 49,
       "points": 102
@@ -12383,7 +12710,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2118999.999971129,
+      "time": 2119000,
       "place": 64,
       "gender_place": 15,
       "points": 136
@@ -12395,7 +12722,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2126000.000035856,
+      "time": 2126000,
       "place": 65,
       "gender_place": 50,
       "points": 101
@@ -12407,7 +12734,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2138999.999931548,
+      "time": 2139000,
       "place": 66,
       "gender_place": 16,
       "points": 135
@@ -12419,7 +12746,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2142000.000004191,
+      "time": 2142000,
       "place": 67,
       "gender_place": 51,
       "points": 100
@@ -12431,7 +12758,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2143999.999843072,
+      "time": 2144000,
       "place": 68,
       "gender_place": 52,
       "points": 99
@@ -12443,7 +12770,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2143999.999843072,
+      "time": 2144000,
       "place": 69,
       "gender_place": 53,
       "points": 98
@@ -12455,7 +12782,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2165999.9999566935,
+      "time": 2166000,
       "place": 70,
       "gender_place": 54,
       "points": 97
@@ -12467,7 +12794,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2174999.9998603016,
+      "time": 2175000,
       "place": 71,
       "gender_place": 55,
       "points": 96
@@ -12479,7 +12806,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2181000.000005588,
+      "time": 2181000,
       "place": 72,
       "gender_place": 17,
       "points": 134
@@ -12491,7 +12818,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2185999.9999171123,
+      "time": 2186000,
       "place": 73,
       "gender_place": 18,
       "points": 133
@@ -12503,7 +12830,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2200000.000046566,
+      "time": 2200000,
       "place": 74,
       "gender_place": 19,
       "points": 132
@@ -12515,7 +12842,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2216999.9999343418,
+      "time": 2217000,
       "place": 75,
       "gender_place": 56,
       "points": 95
@@ -12527,7 +12854,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2220000.000006985,
+      "time": 2220000,
       "place": 76,
       "gender_place": 57,
       "points": 94
@@ -12539,7 +12866,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2223000.000079628,
+      "time": 2223000,
       "place": 77,
       "gender_place": 58,
       "points": 93
@@ -12551,7 +12878,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2223999.9999990687,
+      "time": 2224000,
       "place": 78,
       "gender_place": 20,
       "points": 131
@@ -12563,7 +12890,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2250000.000104774,
+      "time": 2250000,
       "place": 79,
       "gender_place": 21,
       "points": 130
@@ -12575,7 +12902,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2263999.9999199063,
+      "time": 2264000,
       "place": 80,
       "gender_place": 59,
       "points": 92
@@ -12587,7 +12914,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2283999.999880325,
+      "time": 2284000,
       "place": 81,
       "gender_place": 60,
       "points": 91
@@ -12599,7 +12926,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2294999.9999371357,
+      "time": 2295000,
       "place": 82,
       "gender_place": 61,
       "points": 90
@@ -12611,7 +12938,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2334999.9998579733,
+      "time": 2335000,
       "place": 83,
       "gender_place": 22,
       "points": 129
@@ -12623,7 +12950,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2352000.0000600703,
+      "time": 2352000,
       "place": 84,
       "gender_place": 62,
       "points": 89
@@ -12635,7 +12962,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2352999.999979511,
+      "time": 2353000,
       "place": 85,
       "gender_place": 63,
       "points": 88
@@ -12647,7 +12974,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2371000.0001010485,
+      "time": 2371000,
       "place": 86,
       "gender_place": 23,
       "points": 128
@@ -12659,7 +12986,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2372999.9999399297,
+      "time": 2373000,
       "place": 87,
       "gender_place": 64,
       "points": 87
@@ -12671,7 +12998,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2419000.0000060536,
+      "time": 2419000,
       "place": 88,
       "gender_place": 65,
       "points": 86
@@ -12683,7 +13010,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2443999.9998779967,
+      "time": 2444000,
       "place": 89,
       "gender_place": 24,
       "points": 127
@@ -12695,7 +13022,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2443999.9998779967,
+      "time": 2444000,
       "place": 90,
       "gender_place": 25,
       "points": 126
@@ -12707,7 +13034,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2449000.0001038425,
+      "time": 2449000,
       "place": 91,
       "gender_place": 66,
       "points": 85
@@ -12719,7 +13046,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2473999.9999757856,
+      "time": 2474000,
       "place": 92,
       "gender_place": 67,
       "points": 84
@@ -12731,7 +13058,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2488000.0001052395,
+      "time": 2488000,
       "place": 93,
       "gender_place": 26,
       "points": 125
@@ -12743,7 +13070,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2488000.0001052395,
+      "time": 2488000,
       "place": 94,
       "gender_place": 27,
       "points": 124
@@ -12755,7 +13082,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2500000.0000814907,
+      "time": 2500000,
       "place": 95,
       "gender_place": 68,
       "points": 83
@@ -12767,7 +13094,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2537999.9998491257,
+      "time": 2538000,
       "place": 96,
       "gender_place": 69,
       "points": 82
@@ -12779,7 +13106,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2547000.000067055,
+      "time": 2547000,
       "place": 97,
       "gender_place": 28,
       "points": 123
@@ -12791,7 +13118,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2554000.000131782,
+      "time": 2554000,
       "place": 98,
       "gender_place": 70,
       "points": 81
@@ -12803,7 +13130,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2632000.000134576,
+      "time": 2632000,
       "place": 99,
       "gender_place": 71,
       "points": 80
@@ -12815,7 +13142,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2679000.0001201406,
+      "time": 2679000,
       "place": 100,
       "gender_place": 1,
       "points": 150
@@ -12827,7 +13154,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2711000.0000568107,
+      "time": 2711000,
       "place": 101,
       "gender_place": 72,
       "points": 79
@@ -12839,7 +13166,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2786999.999906402,
+      "time": 2787000,
       "place": 102,
       "gender_place": 29,
       "points": 122
@@ -12851,7 +13178,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2797000.000043772,
+      "time": 2797000,
       "place": 103,
       "gender_place": 30,
       "points": 121
@@ -12863,7 +13190,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2879000.00003865,
+      "time": 2879000,
       "place": 104,
       "gender_place": 73,
       "points": 78
@@ -12875,7 +13202,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2918999.9999594875,
+      "time": 2919000,
       "place": 105,
       "gender_place": 74,
       "points": 77
@@ -12887,7 +13214,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 2926999.999943655,
+      "time": 2927000,
       "place": 106,
       "gender_place": 31,
       "points": 120
@@ -12899,7 +13226,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 3046000.0001010485,
+      "time": 3046000,
       "place": 107,
       "gender_place": 32,
       "points": 119
@@ -12911,7 +13238,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 3047000.000020489,
+      "time": 3047000,
       "place": 108,
       "gender_place": 75,
       "points": 76
@@ -12923,7 +13250,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 3059999.999916181,
+      "time": 3060000,
       "place": 109,
       "gender_place": 33,
       "points": 118
@@ -12935,7 +13262,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 3104000.0001434237,
+      "time": 3104000,
       "place": 110,
       "gender_place": 34,
       "points": 117
@@ -12947,7 +13274,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 3122999.9998700805,
+      "time": 3123000,
       "place": 111,
       "gender_place": 76,
       "points": 75
@@ -12959,7 +13286,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 3570999.9999264255,
+      "time": 3571000,
       "place": 112,
       "gender_place": 35,
       "points": 116
@@ -12971,7 +13298,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 3571999.999845866,
+      "time": 3572000,
       "place": 113,
       "gender_place": 77,
       "points": 74
@@ -12983,7 +13310,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 3737000.0000693835,
+      "time": 3737000,
       "place": 114,
       "gender_place": 36,
       "points": 115
@@ -12995,7 +13322,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 3737999.999988824,
+      "time": 3738000,
       "place": 115,
       "gender_place": 37,
       "points": 114
@@ -13007,7 +13334,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 3835000.0000325963,
+      "time": 3835000,
       "place": 116,
       "gender_place": 38,
       "points": 113
@@ -13019,7 +13346,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 3892000.000155531,
+      "time": 3892000,
       "place": 117,
       "gender_place": 39,
       "points": 112
@@ -13031,7 +13358,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 3892000.000155531,
+      "time": 3892000,
       "place": 118,
       "gender_place": 40,
       "points": 111
@@ -13043,7 +13370,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": 3961999.999859836,
+      "time": 3962000,
       "place": 119,
       "gender_place": 41,
       "points": 110
@@ -13055,7 +13382,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": true,
-      "time": 3962000.999859836,
+      "time": 3962001,
       "place": "VOL",
       "gender_place": 78,
       "points": 73
@@ -13067,7 +13394,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": true,
-      "time": 3962000.999859836,
+      "time": 3962001,
       "place": "VOL",
       "gender_place": 42,
       "points": 109
@@ -13079,7 +13406,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": true,
-      "time": 3962000.999859836,
+      "time": 3962001,
       "place": "VOL",
       "gender_place": 42,
       "points": 109
@@ -13091,7 +13418,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": true,
-      "time": 3962000.999859836,
+      "time": 3962001,
       "place": "VOL",
       "gender_place": 78,
       "points": 73
@@ -13103,7 +13430,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": true,
-      "time": 3962000.999859836,
+      "time": 3962001,
       "place": "VOL",
       "gender_place": 2,
       "points": 149
@@ -13115,7 +13442,7 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": true,
-      "time": 3962000.999859836,
+      "time": 3962001,
       "place": "VOL",
       "gender_place": 42,
       "points": 109
@@ -13127,10 +13454,82 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": true,
-      "time": 3962000.999859836,
+      "time": 3962001,
       "place": "VOL",
       "gender_place": 42,
       "points": 109
+    },
+    {
+      "name": "Jamie Test 4",
+      "gender": "X",
+      "date": "2025-06-04T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Test Race",
+      "volunteer": "",
+      "time": 60000,
+      "place": 1,
+      "gender_place": 1,
+      "points": 150
+    },
+    {
+      "name": "Jamie Test 5",
+      "gender": "W",
+      "date": "2025-06-04T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Test Race",
+      "volunteer": "",
+      "time": 3660000,
+      "place": 2,
+      "gender_place": 1,
+      "points": 150
+    },
+    {
+      "name": "Jamie Test 6",
+      "gender": "M",
+      "date": "2025-06-04T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Test Race",
+      "volunteer": "",
+      "time": 7260000.000000001,
+      "place": 3,
+      "gender_place": 1,
+      "points": 150
+    },
+    {
+      "name": "Jamie Mx",
+      "gender": "X",
+      "date": "2025-06-04T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Test Race",
+      "volunteer": "",
+      "time": 10860000,
+      "place": 4,
+      "gender_place": 2,
+      "points": 149
+    },
+    {
+      "name": "Jamie Mx",
+      "gender": "X",
+      "date": "2025-06-04T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Test Race",
+      "volunteer": "",
+      "time": 10860000,
+      "place": 4,
+      "gender_place": 2,
+      "points": 149
+    },
+    {
+      "name": "Jamie Wm",
+      "gender": "M",
+      "date": "2025-06-04T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Test Race",
+      "volunteer": "",
+      "time": 14459999.999999998,
+      "place": 5,
+      "gender_place": 2,
+      "points": 149
     }
   ]
 }
