@@ -8,6 +8,15 @@
  * DataTables styles 
  */
 
+#raceResults thead th:nth-child(1),
+#raceResults thead th:nth-child(3),
+#raceResults thead th:nth-child(4),
+#raceResults thead th:nth-child(5),
+#raceResults thead th:nth-child(6),
+#raceResults thead th:nth-child(7) {
+  text-align: center;
+}
+
 .filters label {
   margin-right: 1rem;
 }

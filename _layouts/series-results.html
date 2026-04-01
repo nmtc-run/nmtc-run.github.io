@@ -200,12 +200,7 @@ layout: default
 					let data = Array.isArray(json) ? json : json.results;
 					let latestCourse = json.latestCourse;
 
-					// // If course not explicitly set in URL, default to latestCourse
-					// if (!params.has("course") && latestCourse) {
-					//   currentCourse = latestCourse;
-					// }
-
-			    // Destroy existing table and fully reset structure
+					// Destroy existing table and fully reset structure
 					if ($.fn.DataTable.isDataTable("#raceResults")) {
 					  $("#raceResults").DataTable().clear().destroy();
 					  $("#raceResults").empty();  // ← critical
@@ -231,7 +226,20 @@ layout: default
 			      dom: '<"top-controls"lf>rt<"bottom-controls"ipB><"clear">',
 			      pageLength: 100,
 			      columns: [
-			        { data: "place", className: "dt-center" },
+			        // { data: "place", className: "dt-center", title: "#" },
+			        {
+							  data: "place",
+							  title: "#",
+							  className: "dt-center",
+							  render: function(data, type) {
+
+							    if (type === "sort" || type === "type") {
+							      return isNaN(data) ? 999999 : Number(data);
+							    }
+
+							    return data; // display stays unchanged (shows "VOL")
+							  }
+							},
 			        { data: "name", className: "dt-left" },
 			        {
 							  data: "time",
@@ -244,13 +252,15 @@ layout: default
 							    return data;
 							  }
 							},
-			        { data: "gender", className: "dt-center" },
-			        { data: "gender_place", className: "dt-center" },
-			        { data: "points", className: "dt-center" },
+			        { data: "gender", className: "dt-center", title: "GEN" },
+			        { data: "gender_place", className: "dt-center", title: "GEN#" },
+			        { data: "points", className: "dt-center", title: "PTS" },
 			        { data: "date", visible: false },
-			        { data: "course", visible: false }
+			        { data: "course", visible: currentCourse === "All" }
 			      ],
-			      order: [[2, "asc"]],
+			      order: currentCourse === "All"
+						  ? [[0, "asc"], [2, "asc"]]  // place → time
+						  : [[2, "asc"]],             // time only
 			      buttons: [
 						  {
 						    extend: "csvHtml5",
@@ -455,8 +465,10 @@ layout: default
 			  // Course filter (column index 7)
 			  if (currentCourse === "All") {
 			    table.column(7).search("");
+			    table.column(7).visible(currentCourse === "All");
 			  } else {
 			    table.column(7).search("^" + currentCourse + "$", true, false);
+			    table.column(7).visible(currentCourse === "All");
 			  }
 
 			  // Gender filter (column index 3)
