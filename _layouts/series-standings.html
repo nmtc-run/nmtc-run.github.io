@@ -1,0 +1,460 @@
+---
+layout: default-wide
+---
+
+{% include results-menu.html %}
+
+{% if page.article-title %}
+  <div class="article-title"> {{ page.article-title }}</div>
+{% else %}
+  <div class="article-title"> {{ page.title }}</div>
+{% endif %}
+
+<div class="event-content article">
+
+	{% include results-seriesSchedule.html %}
+	<div class="article-subtitle"> 
+		<div class="" id="errorMessage"></div>
+	</div>
+
+	<h1 id="standings-year">
+		<span>
+			Year: <select id="yearSelect" class="results-select-head"></select>
+		</span>
+		<span>
+			Gender: <select id="genderSelect" class="results-select-head"></select>
+		</span>
+	</h1>
+	
+</div>	
+
+<div class="table-scroll-wrapper" style="max-width: 1000px; margin: 0 auto;">
+	<table id="seriesStandings" class="display" style="width:100%; max-width: 1000px; padding-top: 0;"></table>
+</div>
+
+<div class="" style="height:1.5em;">Use bottom scrollbar to view more columns.</div>	
+<div class="" style="height:1.5em;">&nbsp;</div>
+
+<link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/4.3.0/css/fixedColumns.dataTables.min.css">
+<script src="https://cdn.datatables.net/fixedcolumns/4.3.0/js/dataTables.fixedColumns.min.js"></script>
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css">
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
+
+<script>
+	document.addEventListener('DOMContentLoaded', async function () {
+
+	  const tableId = '#seriesStandings';
+	  const yearSelect = document.getElementById('yearSelect');
+	  const genderSelect = document.getElementById('genderSelect');
+	  let standingsTable;
+
+	  // ----------------------------------
+	  // Helpers
+	  // ----------------------------------
+
+	  function getSeriesName() {
+		  const match = window.location.pathname.match(
+		    /^\/(?:results|standings)\/([^\/]+)\/?$/
+		  );
+		  return match ? match[1] : null;
+		}
+
+	  function getQueryParam(param) {
+	    return new URLSearchParams(window.location.search).get(param);
+	  }
+
+	  function updateQueryParam(key, value) {
+	    const url = new URL(window.location);
+	    url.searchParams.set(key, value);
+	    window.history.pushState({}, '', url);
+	    updateMenuLinks();
+	  }
+
+	  function removeQueryParam(key) {
+		  const url = new URL(window.location);
+		  url.searchParams.delete(key);
+		  window.history.pushState({}, '', url);
+		  updateMenuLinks();
+		}
+
+	  async function fetchJSON(url) {
+	    const res = await fetch(url);
+	    if (!res.ok) throw new Error(`Failed to fetch ${url}`);
+	    return await res.json();
+	  }
+
+	  function buildStandingsPrintTitle() {
+		  const year = getQueryParam('year') || '';
+		  const gender = getQueryParam('gender') || '';
+		  const slug = getSeriesName(); 
+
+		  // Convert slug to Title Case
+		  const seriesName = slug
+		    .split('-')
+		    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+		    .join(' ');
+
+		  let title = `${year} ${seriesName} Standings`;
+
+		  if (gender) {
+		    title += ` - ${gender}`;
+		  }
+
+		  return title.trim();
+		}
+
+		function updateMenuLinks() {
+
+		  const currentParams = new URLSearchParams(window.location.search);
+
+		  ['menuResultsLink', 'menuStandingsLink'].forEach(id => {
+
+		    const link = document.getElementById(id);
+		    if (!link) return;
+
+		    const url = new URL(link.href, window.location.origin);
+
+		    // Clear existing params
+		    url.search = '';
+
+		    // Apply current params
+		    currentParams.forEach((value, key) => {
+		      url.searchParams.set(key, value);
+		    });
+
+		    link.href = url.pathname + (url.search ? '?' + url.searchParams.toString() : '');
+		  });
+		}
+
+	  // ----------------------------------
+	  // Build Columns (fixed → dynamic)
+	  // ----------------------------------
+
+	  function buildColumns(data) {
+
+	    const columnSet = new Set();
+
+	    data.forEach(row => {
+	      Object.keys(row).forEach(key => {
+	        if (key.trim() !== '') columnSet.add(key);
+	      });
+	    });
+
+	    const fixedColumns = [
+	      "Gender",
+	      "Place",
+	      "Name",
+	      "Total Points",
+	      "Bonus"
+	    ];
+
+	    const dynamicColumns = Array.from(columnSet)
+	      .filter(key => !fixedColumns.includes(key));
+
+	    const orderedColumns = [
+	      ...fixedColumns.filter(k => columnSet.has(k)),
+	      ...dynamicColumns
+	    ];
+
+	    const headerMap = {
+			  "Gender": "GP",
+			  "Place": "P",
+			  "Name": "Name",
+			  "Total Points": "Total",
+			  "Bonus": "Bonus",
+			};
+
+	    return orderedColumns.map(key => {
+
+	    	const shortTitle =
+			    (headerMap[key] || key).length > 6
+			      ? (headerMap[key] || key).substring(0, 3) + '…'
+			      : (headerMap[key] || key);
+
+	      const col = {
+	        data: key,
+	        title: shortTitle, // v2 --> title: headerMap[key] || key, // original --> title: key,
+	        defaultContent: '',
+	        className: 'dt-body-center'
+	      };
+
+	      if (key === "Name") col.className = 'dt-body-left';
+	      if (key === "Gender") col.className = 'dt-body-center';
+	      if (key === "Place") {
+	        col.type = 'num';
+	        col.className = 'dt-body-center';
+	      }
+	      if (key === "Total Points" || key === "Bonus") {
+	        col.className = 'dt-body-center';
+	      }
+
+	      return col;
+	    });
+	  }
+
+	  // ----------------------------------
+	  // Add Filter, Load & Render Table
+	  // ----------------------------------
+
+	  function initGenderSelector(data) {
+
+		  const genders = [
+		    ...new Set(data.map(row => row.Gender).filter(Boolean))
+		  ].sort();
+
+		  const urlGender = getQueryParam('gender');
+		  const validGender = genders.includes(urlGender) ? urlGender : '';
+
+		  // Populate dropdown
+		  genderSelect.innerHTML = `
+		    <option value="">All</option>
+		    ${genders.map(g =>
+		      `<option value="${g}" ${g === validGender ? 'selected' : ''}>${g}</option>`
+		    ).join('')}
+		  `;
+
+		  // Apply filter if valid
+		  const genderColIndex = standingsTable.settings()[0].aoColumns
+		    .findIndex(col => col.data === "Gender");
+
+		  if (validGender && genderColIndex !== -1) {
+		    standingsTable.column(genderColIndex)
+		      .search('^' + validGender + '$', true, false)
+		      .draw();
+		  }
+
+		  // On change
+		  genderSelect.onchange = function () {
+
+		    const value = this.value;
+
+		    if (genderColIndex === -1) return;
+
+		    if (value) {
+		      updateQueryParam('gender', value);
+		      standingsTable.column(genderColIndex)
+		        .search('^' + value + '$', true, false)
+		        .draw();
+		    } else {
+		      removeQueryParam('gender');
+		      standingsTable.column(genderColIndex)
+		        .search('')
+		        .draw();
+		    }
+		  };
+		}
+
+	  function addGenderFilter(table, data) {
+
+		  const container = document.querySelector('.top-controls');
+		  if (!container) return;
+
+		  // Remove old filter if reloading year
+		  const existing = document.getElementById('genderFilterWrapper');
+		  if (existing) existing.remove();
+
+		  const genders = [
+		    ...new Set(data.map(row => row.Gender).filter(Boolean))
+		  ].sort();
+
+		  const urlGender = getQueryParam('gender');
+		  const validGender = genders.includes(urlGender) ? urlGender : null;
+
+		  // Create wrapper
+		  const wrapper = document.createElement('div');
+		  wrapper.id = 'genderFilterWrapper';
+		  wrapper.style.display = 'inline-block';
+		  wrapper.style.margin = '0 30px'; 
+
+		  wrapper.innerHTML = `
+		    <label style="margin-right:6px;">Gender:</label>
+		    <select id="genderSelect">
+		      <option value="">All</option>
+		      ${genders.map(g =>
+		        `<option value="${g}" ${g === validGender ? 'selected' : ''}>${g}</option>`
+		      ).join('')}
+		    </select>
+		  `;
+
+		  container.prepend(wrapper);
+
+		  const genderSelect = document.getElementById('genderSelect');
+
+		  // Apply initial filter
+		  const genderColIndex = table.settings()[0].aoColumns
+		    .findIndex(col => col.data === "Gender");
+
+		  if (validGender && genderColIndex !== -1) {
+		    table.column(genderColIndex)
+		      .search('^' + validGender + '$', true, false)
+		      .draw();
+		  }
+
+		  // On change
+		  genderSelect.addEventListener('change', function () {
+
+		    const value = this.value;
+
+		    if (genderColIndex === -1) return;
+
+		    if (value) {
+		      updateQueryParam('gender', value);
+		      table.column(genderColIndex)
+		        .search('^' + value + '$', true, false)
+		        .draw();
+		    } else {
+		      removeQueryParam('gender');
+		      table.column(genderColIndex)
+		        .search('')
+		        .draw();
+		    }
+		  });
+		}
+
+	  async function loadTable(year) {
+
+	  	// Clear previous error message
+		  $("#errorMessage").html("");
+
+		  try {
+
+	  	  await loadSchedule(year);  
+
+		    const seriesName = getSeriesName();
+		    const json = await fetchJSON(
+				  `/results/${seriesName}/${year}.json`
+				);
+
+				const data = json.standings || [];
+
+				if (!data.length) {
+		      $(tableId).html('<tr><td>No data available</td></tr>');
+		      return;
+		    }
+
+		    // Destroy completely if exists (structure may change)
+		    if ($.fn.DataTable.isDataTable(tableId)) {
+		      standingsTable.destroy();
+		      $(tableId).empty();
+		    }
+
+		    const printTitle = buildStandingsPrintTitle();
+
+		    standingsTable = $(tableId).DataTable({
+		      data: data,
+		      columns: buildColumns(data),
+		      dom: '<"top-controls"lf>rt<"bottom"ipB>',
+		      buttons: [
+					  {
+					    extend: 'print',
+					    text: 'Print',
+					    title: printTitle,
+					    exportOptions: {
+					      columns: ':visible'
+					    }
+					  }
+					],
+		      order: [[1, 'asc']], // assumes Place is second column
+		      scrollX: true,
+				  scrollCollapse: true,
+				  pageLength: 100,
+				  fixedColumns: {
+				    leftColumns: 3
+				  }
+
+		    });
+
+		    initGenderSelector(data);
+		  } catch (err) {
+
+		  	if ($.fn.DataTable.isDataTable("#seriesStandings")) {
+		      $("#seriesStandings").DataTable().clear().destroy();
+		    }
+
+		    $("#seriesStandings").empty();
+
+		    // Display error message
+		    $("#errorMessage").html(
+		      `<p style="color: #cc6f77; font-weight: bold; background-color: #efecec; padding: 5px 0; margin-top: 15px;">
+		        No standings available for ${year}.
+		      </p>`
+		    );
+		    
+		    console.error("Schedule load failed:", err);
+
+		    const scheduleList = document.getElementById("seriesSchedule");
+			  if (scheduleList) {
+			    scheduleList.innerHTML = "";
+			  }
+		  }
+	  }
+
+	  // ----------------------------------
+	  // Populate Year Dropdown
+	  // ----------------------------------
+
+	  async function initYearSelector() {
+
+	    const seriesName = getSeriesName();
+	    const years = await fetchJSON(
+	      `/results/${seriesName}/years.json`
+	    );
+
+	    if (!years.length) return;
+
+	    years.sort((a, b) => b - a); // latest first
+
+	    const urlYear = getQueryParam('year');
+	    const latestYear = years[0];
+
+	    const selectedYear = years.includes(Number(urlYear))
+	      ? urlYear
+	      : latestYear;
+
+	    // Populate headline 
+	    const scheduleYearSpan = document.getElementById('scheduleYear');
+			if (scheduleYearSpan) scheduleYearSpan.textContent = selectedYear;
+
+	    // Populate select
+	    yearSelect.innerHTML = '';
+
+	    years.forEach(year => {
+	      const option = document.createElement('option');
+	      option.value = year;
+	      option.textContent = year;
+	      if (String(year) === String(selectedYear)) {
+	        option.selected = true;
+	      }
+	      yearSelect.appendChild(option);
+	    });
+
+	    // Initial table load
+	    await loadTable(selectedYear);
+
+	    // On change → update URL + reload table
+	    yearSelect.addEventListener('change', async function () {
+
+	      const newYear = this.value;
+
+	      updateQueryParam('year', newYear);
+
+	      if (scheduleYearSpan) scheduleYearSpan.textContent = newYear;
+
+	      await loadTable(newYear);
+	    });
+	  }
+
+	  // ----------------------------------
+	  // Init
+	  // ----------------------------------
+
+	  try {
+	    await initYearSelector();
+	  } catch (err) {
+	    console.error(err);
+	    $(tableId).html('<tr><td>Error loading data</td></tr>');
+	  }
+
+	});
+</script>

@@ -1,0 +1,124 @@
+<div class="standings-schedule-box">
+  <strong><span id="scheduleYear"></span> SCHEDULE</strong>
+  <ul id="seriesSchedule"></ul>
+</div>
+
+<script>
+function getSeriesName() {
+  const match = window.location.pathname.match(
+    /^\/(?:results|standings)\/([^\/]+)\/?$/
+  );
+  return match ? match[1] : null;
+}
+
+async function loadSchedule(year) {
+
+  const seriesName = getSeriesName();
+  const ul = document.getElementById('seriesSchedule');
+  if (!ul || !seriesName || !year) return;
+
+  document.getElementById("scheduleYear").textContent = year;
+
+  try {
+    const res = await fetch(`/results/${seriesName}/${year}.json`);
+    if (!res.ok) return;
+
+    const data = await res.json();
+    const schedule = data.schedule || [];
+
+    ul.innerHTML = '';
+
+    schedule.forEach(item => {
+
+      const li = document.createElement('li');
+      const date = new Date(item.date);
+
+      const parts = new Intl.DateTimeFormat('en-GB', {
+        weekday: 'short',
+        day: 'numeric',
+        month: 'short',
+        year: 'numeric'
+      }).formatToParts(date);
+
+      const formattedDate =
+        `${parts.find(p => p.type==='weekday').value} ` +
+        `${parts.find(p => p.type==='day').value} ` +
+        `${parts.find(p => p.type==='month').value} ` +
+        `${parts.find(p => p.type==='year').value}`;
+
+      if (item.cancelled) {
+        li.innerHTML =
+          `<strong>${item.course}:</strong> ${formattedDate} (cancelled)`;
+      } else if (!item.published) {
+        li.innerHTML =
+          `<strong>${item.course}:</strong> ${formattedDate}`;
+      } else {
+        li.innerHTML =
+          `<strong>${item.course}:</strong> ${formattedDate} ` +
+          `(<a href="/results/${seriesName}?course=${encodeURIComponent(item.course)}&year=${year}">results</a>)`;
+      }
+
+      ul.appendChild(li);
+    });
+
+    const standingsLi = document.createElement('li');
+    standingsLi.innerHTML = 
+      `<strong>Overall standings:</strong> 
+      <a href="/standings/${seriesName}?gender=X&year=${year}" style="padding-right: 0.25em;">Nonbinary</a>
+      <a href="/standings/${seriesName}?gender=W&year=${year}" style="padding-right: 0.25em;">Women</a>
+      <a href="/standings/${seriesName}?gender=M&year=${year}" style="padding-right: 0.25em;">Men</a>
+      <a href="/standings/${seriesName}?gender=All&year=${year}" style="padding-right: 0.25em;">All</a>
+      `; 
+
+    ul.appendChild(standingsLi); 
+
+  } catch (err) {
+    console.error("Schedule load failed:", err);
+
+    const scheduleList = document.getElementById("seriesSchedule");
+	  if (scheduleList) {
+	    scheduleList.innerHTML = "";
+	  }
+  }
+}
+
+document.addEventListener("DOMContentLoaded", async function () {
+
+  const yearSelect = document.getElementById("yearSelect");
+
+  // Initial load
+  const params = new URLSearchParams(window.location.search);
+  let currentYear = params.get("year");
+
+	if (!currentYear) {
+	  // Fetch latest year if none in URL
+	  const seriesName = getSeriesName();
+	  if (seriesName) {
+	    try {
+	      const res = await fetch(`/results/${seriesName}/years.json`);
+	      if (res.ok) {
+	        const years = await res.json();
+	        years.sort((a, b) => b - a);
+	        currentYear = years[0];
+	      }
+	    } catch (err) {
+	      console.error("Failed to fetch years:", err);
+	    }
+	  }
+	}
+
+	if (currentYear) {
+	  await loadSchedule(currentYear);
+	}
+
+  yearSelect.addEventListener("change", async function () {
+
+    const newYear = this.value;
+
+    await loadSchedule(newYear);
+
+  });
+
+});
+
+</script>

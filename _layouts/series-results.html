@@ -1,0 +1,519 @@
+---
+layout: default
+---
+
+{% include results-menu.html %}
+
+{% if page.article-title %}
+  <div class="article-title"> {{ page.article-title }}</div>
+{% else %}
+  <div class="article-title"> {{ page.title }}</div>
+{% endif %}
+
+<div class="event-content article">
+
+	{% include results-seriesSchedule.html %}
+	<div class="article-subtitle"> 
+		<div class="" id="errorMessage"></div>
+	</div>
+
+	<h1 id="standings-year">
+		<span>
+			Year: <select id="yearSelect" class="results-select-head"></select>
+		</span>
+		<span>
+			Course: <select id="courseSelect" class="results-select-head"></select> 
+		</span>
+		<span>
+			Gender: <select id="genderSelect" class="results-select-head"></select>
+		</span>
+	</h1>
+	
+	<table id="raceResults" class="display" style="width:100%">
+	  <thead>
+	    <tr>
+	      <th>Place</th>
+	      <th>Name</th>
+	      <th>Time</th>
+	      <th>G</th>
+	      <th>GP</th>
+	      <th>Points</th>
+	    </tr>
+	  </thead>
+	  <tbody></tbody>
+	</table>
+
+	<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.2/css/buttons.dataTables.min.css">
+	<script src="https://cdn.datatables.net/buttons/2.4.2/js/dataTables.buttons.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
+	<script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.print.min.js"></script>
+
+	<!-- Required for Excel -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
+	<!-- Required for PDF -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", async function () {
+
+		  const yearSelect   = document.getElementById("yearSelect");
+		  const courseSelect = document.getElementById("courseSelect");
+		  const genderSelect = document.getElementById("genderSelect");
+
+		  let table;
+		  let series;
+
+		  /* ----------------------------------
+		     0. Helpers 
+		  ---------------------------------- */
+
+		  function formatDuration(ms) {
+
+			  if (ms == null) return "";
+
+			  const totalSeconds = Math.floor(ms / 1000);
+
+			  const hours   = Math.floor(totalSeconds / 3600);
+			  const minutes = Math.floor((totalSeconds % 3600) / 60);
+			  const seconds = totalSeconds % 60;
+
+			  if (hours > 0) {
+			    return `${hours}:${String(minutes).padStart(2,"0")}:${String(seconds).padStart(2,"0")}`;
+			  } else {
+			    return `${minutes}:${String(seconds).padStart(2,"0")}`;
+			  }
+			}
+
+			function buildExportMeta() {
+
+			  const year   = currentYear;
+			  const seriesName = series
+			    .replace(/-/g, " ")
+			    .replace(/\b\w/g, l => l.toUpperCase());
+
+			  const filters = [];
+
+			  if (currentCourse && currentCourse !== "All") {
+			    filters.push(currentCourse);
+			  }
+
+			  if (currentGender && currentGender !== "All") {
+			    filters.push(currentGender);
+			  }
+
+			  const title = `${year} ${seriesName}` +
+			    (filters.length ? " – " + filters.join(" – ") : "");
+
+			  const filename = title
+			    .replace(/\s+/g, "-")
+			    .replace(/[^\w\-]/g, "")
+			    .toLowerCase();
+
+			  return { title, filename };
+			}
+
+			function updateMenuLinks() {
+
+			  const currentParams = new URLSearchParams(window.location.search);
+
+			  ['menuResultsLink', 'menuStandingsLink'].forEach(id => {
+
+			    const link = document.getElementById(id);
+			    if (!link) return;
+
+			    const url = new URL(link.href, window.location.origin);
+
+			    // Clear existing params
+			    url.search = '';
+
+			    // Apply current params
+			    currentParams.forEach((value, key) => {
+			      url.searchParams.set(key, value);
+			    });
+
+			    link.href = url.pathname + (url.search ? '?' + url.searchParams.toString() : '');
+			  });
+			}
+
+		  /* ----------------------------------
+		     1. Parse URL
+		  ---------------------------------- */
+
+		  const url = new URL(window.location.href);
+		  const params = url.searchParams;
+
+		  // Get series from path: /results/spring-series/
+		  const pathParts = window.location.pathname.split("/").filter(Boolean);
+		  const resultsIndex = pathParts.indexOf("results");
+		  series = pathParts[resultsIndex + 1];
+
+		  let currentYear   = params.get("year");
+		  let currentCourse = params.get("course") || "All";
+		  let currentGender = params.get("gender") || "All";
+
+		  /* ----------------------------------
+		     2. Load Years
+		  ---------------------------------- */
+
+		  async function fetchYears() {
+		    const res = await fetch(`/results/${series}/years.json`);
+		    return await res.json();
+		  }
+
+		  const years = await fetchYears();
+
+		  // Sort descending
+		  years.sort((a, b) => b - a);
+
+		  // If no year in URL → default to most recent
+		  if (!currentYear || !years.includes(Number(currentYear))) {
+		    currentYear = years[0];
+		  }
+
+		  // Populate dropdown
+		  years.forEach(year => {
+		    const opt = document.createElement("option");
+		    opt.value = year;
+		    opt.textContent = year;
+		    if (String(year) === String(currentYear)) {
+		      opt.selected = true;
+		    }
+		    yearSelect.appendChild(opt);
+		  });
+
+		  /* ----------------------------------
+		     3. Load Results + Build Table
+		  ---------------------------------- */
+
+		  async function loadResults(year) {
+
+		  	// Clear previous error message
+			  $("#errorMessage").html("");
+
+			  try {
+
+			    const res = await fetch(`/results/${series}/${year}.json`);
+			    let json = await res.json();
+
+					let data = Array.isArray(json) ? json : json.results;
+					let latestCourse = json.latestCourse;
+
+					// // If course not explicitly set in URL, default to latestCourse
+					// if (!params.has("course") && latestCourse) {
+					//   currentCourse = latestCourse;
+					// }
+
+			    // Destroy existing table and fully reset structure
+					if ($.fn.DataTable.isDataTable("#raceResults")) {
+					  $("#raceResults").DataTable().clear().destroy();
+					  $("#raceResults").empty();  // ← critical
+					}
+
+					$("#raceResults").html(`
+					  <thead>
+					    <tr>
+					      <th>Place</th>
+					      <th>Name</th>
+					      <th>Time</th>
+					      <th>Gender</th>
+					      <th>Gender Place</th>
+					      <th>Points</th>
+					      <th>Date</th>
+					      <th>Course</th>
+					    </tr>
+					  </thead>
+					`);
+
+			    table = $("#raceResults").DataTable({
+			      data: data,
+			      dom: '<"top-controls"lf>rt<"bottom-controls"ipB><"clear">',
+			      pageLength: 100,
+			      columns: [
+			        { data: "place", className: "dt-center" },
+			        { data: "name", className: "dt-left" },
+			        {
+							  data: "time",
+							  className: "dt-right",
+							  type: "num",
+							  render: function(data, type) {
+							    if (type === "display") {
+							      return formatDuration(Math.round(data));
+							    }
+							    return data;
+							  }
+							},
+			        { data: "gender", className: "dt-center" },
+			        { data: "gender_place", className: "dt-center" },
+			        { data: "points", className: "dt-center" },
+			        { data: "date", visible: false },
+			        { data: "course", visible: false }
+			      ],
+			      order: [[2, "asc"]],
+			      buttons: [
+						  {
+						    extend: "csvHtml5",
+						    text: "CSV",
+						    title: function() {
+						      return buildExportMeta().title;
+						    },
+						    filename: function() {
+						      return buildExportMeta().filename;
+						    },
+						    exportOptions: {
+						      columns: [0,1,2,3,4,5,7],
+						      modifier: { search: "applied" }
+						    }
+						  },
+						  {
+						    extend: "excelHtml5",
+						    text: "Excel",
+						    title: function() {
+						      return buildExportMeta().title;
+						    },
+						    filename: function() {
+						      return buildExportMeta().filename;
+						    },
+						    exportOptions: {
+						      columns: [0,1,2,3,4,5,7],
+						      modifier: { search: "applied" }
+						    }
+						  },
+						  {
+						    extend: "pdfHtml5",
+						    text: "PDF",
+						    orientation: "landscape",
+						    pageSize: "LETTER",
+						    title: function() {
+						      return buildExportMeta().title;
+						    },
+						    filename: function() {
+						      return buildExportMeta().filename;
+						    },
+						    exportOptions: {
+						      columns: [0,1,2,3,4,5,7],
+						      modifier: { search: "applied" }
+						    }
+						  },
+						  {
+						    extend: "copyHtml5",
+						    text: "Copy",
+						    title: function() {
+						      return buildExportMeta().title;
+						    },
+						    exportOptions: {
+						      columns: [0,1,2,3,4,5,7],
+						      modifier: { search: "applied" }
+						    }
+						  },
+						  {
+						    extend: "print",
+						    text: "Print",
+						    title: function() {
+						      return buildExportMeta().title;
+						    },
+						    exportOptions: {
+						      columns: [0,1,2,3,4,5,7],
+						      modifier: { search: "applied" }
+						    }
+						  }
+						]
+			    });
+
+			    buildCourseFilter(data, json.schedule);
+			    buildGenderFilter(data);
+			    applyFilters();
+
+		    } catch (err) {
+
+		    	// 🔥 Destroy existing table if it exists
+			    if ($.fn.DataTable.isDataTable("#raceResults")) {
+			      $("#raceResults").DataTable().clear().destroy();
+			    }
+
+			    $("#raceResults").empty();
+
+			    // Display error message
+			    $("#errorMessage").html(
+			      `<p style="color: #cc6f77; font-weight: bold; background-color: #efecec; padding: 5px 0; margin-top: 15px;">
+			        No results available for ${year}.
+			      </p>`
+			    );
+		    }
+		  }
+
+		  /* ----------------------------------
+			   4. Build Course Filter (FIXED)
+			---------------------------------- */
+
+			function buildCourseFilter(data, schedule) {
+
+				// comment this out if you want to work from the schedule data instead 
+			  const uniqueCourses = [...new Set(
+			    data.map(r => r.course).filter(Boolean)
+			  )];
+
+			  // uncomment this section if you want to work from the schedule data
+			  // const uniqueCourses = schedule
+				//   .slice()
+				//   .sort((a, b) => new Date(a.date) - new Date(b.date))
+				//   .filter(item => !item.cancelled)
+				//   .map(item => item.course)
+				//   .filter(Boolean);
+
+			  // Validate state
+			  // if (!uniqueCourses.includes(currentCourse)) {
+
+				//   // default to most recent non-cancelled race
+				//   if (uniqueCourses.length) {
+				//     currentCourse = uniqueCourses[uniqueCourses.length - 1];
+				//   } else {
+				//     currentCourse = "All";
+				//   }
+				// }
+
+				const requestedCourse = currentCourse;
+
+				if (!uniqueCourses.includes(currentCourse)) {
+
+				  // Only show error if course came from URL and isn't valid
+				  if (params.has("course") && requestedCourse !== "All") {
+
+				    const fallbackCourse = uniqueCourses.length
+				      ? uniqueCourses[uniqueCourses.length - 1]
+				      : "All";
+
+				    $("#errorMessage").html(
+				      `<p style="color:#cc6f77;font-weight:bold;background:#efecec;padding:5px 0;margin-top:15px;">
+				        No results available for ${currentYear} ${requestedCourse}.
+				        Showing latest results.
+				      </p>`
+				    );
+
+				    currentCourse = fallbackCourse;
+
+				  } else {
+
+				    currentCourse = uniqueCourses.length
+				      ? uniqueCourses[uniqueCourses.length - 1]
+				      : "All";
+				  }
+
+				} else {
+				  // Clear previous error if valid
+				  $("#errorMessage").html("");
+				}
+
+			  // Rebuild dropdown
+			  courseSelect.innerHTML = "";
+
+			  ["All", ...uniqueCourses].forEach(course => {
+			    const opt = document.createElement("option");
+			    opt.value = course;
+			    opt.textContent = course;
+			    if (course === currentCourse) opt.selected = true;
+			    courseSelect.appendChild(opt);
+			  });
+			}
+
+		  /* ----------------------------------
+			   5. Build Gender Filter (FIXED)
+			---------------------------------- */
+
+			function buildGenderFilter(data) {
+
+			  const uniqueGenders = [...new Set(
+			    data.map(r => r.gender).filter(Boolean)
+			  )].sort();
+
+			  // Validate state
+			  if (!uniqueGenders.includes(currentGender)) {
+			    currentGender = "All";
+			  }
+
+			  // Rebuild dropdown
+			  genderSelect.innerHTML = "";
+
+			  ["All", ...uniqueGenders].forEach(gender => {
+			    const opt = document.createElement("option");
+			    opt.value = gender;
+			    opt.textContent = gender;
+			    if (gender === currentGender) opt.selected = true;
+			    genderSelect.appendChild(opt);
+			  });
+			}
+
+		  /* ----------------------------------
+		     Filtering Logic
+		  ---------------------------------- */
+
+		  function applyFilters() {
+
+			  if (!table) return;
+
+			  // Course filter (column index 7)
+			  if (currentCourse === "All") {
+			    table.column(7).search("");
+			  } else {
+			    table.column(7).search("^" + currentCourse + "$", true, false);
+			  }
+
+			  // Gender filter (column index 3)
+			  if (currentGender === "All") {
+			    table.column(3).search("");
+			  } else {
+			    table.column(3).search("^" + currentGender + "$", true, false);
+			  }
+
+			  table.draw();
+
+			  // 🔗 Sync URL HERE (only here)
+			  updateURL();
+			}
+
+		  /* ----------------------------------
+		     Update URL (no reload)
+		  ---------------------------------- */
+
+		  function updateURL() {
+		    const newUrl = new URL(window.location);
+
+		    newUrl.searchParams.set("year", currentYear);
+		    newUrl.searchParams.set("course", currentCourse);
+		    newUrl.searchParams.set("gender", currentGender);
+
+		    window.history.replaceState({}, "", newUrl);
+		    updateMenuLinks();
+		  }
+
+		  /* ----------------------------------
+		     Event Listeners
+		  ---------------------------------- */
+
+		  yearSelect.addEventListener("change", async function () {
+		    currentYear = this.value;
+		    updateURL();
+		    await loadResults(currentYear);
+		  });
+
+		  courseSelect.addEventListener("change", function () {
+			  currentCourse = this.value;
+			  applyFilters();
+			});
+
+			genderSelect.addEventListener("change", function () {
+			  currentGender = this.value;
+			  applyFilters();
+			});
+
+		  /* ----------------------------------
+		     Initial Load
+		  ---------------------------------- */
+
+		  updateURL();
+		  await loadResults(currentYear);
+
+		});
+	</script>	
+

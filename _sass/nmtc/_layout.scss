@@ -1,3 +1,9 @@
+/*
+ * Bug fixes for standings DataTable
+ */ 
+
+
+
 /**
  * DataTables styles 
  */
@@ -31,4 +37,159 @@ table.dataTable thead>tr>th {
 
 #resultsTable {
 	background-color: $background-color; 
+}
+
+.results-select-head {
+	height: 2em; 
+	padding: 0.1em 0.2em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+
+#genderFilter {
+	padding: 4px; 
+}
+
+.errorMessage {
+	background-color: #cc6f77;
+  color: #fdfdfd;
+  padding: 0.2em 2em;
+}
+
+/*
+ * Scroll bar for DataTables 
+ */
+
+.dataTables_scroll {
+	padding-top: 10px;
+}
+
+.table-scroll-wrapper {
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.table-scroll-wrapper::-webkit-scrollbar {
+  height: 10px;
+}
+
+.table-scroll-wrapper {
+  position: relative;
+}
+
+/* Always show horizontal scrollbar */
+.dataTables_scrollBody {
+  overflow-x: scroll !important;
+}
+
+/* WebKit (Safari / Chrome) scrollbar styling */
+.dataTables_scrollBody::-webkit-scrollbar {
+  height: 12px;
+}
+
+.dataTables_scrollBody::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+.dataTables_scrollBody::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 6px;
+}
+
+.dataTables_scrollBody::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+div.bottom > div.dt-buttons {
+	padding-left: 1em; 
+}
+
+.dataTable {
+	padding-top: 10px; 	
+}
+
+/* Wrapper for top scrollbar */
+.table-scroll-wrapper {
+  position: relative;
+  overflow-x: auto; /* fallback for old browsers */
+}
+
+/* Top scroll mimic */
+.table-scroll-sync-top {
+  overflow-x: auto;
+  overflow-y: hidden; /* horizontal only */
+  height: 12px;       /* matches bottom scrollbar height */
+  margin-bottom: 4px; /* space between scrollbar and table */
+}
+
+.table-scroll-sync-top::-webkit-scrollbar {
+  height: 12px;
+}
+
+.table-scroll-sync-top::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+.table-scroll-sync-top::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 6px;
+}
+
+.table-scroll-sync-top::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+/* Optional: existing DataTables bottom scrollbar styling */
+.dataTables_scrollBody {
+  overflow-x: scroll !important;
+}
+
+// Wide wrapper 
+
+.wide-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+  }
+}
+
+// standings schedule 
+
+.standings-schedule-box {
+	max-width: 600px; 
+  margin: 0 auto 15px auto;
+  background-color: #f0f0f0;
+  padding: 15px 15px 1px 15px;
+}
+
+// menu 
+
+.results-menu-container {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+.results-menu-container span {
+  padding: 3px 9px;
+}
+
+.results-menu-container span.active {
+  background-color: #444444;
+  color: #fdfdfd;
+}
+
+.results-menu-container a,
+.results-menu-container a:visited {
+  text-decoration: none;
+  color: inherit;
 }

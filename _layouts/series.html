@@ -47,7 +47,7 @@ layout: default
 </div>
 
 <div class="event-content">
-  <h1 id="schedule-and-race-results">Schedule and race results</h1>
+  <h1 id="schedule-and-race-results">Schedule</h1>
 </div>
 
 <!-- <div class="map-container">
@@ -203,11 +203,21 @@ layout: default
               {% endif %}
             {% endfor %}
           {% endif %}
-          <div class="series-results {{ hide_results }}">
+          <!-- <div class="series-results {{ hide_results }}">
             <div><strong>Results: </strong>
               {% for edition in station.results %}
                 {%- if edition.url -%}<a href="{{ edition.url }}" target="_blank" style="padding-right: 0.25em">{{ edition.year }}</a>{%- endif -%}
               {% endfor %}
+            </div>
+          </div> -->
+          {%- assign seriesPath = page.url -%}
+
+          <div class="series-results {{ hide_results }}">
+            <div><strong>Results: </strong>
+              <a href="/results{{ seriesPath }}?&course={{ station.name }}&gender=X" target="_blank" style="padding-right: 0.25em">Nonbinary</a>
+              <a href="/results{{ seriesPath }}?&course={{ station.name }}&gender=W" target="_blank" style="padding-right: 0.25em">Women</a>
+              <a href="/results{{ seriesPath }}?&course={{ station.name }}&gender=M" target="_blank" style="padding-right: 0.25em">Men</a>
+              <a href="/results{{ seriesPath }}?&course={{ station.name }}" target="_blank" style="padding-right: 0.25em">All</a>
             </div>
           </div>
 
@@ -233,19 +243,27 @@ layout: default
 
 <div class="event-content">
   <p><span class="nb" style="font-weight:bold;">¡ NOTE !</span> Routes and distances displayed above reflect typical courses, which change based on trail conditions and the whims of the race directors. Runners don't find out the exact route until the prerace briefing — all part of the fun.</p>
-  <h1 id="overall-standings">Overall standings</h1>
+  <h1 id="overall-standings">Race results and series standings</h1>
+  <p>We often post results the same day as the race and alert runners via the <a href="https://www.facebook.com/295987053807192" target="_blank">NMTC Facebook page</a>. We provide all results, and you can filter them by gender category (X=nonbinary, W=women, M=men). Historical data is also accessible here.</p>
 </div>
 
 <div class="container" style="display:flex;padding-bottom:1em;">
-  <a href="{{ results-women }}" style="margin: 0 auto;" target="blank">
-    <div class="button">Women</div>
-  </a>
-  <a href="{{ results-men }}" style="margin: 0 auto;" target="blank">
-    <div class="button">Men</div>
-  </a>
-  <a href="{{ results-nonbinary }}" style="margin: 0 auto;" target="blank">
-    <div class="button">Nonbinary</div>
-  </a>
+  <div style="margin: 0 auto;">
+    <a href="/results{{ seriesPath }}?gender=All">
+      <div class="button">Results</div><br>
+    </a>
+    <!-- <a href="/results{{ seriesPath }}?gender=X">X</a> • 
+    <a href="/results{{ seriesPath }}?gender=W">W</a> •
+    <a href="/results{{ seriesPath }}?gender=M">M</a> -->
+  </div>
+  <div style="margin: 0 auto;">
+    <a href="/standings{{ seriesPath }}?gender=All">
+      <div class="button">Standings</div><br>
+    </a>
+    <!-- <a href="/standings{{ seriesPath }}?gender=X">X</a> • 
+    <a href="/standings{{ seriesPath }}?gender=W">W</a> •
+    <a href="/standings{{ seriesPath }}?gender=M">M</a> -->
+  </div>
 </div>
 
 <script type="text/javascript">
