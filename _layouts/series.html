@@ -61,88 +61,39 @@ layout: default
   </a>
 </div>
 
-  {% comment %} Assign .active and get overall standings {% endcomment %}
-  {% assign year_counter = 0 %}
-  {% assign first_edition_year = false %}
-  {% assign final_event_year = false %}
-  {% assign i = 0 %}
+{%- assign now_ts = "now" | date: "%Y-%m-%d" -%}
 
-  {% for event in series %}
+{%- assign next_event = "" -%}
+{%- assign next_event_ts = nil -%}
 
-    {% comment %} if metadata, save a few variables and end forloop {% endcomment %}
-    {% if event.metadata %}
-      {% for overall-standings in event.metadata %}
-        {% for standings in overall-standings %}
-          {% assign results-women = standings.women %}
-          {% assign results-men = standings.men %}
-          {% assign results-nonbinary = standings.nonbinary %}
-        {% endfor %}
-      {% endfor %}
-      {% break %}
-    {% endif %}
+{%- assign first_event = "" -%}
+{%- assign first_event_ts = nil -%}
 
-    {% comment %} establish first event as .active and save name for later {% endcomment %}
-    {% if forloop.first == true %}
-      {% assign active_event = event.name %}
-      {% assign series_opener = event.name %}
-    {% endif %}
+{%- for station in series -%}
+  {%- assign station_ts = station.date | date: "%Y-%m-%d" -%}
 
-    {% comment %} check to see if we should even continue {% endcomment %}
-    {% if event.results %}
+  {%- comment %} Track earliest event (fallback) {% endcomment -%}
+  {%- if first_event_ts == nil or station_ts < first_event_ts -%}
+    {%- assign first_event = station.name -%}
+    {%- assign first_event_ts = station_ts -%}
+  {%- endif -%}
 
-      {% comment %} if previous event has results uploaded,
-                    set current event as .active {% endcomment %}
-      {% if num_editions > 0 %}
-        {% assign active_event = event.name %}
-      {% endif %}
+  {%- comment %} Find next upcoming event {% endcomment -%}
+  {%- if station_ts >= now_ts -%}
+    {%- if next_event_ts == nil or station_ts < next_event_ts -%}
+      {%- assign next_event = station.name -%}
+      {%- assign next_event_ts = station_ts -%}
+    {%- endif -%}
+  {%- endif -%}
 
-      {% comment %} store final event for use at after looping {% endcomment %}
-      {% assign series_final = event.name %}
+{%- endfor -%}
 
-      {% comment %} establish first_year {% endcomment %}
-      {% if forloop.first == true %}
-        {% assign first_year = edition.year %}
-        {% assign first_year_boolean = true %}
-      {% endif %}
-
-      {% comment %} start looping through editions of the event {% endcomment %}
-      {% assign num_editions = 0 %}
-
-      {% for edition in event.results %}
-
-        {% if edition.url %}
-
-          {% comment %} establish first_edition_year {% endcomment %}
-          {% if first_year_boolean == true or event.name == series_opener %}
-            {% assign first_edition_year = edition.year %}
-            {% assign first_year_boolean = false %}
-          {% endif %}
-
-          {% comment %} if newer results have been uploaded... {% endcomment %}
-
-          {% if edition.year >= year_counter %}
-
-            {% assign latest_edition_name = event.name %}
-            {% assign latest_edition_year = edition.year %}
-
-            {%  assign num_editions = num_editions | plus: 1 %}
-
-            {% assign year_counter = edition.year %}
-
-          {% endif %}
-
-        {% endif %}
-
-      {% endfor %}
-
-    {% endif %}
-
-  {% endfor %}
-
-{% comment %} if season is complete, set the first event as .active {% endcomment %}
-{% if first_edition_year == latest_edition_year and latest_edition_name == series_final %}
-  {% assign active_event = series_opener %}
-{% endif %}
+{%- comment %} Final assignment {% endcomment -%}
+{%- if next_event != "" -%}
+  {%- assign active_event = next_event -%}
+{%- else -%}
+  {%- assign active_event = first_event -%}
+{%- endif -%}
 
 <div class="aid-station-wrapper">
   {% for station in series %}
