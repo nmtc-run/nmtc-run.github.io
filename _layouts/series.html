@@ -50,11 +50,7 @@ layout: default
   <h1 id="schedule-and-race-results">Schedule</h1>
 </div>
 
-<!-- <div class="map-container">
-  <iframe id="map-iframe" src="https://www.google.com/maps/d/u/0/embed?mid={{ page.map-id }}&ehbc=2E312F&noprof=1" width="100%" height="480"></iframe>
-</div> -->
-
-<div class="map-container" style="border:none;position:relative;">
+<<div class="map-container" style="border:none;position:relative;">
   <iframe id="map-iframe" src="https://www.google.com/maps/d/u/0/embed?mid={{ page.google-map-id }}&ehbc=2E312F&noprof=1" width="100%" height="480"></iframe>
   <a style="width: 60px; height: 60px; position: absolute; bottom: 22px; right: 15px; background-color: #000; box-shadow: 0 2px 6px rgba(0, 0, 0, .3); border-radius: 2px; text-align: right; background-image: url(/assets/icons/sat-view.png); background-position: center; background-repeat: no-repeat; background-size: cover;" href="https://www.google.com/maps/d/u/2/edit?mid={{ page.google-map-id }}&amp;usp=sharing" target="_blank">
     <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square-light.svg" alt="" style="box-shadow: 0 2px 6px rgba(0, 0, 0, .3)">
@@ -113,19 +109,17 @@ layout: default
           {% endif %}
           <div class="as-name">{{ station.name }}</div>
           <div class="as-spacer"></div>
-          {% comment %} if results are posted, set .posted {% endcomment %}
-          {% assign eventYear = station.date | date: "%Y" | plus: 0 %}
-          {% assign displayResults = '' %}
-          {% for edition in station.results %}
-            {% if edition.url %}
-              {% if edition.year == eventYear %}
-                {% assign displayResults = 'display-results' %}
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-          <div class="series-date">{{ station.date | date: "%a %-d %b" }}</div>
-          <div class="results-icon {{ displayResults }}">Results</div>
-          <div class="series-time {{ displayResults }}">{{ station.time }}</div>
+          {%- assign today = "now" | date: "%Y-%m-%d" -%}
+					{%- assign stationDateStr = station.date | date: "%Y-%m-%d" -%}
+
+					{%- assign displayResults = '' -%}
+					{%- if stationDateStr < today -%}
+					  {%- assign displayResults = 'display-results' -%}
+					{%- endif -%}
+
+					<div class="series-date">{{ station.date | date: "%a %-d %b" }}</div>
+					<div class="results-icon {{ displayResults }}">Results</div>
+					<div class="series-time {{ displayResults }}">{{ station.time }}</div>
         </div>
         <div class="as-details">
           <div class="series-location series-date-time-details">
@@ -146,29 +140,14 @@ layout: default
             </div>
           {% endif %}
 
-          {% assign hide_results = 'hide-results' %}
-          {% if station.results %}
-            {% for edition in station.results %}
-              {% if edition.url %}
-                {% assign hide_results = '' %}
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-          <!-- <div class="series-results {{ hide_results }}">
-            <div><strong>Results: </strong>
-              {% for edition in station.results %}
-                {%- if edition.url -%}<a href="{{ edition.url }}" target="_blank" style="padding-right: 0.25em">{{ edition.year }}</a>{%- endif -%}
-              {% endfor %}
-            </div>
-          </div> -->
           {%- assign seriesPath = page.url -%}
 
-          <div class="series-results {{ hide_results }}">
-            <div><strong>Results: </strong>
+          <div class="series-results">
+            <div><strong>Latest results: </strong>
+              <a href="/results{{ seriesPath }}?&course={{ station.name }}" target="_blank" style="padding-right: 0.25em">All</a>
               <a href="/results{{ seriesPath }}?&course={{ station.name }}&gender=X" target="_blank" style="padding-right: 0.25em">Nonbinary</a>
               <a href="/results{{ seriesPath }}?&course={{ station.name }}&gender=W" target="_blank" style="padding-right: 0.25em">Women</a>
               <a href="/results{{ seriesPath }}?&course={{ station.name }}&gender=M" target="_blank" style="padding-right: 0.25em">Men</a>
-              <a href="/results{{ seriesPath }}?&course={{ station.name }}" target="_blank" style="padding-right: 0.25em">All</a>
             </div>
           </div>
 
