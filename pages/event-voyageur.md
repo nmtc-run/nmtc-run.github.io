@@ -64,9 +64,9 @@ Crew members are allowed to support their runners at designated [aid stations](#
 
 Some aid stations are designated \*no crew\*, which also means \*no spectators*\. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
 
-Some aid stations allow crew access. Runners, please warn your crew and fans to drive with care. Reduce vehicle traffic around aid stations by carpooling and parking as far away as your legs allow. Reserve parking spots near aid stations for medical, resupply, and other race vehicles. Please pay special attention at the following aid stations:
+Some aid stations allow crew access. Runners, please warn your crew and fans to drive with care. Reduce vehicle traffic around aid stations by carpooling and parking as far away as your legs allow. Reserve parking spots near aid stations for medical, resupply, and other race vehicles. 
 
-Specifically: 
+Specifically:
 * **Hwy 210:** No crew, no spectators due to limited parking.
 * **Peterson's:** No crew, no spectators due to limited parking.
 * **Beck's Rd:** To prevent crowding, spectators can park on the road and spectate from the designated area at aid station or further down the trail towards the bridge.
