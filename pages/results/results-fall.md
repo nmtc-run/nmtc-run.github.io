@@ -10,4 +10,4 @@ useDataTables: true
 
 Results are maintained by NMTC volunteers. [Contact us](/contact) with comments or questions.  
 
-Results from editions held before 2010 are not (yet) published. We have lost the data for the following races: 2012 Roughrider, 2012 Pine Valley, 2018 Roughrider, 2018 Rolling Stone, 2018 Hawk Ridge, 2019 all races. Results do not exist for 2020 (series cancelled). 
+We currently offer results for editions going back to 2010. We do not have data for the following races: 2012 Roughrider, 2012 Pine Valley, 2018 Roughrider, 2018 Rolling Stone, 2018 Hawk Ridge, 2019 all races. Results do not exist for 2020 (series cancelled). 
