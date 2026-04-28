@@ -1,4 +1,4 @@
--   name: "Start: Carlton High School"
+-   name: "Start: Carlton Munger Trailhead"
     total: 0.0
     split: 0.0
     next: 7.1
@@ -7,8 +7,8 @@
     crew-access: Yes
     drop-bags: Yes
     map-color: rgb(230,81,0)
-    latLong: 46.6651196,-92.4226923
-    parking: A good amount of parking is available in the lots behind and near the school. Some parking is also available on the streets surrounding the school.
+    latLong: 46.66268, -92.42273
+    parking: "Park at Magnum LTL: 406 South Ave, Carlton, MN 55718. Help us be a good neighbor by avoiding the public parking lot near the pavillion." 
 
 -   name: "Peterson's"
     total: 7.1
@@ -20,7 +20,7 @@
     drop-bags: Yes
     map-color: rgb(103,58,183)
     latLong: 46.67616, -92.33634
-    parking:
+    parking: No crew, no spectators allowed due to limited parking.
 
 -   name: "Hwy 210 (water only)"
     total: 13.7
@@ -32,7 +32,7 @@
     drop-bags: No
     map-color: rgb(2,136,209)
     latLong: 46.67367, -92.29232
-    parking:
+    parking: No crew, no spectators allowed due to limited parking.
 
 -   name: "Becks Road"
     total: 17.0
@@ -44,9 +44,9 @@
     drop-bags: Yes
     map-color: rgb(194,24,91)
     latLong: 46.69069, -92.27712
-    parking: To prevent crowding, spectators can park on the road and spectate from the designated area at aid station or further down the trail towards the bridge. 
+    parking: For the safety of our runners, please help us prevent crowding. Park on the road and spectate from the designated area at aid station or further down the trail toward the bridge. 
 
--   name: "Turnaround: Zoo"
+-   name: "Turnaround: Fairmont Park"
     total: 24.1
     split: 7.1
     next: 7.1
@@ -55,8 +55,8 @@
     crew-access: Yes
     drop-bags: Yes
     map-color: rgb(15,157,88)
-    latLong: 46.72757, -92.19056
-    parking: Fairmont Park gravel parking lot (adjacent to the Lake Superior Zoo).
+    latLong: 46.726904, -92.19036
+    parking: Fairmont Park has its own gravel parking lot. This lot is adjacent to the paved Lake Superior Zoo parking lot; help us be a good neighber—do *not* park in the Zoo lot.
 
 -   name: "Becks Road"
     total: 31.2
@@ -68,7 +68,7 @@
     drop-bags: Yes
     map-color: rgb(194,24,91)
     latLong: 46.69069, -92.27712
-    parking:
+    parking: For the safety of our runners, please help us prevent crowding. Park on the road and spectate from the designated area at aid station or further down the trail toward the bridge. 
 
 -   name: "Hwy 210 (water only)"
     total: 34.5
@@ -80,7 +80,7 @@
     drop-bags: No
     map-color: rgb(2,136,209)
     latLong: 46.67367, -92.29232
-    parking:
+    parking: No crew, no spectators allowed due to limited parking.
 
 -   name: "Peterson's"
     total: 41.1
@@ -92,7 +92,7 @@
     drop-bags: Yes
     map-color: rgb(103,58,183)
     latLong: 46.67616, -92.33634
-    parking:
+    parking: No crew, no spectators allowed due to limited parking.
 
 -   name: "Jay Cooke"
     total: 46.5
@@ -106,7 +106,7 @@
     latLong: 46.65380, -92.37318
     parking:
 
--   name: "Finish: Carlton High School"
+-   name: "Finish: Carlton Munger Trailhead"
     split: 3.5
     next: 0.0
     total: 50.0
@@ -115,5 +115,5 @@
     crew-access: No
     drop-bags: Yes
     map-color: rgb(230,81,0)
-    latLong: 46.6651196,-92.4226923
-    parking: ¡ USE CAUTION ! If possible, use 5th or 6th St to approach the start/finish area on Walnut Ave—4th St is the final sprint to the finish line for our runners. A good amount of parking is available in the lots behind and near the school. Some parking is also available on the streets surrounding the school.
+    latLong: 46.66268, -92.42273
+    parking: "Park at Magnum LTL: 406 South Ave, Carlton, MN 55718. Help us be a good neighbor by avoiding the public parking lot near the pavillion."

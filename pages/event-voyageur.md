@@ -7,11 +7,11 @@ button-text: Registration / Results
 button-url: /voyageur#register-results
 button-external-link: false
 button-down-arrow: true
-start-finish: Carlton High School, Carlton, MN
+start-finish: "Carlton, MN (Turnaround: Duluth, MN)"
 ascent: 5,000 ft
 descent: 5,000 ft
 description: |-
-  Founded in 1982, the Minnesota Voyageur 50 Mile Trail Ultramarathon is one of the oldest trail ultras in the nation. The race follows a rugged, varied, out-and-back course that takes runners on a journey from Carlton, MN, through Jay Cooke State Park, and heads northeast over difficult, rough woodland trails to Duluth, MN—and back. Enjoy scenic overlooks of Lake Superior and cross the iconic Swinging Bridge over the dalles of the St. Louis River. </br></br>Carlton High School hosts the start, finish, and race-day festivities. Weather for the Minnesota Voyageur can be extreme. There have been several years when it was hot and humid—including 2003 when it was brutally hot with 90 percent humidity. In other years it has been cool, in the mid-50’s, and wet. Plan for everything except snow—at least not so far!
+  Founded in 1982, the Minnesota Voyageur 50 Mile Trail Ultramarathon is one of the oldest trail ultras in the nation. The race follows a rugged, varied, out-and-back course that takes runners on a journey from Carlton, MN, through Jay Cooke State Park, and heads northeast over difficult, rough woodland trails to Duluth, MN—and back. Enjoy scenic overlooks of Lake Superior and cross the iconic Swinging Bridge over the dalles of the St. Louis River. </br></br>Weather for the Minnesota Voyageur can be extreme. There have been several years when it was hot and humid—including 2003 when it was brutally hot with 90 percent humidity. In other years it has been cool, in the mid-50’s, and wet. Plan for everything except snow—at least not so far! </br></br> <span class="nb" style="font-weight:bold;">(!)</span> New in 2026: <ul><li>The race start/finish has moved to the Carlton Munger Trailhead, which we have long used for the Curnow Marathon.</li><li>The turnaround has moved further into Fairmont Park, to ensure the course runs a full 50 mi.</li></ul>
 plotaroute-id: 2059255
 strava-id: 3207869585823066736
 google-map-id: 1jQCEbQoT-Y4WGaQSeP4dfwr9oFJF7nE
@@ -24,13 +24,11 @@ redirect_from: /about-our-races/minnesota-voyageur-ultramarathon/
 
 # Getting to the start/finish 
 
-**Address:** Carlton High School 405 School Ave, Carlton, MN 55718
+**Address:** Carlton Munger Trailhead 
 
-**GPS:** [46.6651196,-92.4226923](https://goo.gl/maps/9W3JPx3k8jA2) <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">
+**GPS:** [46.66268, -92.42273](https://maps.app.goo.gl/WEqZECgozhBCdiEw9){:target="_blank"} <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">
 
-**Parking at start/finish:** A good amount of parking is available in the lots behind and near the school. Some parking is also available on the streets surrounding the school.
-
-**<span class="nb">¡ USE CAUTION !</span>** Approaching the start/finish area on Walnut Ave intersects with 4th St, which is the final sprint to the finish line for our runners. If you can, please use a different route to School Ave, such as 5th or 6th St.
+**Parking at start/finish:** Park at [Magnum LTL: 406 South Ave, Carlton, MN 55718](https://maps.app.goo.gl/kjTwfMr8rtzLrLYW8){:target="_blank"} <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">. Help us be a good neighbor by avoiding the public parking lot near the pavillion. 
 
 # Race number pick-up and drop bag drop-off at start line
 
@@ -44,9 +42,10 @@ The time and place for bibs and bags is race morning in the start area.
 ## Aid stations:
 * Drinks include water, electrolyte drink, and various sodas.
 * Food includes fruit, cookies, potato chips, and other sweet/salty options.
-* We do \*not\* supply electrolyte supplement capsules, such as Endurolytes or S-Caps.
+* We do \*not\* supply high-carbohydrate gels or drinks. 
+* We do \*not\* supply electrolyte supplement tablets or capsules.
 * We do \*not\* supply cups.
-* Come prepared to meet your nutrition and hydration needs between aid stations. We strongly recommend you carry water during the race.
+* Come prepared to meet your nutrition and hydration needs between aid stations. We strongly recommend you carry water during the race. 
 
 ## Drop bags:
 
@@ -65,16 +64,16 @@ Crew members are allowed to support their runners at designated [aid stations](#
 
 Some aid stations are designated \*no crew\*, which also means \*no spectators*\. We have to disqualify runners who ignore this rule. As a runner participant, you are responsible for your crew and fans understanding this limitation.
 
-* **Hwy 210:** No crew, no spectators due to limited parking.
-* **Peterson's:** No crew, no spectators due to limited parking.
-
 Some aid stations allow crew access. Runners, please warn your crew and fans to drive with care. Reduce vehicle traffic around aid stations by carpooling and parking as far away as your legs allow. Reserve parking spots near aid stations for medical, resupply, and other race vehicles. Please pay special attention at the following aid stations:
 
+Specifically: 
+* **Hwy 210:** No crew, no spectators due to limited parking.
+* **Peterson's:** No crew, no spectators due to limited parking.
 * **Beck's Rd:** To prevent crowding, spectators can park on the road and spectate from the designated area at aid station or further down the trail towards the bridge.
 
 # Schedule
 
-**5:00 AM-5:45 AM:** Check-in and bib pick-up for runners at Carlton High School.
+**5:00 AM-5:45 AM:** Check-in and bib pick-up for runners at Carlton Munger Trailhead.
 
 **5:45 AM:** Pre-race briefing. Attendance is mandatory.
 
@@ -104,7 +103,7 @@ Some aid stations allow crew access. Runners, please warn your crew and fans to 
 
 **Awards:** The top ten men, women, and nonbinary finishers receive a pottery mug; all finishers receive a medal.
 
-**Area events:** Coinciding with Voyageur race weekend, the city of Carlton, MN will be putting on their annual [Carlton Daze](https://carltonchamber.com/carlton-daze/) festivities, including a 5k Run/Walk, kids fun races, a spaghetti feed, and much more. Organizers really appreciate support on Friday evening, when volunteer help is always appreciated.
+**Area events:** Coinciding with Voyageur race weekend, the city of Carlton, MN, hosts their annual [Carlton Daze](https://carltonchamber.com/carlton-daze/) festivities, including a 5k Run/Walk, kids fun races, a spaghetti feed, and much more. Organizers really appreciate support on Friday evening, when volunteer help is always appreciated. 
 
 # Race rules
 
