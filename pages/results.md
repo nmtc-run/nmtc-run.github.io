@@ -17,4 +17,7 @@ See [Voyageur results](/results/voyageur) or [Curnow Results](/results/curnow) f
 
 # Spring & Fall Series
 
-To view historical results for each series event, click into the "schedule and results" section for each race: [Spring Series](/spring-series) or [Fall Series](/fall-series).
+We offer searchable and sortable race results and series standings. Note that we do not (yet) have data for all years and races. 
+
+* Spring: [Results](/results/spring-series) \| [Standings](/standings/spring-series) 
+* Fall: [Results](/results/fall-series) \| [Standings](/standings/fall-series) 
