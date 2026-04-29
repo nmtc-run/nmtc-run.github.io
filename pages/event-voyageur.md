@@ -20,6 +20,7 @@ google-spreadsheet-id: 1Aktdv0SMrTByESs20zGcy53GAKqESummAD-SMmRESm4
 gpx-url: /assets/gpx/Voyageur-updated-2025-07-07.gpx
 elevation-profile: /assets/gpx/voyageur-elevation-2024.svg
 redirect_from: /about-our-races/minnesota-voyageur-ultramarathon/
+img: /img/voyageur-runners.jpeg # used for FB share image; page content is controlled by /_data/event-data.yml 
 ---
 
 # Getting to the start/finish 

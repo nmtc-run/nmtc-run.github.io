@@ -26,6 +26,7 @@ google-spreadsheet-id: 11C7XBqt0ejhSXVvgBR5zNpl0l_SCzJNnqSAdX5At9UI
 gpx-url: /assets/gpx/Curnow-updated-2025-07-07.gpx
 elevation-profile: /assets/gpx/curnow-elevation-2024.svg
 redirect_from: /about-our-races/eugene-curnow-marathon/
+img: /img/curnow.jpeg # used for FB share image; page content is controlled by /_data/event-data.yml 
 ---
 
 # Getting to the start line 
