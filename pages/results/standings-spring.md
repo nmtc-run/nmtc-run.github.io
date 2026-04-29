@@ -9,3 +9,5 @@ useDataTables: true
 ---
 
 Results are maintained by NMTC volunteers. [Contact us](/contact) with comments or questions.  
+
+We offer results from editions going back to 2010. Results do not exist for 2020 (series cancelled) and 2021 (three races held; results not recorded or archived). 

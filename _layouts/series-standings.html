@@ -32,8 +32,12 @@ layout: default-wide
 	<table id="seriesStandings" class="display" style="width:100%; max-width: 1000px; padding-top: 0;"></table>
 </div>
 
-<div class="" style="height:1.5em;">Use bottom scrollbar to view more columns.</div>	
-<div class="" style="height:1.5em;">&nbsp;</div>
+<div class="wrapper">
+	<div class="container" style="padding-top: 1em; text-align: left;">
+		{{ content }}
+		<div class="" style="height:1.5em;">&nbsp;</div>
+	</div>
+</div>	
 
 <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/4.3.0/css/fixedColumns.dataTables.min.css">
 <script src="https://cdn.datatables.net/fixedcolumns/4.3.0/js/dataTables.fixedColumns.min.js"></script>
