@@ -40,7 +40,7 @@ When you park at the finish, your car is ready and waiting when you finish! Park
 
 **Parking at start:**
 
-Runners are encouraged to take advantage of the bus from the finish line. If you must leave your car at the start line, know that the Fairmont Park gravel parking lot can fill quickly. The lot is adjacent to the Lake Superior Zoo—please do \*not\* park in the Zoo lot. If you arrive too late to park in the gravel lot, plan to walk or jog to the start area from further afield. Runners are responsible for finding a way back to their vehicles after the race.
+Runners are encouraged to take advantage of the bus from the finish line. If you must leave your car at the start line, know that the Fairmount Park gravel parking lot can fill quickly. The lot is adjacent to the Lake Superior Zoo—please do \*not\* park in the Zoo lot. If you arrive too late to park in the gravel lot, plan to walk or jog to the start area from further afield. Runners are responsible for finding a way back to their vehicles after the race.
 * **Start Address:** 7210 Fremont St, Duluth, MN 55807
 * **GPS:** [46.7264351, -92.1902315](https://maps.app.goo.gl/D8NzRvwSxxSKiKqY7) <img class="arrow-blank" src="/assets/icons/arrow-up-right-from-square.svg" alt="">
 
