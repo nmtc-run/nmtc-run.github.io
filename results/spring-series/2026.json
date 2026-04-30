@@ -145,8 +145,8 @@
     },
     {
       "Place": 4,
-      "Gender": "W",
-      "Name": "Karen Jones",
+      "Gender": "M",
+      "Name": "Sam O'Donnell-Hoff",
       "Total Points": 147,
       "Bonus": 0,
       "Bear Creek": 147,
@@ -158,8 +158,8 @@
     },
     {
       "Place": 4,
-      "Gender": "M",
-      "Name": "Sam O'Donnell-Hoff",
+      "Gender": "W",
+      "Name": "Karen Jones",
       "Total Points": 147,
       "Bonus": 0,
       "Bear Creek": 147,
@@ -1497,6 +1497,19 @@
     },
     {
       "Place": 56,
+      "Gender": "M",
+      "Name": "Nico Ghandi",
+      "Total Points": 95,
+      "Bonus": 0,
+      "Bear Creek": 95,
+      "Waabizheshikana": 0,
+      "Spirit Mountain": 0,
+      "Point Pine": 0,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 56,
       "Gender": "W",
       "Name": "Laura Palombi",
       "Total Points": 95,
@@ -1512,19 +1525,6 @@
       "Place": 57,
       "Gender": "W",
       "Name": "Shelly Thompson",
-      "Total Points": 95,
-      "Bonus": 0,
-      "Bear Creek": 95,
-      "Waabizheshikana": 0,
-      "Spirit Mountain": 0,
-      "Point Pine": 0,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 56,
-      "Gender": "M",
-      "Name": "Nico Ghandi",
       "Total Points": 95,
       "Bonus": 0,
       "Bear Creek": 95,
@@ -1849,7 +1849,7 @@
     {
       "Place": 78,
       "Gender": "M",
-      "Name": "Glenn Misgen",
+      "Name": "Sam Shanks",
       "Total Points": 73,
       "Bonus": 0,
       "Bear Creek": 73,
@@ -1862,7 +1862,7 @@
     {
       "Place": 79,
       "Gender": "M",
-      "Name": "Dave Israel",
+      "Name": "Glenn Misgen",
       "Total Points": 72,
       "Bonus": 0,
       "Bear Creek": 72,
@@ -1875,7 +1875,7 @@
     {
       "Place": 80,
       "Gender": "M",
-      "Name": "Eric Schwerdt",
+      "Name": "Dave Israel",
       "Total Points": 71,
       "Bonus": 0,
       "Bear Creek": 71,
@@ -1888,7 +1888,7 @@
     {
       "Place": 81,
       "Gender": "M",
-      "Name": "Ryan Bauer",
+      "Name": "Eric Schwerdt",
       "Total Points": 70,
       "Bonus": 0,
       "Bear Creek": 70,
@@ -1901,7 +1901,7 @@
     {
       "Place": 82,
       "Gender": "M",
-      "Name": "Matthew Henderson",
+      "Name": "Ryan Bauer",
       "Total Points": 69,
       "Bonus": 0,
       "Bear Creek": 69,
@@ -1914,7 +1914,7 @@
     {
       "Place": 83,
       "Gender": "M",
-      "Name": "Tim Schovein",
+      "Name": "Matthew Henderson",
       "Total Points": 68,
       "Bonus": 0,
       "Bear Creek": 68,
@@ -1927,7 +1927,7 @@
     {
       "Place": 84,
       "Gender": "M",
-      "Name": "Leif DeVaney",
+      "Name": "Tim Schovein",
       "Total Points": 67,
       "Bonus": 0,
       "Bear Creek": 67,
@@ -1940,7 +1940,7 @@
     {
       "Place": 85,
       "Gender": "M",
-      "Name": "Nick Terwey",
+      "Name": "Leif DeVaney",
       "Total Points": 66,
       "Bonus": 0,
       "Bear Creek": 66,
@@ -1953,7 +1953,7 @@
     {
       "Place": 86,
       "Gender": "M",
-      "Name": "Tyson Freier",
+      "Name": "Nick Terwey",
       "Total Points": 65,
       "Bonus": 0,
       "Bear Creek": 65,
@@ -1966,7 +1966,7 @@
     {
       "Place": 87,
       "Gender": "M",
-      "Name": "Nicholas Sundstrom",
+      "Name": "Tyson Freier",
       "Total Points": 64,
       "Bonus": 0,
       "Bear Creek": 64,
@@ -1979,7 +1979,7 @@
     {
       "Place": 88,
       "Gender": "M",
-      "Name": "Ben Talarico",
+      "Name": "Nicholas Sundstrom",
       "Total Points": 63,
       "Bonus": 0,
       "Bear Creek": 63,
@@ -1992,7 +1992,7 @@
     {
       "Place": 89,
       "Gender": "M",
-      "Name": "Steve Heikkila",
+      "Name": "Ben Talarico",
       "Total Points": 62,
       "Bonus": 0,
       "Bear Creek": 62,
@@ -2005,7 +2005,7 @@
     {
       "Place": 90,
       "Gender": "M",
-      "Name": "Adam Swank",
+      "Name": "Steve Heikkila",
       "Total Points": 61,
       "Bonus": 0,
       "Bear Creek": 61,
@@ -2018,7 +2018,7 @@
     {
       "Place": 91,
       "Gender": "M",
-      "Name": "Adam McGill",
+      "Name": "Adam Swank",
       "Total Points": 60,
       "Bonus": 0,
       "Bear Creek": 60,
@@ -2031,7 +2031,7 @@
     {
       "Place": 92,
       "Gender": "M",
-      "Name": "Travis Dooley",
+      "Name": "Adam McGill",
       "Total Points": 59,
       "Bonus": 0,
       "Bear Creek": 59,
@@ -2044,7 +2044,7 @@
     {
       "Place": 93,
       "Gender": "M",
-      "Name": "Barb Bengtson",
+      "Name": "Travis Dooley",
       "Total Points": 58,
       "Bonus": 0,
       "Bear Creek": 58,
@@ -2057,7 +2057,7 @@
     {
       "Place": 94,
       "Gender": "M",
-      "Name": "Haley Bengtson",
+      "Name": "Barb Bengtson",
       "Total Points": 57,
       "Bonus": 0,
       "Bear Creek": 57,
@@ -2070,7 +2070,7 @@
     {
       "Place": 95,
       "Gender": "M",
-      "Name": "Keith Thompson",
+      "Name": "Haley Bengtson",
       "Total Points": 56,
       "Bonus": 0,
       "Bear Creek": 56,
@@ -2083,10 +2083,10 @@
     {
       "Place": 96,
       "Gender": "M",
-      "Name": "Justus Olson",
-      "Total Points": 54,
+      "Name": "Keith Thompson",
+      "Total Points": 55,
       "Bonus": 0,
-      "Bear Creek": 54,
+      "Bear Creek": 55,
       "Waabizheshikana": 0,
       "Spirit Mountain": 0,
       "Point Pine": 0,
@@ -2096,7 +2096,7 @@
     {
       "Place": 97,
       "Gender": "M",
-      "Name": "Jarrow Wahman",
+      "Name": "Justus Olson",
       "Total Points": 54,
       "Bonus": 0,
       "Bear Creek": 54,
@@ -2109,42 +2109,18 @@
     {
       "Place": 98,
       "Gender": "M",
-      "Name": "Sam Shanks",
-      "Total Points": "#N/A",
+      "Name": "Jarrow Wahman",
+      "Total Points": 54,
       "Bonus": 0,
-      "Bear Creek": "#N/A",
-      "Waabizheshikana": "#N/A",
-      "Spirit Mountain": "#N/A",
-      "Point Pine": "#N/A",
-      "Woodland Run": "#N/A",
-      "Cloquet Forestry Center": "#N/A"
+      "Bear Creek": 54,
+      "Waabizheshikana": 0,
+      "Spirit Mountain": 0,
+      "Point Pine": 0,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
     }
   ],
   "results": [
-    {
-      "name": "Laura Palombi",
-      "gender": "W",
-      "date": "2026-04-29T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Bear Creek",
-      "volunteer": true,
-      "time": "#REF!",
-      "place": "VOL",
-      "gender_place": 56,
-      "points": 95
-    },
-    {
-      "name": "Shelly Thompson",
-      "gender": "W",
-      "date": "2026-04-29T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Bear Creek",
-      "volunteer": true,
-      "time": "#REF!",
-      "place": "VOL",
-      "gender_place": 56,
-      "points": 95
-    },
     {
       "name": "Jordan Gruenes",
       "gender": "M",
@@ -2152,7 +2128,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1567000.0001206063,
+      "time": 1567000.0000000002,
       "place": 1,
       "gender_place": 1,
       "points": 150
@@ -2164,7 +2140,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1576999.999943655,
+      "time": 1577000,
       "place": 2,
       "gender_place": 2,
       "points": 149
@@ -2176,10 +2152,22 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1596999.9999040738,
+      "time": 1597000,
       "place": 3,
       "gender_place": 3,
       "points": 148
+    },
+    {
+      "name": "Sam O'Donnell-Hoff",
+      "gender": "M",
+      "date": "2026-04-29T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Bear Creek",
+      "volunteer": "",
+      "time": 1600999.9999999998,
+      "place": 4,
+      "gender_place": 4,
+      "points": 147
     },
     {
       "name": "Jakob Wartman",
@@ -2188,7 +2176,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1624999.99984866,
+      "time": 1625000,
       "place": 5,
       "gender_place": 5,
       "points": 146
@@ -2200,7 +2188,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1629000.0001550652,
+      "time": 1629000.0000000002,
       "place": 6,
       "gender_place": 6,
       "points": 145
@@ -2212,7 +2200,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1651999.9998738058,
+      "time": 1652000,
       "place": 7,
       "gender_place": 7,
       "points": 144
@@ -2224,7 +2212,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1676000.0001406297,
+      "time": 1676000,
       "place": 8,
       "gender_place": 8,
       "points": 143
@@ -2236,7 +2224,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1681999.9999715947,
+      "time": 1682000,
       "place": 9,
       "gender_place": 9,
       "points": 142
@@ -2248,7 +2236,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1686999.999883119,
+      "time": 1687000,
       "place": 10,
       "gender_place": 1,
       "points": 150
@@ -2260,7 +2248,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1690999.9998752028,
+      "time": 1691000.0000000002,
       "place": 11,
       "gender_place": 10,
       "points": 141
@@ -2272,7 +2260,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1697000.000020489,
+      "time": 1697000,
       "place": 12,
       "gender_place": 11,
       "points": 140
@@ -2284,7 +2272,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1700000.0000931323,
+      "time": 1700000,
       "place": 13,
       "gender_place": 12,
       "points": 139
@@ -2296,7 +2284,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1705000.0000046566,
+      "time": 1705000.0000000002,
       "place": 14,
       "gender_place": 2,
       "points": 149
@@ -2308,7 +2296,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1724999.9999650754,
+      "time": 1724999.9999999998,
       "place": 15,
       "gender_place": 13,
       "points": 138
@@ -2320,7 +2308,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1727000.000118278,
+      "time": 1727000,
       "place": 16,
       "gender_place": 14,
       "points": 137
@@ -2332,7 +2320,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1739000.0000945292,
+      "time": 1738999.9999999998,
       "place": 17,
       "gender_place": 15,
       "points": 136
@@ -2344,7 +2332,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1758000.0001355074,
+      "time": 1758000,
       "place": 18,
       "gender_place": 3,
       "points": 148
@@ -2356,7 +2344,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1764999.999885913,
+      "time": 1765000,
       "place": 19,
       "gender_place": 16,
       "points": 135
@@ -2368,7 +2356,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1772999.9998700805,
+      "time": 1772999.9999999998,
       "place": 20,
       "gender_place": 17,
       "points": 134
@@ -2380,7 +2368,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1782000.00008801,
+      "time": 1782000,
       "place": 21,
       "gender_place": 18,
       "points": 133
@@ -2392,7 +2380,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1784999.9998463318,
+      "time": 1785000,
       "place": 22,
       "gender_place": 19,
       "points": 132
@@ -2404,7 +2392,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1790999.999991618,
+      "time": 1791000,
       "place": 23,
       "gender_place": 20,
       "points": 131
@@ -2416,7 +2404,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1795999.9999031425,
+      "time": 1796000,
       "place": 24,
       "gender_place": 21,
       "points": 130
@@ -2428,7 +2416,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1802999.9999678694,
+      "time": 1803000,
       "place": 25,
       "gender_place": 4,
       "points": 147
@@ -2440,7 +2428,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1837999.9999771826,
+      "time": 1838000,
       "place": 26,
       "gender_place": 22,
       "points": 129
@@ -2452,7 +2440,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1868999.999994412,
+      "time": 1869000,
       "place": 27,
       "gender_place": 23,
       "points": 128
@@ -2464,7 +2452,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1876000.000059139,
+      "time": 1876000,
       "place": 28,
       "gender_place": 24,
       "points": 127
@@ -2488,7 +2476,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1923000.0000447035,
+      "time": 1923000,
       "place": 30,
       "gender_place": 26,
       "points": 125
@@ -2500,7 +2488,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1934000.0001015142,
+      "time": 1934000,
       "place": 31,
       "gender_place": 27,
       "points": 124
@@ -2512,7 +2500,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1943000.0000051223,
+      "time": 1943000,
       "place": 32,
       "gender_place": 28,
       "points": 123
@@ -2524,7 +2512,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1950999.9999892898,
+      "time": 1951000,
       "place": 33,
       "gender_place": 29,
       "points": 122
@@ -2536,7 +2524,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1974000.0000223517,
+      "time": 1956000,
       "place": 34,
       "gender_place": 30,
       "points": 121
@@ -2548,7 +2536,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1983999.9998454005,
+      "time": 1974000.0000000002,
       "place": 35,
       "gender_place": 31,
       "points": 120
@@ -2560,7 +2548,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 1988000.0001518056,
+      "time": 1984000,
       "place": 36,
       "gender_place": 5,
       "points": 146
@@ -2572,7 +2560,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2002999.9998863786,
+      "time": 1988000,
       "place": 37,
       "gender_place": 32,
       "points": 119
@@ -2584,7 +2572,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2005000.0000395812,
+      "time": 2003000,
       "place": 38,
       "gender_place": 33,
       "points": 118
@@ -2596,7 +2584,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2008000.0001122244,
+      "time": 2005000,
       "place": 39,
       "gender_place": 34,
       "points": 117
@@ -2608,7 +2596,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2009999.9999511056,
+      "time": 2008000.0000000002,
       "place": 40,
       "gender_place": 35,
       "points": 116
@@ -2620,7 +2608,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2013000.0000237487,
+      "time": 2010000,
       "place": 41,
       "gender_place": 36,
       "points": 115
@@ -2632,7 +2620,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2016000.000096392,
+      "time": 2013000,
       "place": 42,
       "gender_place": 37,
       "points": 114
@@ -2644,7 +2632,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2035000.00013737,
+      "time": 2016000,
       "place": 43,
       "gender_place": 38,
       "points": 113
@@ -2656,7 +2644,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": "#REF!",
+      "time": 2034999.9999999998,
       "place": 44,
       "gender_place": 6,
       "points": 145
@@ -2668,7 +2656,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2035000.9999999998,
+      "time": 2041999.9999999998,
       "place": 45,
       "gender_place": 39,
       "points": 112
@@ -2680,7 +2668,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2041999.9998877756,
+      "time": 2045000,
       "place": 46,
       "gender_place": 7,
       "points": 144
@@ -2692,7 +2680,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2044999.9999604188,
+      "time": 2050000,
       "place": 47,
       "gender_place": 40,
       "points": 111
@@ -2704,7 +2692,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2049999.9998719431,
+      "time": 2059000,
       "place": 48,
       "gender_place": 41,
       "points": 110
@@ -2716,7 +2704,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2059000.0000898726,
+      "time": 2065000,
       "place": 49,
       "gender_place": 42,
       "points": 109
@@ -2728,7 +2716,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2064999.9999208376,
+      "time": 2072000,
       "place": 50,
       "gender_place": 8,
       "points": 143
@@ -2740,7 +2728,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2071999.9999855645,
+      "time": 2077000.0000000002,
       "place": 51,
       "gender_place": 43,
       "points": 108
@@ -2752,7 +2740,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2076999.9998970889,
+      "time": 2080000,
       "place": 52,
       "gender_place": 44,
       "points": 107
@@ -2764,7 +2752,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2079999.999969732,
+      "time": 2087000,
       "place": 53,
       "gender_place": 45,
       "points": 106
@@ -2776,7 +2764,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2087000.000034459,
+      "time": 2094000,
       "place": 54,
       "gender_place": 46,
       "points": 105
@@ -2788,7 +2776,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2094000.0000991859,
+      "time": 2096000,
       "place": 55,
       "gender_place": 47,
       "points": 104
@@ -2800,7 +2788,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2095999.999938067,
+      "time": 2113000,
       "place": 56,
       "gender_place": 48,
       "points": 103
@@ -2812,7 +2800,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2113000.000140164,
+      "time": 2124000,
       "place": 57,
       "gender_place": 49,
       "points": 102
@@ -2824,7 +2812,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2123999.9998826534,
+      "time": 2149000,
       "place": 58,
       "gender_place": 50,
       "points": 101
@@ -2836,7 +2824,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2149000.000068918,
+      "time": 2156000,
       "place": 59,
       "gender_place": 9,
       "points": 142
@@ -2848,7 +2836,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2156000.000133645,
+      "time": 2158000,
       "place": 60,
       "gender_place": 51,
       "points": 100
@@ -2860,7 +2848,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2157999.999972526,
+      "time": 2163000,
       "place": 61,
       "gender_place": 52,
       "points": 99
@@ -2872,7 +2860,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2162999.9998840503,
+      "time": 2168000,
       "place": 62,
       "gender_place": 53,
       "points": 98
@@ -2884,7 +2872,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2168000.000109896,
+      "time": 2178000,
       "place": 63,
       "gender_place": 54,
       "points": 97
@@ -2896,7 +2884,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2177999.999932945,
+      "time": 2179000,
       "place": 64,
       "gender_place": 55,
       "points": 96
@@ -2908,7 +2896,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2178999.9998523854,
+      "time": 2188000,
       "place": 65,
       "gender_place": 10,
       "points": 141
@@ -2920,7 +2908,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2188000.000070315,
+      "time": 2205000,
       "place": 66,
       "gender_place": 11,
       "points": 140
@@ -2932,7 +2920,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2204999.9999580905,
+      "time": 2214000,
       "place": 67,
       "gender_place": 12,
       "points": 139
@@ -2944,7 +2932,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2213999.9998616986,
+      "time": 2252000,
       "place": 68,
       "gender_place": 56,
       "points": 95
@@ -2956,7 +2944,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2251999.999943655,
+      "time": 2256000,
       "place": 69,
       "gender_place": 13,
       "points": 138
@@ -2968,7 +2956,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2255999.9999357387,
+      "time": 2294000,
       "place": 70,
       "gender_place": 14,
       "points": 137
@@ -2980,7 +2968,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2294000.000017695,
+      "time": 2311000,
       "place": 71,
       "gender_place": 57,
       "points": 94
@@ -2992,7 +2980,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2310999.9999054708,
+      "time": 2319000,
       "place": 72,
       "gender_place": 15,
       "points": 136
@@ -3004,7 +2992,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2318999.9998896383,
+      "time": 2328000,
       "place": 73,
       "gender_place": 16,
       "points": 135
@@ -3016,7 +3004,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2328000.0001075678,
+      "time": 2351000,
       "place": 74,
       "gender_place": 58,
       "points": 93
@@ -3028,7 +3016,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2351000.0001406297,
+      "time": 2362000,
       "place": 75,
       "gender_place": 17,
       "points": 134
@@ -3040,7 +3028,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2361999.999883119,
+      "time": 2365000,
       "place": 76,
       "gender_place": 18,
       "points": 133
@@ -3052,7 +3040,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2364999.999955762,
+      "time": 2369000,
       "place": 77,
       "gender_place": 59,
       "points": 92
@@ -3064,7 +3052,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2368999.999947846,
+      "time": 2380000,
       "place": 78,
       "gender_place": 19,
       "points": 132
@@ -3076,7 +3064,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2380000.0000046566,
+      "time": 2381000,
       "place": 79,
       "gender_place": 20,
       "points": 131
@@ -3088,7 +3076,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2380999.999924097,
+      "time": 2383000,
       "place": 80,
       "gender_place": 21,
       "points": 130
@@ -3100,7 +3088,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2383000.0000773,
+      "time": 2384000,
       "place": 81,
       "gender_place": 22,
       "points": 129
@@ -3112,7 +3100,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2383999.9999967404,
+      "time": 2385000,
       "place": 82,
       "gender_place": 60,
       "points": 91
@@ -3124,7 +3112,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2384999.999916181,
+      "time": 2388000,
       "place": 83,
       "gender_place": 23,
       "points": 128
@@ -3136,7 +3124,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2387999.999988824,
+      "time": 2389000,
       "place": 84,
       "gender_place": 24,
       "points": 127
@@ -3148,7 +3136,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2388999.9999082647,
+      "time": 2390000,
       "place": 85,
       "gender_place": 61,
       "points": 90
@@ -3160,7 +3148,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2390000.0001420267,
+      "time": 2393000,
       "place": 86,
       "gender_place": 25,
       "points": 126
@@ -3172,7 +3160,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2392999.9999003485,
+      "time": 2396000,
       "place": 87,
       "gender_place": 26,
       "points": 125
@@ -3184,7 +3172,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2395999.9999729916,
+      "time": 2398000,
       "place": 88,
       "gender_place": 62,
       "points": 89
@@ -3196,7 +3184,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2398000.000126194,
+      "time": 2407000,
       "place": 89,
       "gender_place": 63,
       "points": 88
@@ -3208,7 +3196,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2407000.0000298023,
+      "time": 2410000,
       "place": 90,
       "gender_place": 64,
       "points": 87
@@ -3220,7 +3208,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2410000.0001024455,
+      "time": 2413000,
       "place": 91,
       "gender_place": 27,
       "points": 124
@@ -3232,7 +3220,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2412999.9998607673,
+      "time": 2414000,
       "place": 92,
       "gender_place": 28,
       "points": 123
@@ -3244,7 +3232,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2414000.0000945292,
+      "time": 2419000,
       "place": 93,
       "gender_place": 29,
       "points": 122
@@ -3256,7 +3244,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2419000.0000060536,
+      "time": 2422000,
       "place": 94,
       "gender_place": 65,
       "points": 86
@@ -3268,7 +3256,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2422000.0000786968,
+      "time": 2429000,
       "place": 95,
       "gender_place": 66,
       "points": 85
@@ -3280,7 +3268,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2429000.0001434237,
+      "time": 2439000,
       "place": 96,
       "gender_place": 67,
       "points": 84
@@ -3292,7 +3280,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2438999.9999664724,
+      "time": 2446000,
       "place": 97,
       "gender_place": 68,
       "points": 83
@@ -3304,7 +3292,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2446000.0000311993,
+      "time": 2463000,
       "place": 98,
       "gender_place": 69,
       "points": 82
@@ -3316,7 +3304,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2462999.999918975,
+      "time": 2476000,
       "place": 99,
       "gender_place": 70,
       "points": 81
@@ -3328,7 +3316,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2476000.000128988,
+      "time": 2485000,
       "place": 100,
       "gender_place": 71,
       "points": 80
@@ -3340,7 +3328,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2485000.0000325963,
+      "time": 2508000,
       "place": 101,
       "gender_place": 30,
       "points": 121
@@ -3352,7 +3340,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2508000.0000656582,
+      "time": 2546000,
       "place": 102,
       "gender_place": 72,
       "points": 79
@@ -3364,7 +3352,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2546000.0001476146,
+      "time": 2550000,
       "place": 103,
       "gender_place": 31,
       "points": 120
@@ -3376,7 +3364,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2550000.0001396984,
+      "time": 2553000,
       "place": 104,
       "gender_place": 32,
       "points": 119
@@ -3388,7 +3376,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2552999.99989802,
+      "time": 2553000,
       "place": 105,
       "gender_place": 73,
       "points": 78
@@ -3400,7 +3388,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2552999.99989802,
+      "time": 2554000,
       "place": 106,
       "gender_place": 74,
       "points": 77
@@ -3412,7 +3400,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2554000.000131782,
+      "time": 2555000,
       "place": 107,
       "gender_place": 75,
       "points": 76
@@ -3424,7 +3412,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2555000.0000512227,
+      "time": 2559000,
       "place": 108,
       "gender_place": 33,
       "points": 118
@@ -3436,7 +3424,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2559000.0000433065,
+      "time": 2560000,
       "place": 109,
       "gender_place": 76,
       "points": 75
@@ -3448,7 +3436,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2559999.999962747,
+      "time": 2565000,
       "place": 110,
       "gender_place": 77,
       "points": 74
@@ -3460,10 +3448,22 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2564999.9998742715,
+      "time": 2588000,
       "place": 111,
       "gender_place": 34,
       "points": 117
+    },
+    {
+      "name": "Sam Shanks",
+      "gender": "M",
+      "date": "2026-04-29T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Bear Creek",
+      "volunteer": "",
+      "time": 2601000,
+      "place": 112,
+      "gender_place": 78,
+      "points": 73
     },
     {
       "name": "Glenn Misgen",
@@ -3472,10 +3472,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2587999.9999073334,
-      "place": 112,
-      "gender_place": 78,
-      "points": 73
+      "time": 2605000,
+      "place": 113,
+      "gender_place": 79,
+      "points": 72
     },
     {
       "name": "Deli Heal",
@@ -3484,8 +3484,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2605000.0001094304,
-      "place": 113,
+      "time": 2622000,
+      "place": 114,
       "gender_place": 1,
       "points": 150
     },
@@ -3496,8 +3496,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2621999.999997206,
-      "place": 114,
+      "time": 2675000,
+      "place": 115,
       "gender_place": 35,
       "points": 116
     },
@@ -3508,10 +3508,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2675000.000128057,
-      "place": 115,
-      "gender_place": 79,
-      "points": 72
+      "time": 2692000,
+      "place": 116,
+      "gender_place": 80,
+      "points": 71
     },
     {
       "name": "Eric Schwerdt",
@@ -3520,10 +3520,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2692000.0000158325,
-      "place": 116,
-      "gender_place": 80,
-      "points": 71
+      "time": 2699000,
+      "place": 117,
+      "gender_place": 81,
+      "points": 70
     },
     {
       "name": "Theresa Bauer",
@@ -3532,8 +3532,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2699000.0000805594,
-      "place": 117,
+      "time": 2702000,
+      "place": 118,
       "gender_place": 36,
       "points": 115
     },
@@ -3544,10 +3544,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2702000.0001532026,
-      "place": 118,
-      "gender_place": 81,
-      "points": 70
+      "time": 2703000,
+      "place": 119,
+      "gender_place": 82,
+      "points": 69
     },
     {
       "name": "Matthew Henderson",
@@ -3556,10 +3556,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2703000.000072643,
-      "place": 119,
-      "gender_place": 82,
-      "points": 69
+      "time": 2745000,
+      "place": 120,
+      "gender_place": 83,
+      "points": 68
     },
     {
       "name": "Tim Schovein",
@@ -3568,10 +3568,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2745000.0001466833,
-      "place": 120,
-      "gender_place": 83,
-      "points": 68
+      "time": 2779000,
+      "place": 121,
+      "gender_place": 84,
+      "points": 67
     },
     {
       "name": "Sara Keto",
@@ -3580,8 +3580,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2778999.9999222346,
-      "place": 121,
+      "time": 2798000,
+      "place": 122,
       "gender_place": 37,
       "points": 114
     },
@@ -3592,10 +3592,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2797999.9999632128,
-      "place": 122,
-      "gender_place": 84,
-      "points": 67
+      "time": 2805000,
+      "place": 123,
+      "gender_place": 85,
+      "points": 66
     },
     {
       "name": "Nick Terwey",
@@ -3604,10 +3604,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2805000.0000279397,
-      "place": 123,
-      "gender_place": 85,
-      "points": 66
+      "time": 2827000,
+      "place": 124,
+      "gender_place": 86,
+      "points": 65
     },
     {
       "name": "Halle Sharp",
@@ -3616,8 +3616,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2827000.000141561,
-      "place": 124,
+      "time": 2862000,
+      "place": 125,
       "gender_place": 38,
       "points": 113
     },
@@ -3628,10 +3628,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2862000.0001508743,
-      "place": 125,
-      "gender_place": 86,
-      "points": 65
+      "time": 2912999.9999999995,
+      "place": 126,
+      "gender_place": 87,
+      "points": 64
     },
     {
       "name": "Nicholas Sundstrom",
@@ -3640,10 +3640,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 2913000.0001285225,
-      "place": 126,
-      "gender_place": 87,
-      "points": 64
+      "time": 3008999.9999999995,
+      "place": 127,
+      "gender_place": 88,
+      "points": 63
     },
     {
       "name": "Lisa Freier",
@@ -3652,8 +3652,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3008999.9999385327,
-      "place": 127,
+      "time": 3026000,
+      "place": 128,
       "gender_place": 39,
       "points": 112
     },
@@ -3664,8 +3664,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3026000.0001406297,
-      "place": 128,
+      "time": 3030000,
+      "place": 129,
       "gender_place": 40,
       "points": 111
     },
@@ -3676,8 +3676,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3030000.0001327135,
-      "place": 129,
+      "time": 3031000,
+      "place": 130,
       "gender_place": 41,
       "points": 110
     },
@@ -3688,8 +3688,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3031000.000052154,
-      "place": 130,
+      "time": 3067000,
+      "place": 131,
       "gender_place": 42,
       "points": 109
     },
@@ -3700,8 +3700,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3066999.999980908,
-      "place": 131,
+      "time": 3071000,
+      "place": 132,
       "gender_place": 43,
       "points": 108
     },
@@ -3712,8 +3712,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3070999.9999729916,
-      "place": 132,
+      "time": 3073000,
+      "place": 133,
       "gender_place": 44,
       "points": 107
     },
@@ -3724,10 +3724,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3073000.000126194,
-      "place": 133,
-      "gender_place": 88,
-      "points": 63
+      "time": 3095000,
+      "place": 134,
+      "gender_place": 89,
+      "points": 62
     },
     {
       "name": "Steve Heikkila",
@@ -3736,10 +3736,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3094999.999925494,
-      "place": 134,
-      "gender_place": 89,
-      "points": 62
+      "time": 3111000,
+      "place": 135,
+      "gender_place": 90,
+      "points": 61
     },
     {
       "name": "Adam Swank",
@@ -3748,10 +3748,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3110999.999893829,
-      "place": 135,
-      "gender_place": 90,
-      "points": 61
+      "time": 3124000,
+      "place": 136,
+      "gender_place": 91,
+      "points": 60
     },
     {
       "name": "Rena Navarro",
@@ -3760,8 +3760,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3124000.0001038425,
-      "place": 136,
+      "time": 3124000,
+      "place": 137,
       "gender_place": 45,
       "points": 106
     },
@@ -3772,10 +3772,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3124000.0001038425,
-      "place": 137,
-      "gender_place": 91,
-      "points": 60
+      "time": 3220000,
+      "place": 138,
+      "gender_place": 92,
+      "points": 59
     },
     {
       "name": "Mara Ohrt",
@@ -3784,8 +3784,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3219999.9999138527,
-      "place": 138,
+      "time": 3225000,
+      "place": 139,
       "gender_place": 46,
       "points": 105
     },
@@ -3796,8 +3796,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3225000.0001396984,
-      "place": 139,
+      "time": 3319000,
+      "place": 140,
       "gender_place": 47,
       "points": 104
     },
@@ -3808,8 +3808,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3319000.0001108274,
-      "place": 140,
+      "time": 3352999.9999999995,
+      "place": 141,
       "gender_place": 48,
       "points": 103
     },
@@ -3820,8 +3820,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3352999.9998863786,
-      "place": 141,
+      "time": 3431000,
+      "place": 142,
       "gender_place": 49,
       "points": 102
     },
@@ -3832,10 +3832,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3430999.9998891726,
-      "place": 142,
-      "gender_place": 92,
-      "points": 59
+      "time": 3433000,
+      "place": 143,
+      "gender_place": 93,
+      "points": 58
     },
     {
       "name": "Kylee Stoeckmann",
@@ -3844,8 +3844,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3433000.000042375,
-      "place": 143,
+      "time": 3650000,
+      "place": 144,
       "gender_place": 50,
       "points": 101
     },
@@ -3856,8 +3856,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3649999.99984866,
-      "place": 144,
+      "time": 3653000,
+      "place": 145,
       "gender_place": 51,
       "points": 100
     },
@@ -3868,10 +3868,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3652999.9999213032,
-      "place": 145,
-      "gender_place": 93,
-      "points": 58
+      "time": 3742000,
+      "place": 146,
+      "gender_place": 94,
+      "points": 57
     },
     {
       "name": "Haley Bengtson",
@@ -3880,10 +3880,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3741999.999980908,
-      "place": 146,
-      "gender_place": 94,
-      "points": 57
+      "time": 3746000,
+      "place": 147,
+      "gender_place": 95,
+      "points": 56
     },
     {
       "name": "Barb Luke",
@@ -3892,8 +3892,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3745999.9999729916,
-      "place": 147,
+      "time": 3747000,
+      "place": 148,
       "gender_place": 52,
       "points": 99
     },
@@ -3904,8 +3904,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 3746999.9998924322,
-      "place": 148,
+      "time": 4226000,
+      "place": 149,
       "gender_place": 53,
       "points": 98
     },
@@ -3916,8 +3916,8 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 4225999.999966007,
-      "place": 149,
+      "time": 4234000,
+      "place": 150,
       "gender_place": 54,
       "points": 97
     },
@@ -3928,10 +3928,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": 4233999.999950174,
-      "place": 150,
-      "gender_place": 95,
-      "points": 56
+      "time": 4236000,
+      "place": 151,
+      "gender_place": 96,
+      "points": 55
     },
     {
       "name": "L Byrne",
@@ -3940,10 +3940,46 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": false,
-      "time": 4236000.000103377,
-      "place": 151,
+      "time": 4582000,
+      "place": 152,
       "gender_place": 2,
       "points": 149
+    },
+    {
+      "name": "Mae Gackstetter",
+      "gender": "W",
+      "date": "2026-04-29T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Bear Creek",
+      "volunteer": "",
+      "time": 4584000,
+      "place": 153,
+      "gender_place": 55,
+      "points": 96
+    },
+    {
+      "name": "Laura Palombi",
+      "gender": "W",
+      "date": "2026-04-29T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Bear Creek",
+      "volunteer": true,
+      "time": 4584001,
+      "place": "VOL",
+      "gender_place": 56,
+      "points": 95
+    },
+    {
+      "name": "Shelly Thompson",
+      "gender": "W",
+      "date": "2026-04-29T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Bear Creek",
+      "volunteer": true,
+      "time": 4584001,
+      "place": "VOL",
+      "gender_place": 56,
+      "points": 95
     },
     {
       "name": "Ann Farley",
@@ -3952,7 +3988,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": true,
-      "time": "#REF!",
+      "time": 4584001,
       "place": "VOL",
       "gender_place": 56,
       "points": 95
@@ -3964,7 +4000,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": true,
-      "time": "#REF!",
+      "time": 4584001,
       "place": "VOL",
       "gender_place": 56,
       "points": 95
@@ -3976,7 +4012,7 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": true,
-      "time": "#REF!",
+      "time": 4584001,
       "place": "VOL",
       "gender_place": 97,
       "points": 54
@@ -3988,22 +4024,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": true,
-      "time": "#REF!",
+      "time": 4584001,
       "place": "VOL",
       "gender_place": 56,
       "points": 95
-    },
-    {
-      "name": "Mae Gackstetter",
-      "gender": "W",
-      "date": "2026-04-29T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Bear Creek",
-      "volunteer": "",
-      "time": 4581999.999890104,
-      "place": 152,
-      "gender_place": 55,
-      "points": 96
     },
     {
       "name": "Jarrow Wahman",
@@ -4012,34 +4036,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": true,
-      "time": "#REF!",
+      "time": 4584001,
       "place": "VOL",
       "gender_place": 97,
       "points": 54
-    },
-    {
-      "name": "Sam O'Donnell-Hoff",
-      "gender": "M",
-      "date": "2026-04-29T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Bear Creek",
-      "volunteer": "",
-      "time": 1600999.9998961575,
-      "place": 4,
-      "gender_place": 4,
-      "points": 147
-    },
-    {
-      "name": "Sam Shanks",
-      "gender": "M",
-      "date": "2026-04-29T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Bear Creek",
-      "volunteer": "",
-      "time": "#N/A",
-      "place": "",
-      "gender_place": "",
-      "points": ""
     }
   ]
 }
