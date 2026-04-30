@@ -23,7 +23,7 @@ strava-id: 3207880018615880304
 google-map-id: 1TlA-qHl5EEzqz_rmYOi4nJQqiz4dA-I
 google-sat-view: 15yRKa9KWA1H8DIV_LvPyGiUp9s_4ROc
 google-spreadsheet-id: 11C7XBqt0ejhSXVvgBR5zNpl0l_SCzJNnqSAdX5At9UI
-gpx-url: /assets/gpx/Curnow-updated-2025-07-07.gpx
+gpx-url: /assets/gpx/Curnow-Marathon.gpx
 elevation-profile: /assets/gpx/curnow-elevation-2024.svg
 redirect_from: /about-our-races/eugene-curnow-marathon/
 img: /img/curnow.jpeg # used for FB share image; page content is controlled by /_data/event-data.yml 
