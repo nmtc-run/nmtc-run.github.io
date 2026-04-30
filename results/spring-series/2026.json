@@ -2083,7 +2083,7 @@
     {
       "Place": 95,
       "Gender": "M",
-      "Name": "Justus Olson",
+      "Name": "Tim Shovein",
       "Total Points": 56,
       "Bonus": 0,
       "Bear Creek": 56,
@@ -2096,10 +2096,10 @@
     {
       "Place": 96,
       "Gender": "M",
-      "Name": "Jarrow Wahman",
-      "Total Points": 56,
+      "Name": "Justus Olson",
+      "Total Points": 55,
       "Bonus": 0,
-      "Bear Creek": 56,
+      "Bear Creek": 55,
       "Waabizheshikana": 0,
       "Spirit Mountain": 0,
       "Point Pine": 0,
@@ -2109,10 +2109,10 @@
     {
       "Place": 97,
       "Gender": "M",
-      "Name": "Darrin Johnson",
-      "Total Points": 56,
+      "Name": "Jarrow Wahman",
+      "Total Points": 55,
       "Bonus": 0,
-      "Bear Creek": 56,
+      "Bear Creek": 55,
       "Waabizheshikana": 0,
       "Spirit Mountain": 0,
       "Point Pine": 0,
@@ -2122,15 +2122,15 @@
     {
       "Place": 98,
       "Gender": "M",
-      "Name": "Tim Shovein",
-      "Total Points": "#N/A",
+      "Name": "Darrin Johnson",
+      "Total Points": 55,
       "Bonus": 0,
-      "Bear Creek": "#N/A",
-      "Waabizheshikana": "#N/A",
-      "Spirit Mountain": "#N/A",
-      "Point Pine": "#N/A",
-      "Woodland Run": "#N/A",
-      "Cloquet Forestry Center": "#N/A"
+      "Bear Creek": 55,
+      "Waabizheshikana": 0,
+      "Spirit Mountain": 0,
+      "Point Pine": 0,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
     }
   ],
   "results": [
@@ -3582,7 +3582,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 2797999.9999632128,
-      "place": 122,
+      "place": 121,
       "gender_place": 36,
       "points": 115
     },
@@ -3594,7 +3594,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 2805000.0000279397,
-      "place": 123,
+      "place": 122,
       "gender_place": 85,
       "points": 66
     },
@@ -3606,7 +3606,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 2827000.000141561,
-      "place": 124,
+      "place": 123,
       "gender_place": 86,
       "points": 65
     },
@@ -3618,7 +3618,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 2862000.0001508743,
-      "place": 125,
+      "place": 124,
       "gender_place": 37,
       "points": 114
     },
@@ -3630,7 +3630,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 2913000.0001285225,
-      "place": 126,
+      "place": 125,
       "gender_place": 87,
       "points": 64
     },
@@ -3642,7 +3642,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3008999.9999385327,
-      "place": 127,
+      "place": 126,
       "gender_place": 88,
       "points": 63
     },
@@ -3654,7 +3654,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3026000.0001406297,
-      "place": 128,
+      "place": 127,
       "gender_place": 38,
       "points": 113
     },
@@ -3666,7 +3666,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3030000.0001327135,
-      "place": 129,
+      "place": 128,
       "gender_place": 39,
       "points": 112
     },
@@ -3678,7 +3678,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3031000.000052154,
-      "place": 130,
+      "place": 129,
       "gender_place": 40,
       "points": 111
     },
@@ -3690,7 +3690,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3066999.999980908,
-      "place": 131,
+      "place": 130,
       "gender_place": 41,
       "points": 110
     },
@@ -3702,7 +3702,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3070999.9999729916,
-      "place": 132,
+      "place": 131,
       "gender_place": 42,
       "points": 109
     },
@@ -3714,7 +3714,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3073000.000126194,
-      "place": 133,
+      "place": 132,
       "gender_place": 43,
       "points": 108
     },
@@ -3726,7 +3726,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3094999.999925494,
-      "place": 134,
+      "place": 133,
       "gender_place": 89,
       "points": 62
     },
@@ -3738,7 +3738,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3110999.999893829,
-      "place": 135,
+      "place": 134,
       "gender_place": 90,
       "points": 61
     },
@@ -3750,7 +3750,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3124000.0001038425,
-      "place": 136,
+      "place": 135,
       "gender_place": 91,
       "points": 60
     },
@@ -3762,7 +3762,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3124000.0001038425,
-      "place": 137,
+      "place": 136,
       "gender_place": 44,
       "points": 107
     },
@@ -3774,7 +3774,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3219999.9999138527,
-      "place": 138,
+      "place": 137,
       "gender_place": 92,
       "points": 59
     },
@@ -3786,7 +3786,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3225000.0001396984,
-      "place": 139,
+      "place": 138,
       "gender_place": 45,
       "points": 106
     },
@@ -3798,7 +3798,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3319000.0001108274,
-      "place": 140,
+      "place": 139,
       "gender_place": 46,
       "points": 105
     },
@@ -3810,7 +3810,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3352999.9998863786,
-      "place": 141,
+      "place": 140,
       "gender_place": 47,
       "points": 104
     },
@@ -3822,7 +3822,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3430999.9998891726,
-      "place": 142,
+      "place": 141,
       "gender_place": 48,
       "points": 103
     },
@@ -3834,7 +3834,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3433000.000042375,
-      "place": 143,
+      "place": 142,
       "gender_place": 93,
       "points": 58
     },
@@ -3846,7 +3846,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3649999.99984866,
-      "place": 144,
+      "place": 143,
       "gender_place": 49,
       "points": 102
     },
@@ -3858,7 +3858,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3652999.9999213032,
-      "place": 145,
+      "place": 144,
       "gender_place": 50,
       "points": 101
     },
@@ -3870,7 +3870,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3741999.999980908,
-      "place": 146,
+      "place": 145,
       "gender_place": 51,
       "points": 100
     },
@@ -3882,7 +3882,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3745999.9999729916,
-      "place": 147,
+      "place": 146,
       "gender_place": 52,
       "points": 99
     },
@@ -3894,7 +3894,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3746999.9998924322,
-      "place": 148,
+      "place": 147,
       "gender_place": 53,
       "points": 98
     },
@@ -3906,7 +3906,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 4225999.999966007,
-      "place": 149,
+      "place": 148,
       "gender_place": 54,
       "points": 97
     },
@@ -3918,7 +3918,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 4233999.999950174,
-      "place": 150,
+      "place": 149,
       "gender_place": 55,
       "points": 96
     },
@@ -3930,7 +3930,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 4236000.000103377,
-      "place": 151,
+      "place": 150,
       "gender_place": 94,
       "points": 57
     },
@@ -3942,7 +3942,7 @@
       "course": "Bear Creek",
       "volunteer": false,
       "time": 4581999.999890104,
-      "place": 152,
+      "place": 151,
       "gender_place": 2,
       "points": 149
     },
@@ -3954,7 +3954,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 4584000.0000433065,
-      "place": 153,
+      "place": 152,
       "gender_place": 56,
       "points": 95
     },
@@ -4015,8 +4015,8 @@
       "volunteer": true,
       "time": 4584001.0000433065,
       "place": "VOL",
-      "gender_place": 95,
-      "points": 56
+      "gender_place": 96,
+      "points": 55
     },
     {
       "name": "Shannon Montague",
@@ -4039,8 +4039,8 @@
       "volunteer": true,
       "time": 4584001.0000433065,
       "place": "VOL",
-      "gender_place": 95,
-      "points": 56
+      "gender_place": 96,
+      "points": 55
     },
     {
       "name": "Darrin Johnson",
@@ -4051,8 +4051,8 @@
       "volunteer": true,
       "time": 4584001.0000433065,
       "place": "VOL",
-      "gender_place": 95,
-      "points": 56
+      "gender_place": 96,
+      "points": 55
     },
     {
       "name": "Tim Shovein",
@@ -4061,10 +4061,10 @@
       "series": "Spring Series",
       "course": "Bear Creek",
       "volunteer": "",
-      "time": "#N/A",
-      "place": "",
-      "gender_place": "",
-      "points": ""
+      "time": 2779000,
+      "place": 153,
+      "gender_place": 95,
+      "points": 56
     }
   ]
 }
