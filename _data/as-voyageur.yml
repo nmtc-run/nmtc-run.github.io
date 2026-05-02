@@ -112,7 +112,7 @@
     total: 50.0
     first-runner: "12:45 PM"
     cutoff: "8:00 PM"
-    crew-access: No
+    crew-access: Yes
     drop-bags: Yes
     map-color: rgb(230,81,0)
     latLong: 46.66268, -92.42273
