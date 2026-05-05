@@ -14,7 +14,7 @@ img: /img/bc-kids.jpeg # used for FB share image; page content is controlled by 
 The Spring Series consists of six short-distance races on a mix of surfaces—from creekside paths to gravel roads to sandy stretches along Lake Superior. Races are held across the Twin Ports—most on Wednesday evenings and one on a Sunday morning. The final race is followed by a potluck and prizes for all. 
 
 **<span class="nb">(!)</span>** New in 2026:
-* The Spirit Mountain course is now a loop, with parking at the Grand Ave Chalet and the start partway up the ski hill. See course description below for more detail. 
+* New Spirit Mountain course. Park at the Grand Ave Chalet (lower chalet!), where we will locate the check-in and finish line. See course description below for more detail. 
 * We are reintroducing Waabizheshikana to the series schedule after more than a decade, following a significant renovation and expansion of the trail.  
 * We are introducing Cloquet Forestry Center as our series finale and potluck. Chester Bowl will return next year following the construction of the new chalet.  
 

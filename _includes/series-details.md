@@ -12,7 +12,7 @@
 
 **Run your race**: We believe everyone can find exactly as much competition as they’re looking for. NMTC events offer a chance to test yourself against many of the area’s fastest trail runners or enjoy a fun run with friends—or both!—it’s entirely up to you.
 
-**Overall series standings:** Runners are awarded points based on the order in which they finish. To see historical results, click on the race name, then click on the year. We update overall standings after each race.
+**Overall series standings:** Runners are awarded points based on the order in which they finish. We update race results and overall standings after each race. 
 
 **Series finale potluck and prizes:** At the final race, join us for awards and a potluck {{ potluck }}. Bring a dish! Everyone who runs or volunteers at any Series race receives a prize. Prizes are generously donated by individuals and local businesses.
 
