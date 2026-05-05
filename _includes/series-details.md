@@ -12,19 +12,19 @@
 
 **Run your race**: We believe everyone can find exactly as much competition as they’re looking for. NMTC events offer a chance to test yourself against many of the area’s fastest trail runners or enjoy a fun run with friends—or both!—it’s entirely up to you.
 
-**Overall series standings:** Runners are awarded points based on the order in which they finish. We update race results and overall standings after each race. 
+**Overall series standings:** Runners are awarded points based on the order in which they finish. We update [race results](/results{{ page.permalink }}) and [overall standings](/standings{{ page.permalink }}) after each race. 
 
 **Series finale potluck and prizes:** At the final race, join us for awards and a potluck {{ potluck }}. Bring a dish! Everyone who runs or volunteers at any Series race receives a prize. Prizes are generously donated by individuals and local businesses.
 
-**Everyone is welcome:** All ages and experience levels are welcome and well represented at our running events. The vibe is something akin to a neighborhood barbecue—a community gathering to meet old friends and make new ones. Come join a bunch of folks who like to play in the woods!
+**Everyone is welcome:** All ages and experience levels are well represented at our running events. The vibe is a lot like a neighborhood barbecue—a community gathering to meet old friends and make new ones. Come join a bunch of folks who like to play in the woods!
 
 # Registration
 
-Races are free. We do have a donation jar at each race and an [online donation option](/donate), with all contributions dedicated directly toward the continued viability of the NMTC race series, the Eugene Curnow Trail Marathon, and the Minnesota Voyageur Trail Ultramarathon.
+**Series races are free.** Free! For those who you wish to make a financial contribution to support our grassroots org, look for the donation jar at the check-in table or [make a donation today](/donate).  Every dollar supports the continued viability of the Spring and Fall Series, the Eugene Curnow Trail Marathon, and the Minnesota Voyageur Trail Ultramarathon.
 
-Check in at the starting line of each race. If you arrive about an hour before the race start, look for the person sitting at a folding table with a laptop. And if you arrive a little closer to race time, look for the line of people near the folding table and laptop!  
+**Check in at the starting line of each race.** If you arrive about an hour before the race start, look for the person sitting at a folding table with a laptop. And if you arrive a little closer to race time, look for the line of people near the folding table and laptop!  
 
-NMTC requires all runners to complete a waiver once per year. Waiver forms are provided at the check-in table at all races—or you can download, print, and sign the waiver in advance:
+**Required: submit a waiver once per year.** Waiver forms are provided at the check-in table at all races—or you can download, print, and sign the waiver in advance:
 
 <div class="container" style="display:flex;padding-bottom:1em;">
   <a href="https://drive.google.com/file/d/1Oi7ZZGoC_LKUgtKJ8Bj_u7ClPld5iRRD/view" style="margin: 0 auto;" target="blank">
