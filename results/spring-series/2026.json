@@ -4808,349 +4808,13 @@
       "points": 55
     },
     {
-      "name": "Shelly Thompson",
-      "gender": "W",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": true,
-      "time": 12743001,
-      "place": "VOL",
-      "gender_place": 65,
-      "points": 86
-    },
-    {
-      "name": "Jordan Gruenes",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1267000,
-      "place": 3,
-      "gender_place": 3,
-      "points": 148
-    },
-    {
-      "name": "Matt Eidenschink",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1302000,
-      "place": 5,
-      "gender_place": 5,
-      "points": 146
-    },
-    {
-      "name": "Tim Bontrager",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1329000,
-      "place": 8,
-      "gender_place": 8,
-      "points": 143
-    },
-    {
-      "name": "Andrew Papke-Larson",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1335000,
-      "place": 9,
-      "gender_place": 9,
-      "points": 142
-    },
-    {
-      "name": "Tony Hoff",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1339000,
-      "place": 11,
-      "gender_place": 11,
-      "points": 140
-    },
-    {
-      "name": "Ian Derauf",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1405000,
-      "place": 16,
-      "gender_place": 15,
-      "points": 136
-    },
-    {
-      "name": "Alex Faher",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1439000,
-      "place": 17,
-      "gender_place": 16,
-      "points": 135
-    },
-    {
-      "name": "Kyle Anderson",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1446000,
-      "place": 18,
-      "gender_place": 17,
-      "points": 134
-    },
-    {
-      "name": "Benjamin Welch",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1459000,
-      "place": 21,
-      "gender_place": 19,
-      "points": 132
-    },
-    {
-      "name": "Mark Grindy",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1462999.9999999998,
-      "place": 22,
-      "gender_place": 20,
-      "points": 131
-    },
-    {
-      "name": "Hanna Torvi",
-      "gender": "W",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1465000,
-      "place": 23,
-      "gender_place": 3,
-      "points": 148
-    },
-    {
-      "name": "Charles Hickman",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1467000,
-      "place": 24,
-      "gender_place": 21,
-      "points": 130
-    },
-    {
-      "name": "Mitchell Krostue",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1476999.9999999998,
-      "place": 25,
-      "gender_place": 22,
-      "points": 129
-    },
-    {
-      "name": "Karl Holub",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1487000,
-      "place": 28,
-      "gender_place": 24,
-      "points": 127
-    },
-    {
-      "name": "Peter Coenen",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1493000,
-      "place": 29,
-      "gender_place": 25,
-      "points": 126
-    },
-    {
-      "name": "Grant Nelson",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1504000,
-      "place": 30,
-      "gender_place": 26,
-      "points": 125
-    },
-    {
-      "name": "Nico Ghandhi",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1509000,
-      "place": 31,
-      "gender_place": 27,
-      "points": 124
-    },
-    {
-      "name": "Greg Daw",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1522000,
-      "place": 33,
-      "gender_place": 29,
-      "points": 122
-    },
-    {
-      "name": "Logan Baier",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1531999.9999999998,
-      "place": 34,
-      "gender_place": 30,
-      "points": 121
-    },
-    {
-      "name": "Kevin Wood",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1543000,
-      "place": 37,
-      "gender_place": 33,
-      "points": 118
-    },
-    {
-      "name": "Trenton Flegel",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 1579999.9999999998,
-      "place": 41,
-      "gender_place": 37,
-      "points": 114
-    },
-    {
-      "name": "Matt Livingston",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 7613000,
-      "place": 42,
-      "gender_place": 38,
-      "points": 113
-    },
-    {
-      "name": "Dave Lane",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 7622000,
-      "place": 43,
-      "gender_place": 39,
-      "points": 112
-    },
-    {
-      "name": "Laura Palombi",
-      "gender": "W",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": true,
-      "time": 12743001,
-      "place": "VOL",
-      "gender_place": 65,
-      "points": 86
-    },
-    {
-      "name": "Jarrow Wahman",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": true,
-      "time": 12743001,
-      "place": "VOL",
-      "gender_place": 100,
-      "points": 51
-    },
-    {
-      "name": "Mae Gackstetter",
-      "gender": "W",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": true,
-      "time": 12743001,
-      "place": "VOL",
-      "gender_place": 65,
-      "points": 86
-    },
-    {
-      "name": "Lane Johnson",
-      "gender": "M",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": true,
-      "time": 12743001,
-      "place": "VOL",
-      "gender_place": 100,
-      "points": 51
-    },
-    {
       "name": "Matthew Braithwaite",
       "gender": "M",
       "date": "2026-05-06T05:00:00.000Z",
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1204000,
+      "time": 1204000.0001317821,
       "place": 1,
       "gender_place": 1,
       "points": 150
@@ -5162,10 +4826,22 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1234000,
+      "time": 1233999.9999152496,
       "place": 2,
       "gender_place": 2,
       "points": 149
+    },
+    {
+      "name": "Jordan Gruenes",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1267000.0000856817,
+      "place": 3,
+      "gender_place": 3,
+      "points": 148
     },
     {
       "name": "Kendall Hill",
@@ -5174,10 +4850,22 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1272000,
+      "time": 1271999.999997206,
       "place": 4,
       "gender_place": 4,
       "points": 147
+    },
+    {
+      "name": "Matt Eidenschink",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1302000.000094995,
+      "place": 5,
+      "gender_place": 5,
+      "points": 146
     },
     {
       "name": "Jakob Wartman",
@@ -5186,7 +4874,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1315000,
+      "time": 1314999.9999906868,
       "place": 6,
       "gender_place": 6,
       "points": 145
@@ -5198,10 +4886,34 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1318000,
+      "time": 1318000.00006333,
       "place": 7,
       "gender_place": 7,
       "points": 144
+    },
+    {
+      "name": "Tim Bontrager",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1329000.0001201406,
+      "place": 8,
+      "gender_place": 8,
+      "points": 143
+    },
+    {
+      "name": "Andrew Papke-Larson",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1334999.9999511056,
+      "place": 9,
+      "gender_place": 9,
+      "points": 142
     },
     {
       "name": "Josh Tarnowski",
@@ -5210,10 +4922,22 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1336000,
+      "time": 1335999.9998705462,
       "place": 10,
       "gender_place": 10,
       "points": 141
+    },
+    {
+      "name": "Tony Hoff",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1338999.9999431893,
+      "place": 11,
+      "gender_place": 11,
+      "points": 140
     },
     {
       "name": "Chris Rubesch",
@@ -5222,7 +4946,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 12743000,
+      "time": 1343000,
       "place": 12,
       "gender_place": 12,
       "points": 139
@@ -5234,7 +4958,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1366000,
+      "time": 1365999.999968335,
       "place": 13,
       "gender_place": 13,
       "points": 138
@@ -5246,7 +4970,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1368000,
+      "time": 1368000.0001215376,
       "place": 14,
       "gender_place": 14,
       "points": 137
@@ -5258,10 +4982,46 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1400999.9999999998,
+      "time": 1400999.9999776483,
       "place": 15,
       "gender_place": 1,
       "points": 150
+    },
+    {
+      "name": "Ian Derauf",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1404999.999969732,
+      "place": 16,
+      "gender_place": 15,
+      "points": 136
+    },
+    {
+      "name": "Alex Faher",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1439000.0000596046,
+      "place": 17,
+      "gender_place": 16,
+      "points": 135
+    },
+    {
+      "name": "Kyle Anderson",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1446000.0001243316,
+      "place": 18,
+      "gender_place": 17,
+      "points": 134
     },
     {
       "name": "Caitlin Braitnwaite",
@@ -5270,7 +5030,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1450000.0000000002,
+      "time": 1450000.0001164153,
       "place": 19,
       "gender_place": 2,
       "points": 149
@@ -5282,10 +5042,70 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1455999.9999999998,
+      "time": 1455999.9999473803,
       "place": 20,
       "gender_place": 18,
       "points": 133
+    },
+    {
+      "name": "Benjamin Welch",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1459000.0000200234,
+      "place": 21,
+      "gender_place": 19,
+      "points": 132
+    },
+    {
+      "name": "Mark Grindy",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1463000.0000121072,
+      "place": 22,
+      "gender_place": 20,
+      "points": 131
+    },
+    {
+      "name": "Hanna Torvi",
+      "gender": "W",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1464999.9998509884,
+      "place": 23,
+      "gender_place": 3,
+      "points": 148
+    },
+    {
+      "name": "Charles Hickman",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1467000.000004191,
+      "place": 24,
+      "gender_place": 21,
+      "points": 130
+    },
+    {
+      "name": "Mitchell Krostue",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1477000.000141561,
+      "place": 25,
+      "gender_place": 22,
+      "points": 129
     },
     {
       "name": "Karen Jones",
@@ -5294,7 +5114,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1483999.9999999998,
+      "time": 1483999.9998919666,
       "place": 26,
       "gender_place": 4,
       "points": 147
@@ -5306,10 +5126,58 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1485000.0000000002,
+      "time": 1485000.0001257285,
       "place": 27,
       "gender_place": 23,
       "points": 128
+    },
+    {
+      "name": "Karl Holub",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1486999.9999646097,
+      "place": 28,
+      "gender_place": 24,
+      "points": 127
+    },
+    {
+      "name": "Peter Coenen",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1493000.000109896,
+      "place": 29,
+      "gender_place": 25,
+      "points": 126
+    },
+    {
+      "name": "Grant Nelson",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1503999.9998523854,
+      "place": 30,
+      "gender_place": 26,
+      "points": 125
+    },
+    {
+      "name": "Nico Ghandhi",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1509000.000078231,
+      "place": 31,
+      "gender_place": 27,
+      "points": 124
     },
     {
       "name": "Tim Kostner",
@@ -5318,10 +5186,34 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1514000,
+      "time": 1513999.9999897555,
       "place": 32,
       "gender_place": 28,
       "points": 123
+    },
+    {
+      "name": "Greg Daw",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1521999.999973923,
+      "place": 33,
+      "gender_place": 29,
+      "points": 122
+    },
+    {
+      "name": "Logan Baier",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1532000.000111293,
+      "place": 34,
+      "gender_place": 30,
+      "points": 121
     },
     {
       "name": "Dean Evraets",
@@ -5330,7 +5222,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1534000,
+      "time": 1533999.9999501742,
       "place": 35,
       "gender_place": 31,
       "points": 120
@@ -5342,10 +5234,22 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1536000,
+      "time": 1536000.0001033768,
       "place": 36,
       "gender_place": 32,
       "points": 119
+    },
+    {
+      "name": "Kevin Wood",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1542999.9998537824,
+      "place": 37,
+      "gender_place": 33,
+      "points": 118
     },
     {
       "name": "Aaron Smith",
@@ -5354,7 +5258,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1554000,
+      "time": 1553999.999910593,
       "place": 38,
       "gender_place": 34,
       "points": 117
@@ -5366,7 +5270,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1561000,
+      "time": 1560999.99997532,
       "place": 39,
       "gender_place": 35,
       "points": 116
@@ -5378,10 +5282,46 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1567000.0000000002,
+      "time": 1567000.0001206063,
       "place": 40,
       "gender_place": 36,
       "points": 115
+    },
+    {
+      "name": "Trenton Flegel",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1580000.0000162981,
+      "place": 41,
+      "gender_place": 37,
+      "points": 114
+    },
+    {
+      "name": "Matt Livingston",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1613000,
+      "place": 42,
+      "gender_place": 38,
+      "points": 113
+    },
+    {
+      "name": "Dave Lane",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 1621999.9999999998,
+      "place": 43,
+      "gender_place": 39,
+      "points": 112
     },
     {
       "name": "Dave Antonson",
@@ -5390,7 +5330,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1631000,
+      "time": 1630999.9999939464,
       "place": 44,
       "gender_place": 40,
       "points": 111
@@ -5402,7 +5342,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1635000,
+      "time": 1634999.9999860302,
       "place": 45,
       "gender_place": 5,
       "points": 146
@@ -5414,7 +5354,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1648999.9999999998,
+      "time": 1649000.000115484,
       "place": 46,
       "gender_place": 6,
       "points": 145
@@ -5426,7 +5366,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1653000,
+      "time": 1653000.0001075678,
       "place": 47,
       "gender_place": 7,
       "points": 144
@@ -5438,7 +5378,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1655999.9999999998,
+      "time": 1655999.9998658895,
       "place": 48,
       "gender_place": 8,
       "points": 143
@@ -5450,7 +5390,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1658000,
+      "time": 1658000.000019092,
       "place": 49,
       "gender_place": 41,
       "points": 110
@@ -5462,7 +5402,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1659000,
+      "time": 1658999.9999385327,
       "place": 50,
       "gender_place": 9,
       "points": 142
@@ -5474,7 +5414,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1662999.9999999998,
+      "time": 1662999.9999306165,
       "place": 51,
       "gender_place": 42,
       "points": 109
@@ -5486,7 +5426,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1665000,
+      "time": 1665000.000083819,
       "place": 52,
       "gender_place": 43,
       "points": 108
@@ -5498,7 +5438,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1669000,
+      "time": 1669000.0000759028,
       "place": 53,
       "gender_place": 44,
       "points": 107
@@ -5510,7 +5450,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1673000,
+      "time": 1673000.0000679865,
       "place": 54,
       "gender_place": 10,
       "points": 141
@@ -5522,7 +5462,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1676000,
+      "time": 1676000.0001406297,
       "place": 55,
       "gender_place": 45,
       "points": 106
@@ -5534,7 +5474,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1678000,
+      "time": 1677999.999979511,
       "place": 56,
       "gender_place": 46,
       "points": 105
@@ -5546,7 +5486,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1679000,
+      "time": 1678999.9998989515,
       "place": 57,
       "gender_place": 47,
       "points": 104
@@ -5558,7 +5498,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1687000,
+      "time": 1686999.999883119,
       "place": 58,
       "gender_place": 48,
       "points": 103
@@ -5570,7 +5510,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1689000,
+      "time": 1689000.0000363216,
       "place": 59,
       "gender_place": 49,
       "points": 102
@@ -5582,7 +5522,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1692000,
+      "time": 1692000.0001089647,
       "place": 60,
       "gender_place": 50,
       "points": 101
@@ -5594,7 +5534,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1694000,
+      "time": 1693999.999947846,
       "place": 61,
       "gender_place": 51,
       "points": 100
@@ -5606,7 +5546,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1696000,
+      "time": 1696000.0001010485,
       "place": 62,
       "gender_place": 11,
       "points": 140
@@ -5618,7 +5558,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1700000,
+      "time": 1700000.0000931323,
       "place": 63,
       "gender_place": 52,
       "points": 99
@@ -5630,7 +5570,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1729000,
+      "time": 1728999.9999571592,
       "place": 64,
       "gender_place": 53,
       "points": 98
@@ -5642,7 +5582,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1747000,
+      "time": 1747000.0000786968,
       "place": 65,
       "gender_place": 12,
       "points": 139
@@ -5654,7 +5594,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1758000,
+      "time": 1758000.0001355074,
       "place": 66,
       "gender_place": 54,
       "points": 97
@@ -5666,7 +5606,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1764000,
+      "time": 1763999.9999664724,
       "place": 67,
       "gender_place": 13,
       "points": 138
@@ -5678,7 +5618,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1775000,
+      "time": 1775000.000023283,
       "place": 68,
       "gender_place": 14,
       "points": 137
@@ -5690,7 +5630,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1784000,
+      "time": 1783999.9999268912,
       "place": 69,
       "gender_place": 55,
       "points": 96
@@ -5702,7 +5642,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1793000,
+      "time": 1793000.0001448207,
       "place": 70,
       "gender_place": 56,
       "points": 95
@@ -5714,7 +5654,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1796000,
+      "time": 1795999.9999031425,
       "place": 71,
       "gender_place": 57,
       "points": 94
@@ -5726,7 +5666,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1800000,
+      "time": 1799999.9998952262,
       "place": 72,
       "gender_place": 58,
       "points": 93
@@ -5738,7 +5678,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1815000.0000000002,
+      "time": 1814999.9999441206,
       "place": 73,
       "gender_place": 15,
       "points": 136
@@ -5750,7 +5690,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1829000.0000000002,
+      "time": 1829000.0000735745,
       "place": 74,
       "gender_place": 59,
       "points": 92
@@ -5762,7 +5702,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1839000,
+      "time": 1838999.9998966232,
       "place": 75,
       "gender_place": 16,
       "points": 135
@@ -5774,7 +5714,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1844000,
+      "time": 1844000.000122469,
       "place": 76,
       "gender_place": 60,
       "points": 91
@@ -5786,7 +5726,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1847000,
+      "time": 1846999.9998807907,
       "place": 77,
       "gender_place": 17,
       "points": 134
@@ -5798,7 +5738,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1853000,
+      "time": 1853000.000026077,
       "place": 78,
       "gender_place": 61,
       "points": 90
@@ -5810,7 +5750,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1858000,
+      "time": 1857999.9999376014,
       "place": 79,
       "gender_place": 62,
       "points": 89
@@ -5822,7 +5762,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1860000,
+      "time": 1860000.000090804,
       "place": 80,
       "gender_place": 18,
       "points": 133
@@ -5834,7 +5774,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1861000,
+      "time": 1861000.0000102445,
       "place": 81,
       "gender_place": 19,
       "points": 132
@@ -5846,7 +5786,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1864000,
+      "time": 1864000.0000828877,
       "place": 82,
       "gender_place": 20,
       "points": 131
@@ -5858,7 +5798,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1866000,
+      "time": 1865999.999921769,
       "place": 83,
       "gender_place": 63,
       "points": 88
@@ -5870,7 +5810,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1868000,
+      "time": 1868000.0000749715,
       "place": 84,
       "gender_place": 64,
       "points": 87
@@ -5882,7 +5822,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1869999.9999999998,
+      "time": 1869999.9999138527,
       "place": 85,
       "gender_place": 65,
       "points": 86
@@ -5894,7 +5834,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1874000,
+      "time": 1873999.9999059364,
       "place": 86,
       "gender_place": 66,
       "points": 85
@@ -5906,7 +5846,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1880000,
+      "time": 1880000.0000512227,
       "place": 87,
       "gender_place": 67,
       "points": 84
@@ -5918,7 +5858,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1884000.0000000002,
+      "time": 1884000.0000433065,
       "place": 88,
       "gender_place": 68,
       "points": 83
@@ -5930,7 +5870,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1887000,
+      "time": 1887000.0001159497,
       "place": 89,
       "gender_place": 69,
       "points": 82
@@ -5942,7 +5882,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1891000.0000000002,
+      "time": 1891000.0001080334,
       "place": 90,
       "gender_place": 70,
       "points": 81
@@ -5954,7 +5894,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1894000,
+      "time": 1893999.9998663552,
       "place": 91,
       "gender_place": 21,
       "points": 130
@@ -5966,7 +5906,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1903999.9999999998,
+      "time": 1904000.0000037253,
       "place": 92,
       "gender_place": 22,
       "points": 129
@@ -5978,7 +5918,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1907000,
+      "time": 1907000.0000763685,
       "place": 93,
       "gender_place": 71,
       "points": 80
@@ -5990,7 +5930,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1910999.9999999998,
+      "time": 1911000.0000684522,
       "place": 94,
       "gender_place": 72,
       "points": 79
@@ -6002,7 +5942,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1913000,
+      "time": 1912999.9999073334,
       "place": 95,
       "gender_place": 23,
       "points": 128
@@ -6014,7 +5954,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1921000,
+      "time": 1920999.999891501,
       "place": 96,
       "gender_place": 73,
       "points": 78
@@ -6026,7 +5966,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1922000,
+      "time": 1922000.000125263,
       "place": 97,
       "gender_place": 74,
       "points": 77
@@ -6038,7 +5978,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1924000,
+      "time": 1923999.999964144,
       "place": 98,
       "gender_place": 24,
       "points": 127
@@ -6050,7 +5990,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1924999.9999999998,
+      "time": 1924999.9998835847,
       "place": 99,
       "gender_place": 75,
       "points": 76
@@ -6062,7 +6002,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1927000,
+      "time": 1927000.0000367872,
       "place": 100,
       "gender_place": 76,
       "points": 75
@@ -6074,7 +6014,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1931999.9999999998,
+      "time": 1931999.9999483116,
       "place": 101,
       "gender_place": 77,
       "points": 74
@@ -6086,7 +6026,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1949000,
+      "time": 1949000.0001504086,
       "place": 102,
       "gender_place": 78,
       "points": 73
@@ -6098,7 +6038,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1950000,
+      "time": 1950000.0000698492,
       "place": 103,
       "gender_place": 79,
       "points": 72
@@ -6110,7 +6050,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1958000,
+      "time": 1958000.0000540167,
       "place": 104,
       "gender_place": 25,
       "points": 126
@@ -6122,7 +6062,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1958999.9999999998,
+      "time": 1958999.9999734573,
       "place": 105,
       "gender_place": 26,
       "points": 125
@@ -6134,7 +6074,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1962000,
+      "time": 1962000.0000461005,
       "place": 106,
       "gender_place": 80,
       "points": 71
@@ -6146,7 +6086,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1963000,
+      "time": 1962999.999965541,
       "place": 107,
       "gender_place": 27,
       "points": 124
@@ -6158,7 +6098,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1964000,
+      "time": 1963999.9998849817,
       "place": 108,
       "gender_place": 28,
       "points": 123
@@ -6170,7 +6110,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1967000.0000000002,
+      "time": 1966999.9999576248,
       "place": 109,
       "gender_place": 81,
       "points": 70
@@ -6182,7 +6122,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1969000,
+      "time": 1969000.0001108274,
       "place": 110,
       "gender_place": 29,
       "points": 122
@@ -6194,7 +6134,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1969000,
+      "time": 1969000.0001108274,
       "place": 111,
       "gender_place": 30,
       "points": 121
@@ -6206,7 +6146,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1970000,
+      "time": 1970000.000030268,
       "place": 112,
       "gender_place": 31,
       "points": 120
@@ -6218,7 +6158,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1971000,
+      "time": 1970999.9999497086,
       "place": 113,
       "gender_place": 82,
       "points": 69
@@ -6230,7 +6170,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1976000,
+      "time": 1975999.999861233,
       "place": 114,
       "gender_place": 32,
       "points": 119
@@ -6242,7 +6182,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1979000,
+      "time": 1978999.999933876,
       "place": 115,
       "gender_place": 33,
       "points": 118
@@ -6254,7 +6194,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 1982000,
+      "time": 1982000.0000065193,
       "place": 116,
       "gender_place": 34,
       "points": 117
@@ -6266,7 +6206,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2008000.0000000002,
+      "time": 2008000.0001122244,
       "place": 117,
       "gender_place": 35,
       "points": 116
@@ -6278,7 +6218,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2017000,
+      "time": 2017000.0000158325,
       "place": 118,
       "gender_place": 36,
       "points": 115
@@ -6290,7 +6230,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2030000,
+      "time": 2029999.9999115244,
       "place": 119,
       "gender_place": 83,
       "points": 68
@@ -6302,7 +6242,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2069000,
+      "time": 2068999.9999129213,
       "place": 120,
       "gender_place": 84,
       "points": 67
@@ -6314,7 +6254,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2075000,
+      "time": 2075000.0000582077,
       "place": 121,
       "gender_place": 85,
       "points": 66
@@ -6326,7 +6266,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2086000,
+      "time": 2086000.0001150183,
       "place": 122,
       "gender_place": 37,
       "points": 114
@@ -6338,7 +6278,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2099000,
+      "time": 2099000.00001071,
       "place": 123,
       "gender_place": 86,
       "points": 65
@@ -6350,7 +6290,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2128000,
+      "time": 2127999.999874737,
       "place": 124,
       "gender_place": 38,
       "points": 113
@@ -6362,7 +6302,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2130000,
+      "time": 2130000.0000279397,
       "place": 125,
       "gender_place": 39,
       "points": 112
@@ -6374,7 +6314,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2144000,
+      "time": 2143999.999843072,
       "place": 126,
       "gender_place": 87,
       "points": 64
@@ -6386,7 +6326,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2162000,
+      "time": 2161999.9999646097,
       "place": 127,
       "gender_place": 88,
       "points": 63
@@ -6398,7 +6338,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2166000,
+      "time": 2165999.9999566935,
       "place": 128,
       "gender_place": 89,
       "points": 62
@@ -6410,7 +6350,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2187000,
+      "time": 2187000.0001508743,
       "place": 129,
       "gender_place": 40,
       "points": 111
@@ -6422,7 +6362,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2207000,
+      "time": 2207000.000111293,
       "place": 130,
       "gender_place": 41,
       "points": 110
@@ -6434,7 +6374,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2230000,
+      "time": 2230000.000144355,
       "place": 131,
       "gender_place": 42,
       "points": 109
@@ -6446,7 +6386,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2240000,
+      "time": 2239999.9999674037,
       "place": 132,
       "gender_place": 43,
       "points": 108
@@ -6458,7 +6398,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2241000,
+      "time": 2240999.9998868443,
       "place": 133,
       "gender_place": 90,
       "points": 61
@@ -6470,7 +6410,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2275000,
+      "time": 2274999.999976717,
       "place": 134,
       "gender_place": 91,
       "points": 60
@@ -6482,7 +6422,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2292000,
+      "time": 2291999.9998644926,
       "place": 135,
       "gender_place": 44,
       "points": 107
@@ -6494,7 +6434,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2316000,
+      "time": 2316000.0001313165,
       "place": 136,
       "gender_place": 45,
       "points": 106
@@ -6506,7 +6446,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2319000,
+      "time": 2318999.9998896383,
       "place": 137,
       "gender_place": 46,
       "points": 105
@@ -6518,7 +6458,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2325000,
+      "time": 2325000.0000349246,
       "place": 138,
       "gender_place": 92,
       "points": 59
@@ -6530,7 +6470,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2333000,
+      "time": 2333000.000019092,
       "place": 139,
       "gender_place": 47,
       "points": 104
@@ -6542,7 +6482,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2351000,
+      "time": 2351000.0001406297,
       "place": 140,
       "gender_place": 48,
       "points": 103
@@ -6554,7 +6494,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2352000,
+      "time": 2352000.0000600703,
       "place": 141,
       "gender_place": 93,
       "points": 58
@@ -6566,7 +6506,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2353000,
+      "time": 2352999.999979511,
       "place": 142,
       "gender_place": 49,
       "points": 102
@@ -6578,10 +6518,22 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2354000,
+      "time": 2353999.9998989515,
       "place": 143,
       "gender_place": 94,
       "points": 57
+    },
+    {
+      "name": "Danielle Hennies",
+      "gender": "W",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 2412999.9998607673,
+      "place": 144,
+      "gender_place": 50,
+      "points": 101
     },
     {
       "name": "Steve Heikkila",
@@ -6590,7 +6542,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2430000,
+      "time": 2430000.0000628643,
       "place": 145,
       "gender_place": 95,
       "points": 56
@@ -6602,7 +6554,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2460000,
+      "time": 2459999.999846332,
       "place": 146,
       "gender_place": 96,
       "points": 55
@@ -6614,7 +6566,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2471000,
+      "time": 2470999.9999031425,
       "place": 147,
       "gender_place": 51,
       "points": 100
@@ -6626,7 +6578,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2472000,
+      "time": 2472000.0001369044,
       "place": 148,
       "gender_place": 52,
       "points": 99
@@ -6638,7 +6590,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2536000,
+      "time": 2536000.0000102445,
       "place": 149,
       "gender_place": 53,
       "points": 98
@@ -6650,7 +6602,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2538000,
+      "time": 2537999.9998491257,
       "place": 150,
       "gender_place": 97,
       "points": 54
@@ -6662,7 +6614,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2541000,
+      "time": 2540999.999921769,
       "place": 151,
       "gender_place": 98,
       "points": 53
@@ -6674,10 +6626,22 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2542000,
+      "time": 2542000.000155531,
       "place": 152,
       "gender_place": 54,
       "points": 97
+    },
+    {
+      "name": "Laila Lakanen",
+      "gender": "W",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 2638999.9998849817,
+      "place": 153,
+      "gender_place": 55,
+      "points": 96
     },
     {
       "name": "Lisa Freier",
@@ -6686,7 +6650,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2659000,
+      "time": 2658999.9998454005,
       "place": 154,
       "gender_place": 56,
       "points": 95
@@ -6698,7 +6662,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2660000,
+      "time": 2660000.0000791624,
       "place": 155,
       "gender_place": 99,
       "points": 52
@@ -6710,106 +6674,10 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2754000,
+      "time": 2754000.0000502914,
       "place": 156,
       "gender_place": 57,
       "points": 94
-    },
-    {
-      "name": "Barb Luke",
-      "gender": "W",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 2946000,
-      "place": 159,
-      "gender_place": 60,
-      "points": 91
-    },
-    {
-      "name": "Barb Bengtson",
-      "gender": "W",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 2947000,
-      "place": 160,
-      "gender_place": 61,
-      "points": 90
-    },
-    {
-      "name": "Ann Farley",
-      "gender": "W",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": true,
-      "time": 12743001,
-      "place": "VOL",
-      "gender_place": 65,
-      "points": 86
-    },
-    {
-      "name": "Danielle Hennies",
-      "gender": "W",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 2413000,
-      "place": 144,
-      "gender_place": 50,
-      "points": 101
-    },
-    {
-      "name": "Laila Lakanen",
-      "gender": "W",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 2639000,
-      "place": 153,
-      "gender_place": 55,
-      "points": 96
-    },
-    {
-      "name": "Kylee Stoeckmann",
-      "gender": "W",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 3039000.0000000005,
-      "place": 161,
-      "gender_place": 62,
-      "points": 89
-    },
-    {
-      "name": "Emma Daharsh",
-      "gender": "W",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": "",
-      "time": 3040000,
-      "place": 162,
-      "gender_place": 63,
-      "points": 88
-    },
-    {
-      "name": "Kaitlyn Orlando",
-      "gender": "W",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": true,
-      "time": 12743001,
-      "place": "VOL",
-      "gender_place": 65,
-      "points": 86
     },
     {
       "name": "Allison Brooks",
@@ -6818,7 +6686,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2802999.9999999995,
+      "time": 2802999.999874737,
       "place": 157,
       "gender_place": 58,
       "points": 93
@@ -6830,10 +6698,58 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 2903000,
+      "time": 2902999.9999911524,
       "place": 158,
       "gender_place": 59,
       "points": 92
+    },
+    {
+      "name": "Barb Luke",
+      "gender": "W",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 2945999.999984633,
+      "place": 159,
+      "gender_place": 60,
+      "points": 91
+    },
+    {
+      "name": "Barb Bengtson",
+      "gender": "W",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 2946999.999904074,
+      "place": 160,
+      "gender_place": 61,
+      "points": 90
+    },
+    {
+      "name": "Kylee Stoeckmann",
+      "gender": "W",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 3039000.0000363216,
+      "place": 161,
+      "gender_place": 62,
+      "points": 89
+    },
+    {
+      "name": "Emma Daharsh",
+      "gender": "W",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": "",
+      "time": 3039999.999955762,
+      "place": 162,
+      "gender_place": 63,
+      "points": 88
     },
     {
       "name": "Sara Post",
@@ -6842,7 +6758,7 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 3448000,
+      "time": 3448000.0000912696,
       "place": 163,
       "gender_place": 64,
       "points": 87
@@ -6854,10 +6770,94 @@
       "series": "Spring Series",
       "course": "Waabizheshikana",
       "volunteer": "",
-      "time": 4094000,
+      "time": 4093999.9999129213,
       "place": 164,
       "gender_place": 1,
       "points": 150
+    },
+    {
+      "name": "Shelly Thompson",
+      "gender": "W",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": true,
+      "time": 4094000.9999129213,
+      "place": "VOL",
+      "gender_place": 65,
+      "points": 86
+    },
+    {
+      "name": "Laura Palombi",
+      "gender": "W",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": true,
+      "time": 4094000.9999129213,
+      "place": "VOL",
+      "gender_place": 65,
+      "points": 86
+    },
+    {
+      "name": "Jarrow Wahman",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": true,
+      "time": 4094000.9999129213,
+      "place": "VOL",
+      "gender_place": 100,
+      "points": 51
+    },
+    {
+      "name": "Mae Gackstetter",
+      "gender": "W",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": true,
+      "time": 4094000.9999129213,
+      "place": "VOL",
+      "gender_place": 65,
+      "points": 86
+    },
+    {
+      "name": "Lane Johnson",
+      "gender": "M",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": true,
+      "time": 4094000.9999129213,
+      "place": "VOL",
+      "gender_place": 100,
+      "points": 51
+    },
+    {
+      "name": "Ann Farley",
+      "gender": "W",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": true,
+      "time": 4094000.9999129213,
+      "place": "VOL",
+      "gender_place": 65,
+      "points": 86
+    },
+    {
+      "name": "Kaitlyn Orlando",
+      "gender": "W",
+      "date": "2026-05-06T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Waabizheshikana",
+      "volunteer": true,
+      "time": 4094000.9999129213,
+      "place": "VOL",
+      "gender_place": 65,
+      "points": 86
     }
   ]
 }
