@@ -341,7 +341,7 @@
     {
       "Place": 11,
       "Gender": "W",
-      "Name": "Aimee Foister",
+      "Name": "Aimee Foster",
       "Total Points": 140,
       "Bonus": 0,
       "Bear Creek": 140,
@@ -1498,7 +1498,7 @@
     {
       "Place": 56,
       "Gender": "M",
-      "Name": "Nico Ghandi",
+      "Name": "Nico Ghandhi",
       "Total Points": 95,
       "Bonus": 0,
       "Bear Creek": 95,
@@ -1836,7 +1836,7 @@
     {
       "Place": 76,
       "Gender": "M",
-      "Name": "Martin Benis",
+      "Name": "Martin Bevis",
       "Total Points": 75,
       "Bonus": 0,
       "Bear Creek": 75,
@@ -1953,7 +1953,7 @@
     {
       "Place": 85,
       "Gender": "M",
-      "Name": "Leif DeVaney",
+      "Name": "Tim Shovein",
       "Total Points": 66,
       "Bonus": 0,
       "Bear Creek": 66,
@@ -1966,7 +1966,7 @@
     {
       "Place": 86,
       "Gender": "M",
-      "Name": "Nick Terwey",
+      "Name": "Leif DeVaney",
       "Total Points": 65,
       "Bonus": 0,
       "Bear Creek": 65,
@@ -1979,7 +1979,7 @@
     {
       "Place": 87,
       "Gender": "M",
-      "Name": "Tyson Freier",
+      "Name": "Nick Terwey",
       "Total Points": 64,
       "Bonus": 0,
       "Bear Creek": 64,
@@ -1992,7 +1992,7 @@
     {
       "Place": 88,
       "Gender": "M",
-      "Name": "Nicholas Sundstrom",
+      "Name": "Tyson Freier",
       "Total Points": 63,
       "Bonus": 0,
       "Bear Creek": 63,
@@ -2005,7 +2005,7 @@
     {
       "Place": 89,
       "Gender": "M",
-      "Name": "Ben Talarico",
+      "Name": "Nicholas Sundstrom",
       "Total Points": 62,
       "Bonus": 0,
       "Bear Creek": 62,
@@ -2018,7 +2018,7 @@
     {
       "Place": 90,
       "Gender": "M",
-      "Name": "Steve Heikkila",
+      "Name": "Ben Talarico",
       "Total Points": 61,
       "Bonus": 0,
       "Bear Creek": 61,
@@ -2031,7 +2031,7 @@
     {
       "Place": 91,
       "Gender": "M",
-      "Name": "Adam Swank",
+      "Name": "Steve Heikkila",
       "Total Points": 60,
       "Bonus": 0,
       "Bear Creek": 60,
@@ -2044,7 +2044,7 @@
     {
       "Place": 92,
       "Gender": "M",
-      "Name": "Adam McGill",
+      "Name": "Adam Swank",
       "Total Points": 59,
       "Bonus": 0,
       "Bear Creek": 59,
@@ -2057,7 +2057,7 @@
     {
       "Place": 93,
       "Gender": "M",
-      "Name": "Travis Dooley",
+      "Name": "Adam McGill",
       "Total Points": 58,
       "Bonus": 0,
       "Bear Creek": 58,
@@ -2070,7 +2070,7 @@
     {
       "Place": 94,
       "Gender": "M",
-      "Name": "Keith Thompson",
+      "Name": "Travis Dooley",
       "Total Points": 57,
       "Bonus": 0,
       "Bear Creek": 57,
@@ -2083,7 +2083,7 @@
     {
       "Place": 95,
       "Gender": "M",
-      "Name": "Tim Shovein",
+      "Name": "Keith Thompson",
       "Total Points": 56,
       "Bonus": 0,
       "Bear Creek": 56,
@@ -2915,7 +2915,7 @@
       "points": 141
     },
     {
-      "name": "Aimee Foister",
+      "name": "Aimee Foster",
       "gender": "W",
       "date": "2026-04-29T05:00:00.000Z",
       "series": "Spring Series",
@@ -2939,7 +2939,7 @@
       "points": 139
     },
     {
-      "name": "Nico Ghandi",
+      "name": "Nico Ghandhi",
       "gender": "M",
       "date": "2026-04-29T05:00:00.000Z",
       "series": "Spring Series",
@@ -3407,7 +3407,7 @@
       "points": 76
     },
     {
-      "name": "Martin Benis",
+      "name": "Martin Bevis",
       "gender": "M",
       "date": "2026-04-29T05:00:00.000Z",
       "series": "Spring Series",
@@ -3575,6 +3575,18 @@
       "points": 67
     },
     {
+      "name": "Tim Shovein",
+      "gender": "M",
+      "date": "2026-04-29T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Bear Creek",
+      "volunteer": "",
+      "time": 2778999.9999222346,
+      "place": 121,
+      "gender_place": 85,
+      "points": 66
+    },
+    {
       "name": "Sara Keto",
       "gender": "W",
       "date": "2026-04-29T05:00:00.000Z",
@@ -3582,7 +3594,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 2797999.9999632128,
-      "place": 121,
+      "place": 122,
       "gender_place": 36,
       "points": 115
     },
@@ -3594,9 +3606,9 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 2805000.0000279397,
-      "place": 122,
-      "gender_place": 85,
-      "points": 66
+      "place": 123,
+      "gender_place": 86,
+      "points": 65
     },
     {
       "name": "Nick Terwey",
@@ -3606,9 +3618,9 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 2827000.000141561,
-      "place": 123,
-      "gender_place": 86,
-      "points": 65
+      "place": 124,
+      "gender_place": 87,
+      "points": 64
     },
     {
       "name": "Halle Sharp",
@@ -3618,7 +3630,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 2862000.0001508743,
-      "place": 124,
+      "place": 125,
       "gender_place": 37,
       "points": 114
     },
@@ -3630,9 +3642,9 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 2913000.0001285225,
-      "place": 125,
-      "gender_place": 87,
-      "points": 64
+      "place": 126,
+      "gender_place": 88,
+      "points": 63
     },
     {
       "name": "Nicholas Sundstrom",
@@ -3642,9 +3654,9 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3008999.9999385327,
-      "place": 126,
-      "gender_place": 88,
-      "points": 63
+      "place": 127,
+      "gender_place": 89,
+      "points": 62
     },
     {
       "name": "Lisa Freier",
@@ -3654,7 +3666,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3026000.0001406297,
-      "place": 127,
+      "place": 128,
       "gender_place": 38,
       "points": 113
     },
@@ -3666,7 +3678,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3030000.0001327135,
-      "place": 128,
+      "place": 129,
       "gender_place": 39,
       "points": 112
     },
@@ -3678,7 +3690,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3031000.000052154,
-      "place": 129,
+      "place": 130,
       "gender_place": 40,
       "points": 111
     },
@@ -3690,7 +3702,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3066999.999980908,
-      "place": 130,
+      "place": 131,
       "gender_place": 41,
       "points": 110
     },
@@ -3702,7 +3714,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3070999.9999729916,
-      "place": 131,
+      "place": 132,
       "gender_place": 42,
       "points": 109
     },
@@ -3714,7 +3726,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3073000.000126194,
-      "place": 132,
+      "place": 133,
       "gender_place": 43,
       "points": 108
     },
@@ -3726,9 +3738,9 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3094999.999925494,
-      "place": 133,
-      "gender_place": 89,
-      "points": 62
+      "place": 134,
+      "gender_place": 90,
+      "points": 61
     },
     {
       "name": "Steve Heikkila",
@@ -3738,9 +3750,9 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3110999.999893829,
-      "place": 134,
-      "gender_place": 90,
-      "points": 61
+      "place": 135,
+      "gender_place": 91,
+      "points": 60
     },
     {
       "name": "Adam Swank",
@@ -3750,9 +3762,9 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3124000.0001038425,
-      "place": 135,
-      "gender_place": 91,
-      "points": 60
+      "place": 136,
+      "gender_place": 92,
+      "points": 59
     },
     {
       "name": "Rena Navarro",
@@ -3762,7 +3774,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3124000.0001038425,
-      "place": 136,
+      "place": 137,
       "gender_place": 44,
       "points": 107
     },
@@ -3774,9 +3786,9 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3219999.9999138527,
-      "place": 137,
-      "gender_place": 92,
-      "points": 59
+      "place": 138,
+      "gender_place": 93,
+      "points": 58
     },
     {
       "name": "Mara Ohrt",
@@ -3786,7 +3798,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3225000.0001396984,
-      "place": 138,
+      "place": 139,
       "gender_place": 45,
       "points": 106
     },
@@ -3798,7 +3810,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3319000.0001108274,
-      "place": 139,
+      "place": 140,
       "gender_place": 46,
       "points": 105
     },
@@ -3810,7 +3822,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3352999.9998863786,
-      "place": 140,
+      "place": 141,
       "gender_place": 47,
       "points": 104
     },
@@ -3822,7 +3834,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3430999.9998891726,
-      "place": 141,
+      "place": 142,
       "gender_place": 48,
       "points": 103
     },
@@ -3834,9 +3846,9 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3433000.000042375,
-      "place": 142,
-      "gender_place": 93,
-      "points": 58
+      "place": 143,
+      "gender_place": 94,
+      "points": 57
     },
     {
       "name": "Kylee Stoeckmann",
@@ -3846,7 +3858,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3649999.99984866,
-      "place": 143,
+      "place": 144,
       "gender_place": 49,
       "points": 102
     },
@@ -3858,7 +3870,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3652999.9999213032,
-      "place": 144,
+      "place": 145,
       "gender_place": 50,
       "points": 101
     },
@@ -3870,7 +3882,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3741999.999980908,
-      "place": 145,
+      "place": 146,
       "gender_place": 51,
       "points": 100
     },
@@ -3882,7 +3894,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3745999.9999729916,
-      "place": 146,
+      "place": 147,
       "gender_place": 52,
       "points": 99
     },
@@ -3894,7 +3906,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 3746999.9998924322,
-      "place": 147,
+      "place": 148,
       "gender_place": 53,
       "points": 98
     },
@@ -3906,7 +3918,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 4225999.999966007,
-      "place": 148,
+      "place": 149,
       "gender_place": 54,
       "points": 97
     },
@@ -3918,7 +3930,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 4233999.999950174,
-      "place": 149,
+      "place": 150,
       "gender_place": 55,
       "points": 96
     },
@@ -3930,9 +3942,9 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 4236000.000103377,
-      "place": 150,
-      "gender_place": 94,
-      "points": 57
+      "place": 151,
+      "gender_place": 95,
+      "points": 56
     },
     {
       "name": "L Byrne",
@@ -3942,7 +3954,7 @@
       "course": "Bear Creek",
       "volunteer": false,
       "time": 4581999.999890104,
-      "place": 151,
+      "place": 152,
       "gender_place": 2,
       "points": 149
     },
@@ -3954,7 +3966,7 @@
       "course": "Bear Creek",
       "volunteer": "",
       "time": 4584000.0000433065,
-      "place": 152,
+      "place": 153,
       "gender_place": 56,
       "points": 95
     },
@@ -4053,18 +4065,6 @@
       "place": "VOL",
       "gender_place": 96,
       "points": 55
-    },
-    {
-      "name": "Tim Shovein",
-      "gender": "M",
-      "date": "2026-04-29T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Bear Creek",
-      "volunteer": "",
-      "time": 2779000,
-      "place": 153,
-      "gender_place": 95,
-      "points": 56
     }
   ]
 }
