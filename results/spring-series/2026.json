@@ -186,12 +186,12 @@
       "Place": 5,
       "Gender": "M",
       "Name": "Liam Fife",
-      "Total Points": 552,
+      "Total Points": 551,
       "Bonus": 0,
       "Bear Creek": 139,
       "Waabizheshikana": 137,
       "Spirit Mountain": 137,
-      "Point Pine": 139,
+      "Point Pine": 138,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -212,12 +212,12 @@
       "Place": 6,
       "Gender": "M",
       "Name": "Benjamin Welch",
-      "Total Points": 537,
+      "Total Points": 536,
       "Bonus": 0,
       "Bear Creek": 135,
       "Waabizheshikana": 132,
       "Spirit Mountain": 134,
-      "Point Pine": 136,
+      "Point Pine": 135,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -264,12 +264,12 @@
       "Place": 7,
       "Gender": "M",
       "Name": "Greg Daw",
-      "Total Points": 503,
+      "Total Points": 502,
       "Bonus": 0,
       "Bear Creek": 120,
       "Waabizheshikana": 122,
       "Spirit Mountain": 130,
-      "Point Pine": 131,
+      "Point Pine": 130,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -313,19 +313,6 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 8,
-      "Gender": "M",
-      "Name": "Matt Livingston",
-      "Total Points": 481,
-      "Bonus": 0,
-      "Bear Creek": 121,
-      "Waabizheshikana": 113,
-      "Spirit Mountain": 127,
-      "Point Pine": 120,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
       "Place": 14,
       "Gender": "W",
       "Name": "Ashley Kittelson",
@@ -339,15 +326,28 @@
       "Cloquet Forestry Center": 0
     },
     {
+      "Place": 8,
+      "Gender": "M",
+      "Name": "Matt Livingston",
+      "Total Points": 480,
+      "Bonus": 0,
+      "Bear Creek": 121,
+      "Waabizheshikana": 113,
+      "Spirit Mountain": 127,
+      "Point Pine": 119,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
       "Place": 9,
       "Gender": "M",
       "Name": "Nick Blades",
-      "Total Points": 477,
+      "Total Points": 476,
       "Bonus": 0,
       "Bear Creek": 122,
       "Waabizheshikana": 116,
       "Spirit Mountain": 121,
-      "Point Pine": 118,
+      "Point Pine": 117,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -355,12 +355,12 @@
       "Place": 10,
       "Gender": "M",
       "Name": "Trenton Flegel",
-      "Total Points": 473,
+      "Total Points": 472,
       "Bonus": 0,
       "Bear Creek": 119,
       "Waabizheshikana": 114,
       "Spirit Mountain": 123,
-      "Point Pine": 117,
+      "Point Pine": 116,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -407,25 +407,12 @@
       "Place": 11,
       "Gender": "M",
       "Name": "Dave Schaeffer",
-      "Total Points": 452,
+      "Total Points": 451,
       "Bonus": 0,
       "Bear Creek": 114,
       "Waabizheshikana": 106,
       "Spirit Mountain": 124,
-      "Point Pine": 108,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 12,
-      "Gender": "M",
-      "Name": "Nate Hubert",
-      "Total Points": 450,
-      "Bonus": 0,
-      "Bear Creek": 118,
-      "Waabizheshikana": 110,
-      "Spirit Mountain": 119,
-      "Point Pine": 103,
+      "Point Pine": 107,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -443,15 +430,28 @@
       "Cloquet Forestry Center": 0
     },
     {
+      "Place": 12,
+      "Gender": "M",
+      "Name": "Nate Hubert",
+      "Total Points": 449,
+      "Bonus": 0,
+      "Bear Creek": 118,
+      "Waabizheshikana": 110,
+      "Spirit Mountain": 119,
+      "Point Pine": 102,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
       "Place": 13,
       "Gender": "M",
       "Name": "Ryan Saline",
-      "Total Points": 443,
+      "Total Points": 442,
       "Bonus": 0,
       "Bear Creek": 108,
       "Waabizheshikana": 101,
       "Spirit Mountain": 125,
-      "Point Pine": 109,
+      "Point Pine": 108,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -485,12 +485,12 @@
       "Place": 15,
       "Gender": "M",
       "Name": "Noah Grode",
-      "Total Points": 439,
+      "Total Points": 438,
       "Bonus": 0,
       "Bear Creek": 96,
       "Waabizheshikana": 102,
       "Spirit Mountain": 122,
-      "Point Pine": 119,
+      "Point Pine": 118,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -511,12 +511,12 @@
       "Place": 17,
       "Gender": "M",
       "Name": "Ryan Staub",
-      "Total Points": 424,
+      "Total Points": 423,
       "Bonus": 0,
       "Bear Creek": 101,
       "Waabizheshikana": 104,
       "Spirit Mountain": 113,
-      "Point Pine": 106,
+      "Point Pine": 105,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -615,12 +615,12 @@
       "Place": 20,
       "Gender": "M",
       "Name": "Peter Coenen",
-      "Total Points": 392,
+      "Total Points": 391,
       "Bonus": 0,
       "Bear Creek": 133,
       "Waabizheshikana": 126,
       "Spirit Mountain": 0,
-      "Point Pine": 133,
+      "Point Pine": 132,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -628,24 +628,11 @@
       "Place": 21,
       "Gender": "M",
       "Name": "Karl Holub",
-      "Total Points": 389,
+      "Total Points": 388,
       "Bonus": 0,
       "Bear Creek": 0,
       "Waabizheshikana": 127,
       "Spirit Mountain": 133,
-      "Point Pine": 129,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 22,
-      "Gender": "M",
-      "Name": "Nick Flynn",
-      "Total Points": 388,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Waabizheshikana": 128,
-      "Spirit Mountain": 132,
       "Point Pine": 128,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
@@ -660,6 +647,19 @@
       "Waabizheshikana": 129,
       "Spirit Mountain": 0,
       "Point Pine": 126,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 22,
+      "Gender": "M",
+      "Name": "Nick Flynn",
+      "Total Points": 387,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Waabizheshikana": 128,
+      "Spirit Mountain": 132,
+      "Point Pine": 127,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -680,12 +680,12 @@
       "Place": 23,
       "Gender": "M",
       "Name": "Caleb Vandewege",
-      "Total Points": 379,
+      "Total Points": 378,
       "Bonus": 0,
       "Bear Creek": 94,
       "Waabizheshikana": 92,
       "Spirit Mountain": 99,
-      "Point Pine": 94,
+      "Point Pine": 93,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -706,12 +706,12 @@
       "Place": 24,
       "Gender": "M",
       "Name": "Jason Coyle",
-      "Total Points": 376,
+      "Total Points": 375,
       "Bonus": 0,
       "Bear Creek": 132,
       "Waabizheshikana": 0,
       "Spirit Mountain": 128,
-      "Point Pine": 116,
+      "Point Pine": 115,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -719,12 +719,12 @@
       "Place": 25,
       "Gender": "M",
       "Name": "Tim Kostner",
-      "Total Points": 373,
+      "Total Points": 372,
       "Bonus": 0,
       "Bear Creek": 128,
       "Waabizheshikana": 123,
       "Spirit Mountain": 0,
-      "Point Pine": 122,
+      "Point Pine": 121,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -732,12 +732,12 @@
       "Place": 26,
       "Gender": "M",
       "Name": "Logan Baier",
-      "Total Points": 373,
+      "Total Points": 372,
       "Bonus": 0,
       "Bear Creek": 125,
       "Waabizheshikana": 121,
       "Spirit Mountain": 0,
-      "Point Pine": 127,
+      "Point Pine": 126,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -745,12 +745,25 @@
       "Place": 27,
       "Gender": "M",
       "Name": "Brad Evraets",
-      "Total Points": 370,
+      "Total Points": 369,
       "Bonus": 0,
       "Bear Creek": 127,
       "Waabizheshikana": 119,
       "Spirit Mountain": 0,
-      "Point Pine": 124,
+      "Point Pine": 123,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 28,
+      "Gender": "W",
+      "Name": "Aimee Foster",
+      "Total Points": 369,
+      "Bonus": 0,
+      "Bear Creek": 140,
+      "Waabizheshikana": 139,
+      "Spirit Mountain": 0,
+      "Point Pine": 90,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -758,17 +771,17 @@
       "Place": 28,
       "Gender": "M",
       "Name": "Justin Keyport",
-      "Total Points": 367,
+      "Total Points": 366,
       "Bonus": 0,
       "Bear Creek": 88,
       "Waabizheshikana": 90,
       "Spirit Mountain": 108,
-      "Point Pine": 81,
+      "Point Pine": 80,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 28,
+      "Place": 29,
       "Gender": "W",
       "Name": "Hailey Bauer",
       "Total Points": 365,
@@ -781,28 +794,28 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 29,
+      "Place": 30,
       "Gender": "W",
       "Name": "Mae Gackstetter",
-      "Total Points": 365,
+      "Total Points": 364,
       "Bonus": 0,
       "Bear Creek": 94,
       "Waabizheshikana": 85,
       "Spirit Mountain": 96,
-      "Point Pine": 90,
+      "Point Pine": 89,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 30,
+      "Place": 31,
       "Gender": "W",
       "Name": "Shelly Thompson",
-      "Total Points": 364,
+      "Total Points": 363,
       "Bonus": 0,
       "Bear Creek": 93,
       "Waabizheshikana": 85,
       "Spirit Mountain": 96,
-      "Point Pine": 90,
+      "Point Pine": 89,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -810,12 +823,12 @@
       "Place": 29,
       "Gender": "M",
       "Name": "Dave Lane",
-      "Total Points": 359,
+      "Total Points": 358,
       "Bonus": 0,
       "Bear Creek": 0,
       "Waabizheshikana": 112,
       "Spirit Mountain": 126,
-      "Point Pine": 121,
+      "Point Pine": 120,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -823,12 +836,12 @@
       "Place": 30,
       "Gender": "M",
       "Name": "Christopher Montague",
-      "Total Points": 356,
+      "Total Points": 355,
       "Bonus": 0,
       "Bear Creek": 86,
       "Waabizheshikana": 76,
       "Spirit Mountain": 107,
-      "Point Pine": 87,
+      "Point Pine": 86,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -849,12 +862,12 @@
       "Place": 32,
       "Gender": "M",
       "Name": "Matt Evans",
-      "Total Points": 347,
+      "Total Points": 346,
       "Bonus": 0,
       "Bear Creek": 81,
       "Waabizheshikana": 79,
       "Spirit Mountain": 104,
-      "Point Pine": 83,
+      "Point Pine": 82,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -862,12 +875,12 @@
       "Place": 33,
       "Gender": "M",
       "Name": "Miguel Bernardez",
-      "Total Points": 346,
+      "Total Points": 345,
       "Bonus": 0,
       "Bear Creek": 90,
       "Waabizheshikana": 71,
       "Spirit Mountain": 106,
-      "Point Pine": 79,
+      "Point Pine": 78,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -875,30 +888,17 @@
       "Place": 34,
       "Gender": "M",
       "Name": "Adam Schwartz-Lowe",
-      "Total Points": 342,
+      "Total Points": 341,
       "Bonus": 0,
       "Bear Creek": 123,
       "Waabizheshikana": 115,
       "Spirit Mountain": 0,
-      "Point Pine": 104,
+      "Point Pine": 103,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 35,
-      "Gender": "M",
-      "Name": "Nicholas Sundstrom",
-      "Total Points": 341,
-      "Bonus": 0,
-      "Bear Creek": 64,
-      "Waabizheshikana": 75,
-      "Spirit Mountain": 105,
-      "Point Pine": 97,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 31,
+      "Place": 32,
       "Gender": "W",
       "Name": "Callie Grones",
       "Total Points": 340,
@@ -911,7 +911,20 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 32,
+      "Place": 35,
+      "Gender": "M",
+      "Name": "Nicholas Sundstrom",
+      "Total Points": 340,
+      "Bonus": 0,
+      "Bear Creek": 64,
+      "Waabizheshikana": 75,
+      "Spirit Mountain": 105,
+      "Point Pine": 96,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 33,
       "Gender": "W",
       "Name": "Tonya O'Connor",
       "Total Points": 329,
@@ -927,56 +940,56 @@
       "Place": 36,
       "Gender": "M",
       "Name": "Lane Johnson",
-      "Total Points": 328,
+      "Total Points": 327,
       "Bonus": 0,
       "Bear Creek": 0,
       "Waabizheshikana": 52,
       "Spirit Mountain": 138,
-      "Point Pine": 138,
+      "Point Pine": 137,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
       "Place": 37,
       "Gender": "M",
-      "Name": "Anders Mattson",
-      "Total Points": 327,
+      "Name": "Tyler Pilon",
+      "Total Points": 325,
       "Bonus": 0,
-      "Bear Creek": 80,
-      "Waabizheshikana": 74,
-      "Spirit Mountain": 101,
-      "Point Pine": 72,
+      "Bear Creek": 107,
+      "Waabizheshikana": 107,
+      "Spirit Mountain": 0,
+      "Point Pine": 111,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
       "Place": 38,
       "Gender": "M",
-      "Name": "Keaton Long",
-      "Total Points": 327,
+      "Name": "Anders Mattson",
+      "Total Points": 325,
       "Bonus": 0,
-      "Bear Creek": 76,
-      "Waabizheshikana": 73,
-      "Spirit Mountain": 103,
-      "Point Pine": 75,
+      "Bear Creek": 80,
+      "Waabizheshikana": 74,
+      "Spirit Mountain": 101,
+      "Point Pine": 70,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
       "Place": 39,
       "Gender": "M",
-      "Name": "Tyler Pilon",
-      "Total Points": 326,
+      "Name": "Keaton Long",
+      "Total Points": 325,
       "Bonus": 0,
-      "Bear Creek": 107,
-      "Waabizheshikana": 107,
-      "Spirit Mountain": 0,
-      "Point Pine": 112,
+      "Bear Creek": 76,
+      "Waabizheshikana": 73,
+      "Spirit Mountain": 103,
+      "Point Pine": 73,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 33,
+      "Place": 34,
       "Gender": "W",
       "Name": "Halle Sharp",
       "Total Points": 323,
@@ -992,17 +1005,17 @@
       "Place": 40,
       "Gender": "M",
       "Name": "Roger Reinert",
-      "Total Points": 322,
+      "Total Points": 321,
       "Bonus": 0,
       "Bear Creek": 105,
       "Waabizheshikana": 0,
       "Spirit Mountain": 115,
-      "Point Pine": 102,
+      "Point Pine": 101,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 34,
+      "Place": 35,
       "Gender": "W",
       "Name": "Julie Bernhardt",
       "Total Points": 316,
@@ -1018,17 +1031,17 @@
       "Place": 41,
       "Gender": "M",
       "Name": "Matthew Rohrer",
-      "Total Points": 314,
+      "Total Points": 313,
       "Bonus": 0,
       "Bear Creek": 111,
       "Waabizheshikana": 98,
       "Spirit Mountain": 0,
-      "Point Pine": 105,
+      "Point Pine": 104,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 35,
+      "Place": 36,
       "Gender": "W",
       "Name": "Mara Ohrt",
       "Total Points": 312,
@@ -1041,7 +1054,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 36,
+      "Place": 37,
       "Gender": "W",
       "Name": "Rita Kuzko",
       "Total Points": 306,
@@ -1054,7 +1067,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 37,
+      "Place": 38,
       "Gender": "W",
       "Name": "Rachel Shiller",
       "Total Points": 305,
@@ -1070,12 +1083,12 @@
       "Place": 42,
       "Gender": "M",
       "Name": "Matthew Henderson",
-      "Total Points": 304,
+      "Total Points": 302,
       "Bonus": 0,
       "Bear Creek": 69,
       "Waabizheshikana": 67,
       "Spirit Mountain": 98,
-      "Point Pine": 70,
+      "Point Pine": 68,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -1083,12 +1096,12 @@
       "Place": 43,
       "Gender": "M",
       "Name": "Kyle Anderson",
-      "Total Points": 303,
+      "Total Points": 301,
       "Bonus": 0,
       "Bear Creek": 112,
       "Waabizheshikana": 134,
       "Spirit Mountain": 0,
-      "Point Pine": 57,
+      "Point Pine": 55,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -1106,20 +1119,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 45,
-      "Gender": "M",
-      "Name": "Nick Terwey",
-      "Total Points": 296,
-      "Bonus": 0,
-      "Bear Creek": 66,
-      "Waabizheshikana": 65,
-      "Spirit Mountain": 94,
-      "Point Pine": 71,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 38,
+      "Place": 39,
       "Gender": "W",
       "Name": "Allison Brooks",
       "Total Points": 295,
@@ -1128,6 +1128,19 @@
       "Waabizheshikana": 92,
       "Spirit Mountain": 100,
       "Point Pine": 0,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 45,
+      "Gender": "M",
+      "Name": "Nick Terwey",
+      "Total Points": 294,
+      "Bonus": 0,
+      "Bear Creek": 66,
+      "Waabizheshikana": 65,
+      "Spirit Mountain": 94,
+      "Point Pine": 69,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -1161,17 +1174,17 @@
       "Place": 48,
       "Gender": "M",
       "Name": "Matt L Johnson",
-      "Total Points": 293,
+      "Total Points": 292,
       "Bonus": 0,
       "Bear Creek": 100,
       "Waabizheshikana": 94,
       "Spirit Mountain": 0,
-      "Point Pine": 99,
+      "Point Pine": 98,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 39,
+      "Place": 40,
       "Gender": "W",
       "Name": "Maria Lind",
       "Total Points": 289,
@@ -1184,7 +1197,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 40,
+      "Place": 41,
       "Gender": "W",
       "Name": "Shelby Suhr",
       "Total Points": 288,
@@ -1197,7 +1210,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 41,
+      "Place": 42,
       "Gender": "W",
       "Name": "Kylee Stoeckmann",
       "Total Points": 288,
@@ -1210,7 +1223,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 42,
+      "Place": 43,
       "Gender": "W",
       "Name": "Haley Bengtson",
       "Total Points": 288,
@@ -1238,19 +1251,6 @@
     {
       "Place": 50,
       "Gender": "M",
-      "Name": "Leif DeVaney",
-      "Total Points": 286,
-      "Bonus": 0,
-      "Bear Creek": 67,
-      "Waabizheshikana": 64,
-      "Spirit Mountain": 89,
-      "Point Pine": 66,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 51,
-      "Gender": "M",
       "Name": "John Hottinger",
       "Total Points": 285,
       "Bonus": 0,
@@ -1262,20 +1262,33 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 52,
+      "Place": 51,
       "Gender": "M",
-      "Name": "Keith Thompson",
-      "Total Points": 285,
+      "Name": "Leif DeVaney",
+      "Total Points": 284,
       "Bonus": 0,
-      "Bear Creek": 58,
-      "Waabizheshikana": 69,
-      "Spirit Mountain": 97,
-      "Point Pine": 61,
+      "Bear Creek": 67,
+      "Waabizheshikana": 64,
+      "Spirit Mountain": 89,
+      "Point Pine": 64,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 43,
+      "Place": 52,
+      "Gender": "M",
+      "Name": "Keith Thompson",
+      "Total Points": 283,
+      "Bonus": 0,
+      "Bear Creek": 58,
+      "Waabizheshikana": 69,
+      "Spirit Mountain": 97,
+      "Point Pine": 59,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 44,
       "Gender": "W",
       "Name": "Brooke Wilson",
       "Total Points": 283,
@@ -1288,7 +1301,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 44,
+      "Place": 45,
       "Gender": "W",
       "Name": "Shannon Meehan",
       "Total Points": 283,
@@ -1303,19 +1316,6 @@
     {
       "Place": 53,
       "Gender": "M",
-      "Name": "Tobin Swimeley",
-      "Total Points": 282,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Waabizheshikana": 85,
-      "Spirit Mountain": 109,
-      "Point Pine": 88,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 54,
-      "Gender": "M",
       "Name": "Tony Hoff",
       "Total Points": 281,
       "Bonus": 0,
@@ -1327,7 +1327,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 45,
+      "Place": 46,
       "Gender": "W",
       "Name": "Allegra Pihlaja",
       "Total Points": 281,
@@ -1340,15 +1340,15 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 46,
-      "Gender": "W",
-      "Name": "Aimee Foster",
-      "Total Points": 279,
+      "Place": 54,
+      "Gender": "M",
+      "Name": "Tobin Swimeley",
+      "Total Points": 281,
       "Bonus": 0,
-      "Bear Creek": 140,
-      "Waabizheshikana": 139,
-      "Spirit Mountain": 0,
-      "Point Pine": 0,
+      "Bear Creek": 0,
+      "Waabizheshikana": 85,
+      "Spirit Mountain": 109,
+      "Point Pine": 87,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -1356,51 +1356,38 @@
       "Place": 55,
       "Gender": "M",
       "Name": "Tyson Freier",
-      "Total Points": 279,
+      "Total Points": 277,
       "Bonus": 0,
       "Bear Creek": 65,
       "Waabizheshikana": 54,
       "Spirit Mountain": 93,
-      "Point Pine": 67,
+      "Point Pine": 65,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
       "Place": 56,
       "Gender": "M",
-      "Name": "Pete Pascente",
-      "Total Points": 275,
+      "Name": "Ed Fuhs",
+      "Total Points": 276,
       "Bonus": 0,
-      "Bear Creek": 87,
-      "Waabizheshikana": 0,
-      "Spirit Mountain": 96,
-      "Point Pine": 92,
+      "Bear Creek": 57,
+      "Waabizheshikana": 53,
+      "Spirit Mountain": 90,
+      "Point Pine": 76,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
       "Place": 57,
       "Gender": "M",
-      "Name": "Ben Talarico",
-      "Total Points": 275,
-      "Bonus": 0,
-      "Bear Creek": 63,
-      "Waabizheshikana": 61,
-      "Spirit Mountain": 91,
-      "Point Pine": 60,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 58,
-      "Gender": "M",
-      "Name": "Kevin Mack",
+      "Name": "Pete Pascente",
       "Total Points": 274,
       "Bonus": 0,
-      "Bear Creek": 137,
+      "Bear Creek": 87,
       "Waabizheshikana": 0,
-      "Spirit Mountain": 0,
-      "Point Pine": 137,
+      "Spirit Mountain": 96,
+      "Point Pine": 91,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -1418,27 +1405,40 @@
       "Cloquet Forestry Center": 0
     },
     {
+      "Place": 58,
+      "Gender": "M",
+      "Name": "Kevin Mack",
+      "Total Points": 273,
+      "Bonus": 0,
+      "Bear Creek": 137,
+      "Waabizheshikana": 0,
+      "Spirit Mountain": 0,
+      "Point Pine": 136,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
       "Place": 59,
       "Gender": "M",
-      "Name": "Matt Carlson",
-      "Total Points": 271,
+      "Name": "Ben Talarico",
+      "Total Points": 273,
       "Bonus": 0,
-      "Bear Creek": 93,
-      "Waabizheshikana": 88,
-      "Spirit Mountain": 0,
-      "Point Pine": 90,
+      "Bear Creek": 63,
+      "Waabizheshikana": 61,
+      "Spirit Mountain": 91,
+      "Point Pine": 58,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
       "Place": 60,
       "Gender": "M",
-      "Name": "Jay Stoneburner",
-      "Total Points": 271,
+      "Name": "Matt Carlson",
+      "Total Points": 270,
       "Bonus": 0,
-      "Bear Creek": 0,
-      "Waabizheshikana": 80,
-      "Spirit Mountain": 102,
+      "Bear Creek": 93,
+      "Waabizheshikana": 88,
+      "Spirit Mountain": 0,
       "Point Pine": 89,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
@@ -1459,13 +1459,13 @@
     {
       "Place": 61,
       "Gender": "M",
-      "Name": "Dan Duff",
-      "Total Points": 269,
+      "Name": "Jay Stoneburner",
+      "Total Points": 270,
       "Bonus": 0,
-      "Bear Creek": 85,
-      "Waabizheshikana": 93,
-      "Spirit Mountain": 0,
-      "Point Pine": 91,
+      "Bear Creek": 0,
+      "Waabizheshikana": 80,
+      "Spirit Mountain": 102,
+      "Point Pine": 88,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -1485,13 +1485,26 @@
     {
       "Place": 62,
       "Gender": "M",
-      "Name": "Eric Patterson",
+      "Name": "Dan Duff",
       "Total Points": 268,
+      "Bonus": 0,
+      "Bear Creek": 85,
+      "Waabizheshikana": 93,
+      "Spirit Mountain": 0,
+      "Point Pine": 90,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 63,
+      "Gender": "M",
+      "Name": "Eric Patterson",
+      "Total Points": 267,
       "Bonus": 0,
       "Bear Creek": 136,
       "Waabizheshikana": 0,
       "Spirit Mountain": 0,
-      "Point Pine": 132,
+      "Point Pine": 131,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -1505,19 +1518,6 @@
       "Waabizheshikana": 136,
       "Spirit Mountain": 0,
       "Point Pine": 131,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 63,
-      "Gender": "M",
-      "Name": "Charlie Hickman",
-      "Total Points": 266,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Waabizheshikana": 0,
-      "Spirit Mountain": 136,
-      "Point Pine": 130,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -1537,13 +1537,26 @@
     {
       "Place": 64,
       "Gender": "M",
+      "Name": "Charlie Hickman",
+      "Total Points": 265,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Waabizheshikana": 0,
+      "Spirit Mountain": 136,
+      "Point Pine": 129,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 65,
+      "Gender": "M",
       "Name": "Brian Berget",
-      "Total Points": 262,
+      "Total Points": 261,
       "Bonus": 0,
       "Bear Creek": 89,
       "Waabizheshikana": 77,
       "Spirit Mountain": 0,
-      "Point Pine": 96,
+      "Point Pine": 95,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -1583,19 +1596,6 @@
       "Waabizheshikana": 0,
       "Spirit Mountain": 0,
       "Point Pine": 129,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 65,
-      "Gender": "M",
-      "Name": "Ed Fuhs",
-      "Total Points": 255,
-      "Bonus": 0,
-      "Bear Creek": 57,
-      "Waabizheshikana": 53,
-      "Spirit Mountain": 90,
-      "Point Pine": 55,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -1655,12 +1655,12 @@
       "Place": 69,
       "Gender": "M",
       "Name": "Chase Bonczek",
-      "Total Points": 245,
+      "Total Points": 244,
       "Bonus": 0,
       "Bear Creek": 82,
       "Waabizheshikana": 81,
       "Spirit Mountain": 0,
-      "Point Pine": 82,
+      "Point Pine": 81,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -1668,38 +1668,38 @@
       "Place": 70,
       "Gender": "M",
       "Name": "Dean Evraets",
-      "Total Points": 245,
+      "Total Points": 244,
       "Bonus": 0,
       "Bear Creek": 0,
       "Waabizheshikana": 120,
       "Spirit Mountain": 0,
-      "Point Pine": 125,
+      "Point Pine": 124,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
       "Place": 71,
       "Gender": "M",
-      "Name": "Paul Durham",
-      "Total Points": 243,
+      "Name": "Joshua Tomczak",
+      "Total Points": 242,
       "Bonus": 0,
-      "Bear Creek": 92,
-      "Waabizheshikana": 86,
+      "Bear Creek": 78,
+      "Waabizheshikana": 87,
       "Spirit Mountain": 0,
-      "Point Pine": 65,
+      "Point Pine": 77,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
       "Place": 72,
       "Gender": "M",
-      "Name": "Joshua Tomczak",
-      "Total Points": 243,
+      "Name": "Paul Durham",
+      "Total Points": 241,
       "Bonus": 0,
-      "Bear Creek": 78,
-      "Waabizheshikana": 87,
+      "Bear Creek": 92,
+      "Waabizheshikana": 86,
       "Spirit Mountain": 0,
-      "Point Pine": 78,
+      "Point Pine": 63,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -1707,30 +1707,17 @@
       "Place": 73,
       "Gender": "M",
       "Name": "Kevin Wood",
-      "Total Points": 241,
+      "Total Points": 240,
       "Bonus": 0,
       "Bear Creek": 0,
       "Waabizheshikana": 118,
       "Spirit Mountain": 0,
-      "Point Pine": 123,
+      "Point Pine": 122,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
       "Place": 74,
-      "Gender": "M",
-      "Name": "Grant Nelson",
-      "Total Points": 236,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Waabizheshikana": 125,
-      "Spirit Mountain": 0,
-      "Point Pine": 111,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 75,
       "Gender": "M",
       "Name": "Dave Antonson",
       "Total Points": 235,
@@ -1739,6 +1726,19 @@
       "Waabizheshikana": 111,
       "Spirit Mountain": 0,
       "Point Pine": 0,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 75,
+      "Gender": "M",
+      "Name": "Grant Nelson",
+      "Total Points": 235,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Waabizheshikana": 125,
+      "Spirit Mountain": 0,
+      "Point Pine": 110,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -1785,12 +1785,12 @@
       "Place": 76,
       "Gender": "M",
       "Name": "Ryan Peterson",
-      "Total Points": 220,
+      "Total Points": 219,
       "Bonus": 0,
       "Bear Creek": 113,
       "Waabizheshikana": 0,
       "Spirit Mountain": 0,
-      "Point Pine": 107,
+      "Point Pine": 106,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -1824,30 +1824,17 @@
       "Place": 79,
       "Gender": "M",
       "Name": "Patrick Deignan",
-      "Total Points": 213,
+      "Total Points": 212,
       "Bonus": 0,
       "Bear Creek": 99,
       "Waabizheshikana": 0,
       "Spirit Mountain": 0,
-      "Point Pine": 114,
+      "Point Pine": 113,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
       "Place": 80,
-      "Gender": "M",
-      "Name": "Martin Bevis",
-      "Total Points": 213,
-      "Bonus": 0,
-      "Bear Creek": 77,
-      "Waabizheshikana": 59,
-      "Spirit Mountain": 0,
-      "Point Pine": 77,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 81,
       "Gender": "M",
       "Name": "Steve Heikkila",
       "Total Points": 212,
@@ -1856,6 +1843,19 @@
       "Waabizheshikana": 58,
       "Spirit Mountain": 92,
       "Point Pine": 0,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 81,
+      "Gender": "M",
+      "Name": "Martin Bevis",
+      "Total Points": 211,
+      "Bonus": 0,
+      "Bear Creek": 77,
+      "Waabizheshikana": 59,
+      "Spirit Mountain": 0,
+      "Point Pine": 75,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -1899,19 +1899,6 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 84,
-      "Gender": "M",
-      "Name": "Tim Shovein",
-      "Total Points": 202,
-      "Bonus": 0,
-      "Bear Creek": 68,
-      "Waabizheshikana": 66,
-      "Spirit Mountain": 0,
-      "Point Pine": 68,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
       "Place": 60,
       "Gender": "W",
       "Name": "Rena Navarro",
@@ -1938,7 +1925,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 85,
+      "Place": 84,
       "Gender": "M",
       "Name": "Jonathan Nyhus",
       "Total Points": 200,
@@ -1947,6 +1934,19 @@
       "Waabizheshikana": 96,
       "Spirit Mountain": 0,
       "Point Pine": 0,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 85,
+      "Gender": "M",
+      "Name": "Tim Shovein",
+      "Total Points": 200,
+      "Bonus": 0,
+      "Bear Creek": 68,
+      "Waabizheshikana": 66,
+      "Spirit Mountain": 0,
+      "Point Pine": 66,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -1993,12 +1993,12 @@
       "Place": 88,
       "Gender": "M",
       "Name": "Tim Staub",
-      "Total Points": 195,
+      "Total Points": 194,
       "Bonus": 0,
       "Bear Creek": 0,
       "Waabizheshikana": 97,
       "Spirit Mountain": 0,
-      "Point Pine": 98,
+      "Point Pine": 97,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -2032,12 +2032,12 @@
       "Place": 90,
       "Gender": "M",
       "Name": "Marcus Taintor",
-      "Total Points": 184,
+      "Total Points": 183,
       "Bonus": 0,
       "Bear Creek": 0,
       "Waabizheshikana": 0,
       "Spirit Mountain": 89,
-      "Point Pine": 95,
+      "Point Pine": 94,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -2071,12 +2071,12 @@
       "Place": 92,
       "Gender": "M",
       "Name": "Kirt Goetzke",
-      "Total Points": 176,
+      "Total Points": 174,
       "Bonus": 0,
       "Bear Creek": 0,
       "Waabizheshikana": 0,
       "Spirit Mountain": 100,
-      "Point Pine": 76,
+      "Point Pine": 74,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -2084,12 +2084,12 @@
       "Place": 93,
       "Gender": "M",
       "Name": "Chris Morris",
-      "Total Points": 173,
+      "Total Points": 172,
       "Bonus": 0,
       "Bear Creek": 0,
       "Waabizheshikana": 89,
       "Spirit Mountain": 0,
-      "Point Pine": 84,
+      "Point Pine": 83,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -2097,12 +2097,12 @@
       "Place": 94,
       "Gender": "M",
       "Name": "Drew Guttormson",
-      "Total Points": 172,
+      "Total Points": 171,
       "Bonus": 0,
       "Bear Creek": 79,
       "Waabizheshikana": 0,
       "Spirit Mountain": 0,
-      "Point Pine": 93,
+      "Point Pine": 92,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -2110,12 +2110,12 @@
       "Place": 95,
       "Gender": "M",
       "Name": "James Walker",
-      "Total Points": 164,
+      "Total Points": 163,
       "Bonus": 0,
       "Bear Creek": 0,
       "Waabizheshikana": 84,
       "Spirit Mountain": 0,
-      "Point Pine": 80,
+      "Point Pine": 79,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -2445,6 +2445,19 @@
       "Cloquet Forestry Center": 0
     },
     {
+      "Place": 110,
+      "Gender": "M",
+      "Name": "Alex Faber",
+      "Total Points": 139,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Waabizheshikana": 0,
+      "Spirit Mountain": 0,
+      "Point Pine": 139,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
       "Place": 75,
       "Gender": "W",
       "Name": "Sydney Ormsbee",
@@ -2471,7 +2484,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 110,
+      "Place": 111,
       "Gender": "M",
       "Name": "Ian Derauf",
       "Total Points": 136,
@@ -2484,7 +2497,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 111,
+      "Place": 112,
       "Gender": "M",
       "Name": "Alex Faher",
       "Total Points": 135,
@@ -2510,19 +2523,6 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 112,
-      "Gender": "M",
-      "Name": "Gunnar Wagoner",
-      "Total Points": 135,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Waabizheshikana": 0,
-      "Spirit Mountain": 0,
-      "Point Pine": 135,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
       "Place": 78,
       "Gender": "W",
       "Name": "Addison Nyhus",
@@ -2538,7 +2538,7 @@
     {
       "Place": 113,
       "Gender": "M",
-      "Name": "Ian Mundy",
+      "Name": "Gunnar Wagoner",
       "Total Points": 134,
       "Bonus": 0,
       "Bear Creek": 0,
@@ -2577,6 +2577,19 @@
     {
       "Place": 114,
       "Gender": "M",
+      "Name": "Ian Mundy",
+      "Total Points": 133,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Waabizheshikana": 0,
+      "Spirit Mountain": 0,
+      "Point Pine": 133,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 115,
+      "Gender": "M",
       "Name": "Dave Israel",
       "Total Points": 132,
       "Bonus": 0,
@@ -2588,7 +2601,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 115,
+      "Place": 116,
       "Gender": "M",
       "Name": "Justin Palmquist",
       "Total Points": 131,
@@ -2601,7 +2614,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 116,
+      "Place": 117,
       "Gender": "M",
       "Name": "Charles Hickman",
       "Total Points": 130,
@@ -2614,7 +2627,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 117,
+      "Place": 118,
       "Gender": "M",
       "Name": "Logan Johnson",
       "Total Points": 129,
@@ -2627,7 +2640,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 118,
+      "Place": 119,
       "Gender": "M",
       "Name": "Mitchell Krostue",
       "Total Points": 129,
@@ -2640,7 +2653,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 119,
+      "Place": 120,
       "Gender": "M",
       "Name": "Eric Borer",
       "Total Points": 129,
@@ -2679,41 +2692,15 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 120,
-      "Gender": "M",
-      "Name": "Phillip Arkley",
-      "Total Points": 126,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Waabizheshikana": 0,
-      "Spirit Mountain": 0,
-      "Point Pine": 126,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
       "Place": 121,
       "Gender": "M",
-      "Name": "Adam Swank",
-      "Total Points": 125,
-      "Bonus": 0,
-      "Bear Creek": 61,
-      "Waabizheshikana": 0,
-      "Spirit Mountain": 0,
-      "Point Pine": 64,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 122,
-      "Gender": "M",
-      "Name": "Doug Young",
+      "Name": "Phillip Arkley",
       "Total Points": 125,
       "Bonus": 0,
       "Bear Creek": 0,
-      "Waabizheshikana": 62,
+      "Waabizheshikana": 0,
       "Spirit Mountain": 0,
-      "Point Pine": 63,
+      "Point Pine": 125,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -2731,6 +2718,19 @@
       "Cloquet Forestry Center": 0
     },
     {
+      "Place": 122,
+      "Gender": "M",
+      "Name": "Adam Swank",
+      "Total Points": 123,
+      "Bonus": 0,
+      "Bear Creek": 61,
+      "Waabizheshikana": 0,
+      "Spirit Mountain": 0,
+      "Point Pine": 62,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
       "Place": 84,
       "Gender": "W",
       "Name": "Anna Dehler",
@@ -2740,6 +2740,19 @@
       "Waabizheshikana": 123,
       "Spirit Mountain": 0,
       "Point Pine": 0,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 123,
+      "Gender": "M",
+      "Name": "Doug Young",
+      "Total Points": 123,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Waabizheshikana": 62,
+      "Spirit Mountain": 0,
+      "Point Pine": 61,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -2757,7 +2770,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 123,
+      "Place": 124,
       "Gender": "M",
       "Name": "Matt Nixon",
       "Total Points": 120,
@@ -2796,7 +2809,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 124,
+      "Place": 125,
       "Gender": "M",
       "Name": "Mark Goettel",
       "Total Points": 118,
@@ -2822,7 +2835,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 125,
+      "Place": 126,
       "Gender": "M",
       "Name": "Travis Huewe",
       "Total Points": 117,
@@ -2835,7 +2848,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 126,
+      "Place": 127,
       "Gender": "M",
       "Name": "Adam McGill",
       "Total Points": 117,
@@ -2861,7 +2874,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 127,
+      "Place": 128,
       "Gender": "M",
       "Name": "Todd Struckman",
       "Total Points": 117,
@@ -2887,7 +2900,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 128,
+      "Place": 129,
       "Gender": "M",
       "Name": "Alex Kasparek",
       "Total Points": 116,
@@ -2913,7 +2926,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 129,
+      "Place": 130,
       "Gender": "M",
       "Name": "Micah Heikkila",
       "Total Points": 115,
@@ -2935,19 +2948,6 @@
       "Waabizheshikana": 0,
       "Spirit Mountain": 0,
       "Point Pine": 0,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 130,
-      "Gender": "M",
-      "Name": "Austin Willoughby",
-      "Total Points": 115,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Waabizheshikana": 0,
-      "Spirit Mountain": 0,
-      "Point Pine": 115,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -2978,6 +2978,19 @@
       "Cloquet Forestry Center": 0
     },
     {
+      "Place": 132,
+      "Gender": "M",
+      "Name": "Austin Willoughby",
+      "Total Points": 114,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Waabizheshikana": 0,
+      "Spirit Mountain": 0,
+      "Point Pine": 114,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
       "Place": 94,
       "Gender": "W",
       "Name": "Lilo Stuecher",
@@ -3000,19 +3013,6 @@
       "Waabizheshikana": 0,
       "Spirit Mountain": 113,
       "Point Pine": 0,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 132,
-      "Gender": "M",
-      "Name": "Spencer Carlson",
-      "Total Points": 113,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Waabizheshikana": 0,
-      "Spirit Mountain": 0,
-      "Point Pine": 113,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -3056,6 +3056,19 @@
       "Cloquet Forestry Center": 0
     },
     {
+      "Place": 134,
+      "Gender": "M",
+      "Name": "Spencer Carlson",
+      "Total Points": 112,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Waabizheshikana": 0,
+      "Spirit Mountain": 0,
+      "Point Pine": 112,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
       "Place": 98,
       "Gender": "W",
       "Name": "Jenna Wagoner",
@@ -3082,7 +3095,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 134,
+      "Place": 135,
       "Gender": "M",
       "Name": "Eric Chandler",
       "Total Points": 110,
@@ -3091,19 +3104,6 @@
       "Waabizheshikana": 0,
       "Spirit Mountain": 110,
       "Point Pine": 0,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 135,
-      "Gender": "M",
-      "Name": "Micah Nelson",
-      "Total Points": 110,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Waabizheshikana": 0,
-      "Spirit Mountain": 0,
-      "Point Pine": 110,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -3117,6 +3117,19 @@
       "Waabizheshikana": 0,
       "Spirit Mountain": 0,
       "Point Pine": 110,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 136,
+      "Gender": "M",
+      "Name": "Micah Nelson",
+      "Total Points": 109,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Waabizheshikana": 0,
+      "Spirit Mountain": 0,
+      "Point Pine": 109,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -3173,7 +3186,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 136,
+      "Place": 137,
       "Gender": "M",
       "Name": "Luis Kruchten",
       "Total Points": 105,
@@ -3238,7 +3251,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 137,
+      "Place": 138,
       "Gender": "M",
       "Name": "Joe Stromsness",
       "Total Points": 103,
@@ -3290,7 +3303,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 138,
+      "Place": 139,
       "Gender": "M",
       "Name": "Ben Nicklay",
       "Total Points": 102,
@@ -3329,19 +3342,6 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 139,
-      "Gender": "M",
-      "Name": "Ryan Ballard",
-      "Total Points": 101,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Waabizheshikana": 0,
-      "Spirit Mountain": 0,
-      "Point Pine": 101,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
       "Place": 140,
       "Gender": "M",
       "Name": "Shawn Quast",
@@ -3370,7 +3370,7 @@
     {
       "Place": 141,
       "Gender": "M",
-      "Name": "Ben Karlgaard",
+      "Name": "Ryan Ballard",
       "Total Points": 100,
       "Bonus": 0,
       "Bear Creek": 0,
@@ -3390,6 +3390,19 @@
       "Waabizheshikana": 0,
       "Spirit Mountain": 0,
       "Point Pine": 100,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 142,
+      "Gender": "M",
+      "Name": "Ben Karlgaard",
+      "Total Points": 99,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Waabizheshikana": 0,
+      "Spirit Mountain": 0,
+      "Point Pine": 99,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -3446,7 +3459,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 142,
+      "Place": 143,
       "Gender": "M",
       "Name": "Brian Beckman",
       "Total Points": 95,
@@ -3485,7 +3498,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 143,
+      "Place": 144,
       "Gender": "M",
       "Name": "Kinyee Sin",
       "Total Points": 91,
@@ -3498,7 +3511,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 144,
+      "Place": 145,
       "Gender": "M",
       "Name": "Joe Krasselt",
       "Total Points": 91,
@@ -3511,20 +3524,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 122,
-      "Gender": "W",
-      "Name": "Morgan Linn",
-      "Total Points": 90,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Waabizheshikana": 0,
-      "Spirit Mountain": 0,
-      "Point Pine": 90,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 145,
+      "Place": 146,
       "Gender": "M",
       "Name": "Clay Taintor",
       "Total Points": 89,
@@ -3537,7 +3537,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 146,
+      "Place": 147,
       "Gender": "M",
       "Name": "Gary Lepisto",
       "Total Points": 89,
@@ -3546,6 +3546,19 @@
       "Waabizheshikana": 0,
       "Spirit Mountain": 89,
       "Point Pine": 0,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 122,
+      "Gender": "W",
+      "Name": "Morgan Linn",
+      "Total Points": 89,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Waabizheshikana": 0,
+      "Spirit Mountain": 0,
+      "Point Pine": 89,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -3559,19 +3572,6 @@
       "Waabizheshikana": 86,
       "Spirit Mountain": 0,
       "Point Pine": 0,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 147,
-      "Gender": "M",
-      "Name": "Jack Harvey",
-      "Total Points": 86,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Waabizheshikana": 0,
-      "Spirit Mountain": 0,
-      "Point Pine": 86,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -3591,7 +3591,7 @@
     {
       "Place": 148,
       "Gender": "M",
-      "Name": "Rudy O'Brien",
+      "Name": "Jack Harvey",
       "Total Points": 85,
       "Bonus": 0,
       "Bear Creek": 0,
@@ -3617,6 +3617,19 @@
     {
       "Place": 150,
       "Gender": "M",
+      "Name": "Rudy O'Brien",
+      "Total Points": 84,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Waabizheshikana": 0,
+      "Spirit Mountain": 0,
+      "Point Pine": 84,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 151,
+      "Gender": "M",
       "Name": "Matt Lilyquist",
       "Total Points": 82,
       "Bonus": 0,
@@ -3628,7 +3641,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 151,
+      "Place": 152,
       "Gender": "M",
       "Name": "Tom Dehler",
       "Total Points": 78,
@@ -3641,7 +3654,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 152,
+      "Place": 153,
       "Gender": "M",
       "Name": "Kenneth Shea",
       "Total Points": 75,
@@ -3650,19 +3663,6 @@
       "Waabizheshikana": 0,
       "Spirit Mountain": 0,
       "Point Pine": 0,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 153,
-      "Gender": "M",
-      "Name": "Matt James",
-      "Total Points": 74,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Waabizheshikana": 0,
-      "Spirit Mountain": 0,
-      "Point Pine": 74,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -3682,19 +3682,6 @@
     {
       "Place": 155,
       "Gender": "M",
-      "Name": "Erik Riker-Coleman",
-      "Total Points": 73,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Waabizheshikana": 0,
-      "Spirit Mountain": 0,
-      "Point Pine": 73,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 156,
-      "Gender": "M",
       "Name": "Matt Leibfried",
       "Total Points": 72,
       "Bonus": 0,
@@ -3702,6 +3689,19 @@
       "Waabizheshikana": 72,
       "Spirit Mountain": 0,
       "Point Pine": 0,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 156,
+      "Gender": "M",
+      "Name": "Matt James",
+      "Total Points": 72,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Waabizheshikana": 0,
+      "Spirit Mountain": 0,
+      "Point Pine": 72,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -3721,6 +3721,19 @@
     {
       "Place": 158,
       "Gender": "M",
+      "Name": "Erik Riker-Coleman",
+      "Total Points": 71,
+      "Bonus": 0,
+      "Bear Creek": 0,
+      "Waabizheshikana": 0,
+      "Spirit Mountain": 0,
+      "Point Pine": 71,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 159,
+      "Gender": "M",
       "Name": "Ryan Bauer",
       "Total Points": 70,
       "Bonus": 0,
@@ -3732,20 +3745,20 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 159,
+      "Place": 160,
       "Gender": "M",
       "Name": "Ron Hendrickson",
-      "Total Points": 69,
+      "Total Points": 67,
       "Bonus": 0,
       "Bear Creek": 0,
       "Waabizheshikana": 0,
       "Spirit Mountain": 0,
-      "Point Pine": 69,
+      "Point Pine": 67,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 160,
+      "Place": 161,
       "Gender": "M",
       "Name": "Samuel Pressman",
       "Total Points": 63,
@@ -3758,20 +3771,20 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 161,
+      "Place": 162,
       "Gender": "M",
       "Name": "Benjamin Kiernan",
-      "Total Points": 62,
+      "Total Points": 60,
       "Bonus": 0,
       "Bear Creek": 0,
       "Waabizheshikana": 0,
       "Spirit Mountain": 0,
-      "Point Pine": 62,
+      "Point Pine": 60,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 162,
+      "Place": 163,
       "Gender": "M",
       "Name": "Travis Dooley",
       "Total Points": 59,
@@ -3784,28 +3797,15 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 163,
-      "Gender": "M",
-      "Name": "Woody Smith",
-      "Total Points": 59,
-      "Bonus": 0,
-      "Bear Creek": 0,
-      "Waabizheshikana": 0,
-      "Spirit Mountain": 0,
-      "Point Pine": 59,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
       "Place": 164,
       "Gender": "M",
-      "Name": "Luke Esboldt",
-      "Total Points": 58,
+      "Name": "Woody Smith",
+      "Total Points": 57,
       "Bonus": 0,
       "Bear Creek": 0,
       "Waabizheshikana": 0,
       "Spirit Mountain": 0,
-      "Point Pine": 58,
+      "Point Pine": 57,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -3825,7 +3825,7 @@
     {
       "Place": 166,
       "Gender": "M",
-      "Name": "Alex Faber",
+      "Name": "Luke Esboldt",
       "Total Points": 56,
       "Bonus": 0,
       "Bear Creek": 0,
@@ -9503,6 +9503,18 @@
       "points": 140
     },
     {
+      "name": "Alex Faber",
+      "gender": "M",
+      "date": "2026-05-13T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Point Pine",
+      "volunteer": "",
+      "time": 1595000.0000651926,
+      "place": 12,
+      "gender_place": 12,
+      "points": 139
+    },
+    {
       "name": "Liam Fife",
       "gender": "M",
       "date": "2026-05-13T05:00:00.000Z",
@@ -9510,9 +9522,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1603000.00004936,
-      "place": 12,
-      "gender_place": 12,
-      "points": 139
+      "place": 13,
+      "gender_place": 13,
+      "points": 138
     },
     {
       "name": "Lily Hubanks",
@@ -9522,7 +9534,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1608999.999880325,
-      "place": 13,
+      "place": 14,
       "gender_place": 1,
       "points": 150
     },
@@ -9534,9 +9546,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1616999.9998644926,
-      "place": 14,
-      "gender_place": 13,
-      "points": 138
+      "place": 15,
+      "gender_place": 14,
+      "points": 137
     },
     {
       "name": "Chelsey Youngberg",
@@ -9546,7 +9558,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1622000.0000903383,
-      "place": 15,
+      "place": 16,
       "gender_place": 2,
       "points": 149
     },
@@ -9558,9 +9570,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1627000.0000018626,
-      "place": 16,
-      "gender_place": 14,
-      "points": 137
+      "place": 17,
+      "gender_place": 15,
+      "points": 136
     },
     {
       "name": "Benjamin Welch",
@@ -9570,9 +9582,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1638999.999978114,
-      "place": 17,
-      "gender_place": 15,
-      "points": 136
+      "place": 18,
+      "gender_place": 16,
+      "points": 135
     },
     {
       "name": "Gunnar Wagoner",
@@ -9582,9 +9594,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1650999.9999543652,
-      "place": 18,
-      "gender_place": 16,
-      "points": 135
+      "place": 19,
+      "gender_place": 17,
+      "points": 134
     },
     {
       "name": "Ian Mundy",
@@ -9594,9 +9606,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1654000.0000270084,
-      "place": 19,
-      "gender_place": 17,
-      "points": 134
+      "place": 20,
+      "gender_place": 18,
+      "points": 133
     },
     {
       "name": "Peter Coenen",
@@ -9606,9 +9618,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1657000.0000996515,
-      "place": 20,
-      "gender_place": 18,
-      "points": 133
+      "place": 21,
+      "gender_place": 19,
+      "points": 132
     },
     {
       "name": "Eric Patterson",
@@ -9618,9 +9630,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1663999.999850057,
-      "place": 21,
-      "gender_place": 19,
-      "points": 132
+      "place": 22,
+      "gender_place": 20,
+      "points": 131
     },
     {
       "name": "Hanna Torvi",
@@ -9630,7 +9642,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1666000.0000032596,
-      "place": 22,
+      "place": 23,
       "gender_place": 3,
       "points": 148
     },
@@ -9642,9 +9654,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1673000.0000679865,
-      "place": 23,
-      "gender_place": 20,
-      "points": 131
+      "place": 24,
+      "gender_place": 21,
+      "points": 130
     },
     {
       "name": "Charlie Hickman",
@@ -9654,9 +9666,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1677000.0000600703,
-      "place": 24,
-      "gender_place": 21,
-      "points": 130
+      "place": 25,
+      "gender_place": 22,
+      "points": 129
     },
     {
       "name": "Karl Holub",
@@ -9666,9 +9678,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1681999.9999715947,
-      "place": 25,
-      "gender_place": 22,
-      "points": 129
+      "place": 26,
+      "gender_place": 23,
+      "points": 128
     },
     {
       "name": "Karen Jones",
@@ -9678,7 +9690,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1693999.999947846,
-      "place": 26,
+      "place": 27,
       "gender_place": 4,
       "points": 147
     },
@@ -9690,9 +9702,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1701999.9999320135,
-      "place": 27,
-      "gender_place": 23,
-      "points": 128
+      "place": 28,
+      "gender_place": 24,
+      "points": 127
     },
     {
       "name": "Logan Baier",
@@ -9702,9 +9714,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1708999.9999967404,
-      "place": 28,
-      "gender_place": 24,
-      "points": 127
+      "place": 29,
+      "gender_place": 25,
+      "points": 126
     },
     {
       "name": "Phillip Arkley",
@@ -9714,9 +9726,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1725999.999884516,
-      "place": 29,
-      "gender_place": 25,
-      "points": 126
+      "place": 30,
+      "gender_place": 26,
+      "points": 125
     },
     {
       "name": "Dean Evraets",
@@ -9726,9 +9738,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1743000.000086613,
-      "place": 30,
-      "gender_place": 26,
-      "points": 125
+      "place": 31,
+      "gender_place": 27,
+      "points": 124
     },
     {
       "name": "Brad Evraets",
@@ -9738,9 +9750,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1744000.0000060536,
-      "place": 31,
-      "gender_place": 27,
-      "points": 124
+      "place": 32,
+      "gender_place": 28,
+      "points": 123
     },
     {
       "name": "Kevin Wood",
@@ -9750,9 +9762,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1756999.9999017455,
-      "place": 32,
-      "gender_place": 28,
-      "points": 123
+      "place": 33,
+      "gender_place": 29,
+      "points": 122
     },
     {
       "name": "Arie Waldman",
@@ -9762,7 +9774,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1783000.0000074506,
-      "place": 33,
+      "place": 34,
       "gender_place": 5,
       "points": 146
     },
@@ -9774,9 +9786,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1791999.9999110587,
-      "place": 34,
-      "gender_place": 29,
-      "points": 122
+      "place": 35,
+      "gender_place": 30,
+      "points": 121
     },
     {
       "name": "Dave Lane",
@@ -9786,9 +9798,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1803999.99988731,
-      "place": 35,
-      "gender_place": 30,
-      "points": 121
+      "place": 36,
+      "gender_place": 31,
+      "points": 120
     },
     {
       "name": "Matt Livingston",
@@ -9798,9 +9810,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1809000.0001131557,
-      "place": 36,
-      "gender_place": 31,
-      "points": 120
+      "place": 37,
+      "gender_place": 32,
+      "points": 119
     },
     {
       "name": "Sydney Patterson",
@@ -9810,7 +9822,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1826999.999920372,
-      "place": 37,
+      "place": 38,
       "gender_place": 6,
       "points": 145
     },
@@ -9822,9 +9834,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1841000.0000498258,
-      "place": 38,
-      "gender_place": 32,
-      "points": 119
+      "place": 39,
+      "gender_place": 33,
+      "points": 118
     },
     {
       "name": "Nick Blades",
@@ -9834,9 +9846,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1850999.9998728745,
-      "place": 39,
-      "gender_place": 33,
-      "points": 118
+      "place": 40,
+      "gender_place": 34,
+      "points": 117
     },
     {
       "name": "Trenton Flegel",
@@ -9846,9 +9858,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1853999.9999455176,
-      "place": 40,
-      "gender_place": 34,
-      "points": 117
+      "place": 41,
+      "gender_place": 35,
+      "points": 116
     },
     {
       "name": "Jason Coyle",
@@ -9858,9 +9870,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1854999.9998649582,
-      "place": 41,
-      "gender_place": 35,
-      "points": 116
+      "place": 42,
+      "gender_place": 36,
+      "points": 115
     },
     {
       "name": "Austin Willoughby",
@@ -9870,9 +9882,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1888000.0000353903,
-      "place": 42,
-      "gender_place": 36,
-      "points": 115
+      "place": 43,
+      "gender_place": 37,
+      "points": 114
     },
     {
       "name": "Patrick Deignan",
@@ -9882,9 +9894,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1903000.0000842847,
-      "place": 43,
-      "gender_place": 37,
-      "points": 114
+      "place": 44,
+      "gender_place": 38,
+      "points": 113
     },
     {
       "name": "Spencer Carlson",
@@ -9894,9 +9906,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1911999.9999878928,
-      "place": 44,
-      "gender_place": 38,
-      "points": 113
+      "place": 45,
+      "gender_place": 39,
+      "points": 112
     },
     {
       "name": "Tyler Pilon",
@@ -9906,9 +9918,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1923999.999964144,
-      "place": 45,
-      "gender_place": 39,
-      "points": 112
+      "place": 46,
+      "gender_place": 40,
+      "points": 111
     },
     {
       "name": "Amber Gurske",
@@ -9918,7 +9930,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1924999.9998835847,
-      "place": 46,
+      "place": 47,
       "gender_place": 7,
       "points": 144
     },
@@ -9930,9 +9942,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1926000.0001173466,
-      "place": 47,
-      "gender_place": 40,
-      "points": 111
+      "place": 48,
+      "gender_place": 41,
+      "points": 110
     },
     {
       "name": "Micah Nelson",
@@ -9942,9 +9954,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1926000.0001173466,
-      "place": 48,
-      "gender_place": 41,
-      "points": 110
+      "place": 49,
+      "gender_place": 42,
+      "points": 109
     },
     {
       "name": "Ryan Saline",
@@ -9954,9 +9966,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1928999.9998756684,
-      "place": 49,
-      "gender_place": 42,
-      "points": 109
+      "place": 50,
+      "gender_place": 43,
+      "points": 108
     },
     {
       "name": "Dave Schaeffer",
@@ -9966,9 +9978,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1930000.0001094304,
-      "place": 50,
-      "gender_place": 43,
-      "points": 108
+      "place": 51,
+      "gender_place": 44,
+      "points": 107
     },
     {
       "name": "Ryan Peterson",
@@ -9978,9 +9990,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1935999.9999403954,
-      "place": 51,
-      "gender_place": 44,
-      "points": 107
+      "place": 52,
+      "gender_place": 45,
+      "points": 106
     },
     {
       "name": "Ryan Staub",
@@ -9990,9 +10002,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1938000.000093598,
-      "place": 52,
-      "gender_place": 45,
-      "points": 106
+      "place": 53,
+      "gender_place": 46,
+      "points": 105
     },
     {
       "name": "Jennifer McDougall",
@@ -10002,7 +10014,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1939999.999932479,
-      "place": 53,
+      "place": 54,
       "gender_place": 8,
       "points": 143
     },
@@ -10014,7 +10026,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1950999.9999892898,
-      "place": 54,
+      "place": 55,
       "gender_place": 9,
       "points": 142
     },
@@ -10026,9 +10038,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1953000.0001424924,
-      "place": 55,
-      "gender_place": 46,
-      "points": 105
+      "place": 56,
+      "gender_place": 47,
+      "points": 104
     },
     {
       "name": "Molly Watkins",
@@ -10038,7 +10050,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1962000.0000461005,
-      "place": 56,
+      "place": 57,
       "gender_place": 10,
       "points": 141
     },
@@ -10050,7 +10062,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1970999.9999497086,
-      "place": 57,
+      "place": 58,
       "gender_place": 11,
       "points": 140
     },
@@ -10062,9 +10074,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1981000.0000870787,
-      "place": 58,
-      "gender_place": 47,
-      "points": 104
+      "place": 59,
+      "gender_place": 48,
+      "points": 103
     },
     {
       "name": "Nate Hubert",
@@ -10074,9 +10086,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1986999.9999180436,
-      "place": 59,
-      "gender_place": 48,
-      "points": 103
+      "place": 60,
+      "gender_place": 49,
+      "points": 102
     },
     {
       "name": "Roger Reinert",
@@ -10086,9 +10098,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1992000.0001438893,
-      "place": 60,
-      "gender_place": 49,
-      "points": 102
+      "place": 61,
+      "gender_place": 50,
+      "points": 101
     },
     {
       "name": "Ryan Ballard",
@@ -10098,9 +10110,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 1994999.9999022111,
-      "place": 61,
-      "gender_place": 50,
-      "points": 101
+      "place": 62,
+      "gender_place": 51,
+      "points": 100
     },
     {
       "name": "Ben Karlgaard",
@@ -10110,9 +10122,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2001999.999966938,
-      "place": 62,
-      "gender_place": 51,
-      "points": 100
+      "place": 63,
+      "gender_place": 52,
+      "points": 99
     },
     {
       "name": "Sydney Ormsbee",
@@ -10122,7 +10134,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2025000,
-      "place": 63,
+      "place": 64,
       "gender_place": 12,
       "points": 139
     },
@@ -10134,9 +10146,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2047000.0001136214,
-      "place": 64,
-      "gender_place": 52,
-      "points": 99
+      "place": 65,
+      "gender_place": 53,
+      "points": 98
     },
     {
       "name": "Aurora Kothe",
@@ -10146,7 +10158,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2048999.9999525025,
-      "place": 65,
+      "place": 66,
       "gender_place": 13,
       "points": 138
     },
@@ -10158,7 +10170,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2056000.0000172295,
-      "place": 66,
+      "place": 67,
       "gender_place": 14,
       "points": 137
     },
@@ -10170,9 +10182,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2064999.9999208376,
-      "place": 67,
-      "gender_place": 53,
-      "points": 98
+      "place": 68,
+      "gender_place": 54,
+      "points": 97
     },
     {
       "name": "Nicholas Sundstrom",
@@ -10182,9 +10194,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2068999.9999129213,
-      "place": 68,
-      "gender_place": 54,
-      "points": 97
+      "place": 69,
+      "gender_place": 55,
+      "points": 96
     },
     {
       "name": "Brian Berget",
@@ -10194,9 +10206,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2071999.9999855645,
-      "place": 69,
-      "gender_place": 55,
-      "points": 96
+      "place": 70,
+      "gender_place": 56,
+      "points": 95
     },
     {
       "name": "Riley Beskar",
@@ -10206,7 +10218,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2080999.9998891726,
-      "place": 70,
+      "place": 71,
       "gender_place": 15,
       "points": 136
     },
@@ -10218,9 +10230,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2086000.0001150183,
-      "place": 71,
-      "gender_place": 56,
-      "points": 95
+      "place": 72,
+      "gender_place": 57,
+      "points": 94
     },
     {
       "name": "Caleb Vandewege",
@@ -10230,9 +10242,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2091999.9999459833,
-      "place": 72,
-      "gender_place": 57,
-      "points": 94
+      "place": 73,
+      "gender_place": 58,
+      "points": 93
     },
     {
       "name": "Amy Westbrook",
@@ -10242,7 +10254,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2094000.0000991859,
-      "place": 73,
+      "place": 74,
       "gender_place": 16,
       "points": 135
     },
@@ -10254,7 +10266,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2110000.000067521,
-      "place": 74,
+      "place": 75,
       "gender_place": 17,
       "points": 134
     },
@@ -10266,9 +10278,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2110999.9999869615,
-      "place": 75,
-      "gender_place": 58,
-      "points": 93
+      "place": 76,
+      "gender_place": 59,
+      "points": 92
     },
     {
       "name": "Pete Pascente",
@@ -10278,9 +10290,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2114999.9999790452,
-      "place": 76,
-      "gender_place": 59,
-      "points": 92
+      "place": 77,
+      "gender_place": 60,
+      "points": 91
     },
     {
       "name": "Anna Swarts",
@@ -10290,7 +10302,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2115999.999898486,
-      "place": 77,
+      "place": 78,
       "gender_place": 18,
       "points": 133
     },
@@ -10302,9 +10314,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2118000.0000516884,
-      "place": 78,
-      "gender_place": 60,
-      "points": 91
+      "place": 79,
+      "gender_place": 61,
+      "points": 90
     },
     {
       "name": "Matt Carlson",
@@ -10314,9 +10326,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2118999.999971129,
-      "place": 79,
-      "gender_place": 61,
-      "points": 90
+      "place": 80,
+      "gender_place": 62,
+      "points": 89
     },
     {
       "name": "Jay Stoneburner",
@@ -10326,9 +10338,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2129000.000108499,
-      "place": 80,
-      "gender_place": 62,
-      "points": 89
+      "place": 81,
+      "gender_place": 63,
+      "points": 88
     },
     {
       "name": "Rachel Poppe",
@@ -10338,7 +10350,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2134999.999939464,
-      "place": 81,
+      "place": 82,
       "gender_place": 19,
       "points": 132
     },
@@ -10350,9 +10362,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2161000.000045169,
-      "place": 82,
-      "gender_place": 63,
-      "points": 88
+      "place": 83,
+      "gender_place": 64,
+      "points": 87
     },
     {
       "name": "Christopher Montague",
@@ -10362,9 +10374,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2164000.0001178123,
-      "place": 83,
-      "gender_place": 64,
-      "points": 87
+      "place": 84,
+      "gender_place": 65,
+      "points": 86
     },
     {
       "name": "Jack Harvey",
@@ -10374,9 +10386,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2166999.999876134,
-      "place": 84,
-      "gender_place": 65,
-      "points": 86
+      "place": 85,
+      "gender_place": 66,
+      "points": 85
     },
     {
       "name": "Rudy O'Brien",
@@ -10386,9 +10398,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2169000.0000293367,
-      "place": 85,
-      "gender_place": 66,
-      "points": 85
+      "place": 86,
+      "gender_place": 67,
+      "points": 84
     },
     {
       "name": "Lou Himes",
@@ -10398,7 +10410,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2169999.9999487773,
-      "place": 86,
+      "place": 87,
       "gender_place": 20,
       "points": 131
     },
@@ -10410,9 +10422,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2172000.00010198,
-      "place": 87,
-      "gender_place": 67,
-      "points": 84
+      "place": 88,
+      "gender_place": 68,
+      "points": 83
     },
     {
       "name": "Abigail Corradi",
@@ -10422,7 +10434,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2173000.0000214204,
-      "place": 88,
+      "place": 89,
       "gender_place": 21,
       "points": 130
     },
@@ -10434,9 +10446,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2180000.0000861473,
-      "place": 89,
-      "gender_place": 68,
-      "points": 83
+      "place": 90,
+      "gender_place": 69,
+      "points": 82
     },
     {
       "name": "Chase Bonczek",
@@ -10446,9 +10458,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2192999.999981839,
-      "place": 90,
-      "gender_place": 69,
-      "points": 82
+      "place": 91,
+      "gender_place": 70,
+      "points": 81
     },
     {
       "name": "Justin Keyport",
@@ -10458,9 +10470,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2197999.9998933636,
-      "place": 91,
-      "gender_place": 70,
-      "points": 81
+      "place": 92,
+      "gender_place": 71,
+      "points": 80
     },
     {
       "name": "James Walker",
@@ -10470,9 +10482,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2204999.9999580905,
-      "place": 92,
-      "gender_place": 71,
-      "points": 80
+      "place": 93,
+      "gender_place": 72,
+      "points": 79
     },
     {
       "name": "Katherine Lamb",
@@ -10482,7 +10494,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2207000.000111293,
-      "place": 93,
+      "place": 94,
       "gender_place": 22,
       "points": 129
     },
@@ -10494,7 +10506,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2208999.9999501742,
-      "place": 94,
+      "place": 95,
       "gender_place": 23,
       "points": 128
     },
@@ -10506,9 +10518,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2216999.9999343418,
-      "place": 95,
-      "gender_place": 72,
-      "points": 79
+      "place": 96,
+      "gender_place": 73,
+      "points": 78
     },
     {
       "name": "Alexis Carpenter",
@@ -10518,7 +10530,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2242000.0001206063,
-      "place": 96,
+      "place": 97,
       "gender_place": 24,
       "points": 127
     },
@@ -10530,9 +10542,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2246000.00011269,
-      "place": 97,
-      "gender_place": 73,
-      "points": 78
+      "place": 98,
+      "gender_place": 74,
+      "points": 77
     },
     {
       "name": "Ellie Sin",
@@ -10542,7 +10554,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2251999.999943655,
-      "place": 98,
+      "place": 99,
       "gender_place": 25,
       "points": 126
     },
@@ -10554,9 +10566,21 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2260999.999847263,
-      "place": 99,
+      "place": 100,
       "gender_place": 26,
       "points": 125
+    },
+    {
+      "name": "Ed Fuhs",
+      "gender": "M",
+      "date": "2026-05-13T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Point Pine",
+      "volunteer": "",
+      "time": 2263000.0000004657,
+      "place": 101,
+      "gender_place": 75,
+      "points": 76
     },
     {
       "name": "Martin Bevis",
@@ -10566,9 +10590,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2263999.9999199063,
-      "place": 100,
-      "gender_place": 74,
-      "points": 77
+      "place": 102,
+      "gender_place": 76,
+      "points": 75
     },
     {
       "name": "Kirt Goetzke",
@@ -10578,9 +10602,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2267999.99991199,
-      "place": 101,
-      "gender_place": 75,
-      "points": 76
+      "place": 103,
+      "gender_place": 77,
+      "points": 74
     },
     {
       "name": "Xueyao Fu",
@@ -10590,7 +10614,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2273000.0001378357,
-      "place": 102,
+      "place": 104,
       "gender_place": 27,
       "points": 124
     },
@@ -10602,9 +10626,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2274000.0000572763,
-      "place": 103,
-      "gender_place": 76,
-      "points": 75
+      "place": 105,
+      "gender_place": 78,
+      "points": 73
     },
     {
       "name": "Catherine Long",
@@ -10614,7 +10638,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2294999.9999371357,
-      "place": 104,
+      "place": 106,
       "gender_place": 28,
       "points": 123
     },
@@ -10626,7 +10650,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2308000.000147149,
-      "place": 105,
+      "place": 107,
       "gender_place": 29,
       "points": 122
     },
@@ -10638,9 +10662,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2309000.0000665896,
-      "place": 106,
-      "gender_place": 77,
-      "points": 74
+      "place": 108,
+      "gender_place": 79,
+      "points": 72
     },
     {
       "name": "Erik Riker-Coleman",
@@ -10650,9 +10674,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2324000.000115484,
-      "place": 107,
-      "gender_place": 78,
-      "points": 73
+      "place": 109,
+      "gender_place": 80,
+      "points": 71
     },
     {
       "name": "Anders Mattson",
@@ -10662,9 +10686,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2328000.0001075678,
-      "place": 108,
-      "gender_place": 79,
-      "points": 72
+      "place": 110,
+      "gender_place": 81,
+      "points": 70
     },
     {
       "name": "Mason Kirby",
@@ -10674,7 +10698,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2329999.999946449,
-      "place": 109,
+      "place": 111,
       "gender_place": 30,
       "points": 121
     },
@@ -10686,7 +10710,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2356999.9999715947,
-      "place": 110,
+      "place": 112,
       "gender_place": 31,
       "points": 120
     },
@@ -10698,7 +10722,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2376000.000012573,
-      "place": 111,
+      "place": 113,
       "gender_place": 32,
       "points": 119
     },
@@ -10710,7 +10734,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2383999.9999967404,
-      "place": 112,
+      "place": 114,
       "gender_place": 33,
       "points": 118
     },
@@ -10722,7 +10746,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2394000.0001341105,
-      "place": 113,
+      "place": 115,
       "gender_place": 34,
       "points": 117
     },
@@ -10734,9 +10758,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2415999.9999334104,
-      "place": 114,
-      "gender_place": 80,
-      "points": 71
+      "place": 116,
+      "gender_place": 82,
+      "points": 69
     },
     {
       "name": "Mara Schindelholz",
@@ -10746,7 +10770,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2434000.000054948,
-      "place": 115,
+      "place": 117,
       "gender_place": 35,
       "points": 116
     },
@@ -10758,7 +10782,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2435999.999893829,
-      "place": 116,
+      "place": 118,
       "gender_place": 36,
       "points": 115
     },
@@ -10770,9 +10794,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2474999.999895226,
-      "place": 117,
-      "gender_place": 81,
-      "points": 70
+      "place": 119,
+      "gender_place": 83,
+      "points": 68
     },
     {
       "name": "Callie Grones",
@@ -10782,7 +10806,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2492000.000097323,
-      "place": 118,
+      "place": 120,
       "gender_place": 37,
       "points": 114
     },
@@ -10794,9 +10818,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2505999.9999124557,
-      "place": 119,
-      "gender_place": 82,
-      "points": 69
+      "place": 121,
+      "gender_place": 84,
+      "points": 67
     },
     {
       "name": "Tim Shovein",
@@ -10806,9 +10830,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2512000.000057742,
-      "place": 120,
-      "gender_place": 83,
-      "points": 68
+      "place": 122,
+      "gender_place": 85,
+      "points": 66
     },
     {
       "name": "Tyson Freier",
@@ -10818,9 +10842,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2520000.0000419095,
-      "place": 121,
-      "gender_place": 84,
-      "points": 67
+      "place": 123,
+      "gender_place": 86,
+      "points": 65
     },
     {
       "name": "Leif DeVaney",
@@ -10830,9 +10854,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2547999.999986496,
-      "place": 122,
-      "gender_place": 85,
-      "points": 66
+      "place": 124,
+      "gender_place": 87,
+      "points": 64
     },
     {
       "name": "Deb Powers",
@@ -10842,7 +10866,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2551000.000059139,
-      "place": 123,
+      "place": 125,
       "gender_place": 38,
       "points": 113
     },
@@ -10854,7 +10878,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2558000.000123866,
-      "place": 124,
+      "place": 126,
       "gender_place": 39,
       "points": 112
     },
@@ -10866,7 +10890,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2559000.0000433065,
-      "place": 125,
+      "place": 127,
       "gender_place": 40,
       "points": 111
     },
@@ -10878,9 +10902,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2614999.999932479,
-      "place": 126,
-      "gender_place": 86,
-      "points": 65
+      "place": 128,
+      "gender_place": 88,
+      "points": 63
     },
     {
       "name": "Abigail Morris",
@@ -10890,7 +10914,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2648000.000102911,
-      "place": 127,
+      "place": 129,
       "gender_place": 41,
       "points": 110
     },
@@ -10902,9 +10926,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2653000.0000144355,
-      "place": 128,
-      "gender_place": 87,
-      "points": 64
+      "place": 130,
+      "gender_place": 89,
+      "points": 62
     },
     {
       "name": "Lisa Freier",
@@ -10914,7 +10938,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2664999.999990687,
-      "place": 129,
+      "place": 131,
       "gender_place": 42,
       "points": 109
     },
@@ -10926,7 +10950,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2667000.0001438893,
-      "place": 130,
+      "place": 132,
       "gender_place": 43,
       "points": 108
     },
@@ -10938,7 +10962,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2668000.00006333,
-      "place": 131,
+      "place": 133,
       "gender_place": 44,
       "points": 107
     },
@@ -10950,9 +10974,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2684999.9999511056,
-      "place": 132,
-      "gender_place": 88,
-      "points": 63
+      "place": 134,
+      "gender_place": 90,
+      "points": 61
     },
     {
       "name": "Halle Sharp",
@@ -10962,7 +10986,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2745000.0001466833,
-      "place": 133,
+      "place": 135,
       "gender_place": 45,
       "points": 106
     },
@@ -10974,7 +10998,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2770000.0000186265,
-      "place": 134,
+      "place": 136,
       "gender_place": 1,
       "points": 150
     },
@@ -10986,7 +11010,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2777000.0000833534,
-      "place": 135,
+      "place": 137,
       "gender_place": 46,
       "points": 105
     },
@@ -10998,9 +11022,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2825999.999907799,
-      "place": 136,
-      "gender_place": 89,
-      "points": 62
+      "place": 138,
+      "gender_place": 91,
+      "points": 60
     },
     {
       "name": "Amelia Dewberry",
@@ -11010,7 +11034,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2839000.0001178123,
-      "place": 137,
+      "place": 139,
       "gender_place": 47,
       "points": 104
     },
@@ -11022,7 +11046,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2840000.000037253,
-      "place": 138,
+      "place": 140,
       "gender_place": 48,
       "points": 103
     },
@@ -11034,7 +11058,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2859000.000078231,
-      "place": 139,
+      "place": 141,
       "gender_place": 49,
       "points": 102
     },
@@ -11046,7 +11070,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2867000.0000623986,
-      "place": 140,
+      "place": 142,
       "gender_place": 50,
       "points": 101
     },
@@ -11058,9 +11082,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2883000.0000307336,
-      "place": 141,
-      "gender_place": 90,
-      "points": 61
+      "place": 143,
+      "gender_place": 92,
+      "points": 59
     },
     {
       "name": "Ben Talarico",
@@ -11070,9 +11094,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2895999.9999264255,
-      "place": 142,
-      "gender_place": 91,
-      "points": 60
+      "place": 144,
+      "gender_place": 93,
+      "points": 58
     },
     {
       "name": "Woody Smith",
@@ -11082,9 +11106,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 2954999.9998882413,
-      "place": 143,
-      "gender_place": 92,
-      "points": 59
+      "place": 145,
+      "gender_place": 94,
+      "points": 57
     },
     {
       "name": "Luke Esboldt",
@@ -11094,9 +11118,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 3000999.999954365,
-      "place": 144,
-      "gender_place": 93,
-      "points": 58
+      "place": 146,
+      "gender_place": 95,
+      "points": 56
     },
     {
       "name": "Lauren Cotten",
@@ -11106,7 +11130,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 3047000.000020489,
-      "place": 145,
+      "place": 147,
       "gender_place": 51,
       "points": 100
     },
@@ -11118,7 +11142,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 3242000.000027474,
-      "place": 146,
+      "place": 148,
       "gender_place": 52,
       "points": 99
     },
@@ -11130,7 +11154,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 3358000.0001122244,
-      "place": 147,
+      "place": 149,
       "gender_place": 53,
       "points": 98
     },
@@ -11142,7 +11166,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 3386000.0000568107,
-      "place": 148,
+      "place": 150,
       "gender_place": 54,
       "points": 97
     },
@@ -11154,7 +11178,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 3387999.999895692,
-      "place": 149,
+      "place": 151,
       "gender_place": 55,
       "points": 96
     },
@@ -11166,7 +11190,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 3410000.000009313,
-      "place": 150,
+      "place": 152,
       "gender_place": 56,
       "points": 95
     },
@@ -11178,7 +11202,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 3410999.999928754,
-      "place": 151,
+      "place": 153,
       "gender_place": 57,
       "points": 94
     },
@@ -11190,7 +11214,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 3850000.0000814907,
-      "place": 152,
+      "place": 154,
       "gender_place": 58,
       "points": 93
     },
@@ -11202,7 +11226,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 3851000.0000009313,
-      "place": 153,
+      "place": 155,
       "gender_place": 59,
       "points": 92
     },
@@ -11214,7 +11238,7 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 4100000.0000582077,
-      "place": 154,
+      "place": 156,
       "gender_place": 60,
       "points": 91
     },
@@ -11226,9 +11250,9 @@
       "course": "Point Pine",
       "volunteer": "",
       "time": 4103000.000130851,
-      "place": 155,
-      "gender_place": 94,
-      "points": 57
+      "place": 157,
+      "gender_place": 96,
+      "points": 55
     },
     {
       "name": "Mae Gackstetter",
@@ -11239,8 +11263,8 @@
       "volunteer": true,
       "time": 4103001.000130851,
       "place": "VOL",
-      "gender_place": 61,
-      "points": 90
+      "gender_place": 62,
+      "points": 89
     },
     {
       "name": "Jarrow Wahman",
@@ -11263,8 +11287,8 @@
       "volunteer": true,
       "time": 4103001.000130851,
       "place": "VOL",
-      "gender_place": 61,
-      "points": 90
+      "gender_place": 62,
+      "points": 89
     },
     {
       "name": "James Rokke",
@@ -11287,32 +11311,8 @@
       "volunteer": true,
       "time": 4103001.000130851,
       "place": "VOL",
-      "gender_place": 61,
-      "points": 90
-    },
-    {
-      "name": "Alex Faber",
-      "gender": "M",
-      "date": "2026-05-13T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Point Pine",
-      "volunteer": "",
-      "time": 1595000.0000000002,
-      "place": 157,
-      "gender_place": 95,
-      "points": 56
-    },
-    {
-      "name": "Ed Fuhs",
-      "gender": "M",
-      "date": "2026-05-13T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Point Pine",
-      "volunteer": "",
-      "time": 2263000,
-      "place": 158,
-      "gender_place": 96,
-      "points": 55
+      "gender_place": 62,
+      "points": 89
     },
     {
       "name": "Aimee Foster",
@@ -11321,10 +11321,10 @@
       "series": "Spring Series",
       "course": "Point Pine",
       "volunteer": "",
-      "time": "#N/A",
-      "place": "",
-      "gender_place": "",
-      "points": ""
+      "time": 1992000,
+      "place": 158,
+      "gender_place": 61,
+      "points": 90
     }
   ]
 }
