@@ -809,6 +809,19 @@
     {
       "Place": 31,
       "Gender": "W",
+      "Name": "Laura Palombi",
+      "Total Points": 363,
+      "Bonus": 0,
+      "Bear Creek": 93,
+      "Waabizheshikana": 85,
+      "Spirit Mountain": 96,
+      "Point Pine": 89,
+      "Woodland Run": 0,
+      "Cloquet Forestry Center": 0
+    },
+    {
+      "Place": 32,
+      "Gender": "W",
       "Name": "Shelly Thompson",
       "Total Points": 363,
       "Bonus": 0,
@@ -898,7 +911,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 32,
+      "Place": 33,
       "Gender": "W",
       "Name": "Callie Grones",
       "Total Points": 340,
@@ -924,7 +937,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 33,
+      "Place": 34,
       "Gender": "W",
       "Name": "Tonya O'Connor",
       "Total Points": 329,
@@ -989,7 +1002,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 34,
+      "Place": 35,
       "Gender": "W",
       "Name": "Halle Sharp",
       "Total Points": 322,
@@ -1015,7 +1028,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 35,
+      "Place": 36,
       "Gender": "W",
       "Name": "Julie Bernhardt",
       "Total Points": 315,
@@ -1041,7 +1054,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 36,
+      "Place": 37,
       "Gender": "W",
       "Name": "Mara Ohrt",
       "Total Points": 311,
@@ -1054,7 +1067,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 37,
+      "Place": 38,
       "Gender": "W",
       "Name": "Rita Kuzko",
       "Total Points": 305,
@@ -1067,7 +1080,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 38,
+      "Place": 39,
       "Gender": "W",
       "Name": "Rachel Shiller",
       "Total Points": 304,
@@ -1119,7 +1132,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 39,
+      "Place": 40,
       "Gender": "W",
       "Name": "Allison Brooks",
       "Total Points": 295,
@@ -1184,7 +1197,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 40,
+      "Place": 41,
       "Gender": "W",
       "Name": "Shelby Suhr",
       "Total Points": 288,
@@ -1197,7 +1210,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 41,
+      "Place": 42,
       "Gender": "W",
       "Name": "Kylee Stoeckmann",
       "Total Points": 288,
@@ -1210,7 +1223,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 42,
+      "Place": 43,
       "Gender": "W",
       "Name": "Maria Lind",
       "Total Points": 288,
@@ -1223,7 +1236,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 43,
+      "Place": 44,
       "Gender": "W",
       "Name": "Haley Bengtson",
       "Total Points": 287,
@@ -1288,7 +1301,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 44,
+      "Place": 45,
       "Gender": "W",
       "Name": "Brooke Wilson",
       "Total Points": 283,
@@ -1301,7 +1314,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 45,
+      "Place": 46,
       "Gender": "W",
       "Name": "Shannon Meehan",
       "Total Points": 283,
@@ -1327,7 +1340,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 46,
+      "Place": 47,
       "Gender": "W",
       "Name": "Allegra Pihlaja",
       "Total Points": 281,
@@ -1375,19 +1388,6 @@
       "Waabizheshikana": 53,
       "Spirit Mountain": 90,
       "Point Pine": 75,
-      "Woodland Run": 0,
-      "Cloquet Forestry Center": 0
-    },
-    {
-      "Place": 47,
-      "Gender": "W",
-      "Name": "Laura Palombi",
-      "Total Points": 274,
-      "Bonus": 0,
-      "Bear Creek": 93,
-      "Waabizheshikana": 85,
-      "Spirit Mountain": 96,
-      "Point Pine": 0,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 0
     },
@@ -10907,6 +10907,18 @@
       "points": 111
     },
     {
+      "name": "Morgan Linn",
+      "gender": "W",
+      "date": "2026-05-13T05:00:00.000Z",
+      "series": "Spring Series",
+      "course": "Point Pine",
+      "volunteer": false,
+      "time": 2614999.999932479,
+      "place": 129,
+      "gender_place": 41,
+      "points": 110
+    },
+    {
       "name": "Abigail Morris",
       "gender": "W",
       "date": "2026-05-13T05:00:00.000Z",
@@ -11303,16 +11315,16 @@
       "points": 54
     },
     {
-      "name": "Morgan Linn",
+      "name": "Laura Palombi",
       "gender": "W",
       "date": "2026-05-13T05:00:00.000Z",
       "series": "Spring Series",
       "course": "Point Pine",
-      "volunteer": false,
-      "time": 2614999.999932479,
-      "place": 129,
-      "gender_place": 41,
-      "points": 110
+      "volunteer": true,
+      "time": 4103001.000130851,
+      "place": "VOL",
+      "gender_place": 62,
+      "points": 89
     }
   ]
 }
