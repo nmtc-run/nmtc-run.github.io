@@ -1,0 +1,117 @@
+{
+  "series_edition_id": "6edcc00b-3621-4e01-b3f6-2267883fe681",
+  "display_name": "3001 Spring Series",
+  "calendar_year": 3001,
+  "season": "spring",
+  "generated_at": "2026-05-20T01:44:16.593062+00:00",
+  "races": [
+    {
+      "race_id": "9ea28cb1-5797-4ccd-a9c6-bab3e5b36c12",
+      "course_name": "Test Course",
+      "scheduled_date_local": "2030-06-01",
+      "cancelled": false,
+      "standings": [
+        {
+          "overall_place": 1,
+          "gender_place": 1,
+          "points": 150,
+          "name": "Test1",
+          "gender_category": "X",
+          "role": "runner",
+          "elapsed_ms": 1726,
+          "elapsed": "00:00:01"
+        },
+        {
+          "overall_place": 2,
+          "gender_place": 1,
+          "points": 150,
+          "name": "test2",
+          "gender_category": "W",
+          "role": "runner",
+          "elapsed_ms": 2067,
+          "elapsed": "00:00:02"
+        },
+        {
+          "overall_place": 3,
+          "gender_place": 1,
+          "points": 150,
+          "name": "Test3",
+          "gender_category": "M",
+          "role": "runner",
+          "elapsed_ms": 2445,
+          "elapsed": "00:00:02"
+        },
+        {
+          "overall_place": 4,
+          "gender_place": 2,
+          "points": 149,
+          "name": "Alice Runner",
+          "gender_category": "W",
+          "role": "runner",
+          "elapsed_ms": 2653,
+          "elapsed": "00:00:02"
+        },
+        {
+          "overall_place": 5,
+          "gender_place": 2,
+          "points": 149,
+          "name": "Test1",
+          "gender_category": "X",
+          "role": "runner",
+          "elapsed_ms": 2865,
+          "elapsed": "00:00:02"
+        },
+        {
+          "overall_place": 6,
+          "gender_place": 3,
+          "points": 148,
+          "name": "Test1",
+          "gender_category": "X",
+          "role": "runner",
+          "elapsed_ms": 3043,
+          "elapsed": "00:00:03"
+        },
+        {
+          "overall_place": 7,
+          "gender_place": 2,
+          "points": 149,
+          "name": "Test3",
+          "gender_category": "M",
+          "role": "runner",
+          "elapsed_ms": 3254,
+          "elapsed": "00:00:03"
+        },
+        {
+          "overall_place": 8,
+          "gender_place": 3,
+          "points": 148,
+          "name": "Test3",
+          "gender_category": "M",
+          "role": "runner",
+          "elapsed_ms": 4094,
+          "elapsed": "00:00:04"
+        },
+        {
+          "overall_place": 9,
+          "gender_place": 3,
+          "points": 148,
+          "name": "test2",
+          "gender_category": "W",
+          "role": "runner",
+          "elapsed_ms": 9959,
+          "elapsed": "00:00:09"
+        },
+        {
+          "overall_place": 10,
+          "gender_place": 4,
+          "points": 147,
+          "name": "Test1",
+          "gender_category": "X",
+          "role": "runner",
+          "elapsed_ms": 15028,
+          "elapsed": "00:00:15"
+        }
+      ]
+    }
+  ]
+}
