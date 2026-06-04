@@ -718,19 +718,6 @@
     {
       "Place": 28,
       "Gender": "W",
-      "Name": "Ann Farley",
-      "Total Points": 430,
-      "Bonus": 25,
-      "Bear Creek": 93,
-      "Waabizheshikana": "[170]",
-      "Spirit Mountain": 0,
-      "Point Pine": 90,
-      "Woodland Run": 88,
-      "Cloquet Forestry Center": 134
-    },
-    {
-      "Place": 29,
-      "Gender": "W",
       "Name": "Barb Bengtson",
       "Total Points": 510,
       "Bonus": 25,
@@ -742,7 +729,7 @@
       "Cloquet Forestry Center": 108
     },
     {
-      "Place": 30,
+      "Place": 29,
       "Gender": "W",
       "Name": "Ellie Sin",
       "Total Points": 505,
@@ -781,7 +768,7 @@
       "Cloquet Forestry Center": 107
     },
     {
-      "Place": 31,
+      "Place": 30,
       "Gender": "W",
       "Name": "Rita Kuzko",
       "Total Points": 496,
@@ -794,7 +781,7 @@
       "Cloquet Forestry Center": 112
     },
     {
-      "Place": 32,
+      "Place": 31,
       "Gender": "W",
       "Name": "Rachel Shiller",
       "Total Points": 495,
@@ -807,7 +794,7 @@
       "Cloquet Forestry Center": 111
     },
     {
-      "Place": 33,
+      "Place": 32,
       "Gender": "W",
       "Name": "Mae Gackstetter",
       "Total Points": 493,
@@ -820,7 +807,7 @@
       "Cloquet Forestry Center": 104
     },
     {
-      "Place": 34,
+      "Place": 33,
       "Gender": "W",
       "Name": "Laura Palombi",
       "Total Points": 492,
@@ -833,7 +820,7 @@
       "Cloquet Forestry Center": 104
     },
     {
-      "Place": 35,
+      "Place": 34,
       "Gender": "W",
       "Name": "Shelly Thompson",
       "Total Points": 492,
@@ -857,6 +844,19 @@
       "Point Pine": 92,
       "Woodland Run": 102,
       "Cloquet Forestry Center": 119
+    },
+    {
+      "Place": 35,
+      "Gender": "W",
+      "Name": "Ann Farley",
+      "Total Points": 490,
+      "Bonus": 0,
+      "Bear Creek": 93,
+      "Waabizheshikana": 85,
+      "Spirit Mountain": 0,
+      "Point Pine": 90,
+      "Woodland Run": 88,
+      "Cloquet Forestry Center": 134
     },
     {
       "Place": 28,
@@ -8642,18 +8642,6 @@
     },
     {
       "name": "Kaitlyn Orlando",
-      "gender": "W",
-      "date": "2026-05-06T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Waabizheshikana",
-      "volunteer": true,
-      "time": 4094000.9999129213,
-      "place": "VOL",
-      "gender_place": 66,
-      "points": 85
-    },
-    {
-      "name": "Ann Farley",
       "gender": "W",
       "date": "2026-05-06T05:00:00.000Z",
       "series": "Spring Series",
