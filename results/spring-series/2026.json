@@ -287,19 +287,6 @@
       "Cloquet Forestry Center": 128
     },
     {
-      "Place": 12,
-      "Gender": "W",
-      "Name": "Ann Farley",
-      "Total Points": 668,
-      "Bonus": 0,
-      "Bear Creek": 186,
-      "Waabizheshikana": 170,
-      "Spirit Mountain": 0,
-      "Point Pine": 90,
-      "Woodland Run": 88,
-      "Cloquet Forestry Center": 134
-    },
-    {
       "Place": 8,
       "Gender": "M",
       "Name": "Benjamin Welch",
@@ -326,7 +313,7 @@
       "Cloquet Forestry Center": 138
     },
     {
-      "Place": 13,
+      "Place": 12,
       "Gender": "W",
       "Name": "Catherine Long",
       "Total Points": 652,
@@ -352,7 +339,7 @@
       "Cloquet Forestry Center": 136
     },
     {
-      "Place": 14,
+      "Place": 13,
       "Gender": "W",
       "Name": "Ashley Kittelson",
       "Total Points": 645,
@@ -365,7 +352,7 @@
       "Cloquet Forestry Center": 131
     },
     {
-      "Place": 15,
+      "Place": 14,
       "Gender": "W",
       "Name": "Alexis Carpenter",
       "Total Points": 641,
@@ -391,7 +378,7 @@
       "Cloquet Forestry Center": 133
     },
     {
-      "Place": 16,
+      "Place": 15,
       "Gender": "W",
       "Name": "Xueyao Fu",
       "Total Points": 637,
@@ -430,7 +417,7 @@
       "Cloquet Forestry Center": 135
     },
     {
-      "Place": 17,
+      "Place": 16,
       "Gender": "W",
       "Name": "Amanda Tveite",
       "Total Points": 622,
@@ -443,7 +430,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 18,
+      "Place": 17,
       "Gender": "W",
       "Name": "Sara Zimmer",
       "Total Points": 621,
@@ -456,7 +443,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 19,
+      "Place": 18,
       "Gender": "W",
       "Name": "Beth Bernhardt",
       "Total Points": 617,
@@ -469,7 +456,7 @@
       "Cloquet Forestry Center": 121
     },
     {
-      "Place": 20,
+      "Place": 19,
       "Gender": "W",
       "Name": "Mason Kirby",
       "Total Points": 616,
@@ -495,7 +482,7 @@
       "Cloquet Forestry Center": 128
     },
     {
-      "Place": 21,
+      "Place": 20,
       "Gender": "W",
       "Name": "Shannon Kelson",
       "Total Points": 613,
@@ -534,7 +521,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 22,
+      "Place": 21,
       "Gender": "W",
       "Name": "Lily Hubanks",
       "Total Points": 599,
@@ -573,7 +560,7 @@
       "Cloquet Forestry Center": 123
     },
     {
-      "Place": 23,
+      "Place": 22,
       "Gender": "W",
       "Name": "Shannon Meehan",
       "Total Points": 572,
@@ -586,7 +573,7 @@
       "Cloquet Forestry Center": 147
     },
     {
-      "Place": 24,
+      "Place": 23,
       "Gender": "W",
       "Name": "Shelby Suhr",
       "Total Points": 566,
@@ -612,7 +599,7 @@
       "Cloquet Forestry Center": 129
     },
     {
-      "Place": 25,
+      "Place": 24,
       "Gender": "W",
       "Name": "Linda Israel",
       "Total Points": 557,
@@ -625,7 +612,7 @@
       "Cloquet Forestry Center": 118
     },
     {
-      "Place": 26,
+      "Place": 25,
       "Gender": "W",
       "Name": "Callie Grones",
       "Total Points": 555,
@@ -677,7 +664,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 27,
+      "Place": 26,
       "Gender": "W",
       "Name": "Hazel Kemp",
       "Total Points": 534,
@@ -703,7 +690,7 @@
       "Cloquet Forestry Center": 0
     },
     {
-      "Place": 28,
+      "Place": 27,
       "Gender": "W",
       "Name": "Julie Bernhardt",
       "Total Points": 522,
@@ -727,6 +714,19 @@
       "Point Pine": 115,
       "Woodland Run": 0,
       "Cloquet Forestry Center": 140
+    },
+    {
+      "Place": 28,
+      "Gender": "W",
+      "Name": "Ann Farley",
+      "Total Points": 430,
+      "Bonus": 25,
+      "Bear Creek": 93,
+      "Waabizheshikana": "[170]",
+      "Spirit Mountain": 0,
+      "Point Pine": 90,
+      "Woodland Run": 88,
+      "Cloquet Forestry Center": 134
     },
     {
       "Place": 29,
@@ -6599,18 +6599,6 @@
       "place": "VOL",
       "gender_place": 95,
       "points": 56
-    },
-    {
-      "name": "Ann Farley",
-      "gender": "W",
-      "date": "2026-04-29T05:00:00.000Z",
-      "series": "Spring Series",
-      "course": "Bear Creek",
-      "volunteer": true,
-      "time": 4584001.0000433065,
-      "place": "VOL",
-      "gender_place": 58,
-      "points": 93
     },
     {
       "name": "Matthew Braithwaite",
