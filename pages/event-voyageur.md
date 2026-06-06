@@ -11,7 +11,12 @@ start-finish: "Carlton, MN (Turnaround: Duluth, MN)"
 ascent: 5,000 ft
 descent: 5,000 ft
 description: |-
-  Founded in 1982, the Minnesota Voyageur 50 Mile Trail Ultramarathon is one of the oldest trail ultras in the nation. The race follows a rugged, varied, out-and-back course that takes runners on a journey from Carlton, MN, through Jay Cooke State Park, and heads northeast over difficult, rough woodland trails to Duluth, MN—and back. Enjoy scenic overlooks of Lake Superior and cross the iconic Swinging Bridge over the dalles of the St. Louis River. </br></br>Weather for the Minnesota Voyageur can be extreme. There have been several years when it was hot and humid—including 2003 when it was brutally hot with 90 percent humidity. In other years it has been cool, in the mid-50’s, and wet. Plan for everything except snow—at least not so far! </br></br> <span class="nb" style="font-weight:bold;">(!)</span> New in 2026: <ul><li>The race start/finish has moved to the Carlton Munger Trailhead, which we have long used for the Curnow Marathon.</li><li>The turnaround has moved further into Fairmount Park, to ensure the course runs a full 50 mi.</li></ul>
+  <strong>T-shirt deadline</strong> <br><br>
+  Register before July 4 to guarantee a t-shirt. 
+  <br><br>
+  <strong>Overview</strong><br><br>
+  Founded in 1982, the Minnesota Voyageur 50 Mile Trail Ultramarathon is one of the oldest trail ultras in the nation. The race follows a rugged, varied, out-and-back course that takes runners on a journey from Carlton, MN, through Jay Cooke State Park, and heads northeast over difficult, rough woodland trails to Duluth, MN—and back. Enjoy scenic overlooks of Lake Superior and cross the iconic Swinging Bridge over the dalles of the St. Louis River. </br></br>Weather for the Minnesota Voyageur can be extreme. There have been several years when it was hot and humid—including 2003 when it was brutally hot with 90 percent humidity. In other years it has been cool, in the mid-50’s, and wet. Plan for everything except snow—at least not so far! </br></br> 
+  <span class="nb" style="font-weight:bold;">(!)</span> <strong> New in 2026: </strong><ul><li>The race start/finish has moved to the Carlton Munger Trailhead, which we have long used for the Curnow Marathon.</li><li>The turnaround has moved further into Fairmount Park, to ensure the course runs a full 50 mi.</li></ul>
 plotaroute-id: 2059255
 strava-id: 3207869585823066736
 google-map-id: 1jQCEbQoT-Y4WGaQSeP4dfwr9oFJF7nE
@@ -87,6 +92,8 @@ Specifically:
 **8:00 PM:** Final cutoff.
 
 # Details
+
+**Pre-race communications:** Keep an eye out for emails sent via the Ultrasignup platform. Updates may also appear on the [Facebook page](https://www.facebook.com/minnesotavoyageur). 
 
 **Trail markings:** Follow the hot orange pin flags with “NMTC” on them. If you don’t see one in about 0.1 miles, you are off course! Turns are marked with a series of pin flags a few feet apart on the side to which you’ll be turning—for example, a right-hand turn marked with three pin flags on the runner's right hand side. For more, see [course marking](/course-marking).
 

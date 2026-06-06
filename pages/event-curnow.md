@@ -12,7 +12,13 @@ start: Duluth Superior Zoo, Duluth, MN
 finish: Munger Trailhead, Carlton, MN
 ascent: 2,969 ft
 descent: 2,566 ft
-description:
+description: |-
+  After the AQI cancelled the 2025 edition, we are even more excited than usual to reunite with our fellow Curnow diehards in 2026—and welome new runners and volunteers, too. 
+  <br><br>
+  <strong>T-shirt deadline</strong> <br><br>
+  Register before June 20 to guarantee a t-shirt. 
+  <br><br>
+  <strong>Overview</strong><br><br>
   The Eugene Curnow Trail Marathon is run over rough woodland trails on a point-to-point course from the Lake Superior Zoo in Duluth, MN, to Carlton, MN.
   <br><br>
   The course encompasses one half of the Minnesota Voyageur Trail Ultramarathon, plus a bit extra to reach 26.2 miles. NMTC introduced the race in 1992 as a thank you to Voyageur volunteers and an introduction to the course for those exploring the 50 miler. The race has become wildly popular in its own right.
@@ -101,6 +107,8 @@ Runners, please warn your crew and fans to drive with care. Reduce vehicle traff
 **4:00 PM:** Final cutoff.
 
 # Details
+
+**Pre-race communications:** Keep an eye out for emails sent via the Ultrasignup platform. Updates may also appear on the [Facebook page](https://www.facebook.com/minnesotavoyageur). 
 
 **Trail markings:** Follow the hot orange pin flags with “NMTC” on them. If you don’t see one in about 0.1 miles, you are off course! Turns are marked with a series of pin flags a few feet apart on the side to which you’ll be turning—for example, a right-hand turn marked with three pin flags on the runner's right hand side. For more, see [course marking](/course-marking).
 

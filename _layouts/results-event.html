@@ -58,7 +58,23 @@ layout: default
 	<div class="" style="height:3em;">&nbsp;</div>
 	<h1 id="course-records">Course records</h1>
 	<table id="courseRecordsTable" class="display stripe"></table>
-	
+	{%- if page.permalink contains "voyageur" -%}
+		<br>
+		<p>
+			Note: From 1982 to 1985, the course ran 48 miles. Another caveat: we do not posess age data for roughly 60 runners from 1982-1987. 
+		</p>
+		<ul>
+			<li>
+				As of this writing (in 2025), Justin Stewart ran the men's fastest 50-mile time of 6:38:34 to win the 2023 edition; that performance also makes Justin the 50-mile age-group record holder for men aged 30-39. 
+			</li>
+			<li> 
+				Meanwhile, at 15 years old, Levi Button recorded the 50-mile U17 age-group record in 2017 with a time of 11:16:16. 
+			</li>	
+			<li>
+				All other course records were set at the 50-mile distance. 
+			</li>
+		</ul>
+	{%- endif -%}
 	<div class="" style="height:3em;">&nbsp;</div>
 	<h1 id="past-champions">Past champions</h1>
 	<table id="pastChampionsTable" class="display stripe"></table>
