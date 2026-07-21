@@ -211,9 +211,9 @@ layout: default
 	  loadSimpleTable(
 	    "{{ page.courseRecords }}",
 	    "#courseRecordsTable",
-	    ["category", "men", "women"],
+	    ["category", "men", "women", "nonbinary"],
 	    [
-		    { targets: [1, 2], width: "20%" }, // cols 2, 3 can expand 
+		    { targets: [1, 2, 3], width: "20%" }, // cols 2, 3, 4 can expand
 		    { targets: [0], width: "1%" } // col 1 fit content only
 		  ]
 	  );
@@ -222,10 +222,10 @@ layout: default
 	  loadSimpleTable(
 	    "{{ page.pastChampions }}",
 	    "#pastChampionsTable",
-	    ["year", "men", "women"],
+	    ["year", "men", "women", "nonbinary"],
 	    [
 		    // Tell columns 2, 3, and 4 that they can expand
-		    { targets: [1, 2], width: "20%" },
+		    { targets: [1, 2, 3], width: "20%" },
 
 		    // Tell other columns to fit content only
 		    { targets: [0], width: "1%" }
