@@ -100,7 +100,7 @@ Runners, please warn your crew and fans to drive with care. Reduce vehicle traff
 
 **6:00 AM:** Race starts promptly to ensure accurate splits.
 
-**12:40 PM:** Front runner close to finish.
+**9:30 AM:** Front runner approaching finish. 
 
 **Awards:** Runners receive awards as they finish.
 
