@@ -140,13 +140,29 @@
     {
       "Place": 3,
       "Gender": "W",
+      "Name": "Anne Hyöppönen",
+      "Total Points": 757,
+      "Bonus": 0,
+      "Lester Park": 118,
+      "Zapp's Loop": 120,
+      "Hartley": 119,
+      "Brown's Point": 131,
+      "Rock Hill": 130,
+      "Pine Valley": 139,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 4,
+      "Gender": "W",
       "Name": "Sara Zimmer",
-      "Total Points": 754,
+      "Total Points": 753,
       "Bonus": 0,
       "Lester Park": 121,
       "Zapp's Loop": 129,
       "Hartley": 121,
-      "Brown's Point": 128,
+      "Brown's Point": 127,
       "Rock Hill": 125,
       "Pine Valley": 130,
       "Rolling Stone": 0,
@@ -186,7 +202,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 4,
+      "Place": 5,
       "Gender": "W",
       "Name": "Lily Hubanks",
       "Total Points": 750,
@@ -218,15 +234,15 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 5,
+      "Place": 6,
       "Gender": "W",
       "Name": "Mei Sun",
-      "Total Points": 730,
+      "Total Points": 729,
       "Bonus": 0,
       "Lester Park": 112,
       "Zapp's Loop": 124,
       "Hartley": 118,
-      "Brown's Point": 123,
+      "Brown's Point": 122,
       "Rock Hill": 122,
       "Pine Valley": 131,
       "Rolling Stone": 0,
@@ -250,7 +266,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 6,
+      "Place": 7,
       "Gender": "W",
       "Name": "Molly Watkins",
       "Total Points": 722,
@@ -314,6 +330,22 @@
       "Hawk Ridge": 0
     },
     {
+      "Place": 8,
+      "Gender": "W",
+      "Name": "Mason Kirby",
+      "Total Points": 713,
+      "Bonus": 0,
+      "Lester Park": 119,
+      "Zapp's Loop": 113,
+      "Hartley": 130,
+      "Brown's Point": 115,
+      "Rock Hill": 100,
+      "Pine Valley": 136,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
       "Place": 10,
       "Gender": "M",
       "Name": "Andres Cepeda",
@@ -346,7 +378,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 7,
+      "Place": 9,
       "Gender": "W",
       "Name": "Allegra Pihlaja",
       "Total Points": 689,
@@ -394,7 +426,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 8,
+      "Place": 10,
       "Gender": "W",
       "Name": "Jackie Zosel",
       "Total Points": 687,
@@ -426,7 +458,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 9,
+      "Place": 11,
       "Gender": "W",
       "Name": "Ellie Macal",
       "Total Points": 684,
@@ -442,15 +474,15 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 10,
+      "Place": 12,
       "Gender": "W",
       "Name": "Shannon Kelson",
-      "Total Points": 684,
+      "Total Points": 683,
       "Bonus": 0,
       "Lester Park": 109,
       "Zapp's Loop": 119,
       "Hartley": 107,
-      "Brown's Point": 105,
+      "Brown's Point": 104,
       "Rock Hill": 115,
       "Pine Valley": 129,
       "Rolling Stone": 0,
@@ -458,31 +490,15 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 11,
-      "Gender": "W",
-      "Name": "Mason Kirby",
-      "Total Points": 677,
-      "Bonus": 0,
-      "Lester Park": 119,
-      "Zapp's Loop": 113,
-      "Hartley": 130,
-      "Brown's Point": 79,
-      "Rock Hill": 100,
-      "Pine Valley": 136,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 12,
+      "Place": 13,
       "Gender": "W",
       "Name": "Brette Jensen",
-      "Total Points": 672,
+      "Total Points": 671,
       "Bonus": 0,
       "Lester Park": 134,
       "Zapp's Loop": 139,
       "Hartley": 142,
-      "Brown's Point": 129,
+      "Brown's Point": 128,
       "Rock Hill": 128,
       "Pine Valley": 0,
       "Rolling Stone": 0,
@@ -522,15 +538,15 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 13,
+      "Place": 14,
       "Gender": "W",
       "Name": "Barb Bengtson",
-      "Total Points": 637,
+      "Total Points": 636,
       "Bonus": 0,
       "Lester Park": 100,
       "Zapp's Loop": 101,
       "Hartley": 86,
-      "Brown's Point": 106,
+      "Brown's Point": 105,
       "Rock Hill": 94,
       "Pine Valley": 150,
       "Rolling Stone": 0,
@@ -570,33 +586,17 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 14,
+      "Place": 15,
       "Gender": "W",
       "Name": "Hailey Bauer",
-      "Total Points": 627,
+      "Total Points": 626,
       "Bonus": 0,
       "Lester Park": 0,
       "Zapp's Loop": 123,
       "Hartley": 113,
-      "Brown's Point": 125,
+      "Brown's Point": 124,
       "Rock Hill": 132,
       "Pine Valley": 134,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 15,
-      "Gender": "W",
-      "Name": "Anne Hyöppönen",
-      "Total Points": 626,
-      "Bonus": 0,
-      "Lester Park": 118,
-      "Zapp's Loop": 120,
-      "Hartley": 119,
-      "Brown's Point": 0,
-      "Rock Hill": 130,
-      "Pine Valley": 139,
       "Rolling Stone": 0,
       "Bull Run": 0,
       "Hawk Ridge": 0
@@ -669,12 +669,12 @@
       "Place": 17,
       "Gender": "W",
       "Name": "Shelly Thompson",
-      "Total Points": 593,
+      "Total Points": 592,
       "Bonus": 0,
       "Lester Park": 99,
       "Zapp's Loop": 98,
       "Hartley": 82,
-      "Brown's Point": 105,
+      "Brown's Point": 104,
       "Rock Hill": 92,
       "Pine Valley": 117,
       "Rolling Stone": 0,
@@ -714,38 +714,6 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 20,
-      "Gender": "W",
-      "Name": "Laura Palombi",
-      "Total Points": 587,
-      "Bonus": 0,
-      "Lester Park": 99,
-      "Zapp's Loop": 92,
-      "Hartley": 82,
-      "Brown's Point": 105,
-      "Rock Hill": 92,
-      "Pine Valley": 117,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 21,
-      "Gender": "W",
-      "Name": "Mae Gackstetter",
-      "Total Points": 587,
-      "Bonus": 0,
-      "Lester Park": 99,
-      "Zapp's Loop": 92,
-      "Hartley": 82,
-      "Brown's Point": 105,
-      "Rock Hill": 92,
-      "Pine Valley": 117,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
       "Place": 22,
       "Gender": "M",
       "Name": "Peter Spethmann",
@@ -757,6 +725,38 @@
       "Brown's Point": 146,
       "Rock Hill": 146,
       "Pine Valley": 0,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 20,
+      "Gender": "W",
+      "Name": "Laura Palombi",
+      "Total Points": 586,
+      "Bonus": 0,
+      "Lester Park": 99,
+      "Zapp's Loop": 92,
+      "Hartley": 82,
+      "Brown's Point": 104,
+      "Rock Hill": 92,
+      "Pine Valley": 117,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 21,
+      "Gender": "W",
+      "Name": "Mae Gackstetter",
+      "Total Points": 586,
+      "Bonus": 0,
+      "Lester Park": 99,
+      "Zapp's Loop": 92,
+      "Hartley": 82,
+      "Brown's Point": 104,
+      "Rock Hill": 92,
+      "Pine Valley": 117,
       "Rolling Stone": 0,
       "Bull Run": 0,
       "Hawk Ridge": 0
@@ -970,6 +970,22 @@
       "Hawk Ridge": 0
     },
     {
+      "Place": 28,
+      "Gender": "W",
+      "Name": "Lacy Almonte",
+      "Total Points": 525,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 105,
+      "Hartley": 87,
+      "Brown's Point": 110,
+      "Rock Hill": 99,
+      "Pine Valley": 124,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
       "Place": 30,
       "Gender": "M",
       "Name": "Noah Grode",
@@ -1002,7 +1018,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 28,
+      "Place": 29,
       "Gender": "W",
       "Name": "Ellie Sin",
       "Total Points": 519,
@@ -1013,6 +1029,22 @@
       "Brown's Point": 138,
       "Rock Hill": 133,
       "Pine Valley": 0,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 30,
+      "Gender": "W",
+      "Name": "Rita Kuzko",
+      "Total Points": 514,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 103,
+      "Hartley": 84,
+      "Brown's Point": 108,
+      "Rock Hill": 98,
+      "Pine Valley": 121,
       "Rolling Stone": 0,
       "Bull Run": 0,
       "Hawk Ridge": 0
@@ -1050,7 +1082,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 29,
+      "Place": 31,
       "Gender": "W",
       "Name": "Bonnie Jensen",
       "Total Points": 511,
@@ -1098,38 +1130,6 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 30,
-      "Gender": "W",
-      "Name": "Lacy Almonte",
-      "Total Points": 493,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 105,
-      "Hartley": 87,
-      "Brown's Point": 78,
-      "Rock Hill": 99,
-      "Pine Valley": 124,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 31,
-      "Gender": "W",
-      "Name": "Rita Kuzko",
-      "Total Points": 483,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 103,
-      "Hartley": 84,
-      "Brown's Point": 77,
-      "Rock Hill": 98,
-      "Pine Valley": 121,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
       "Place": 36,
       "Gender": "M",
       "Name": "Ryan Saline",
@@ -1149,12 +1149,12 @@
       "Place": 32,
       "Gender": "W",
       "Name": "Beth Bernhardt",
-      "Total Points": 469,
+      "Total Points": 468,
       "Bonus": 0,
       "Lester Park": 116,
       "Zapp's Loop": 0,
       "Hartley": 109,
-      "Brown's Point": 124,
+      "Brown's Point": 123,
       "Rock Hill": 120,
       "Pine Valley": 0,
       "Rolling Stone": 0,
@@ -1226,6 +1226,22 @@
       "Hawk Ridge": 0
     },
     {
+      "Place": 35,
+      "Gender": "W",
+      "Name": "Amy Schwoch",
+      "Total Points": 448,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 104,
+      "Hartley": 95,
+      "Brown's Point": 117,
+      "Rock Hill": 0,
+      "Pine Valley": 132,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
       "Place": 39,
       "Gender": "M",
       "Name": "Spencer Carlson",
@@ -1244,22 +1260,6 @@
     {
       "Place": 40,
       "Gender": "M",
-      "Name": "Liam Fife",
-      "Total Points": 446,
-      "Bonus": 0,
-      "Lester Park": 66,
-      "Zapp's Loop": 55,
-      "Hartley": 43,
-      "Brown's Point": 117,
-      "Rock Hill": 101,
-      "Pine Valley": 64,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 41,
-      "Gender": "M",
       "Name": "Ethan Kertz",
       "Total Points": 445,
       "Bonus": 0,
@@ -1274,7 +1274,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 42,
+      "Place": 41,
       "Gender": "M",
       "Name": "Sean Kutz",
       "Total Points": 442,
@@ -1290,7 +1290,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 43,
+      "Place": 42,
       "Gender": "M",
       "Name": "Mike McNulty",
       "Total Points": 436,
@@ -1306,7 +1306,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 35,
+      "Place": 36,
       "Gender": "W",
       "Name": "Shelby Suhr",
       "Total Points": 430,
@@ -1322,7 +1322,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 44,
+      "Place": 43,
       "Gender": "M",
       "Name": "Joshua Tomczak",
       "Total Points": 426,
@@ -1338,7 +1338,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 45,
+      "Place": 44,
       "Gender": "M",
       "Name": "Christopher Montague",
       "Total Points": 423,
@@ -1354,23 +1354,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 46,
-      "Gender": "M",
-      "Name": "Steve Heikkila",
-      "Total Points": 423,
-      "Bonus": 0,
-      "Lester Park": 74,
-      "Zapp's Loop": 66,
-      "Hartley": 55,
-      "Brown's Point": 115,
-      "Rock Hill": 45,
-      "Pine Valley": 68,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 47,
+      "Place": 45,
       "Gender": "M",
       "Name": "Gavin Thiry",
       "Total Points": 422,
@@ -1386,7 +1370,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 36,
+      "Place": 37,
       "Gender": "W",
       "Name": "Kalli Smith",
       "Total Points": 420,
@@ -1402,7 +1386,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 48,
+      "Place": 46,
       "Gender": "M",
       "Name": "Robert Durham",
       "Total Points": 418,
@@ -1418,7 +1402,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 37,
+      "Place": 38,
       "Gender": "W",
       "Name": "Lisa Freier",
       "Total Points": 417,
@@ -1434,7 +1418,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 49,
+      "Place": 47,
       "Gender": "M",
       "Name": "Aiden Van Straten",
       "Total Points": 417,
@@ -1450,7 +1434,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 38,
+      "Place": 39,
       "Gender": "W",
       "Name": "Linda Israel",
       "Total Points": 415,
@@ -1466,7 +1450,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 39,
+      "Place": 40,
       "Gender": "W",
       "Name": "Shannon Hogan",
       "Total Points": 414,
@@ -1482,39 +1466,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 40,
-      "Gender": "W",
-      "Name": "Amy Schwoch",
-      "Total Points": 413,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 104,
-      "Hartley": 95,
-      "Brown's Point": 82,
-      "Rock Hill": 0,
-      "Pine Valley": 132,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 50,
-      "Gender": "M",
-      "Name": "Adam McGill",
-      "Total Points": 412,
-      "Bonus": 0,
-      "Lester Park": 69,
-      "Zapp's Loop": 59,
-      "Hartley": 49,
-      "Brown's Point": 110,
-      "Rock Hill": 0,
-      "Pine Valley": 125,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 51,
+      "Place": 48,
       "Gender": "M",
       "Name": "Matthew Henderson",
       "Total Points": 411,
@@ -1546,6 +1498,22 @@
       "Hawk Ridge": 0
     },
     {
+      "Place": 49,
+      "Gender": "M",
+      "Name": "Liam Fife",
+      "Total Points": 408,
+      "Bonus": 0,
+      "Lester Park": 66,
+      "Zapp's Loop": 55,
+      "Hartley": 43,
+      "Brown's Point": 79,
+      "Rock Hill": 101,
+      "Pine Valley": 64,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
       "Place": 42,
       "Gender": "W",
       "Name": "Natalie Hagstrom",
@@ -1562,7 +1530,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 52,
+      "Place": 50,
       "Gender": "M",
       "Name": "Mike Ward",
       "Total Points": 404,
@@ -1578,7 +1546,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 53,
+      "Place": 51,
       "Gender": "M",
       "Name": "Landen Harwood",
       "Total Points": 403,
@@ -1594,7 +1562,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 54,
+      "Place": 52,
       "Gender": "M",
       "Name": "Ben Talarico",
       "Total Points": 401,
@@ -1610,7 +1578,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 55,
+      "Place": 53,
       "Gender": "M",
       "Name": "Josh Nonnemacher",
       "Total Points": 400,
@@ -1626,7 +1594,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 56,
+      "Place": 54,
       "Gender": "M",
       "Name": "Ian Derauf",
       "Total Points": 400,
@@ -1642,23 +1610,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 43,
-      "Gender": "W",
-      "Name": "Haley Duncan",
-      "Total Points": 400,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 100,
-      "Hartley": 0,
-      "Brown's Point": 150,
-      "Rock Hill": 0,
-      "Pine Valley": 150,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 57,
+      "Place": 55,
       "Gender": "M",
       "Name": "Anders Rasmussen",
       "Total Points": 400,
@@ -1674,7 +1626,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 58,
+      "Place": 56,
       "Gender": "M",
       "Name": "Nikolai Anikin",
       "Total Points": 398,
@@ -1690,7 +1642,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 59,
+      "Place": 57,
       "Gender": "M",
       "Name": "Leif DeVaney",
       "Total Points": 390,
@@ -1706,7 +1658,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 60,
+      "Place": 58,
       "Gender": "M",
       "Name": "Lucas Bourgeault",
       "Total Points": 390,
@@ -1722,7 +1674,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 61,
+      "Place": 59,
       "Gender": "M",
       "Name": "Tyler Pilon",
       "Total Points": 388,
@@ -1738,7 +1690,23 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 44,
+      "Place": 60,
+      "Gender": "M",
+      "Name": "Steve Heikkila",
+      "Total Points": 386,
+      "Bonus": 0,
+      "Lester Park": 74,
+      "Zapp's Loop": 66,
+      "Hartley": 55,
+      "Brown's Point": 78,
+      "Rock Hill": 45,
+      "Pine Valley": 68,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 43,
       "Gender": "W",
       "Name": "Jill Geyer",
       "Total Points": 386,
@@ -1754,15 +1722,31 @@
       "Hawk Ridge": 0
     },
     {
+      "Place": 61,
+      "Gender": "M",
+      "Name": "Adam McGill",
+      "Total Points": 379,
+      "Bonus": 0,
+      "Lester Park": 69,
+      "Zapp's Loop": 59,
+      "Hartley": 49,
+      "Brown's Point": 77,
+      "Rock Hill": 0,
+      "Pine Valley": 125,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
       "Place": 62,
       "Gender": "M",
       "Name": "Nate Hubert",
-      "Total Points": 380,
+      "Total Points": 379,
       "Bonus": 0,
       "Lester Park": 66,
       "Zapp's Loop": 55,
       "Hartley": 86,
-      "Brown's Point": 75,
+      "Brown's Point": 74,
       "Rock Hill": 34,
       "Pine Valley": 64,
       "Rolling Stone": 0,
@@ -1773,12 +1757,12 @@
       "Place": 63,
       "Gender": "M",
       "Name": "Justus Olson",
-      "Total Points": 380,
+      "Total Points": 379,
       "Bonus": 0,
       "Lester Park": 0,
       "Zapp's Loop": 92,
       "Hartley": 0,
-      "Brown's Point": 75,
+      "Brown's Point": 74,
       "Rock Hill": 87,
       "Pine Valley": 126,
       "Rolling Stone": 0,
@@ -1787,22 +1771,6 @@
     },
     {
       "Place": 64,
-      "Gender": "M",
-      "Name": "Woody Smith",
-      "Total Points": 378,
-      "Bonus": 0,
-      "Lester Park": 68,
-      "Zapp's Loop": 57,
-      "Hartley": 45,
-      "Brown's Point": 108,
-      "Rock Hill": 35,
-      "Pine Valley": 65,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 65,
       "Gender": "M",
       "Name": "Tobin Swimeley",
       "Total Points": 377,
@@ -1818,7 +1786,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 45,
+      "Place": 44,
       "Gender": "W",
       "Name": "Kaitlin Bryhn",
       "Total Points": 376,
@@ -1834,7 +1802,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 66,
+      "Place": 65,
       "Gender": "M",
       "Name": "Jacob Laurent",
       "Total Points": 374,
@@ -1850,7 +1818,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 67,
+      "Place": 66,
       "Gender": "M",
       "Name": "Jason Cork",
       "Total Points": 372,
@@ -1866,7 +1834,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 68,
+      "Place": 67,
       "Gender": "M",
       "Name": "Karl Holub",
       "Total Points": 371,
@@ -1882,7 +1850,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 69,
+      "Place": 68,
       "Gender": "M",
       "Name": "Christian Smith",
       "Total Points": 370,
@@ -1898,7 +1866,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 70,
+      "Place": 69,
       "Gender": "M",
       "Name": "Nicholas Sundstrom",
       "Total Points": 365,
@@ -1914,23 +1882,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 46,
-      "Gender": "W",
-      "Name": "Aimee Bannwarth",
-      "Total Points": 365,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 0,
-      "Hartley": 122,
-      "Brown's Point": 127,
-      "Rock Hill": 116,
-      "Pine Valley": 0,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 71,
+      "Place": 70,
       "Gender": "M",
       "Name": "Tanner Hoel",
       "Total Points": 364,
@@ -1946,7 +1898,23 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 72,
+      "Place": 45,
+      "Gender": "W",
+      "Name": "Aimee Bannwarth",
+      "Total Points": 364,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 0,
+      "Hartley": 122,
+      "Brown's Point": 126,
+      "Rock Hill": 116,
+      "Pine Valley": 0,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 71,
       "Gender": "M",
       "Name": "Cyrus Stone",
       "Total Points": 359,
@@ -1962,7 +1930,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 47,
+      "Place": 46,
       "Gender": "W",
       "Name": "Stacey Stark",
       "Total Points": 358,
@@ -1978,7 +1946,23 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 73,
+      "Place": 47,
+      "Gender": "W",
+      "Name": "Haley Duncan",
+      "Total Points": 356,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 100,
+      "Hartley": 0,
+      "Brown's Point": 106,
+      "Rock Hill": 0,
+      "Pine Valley": 150,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 72,
       "Gender": "M",
       "Name": "Dave Antonson",
       "Total Points": 355,
@@ -1994,7 +1978,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 74,
+      "Place": 73,
       "Gender": "M",
       "Name": "Bradley Gumtow",
       "Total Points": 354,
@@ -2010,7 +1994,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 75,
+      "Place": 74,
       "Gender": "M",
       "Name": "Tim Shovein",
       "Total Points": 354,
@@ -2042,7 +2026,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 76,
+      "Place": 75,
       "Gender": "M",
       "Name": "Benjamin Johnson",
       "Total Points": 346,
@@ -2053,6 +2037,22 @@
       "Brown's Point": 0,
       "Rock Hill": 89,
       "Pine Valley": 96,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 76,
+      "Gender": "M",
+      "Name": "Woody Smith",
+      "Total Points": 345,
+      "Bonus": 0,
+      "Lester Park": 68,
+      "Zapp's Loop": 57,
+      "Hartley": 45,
+      "Brown's Point": 75,
+      "Rock Hill": 35,
+      "Pine Valley": 65,
       "Rolling Stone": 0,
       "Bull Run": 0,
       "Hawk Ridge": 0
@@ -2077,12 +2077,12 @@
       "Place": 49,
       "Gender": "W",
       "Name": "Emily Schouweiler",
-      "Total Points": 344,
+      "Total Points": 343,
       "Bonus": 0,
       "Lester Park": 0,
       "Zapp's Loop": 111,
       "Hartley": 0,
-      "Brown's Point": 119,
+      "Brown's Point": 118,
       "Rock Hill": 114,
       "Pine Valley": 0,
       "Rolling Stone": 0,
@@ -2093,12 +2093,12 @@
       "Place": 78,
       "Gender": "M",
       "Name": "Jarrow Wahman",
-      "Total Points": 337,
+      "Total Points": 336,
       "Bonus": 0,
       "Lester Park": 66,
       "Zapp's Loop": 55,
       "Hartley": 43,
-      "Brown's Point": 75,
+      "Brown's Point": 74,
       "Rock Hill": 34,
       "Pine Valley": 64,
       "Rolling Stone": 0,
@@ -2109,12 +2109,12 @@
       "Place": 50,
       "Gender": "W",
       "Name": "Veronica Wahman",
-      "Total Points": 336,
+      "Total Points": 335,
       "Bonus": 0,
       "Lester Park": 0,
       "Zapp's Loop": 115,
       "Hartley": 99,
-      "Brown's Point": 122,
+      "Brown's Point": 121,
       "Rock Hill": 0,
       "Pine Valley": 0,
       "Rolling Stone": 0,
@@ -2123,22 +2123,6 @@
     },
     {
       "Place": 79,
-      "Gender": "M",
-      "Name": "Kinyee Sin",
-      "Total Points": 335,
-      "Bonus": 0,
-      "Lester Park": 112,
-      "Zapp's Loop": 0,
-      "Hartley": 0,
-      "Brown's Point": 118,
-      "Rock Hill": 105,
-      "Pine Valley": 0,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 80,
       "Gender": "M",
       "Name": "Jacob Dalberg",
       "Total Points": 334,
@@ -2154,7 +2138,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 81,
+      "Place": 80,
       "Gender": "M",
       "Name": "Rod Raymond",
       "Total Points": 333,
@@ -2202,7 +2186,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 82,
+      "Place": 81,
       "Gender": "M",
       "Name": "Ben Smrekar",
       "Total Points": 329,
@@ -2234,7 +2218,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 83,
+      "Place": 82,
       "Gender": "M",
       "Name": "Caleb Vandewege",
       "Total Points": 315,
@@ -2250,7 +2234,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 84,
+      "Place": 83,
       "Gender": "M",
       "Name": "Jordan Curtis",
       "Total Points": 310,
@@ -2266,7 +2250,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 85,
+      "Place": 84,
       "Gender": "M",
       "Name": "Roger Reinert",
       "Total Points": 303,
@@ -2292,6 +2276,22 @@
       "Hartley": 0,
       "Brown's Point": 0,
       "Rock Hill": 0,
+      "Pine Valley": 0,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 85,
+      "Gender": "M",
+      "Name": "Kinyee Sin",
+      "Total Points": 299,
+      "Bonus": 0,
+      "Lester Park": 112,
+      "Zapp's Loop": 0,
+      "Hartley": 0,
+      "Brown's Point": 82,
+      "Rock Hill": 105,
       "Pine Valley": 0,
       "Rolling Stone": 0,
       "Bull Run": 0,
@@ -2380,22 +2380,6 @@
     {
       "Place": 90,
       "Gender": "M",
-      "Name": "Darrin Johnson",
-      "Total Points": 282,
-      "Bonus": 0,
-      "Lester Park": 66,
-      "Zapp's Loop": 0,
-      "Hartley": 43,
-      "Brown's Point": 75,
-      "Rock Hill": 34,
-      "Pine Valley": 64,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 91,
-      "Gender": "M",
       "Name": "Jacob Brown",
       "Total Points": 282,
       "Bonus": 0,
@@ -2410,7 +2394,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 92,
+      "Place": 91,
       "Gender": "M",
       "Name": "Keith Thompson",
       "Total Points": 282,
@@ -2426,7 +2410,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 93,
+      "Place": 92,
       "Gender": "M",
       "Name": "Sumner Cotton",
       "Total Points": 282,
@@ -2437,6 +2421,22 @@
       "Brown's Point": 0,
       "Rock Hill": 138,
       "Pine Valley": 0,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 93,
+      "Gender": "M",
+      "Name": "Darrin Johnson",
+      "Total Points": 281,
+      "Bonus": 0,
+      "Lester Park": 66,
+      "Zapp's Loop": 0,
+      "Hartley": 43,
+      "Brown's Point": 74,
+      "Rock Hill": 34,
+      "Pine Valley": 64,
       "Rolling Stone": 0,
       "Bull Run": 0,
       "Hawk Ridge": 0
@@ -2618,22 +2618,6 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 61,
-      "Gender": "W",
-      "Name": "Taylor Nystrom",
-      "Total Points": 257,
-      "Bonus": 0,
-      "Lester Park": 127,
-      "Zapp's Loop": 0,
-      "Hartley": 0,
-      "Brown's Point": 130,
-      "Rock Hill": 0,
-      "Pine Valley": 0,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
       "Place": 100,
       "Gender": "M",
       "Name": "Paul Durham",
@@ -2659,6 +2643,22 @@
       "Zapp's Loop": 0,
       "Hartley": 125,
       "Brown's Point": 132,
+      "Rock Hill": 0,
+      "Pine Valley": 0,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 61,
+      "Gender": "W",
+      "Name": "Taylor Nystrom",
+      "Total Points": 256,
+      "Bonus": 0,
+      "Lester Park": 127,
+      "Zapp's Loop": 0,
+      "Hartley": 0,
+      "Brown's Point": 129,
       "Rock Hill": 0,
       "Pine Valley": 0,
       "Rolling Stone": 0,
@@ -2764,14 +2764,14 @@
     {
       "Place": 64,
       "Gender": "W",
-      "Name": "Lohen McNulty",
-      "Total Points": 241,
+      "Name": "Alena Tofte",
+      "Total Points": 240,
       "Bonus": 0,
       "Lester Park": 0,
       "Zapp's Loop": 0,
-      "Hartley": 115,
-      "Brown's Point": 126,
-      "Rock Hill": 0,
+      "Hartley": 114,
+      "Brown's Point": 0,
+      "Rock Hill": 126,
       "Pine Valley": 0,
       "Rolling Stone": 0,
       "Bull Run": 0,
@@ -2780,13 +2780,13 @@
     {
       "Place": 65,
       "Gender": "W",
-      "Name": "Allie Prokosch",
+      "Name": "Lohen McNulty",
       "Total Points": 240,
       "Bonus": 0,
       "Lester Park": 0,
       "Zapp's Loop": 0,
-      "Hartley": 120,
-      "Brown's Point": 120,
+      "Hartley": 115,
+      "Brown's Point": 125,
       "Rock Hill": 0,
       "Pine Valley": 0,
       "Rolling Stone": 0,
@@ -2796,14 +2796,14 @@
     {
       "Place": 66,
       "Gender": "W",
-      "Name": "Alena Tofte",
-      "Total Points": 240,
+      "Name": "Allie Prokosch",
+      "Total Points": 239,
       "Bonus": 0,
       "Lester Park": 0,
       "Zapp's Loop": 0,
-      "Hartley": 114,
-      "Brown's Point": 0,
-      "Rock Hill": 126,
+      "Hartley": 120,
+      "Brown's Point": 119,
+      "Rock Hill": 0,
       "Pine Valley": 0,
       "Rolling Stone": 0,
       "Bull Run": 0,
@@ -2957,12 +2957,12 @@
       "Place": 112,
       "Gender": "M",
       "Name": "Dave Israel",
-      "Total Points": 218,
+      "Total Points": 217,
       "Bonus": 0,
       "Lester Park": 66,
       "Zapp's Loop": 0,
       "Hartley": 43,
-      "Brown's Point": 75,
+      "Brown's Point": 74,
       "Rock Hill": 34,
       "Pine Valley": 0,
       "Rolling Stone": 0,
@@ -2973,12 +2973,12 @@
       "Place": 113,
       "Gender": "M",
       "Name": "Clay Taintor",
-      "Total Points": 216,
+      "Total Points": 215,
       "Bonus": 0,
       "Lester Park": 0,
       "Zapp's Loop": 0,
       "Hartley": 43,
-      "Brown's Point": 75,
+      "Brown's Point": 74,
       "Rock Hill": 34,
       "Pine Valley": 64,
       "Rolling Stone": 0,
@@ -3962,22 +3962,6 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 99,
-      "Gender": "W",
-      "Name": "Christina Fanola",
-      "Total Points": 131,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 0,
-      "Hartley": 0,
-      "Brown's Point": 131,
-      "Rock Hill": 0,
-      "Pine Valley": 0,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
       "Place": 143,
       "Gender": "M",
       "Name": "James A Kyes",
@@ -3987,6 +3971,22 @@
       "Zapp's Loop": 0,
       "Hartley": 0,
       "Brown's Point": 0,
+      "Rock Hill": 0,
+      "Pine Valley": 0,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 99,
+      "Gender": "W",
+      "Name": "Christina Fanola",
+      "Total Points": 130,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 0,
+      "Hartley": 0,
+      "Brown's Point": 130,
       "Rock Hill": 0,
       "Pine Valley": 0,
       "Rolling Stone": 0,
@@ -4316,22 +4316,6 @@
     {
       "Place": 112,
       "Gender": "W",
-      "Name": "Lilli Garza",
-      "Total Points": 121,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 0,
-      "Hartley": 0,
-      "Brown's Point": 121,
-      "Rock Hill": 0,
-      "Pine Valley": 0,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 113,
-      "Gender": "W",
       "Name": "Ann Farley",
       "Total Points": 121,
       "Bonus": 0,
@@ -4340,6 +4324,22 @@
       "Hartley": 0,
       "Brown's Point": 0,
       "Rock Hill": 121,
+      "Pine Valley": 0,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 113,
+      "Gender": "W",
+      "Name": "Lilli Garza",
+      "Total Points": 120,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 0,
+      "Hartley": 0,
+      "Brown's Point": 120,
+      "Rock Hill": 0,
       "Pine Valley": 0,
       "Rolling Stone": 0,
       "Bull Run": 0,
@@ -4874,38 +4874,6 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 129,
-      "Gender": "W",
-      "Name": "Juniper Walker",
-      "Total Points": 105,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 0,
-      "Hartley": 0,
-      "Brown's Point": 105,
-      "Rock Hill": 0,
-      "Pine Valley": 0,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 130,
-      "Gender": "W",
-      "Name": "Amanda Rau",
-      "Total Points": 105,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 0,
-      "Hartley": 0,
-      "Brown's Point": 105,
-      "Rock Hill": 0,
-      "Pine Valley": 0,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
       "Place": 170,
       "Gender": "M",
       "Name": "Quinton Taylor",
@@ -4938,7 +4906,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 131,
+      "Place": 129,
       "Gender": "W",
       "Name": "Unknown Runner2",
       "Total Points": 104,
@@ -4947,6 +4915,38 @@
       "Zapp's Loop": 0,
       "Hartley": 104,
       "Brown's Point": 0,
+      "Rock Hill": 0,
+      "Pine Valley": 0,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 130,
+      "Gender": "W",
+      "Name": "Juniper Walker",
+      "Total Points": 104,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 0,
+      "Hartley": 0,
+      "Brown's Point": 104,
+      "Rock Hill": 0,
+      "Pine Valley": 0,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 131,
+      "Gender": "W",
+      "Name": "Amanda Rau",
+      "Total Points": 104,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 0,
+      "Hartley": 0,
+      "Brown's Point": 104,
       "Rock Hill": 0,
       "Pine Valley": 0,
       "Rolling Stone": 0,
@@ -13020,6 +13020,18 @@
       "points": 92
     },
     {
+      "name": "Anne Hyöppönen",
+      "gender": "W",
+      "date": "2026-09-16T05:00:00.000Z",
+      "series": "Fall Series",
+      "course": "Brown's Point",
+      "volunteer": "",
+      "time": 2804000.000108499,
+      "place": 80,
+      "gender_place": 20,
+      "points": 131
+    },
+    {
       "name": "Christina Fanola",
       "gender": "W",
       "date": "2026-09-16T05:00:00.000Z",
@@ -13028,8 +13040,8 @@
       "volunteer": false,
       "time": 2810999.9998589046,
       "place": 81,
-      "gender_place": 20,
-      "points": 131
+      "gender_place": 21,
+      "points": 130
     },
     {
       "name": "Taylor Nystrom",
@@ -13040,8 +13052,8 @@
       "volunteer": false,
       "time": 2820000.000076834,
       "place": 82,
-      "gender_place": 21,
-      "points": 130
+      "gender_place": 22,
+      "points": 129
     },
     {
       "name": "Brette Jensen",
@@ -13052,8 +13064,8 @@
       "volunteer": false,
       "time": 2820999.9999962747,
       "place": 83,
-      "gender_place": 22,
-      "points": 129
+      "gender_place": 23,
+      "points": 128
     },
     {
       "name": "Sara Zimmer",
@@ -13064,8 +13076,8 @@
       "volunteer": false,
       "time": 2867000.0000623986,
       "place": 84,
-      "gender_place": 23,
-      "points": 128
+      "gender_place": 24,
+      "points": 127
     },
     {
       "name": "Jackson Clark",
@@ -13100,8 +13112,8 @@
       "volunteer": false,
       "time": 2895000.000006985,
       "place": 87,
-      "gender_place": 24,
-      "points": 127
+      "gender_place": 25,
+      "points": 126
     },
     {
       "name": "Lohen McNulty",
@@ -13112,8 +13124,8 @@
       "volunteer": false,
       "time": 2899999.9999185093,
       "place": 88,
-      "gender_place": 25,
-      "points": 126
+      "gender_place": 26,
+      "points": 125
     },
     {
       "name": "Hailey Bauer",
@@ -13124,8 +13136,8 @@
       "volunteer": false,
       "time": 2902999.9999911524,
       "place": 89,
-      "gender_place": 26,
-      "points": 125
+      "gender_place": 27,
+      "points": 124
     },
     {
       "name": "Matt Evans",
@@ -13160,8 +13172,8 @@
       "volunteer": false,
       "time": 2917000.0001206063,
       "place": 92,
-      "gender_place": 27,
-      "points": 124
+      "gender_place": 28,
+      "points": 123
     },
     {
       "name": "Jordan Curtis",
@@ -13196,8 +13208,8 @@
       "volunteer": false,
       "time": 2941999.9999925494,
       "place": 95,
-      "gender_place": 28,
-      "points": 123
+      "gender_place": 29,
+      "points": 122
     },
     {
       "name": "Mike McNulty",
@@ -13232,8 +13244,8 @@
       "volunteer": false,
       "time": 3015000.000083819,
       "place": 98,
-      "gender_place": 29,
-      "points": 122
+      "gender_place": 30,
+      "points": 121
     },
     {
       "name": "Lilli Garza",
@@ -13244,8 +13256,8 @@
       "volunteer": false,
       "time": 3074000.000045635,
       "place": 99,
-      "gender_place": 30,
-      "points": 121
+      "gender_place": 31,
+      "points": 120
     },
     {
       "name": "Allie Prokosch",
@@ -13256,8 +13268,8 @@
       "volunteer": false,
       "time": 3075999.999884516,
       "place": 100,
-      "gender_place": 31,
-      "points": 120
+      "gender_place": 32,
+      "points": 119
     },
     {
       "name": "Emily Schouweiler",
@@ -13268,8 +13280,8 @@
       "volunteer": false,
       "time": 3105000.0000628643,
       "place": 101,
-      "gender_place": 32,
-      "points": 119
+      "gender_place": 33,
+      "points": 118
     },
     {
       "name": "Matthew Henderson",
@@ -13292,8 +13304,8 @@
       "volunteer": false,
       "time": 3113999.9999664724,
       "place": 103,
-      "gender_place": 33,
-      "points": 118
+      "gender_place": 69,
+      "points": 82
     },
     {
       "name": "Amy Schwoch",
@@ -13304,8 +13316,8 @@
       "volunteer": false,
       "time": 3125000.000023283,
       "place": 104,
-      "gender_place": 69,
-      "points": 82
+      "gender_place": 34,
+      "points": 117
     },
     {
       "name": "Leif DeVaney",
@@ -13340,8 +13352,8 @@
       "volunteer": false,
       "time": 3160000.0000325963,
       "place": 107,
-      "gender_place": 34,
-      "points": 117
+      "gender_place": 72,
+      "points": 79
     },
     {
       "name": "Caroline Olson",
@@ -13364,8 +13376,8 @@
       "volunteer": false,
       "time": 3169999.999855645,
       "place": 109,
-      "gender_place": 72,
-      "points": 79
+      "gender_place": 36,
+      "points": 115
     },
     {
       "name": "Steve Heikkila",
@@ -13376,8 +13388,8 @@
       "volunteer": false,
       "time": 3273000.0000447035,
       "place": 110,
-      "gender_place": 36,
-      "points": 115
+      "gender_place": 73,
+      "points": 78
     },
     {
       "name": "Julie Bernhardt",
@@ -13436,8 +13448,8 @@
       "volunteer": false,
       "time": 3519999.9999487773,
       "place": 115,
-      "gender_place": 73,
-      "points": 78
+      "gender_place": 41,
+      "points": 110
     },
     {
       "name": "Adam McGill",
@@ -13448,8 +13460,8 @@
       "volunteer": false,
       "time": 3660999.9999054708,
       "place": 116,
-      "gender_place": 41,
-      "points": 110
+      "gender_place": 74,
+      "points": 77
     },
     {
       "name": "Rachel Shiller",
@@ -13472,8 +13484,8 @@
       "volunteer": false,
       "time": 4108999.999961816,
       "place": 118,
-      "gender_place": 74,
-      "points": 77
+      "gender_place": 43,
+      "points": 108
     },
     {
       "name": "Ben Talarico",
@@ -13496,8 +13508,8 @@
       "volunteer": false,
       "time": 4217999.999981839,
       "place": 120,
-      "gender_place": 43,
-      "points": 108
+      "gender_place": 76,
+      "points": 75
     },
     {
       "name": "Emma Daharsh",
@@ -13520,8 +13532,8 @@
       "volunteer": false,
       "time": 4665000.000118744,
       "place": 122,
-      "gender_place": 1,
-      "points": 150
+      "gender_place": 45,
+      "points": 106
     },
     {
       "name": "Barb Bengtson",
@@ -13532,8 +13544,8 @@
       "volunteer": false,
       "time": 4667999.999877065,
       "place": 123,
-      "gender_place": 45,
-      "points": 106
+      "gender_place": 46,
+      "points": 105
     },
     {
       "name": "Laura Palombi",
@@ -13544,8 +13556,8 @@
       "volunteer": true,
       "time": 4668000.999877065,
       "place": "VOL",
-      "gender_place": 46,
-      "points": 105
+      "gender_place": 47,
+      "points": 104
     },
     {
       "name": "Shelly Thompson",
@@ -13556,8 +13568,8 @@
       "volunteer": true,
       "time": 4668000.999877065,
       "place": "VOL",
-      "gender_place": 46,
-      "points": 105
+      "gender_place": 47,
+      "points": 104
     },
     {
       "name": "Darrin Johnson",
@@ -13568,8 +13580,8 @@
       "volunteer": true,
       "time": 4668000.999877065,
       "place": "VOL",
-      "gender_place": 76,
-      "points": 75
+      "gender_place": 77,
+      "points": 74
     },
     {
       "name": "Mae Gackstetter",
@@ -13580,8 +13592,8 @@
       "volunteer": true,
       "time": 4668000.999877065,
       "place": "VOL",
-      "gender_place": 46,
-      "points": 105
+      "gender_place": 47,
+      "points": 104
     },
     {
       "name": "Jarrow Wahman",
@@ -13592,8 +13604,8 @@
       "volunteer": true,
       "time": 4668000.999877065,
       "place": "VOL",
-      "gender_place": 76,
-      "points": 75
+      "gender_place": 77,
+      "points": 74
     },
     {
       "name": "Nate Hubert",
@@ -13604,8 +13616,8 @@
       "volunteer": true,
       "time": 4668000.999877065,
       "place": "VOL",
-      "gender_place": 76,
-      "points": 75
+      "gender_place": 77,
+      "points": 74
     },
     {
       "name": "Clay Taintor",
@@ -13616,8 +13628,8 @@
       "volunteer": true,
       "time": 4668000.999877065,
       "place": "VOL",
-      "gender_place": 76,
-      "points": 75
+      "gender_place": 77,
+      "points": 74
     },
     {
       "name": "Juniper Walker",
@@ -13628,8 +13640,8 @@
       "volunteer": true,
       "time": 4668000.999877065,
       "place": "VOL",
-      "gender_place": 46,
-      "points": 105
+      "gender_place": 47,
+      "points": 104
     },
     {
       "name": "Amanda Rau",
@@ -13640,8 +13652,8 @@
       "volunteer": true,
       "time": 4668000.999877065,
       "place": "VOL",
-      "gender_place": 46,
-      "points": 105
+      "gender_place": 47,
+      "points": 104
     },
     {
       "name": "Dave Israel",
@@ -13652,8 +13664,8 @@
       "volunteer": true,
       "time": 4668000.999877065,
       "place": "VOL",
-      "gender_place": 76,
-      "points": 75
+      "gender_place": 77,
+      "points": 74
     },
     {
       "name": "Justus Olson",
@@ -13664,8 +13676,8 @@
       "volunteer": true,
       "time": 4668000.999877065,
       "place": "VOL",
-      "gender_place": 76,
-      "points": 75
+      "gender_place": 77,
+      "points": 74
     },
     {
       "name": "Shannon Kelson",
@@ -13676,20 +13688,8 @@
       "volunteer": true,
       "time": 4668000.999877065,
       "place": "VOL",
-      "gender_place": 46,
-      "points": 105
-    },
-    {
-      "name": "Anne Hyöppönen",
-      "gender": "W",
-      "date": "2026-09-16T05:00:00.000Z",
-      "series": "Fall Series",
-      "course": "Brown's Point",
-      "volunteer": "",
-      "time": 2804000.0000000005,
-      "place": 80,
-      "gender_place": "",
-      "points": ""
+      "gender_place": 47,
+      "points": 104
     },
     {
       "name": "Tryg Solberg",
