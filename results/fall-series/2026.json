@@ -3004,22 +3004,6 @@
     {
       "Place": 113,
       "Gender": "M",
-      "Name": "Unknown Runner1",
-      "Total Points": 212,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 0,
-      "Hartley": 116,
-      "Brown's Point": 0,
-      "Rock Hill": 96,
-      "Pine Valley": 0,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 114,
-      "Gender": "M",
       "Name": "Clay Taintor",
       "Total Points": 212,
       "Bonus": 0,
@@ -3050,7 +3034,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 115,
+      "Place": 114,
       "Gender": "M",
       "Name": "Chris Morris",
       "Total Points": 211,
@@ -3061,6 +3045,22 @@
       "Brown's Point": 0,
       "Rock Hill": 66,
       "Pine Valley": 0,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 115,
+      "Gender": "M",
+      "Name": "John Kopacek",
+      "Total Points": 210,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 0,
+      "Hartley": 0,
+      "Brown's Point": 0,
+      "Rock Hill": 96,
+      "Pine Valley": 114,
       "Rolling Stone": 0,
       "Bull Run": 0,
       "Hawk Ridge": 0
@@ -4444,6 +4444,22 @@
     {
       "Place": 154,
       "Gender": "M",
+      "Name": "Unknown Runner1",
+      "Total Points": 116,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 0,
+      "Hartley": 116,
+      "Brown's Point": 0,
+      "Rock Hill": 0,
+      "Pine Valley": 0,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 155,
+      "Gender": "M",
       "Name": "Nico Ghandhi",
       "Total Points": 115,
       "Bonus": 0,
@@ -4474,7 +4490,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 155,
+      "Place": 156,
       "Gender": "M",
       "Name": "Pat Bergen",
       "Total Points": 115,
@@ -4490,7 +4506,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 156,
+      "Place": 157,
       "Gender": "M",
       "Name": "Trent Norlin",
       "Total Points": 115,
@@ -4517,22 +4533,6 @@
       "Brown's Point": 0,
       "Rock Hill": 0,
       "Pine Valley": 0,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 157,
-      "Gender": "M",
-      "Name": "John Kopacek",
-      "Total Points": 114,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 0,
-      "Hartley": 0,
-      "Brown's Point": 0,
-      "Rock Hill": 0,
-      "Pine Valley": 114,
       "Rolling Stone": 0,
       "Bull Run": 0,
       "Hawk Ridge": 0
@@ -14408,18 +14408,6 @@
       "points": 97
     },
     {
-      "name": "Unknown Runner1",
-      "gender": "M",
-      "date": "2026-09-23T05:00:00.000Z",
-      "series": "Fall Series",
-      "course": "Rock Hill",
-      "volunteer": "",
-      "time": 1673999.9999874271,
-      "place": 62,
-      "gender_place": 55,
-      "points": 96
-    },
-    {
       "name": "Cody Hanson",
       "gender": "X",
       "date": "2026-09-23T05:00:00.000Z",
@@ -15942,6 +15930,18 @@
       "place": "VOL",
       "gender_place": 118,
       "points": 33
+    },
+    {
+      "name": "John Kopacek",
+      "gender": "M",
+      "date": "2026-09-23T05:00:00.000Z",
+      "series": "Fall Series",
+      "course": "Rock Hill",
+      "volunteer": "",
+      "time": 1673999.9999874271,
+      "place": 62,
+      "gender_place": 55,
+      "points": 96
     },
     {
       "name": "Tryg Solberg",
