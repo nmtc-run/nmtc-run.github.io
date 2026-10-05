@@ -346,22 +346,6 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 11,
-      "Gender": "M",
-      "Name": "Adam Van Straten",
-      "Total Points": 770,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 122,
-      "Hartley": 119,
-      "Brown's Point": 126,
-      "Rock Hill": 131,
-      "Pine Valley": 135,
-      "Rolling Stone": 137,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
       "Place": 9,
       "Gender": "W",
       "Name": "Hailey Bauer",
@@ -426,7 +410,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 12,
+      "Place": 11,
       "Gender": "M",
       "Name": "Kendall Hill",
       "Total Points": 745,
@@ -458,7 +442,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 13,
+      "Place": 12,
       "Gender": "M",
       "Name": "Ryan Staub",
       "Total Points": 734,
@@ -490,7 +474,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 14,
+      "Place": 13,
       "Gender": "M",
       "Name": "Adam Dugas",
       "Total Points": 729,
@@ -522,7 +506,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 15,
+      "Place": 14,
       "Gender": "M",
       "Name": "Logan Baier",
       "Total Points": 727,
@@ -538,7 +522,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 16,
+      "Place": 15,
       "Gender": "M",
       "Name": "Calvin Boone",
       "Total Points": 719,
@@ -586,7 +570,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 17,
+      "Place": 16,
       "Gender": "M",
       "Name": "Jack Harvey",
       "Total Points": 701,
@@ -602,7 +586,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 18,
+      "Place": 17,
       "Gender": "M",
       "Name": "Dave Lane",
       "Total Points": 689,
@@ -634,7 +618,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 19,
+      "Place": 18,
       "Gender": "M",
       "Name": "Henry Campbell",
       "Total Points": 688,
@@ -666,7 +650,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 20,
+      "Place": 19,
       "Gender": "M",
       "Name": "Dave Schaeffer",
       "Total Points": 685,
@@ -678,6 +662,22 @@
       "Rock Hill": 33,
       "Pine Valley": 88,
       "Rolling Stone": 124,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 20,
+      "Gender": "M",
+      "Name": "Aiden Van Straten",
+      "Total Points": 684,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 122,
+      "Hartley": 134,
+      "Brown's Point": 0,
+      "Rock Hill": 141,
+      "Pine Valley": 142,
+      "Rolling Stone": 145,
       "Bull Run": 0,
       "Hawk Ridge": 0
     },
@@ -780,6 +780,22 @@
     {
       "Place": 24,
       "Gender": "M",
+      "Name": "Adam Van Straten",
+      "Total Points": 648,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 0,
+      "Hartley": 119,
+      "Brown's Point": 126,
+      "Rock Hill": 131,
+      "Pine Valley": 135,
+      "Rolling Stone": 137,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 25,
+      "Gender": "M",
       "Name": "Chase Edgerton",
       "Total Points": 634,
       "Bonus": 0,
@@ -810,7 +826,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 25,
+      "Place": 26,
       "Gender": "M",
       "Name": "Jackson Saburn",
       "Total Points": 601,
@@ -858,7 +874,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 26,
+      "Place": 27,
       "Gender": "M",
       "Name": "Peter Spethmann",
       "Total Points": 587,
@@ -874,7 +890,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 27,
+      "Place": 28,
       "Gender": "M",
       "Name": "Matt Evans",
       "Total Points": 568,
@@ -886,22 +902,6 @@
       "Rock Hill": 69,
       "Pine Valley": 79,
       "Rolling Stone": 105,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 28,
-      "Gender": "M",
-      "Name": "Aiden Van Straten",
-      "Total Points": 562,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 0,
-      "Hartley": 134,
-      "Brown's Point": 0,
-      "Rock Hill": 141,
-      "Pine Valley": 142,
-      "Rolling Stone": 145,
       "Bull Run": 0,
       "Hawk Ridge": 0
     },
@@ -8388,7 +8388,7 @@
       "points": 123
     },
     {
-      "name": "Adam Van Straten",
+      "name": "Aiden Van Straten",
       "gender": "M",
       "date": "2026-09-02T05:00:00.000Z",
       "series": "Fall Series",
@@ -8622,7 +8622,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 2954999.9998882413,
+      "time": "#REF!",
       "place": 53,
       "gender_place": 44,
       "points": 107
@@ -8634,7 +8634,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 2956000.0001220033,
+      "time": 2954999.9998882413,
       "place": 54,
       "gender_place": 45,
       "points": 106
@@ -8646,7 +8646,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 2961999.999952968,
+      "time": 2956000.0001220033,
       "place": 55,
       "gender_place": 9,
       "points": 142
@@ -8658,7 +8658,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 2962999.999872409,
+      "time": 2961999.999952968,
       "place": 56,
       "gender_place": 46,
       "points": 105
@@ -8670,7 +8670,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 2965999.999945052,
+      "time": 2962999.999872409,
       "place": 57,
       "gender_place": 10,
       "points": 141
@@ -8682,7 +8682,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 2968000.0000982545,
+      "time": 2965999.999945052,
       "place": 58,
       "gender_place": 47,
       "points": 104
@@ -8694,7 +8694,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 2980999.9999939464,
+      "time": 2968000.0000982545,
       "place": 59,
       "gender_place": 48,
       "points": 103
@@ -8706,7 +8706,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 2983000.000147149,
+      "time": 2980999.9999939464,
       "place": 60,
       "gender_place": 1,
       "points": 150
@@ -8718,7 +8718,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 2985999.9999054708,
+      "time": 2983000.000147149,
       "place": 61,
       "gender_place": 49,
       "points": 102
@@ -8730,7 +8730,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3016999.9999227,
+      "time": 2985999.9999054708,
       "place": 62,
       "gender_place": 50,
       "points": 101
@@ -8742,7 +8742,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3022000.000148546,
+      "time": 3016999.9999227,
       "place": 63,
       "gender_place": 51,
       "points": 100
@@ -8754,7 +8754,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3043999.999947846,
+      "time": 3022000.000148546,
       "place": 64,
       "gender_place": 52,
       "points": 99
@@ -8766,7 +8766,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3065000.0001420267,
+      "time": 3043999.999947846,
       "place": 65,
       "gender_place": 53,
       "points": 98
@@ -8778,7 +8778,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3073000.000126194,
+      "time": 3065000.0001420267,
       "place": 66,
       "gender_place": 54,
       "points": 97
@@ -8790,7 +8790,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3100000.00015134,
+      "time": 3073000.000126194,
       "place": 67,
       "gender_place": 55,
       "points": 96
@@ -8802,7 +8802,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3102999.9999096617,
+      "time": 3100000.00015134,
       "place": 68,
       "gender_place": 56,
       "points": 95
@@ -8814,7 +8814,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3113000.000047032,
+      "time": 3102999.9999096617,
       "place": 69,
       "gender_place": 57,
       "points": 94
@@ -8826,7 +8826,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3124000.0001038425,
+      "time": 3113000.000047032,
       "place": 70,
       "gender_place": 58,
       "points": 93
@@ -8838,7 +8838,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3125000.000023283,
+      "time": 3124000.0001038425,
       "place": 71,
       "gender_place": 11,
       "points": 140
@@ -8850,7 +8850,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3125999.9999427237,
+      "time": 3125000.000023283,
       "place": 72,
       "gender_place": 59,
       "points": 92
@@ -8862,7 +8862,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3128000.000095926,
+      "time": 3125999.9999427237,
       "place": 73,
       "gender_place": 60,
       "points": 91
@@ -8874,7 +8874,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3136000.0000800937,
+      "time": 3128000.000095926,
       "place": 74,
       "gender_place": 61,
       "points": 90
@@ -8886,7 +8886,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3156000.0000405125,
+      "time": 3136000.0000800937,
       "place": 75,
       "gender_place": 62,
       "points": 89
@@ -8898,7 +8898,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3157999.9998793937,
+      "time": 3156000.0000405125,
       "place": 76,
       "gender_place": 63,
       "points": 88
@@ -8910,7 +8910,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3161999.9998714775,
+      "time": 3157999.9998793937,
       "place": 77,
       "gender_place": 64,
       "points": 87
@@ -8922,7 +8922,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3169999.999855645,
+      "time": 3161999.9998714775,
       "place": 78,
       "gender_place": 65,
       "points": 86
@@ -8934,7 +8934,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3172999.999928288,
+      "time": 3169999.999855645,
       "place": 79,
       "gender_place": 12,
       "points": 139
@@ -9354,7 +9354,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 3750000,
+      "time": 3749999.9999650754,
       "place": 114,
       "gender_place": 31,
       "points": 120
@@ -9858,7 +9858,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241001.000142958,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 96,
       "points": 55
@@ -9870,7 +9870,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241001.000142958,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 59,
       "points": 92
@@ -9882,7 +9882,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241001.000142958,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 59,
       "points": 92
@@ -9894,7 +9894,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241001.000142958,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 1,
       "points": 150
@@ -9906,7 +9906,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241001.000142958,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 96,
       "points": 55
@@ -9918,7 +9918,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241001.000142958,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 96,
       "points": 55
@@ -9930,7 +9930,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241001.000142958,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 59,
       "points": 92
@@ -9942,7 +9942,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241001.000142958,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 96,
       "points": 55
@@ -9954,7 +9954,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241001.000142958,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 59,
       "points": 92
@@ -9966,7 +9966,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241001.000142958,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 96,
       "points": 55
