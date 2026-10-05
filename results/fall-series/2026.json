@@ -316,6 +316,22 @@
     {
       "Place": 10,
       "Gender": "M",
+      "Name": "Aiden Van Straten",
+      "Total Points": 810,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 122,
+      "Hartley": 134,
+      "Brown's Point": 126,
+      "Rock Hill": 141,
+      "Pine Valley": 142,
+      "Rolling Stone": 145,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 11,
+      "Gender": "M",
       "Name": "Matt Livingston",
       "Total Points": 789,
       "Bonus": 0,
@@ -410,7 +426,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 11,
+      "Place": 12,
       "Gender": "M",
       "Name": "Kendall Hill",
       "Total Points": 745,
@@ -442,7 +458,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 12,
+      "Place": 13,
       "Gender": "M",
       "Name": "Ryan Staub",
       "Total Points": 734,
@@ -474,7 +490,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 13,
+      "Place": 14,
       "Gender": "M",
       "Name": "Adam Dugas",
       "Total Points": 729,
@@ -506,7 +522,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 14,
+      "Place": 15,
       "Gender": "M",
       "Name": "Logan Baier",
       "Total Points": 727,
@@ -522,7 +538,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 15,
+      "Place": 16,
       "Gender": "M",
       "Name": "Calvin Boone",
       "Total Points": 719,
@@ -570,7 +586,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 16,
+      "Place": 17,
       "Gender": "M",
       "Name": "Jack Harvey",
       "Total Points": 701,
@@ -586,7 +602,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 17,
+      "Place": 18,
       "Gender": "M",
       "Name": "Dave Lane",
       "Total Points": 689,
@@ -618,7 +634,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 18,
+      "Place": 19,
       "Gender": "M",
       "Name": "Henry Campbell",
       "Total Points": 688,
@@ -650,7 +666,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 19,
+      "Place": 20,
       "Gender": "M",
       "Name": "Dave Schaeffer",
       "Total Points": 685,
@@ -662,22 +678,6 @@
       "Rock Hill": 33,
       "Pine Valley": 88,
       "Rolling Stone": 124,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 20,
-      "Gender": "M",
-      "Name": "Aiden Van Straten",
-      "Total Points": 684,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 122,
-      "Hartley": 134,
-      "Brown's Point": 0,
-      "Rock Hill": 141,
-      "Pine Valley": 142,
-      "Rolling Stone": 145,
       "Bull Run": 0,
       "Hawk Ridge": 0
     },
@@ -780,22 +780,6 @@
     {
       "Place": 24,
       "Gender": "M",
-      "Name": "Adam Van Straten",
-      "Total Points": 648,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 0,
-      "Hartley": 119,
-      "Brown's Point": 126,
-      "Rock Hill": 131,
-      "Pine Valley": 135,
-      "Rolling Stone": 137,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 25,
-      "Gender": "M",
       "Name": "Chase Edgerton",
       "Total Points": 634,
       "Bonus": 0,
@@ -826,7 +810,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 26,
+      "Place": 25,
       "Gender": "M",
       "Name": "Jackson Saburn",
       "Total Points": 601,
@@ -874,7 +858,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 27,
+      "Place": 26,
       "Gender": "M",
       "Name": "Peter Spethmann",
       "Total Points": 587,
@@ -890,7 +874,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 28,
+      "Place": 27,
       "Gender": "M",
       "Name": "Matt Evans",
       "Total Points": 568,
@@ -922,7 +906,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 29,
+      "Place": 28,
       "Gender": "M",
       "Name": "Hunter Eldien",
       "Total Points": 554,
@@ -938,7 +922,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 30,
+      "Place": 29,
       "Gender": "M",
       "Name": "Dillon May",
       "Total Points": 551,
@@ -986,7 +970,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 31,
+      "Place": 30,
       "Gender": "M",
       "Name": "Kyle Landwehr",
       "Total Points": 546,
@@ -1002,7 +986,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 32,
+      "Place": 31,
       "Gender": "M",
       "Name": "Ethan Kertz",
       "Total Points": 546,
@@ -1018,7 +1002,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 33,
+      "Place": 32,
       "Gender": "M",
       "Name": "Mike Ward",
       "Total Points": 545,
@@ -1050,7 +1034,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 34,
+      "Place": 33,
       "Gender": "M",
       "Name": "Liam Fife",
       "Total Points": 540,
@@ -1110,6 +1094,22 @@
       "Rock Hill": 99,
       "Pine Valley": 125,
       "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 34,
+      "Gender": "M",
+      "Name": "Adam Van Straten",
+      "Total Points": 522,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 0,
+      "Hartley": 119,
+      "Brown's Point": 0,
+      "Rock Hill": 131,
+      "Pine Valley": 135,
+      "Rolling Stone": 137,
       "Bull Run": 0,
       "Hawk Ridge": 0
     },
@@ -12624,7 +12624,7 @@
       "points": 127
     },
     {
-      "name": "Adam Van Straten",
+      "name": "Aiden Van Straten",
       "gender": "M",
       "date": "2026-09-16T05:00:00.000Z",
       "series": "Fall Series",
@@ -12942,7 +12942,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2493999.9999362044,
+      "time": "#REF!",
       "place": 53,
       "gender_place": 46,
       "points": 105
@@ -12954,7 +12954,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2496000.000089407,
+      "time": 2493999.9999362044,
       "place": 54,
       "gender_place": 7,
       "points": 144
@@ -12966,7 +12966,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2512999.9999771826,
+      "time": 2496000.000089407,
       "place": 55,
       "gender_place": 8,
       "points": 143
@@ -12978,7 +12978,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2527000.0001066364,
+      "time": 2512999.9999771826,
       "place": 56,
       "gender_place": 47,
       "points": 104
@@ -12990,7 +12990,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2528999.9999455176,
+      "time": 2527000.0001066364,
       "place": 57,
       "gender_place": 48,
       "points": 103
@@ -13002,7 +13002,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2544999.9999138527,
+      "time": 2528999.9999455176,
       "place": 58,
       "gender_place": 49,
       "points": 102
@@ -13014,7 +13014,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2583999.9999152496,
+      "time": 2544999.9999138527,
       "place": 59,
       "gender_place": 50,
       "points": 101
@@ -13026,7 +13026,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2590000.000060536,
+      "time": 2583999.9999152496,
       "place": 60,
       "gender_place": 9,
       "points": 142
@@ -13038,7 +13038,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2602000.0000367872,
+      "time": 2590000.000060536,
       "place": 61,
       "gender_place": 51,
       "points": 100
@@ -13050,7 +13050,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2618000.0000051223,
+      "time": 2602000.0000367872,
       "place": 62,
       "gender_place": 10,
       "points": 141
@@ -13062,7 +13062,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2657000.0000065193,
+      "time": 2618000.0000051223,
       "place": 63,
       "gender_place": 11,
       "points": 140
@@ -13074,7 +13074,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2660000.0000791624,
+      "time": 2657000.0000065193,
       "place": 64,
       "gender_place": 12,
       "points": 139
@@ -13086,7 +13086,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2664000.000071246,
+      "time": 2660000.0000791624,
       "place": 65,
       "gender_place": 13,
       "points": 138
@@ -13098,7 +13098,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2668000.00006333,
+      "time": 2664000.000071246,
       "place": 66,
       "gender_place": 52,
       "points": 99
@@ -13110,7 +13110,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2669999.999902211,
+      "time": 2668000.00006333,
       "place": 67,
       "gender_place": 14,
       "points": 137
@@ -13122,7 +13122,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2673999.999894295,
+      "time": 2669999.999902211,
       "place": 68,
       "gender_place": 15,
       "points": 136
@@ -13134,7 +13134,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2692999.999935273,
+      "time": 2673999.999894295,
       "place": 69,
       "gender_place": 53,
       "points": 98
@@ -13146,7 +13146,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2693999.9998547137,
+      "time": 2692999.999935273,
       "place": 70,
       "gender_place": 54,
       "points": 97
@@ -13158,7 +13158,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2697999.9998467974,
+      "time": 2693999.9998547137,
       "place": 71,
       "gender_place": 55,
       "points": 96
@@ -13170,7 +13170,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2724999.999871943,
+      "time": 2697999.9998467974,
       "place": 72,
       "gender_place": 56,
       "points": 95
@@ -13182,7 +13182,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2735000.000009313,
+      "time": 2724999.999871943,
       "place": 73,
       "gender_place": 16,
       "points": 135
@@ -13194,7 +13194,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2738000.0000819564,
+      "time": 2735000.000009313,
       "place": 74,
       "gender_place": 57,
       "points": 94
@@ -13206,7 +13206,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2741000.0001545995,
+      "time": 2738000.0000819564,
       "place": 75,
       "gender_place": 58,
       "points": 93
@@ -13218,7 +13218,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2746999.9999855645,
+      "time": 2741000.0001545995,
       "place": 76,
       "gender_place": 17,
       "points": 134
@@ -13230,7 +13230,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2747999.999905005,
+      "time": 2746999.9999855645,
       "place": 77,
       "gender_place": 18,
       "points": 133
@@ -13242,7 +13242,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2778000.000002794,
+      "time": 2747999.999905005,
       "place": 78,
       "gender_place": 19,
       "points": 132
@@ -13254,7 +13254,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": false,
-      "time": 2796000.0001243316,
+      "time": 2778000.000002794,
       "place": 79,
       "gender_place": 59,
       "points": 92
@@ -13794,7 +13794,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": true,
-      "time": 4668000.999877065,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 47,
       "points": 104
@@ -13806,7 +13806,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": true,
-      "time": 4668000.999877065,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 47,
       "points": 104
@@ -13818,7 +13818,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": true,
-      "time": 4668000.999877065,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 77,
       "points": 74
@@ -13830,7 +13830,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": true,
-      "time": 4668000.999877065,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 47,
       "points": 104
@@ -13842,7 +13842,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": true,
-      "time": 4668000.999877065,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 77,
       "points": 74
@@ -13854,7 +13854,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": true,
-      "time": 4668000.999877065,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 77,
       "points": 74
@@ -13866,7 +13866,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": true,
-      "time": 4668000.999877065,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 77,
       "points": 74
@@ -13878,7 +13878,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": true,
-      "time": 4668000.999877065,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 47,
       "points": 104
@@ -13890,7 +13890,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": true,
-      "time": 4668000.999877065,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 47,
       "points": 104
@@ -13902,7 +13902,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": true,
-      "time": 4668000.999877065,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 77,
       "points": 74
@@ -13914,7 +13914,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": true,
-      "time": 4668000.999877065,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 77,
       "points": 74
@@ -13926,7 +13926,7 @@
       "series": "Fall Series",
       "course": "Brown's Point",
       "volunteer": true,
-      "time": 4668000.999877065,
+      "time": "#REF!",
       "place": "VOL",
       "gender_place": 47,
       "points": 104
