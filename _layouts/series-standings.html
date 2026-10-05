@@ -29,7 +29,7 @@ layout: default-wide
 </div>	
 
 <div class="table-scroll-wrapper" style="max-width: 1000px; margin: 0 auto;">
-	<table id="seriesStandings" class="display" style="width:100%; max-width: 1000px; padding-top: 0;"></table>
+	<table id="seriesStandings" class="display" style="width:100%; padding-top: 0;"></table>
 </div>
 
 <div class="wrapper">
@@ -132,6 +132,22 @@ layout: default-wide
 		}
 
 	  // ----------------------------------
+	  // Overall Place (computed if missing)
+	  // ----------------------------------
+
+	  // Assigns 1..N by Total Points (desc), regardless of gender.
+	  // Ties are numbered sequentially, matching how gender Place is assigned.
+	  function addOverallPlace(data) {
+
+	    if (data.every(row => row["Overall Place"] != null)) return;
+
+	    data
+	      .slice()
+	      .sort((a, b) => (Number(b["Total Points"]) || 0) - (Number(a["Total Points"]) || 0))
+	      .forEach((row, i) => { row["Overall Place"] = i + 1; });
+	  }
+
+	  // ----------------------------------
 	  // Build Columns (fixed → dynamic)
 	  // ----------------------------------
 
@@ -146,6 +162,7 @@ layout: default-wide
 	    });
 
 	    const fixedColumns = [
+	      "Overall Place",
 	      "Gender",
 	      "Place",
 	      "Name",
@@ -162,8 +179,9 @@ layout: default-wide
 	    ];
 
 	    const headerMap = {
-			  "Gender": "GP",
-			  "Place": "P",
+			  "Overall Place": "P",
+			  "Gender": "G",
+			  "Place": "GP",
 			  "Name": "Name",
 			  "Total Points": "Total",
 			  "Bonus": "Bonus",
@@ -185,7 +203,7 @@ layout: default-wide
 
 	      if (key === "Name") col.className = 'dt-body-left';
 	      if (key === "Gender") col.className = 'dt-body-center';
-	      if (key === "Place") {
+	      if (key === "Place" || key === "Overall Place") {
 	        col.type = 'num';
 	        col.className = 'dt-body-center';
 	      }
@@ -345,9 +363,14 @@ layout: default-wide
 
 		    const printTitle = buildStandingsPrintTitle();
 
+		    addOverallPlace(data);
+		    const columns = buildColumns(data);
+		    const overallPlaceIndex = columns.findIndex(col => col.data === "Overall Place");
+		    const nameIndex = columns.findIndex(col => col.data === "Name");
+
 		    standingsTable = $(tableId).DataTable({
 		      data: data,
-		      columns: buildColumns(data),
+		      columns: columns,
 		      dom: '<"top-controls"lf>rt<"bottom"ipB>',
 		      buttons: [
 					  {
@@ -359,12 +382,12 @@ layout: default-wide
 					    }
 					  }
 					],
-		      order: [[3, 'desc']], // sort by most points, regardless of gender
+		      order: [[overallPlaceIndex, 'asc']], // overall place = most points, regardless of gender
 		      scrollX: true,
 				  scrollCollapse: true,
 				  pageLength: 100,
 				  fixedColumns: {
-				    leftColumns: 3
+				    leftColumns: nameIndex + 1 // freeze through Name
 				  }
 
 		    });
