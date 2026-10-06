@@ -105,6 +105,10 @@ Specifically:
 
 **Cutoffs:** Voyageur aid stations enforce cutoffs (with the exception of the water-only Hwy 210 aid station, which is uncrewed). Please see the [aid station chart](#aid-stations) for specific cutoff times. Runners must reach the finish in 14 hours, by 8:00 PM.
 
+**Drop policy:** If you are not continuing to the next aid station, don't go anywhere until you speak with a HAM radio operator. Talking with an aid station volunteer is \*not\* sufficient! We will initiate Search and Rescue operations if we believe one of our runners is missing; please do your part to ensure we know you are safely departing the race course. 
+
+**Remember:** Whether you drop out or miss a cutoff or finish the race, you're playing your part in making this race day special for everyone—runners, volunteers, and spectators. Not everyone gets the chance—or gives themselves the chance—to put themselves out there. You did. Be proud. Be kind. And as always, be yourself. 
+
 **Results:** Results are posted on [Ultrasignup](https://ultrasignup.com/register.aspx?did=114070){:target="_blank" rel="noopener noreferrer"} and [MTEC](https://www.mtecresults.com/event/show/4974/){:target="_blank" rel="noopener noreferrer"}.
 
 **Photos:** Photos are often uploaded to the [Voyageur Facebook page](https://www.facebook.com/minnesotavoyageur).
