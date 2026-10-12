@@ -220,22 +220,6 @@
     {
       "Place": 6,
       "Gender": "M",
-      "Name": "Aiden Van Straten",
-      "Total Points": 949,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 117,
-      "Hartley": 134,
-      "Brown's Point": 126,
-      "Rock Hill": 141,
-      "Pine Valley": 142,
-      "Rolling Stone": 145,
-      "Bull Run": 144,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 7,
-      "Gender": "M",
       "Name": "Matt Livingston",
       "Total Points": 927,
       "Bonus": 0,
@@ -263,6 +247,22 @@
       "Pine Valley": 126,
       "Rolling Stone": 131,
       "Bull Run": 126,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 7,
+      "Gender": "M",
+      "Name": "Adam Van Straten",
+      "Total Points": 912,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 122,
+      "Hartley": 119,
+      "Brown's Point": 126,
+      "Rock Hill": 131,
+      "Pine Valley": 135,
+      "Rolling Stone": 137,
+      "Bull Run": 142,
       "Hawk Ridge": 0
     },
     {
@@ -524,6 +524,22 @@
     {
       "Place": 15,
       "Gender": "M",
+      "Name": "Aiden Van Straten",
+      "Total Points": 823,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 117,
+      "Hartley": 134,
+      "Brown's Point": 0,
+      "Rock Hill": 141,
+      "Pine Valley": 142,
+      "Rolling Stone": 145,
+      "Bull Run": 144,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 16,
+      "Gender": "M",
       "Name": "Dave Lane",
       "Total Points": 821,
       "Bonus": 0,
@@ -538,7 +554,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 16,
+      "Place": 17,
       "Gender": "M",
       "Name": "Dave Schaeffer",
       "Total Points": 818,
@@ -554,7 +570,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 17,
+      "Place": 18,
       "Gender": "M",
       "Name": "Jack Harvey",
       "Total Points": 817,
@@ -570,7 +586,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 18,
+      "Place": 19,
       "Gender": "M",
       "Name": "Marcus Taintor",
       "Total Points": 801,
@@ -583,22 +599,6 @@
       "Pine Valley": 98,
       "Rolling Stone": 113,
       "Bull Run": 119,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 19,
-      "Gender": "M",
-      "Name": "Adam Van Straten",
-      "Total Points": 786,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 122,
-      "Hartley": 119,
-      "Brown's Point": 0,
-      "Rock Hill": 131,
-      "Pine Valley": 135,
-      "Rolling Stone": 137,
-      "Bull Run": 142,
       "Hawk Ridge": 0
     },
     {
@@ -12784,7 +12784,7 @@
       "points": 127
     },
     {
-      "name": "Aiden Van Straten",
+      "name": "Adam Van Straten",
       "gender": "M",
       "date": "2026-09-16T05:00:00.000Z",
       "series": "Fall Series",
