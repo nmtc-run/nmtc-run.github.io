@@ -202,22 +202,6 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 6,
-      "Gender": "M",
-      "Name": "Aiden Van Straten",
-      "Total Points": 954,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 122,
-      "Hartley": 134,
-      "Brown's Point": 126,
-      "Rock Hill": 141,
-      "Pine Valley": 142,
-      "Rolling Stone": 145,
-      "Bull Run": 144,
-      "Hawk Ridge": 0
-    },
-    {
       "Place": 5,
       "Gender": "W",
       "Name": "Shannon Kelson",
@@ -231,6 +215,22 @@
       "Pine Valley": 129,
       "Rolling Stone": 137,
       "Bull Run": 130,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 6,
+      "Gender": "M",
+      "Name": "Aiden Van Straten",
+      "Total Points": 949,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 117,
+      "Hartley": 134,
+      "Brown's Point": 126,
+      "Rock Hill": 141,
+      "Pine Valley": 142,
+      "Rolling Stone": 145,
+      "Bull Run": 144,
       "Hawk Ridge": 0
     },
     {
@@ -589,10 +589,10 @@
       "Place": 19,
       "Gender": "M",
       "Name": "Adam Van Straten",
-      "Total Points": 781,
+      "Total Points": 786,
       "Bonus": 0,
       "Lester Park": 0,
-      "Zapp's Loop": 117,
+      "Zapp's Loop": 122,
       "Hartley": 119,
       "Brown's Point": 0,
       "Rock Hill": 131,
@@ -6108,22 +6108,6 @@
     {
       "Place": 231,
       "Gender": "M",
-      "Name": "Ron Hendrickson",
-      "Total Points": 54,
-      "Bonus": 0,
-      "Lester Park": 0,
-      "Zapp's Loop": 54,
-      "Hartley": 0,
-      "Brown's Point": 0,
-      "Rock Hill": 0,
-      "Pine Valley": 0,
-      "Rolling Stone": 0,
-      "Bull Run": 0,
-      "Hawk Ridge": 0
-    },
-    {
-      "Place": 232,
-      "Gender": "M",
       "Name": "Thomas Dehler",
       "Total Points": 54,
       "Bonus": 0,
@@ -6138,7 +6122,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 233,
+      "Place": 232,
       "Gender": "M",
       "Name": "Adam Swank",
       "Total Points": 53,
@@ -6154,7 +6138,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 234,
+      "Place": 233,
       "Gender": "M",
       "Name": "Nick Terwey",
       "Total Points": 52,
@@ -6170,7 +6154,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 235,
+      "Place": 234,
       "Gender": "M",
       "Name": "Josiah Burrell",
       "Total Points": 52,
@@ -6186,7 +6170,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 236,
+      "Place": 235,
       "Gender": "M",
       "Name": "Danny Jacobson",
       "Total Points": 50,
@@ -6202,7 +6186,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 237,
+      "Place": 236,
       "Gender": "M",
       "Name": "Jake Searl",
       "Total Points": 45,
@@ -6218,7 +6202,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 238,
+      "Place": 237,
       "Gender": "M",
       "Name": "Morty Harwood",
       "Total Points": 43,
@@ -6234,7 +6218,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 239,
+      "Place": 238,
       "Gender": "M",
       "Name": "Erik Huber",
       "Total Points": 41,
@@ -6250,7 +6234,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 240,
+      "Place": 239,
       "Gender": "M",
       "Name": "Hannah May",
       "Total Points": 39,
@@ -6266,7 +6250,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 241,
+      "Place": 240,
       "Gender": "M",
       "Name": "Calvin Kostner",
       "Total Points": 38,
@@ -6282,7 +6266,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 242,
+      "Place": 241,
       "Gender": "M",
       "Name": "Cyrus Sanborn",
       "Total Points": 36,
@@ -6298,7 +6282,7 @@
       "Hawk Ridge": 0
     },
     {
-      "Place": 243,
+      "Place": 242,
       "Gender": "M",
       "Name": "Patrick Donahue",
       "Total Points": 33,
@@ -6308,6 +6292,22 @@
       "Hartley": 0,
       "Brown's Point": 0,
       "Rock Hill": 33,
+      "Pine Valley": 0,
+      "Rolling Stone": 0,
+      "Bull Run": 0,
+      "Hawk Ridge": 0
+    },
+    {
+      "Place": 1,
+      "Gender": "",
+      "Name": "Ron Hendrickson",
+      "Total Points": 0,
+      "Bonus": 0,
+      "Lester Park": 0,
+      "Zapp's Loop": 0,
+      "Hartley": 0,
+      "Brown's Point": 0,
+      "Rock Hill": 0,
       "Pine Valley": 0,
       "Rolling Stone": 0,
       "Bull Run": 0,
@@ -8548,7 +8548,7 @@
       "points": 123
     },
     {
-      "name": "Aiden Van Straten",
+      "name": "Adam Van Straten",
       "gender": "M",
       "date": "2026-09-02T05:00:00.000Z",
       "series": "Fall Series",
@@ -8608,7 +8608,7 @@
       "points": 118
     },
     {
-      "name": "Adam Van Straten",
+      "name": "Aiden Van Straten",
       "gender": "M",
       "date": "2026-09-02T05:00:00.000Z",
       "series": "Fall Series",
@@ -8782,7 +8782,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 2881999.99987753,
+      "time": 2882000.000111293,
       "place": 53,
       "gender_place": 45,
       "points": 106
@@ -8794,7 +8794,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": "",
-      "time": 2882001.00011129,
+      "time": 2882000.9999675676,
       "place": 54,
       "gender_place": 46,
       "points": 105
@@ -10018,7 +10018,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241000.000142958,
+      "time": 6241001.000142958,
       "place": "VOL",
       "gender_place": 97,
       "points": 54
@@ -10030,7 +10030,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241000.000142958,
+      "time": 6241001.000142958,
       "place": "VOL",
       "gender_place": 59,
       "points": 92
@@ -10042,22 +10042,22 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241000.000142958,
+      "time": 6241001.000142958,
       "place": "VOL",
       "gender_place": 59,
       "points": 92
     },
     {
       "name": "Ron Hendrickson",
-      "gender": "M",
+      "gender": "",
       "date": "2026-09-02T05:00:00.000Z",
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241000.000142958,
+      "time": 6241001.000142958,
       "place": "VOL",
-      "gender_place": 97,
-      "points": 54
+      "gender_place": 0,
+      "points": 0
     },
     {
       "name": "Jarrow Wahman",
@@ -10066,7 +10066,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241000.000142958,
+      "time": 6241001.000142958,
       "place": "VOL",
       "gender_place": 97,
       "points": 54
@@ -10078,7 +10078,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241000.000142958,
+      "time": 6241001.000142958,
       "place": "VOL",
       "gender_place": 97,
       "points": 54
@@ -10090,7 +10090,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241000.000142958,
+      "time": 6241001.000142958,
       "place": "VOL",
       "gender_place": 59,
       "points": 92
@@ -10102,7 +10102,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241000.000142958,
+      "time": 6241001.000142958,
       "place": "VOL",
       "gender_place": 97,
       "points": 54
@@ -10114,7 +10114,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241000.000142958,
+      "time": 6241001.000142958,
       "place": "VOL",
       "gender_place": 59,
       "points": 92
@@ -10126,7 +10126,7 @@
       "series": "Fall Series",
       "course": "Zapp's Loop",
       "volunteer": true,
-      "time": 6241000.000142958,
+      "time": 6241001.000142958,
       "place": "VOL",
       "gender_place": 97,
       "points": 54
